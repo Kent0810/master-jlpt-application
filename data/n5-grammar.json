@@ -1,0 +1,146 @@
+[
+  {
+    "id": "grammar_wa",
+    "title": "は (topic marker)",
+    "meaning": "Marks the topic of the sentence — 'as for X'.",
+    "structure": "[Topic] は [comment]",
+    "examples": [
+      { "jp": "わたしは学生です。", "reading": "わたしはがくせいです。", "en": "I am a student." }
+    ]
+  },
+  {
+    "id": "grammar_ga",
+    "title": "が (subject marker)",
+    "meaning": "Marks the grammatical subject, often new information.",
+    "structure": "[Subject] が [predicate]",
+    "examples": [
+      { "jp": "猫がいます。", "reading": "ねこがいます。", "en": "There is a cat." }
+    ]
+  },
+  {
+    "id": "grammar_wo",
+    "title": "を (object marker)",
+    "meaning": "Marks the direct object of a verb.",
+    "structure": "[Object] を [verb]",
+    "examples": [
+      { "jp": "ご飯を食べます。", "reading": "ごはんをたべます。", "en": "I eat rice." }
+    ]
+  },
+  {
+    "id": "grammar_ni",
+    "title": "に (to / at / in)",
+    "meaning": "Indicates a destination, time, or location of existence.",
+    "structure": "[Place/Time] に [verb]",
+    "examples": [
+      { "jp": "七時に起きます。", "reading": "しちじにおきます。", "en": "I get up at seven." }
+    ]
+  },
+  {
+    "id": "grammar_de",
+    "title": "で (by means of / at)",
+    "meaning": "Marks the location of an action or the means used.",
+    "structure": "[Place/Means] で [verb]",
+    "examples": [
+      { "jp": "電車で行きます。", "reading": "でんしゃでいきます。", "en": "I go by train." }
+    ]
+  },
+  {
+    "id": "grammar_e",
+    "title": "へ (direction)",
+    "meaning": "Indicates the direction of movement (pronounced 'e').",
+    "structure": "[Place] へ [movement verb]",
+    "examples": [
+      { "jp": "学校へ行きます。", "reading": "がっこうへいきます。", "en": "I go to school." }
+    ]
+  },
+  {
+    "id": "grammar_no",
+    "title": "の (possessive / linking)",
+    "meaning": "Links two nouns; shows possession or attribute.",
+    "structure": "[Noun] の [Noun]",
+    "examples": [
+      { "jp": "わたしの本です。", "reading": "わたしのほんです。", "en": "It is my book." }
+    ]
+  },
+  {
+    "id": "grammar_ka",
+    "title": "か (question marker)",
+    "meaning": "Turns a statement into a question.",
+    "structure": "[Sentence] か",
+    "examples": [
+      { "jp": "学生ですか。", "reading": "がくせいですか。", "en": "Are you a student?" }
+    ]
+  },
+  {
+    "id": "grammar_mo",
+    "title": "も (also / too)",
+    "meaning": "Means 'also' or 'too'; replaces は/が/を.",
+    "structure": "[Noun] も",
+    "examples": [
+      { "jp": "わたしも行きます。", "reading": "わたしもいきます。", "en": "I will go too." }
+    ]
+  },
+  {
+    "id": "grammar_mashita",
+    "title": "～ました / ～ませんでした (polite past)",
+    "meaning": "Polite past affirmative and negative of verbs.",
+    "structure": "[Verb-stem] ました / ませんでした",
+    "examples": [
+      { "jp": "映画を見ました。", "reading": "えいがをみました。", "en": "I watched a movie." }
+    ]
+  },
+  {
+    "id": "grammar_masen",
+    "title": "～ません (polite negative)",
+    "meaning": "Polite non-past negative form of a verb.",
+    "structure": "[Verb-stem] ません",
+    "examples": [
+      { "jp": "お酒を飲みません。", "reading": "おさけをのみません。", "en": "I do not drink alcohol." }
+    ]
+  },
+  {
+    "id": "grammar_tai",
+    "title": "～たい (want to)",
+    "meaning": "Expresses the speaker's desire to do something.",
+    "structure": "[Verb-stem] たいです",
+    "examples": [
+      { "jp": "日本へ行きたいです。", "reading": "にほんへいきたいです。", "en": "I want to go to Japan." }
+    ]
+  },
+  {
+    "id": "grammar_mashou",
+    "title": "～ましょう (let's)",
+    "meaning": "Invites or suggests doing something together.",
+    "structure": "[Verb-stem] ましょう",
+    "examples": [
+      { "jp": "一緒に食べましょう。", "reading": "いっしょにたべましょう。", "en": "Let's eat together." }
+    ]
+  },
+  {
+    "id": "grammar_kara",
+    "title": "から (from / because)",
+    "meaning": "Indicates a starting point or a reason.",
+    "structure": "[Point/Reason] から",
+    "examples": [
+      { "jp": "九時から働きます。", "reading": "くじからはたらきます。", "en": "I work from nine o'clock." }
+    ]
+  },
+  {
+    "id": "grammar_made",
+    "title": "まで (until / to)",
+    "meaning": "Indicates an end point in time or space.",
+    "structure": "[Point] まで",
+    "examples": [
+      { "jp": "五時まで勉強します。", "reading": "ごじまでべんきょうします。", "en": "I study until five." }
+    ]
+  },
+  {
+    "id": "grammar_to",
+    "title": "と (and / with)",
+    "meaning": "Joins nouns exhaustively, or means 'together with'.",
+    "structure": "[Noun] と [Noun]",
+    "examples": [
+      { "jp": "友達と話します。", "reading": "ともだちとはなします。", "en": "I talk with a friend." }
+    ]
+  }
+]

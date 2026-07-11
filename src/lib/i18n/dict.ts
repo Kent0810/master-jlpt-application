@@ -6,7 +6,7 @@ export const VI: Record<string, string> = {
   Kanji: "Kanji",
   Vocab: "Từ vựng",
   Write: "Viết",
-  Study: "Học",
+  Practice: "Luyện tập",
   Quiz: "Kiểm tra",
   Settings: "Cài đặt",
 
@@ -27,7 +27,7 @@ export const VI: Record<string, string> = {
   Studied: "Đã học",
   "Day streak": "Ngày liên tiếp",
   "Accuracy so far": "Độ chính xác đến nay",
-  "Continue studying": "Tiếp tục học",
+  "Continue practicing": "Tiếp tục luyện tập",
   "Flashcards, ready when you are": "Thẻ ghi nhớ, sẵn sàng khi bạn cần",
   Lessons: "Bài học",
   Grammar: "Ngữ pháp",
@@ -74,6 +74,9 @@ export const VI: Record<string, string> = {
   // Lessons
   "Grammar and vocabulary organised like Minna no Nihongo Shokyū Ⅰ, lessons 1–25.":
     "Ngữ pháp và từ vựng sắp xếp theo Minna no Nihongo Sơ cấp Ⅰ, bài 1–25.",
+  "Available now": "Đang có",
+  "Coming soon": "Sắp ra mắt",
+  "Lessons for this level are on the way.": "Bài học cho cấp độ này sắp ra mắt.",
   words: "từ",
   grammar: "ngữ pháp",
   "No grammar points for this lesson.": "Chưa có điểm ngữ pháp cho bài này.",

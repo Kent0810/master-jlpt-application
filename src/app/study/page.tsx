@@ -94,7 +94,7 @@ export default function StudyPage() {
 
   return (
     <div className="space-y-4">
-      <h1 className="text-2xl font-bold">Study</h1>
+      <h1 className="text-2xl font-bold">Practice</h1>
       <p className="text-slate-500">
         Spaced-repetition flashcards. Pick a deck to review what&apos;s due.
       </p>

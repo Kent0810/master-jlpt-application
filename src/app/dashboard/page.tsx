@@ -112,7 +112,7 @@ export default function HomePage() {
           🗂️
         </span>
         <span className="min-w-0 flex-1">
-          <span className="block font-semibold">{t("Continue studying")}</span>
+          <span className="block font-semibold">{t("Continue practicing")}</span>
           <span className="block text-sm text-white/85">
             {accuracyPct !== null
               ? `${t("Accuracy so far")}: ${accuracyPct}%`
@@ -124,23 +124,51 @@ export default function HomePage() {
         </span>
       </Link>
 
-      <Link
-        href="/lists"
-        className="group flex items-center gap-4 rounded-3xl border border-black/10 p-5 shadow-sm transition-all hover:-translate-y-0.5 hover:border-brand hover:shadow-md dark:border-white/10"
-      >
-        <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-amber-400/15 text-2xl transition-transform group-hover:scale-110">
-          ⭐
-        </span>
-        <span className="min-w-0 flex-1">
-          <span className="block font-semibold">{t("Lists")}</span>
-          <span className="block text-sm text-slate-500">
-            {t("Custom decks")}
-          </span>
-        </span>
-        <span className="text-brand transition-transform group-hover:translate-x-0.5">
-          →
-        </span>
-      </Link>
+      <section className="grid grid-cols-2 gap-3">
+        <DashboardTile
+          href="/lessons"
+          icon="📚"
+          title={t("Lessons")}
+          desc={t("Minna-style 1–25")}
+          accent="bg-brand/10 text-brand dark:bg-brand/20"
+        />
+        <DashboardTile
+          href="/lists"
+          icon="⭐"
+          title={t("Lists")}
+          desc={t("Custom decks")}
+          accent="bg-amber-400/15 dark:bg-amber-400/20"
+        />
+      </section>
     </div>
+  );
+}
+
+function DashboardTile({
+  href,
+  icon,
+  title,
+  desc,
+  accent,
+}: {
+  href: string;
+  icon: string;
+  title: string;
+  desc: string;
+  accent: string;
+}) {
+  return (
+    <Link
+      href={href}
+      className="group flex flex-col gap-2 rounded-3xl border border-black/10 p-5 shadow-sm transition-all hover:-translate-y-0.5 hover:border-brand hover:shadow-md dark:border-white/10"
+    >
+      <span
+        className={`flex h-11 w-11 items-center justify-center rounded-2xl text-xl transition-transform group-hover:scale-110 ${accent}`}
+      >
+        {icon}
+      </span>
+      <span className="font-semibold">{title}</span>
+      <span className="text-xs text-slate-500">{desc}</span>
+    </Link>
   );
 }

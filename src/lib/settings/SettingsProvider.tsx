@@ -10,18 +10,22 @@ import {
 import { resolveTheme, type ThemePref, type ResolvedTheme } from "./theme";
 import type { JlptLevel } from "@/lib/data/types";
 
+export type Language = "vi" | "en";
+
 export interface Settings {
   showFurigana: boolean;
   showRomaji: boolean;
   theme: ThemePref;
   level: JlptLevel;
+  language: Language;
 }
 
 const DEFAULTS: Settings = {
   showFurigana: true,
   showRomaji: true,
-  theme: "system",
+  theme: "light",
   level: "N5",
+  language: "vi",
 };
 const STORAGE_KEY = "n5.settings";
 
@@ -31,6 +35,7 @@ interface SettingsContextValue extends Settings {
   toggleRomaji: () => void;
   setTheme: (theme: ThemePref) => void;
   setLevel: (level: JlptLevel) => void;
+  setLanguage: (language: Language) => void;
 }
 
 const SettingsContext = createContext<SettingsContextValue | null>(null);
@@ -77,6 +82,7 @@ export function SettingsProvider({ children }: { children: ReactNode }) {
     toggleRomaji: () => setSettings((s) => ({ ...s, showRomaji: !s.showRomaji })),
     setTheme: (theme) => setSettings((s) => ({ ...s, theme })),
     setLevel: (level) => setSettings((s) => ({ ...s, level })),
+    setLanguage: (language) => setSettings((s) => ({ ...s, language })),
   };
 
   return (

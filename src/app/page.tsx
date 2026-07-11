@@ -1,8 +1,14 @@
+"use client";
+
 import Link from "next/link";
-import { getKanji, getVocab } from "@/lib/data";
+import { getKanji, getVocab, getGrammar } from "@/lib/data";
+import { ThemeToggle } from "@/components/ThemeToggle";
+import { LanguageToggle } from "@/components/LanguageToggle";
+import { useT } from "@/lib/i18n";
 
 const KANJI = getKanji().length;
 const VOCAB = getVocab().length;
+const GRAMMAR_POINTS = getGrammar().length;
 
 const FEATURES = [
   {
@@ -38,9 +44,14 @@ const FEATURES = [
 ];
 
 export default function LandingPage() {
+  const t = useT();
   return (
     <div className="min-h-[100dvh]">
-      <section className="relative overflow-hidden bg-gradient-to-b from-brand to-brand-soft px-6 py-20 text-center text-white">
+      <section className="relative overflow-hidden bg-gradient-to-b from-brand to-brand-soft px-6 py-20 text-center text-white dark:from-rose-900 dark:to-slate-950">
+        <div className="absolute right-4 top-4 z-10 flex items-center gap-2">
+          <LanguageToggle onDark />
+          <ThemeToggle />
+        </div>
         <div
           aria-hidden
           className="pointer-events-none absolute inset-0 select-none font-jp text-[40vw] leading-none opacity-10"
@@ -53,33 +64,34 @@ export default function LandingPage() {
           </p>
           <h1 className="font-jp text-5xl font-bold sm:text-6xl">N5 道場</h1>
           <p className="text-lg text-white/90">
-            Master every kanji and word for the JLPT N5 — with furigana, audio,
-            flashcards, quizzes, and stroke-order practice. Free, offline, no
-            account.
+            {t(
+              "Master every kanji and word for the JLPT N5 — with furigana, audio, flashcards, quizzes, and stroke-order practice. Free, offline, no account.",
+            )}
           </p>
           <div className="flex flex-col items-center justify-center gap-3 pt-2 sm:flex-row">
             <Link
               href="/dashboard"
               className="w-full rounded-2xl bg-white px-8 py-3 font-semibold text-brand shadow-lg transition-transform hover:scale-[1.02] sm:w-auto"
             >
-              Start learning →
+              {t("Start learning →")}
             </Link>
             <Link
               href="/kanji"
               className="w-full rounded-2xl border border-white/60 px-8 py-3 font-semibold text-white transition-colors hover:bg-white/10 sm:w-auto"
             >
-              Browse kanji
+              {t("Browse kanji")}
             </Link>
           </div>
           <p className="pt-2 text-sm text-white/80">
-            {KANJI} kanji · {VOCAB} words · 16 grammar points
+            {KANJI} kanji · {VOCAB} {t("words")} · {GRAMMAR_POINTS}{" "}
+            {t("grammar points")}
           </p>
         </div>
       </section>
 
       <section className="mx-auto max-w-4xl px-6 py-16">
         <h2 className="mb-8 text-center text-2xl font-bold">
-          Everything you need to pass N5
+          {t("Everything you need to pass N5")}
         </h2>
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {FEATURES.map((f) => (
@@ -88,8 +100,8 @@ export default function LandingPage() {
               className="rounded-2xl border border-black/10 p-5 dark:border-white/10"
             >
               <div className="font-jp text-3xl">{f.emoji}</div>
-              <h3 className="mt-2 font-semibold">{f.title}</h3>
-              <p className="mt-1 text-sm text-slate-500">{f.desc}</p>
+              <h3 className="mt-2 font-semibold">{t(f.title)}</h3>
+              <p className="mt-1 text-sm text-slate-500">{t(f.desc)}</p>
             </div>
           ))}
         </div>
@@ -97,9 +109,9 @@ export default function LandingPage() {
 
       <section className="mx-auto max-w-4xl px-6 pb-16">
         <div className="rounded-3xl border border-black/10 p-8 text-center dark:border-white/10">
-          <h2 className="text-xl font-bold">Start with N5 today</h2>
+          <h2 className="text-xl font-bold">{t("Start with N5 today")}</h2>
           <p className="mx-auto mt-2 max-w-md text-sm text-slate-500">
-            N5 is fully available now. N4, N3, and N2 are on the way.
+            {t("N5 is fully available now. N4, N3, and N2 are on the way.")}
           </p>
           <div className="mx-auto mt-5 flex max-w-md justify-center gap-2">
             <span className="rounded-full bg-brand px-4 py-1.5 text-sm font-semibold text-white">
@@ -118,14 +130,15 @@ export default function LandingPage() {
             href="/dashboard"
             className="mt-8 inline-block rounded-2xl bg-brand px-8 py-3 font-semibold text-white transition-transform hover:scale-[1.02]"
           >
-            Enter the dojo →
+            {t("Enter the dojo →")}
           </Link>
         </div>
       </section>
 
       <footer className="border-t border-black/5 px-6 py-8 text-center text-xs text-slate-400 dark:border-white/5">
-        Built for self-study. Data from KANJIDIC, Tanos &amp; KanjiVG — see
-        attribution in the repo.
+        {t(
+          "Built for self-study. Data from KANJIDIC, Tanos & KanjiVG — see attribution in the repo.",
+        )}
       </footer>
     </div>
   );

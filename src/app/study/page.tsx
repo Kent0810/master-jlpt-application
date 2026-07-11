@@ -6,6 +6,7 @@ import { buildQueue, type DeckKind, type StudyItem } from "@/lib/study/deck";
 import { getStarredIds, reviewItem } from "@/lib/db/db";
 import { useStudyLists } from "@/lib/db/hooks";
 import { Flashcard } from "@/components/Flashcard";
+import { StudyQuizTabs } from "@/components/StudyQuizTabs";
 import type { Grade } from "@/lib/srs/sm2";
 
 type Phase = "pick" | "studying" | "done";
@@ -97,6 +98,9 @@ export default function StudyPage() {
       <p className="text-slate-500">
         Spaced-repetition flashcards. Pick a deck to review what&apos;s due.
       </p>
+
+      <StudyQuizTabs />
+
       <div className="grid grid-cols-2 gap-3">
         {DECKS.map((d) => (
           <button

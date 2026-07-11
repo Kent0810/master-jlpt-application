@@ -23,6 +23,14 @@ export function getGrammar(): Grammar[] {
   return grammar;
 }
 
+export function getGrammarByLesson(lesson: number): Grammar[] {
+  return grammar.filter((g) => g.lesson === lesson);
+}
+
+export function getVocabByLesson(lesson: number): Vocabulary[] {
+  return vocab.filter((v) => v.mnnLesson === lesson);
+}
+
 export function getKanjiById(id: string): Kanji | undefined {
   return kanjiById.get(id);
 }

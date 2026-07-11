@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300" role="img">
+  <rect x="0" y="0" width="400" height="300" rx="24" fill="#EFF6FF"/>
+  <circle cx="120" cy="137" r="22.5" fill="#3B82F6" stroke="none" stroke-width="6"/><path d="M 88.5 245
+    L 88.5 192.5
+    Q 88.5 168.5 112.5 168.5
+    L 127.5 168.5
+    Q 151.5 168.5 151.5 192.5
+    L 151.5 245 Z" fill="#3B82F6" stroke="none" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="280" cy="137" r="22.5" fill="#F59E0B" stroke="none" stroke-width="6"/><path d="M 248.5 245
+    L 248.5 192.5
+    Q 248.5 168.5 272.5 168.5
+    L 287.5 168.5
+    Q 311.5 168.5 311.5 192.5
+    L 311.5 245 Z" fill="#F59E0B" stroke="none" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><rect x="150" y="60" width="100" height="52" rx="14" fill="#fff" stroke="#334155" stroke-width="5"/><path d="M 170 112 L 162 128 L 186 112 Z" fill="#fff" stroke="#334155" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="175" cy="86" r="5" fill="#334155" stroke="none" stroke-width="6"/><circle cx="200" cy="86" r="5" fill="#334155" stroke="none" stroke-width="6"/><circle cx="225" cy="86" r="5" fill="#334155" stroke="none" stroke-width="6"/>
+</svg>

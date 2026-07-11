@@ -59,6 +59,10 @@ export default function WriteKanjiPage() {
         <h2 className="text-sm font-semibold uppercase tracking-wide text-slate-500">
           Now trace it yourself
         </h2>
+        <p className="text-sm text-slate-500">
+          Use a finger, mouse, or Apple Pencil. On iPad, turn on “Pen only” to
+          rest your palm while you write — Pencil strokes get real pressure.
+        </p>
         {strokes ? (
           <WritingCanvas strokes={strokes.strokes} viewBox={strokes.viewBox} />
         ) : (

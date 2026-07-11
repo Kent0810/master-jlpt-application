@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { KanjiWriteTabs } from "@/components/KanjiWriteTabs";
 
 const STAGES = [
   {
@@ -31,6 +32,8 @@ export default function WriteHome() {
           writing real kanji stroke by stroke.
         </p>
       </header>
+
+      <KanjiWriteTabs />
 
       <ol className="space-y-3">
         {STAGES.map((s) => (

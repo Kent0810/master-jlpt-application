@@ -4,6 +4,8 @@ import Link from "next/link";
 import { useSettings } from "@/lib/settings/SettingsProvider";
 import type { ThemePref } from "@/lib/settings/theme";
 import { LevelSelector } from "@/components/LevelSelector";
+import { LanguageToggle } from "@/components/LanguageToggle";
+import { useT } from "@/lib/i18n";
 
 const THEMES: { value: ThemePref; label: string }[] = [
   { value: "system", label: "Auto" },
@@ -40,43 +42,45 @@ export default function SettingsPage() {
     toggleRomaji,
     setTheme,
   } = useSettings();
+  const t = useT();
 
   return (
     <div className="space-y-5">
       <Link href="/dashboard" className="text-sm text-brand">
-        ← Home
+        {t("← Home")}
       </Link>
-      <h1 className="text-2xl font-bold">Settings</h1>
+      <h1 className="text-2xl font-bold">{t("Settings")}</h1>
 
       <section className="space-y-3">
-        <Row title="Theme" desc="Light, dark, or follow your device.">
+        <Row title={t("Language")} desc={t("Interface and word meanings.")}>
+          <LanguageToggle />
+        </Row>
+
+        <Row title={t("Theme")} desc={t("Light, dark, or follow your device.")}>
           <div className="inline-flex overflow-hidden rounded-full border border-black/15 dark:border-white/15">
-            {THEMES.map((t) => (
+            {THEMES.map((opt) => (
               <button
-                key={t.value}
+                key={opt.value}
                 type="button"
-                onClick={() => setTheme(t.value)}
-                aria-pressed={theme === t.value}
+                onClick={() => setTheme(opt.value)}
+                aria-pressed={theme === opt.value}
                 className={`px-3 py-1.5 text-xs font-medium transition-colors ${
-                  theme === t.value
+                  theme === opt.value
                     ? "bg-brand text-white"
                     : "text-slate-500 hover:text-slate-700 dark:hover:text-slate-300"
                 }`}
               >
-                {t.label}
+                {t(opt.label)}
               </button>
             ))}
           </div>
         </Row>
 
-        <Row
-          title="Furigana"
-          desc="Show kana readings above kanji."
-        >
+        <Row title={t("Furigana")} desc={t("Show kana readings above kanji.")}>
           <Switch on={showFurigana} onClick={toggleFurigana} label="Furigana" />
         </Row>
 
-        <Row title="Romaji" desc="Show Latin-alphabet readings.">
+        <Row title={t("Romaji")} desc={t("Show Latin-alphabet readings.")}>
           <Switch on={showRomaji} onClick={toggleRomaji} label="Romaji" />
         </Row>
       </section>
@@ -118,13 +122,13 @@ function Switch({
       role="switch"
       aria-checked={on}
       aria-label={label}
-      className={`relative h-7 w-12 rounded-full transition-colors ${
+      className={`inline-flex h-7 w-12 items-center rounded-full transition-colors ${
         on ? "bg-brand" : "bg-black/15 dark:bg-white/20"
       }`}
     >
       <span
-        className={`absolute top-0.5 h-6 w-6 rounded-full bg-white shadow transition-transform ${
-          on ? "translate-x-5" : "translate-x-0.5"
+        className={`h-6 w-6 rounded-full bg-white shadow transition-transform ${
+          on ? "translate-x-[22px]" : "translate-x-0.5"
         }`}
       />
     </button>

@@ -1,5 +1,5 @@
-const CACHE = "n5-dojo-v1";
-const SHELL = ["/", "/dashboard", "/kanji", "/vocab", "/write", "/write/basics", "/write/rules", "/write/practice", "/study", "/quiz", "/grammar", "/settings", "/manifest.webmanifest", "/icon.svg"];
+const CACHE = "n5-dojo-v3";
+const SHELL = ["/", "/dashboard", "/kanji", "/write", "/write/basics", "/write/rules", "/write/practice", "/study", "/quiz", "/grammar", "/lessons", "/lists", "/settings", "/manifest.webmanifest", "/icon.svg"];
 
 self.addEventListener("install", (event) => {
   event.waitUntil(
@@ -55,16 +55,16 @@ self.addEventListener("fetch", (event) => {
     return;
   }
 
+  // Network-first for same-origin assets: always load the freshest build when
+  // online, falling back to cache only when offline. (Cache-first here caused
+  // stale JS bundles to be served indefinitely after a rebuild.)
   event.respondWith(
-    caches.match(request).then((cached) => {
-      const network = fetch(request)
-        .then((res) => {
-          const copy = res.clone();
-          caches.open(CACHE).then((c) => c.put(request, copy));
-          return res;
-        })
-        .catch(() => cached);
-      return cached || network;
-    }),
+    fetch(request)
+      .then((res) => {
+        const copy = res.clone();
+        caches.open(CACHE).then((c) => c.put(request, copy));
+        return res;
+      })
+      .catch(() => caches.match(request)),
   );
 });

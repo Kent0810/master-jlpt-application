@@ -50,26 +50,33 @@ export class WebSpeechPlayer implements AudioPlayer {
   }
 }
 
+let webSpeech: WebSpeechPlayer | null = null;
+
+function getWebSpeech(): WebSpeechPlayer {
+  return (webSpeech ??= new WebSpeechPlayer());
+}
+
 export class ClipPlayer implements AudioPlayer {
   isAvailable(): boolean {
     return typeof Audio !== "undefined";
   }
 
-  play(_text: string, audioUrl?: string | null): Promise<void> {
+  play(text: string, audioUrl?: string | null): Promise<void> {
+    if (!audioUrl || typeof Audio === "undefined") {
+      return getWebSpeech().play(text);
+    }
     return new Promise((resolve) => {
-      if (!audioUrl || typeof Audio === "undefined") {
-        resolve();
-        return;
-      }
       const audio = new Audio(audioUrl);
+      // Fall back to on-device speech if the clip can't load (offline, 403,
+      // not yet generated) so the button always makes a sound.
+      const fallback = () => getWebSpeech().play(text).then(resolve, resolve);
       audio.onended = () => resolve();
-      audio.onerror = () => resolve();
-      void audio.play().catch(() => resolve());
+      audio.onerror = fallback;
+      void audio.play().catch(fallback);
     });
   }
 }
 
-let webSpeech: WebSpeechPlayer | null = null;
 let clip: ClipPlayer | null = null;
 
 export function getPlayer(audioUrl?: string | null): AudioPlayer {
@@ -77,6 +84,5 @@ export function getPlayer(audioUrl?: string | null): AudioPlayer {
     clip ??= new ClipPlayer();
     return clip;
   }
-  webSpeech ??= new WebSpeechPlayer();
-  return webSpeech;
+  return getWebSpeech();
 }

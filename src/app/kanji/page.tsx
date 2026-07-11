@@ -6,6 +6,8 @@ import { getKanji } from "@/lib/data";
 import { searchKanji } from "@/lib/search";
 import { useAllStudyStates } from "@/lib/db/hooks";
 import { StatusBadge } from "@/components/StatusBadge";
+import { KanjiWriteTabs } from "@/components/KanjiWriteTabs";
+import { useT, useLang, pickMeanings } from "@/lib/i18n";
 
 const ALL_KANJI = getKanji();
 const STROKE_BUCKETS = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] as const;
@@ -14,6 +16,8 @@ export default function KanjiListPage() {
   const [query, setQuery] = useState("");
   const [stroke, setStroke] = useState<number | null>(null);
   const states = useAllStudyStates();
+  const t = useT();
+  const lang = useLang();
 
   const results = useMemo(() => {
     let list = searchKanji(ALL_KANJI, query);
@@ -29,15 +33,19 @@ export default function KanjiListPage() {
   return (
     <div className="space-y-4">
       <header className="flex items-center justify-between">
-        <h1 className="text-2xl font-bold">Kanji</h1>
-        <span className="text-sm text-slate-500">{results.length} shown</span>
+        <h1 className="text-2xl font-bold">{t("Kanji")}</h1>
+        <span className="text-sm text-slate-500">
+          {results.length} {t("shown")}
+        </span>
       </header>
+
+      <KanjiWriteTabs />
 
       <input
         type="search"
         value={query}
         onChange={(e) => setQuery(e.target.value)}
-        placeholder="Search kanji, reading, or meaning…"
+        placeholder={t("Search by meaning, reading, or kanji…")}
         className="w-full rounded-xl border border-black/10 bg-transparent px-4 py-2 outline-none focus:border-brand dark:border-white/15"
       />
 
@@ -74,7 +82,7 @@ export default function KanjiListPage() {
               >
                 <span className="text-4xl font-jp leading-none">{k.character}</span>
                 <span className="line-clamp-1 text-xs text-slate-500">
-                  {k.meanings[0]}
+                  {pickMeanings(k, lang)[0]}
                 </span>
                 <StatusBadge status={status} />
               </Link>

@@ -21,6 +21,10 @@
       "vocab_一度",
       "vocab_一人で",
       "vocab_一度も"
+    ],
+    "meaningsVi": [
+      "một",
+      "một cấp tiến (số 1)"
     ]
   },
   {
@@ -42,6 +46,9 @@
     "kanjivgId": "04e03",
     "exampleVocabIds": [
       "vocab_「七人の侍」"
+    ],
+    "meaningsVi": [
+      "bảy"
     ]
   },
   {
@@ -61,7 +68,10 @@
     "strokeCount": 2,
     "jlptLevel": "N5",
     "kanjivgId": "04e5d",
-    "exampleVocabIds": []
+    "exampleVocabIds": [],
+    "meaningsVi": [
+      "chín"
+    ]
   },
   {
     "id": "kanji_二",
@@ -82,7 +92,11 @@
     "strokeCount": 2,
     "jlptLevel": "N5",
     "kanjivgId": "04e8c",
-    "exampleVocabIds": []
+    "exampleVocabIds": [],
+    "meaningsVi": [
+      "hai",
+      "hai gốc (số 7)"
+    ]
   },
   {
     "id": "kanji_人",
@@ -106,6 +120,9 @@
       "vocab_人",
       "vocab_－人",
       "vocab_１人"
+    ],
+    "meaningsVi": [
+      "người"
     ]
   },
   {
@@ -134,6 +151,10 @@
       "vocab_入れます",
       "vocab_押し入れ",
       "vocab_入ります"
+    ],
+    "meaningsVi": [
+      "nhập",
+      "chèn"
     ]
   },
   {
@@ -155,7 +176,11 @@
     "strokeCount": 2,
     "jlptLevel": "N5",
     "kanjivgId": "0516b",
-    "exampleVocabIds": []
+    "exampleVocabIds": [],
+    "meaningsVi": [
+      "tám",
+      "tám cấp tiến (số 12)"
+    ]
   },
   {
     "id": "kanji_十",
@@ -175,7 +200,10 @@
     "strokeCount": 2,
     "jlptLevel": "N5",
     "kanjivgId": "05341",
-    "exampleVocabIds": []
+    "exampleVocabIds": [],
+    "meaningsVi": [
+      "mười"
+    ]
   },
   {
     "id": "kanji_万",
@@ -197,6 +225,10 @@
     "exampleVocabIds": [
       "vocab_万",
       "vocab_万里の長城"
+    ],
+    "meaningsVi": [
+      "mười nghìn",
+      "10.000"
     ]
   },
   {
@@ -217,7 +249,10 @@
     "strokeCount": 3,
     "jlptLevel": "N5",
     "kanjivgId": "04e09",
-    "exampleVocabIds": []
+    "exampleVocabIds": [],
+    "meaningsVi": [
+      "ba"
+    ]
   },
   {
     "id": "kanji_上",
@@ -255,6 +290,10 @@
       "vocab_上",
       "vocab_上着",
       "vocab_上手"
+    ],
+    "meaningsVi": [
+      "ở trên",
+      "lên"
     ]
   },
   {
@@ -293,6 +332,14 @@
       "vocab_下",
       "vocab_地下",
       "vocab_下着"
+    ],
+    "meaningsVi": [
+      "bên dưới",
+      "xuống",
+      "đi xuống",
+      "cho",
+      "thấp",
+      "kém cỏi"
     ]
   },
   {
@@ -312,6 +359,9 @@
     "kanjivgId": "05343",
     "exampleVocabIds": [
       "vocab_千"
+    ],
+    "meaningsVi": [
+      "nghìn"
     ]
   },
   {
@@ -332,6 +382,9 @@
     "kanjivgId": "053e3",
     "exampleVocabIds": [
       "vocab_口"
+    ],
+    "meaningsVi": [
+      "miệng"
     ]
   },
   {
@@ -357,6 +410,12 @@
       "vocab_土曜日",
       "vocab_お土産",
       "vocab_土産"
+    ],
+    "meaningsVi": [
+      "đất",
+      "trái đất",
+      "mặt đất",
+      "gà tây"
     ]
   },
   {
@@ -382,6 +441,10 @@
       "vocab_大学",
       "vocab_新大阪",
       "vocab_大阪城"
+    ],
+    "meaningsVi": [
+      "lớn",
+      "lớn"
     ]
   },
   {
@@ -407,6 +470,10 @@
       "vocab_彼女",
       "vocab_女の子",
       "vocab_女の人"
+    ],
+    "meaningsVi": [
+      "người phụ nữ",
+      "nữ"
     ]
   },
   {
@@ -435,6 +502,12 @@
       "vocab_調子",
       "vocab_帽子",
       "vocab_甲子園"
+    ],
+    "meaningsVi": [
+      "đứa trẻ",
+      "dấu hiệu của chuột",
+      "11 giờ tối - 1 giờ sáng",
+      "cung hoàng đạo đầu tiên của trung quốc"
     ]
   },
   {
@@ -458,6 +531,10 @@
     "kanjivgId": "05c0f",
     "exampleVocabIds": [
       "vocab_小さい"
+    ],
+    "meaningsVi": [
+      "ít",
+      "nhỏ bé"
     ]
   },
   {
@@ -480,6 +557,9 @@
       "vocab_山",
       "vocab_富士山",
       "vocab_吉野山"
+    ],
+    "meaningsVi": [
+      "núi"
     ]
   },
   {
@@ -501,6 +581,11 @@
     "kanjivgId": "05ddd",
     "exampleVocabIds": [
       "vocab_川"
+    ],
+    "meaningsVi": [
+      "dòng suối",
+      "con sông",
+      "sông hoặc gốc sông ba thì (số 47)"
     ]
   },
   {
@@ -527,6 +612,13 @@
     "exampleVocabIds": [
       "vocab_中",
       "vocab_中国"
+    ],
+    "meaningsVi": [
+      "trong",
+      "bên trong",
+      "ở giữa",
+      "nghĩa là",
+      "trung tâm"
     ]
   },
   {
@@ -545,7 +637,10 @@
     "strokeCount": 4,
     "jlptLevel": "N5",
     "kanjivgId": "04e94",
-    "exampleVocabIds": []
+    "exampleVocabIds": [],
+    "meaningsVi": [
+      "năm"
+    ]
   },
   {
     "id": "kanji_今",
@@ -567,6 +662,9 @@
       "vocab_今",
       "vocab_今晩",
       "vocab_今月"
+    ],
+    "meaningsVi": [
+      "bây giờ"
     ]
   },
   {
@@ -588,7 +686,10 @@
     "strokeCount": 4,
     "jlptLevel": "N5",
     "kanjivgId": "0516d",
-    "exampleVocabIds": []
+    "exampleVocabIds": [],
+    "meaningsVi": [
+      "sáu"
+    ]
   },
   {
     "id": "kanji_円",
@@ -613,6 +714,11 @@
     "kanjivgId": "05186",
     "exampleVocabIds": [
       "vocab_－円"
+    ],
+    "meaningsVi": [
+      "vòng tròn",
+      "yên",
+      "tròn"
     ]
   },
   {
@@ -652,6 +758,21 @@
       "vocab_－分",
       "vocab_何分",
       "vocab_自分で"
+    ],
+    "meaningsVi": [
+      "một phần",
+      "phút giây",
+      "đoạn",
+      "chia sẻ",
+      "bằng cấp",
+      "một người rất nhiều",
+      "nghĩa vụ",
+      "hiểu",
+      "biết",
+      "tỷ lệ",
+      "1%",
+      "cơ hội",
+      "shaku/100"
     ]
   },
   {
@@ -675,6 +796,12 @@
     "exampleVocabIds": [
       "vocab_午後",
       "vocab_午前"
+    ],
+    "meaningsVi": [
+      "buổi trưa",
+      "dấu hiệu của con ngựa",
+      "11 giờ sáng - 1 giờ chiều",
+      "cung hoàng đạo thứ bảy của trung quốc"
     ]
   },
   {
@@ -695,6 +822,9 @@
     "exampleVocabIds": [
       "vocab_友達",
       "vocab_会います"
+    ],
+    "meaningsVi": [
+      "người bạn"
     ]
   },
   {
@@ -720,6 +850,11 @@
       "vocab_天気",
       "vocab_天才",
       "vocab_天神祭"
+    ],
+    "meaningsVi": [
+      "thiên đường",
+      "bầu trời",
+      "đế quốc"
     ]
   },
   {
@@ -743,6 +878,10 @@
       "vocab_少し",
       "vocab_もう少し",
       "vocab_少ない"
+    ],
+    "meaningsVi": [
+      "ít",
+      "ít"
     ]
   },
   {
@@ -768,6 +907,9 @@
       "vocab_手",
       "vocab_手紙",
       "vocab_切手"
+    ],
+    "meaningsVi": [
+      "tay"
     ]
   },
   {
@@ -795,6 +937,12 @@
       "vocab_日",
       "vocab_日本",
       "vocab_毎日"
+    ],
+    "meaningsVi": [
+      "ngày",
+      "mặt trời",
+      "nhật bản",
+      "truy cập trong ngày"
     ]
   },
   {
@@ -818,6 +966,10 @@
       "vocab_月",
       "vocab_－月",
       "vocab_今月"
+    ],
+    "meaningsVi": [
+      "tháng",
+      "mặt trăng"
     ]
   },
   {
@@ -841,6 +993,10 @@
     "exampleVocabIds": [
       "vocab_木",
       "vocab_木曜日"
+    ],
+    "meaningsVi": [
+      "cây",
+      "gỗ"
     ]
   },
   {
@@ -862,6 +1018,9 @@
     "exampleVocabIds": [
       "vocab_水",
       "vocab_水曜日"
+    ],
+    "meaningsVi": [
+      "nước"
     ]
   },
   {
@@ -883,6 +1042,9 @@
     "kanjivgId": "0706b",
     "exampleVocabIds": [
       "vocab_火曜日"
+    ],
+    "meaningsVi": [
+      "ngọn lửa"
     ]
   },
   {
@@ -903,6 +1065,9 @@
     "exampleVocabIds": [
       "vocab_父",
       "vocab_お父さん"
+    ],
+    "meaningsVi": [
+      "cha"
     ]
   },
   {
@@ -935,6 +1100,14 @@
       "vocab_出張します",
       "vocab_出かけます",
       "vocab_思い出します"
+    ],
+    "meaningsVi": [
+      "lối ra",
+      "rời đi",
+      "đi ra ngoài",
+      "đi ra",
+      "đưa ra",
+      "nhô ra"
     ]
   },
   {
@@ -954,6 +1127,9 @@
     "kanjivgId": "05317",
     "exampleVocabIds": [
       "vocab_葛飾北斎"
+    ],
+    "meaningsVi": [
+      "phía bắc"
     ]
   },
   {
@@ -977,6 +1153,13 @@
     "kanjivgId": "0534a",
     "exampleVocabIds": [
       "vocab_半"
+    ],
+    "meaningsVi": [
+      "một nửa",
+      "ở giữa",
+      "số lẻ",
+      "bán",
+      "một phần-"
     ]
   },
   {
@@ -998,6 +1181,9 @@
     "kanjivgId": "053e4",
     "exampleVocabIds": [
       "vocab_古い"
+    ],
+    "meaningsVi": [
+      "cũ"
     ]
   },
   {
@@ -1020,6 +1206,9 @@
       "vocab_右",
       "vocab_曲がります",
       "vocab_信号を右へ曲がってください。"
+    ],
+    "meaningsVi": [
+      "đúng"
     ]
   },
   {
@@ -1040,7 +1229,10 @@
     "strokeCount": 5,
     "jlptLevel": "N5",
     "kanjivgId": "056db",
-    "exampleVocabIds": []
+    "exampleVocabIds": [],
+    "meaningsVi": [
+      "bốn"
+    ]
   },
   {
     "id": "kanji_外",
@@ -1066,6 +1258,9 @@
       "vocab_外",
       "vocab_外国",
       "vocab_外国人登録証"
+    ],
+    "meaningsVi": [
+      "bên ngoài"
     ]
   },
   {
@@ -1086,6 +1281,9 @@
     "kanjivgId": "05de6",
     "exampleVocabIds": [
       "vocab_左"
+    ],
+    "meaningsVi": [
+      "trái"
     ]
   },
   {
@@ -1113,6 +1311,15 @@
       "vocab_本",
       "vocab_日本",
       "vocab_本屋"
+    ],
+    "meaningsVi": [
+      "cuốn sách",
+      "hiện tại",
+      "chính",
+      "nguồn gốc",
+      "đúng",
+      "thực",
+      "quầy cho những thứ hình trụ dài"
     ]
   },
   {
@@ -1135,6 +1342,9 @@
       "vocab_母",
       "vocab_お母さん",
       "vocab_母の日"
+    ],
+    "meaningsVi": [
+      "mẹ"
     ]
   },
   {
@@ -1176,6 +1386,11 @@
       "vocab_学生",
       "vocab_先生",
       "vocab_生活"
+    ],
+    "meaningsVi": [
+      "cuộc sống",
+      "chính hãng",
+      "sinh"
     ]
   },
   {
@@ -1199,6 +1414,9 @@
     "exampleVocabIds": [
       "vocab_白い",
       "vocab_レジャー白書"
+    ],
+    "meaningsVi": [
+      "trắng"
     ]
   },
   {
@@ -1229,6 +1447,15 @@
       "vocab_目",
       "vocab_－目",
       "vocab_－段目"
+    ],
+    "meaningsVi": [
+      "mắt",
+      "lớp học",
+      "nhìn",
+      "cái nhìn sâu sắc",
+      "kinh nghiệm",
+      "quan tâm",
+      "ủng hộ"
     ]
   },
   {
@@ -1263,6 +1490,12 @@
     "exampleVocabIds": [
       "vocab_立ちます",
       "vocab_役に立ちます"
+    ],
+    "meaningsVi": [
+      "đứng lên",
+      "tăng lên",
+      "thiết lập",
+      "dựng lên"
     ]
   },
   {
@@ -1289,6 +1522,12 @@
       "vocab_休み",
       "vocab_昼休み",
       "vocab_休みます"
+    ],
+    "meaningsVi": [
+      "nghỉ ngơi",
+      "ngày nghỉ",
+      "nghỉ hưu",
+      "ngủ"
     ]
   },
   {
@@ -1318,6 +1557,14 @@
       "vocab_会社",
       "vocab_会議",
       "vocab_会社員"
+    ],
+    "meaningsVi": [
+      "cuộc họp",
+      "gặp gỡ",
+      "bữa tiệc",
+      "hiệp hội",
+      "phỏng vấn",
+      "tham gia"
     ]
   },
   {
@@ -1344,6 +1591,13 @@
       "vocab_先生",
       "vocab_先月",
       "vocab_先週"
+    ],
+    "meaningsVi": [
+      "trước đây",
+      "phía trước",
+      "trước đó",
+      "tương lai",
+      "sự ưu tiên"
     ]
   },
   {
@@ -1370,6 +1624,12 @@
       "vocab_名刺",
       "vocab_名前",
       "vocab_お名前は？"
+    ],
+    "meaningsVi": [
+      "tên",
+      "ghi nhận",
+      "phân biệt",
+      "danh tiếng"
     ]
   },
   {
@@ -1394,6 +1654,11 @@
     "exampleVocabIds": [
       "vocab_博多",
       "vocab_多い"
+    ],
+    "meaningsVi": [
+      "nhiều",
+      "thường xuyên",
+      "nhiều"
     ]
   },
   {
@@ -1422,6 +1687,15 @@
     "kanjivgId": "05b89",
     "exampleVocabIds": [
       "vocab_安い"
+    ],
+    "meaningsVi": [
+      "thư giãn",
+      "giá rẻ",
+      "thấp",
+      "yên tĩnh",
+      "nghỉ ngơi",
+      "hài lòng",
+      "yên bình"
     ]
   },
   {
@@ -1444,6 +1718,10 @@
       "vocab_－年",
       "vocab_去年",
       "vocab_何年"
+    ],
+    "meaningsVi": [
+      "năm",
+      "truy cập trong nhiều năm"
     ]
   },
   {
@@ -1466,6 +1744,9 @@
       "vocab_毎朝",
       "vocab_毎日",
       "vocab_毎晩"
+    ],
+    "meaningsVi": [
+      "mỗi"
     ]
   },
   {
@@ -1492,6 +1773,13 @@
       "vocab_電気",
       "vocab_天気",
       "vocab_病気"
+    ],
+    "meaningsVi": [
+      "tinh thần",
+      "tâm trí",
+      "không khí",
+      "bầu không khí",
+      "tâm trạng"
     ]
   },
   {
@@ -1512,6 +1800,9 @@
     "kanjivgId": "0767e",
     "exampleVocabIds": [
       "vocab_百"
+    ],
+    "meaningsVi": [
+      "trăm"
     ]
   },
   {
@@ -1531,6 +1822,9 @@
     "kanjivgId": "08033",
     "exampleVocabIds": [
       "vocab_耳"
+    ],
+    "meaningsVi": [
+      "tai"
     ]
   },
   {
@@ -1568,6 +1862,16 @@
       "vocab_銀行",
       "vocab_急行",
       "vocab_旅行"
+    ],
+    "meaningsVi": [
+      "đang đi",
+      "cuộc hành trình",
+      "thực hiện",
+      "tiến hành",
+      "hành động",
+      "dòng",
+      "hàng",
+      "ngân hàng"
     ]
   },
   {
@@ -1588,7 +1892,11 @@
     "strokeCount": 6,
     "jlptLevel": "N5",
     "kanjivgId": "0897f",
-    "exampleVocabIds": []
+    "exampleVocabIds": [],
+    "meaningsVi": [
+      "hướng Tây",
+      "Tây Ban Nha"
+    ]
   },
   {
     "id": "kanji_何",
@@ -1612,6 +1920,9 @@
       "vocab_何",
       "vocab_何歳",
       "vocab_何階"
+    ],
+    "meaningsVi": [
+      "cái gì"
     ]
   },
   {
@@ -1644,6 +1955,13 @@
       "vocab_来月",
       "vocab_来週",
       "vocab_来年"
+    ],
+    "meaningsVi": [
+      "đến",
+      "đến hạn",
+      "tiếp theo",
+      "nguyên nhân",
+      "trở thành"
     ]
   },
   {
@@ -1666,6 +1984,9 @@
     "exampleVocabIds": [
       "vocab_男の子",
       "vocab_男の人"
+    ],
+    "meaningsVi": [
+      "nam giới"
     ]
   },
   {
@@ -1691,6 +2012,13 @@
       "vocab_社員",
       "vocab_会社",
       "vocab_神社"
+    ],
+    "meaningsVi": [
+      "công ty",
+      "chắc chắn",
+      "văn phòng",
+      "hiệp hội",
+      "điện thờ"
     ]
   },
   {
@@ -1713,6 +2041,9 @@
       "vocab_花",
       "vocab_生け花",
       "vocab_花見"
+    ],
+    "meaningsVi": [
+      "hoa"
     ]
   },
   {
@@ -1742,6 +2073,15 @@
       "vocab_伏見",
       "vocab_意見",
       "vocab_見ます"
+    ],
+    "meaningsVi": [
+      "xem",
+      "hy vọng",
+      "cơ hội",
+      "ý tưởng",
+      "ý kiến",
+      "nhìn vào",
+      "có thể nhìn thấy"
     ]
   },
   {
@@ -1764,6 +2104,10 @@
     "kanjivgId": "08a00",
     "exampleVocabIds": [
       "vocab_言います"
+    ],
+    "meaningsVi": [
+      "nói",
+      "từ"
     ]
   },
   {
@@ -1790,6 +2134,12 @@
     "exampleVocabIds": [
       "vocab_足",
       "vocab_足ります"
+    ],
+    "meaningsVi": [
+      "chân",
+      "chân",
+      "đủ",
+      "quầy tính tiền các đôi giày"
     ]
   },
   {
@@ -1811,6 +2161,9 @@
       "vocab_車",
       "vocab_電車",
       "vocab_自動車"
+    ],
+    "meaningsVi": [
+      "xe hơi"
     ]
   },
   {
@@ -1832,6 +2185,9 @@
       "vocab_韓国",
       "vocab_中国",
       "vocab_外国"
+    ],
+    "meaningsVi": [
+      "đất nước"
     ]
   },
   {
@@ -1855,6 +2211,11 @@
       "vocab_学生",
       "vocab_大学",
       "vocab_学校"
+    ],
+    "meaningsVi": [
+      "học tập",
+      "học tập",
+      "khoa học"
     ]
   },
   {
@@ -1878,6 +2239,10 @@
       "vocab_店",
       "vocab_喫茶店",
       "vocab_出ます"
+    ],
+    "meaningsVi": [
+      "cửa hàng",
+      "cửa tiệm"
     ]
   },
   {
@@ -1898,6 +2263,9 @@
     "exampleVocabIds": [
       "vocab_東京スカイツリー",
       "vocab_東京ディズニーランド"
+    ],
+    "meaningsVi": [
+      "phía đông"
     ]
   },
   {
@@ -1929,6 +2297,13 @@
     "exampleVocabIds": [
       "vocab_空港",
       "vocab_航空便"
+    ],
+    "meaningsVi": [
+      "trống rỗng",
+      "bầu trời",
+      "trống rỗng",
+      "bỏ trống",
+      "chân không"
     ]
   },
   {
@@ -1954,6 +2329,9 @@
       "vocab_お金",
       "vocab_金額",
       "vocab_現金"
+    ],
+    "meaningsVi": [
+      "vàng"
     ]
   },
   {
@@ -1979,6 +2357,12 @@
       "vocab_長い",
       "vocab_課長",
       "vocab_社長"
+    ],
+    "meaningsVi": [
+      "dài",
+      "lãnh đạo",
+      "cấp trên",
+      "cao cấp"
     ]
   },
   {
@@ -2001,6 +2385,9 @@
     "exampleVocabIds": [
       "vocab_雨",
       "vocab_降ります"
+    ],
+    "meaningsVi": [
+      "mưa"
     ]
   },
   {
@@ -2024,6 +2411,10 @@
       "vocab_前",
       "vocab_午前",
       "vocab_名前"
+    ],
+    "meaningsVi": [
+      "ở phía trước",
+      "trước đây"
     ]
   },
   {
@@ -2042,7 +2433,10 @@
     "strokeCount": 9,
     "jlptLevel": "N5",
     "kanjivgId": "05357",
-    "exampleVocabIds": []
+    "exampleVocabIds": [],
+    "meaningsVi": [
+      "miền nam"
+    ]
   },
   {
     "id": "kanji_後",
@@ -2068,6 +2462,11 @@
     "kanjivgId": "05f8c",
     "exampleVocabIds": [
       "vocab_午後"
+    ],
+    "meaningsVi": [
+      "đằng sau",
+      "trở lại",
+      "sau này"
     ]
   },
   {
@@ -2094,6 +2493,10 @@
       "vocab_食堂",
       "vocab_定食",
       "vocab_食べ物"
+    ],
+    "meaningsVi": [
+      "ăn",
+      "thức ăn"
     ]
   },
   {
@@ -2117,6 +2520,10 @@
       "vocab_時計",
       "vocab_－時",
       "vocab_何時"
+    ],
+    "meaningsVi": [
+      "thời gian",
+      "giờ"
     ]
   },
   {
@@ -2140,6 +2547,9 @@
       "vocab_辞書",
       "vocab_書留",
       "vocab_図書館"
+    ],
+    "meaningsVi": [
+      "viết"
     ]
   },
   {
@@ -2163,6 +2573,13 @@
     "exampleVocabIds": [
       "vocab_学校",
       "vocab_高校"
+    ],
+    "meaningsVi": [
+      "kỳ thi",
+      "trường học",
+      "in ấn",
+      "bằng chứng",
+      "sự sửa chữa"
     ]
   },
   {
@@ -2190,6 +2607,11 @@
       "vocab_高い",
       "vocab_高校",
       "vocab_背が高い"
+    ],
+    "meaningsVi": [
+      "cao",
+      "cao",
+      "đắt tiền"
     ]
   },
   {
@@ -2209,6 +2631,9 @@
       "vocab_今週",
       "vocab_先週",
       "vocab_来週"
+    ],
+    "meaningsVi": [
+      "tuần"
     ]
   },
   {
@@ -2230,6 +2655,9 @@
     "kanjivgId": "09b5a",
     "exampleVocabIds": [
       "vocab_魚"
+    ],
+    "meaningsVi": [
+      "cá"
     ]
   },
   {
@@ -2250,6 +2678,9 @@
     "exampleVocabIds": [
       "vocab_買います",
       "vocab_買い物します"
+    ],
+    "meaningsVi": [
+      "mua"
     ]
   },
   {
@@ -2277,6 +2708,15 @@
     "kanjivgId": "09053",
     "exampleVocabIds": [
       "vocab_道"
+    ],
+    "meaningsVi": [
+      "đường bộ",
+      "đường phố",
+      "huyện",
+      "cuộc hành trình",
+      "khóa học",
+      "đạo đức",
+      "lời dạy"
     ]
   },
   {
@@ -2302,6 +2742,10 @@
       "vocab_間",
       "vocab_時間",
       "vocab_－時間"
+    ],
+    "meaningsVi": [
+      "khoảng thời gian",
+      "không gian"
     ]
   },
   {
@@ -2327,6 +2771,11 @@
       "vocab_飲み物",
       "vocab_飲みます",
       "vocab_一杯飲みましょう。"
+    ],
+    "meaningsVi": [
+      "uống",
+      "khói",
+      "lấy"
     ]
   },
   {
@@ -2351,6 +2800,9 @@
       "vocab_新聞",
       "vocab_新大阪",
       "vocab_新幹線"
+    ],
+    "meaningsVi": [
+      "mới"
     ]
   },
   {
@@ -2374,6 +2826,10 @@
       "vocab_話",
       "vocab_電話",
       "vocab_話します"
+    ],
+    "meaningsVi": [
+      "câu chuyện",
+      "nói chuyện"
     ]
   },
   {
@@ -2393,6 +2849,9 @@
       "vocab_電気",
       "vocab_電話",
       "vocab_電車"
+    ],
+    "meaningsVi": [
+      "điện"
     ]
   },
   {
@@ -2417,6 +2876,11 @@
     "exampleVocabIds": [
       "vocab_新聞",
       "vocab_聞きます"
+    ],
+    "meaningsVi": [
+      "nghe thấy",
+      "hỏi",
+      "lắng nghe"
     ]
   },
   {
@@ -2441,6 +2905,11 @@
       "vocab_語",
       "vocab_英語",
       "vocab_日本語"
+    ],
+    "meaningsVi": [
+      "từ",
+      "lời nói",
+      "ngôn ngữ"
     ]
   },
   {
@@ -2464,6 +2933,9 @@
     "exampleVocabIds": [
       "vocab_読み方",
       "vocab_読みます"
+    ],
+    "meaningsVi": [
+      "đọc"
     ]
   },
   {
@@ -2482,6 +2954,9 @@
     "exampleVocabIds": [
       "vocab_駅",
       "vocab_本田駅"
+    ],
+    "meaningsVi": [
+      "trạm"
     ]
   }
 ]

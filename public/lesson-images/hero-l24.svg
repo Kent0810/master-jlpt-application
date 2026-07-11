@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300" role="img">
+  <rect x="0" y="0" width="400" height="300" rx="24" fill="#F7FEE7"/>
+  <circle cx="110" cy="151.39999999999998" r="19.5" fill="#65A30D" stroke="none" stroke-width="6"/><path d="M 82.7 245
+    L 82.7 199.5
+    Q 82.7 178.7 103.5 178.7
+    L 116.50000000000001 178.7
+    Q 137.3 178.7 137.3 199.5
+    L 137.3 245 Z" fill="#65A30D" stroke="none" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="290" cy="151.39999999999998" r="19.5" fill="#F43F5E" stroke="none" stroke-width="6"/><path d="M 262.7 245
+    L 262.7 199.5
+    Q 262.7 178.7 283.5 178.7
+    L 296.5 178.7
+    Q 317.3 178.7 317.3 199.5
+    L 317.3 245 Z" fill="#F43F5E" stroke="none" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><path d="M 200 162.4
+    C 168 136.8 177.6 108 200 127.2
+    C 222.4 108 232 136.8 200 162.4 Z" fill="#F43F5E" stroke="none" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><line x1="150" y1="150" x2="185" y2="145" stroke="#334155" stroke-width="5" stroke-linecap="round"/><line x1="185" y1="145" x2="173.7865403593295" y2="153.38202379423097" stroke="#334155" stroke-width="5" stroke-linecap="round"/><line x1="185" y1="145" x2="171.88811208257167" y2="140.093025856926" stroke="#334155" stroke-width="5" stroke-linecap="round"/><line x1="250" y1="150" x2="215" y2="145" stroke="#334155" stroke-width="5" stroke-linecap="round"/><line x1="215" y1="145" x2="228.11188791742833" y2="140.093025856926" stroke="#334155" stroke-width="5" stroke-linecap="round"/><line x1="215" y1="145" x2="226.2134596406705" y2="153.38202379423097" stroke="#334155" stroke-width="5" stroke-linecap="round"/>
+</svg>

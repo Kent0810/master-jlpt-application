@@ -5,10 +5,12 @@ import Link from "next/link";
 import { getKanjiByChar, getVocabById } from "@/lib/data";
 import { AudioButton } from "@/components/AudioButton";
 import { StarButton } from "@/components/StarButton";
+import { AddToListButton } from "@/components/AddToListButton";
 import { StatusBadge } from "@/components/StatusBadge";
 import { Reading } from "@/components/Furigana";
 import { StrokeOrderPlayer } from "@/components/StrokeOrderPlayer";
 import { useStudyState } from "@/lib/db/hooks";
+import { useT, useLang, pickMeanings } from "@/lib/i18n";
 
 export default function KanjiDetailPage() {
   const params = useParams<{ id: string }>();
@@ -17,6 +19,8 @@ export default function KanjiDetailPage() {
   if (!kanji) return notFound();
 
   const state = useStudyState(kanji.id);
+  const t = useT();
+  const lang = useLang();
   const examples = kanji.exampleVocabIds
     .map((id) => getVocabById(id))
     .filter((v): v is NonNullable<typeof v> => Boolean(v));
@@ -28,13 +32,13 @@ export default function KanjiDetailPage() {
   return (
     <div className="space-y-6">
       <Link href="/kanji" className="text-sm text-brand">
-        ← Kanji
+        {t("← Kanji")}
       </Link>
 
       <header className="flex items-start justify-between">
         <div>
           <div className="font-jp text-7xl leading-none">{kanji.character}</div>
-          <p className="mt-2 text-lg">{kanji.meanings.join(", ")}</p>
+          <p className="mt-2 text-lg">{pickMeanings(kanji, lang).join(", ")}</p>
           <div className="mt-2 flex items-center gap-2">
             <StatusBadge status={state.status} />
             <span className="text-sm text-slate-500">
@@ -44,6 +48,7 @@ export default function KanjiDetailPage() {
         </div>
         <div className="flex flex-col items-center gap-1">
           <StarButton itemId={kanji.id} />
+          <AddToListButton itemId={kanji.id} />
           {readingsAudio[0] && (
             <AudioButton text={readingsAudio[0]} label="Play a reading" />
           )}
@@ -85,7 +90,9 @@ export default function KanjiDetailPage() {
                   <span className="text-lg">
                     <Reading word={v.word} reading={v.reading} romaji={v.romaji} />
                   </span>
-                  <span className="text-sm text-slate-500">{v.meanings[0]}</span>
+                  <span className="text-sm text-slate-500">
+                    {pickMeanings(v, lang)[0]}
+                  </span>
                 </Link>
               </li>
             ))}

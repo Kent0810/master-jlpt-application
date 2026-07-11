@@ -15,6 +15,7 @@ export interface Kanji {
   id: string;
   character: string;
   meanings: string[];
+  meaningsVi?: string[];
   onyomi: string[];
   kunyomi: string[];
   strokeCount: number;
@@ -23,10 +24,22 @@ export interface Kanji {
   exampleVocabIds: string[];
 }
 
+// A furigana segment: kanji text `t` with reading `f`, or plain text (no `f`).
+export interface FuriSegment {
+  t: string;
+  f?: string;
+}
+// A word-spaced chunk (分かち書き) is a run of segments rendered without internal
+// spaces; chunks are separated by spaces.
+export type TokenChunk = FuriSegment[];
+
 export interface ExampleSentence {
   jp: string;
   reading: string;
   en: string;
+  vi?: string;
+  tokens?: TokenChunk[];
+  romaji?: string;
 }
 
 export interface Vocabulary {
@@ -35,6 +48,7 @@ export interface Vocabulary {
   reading: string;
   romaji: string;
   meanings: string[];
+  meaningsVi?: string[];
   partOfSpeech: PartOfSpeech;
   jlptLevel: JlptLevel;
   audioUrl: string | null;
@@ -45,8 +59,10 @@ export interface Vocabulary {
 
 export interface Grammar {
   id: string;
+  lesson: number;
   title: string;
   meaning: string;
+  meaningVi?: string;
   structure: string;
   examples: ExampleSentence[];
 }

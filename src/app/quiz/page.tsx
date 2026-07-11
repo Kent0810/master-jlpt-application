@@ -11,6 +11,7 @@ import {
 } from "@/lib/quiz/generate";
 import { reviewItem } from "@/lib/db/db";
 import { AudioButton } from "@/components/AudioButton";
+import { StudyQuizTabs } from "@/components/StudyQuizTabs";
 
 const POOL = getVocab();
 const QUESTIONS = 10;
@@ -60,6 +61,9 @@ export default function QuizPage() {
         <p className="text-slate-500">
           {QUESTIONS} questions. Wrong answers come back sooner in your flashcards.
         </p>
+
+        <StudyQuizTabs />
+
         <div className="grid gap-3">
           {MODES.map((m) => (
             <button

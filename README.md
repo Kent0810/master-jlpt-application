@@ -1,68 +1,42 @@
-# N5 道場 — JLPT N5 Learning App
+# N5 道場 — monorepo
 
-A mobile-first PWA for studying the JLPT N5 kanji and vocabulary set. Every item
-shows the written form, its kana reading (furigana), romaji, and can be spoken
-aloud. Includes spaced-repetition flashcards, quizzes, a grammar reference, and
-progress tracking — all offline-capable with no account required.
+A pnpm + Turborepo monorepo with two apps:
 
-Built with Next.js (App Router) + TypeScript + Tailwind. Progress is stored
-locally in IndexedDB (Dexie). See `docs/superpowers/specs/` for the design spec.
+- **`apps/frontend`** — the N5 道場 JLPT N5 study PWA (Next.js). See
+  [`apps/frontend/README.md`](apps/frontend/README.md) for details.
+- **`apps/backend`** — a Go service, currently just a health-check skeleton
+  with no product features yet. See
+  [`apps/backend/README.md`](apps/backend/README.md).
+
+## Prerequisites
+
+- Node ≥22, [pnpm](https://pnpm.io) 10
+- Go 1.26 (only needed for `apps/backend` — `pnpm dev`/`build`/`test` at the
+  root run both apps, so the backend's Go tasks need it on your PATH even if
+  you're only working on the frontend)
 
 ## Getting started
 
 ```bash
-npm install
-npm run dev        # http://localhost:3000
+pnpm install       # installs deps for every app
+pnpm dev           # runs both apps' dev servers in parallel
 ```
 
-## Building the dataset
-
-The app ships with generated static data in `data/`. To regenerate it from the
-open sources (see `data/ATTRIBUTION.md`):
+Run a single app instead:
 
 ```bash
-npm run data:all   # fetch kanji + vocab, then link examples
-# or individually:
-npm run data:kanji # -> data/n5-kanji.json  (103 N5 kanji)
-npm run data:vocab # -> data/n5-vocab.json  (~710 N5 words)
-npm run data:link  # populate kanji example vocab links
+pnpm --filter frontend dev   # http://localhost:3000
+pnpm --filter backend dev    # http://localhost:8080
 ```
 
-## Features
-
-- **Browse & search** — kanji and vocab lists with search by kanji, kana,
-  romaji, or English (typing `taberu` finds 食べる), plus stroke-count and
-  part-of-speech filters.
-- **Detail views** — furigana (HTML ruby), toggleable romaji, audio button,
-  linked example words / component kanji, per-item status and starring.
-- **Flashcards** — SM-2 spaced repetition with a "due today" queue over decks
-  (all / kanji / vocab / starred / custom lists).
-- **Quizzes** — meaning→word, word→reading, typing (romaji or kana), and
-  listening. Misses feed back into the flashcard schedule.
-- **Dashboard** — studied / mastered counts, study streak, reviews today,
-  accuracy, and overall progress.
-- **Grammar** — a static reference of the core N5 particles and forms.
-- **PWA** — installable and offline-capable via a service worker.
-
-## Audio
-
-v1 uses the on-device Web Speech API (no cost, works offline, degrades
-gracefully if no Japanese voice is installed). To swap in consistent
-pre-generated clips, run `scripts/generate-polly-audio.ts` with AWS credentials
-(see the file header) — it synthesizes Amazon Polly MP3s to S3 and populates each
-item's `audioUrl`, which the player then prefers automatically. No UI change
-needed.
-
-## Tests
+## Testing
 
 ```bash
-npm test           # vitest — data normalization, POS heuristic, search,
-                   # SM-2 scheduler, streak, and quiz logic
+pnpm test          # runs both apps' test suites
 ```
 
-## Tech notes
+## Building
 
-- Part of speech is inferred heuristically from surface form (the vocab source
-  has no POS field); it is approximate, not authoritative grammar data.
-- The N5 kanji set uses the pre-2010 JLPT level 4 list (~103 characters), the
-  community consensus for N5. There is no official post-2010 list.
+```bash
+pnpm build         # builds both apps
+```

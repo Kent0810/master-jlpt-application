@@ -1,0 +1,23 @@
+# dependencies / build output
+node_modules
+.next
+.turbo
+apps/backend/bin
+coverage
+
+# lockfiles
+pnpm-lock.yaml
+
+# generated data — not hand-written, no formatting benefit
+apps/frontend/data/*.json
+
+# go backend — formatted with gofmt, not prettier
+apps/backend
+
+# written docs, not code — avoid incidental reformatting of prose/specs
+docs
+
+# tool-managed
+.idea
+.claude
+.superpowers

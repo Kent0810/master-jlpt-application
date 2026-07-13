@@ -33,3 +33,10 @@ coverage/
 
 # vercel
 .vercel
+
+# turborepo
+.turbo/
+
+# go
+apps/backend/bin/
+docs

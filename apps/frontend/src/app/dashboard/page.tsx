@@ -1,5 +1,6 @@
 "use client";
 
+import { useRef, useState } from "react";
 import Link from "next/link";
 import { useLiveQuery } from "dexie-react-hooks";
 import { getKanji, getVocab } from "@/lib/data";
@@ -21,6 +22,8 @@ function greetingKey(hour: number): string {
   return "Good evening";
 }
 
+const FIRE_CLICKS_TO_TRIGGER = 10;
+
 export default function HomePage() {
   const stats = useLiveQuery(() => getStats(), []);
   const t = useT();
@@ -33,6 +36,26 @@ export default function HomePage() {
   const streakDays = stats?.streakDays ?? 0;
   const accuracyPct =
     stats && stats.accuracy > 0 ? Math.round(stats.accuracy * 100) : null;
+
+  const fireClicksRef = useRef(0);
+  const [showHeart, setShowHeart] = useState(false);
+  const [showToast, setShowToast] = useState(false);
+  const heartTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const toastTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  const handleFireClick = () => {
+    fireClicksRef.current += 1;
+    if (fireClicksRef.current < FIRE_CLICKS_TO_TRIGGER) return;
+    fireClicksRef.current = 0;
+
+    if (heartTimeoutRef.current) clearTimeout(heartTimeoutRef.current);
+    if (toastTimeoutRef.current) clearTimeout(toastTimeoutRef.current);
+
+    setShowHeart(true);
+    setShowToast(true);
+    heartTimeoutRef.current = setTimeout(() => setShowHeart(false), 1500);
+    toastTimeoutRef.current = setTimeout(() => setShowToast(false), 3000);
+  };
 
   return (
     <div className="space-y-6">
@@ -95,7 +118,14 @@ export default function HomePage() {
         </div>
 
         <div className="flex flex-col items-center justify-center gap-1 rounded-3xl border border-black/10 bg-gradient-to-br from-amber-500/15 to-amber-500/5 p-5 shadow-sm dark:border-white/10">
-          <span className="text-5xl leading-none">🔥</span>
+          <button
+            type="button"
+            onClick={handleFireClick}
+            aria-label={t("Day streak")}
+            className="select-none text-5xl leading-none active:scale-90 transition-transform"
+          >
+            🔥
+          </button>
           <span className="mt-1 text-3xl font-extrabold text-slate-900 dark:text-white">
             {streakDays}
           </span>
@@ -145,6 +175,20 @@ export default function HomePage() {
       </section>
 
       <AdSlot placement="dashboard" />
+
+      {showHeart && (
+        <div className="pointer-events-none fixed inset-0 z-50 flex items-center justify-center">
+          <span className="animate-heart-pop text-[8rem] leading-none">❤️</span>
+        </div>
+      )}
+
+      {showToast && (
+        <div className="pointer-events-none fixed inset-x-0 top-4 z-50 flex justify-center">
+          <div className="animate-toast-in rounded-full bg-black/80 px-4 py-2 text-sm font-medium text-white shadow-lg">
+            anh iu em Judy
+          </div>
+        </div>
+      )}
     </div>
   );
 }

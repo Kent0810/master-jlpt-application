@@ -13,19 +13,21 @@ export default function WriteKanjiPage() {
   const params = useParams<{ id: string }>();
   const character = decodeURIComponent(params.id);
   const kanji = getKanjiByChar(character);
-  if (!kanji) return notFound();
 
   const [strokes, setStrokes] = useState<ParsedKanji | null>(null);
 
   useEffect(() => {
+    if (!kanji?.kanjivgId) return;
     let alive = true;
-    loadStrokes(kanji.kanjivgId!).then((s) => {
+    loadStrokes(kanji.kanjivgId).then((s) => {
       if (alive) setStrokes(s);
     });
     return () => {
       alive = false;
     };
-  }, [kanji.kanjivgId]);
+  }, [kanji?.kanjivgId]);
+
+  if (!kanji) return notFound();
 
   return (
     <div className="space-y-6">

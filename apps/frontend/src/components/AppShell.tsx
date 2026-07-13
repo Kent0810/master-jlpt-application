@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { usePathname } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import { Nav } from "@/components/Nav";
 import { AdSlot } from "@/components/ads/AdSlot";
 import { InstallPopup } from "@/components/InstallPopup";
@@ -11,6 +11,8 @@ const SIDEBAR_AD_CLASS =
 
 export function AppShell({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
+  const router = useRouter();
+
   const isLanding = pathname === "/";
 
   if (isLanding) return <>{children}</>;
@@ -27,8 +29,15 @@ export function AppShell({ children }: { children: React.ReactNode }) {
 
       <div className="flex min-h-[100dvh] w-full max-w-2xl flex-col">
         <div className="flex justify-end px-4 pt-3">
-          <Link
-            href={onSettings ? pathname : "/settings"}
+          <button
+            type="button"
+            onClick={() => {
+              if (onSettings) {
+                router.back();
+              } else {
+                router.push("/settings");
+              }
+            }}
             aria-label="Settings"
             aria-current={onSettings ? "page" : undefined}
             className={`inline-flex h-9 w-9 items-center justify-center rounded-full border text-lg transition-colors ${
@@ -38,7 +47,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
             }`}
           >
             ⚙︎
-          </Link>
+          </button>
         </div>
         <main className="flex-1 px-4 pb-24 pt-1">{children}</main>
         <Nav />

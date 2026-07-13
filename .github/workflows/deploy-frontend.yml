@@ -1,7 +1,8 @@
-name: Deploy (production)
+name: Deploy Frontend (production)
 
-# Manual-only production deploy to Vercel.
-# Trigger from the GitHub UI: Actions -> "Deploy (production)" -> Run workflow.
+# Manual-only production deploy of apps/frontend to Vercel.
+# Does NOT touch the backend - see deploy-backend.yml for that.
+# Trigger from the GitHub UI: Actions -> "Deploy Frontend (production)" -> Run workflow.
 #
 # Requires three repository secrets (Settings -> Secrets and variables -> Actions):
 #   VERCEL_TOKEN       - a Vercel access token (vercel.com/account/tokens)
@@ -12,7 +13,7 @@ on:
   workflow_dispatch:
 
 concurrency:
-  group: deploy-production
+  group: deploy-frontend-production
   cancel-in-progress: false
 
 env:
@@ -21,26 +22,26 @@ env:
 
 jobs:
   deploy:
-    name: Build & deploy to Vercel
+    name: Build & deploy frontend to Vercel
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Enable Corepack
+        run: corepack enable
+
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: 22
-          cache: npm
+          cache: pnpm
 
       - name: Install dependencies
-        run: npm ci
+        run: pnpm install --frozen-lockfile
 
       - name: Lint
-        run: npm run lint
-
-      - name: Typecheck
-        run: npm run typecheck
+        run: pnpm --filter frontend run lint
 
       - name: Install Vercel CLI
         run: npm install -g vercel@latest

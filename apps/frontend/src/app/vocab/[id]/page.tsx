@@ -28,10 +28,11 @@ export default function VocabDetailPage() {
   const params = useParams<{ id: string }>();
   const word = decodeURIComponent(params.id);
   const vocab = getVocab().find((v) => v.word === word);
-  if (!vocab) return notFound();
 
-  const state = useStudyState(vocab.id);
+  const state = useStudyState(vocab?.id ?? "");
   const lang = useLang();
+
+  if (!vocab) return notFound();
 
   const relatedKanji = Array.from(new Set(vocab.word.split("")))
     .map((ch) => getKanjiByChar(ch))

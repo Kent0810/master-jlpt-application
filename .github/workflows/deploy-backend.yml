@@ -1,0 +1,37 @@
+name: Deploy Backend (production)
+
+# STUB - not wired up yet.
+# apps/backend has no deploy target configured (no Dockerfile, fly.toml,
+# render.yaml, etc). Fill in the "deploy" job below once a hosting
+# platform is chosen, then remove the placeholder step.
+#
+# Does NOT touch the frontend - see deploy-frontend.yml for that.
+
+on:
+  workflow_dispatch:
+
+concurrency:
+  group: deploy-backend-production
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    name: Build & deploy backend
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Go
+        uses: actions/setup-go@v5
+        with:
+          go-version-file: apps/backend/go.mod
+
+      - name: Build
+        run: go build -o bin/server ./cmd/server
+        working-directory: apps/backend
+
+      - name: Not configured
+        run: |
+          echo "::error::deploy-backend.yml is a stub - no deploy target is configured yet. See the comment at the top of this file."
+          exit 1

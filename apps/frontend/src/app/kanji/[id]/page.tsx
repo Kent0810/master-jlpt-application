@@ -16,11 +16,13 @@ export default function KanjiDetailPage() {
   const params = useParams<{ id: string }>();
   const character = decodeURIComponent(params.id);
   const kanji = getKanjiByChar(character);
-  if (!kanji) return notFound();
 
-  const state = useStudyState(kanji.id);
+  const state = useStudyState(kanji?.id ?? "");
   const t = useT();
   const lang = useLang();
+
+  if (!kanji) return notFound();
+
   const examples = kanji.exampleVocabIds
     .map((id) => getVocabById(id))
     .filter((v): v is NonNullable<typeof v> => Boolean(v));

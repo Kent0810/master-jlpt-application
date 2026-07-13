@@ -79,6 +79,15 @@ export async function reviewItem(
   return updated;
 }
 
+export async function undoLastReview(
+  itemId: string,
+  previousState: StudyState,
+): Promise<void> {
+  await db().studyStates.put(previousState);
+  const lastLog = await db().reviewLog.where("itemId").equals(itemId).last();
+  if (lastLog?.id !== undefined) await db().reviewLog.delete(lastLog.id);
+}
+
 export async function toggleStar(itemId: string): Promise<boolean> {
   const state = await getStudyState(itemId);
   const starred = !state.starred;

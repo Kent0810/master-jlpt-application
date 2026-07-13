@@ -2,12 +2,12 @@ import type { BasicStroke } from "@/lib/writing/curriculum";
 
 export function BasicStrokeCard({ stroke }: { stroke: BasicStroke }) {
   return (
-    <div className="flex items-center gap-4 rounded-2xl border border-black/10 p-4 dark:border-white/10">
+    <div className="flex items-center gap-4 rounded-3xl border border-black/10 p-4 shadow-sm transition-colors hover:border-brand/40 dark:border-white/10">
       <svg
         viewBox="0 0 100 100"
         width={72}
         height={72}
-        className="shrink-0 rounded-xl border border-black/10 dark:border-white/10"
+        className="shrink-0 rounded-2xl border border-black/10 bg-black/[0.015] dark:border-white/10 dark:bg-white/[0.02]"
         role="img"
         aria-label={`${stroke.name} stroke`}
       >

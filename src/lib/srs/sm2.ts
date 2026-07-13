@@ -76,3 +76,9 @@ export function deriveStatus(state: SrsState): StudyStatus {
 export function isDue(state: SrsState, now: Date = new Date()): boolean {
   return state.dueAt <= isoDate(now);
 }
+
+export function formatInterval(days: number): string {
+  if (days < 30) return `${days}d`;
+  if (days < 365) return `${Math.round(days / 30)}mo`;
+  return `${Math.round(days / 365)}y`;
+}

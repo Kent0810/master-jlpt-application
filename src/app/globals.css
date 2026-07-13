@@ -7,13 +7,6 @@
   --foreground: #1a1a1a;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0f1115;
-    --foreground: #e8e8ea;
-  }
-}
-
 :root[data-theme="light"] {
   --background: #ffffff;
   --foreground: #1a1a1a;
@@ -42,11 +35,6 @@ rt {
   color: #64748b;
   user-select: none;
 }
-@media (prefers-color-scheme: dark) {
-  rt {
-    color: #94a3b8;
-  }
-}
 :root[data-theme="light"] rt {
   color: #64748b;
 }
@@ -72,4 +60,39 @@ rt {
 .animate-stroke {
   stroke-dasharray: 1;
   animation: stroke-draw 2.6s ease-in-out infinite;
+}
+
+.flip-card {
+  perspective: 1200px;
+}
+.flip-card-inner {
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.5s;
+}
+.flip-card.is-flipped .flip-card-inner {
+  transform: rotateY(180deg);
+}
+.flip-card-face {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+.flip-card-back {
+  position: absolute;
+  inset: 0;
+  transform: rotateY(180deg);
+}
+
+@keyframes popup-in {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.animate-popup-in {
+  animation: popup-in 0.25s ease-out;
 }

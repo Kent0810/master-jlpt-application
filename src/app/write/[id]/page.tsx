@@ -33,19 +33,19 @@ export default function WriteKanjiPage() {
         ← Practice
       </Link>
 
-      <header>
-        <div className="flex items-center gap-3">
-          <span className="font-jp text-4xl">{kanji.character}</span>
-          <div>
-            <p className="text-lg">{kanji.meanings.slice(0, 3).join(", ")}</p>
-            <p className="text-sm text-slate-500">{kanji.strokeCount} strokes</p>
-          </div>
+      <header className="flex items-center gap-4 overflow-hidden rounded-3xl bg-gradient-to-br from-brand to-brand-soft p-6 text-white shadow-lg">
+        <span className="font-jp text-5xl leading-none">{kanji.character}</span>
+        <div>
+          <p className="text-lg font-semibold">
+            {kanji.meanings.slice(0, 3).join(", ")}
+          </p>
+          <p className="text-sm text-white/85">{kanji.strokeCount} strokes</p>
         </div>
       </header>
 
-      <section className="space-y-2">
-        <h2 className="text-sm font-semibold uppercase tracking-wide text-slate-500">
-          Watch the stroke order
+      <section className="space-y-2 rounded-3xl border border-black/10 p-4 shadow-sm dark:border-white/10">
+        <h2 className="flex items-center gap-2 text-sm font-semibold uppercase tracking-wide text-slate-500">
+          <span>▶️</span> Watch the stroke order
         </h2>
         <div className="flex justify-center">
           <StrokeOrderPlayer
@@ -55,9 +55,9 @@ export default function WriteKanjiPage() {
         </div>
       </section>
 
-      <section className="space-y-2">
-        <h2 className="text-sm font-semibold uppercase tracking-wide text-slate-500">
-          Now trace it yourself
+      <section className="space-y-2 rounded-3xl border border-black/10 p-4 shadow-sm dark:border-white/10">
+        <h2 className="flex items-center gap-2 text-sm font-semibold uppercase tracking-wide text-slate-500">
+          <span>✍️</span> Now trace it yourself
         </h2>
         <p className="text-sm text-slate-500">
           Use a finger, mouse, or Apple Pencil. On iPad, turn on “Pen only” to
@@ -74,9 +74,10 @@ export default function WriteKanjiPage() {
 
       <Link
         href={`/kanji/${encodeURIComponent(kanji.character)}`}
-        className="block text-center text-sm text-brand"
+        className="flex items-center justify-between rounded-2xl bg-brand/5 p-4 text-sm font-semibold text-brand transition-colors hover:bg-brand/10 dark:bg-brand/10"
       >
-        See full kanji details →
+        See full kanji details
+        <span>→</span>
       </Link>
     </div>
   );

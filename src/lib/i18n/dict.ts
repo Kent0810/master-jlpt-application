@@ -50,6 +50,36 @@ export const VI: Record<string, string> = {
   "Interface and word meanings.": "Ngôn ngữ giao diện và nghĩa của từ.",
   "About the data": "Về dữ liệu",
 
+  // Install guide
+  "App installed": "Đã cài đặt ứng dụng",
+  "N5 道場 is installed on this device and works offline.":
+    "N5 道場 đã được cài trên thiết bị này và hoạt động ngoại tuyến.",
+  "Install the app": "Cài đặt ứng dụng",
+  "Add N5 道場 to your home screen for a faster, full-screen, offline experience.":
+    "Thêm N5 道場 vào màn hình chính để có trải nghiệm nhanh hơn, toàn màn hình và hoạt động ngoại tuyến.",
+  "Install app": "Cài đặt ứng dụng",
+  "Tap the Share icon 📤 in Safari's toolbar.":
+    "Chạm vào biểu tượng Chia sẻ 📤 trên thanh công cụ Safari.",
+  "Scroll down and tap Add to Home Screen.":
+    "Cuộn xuống và chạm vào Thêm vào Màn hình chính.",
+  "Tap Add to confirm.": "Chạm Thêm để xác nhận.",
+  "Open the browser menu (⋮).": "Mở menu trình duyệt (⋮).",
+  "Tap Add to Home screen or Install app.":
+    "Chạm Thêm vào Màn hình chính hoặc Cài đặt ứng dụng.",
+  "Open this site in Chrome or Edge to install it as an app, or just bookmark it — it works great in the browser too.":
+    "Mở trang này bằng Chrome hoặc Edge để cài làm ứng dụng, hoặc lưu lại trang — dùng trên trình duyệt cũng rất tốt.",
+
+  // Install popup
+  "Install N5 道場": "Cài đặt N5 道場",
+  "Get the full-screen, offline app experience.":
+    "Trải nghiệm ứng dụng toàn màn hình, hoạt động ngoại tuyến.",
+  "Maybe later": "Để sau",
+  Dismiss: "Bỏ qua",
+  "Tap the Share icon 📤, then Add to Home Screen.":
+    "Chạm vào biểu tượng Chia sẻ 📤, sau đó chọn Thêm vào Màn hình chính.",
+  "Look for Install app in your browser's menu.":
+    "Tìm mục Cài đặt ứng dụng trong menu trình duyệt.",
+
   // Vocab
   Vocabulary: "Từ vựng",
   "Search word, reading, romaji, or meaning…":
@@ -70,6 +100,7 @@ export const VI: Record<string, string> = {
   "Search by meaning, reading, or kanji…":
     "Tìm theo nghĩa, cách đọc, hoặc kanji…",
   strokes: "nét",
+  "Kanji for this level are on the way.": "Kanji cho cấp độ này sắp ra mắt.",
 
   // Lessons
   "Grammar and vocabulary organised like Minna no Nihongo Shokyū Ⅰ, lessons 1–25.":

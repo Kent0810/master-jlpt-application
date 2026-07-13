@@ -5,6 +5,7 @@ import { useSettings } from "@/lib/settings/SettingsProvider";
 import type { ThemePref } from "@/lib/settings/theme";
 import { LevelSelector } from "@/components/LevelSelector";
 import { LanguageToggle } from "@/components/LanguageToggle";
+import { InstallGuide } from "@/components/InstallGuide";
 import { useT } from "@/lib/i18n";
 
 const THEMES: { value: ThemePref; label: string }[] = [
@@ -50,6 +51,8 @@ export default function SettingsPage() {
         {t("← Home")}
       </Link>
       <h1 className="text-2xl font-bold">{t("Settings")}</h1>
+
+      <InstallGuide />
 
       <section className="space-y-3">
         <Row title={t("Language")} desc={t("Interface and word meanings.")}>

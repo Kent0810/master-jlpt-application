@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { initialSrs, schedule, deriveStatus, isDue } from "./sm2";
+import { initialSrs, schedule, deriveStatus, isDue, formatInterval } from "./sm2";
 
 const NOW = new Date("2026-07-06T00:00:00Z");
 
@@ -55,5 +55,22 @@ describe("schedule", () => {
   it("marks long intervals as mastered", () => {
     const s = { ...initialSrs(NOW), intervalDays: 30, reviews: 5 };
     expect(deriveStatus(s)).toBe("mastered");
+  });
+});
+
+describe("formatInterval", () => {
+  it("formats under 30 days as days", () => {
+    expect(formatInterval(1)).toBe("1d");
+    expect(formatInterval(29)).toBe("29d");
+  });
+
+  it("formats 30-364 days as months", () => {
+    expect(formatInterval(30)).toBe("1mo");
+    expect(formatInterval(364)).toBe("12mo");
+  });
+
+  it("formats 365+ days as years", () => {
+    expect(formatInterval(365)).toBe("1y");
+    expect(formatInterval(730)).toBe("2y");
   });
 });

@@ -1,5 +1,5 @@
-const CACHE = "n5-dojo-v3";
-const SHELL = ["/", "/dashboard", "/kanji", "/write", "/write/basics", "/write/rules", "/write/practice", "/study", "/quiz", "/grammar", "/lessons", "/lists", "/settings", "/manifest.webmanifest", "/icon.svg"];
+const CACHE = "n5-dojo-v4";
+const SHELL = ["/", "/dashboard", "/kanji", "/write", "/write/basics", "/write/rules", "/write/practice", "/study", "/quiz", "/lessons", "/lists", "/settings", "/manifest.webmanifest", "/icon.svg"];
 
 self.addEventListener("install", (event) => {
   event.waitUntil(

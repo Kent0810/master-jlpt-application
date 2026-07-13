@@ -7,7 +7,12 @@ import { useT } from "@/lib/i18n";
 const ITEMS = [
   { href: "/dashboard", label: "Home", icon: "🏠" },
   { href: "/kanji", label: "Kanji", icon: "漢", matches: ["/kanji", "/write"] },
-  { href: "/study", label: "Practice", icon: "🗂️", matches: ["/study", "/quiz"] },
+  {
+    href: "/practice",
+    label: "Practice",
+    icon: "🗂️",
+    matches: ["/practice", "/study", "/quiz"],
+  },
 ];
 
 export function Nav() {

@@ -5,6 +5,7 @@ import { useLiveQuery } from "dexie-react-hooks";
 import { getKanji, getVocab } from "@/lib/data";
 import { getStats } from "@/lib/db/db";
 import { LevelSelector } from "@/components/LevelSelector";
+import { AdSlot } from "@/components/ads/AdSlot";
 import { useT } from "@/lib/i18n";
 
 const TOTAL_KANJI = getKanji().length;
@@ -140,6 +141,8 @@ export default function HomePage() {
           accent="bg-amber-400/15 dark:bg-amber-400/20"
         />
       </section>
+
+      <AdSlot placement="dashboard" />
     </div>
   );
 }

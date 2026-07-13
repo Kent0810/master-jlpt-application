@@ -1,8 +1,9 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import Link from "next/link";
 import * as wanakana from "wanakana";
-import { getVocab } from "@/lib/data";
+import { buildQueue, countDue, type DeckKind } from "@/lib/study/deck";
 import {
   buildQuiz,
   checkTyping,
@@ -11,10 +12,10 @@ import {
 } from "@/lib/quiz/generate";
 import { reviewItem } from "@/lib/db/db";
 import { AudioButton } from "@/components/AudioButton";
-import { StudyQuizTabs } from "@/components/StudyQuizTabs";
+import { AdSlot } from "@/components/ads/AdSlot";
 
-const POOL = getVocab();
-const QUESTIONS = 10;
+type Phase = "pick" | "playing" | "done";
+type SessionSize = 10 | 20 | 50 | "all";
 
 const MODES: { mode: QuizMode; label: string; hint: string }[] = [
   { mode: "meaning", label: "Meaning → Word", hint: "Pick the word for a meaning" },
@@ -23,19 +24,55 @@ const MODES: { mode: QuizMode; label: string; hint: string }[] = [
   { mode: "listening", label: "Listening", hint: "Hear it, pick the word" },
 ];
 
-type Phase = "pick" | "playing" | "done";
+const SESSION_SIZES: SessionSize[] = [10, 20, 50, "all"];
+
+function deckKindFor(mode: QuizMode): DeckKind {
+  return mode === "typing" ? "vocab" : "all";
+}
 
 export default function QuizPage() {
   const [phase, setPhase] = useState<Phase>("pick");
   const [mode, setMode] = useState<QuizMode>("meaning");
+  const [sessionSize, setSessionSize] = useState<SessionSize>(10);
+  const [dueCounts, setDueCounts] = useState<Partial<Record<QuizMode, number>>>({});
   const [questions, setQuestions] = useState<QuizQuestion[]>([]);
   const [index, setIndex] = useState(0);
   const [score, setScore] = useState(0);
   const [answered, setAnswered] = useState<null | { correct: boolean }>(null);
 
-  function start(m: QuizMode) {
+  useEffect(() => {
+    if (phase !== "pick") return;
+    let alive = true;
+    (async () => {
+      const [all, vocabOnly] = await Promise.all([
+        countDue({ kind: "all" }),
+        countDue({ kind: "vocab" }),
+      ]);
+      if (alive) {
+        setDueCounts({
+          meaning: all,
+          reading: all,
+          listening: all,
+          typing: vocabOnly,
+        });
+      }
+    })();
+    return () => {
+      alive = false;
+    };
+  }, [phase]);
+
+  async function start(m: QuizMode) {
+    const pool = await buildQueue({ kind: deckKindFor(m), limit: Infinity });
+    const count = sessionSize === "all" ? pool.length : sessionSize;
+    const built = buildQuiz(pool, m, count);
     setMode(m);
-    setQuestions(buildQuiz(POOL, m, QUESTIONS));
+    if (built.length === 0) {
+      setQuestions([]);
+      setPhase("done");
+      return;
+    }
+    setQuestions(built);
     setIndex(0);
     setScore(0);
     setAnswered(null);
@@ -54,15 +91,47 @@ export default function QuizPage() {
     else setIndex((i) => i + 1);
   }
 
+  useEffect(() => {
+    if (phase !== "playing") return;
+    function onKeyDown(e: KeyboardEvent) {
+      if (e.key === "Escape") {
+        setPhase("pick");
+      } else if ((e.key === " " || e.key === "Enter") && answered) {
+        e.preventDefault();
+        next();
+      }
+    }
+    window.addEventListener("keydown", onKeyDown);
+    return () => window.removeEventListener("keydown", onKeyDown);
+  }, [phase, answered, index, questions.length]);
+
   if (phase === "pick") {
     return (
       <div className="space-y-4">
+        <Link href="/practice" className="text-sm text-brand">
+          ← Practice
+        </Link>
         <h1 className="text-2xl font-bold">Quiz</h1>
         <p className="text-slate-500">
-          {QUESTIONS} questions. Wrong answers come back sooner in your flashcards.
+          Wrong answers come back sooner in your flashcards.
         </p>
 
-        <StudyQuizTabs />
+        <div className="flex items-center justify-between text-xs text-slate-500">
+          <span>Session size</span>
+          <div className="inline-flex overflow-hidden rounded-full border border-black/10 dark:border-white/15">
+            {SESSION_SIZES.map((n) => (
+              <button
+                key={n}
+                onClick={() => setSessionSize(n)}
+                className={`px-3 py-1 font-medium ${
+                  sessionSize === n ? "bg-brand text-white" : ""
+                }`}
+              >
+                {n === "all" ? "All due" : n}
+              </button>
+            ))}
+          </div>
+        </div>
 
         <div className="grid gap-3">
           {MODES.map((m) => (
@@ -73,6 +142,9 @@ export default function QuizPage() {
             >
               <div className="font-semibold">{m.label}</div>
               <div className="text-sm text-slate-500">{m.hint}</div>
+              <div className="mt-1 text-xs text-slate-400">
+                {dueCounts[m.mode] ?? "…"} due
+              </div>
             </button>
           ))}
         </div>
@@ -83,12 +155,16 @@ export default function QuizPage() {
   if (phase === "done") {
     return (
       <div className="space-y-6 py-12 text-center">
-        <div className="text-5xl">{score >= QUESTIONS * 0.8 ? "🏆" : "📓"}</div>
+        <div className="text-5xl">
+          {questions.length === 0 ? "📭" : score >= questions.length * 0.8 ? "🏆" : "📓"}
+        </div>
         <h1 className="text-2xl font-bold">
-          {score} / {questions.length}
+          {questions.length > 0 ? `${score} / ${questions.length}` : "Nothing due"}
         </h1>
         <p className="text-slate-500">
-          {Math.round((score / questions.length) * 100)}% correct
+          {questions.length > 0
+            ? `${Math.round((score / questions.length) * 100)}% correct`
+            : "No cards are due for this mode right now."}
         </p>
         <button
           onClick={() => setPhase("pick")}
@@ -96,6 +172,9 @@ export default function QuizPage() {
         >
           New quiz
         </button>
+        <div className="mx-auto max-w-sm pt-2">
+          <AdSlot placement="sessionDone" />
+        </div>
       </div>
     );
   }
@@ -104,7 +183,7 @@ export default function QuizPage() {
   return (
     <div className="space-y-6">
       <div className="flex items-center justify-between text-sm text-slate-500">
-        <button onClick={() => setPhase("pick")}>✕ End</button>
+        <button onClick={() => setPhase("pick")}>✕ End (Esc)</button>
         <span>
           {index + 1} / {questions.length} · Score {score}
         </span>
@@ -121,7 +200,7 @@ export default function QuizPage() {
           onClick={next}
           className="w-full rounded-2xl bg-brand py-3 font-semibold text-white"
         >
-          {index + 1 >= questions.length ? "See results" : "Next"}
+          {index + 1 >= questions.length ? "See results" : "Next (Space)"}
         </button>
       )}
     </div>
@@ -167,6 +246,25 @@ function ChoiceQuestion({
   const [picked, setPicked] = useState<string | null>(null);
   const isListening = question.mode === "listening";
 
+  useEffect(() => {
+    setPicked(null);
+  }, [question]);
+
+  useEffect(() => {
+    function onKeyDown(e: KeyboardEvent) {
+      if (answered) return;
+      const idx = ["1", "2", "3", "4"].indexOf(e.key);
+      if (idx === -1) return;
+      const opt = question.options?.[idx];
+      if (!opt) return;
+      e.preventDefault();
+      setPicked(opt);
+      onResolve(opt === question.answer);
+    }
+    window.addEventListener("keydown", onKeyDown);
+    return () => window.removeEventListener("keydown", onKeyDown);
+  }, [answered, question, onResolve]);
+
   return (
     <div className="space-y-4">
       <div className="flex min-h-[120px] flex-col items-center justify-center gap-3 rounded-3xl border border-black/10 p-6 text-center dark:border-white/10">
@@ -182,11 +280,10 @@ function ChoiceQuestion({
       </div>
 
       <div className="grid grid-cols-1 gap-2">
-        {question.options!.map((opt) => {
+        {question.options!.map((opt, i) => {
           const isAnswer = opt === question.answer;
           const isPicked = opt === picked;
-          let cls =
-            "border-black/10 dark:border-white/10 hover:border-brand";
+          let cls = "border-black/10 dark:border-white/10 hover:border-brand";
           if (answered) {
             if (isAnswer) cls = "border-emerald-500 bg-emerald-500/10";
             else if (isPicked) cls = "border-rose-500 bg-rose-500/10";
@@ -200,9 +297,10 @@ function ChoiceQuestion({
                 setPicked(opt);
                 onResolve(isAnswer);
               }}
-              className={`rounded-2xl border p-4 text-center font-jp text-xl transition-colors ${cls}`}
+              className={`flex items-center gap-3 rounded-2xl border p-4 text-center font-jp text-xl transition-colors ${cls}`}
             >
-              {opt}
+              <span className="text-xs font-sans font-normal opacity-50">{i + 1}</span>
+              <span className="flex-1">{opt}</span>
             </button>
           );
         })}
@@ -222,6 +320,10 @@ function TypingQuestion({
 }) {
   const [value, setValue] = useState("");
   const kanaPreview = wanakana.toHiragana(value.trim().toLowerCase());
+
+  useEffect(() => {
+    setValue("");
+  }, [question]);
 
   function submit(e: React.FormEvent) {
     e.preventDefault();
@@ -247,9 +349,7 @@ function TypingQuestion({
         className="w-full rounded-2xl border border-black/10 bg-transparent p-4 text-center font-jp text-2xl outline-none focus:border-brand dark:border-white/15"
       />
       {!answered && kanaPreview && kanaPreview !== value.trim().toLowerCase() && (
-        <p className="text-center font-jp text-lg text-slate-500">
-          {kanaPreview}
-        </p>
+        <p className="text-center font-jp text-lg text-slate-500">{kanaPreview}</p>
       )}
       {answered ? (
         <p

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300" role="img">
+  <rect x="0" y="0" width="400" height="300" rx="24" fill="#ECFEFF"/>
+  <circle cx="110" cy="158.60000000000002" r="18" fill="#06B6D4" stroke="none" stroke-width="6"/><path d="M 84.8 245
+    L 84.8 203
+    Q 84.8 183.8 104 183.8
+    L 115.99999999999999 183.8
+    Q 135.2 183.8 135.2 203
+    L 135.2 245 Z" fill="#06B6D4" stroke="none" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="290" cy="158.60000000000002" r="18" fill="#3B82F6" stroke="none" stroke-width="6"/><path d="M 264.8 245
+    L 264.8 203
+    Q 264.8 183.8 284 183.8
+    L 296 183.8
+    Q 315.2 183.8 315.2 203
+    L 315.2 245 Z" fill="#3B82F6" stroke="none" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><rect x="170" y="165" width="60" height="50" rx="6" fill="#06B6D4" stroke="none" stroke-width="6"/><rect x="166" y="155" width="68" height="16" rx="4" fill="#06B6D4" stroke="none" stroke-width="6"/><line x1="200" y1="157" x2="200" y2="215" stroke="#fff" stroke-width="5" stroke-linecap="round"/><path d="M 200 157 q -18 -20 -26 -2 q 14 4 26 2 q 12 2 26 -2 q -8 -18 -26 2 Z" fill="#06B6D4" stroke="none" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

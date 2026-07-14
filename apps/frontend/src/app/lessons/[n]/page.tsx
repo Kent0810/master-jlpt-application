@@ -13,7 +13,9 @@ import { getVocab } from "@/lib/data";
 import { Reading } from "@/components/Furigana";
 import { Sentence } from "@/components/Sentence";
 import { LessonImageFigure } from "@/components/LessonImage";
+import { GrammarImage } from "@/components/GrammarImage";
 import { getLessonHero } from "@/lib/lessonImages";
+import { lessonAccent, accentTint, accentShade } from "@/lib/lessonAccents";
 import { AddToListButton } from "@/components/AddToListButton";
 import {
   useT,
@@ -39,6 +41,7 @@ export default function LessonDetailPage() {
   const { meta, grammar, vocab } = content;
   const prev = LESSON_META.find((l) => l.lesson === lesson - 1);
   const next = LESSON_META.find((l) => l.lesson === lesson + 1);
+  const accent = lessonAccent(lesson);
 
   return (
     <div className="space-y-8">
@@ -46,8 +49,13 @@ export default function LessonDetailPage() {
         {t("← Lessons")}
       </Link>
 
-      {/* Header banner */}
-      <header className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-brand to-brand-soft p-6 text-white dark:from-rose-900 dark:to-slate-900">
+      {/* Header banner — tinted with this lesson's journey accent color */}
+      <header
+        className="relative overflow-hidden rounded-3xl p-6 text-white"
+        style={{
+          background: `linear-gradient(135deg, ${accent}, ${accentShade(accent, 0.55)})`,
+        }}
+      >
         <span
           aria-hidden
           className="pointer-events-none absolute -right-3 -top-5 select-none font-jp text-8xl font-bold opacity-15"
@@ -97,6 +105,7 @@ export default function LessonDetailPage() {
           emoji="📝"
           title={t("Grammar")}
           count={grammar.length}
+          accent={accent}
         />
         {grammar.length === 0 ? (
           <p className="text-sm text-slate-400">
@@ -104,19 +113,41 @@ export default function LessonDetailPage() {
           </p>
         ) : (
           <ul className="space-y-3">
-            {grammar.map((g) => (
+            {grammar.map((g, gi) => (
               <li
                 key={g.id}
-                className="rounded-2xl border border-black/10 bg-black/[0.015] p-4 dark:border-white/10 dark:bg-white/[0.02]"
+                className="rounded-2xl border border-l-4 border-black/10 bg-black/[0.015] p-4 dark:border-white/10 dark:bg-white/[0.02]"
+                style={{ borderLeftColor: accent }}
               >
-                <h3 className="font-jp text-lg font-semibold">{g.title}</h3>
+                <h3 className="flex items-center gap-2.5 font-jp text-lg font-semibold">
+                  <span
+                    className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full text-xs font-bold"
+                    style={{
+                      color: accent,
+                      backgroundColor: accentTint(accent, 0.14),
+                    }}
+                  >
+                    {gi + 1}
+                  </span>
+                  {g.title}
+                </h3>
                 <p className="mt-1 text-sm text-slate-500">
                   {pickGrammarMeaning(g, lang)}
                 </p>
-                <p className="mt-2 inline-block rounded-lg bg-black/5 px-2.5 py-1 font-mono text-xs dark:bg-white/10">
+                <p
+                  className="mt-2 inline-block rounded-lg px-2.5 py-1 font-mono text-xs font-medium"
+                  style={{
+                    color: accent,
+                    backgroundColor: accentTint(accent, 0.1),
+                  }}
+                >
                   {g.structure}
                 </p>
-                <ul className="mt-3 space-y-2.5 border-l-2 border-brand/30 pl-3">
+                <GrammarImage grammarId={g.id} />
+                <ul
+                  className="mt-3 space-y-2.5 border-l-2 pl-3"
+                  style={{ borderColor: accentTint(accent, 0.35) }}
+                >
                   {g.examples.map((ex, i) => (
                     <li key={i} className="text-sm">
                       <Sentence
@@ -144,6 +175,7 @@ export default function LessonDetailPage() {
           emoji="🗂️"
           title={t("Vocabulary")}
           count={vocab.length}
+          accent={accent}
         />
         <ul className="overflow-hidden rounded-2xl border border-black/10 dark:border-white/10">
           {vocab.map((v, i) => (
@@ -173,34 +205,65 @@ export default function LessonDetailPage() {
 
       {/* Dialogue */}
       <section className="space-y-3">
-        <SectionHeading emoji="💬" title={t("会話 · Dialogue")} />
+        <SectionHeading
+          emoji="💬"
+          title={t("会話 · Dialogue")}
+          accent={accent}
+        />
         {dialogue ? (
-          <div className="space-y-4 rounded-2xl border border-black/10 bg-[#faf7ee] p-6 dark:border-white/10 dark:bg-white/[0.03]">
+          <div className="space-y-4 rounded-2xl border border-black/10 bg-[#faf7ee] p-4 dark:border-white/10 dark:bg-white/[0.03] sm:p-6">
             {dialogue.lines.map((line, i) => {
-              const isReply = line.sp === "B";
+              const isReply = line.sp !== dialogue.lines[0].sp;
+              const speakerColor = isReply ? lessonAccent(lesson + 3) : accent;
               return (
-                <div key={i} className={isReply ? "pl-4" : ""}>
-                  <p>
-                    {isReply && <span className="mr-1 font-jp">――</span>}
-                    <Sentence
-                      jp={line.jp}
-                      reading={line.reading}
-                      tokens={line.tokens}
-                      romaji={line.romaji}
-                      className="text-base leading-loose"
-                      onWordSelect={(word) => setSelected({ line: i, word })}
-                      selectedWord={selected?.line === i ? selected.word : null}
-                    />
-                    <span className="ml-2 text-sm text-slate-500 dark:text-slate-400">
-                      {lang === "vi" ? line.vi : line.en}
-                    </span>
-                  </p>
-                  {selected?.line === i && (
-                    <WordLookupCard
-                      word={selected.word}
-                      onClose={() => setSelected(null)}
-                    />
-                  )}
+                <div
+                  key={i}
+                  className={`flex items-end gap-2.5 ${isReply ? "flex-row-reverse" : ""}`}
+                >
+                  <span
+                    aria-hidden
+                    className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full text-xs font-bold text-white shadow-sm"
+                    style={{ backgroundColor: speakerColor }}
+                  >
+                    {line.sp}
+                  </span>
+                  <div
+                    className={`min-w-0 max-w-[85%] ${isReply ? "text-right" : ""}`}
+                  >
+                    <div
+                      className={`inline-block rounded-2xl border border-black/5 px-3.5 py-2.5 text-left shadow-sm dark:border-white/10 ${
+                        isReply
+                          ? "rounded-br-sm"
+                          : "rounded-bl-sm bg-white dark:bg-white/[0.06]"
+                      }`}
+                      style={
+                        isReply
+                          ? { backgroundColor: accentTint(speakerColor, 0.1) }
+                          : undefined
+                      }
+                    >
+                      <Sentence
+                        jp={line.jp}
+                        reading={line.reading}
+                        tokens={line.tokens}
+                        romaji={line.romaji}
+                        className="text-base leading-loose"
+                        onWordSelect={(word) => setSelected({ line: i, word })}
+                        selectedWord={
+                          selected?.line === i ? selected.word : null
+                        }
+                      />
+                      <p className="mt-1 text-xs text-slate-500 dark:text-slate-400">
+                        {lang === "vi" ? line.vi : line.en}
+                      </p>
+                    </div>
+                    {selected?.line === i && (
+                      <WordLookupCard
+                        word={selected.word}
+                        onClose={() => setSelected(null)}
+                      />
+                    )}
+                  </div>
                 </div>
               );
             })}
@@ -212,28 +275,10 @@ export default function LessonDetailPage() {
         )}
       </section>
 
-      {/* Prev / next */}
-      <nav className="flex justify-between gap-3 border-t border-black/10 pt-4 text-sm dark:border-white/10">
-        {prev ? (
-          <Link
-            href={`/lessons/${prev.lesson}`}
-            className="rounded-xl border border-black/10 px-3 py-2 text-brand hover:border-brand dark:border-white/15"
-          >
-            ← L{prev.lesson} {lang === "vi" ? prev.titleVi : prev.titleEn}
-          </Link>
-        ) : (
-          <span />
-        )}
-        {next ? (
-          <Link
-            href={`/lessons/${next.lesson}`}
-            className="rounded-xl border border-black/10 px-3 py-2 text-brand hover:border-brand dark:border-white/15"
-          >
-            L{next.lesson} {lang === "vi" ? next.titleVi : next.titleEn} →
-          </Link>
-        ) : (
-          <span />
-        )}
+      {/* Prev / next — mini journey stops in each neighbour's accent color */}
+      <nav className="flex justify-between gap-3 border-t border-black/10 pt-5 text-sm dark:border-white/10">
+        {prev ? <NeighborLink meta={prev} direction="prev" /> : <span />}
+        {next ? <NeighborLink meta={next} direction="next" /> : <span />}
       </nav>
     </div>
   );
@@ -251,7 +296,7 @@ function WordLookupCard({
   const vocab = getVocab().find((v) => v.word === word);
 
   return (
-    <div className="mt-1 flex items-start justify-between gap-3 rounded-xl border border-black/10 bg-black/[0.02] p-3 dark:border-white/10 dark:bg-white/[0.03]">
+    <div className="mt-1 flex items-start justify-between gap-3 rounded-xl border border-black/10 bg-black/[0.02] p-3 text-left dark:border-white/10 dark:bg-white/[0.03]">
       <div className="min-w-0">
         {vocab ? (
           <>
@@ -292,20 +337,71 @@ function SectionHeading({
   emoji,
   title,
   count,
+  accent,
 }: {
   emoji: string;
   title: string;
   count?: number;
+  accent: string;
 }) {
   return (
-    <div className="flex items-center gap-2">
-      <span className="text-lg">{emoji}</span>
+    <div className="flex items-center gap-2.5">
+      <span
+        className="flex h-8 w-8 items-center justify-center rounded-xl text-base"
+        style={{ backgroundColor: accentTint(accent, 0.12) }}
+      >
+        {emoji}
+      </span>
       <h2 className="text-base font-bold">{title}</h2>
       {count !== undefined && (
-        <span className="rounded-full bg-black/5 px-2 py-0.5 text-xs text-slate-500 dark:bg-white/10">
+        <span
+          className="rounded-full px-2 py-0.5 text-xs font-semibold"
+          style={{
+            color: accent,
+            backgroundColor: accentTint(accent, 0.12),
+          }}
+        >
           {count}
         </span>
       )}
     </div>
+  );
+}
+
+function NeighborLink({
+  meta,
+  direction,
+}: {
+  meta: (typeof LESSON_META)[number];
+  direction: "prev" | "next";
+}) {
+  const t = useT();
+  const lang = useLang();
+  const accent = lessonAccent(meta.lesson);
+  const isPrev = direction === "prev";
+
+  return (
+    <Link
+      href={`/lessons/${meta.lesson}`}
+      className={`group flex max-w-[48%] items-center gap-3 rounded-2xl border border-black/10 p-3 transition-all hover:-translate-y-0.5 hover:border-[var(--acc)] hover:shadow-md dark:border-white/15 ${
+        isPrev ? "" : "flex-row-reverse text-right"
+      }`}
+      style={{ "--acc": accent } as React.CSSProperties}
+    >
+      <span
+        className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full font-jp text-sm font-bold text-white shadow-sm"
+        style={{ backgroundColor: accent }}
+      >
+        {meta.lesson}
+      </span>
+      <span className="min-w-0">
+        <span className="block text-xs text-slate-400">
+          {isPrev ? "←" : ""} {t("Lesson")} {meta.lesson} {isPrev ? "" : "→"}
+        </span>
+        <span className="block truncate font-semibold">
+          {lang === "vi" ? meta.titleVi : meta.titleEn}
+        </span>
+      </span>
+    </Link>
   );
 }

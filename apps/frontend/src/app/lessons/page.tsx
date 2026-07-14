@@ -1,18 +1,15 @@
 "use client";
 
 import Link from "next/link";
-import { LESSON_META } from "@/lib/lessons/lessons";
-import { getLessonHero, lessonImageSrc } from "@/lib/lessonImages";
-import { getGrammarByLesson, getVocabByLesson } from "@/lib/data";
 import { LEVELS } from "@/lib/levels";
-import { useT, useLang } from "@/lib/i18n";
+import { useT } from "@/lib/i18n";
 import { CollapsibleSection } from "@/components/CollapsibleSection";
+import { LessonJourney } from "@/components/LessonJourney";
 
 const LOCKED_LEVELS = LEVELS.filter((l) => !l.available);
 
 export default function LessonsPage() {
   const t = useT();
-  const lang = useLang();
 
   return (
     <div className="space-y-6">
@@ -43,56 +40,7 @@ export default function LessonsPage() {
           </h2>
         }
       >
-        <ul className="grid gap-5 sm:grid-cols-2">
-          {LESSON_META.map((l) => {
-            const words = getVocabByLesson(l.lesson).length;
-            const points = getGrammarByLesson(l.lesson).length;
-            const hero = getLessonHero(l.lesson);
-            return (
-              <li key={l.lesson}>
-                <Link
-                  href={`/lessons/${l.lesson}`}
-                  className="group flex h-full flex-col overflow-hidden rounded-3xl border border-black/10 bg-white shadow-sm transition-all hover:-translate-y-0.5 hover:border-brand hover:shadow-lg dark:border-white/10 dark:bg-white/[0.03]"
-                >
-                  <div className="flex h-32 items-center justify-center bg-gradient-to-br from-brand/10 to-brand-soft/10 dark:from-brand/20 dark:to-brand-soft/10">
-                    {hero ? (
-                      // eslint-disable-next-line @next/next/no-img-element
-                      <img
-                        src={lessonImageSrc(hero.file)}
-                        alt=""
-                        aria-hidden
-                        className="h-24 w-auto object-contain transition-transform group-hover:scale-105"
-                      />
-                    ) : (
-                      <span className="font-jp text-4xl text-brand/40">
-                        第{l.lesson}課
-                      </span>
-                    )}
-                  </div>
-                  <div className="flex flex-1 flex-col gap-1 p-5">
-                    <div className="flex items-baseline justify-between gap-2">
-                      <span className="rounded-full bg-brand/10 px-2.5 py-0.5 text-xs font-bold uppercase tracking-wide text-brand dark:bg-brand/20">
-                        {t("Lesson")} {l.lesson}
-                      </span>
-                      <span className="font-jp text-sm text-slate-500">
-                        {l.titleJp}
-                      </span>
-                    </div>
-                    <span className="mt-1 text-lg font-bold">
-                      {lang === "vi" ? l.titleVi : l.titleEn}
-                    </span>
-                    <span className="text-sm text-slate-500">
-                      {lang === "vi" ? l.focusVi : l.focus}
-                    </span>
-                    <span className="mt-2 flex items-center gap-1 text-xs font-medium text-slate-400">
-                      {words} {t("words")} · {points} {t("grammar")}
-                    </span>
-                  </div>
-                </Link>
-              </li>
-            );
-          })}
-        </ul>
+        <LessonJourney />
       </CollapsibleSection>
 
       {LOCKED_LEVELS.map((level) => (

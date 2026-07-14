@@ -33,7 +33,6 @@ ruby {
 rt {
   font-size: 0.55em;
   color: #64748b;
-  user-select: none;
 }
 :root[data-theme="light"] rt {
   color: #64748b;

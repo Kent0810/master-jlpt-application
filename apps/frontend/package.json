@@ -15,7 +15,8 @@
     "data:tokenize": "node scripts/tokenize-jp.cjs",
     "data:all": "tsx scripts/fetch-kanji.ts && tsx scripts/fetch-vocab.ts && tsx scripts/link-examples.ts",
     "data:audio": "tsx scripts/generate-polly-audio.ts",
-    "data:lesson-images": "node scripts/gen-lesson-images.mjs"
+    "data:lesson-images": "node scripts/gen-lesson-images.mjs",
+    "data:grammar-images": "node scripts/gen-grammar-images.mjs"
   },
   "dependencies": {
     "dexie": "^4.0.8",

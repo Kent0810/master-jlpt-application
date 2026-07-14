@@ -39,22 +39,26 @@ export function CollapsibleSection({
   }
 
   return (
-    <section className="space-y-3">
+    <section className="overflow-hidden rounded-3xl border border-black/10 bg-white shadow-sm dark:border-white/10 dark:bg-white/[0.03]">
       <button
         type="button"
         onClick={toggle}
         aria-expanded={open}
-        className="flex w-full items-center justify-between gap-2 text-left"
+        className="flex w-full items-center justify-between gap-2 px-5 py-4 text-left transition-colors hover:bg-black/[0.03] dark:hover:bg-white/[0.05]"
       >
         {title}
         <span
           aria-hidden
-          className={`shrink-0 text-slate-400 transition-transform ${open ? "rotate-180" : ""}`}
+          className={`flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-black/5 text-slate-400 transition-transform dark:bg-white/10 ${open ? "rotate-180" : ""}`}
         >
           ▾
         </span>
       </button>
-      {open && children}
+      {open && (
+        <div className="border-t border-black/10 px-5 py-5 dark:border-white/10">
+          {children}
+        </div>
+      )}
     </section>
   );
 }

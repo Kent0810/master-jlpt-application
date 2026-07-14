@@ -196,3 +196,13 @@ export function checkTyping(input: string, reading: string): boolean {
     wanakana.toHiragana(reading) === asKana
   );
 }
+
+export function isQuestionCorrect(
+  question: QuizQuestion,
+  response: string,
+): boolean {
+  if (question.mode === "typing") {
+    return checkTyping(response, question.answer);
+  }
+  return response === question.answer;
+}

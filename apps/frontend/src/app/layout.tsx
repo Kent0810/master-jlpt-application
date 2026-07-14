@@ -6,7 +6,12 @@ import { ServiceWorker } from "@/components/ServiceWorker";
 import { SettingsProvider } from "@/lib/settings/SettingsProvider";
 import { InstallPromptProvider } from "@/lib/pwa/InstallPromptProvider";
 
-const ADSENSE_CLIENT_ID = process.env.NEXT_PUBLIC_ADSENSE_CLIENT_ID;
+// Public publisher ID, not a secret - safe to hardcode as a fallback so
+// AdSense verification/loading works even where NEXT_PUBLIC_ADSENSE_CLIENT_ID
+// isn't set (the env var still wins if someone points it at a different
+// account).
+const ADSENSE_CLIENT_ID =
+  process.env.NEXT_PUBLIC_ADSENSE_CLIENT_ID ?? "ca-pub-9567232763160769";
 
 // Sets data-theme before first paint so there's no flash of the wrong theme
 // (e.g. a dark-OS visitor briefly seeing dark before React hydrates and
@@ -43,6 +48,9 @@ export const metadata: Metadata = {
     apple: "/icon.svg",
   },
   appleWebApp: { capable: true, statusBarStyle: "default", title: "N5 道場" },
+  other: {
+    "google-adsense-account": ADSENSE_CLIENT_ID,
+  },
 };
 
 export const viewport: Viewport = {

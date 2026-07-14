@@ -6,7 +6,7 @@ import * as wanakana from "wanakana";
 import { buildQueue, countDue, type DeckKind } from "@/lib/study/deck";
 import {
   buildQuiz,
-  checkTyping,
+  isQuestionCorrect,
   type QuizMode,
   type QuizQuestion,
 } from "@/lib/quiz/generate";
@@ -16,6 +16,12 @@ import { AdSlot } from "@/components/ads/AdSlot";
 
 type Phase = "pick" | "playing" | "done";
 type SessionSize = 10 | 20 | 50 | "all";
+type GradedQuestion = {
+  question: QuizQuestion;
+  response: string;
+  correct: boolean;
+};
+type ExamResults = { score: number; graded: GradedQuestion[] };
 
 const MODES: { mode: QuizMode; label: string; hint: string }[] = [
   {
@@ -50,9 +56,8 @@ export default function QuizPage() {
     {},
   );
   const [questions, setQuestions] = useState<QuizQuestion[]>([]);
-  const [index, setIndex] = useState(0);
-  const [score, setScore] = useState(0);
-  const [answered, setAnswered] = useState<null | { correct: boolean }>(null);
+  const [responses, setResponses] = useState<Record<string, string>>({});
+  const [results, setResults] = useState<ExamResults | null>(null);
 
   useEffect(() => {
     if (phase !== "pick") return;
@@ -81,43 +86,39 @@ export default function QuizPage() {
     const count = sessionSize === "all" ? pool.length : sessionSize;
     const built = buildQuiz(pool, m, count);
     setMode(m);
-    if (built.length === 0) {
-      setQuestions([]);
-      setPhase("done");
-      return;
-    }
     setQuestions(built);
-    setIndex(0);
-    setScore(0);
-    setAnswered(null);
-    setPhase("playing");
+    setResponses({});
+    setResults(null);
+    setPhase(built.length === 0 ? "done" : "playing");
   }
 
-  async function resolve(correct: boolean, itemId: string) {
-    setAnswered({ correct });
-    if (correct) setScore((s) => s + 1);
-    await reviewItem(itemId, correct ? "good" : "again");
+  function setResponse(itemId: string, value: string) {
+    setResponses((r) => ({ ...r, [itemId]: value }));
   }
 
-  function next() {
-    setAnswered(null);
-    if (index + 1 >= questions.length) setPhase("done");
-    else setIndex((i) => i + 1);
+  async function submit() {
+    const graded: GradedQuestion[] = questions.map((q) => {
+      const response = responses[q.itemId] ?? "";
+      return { question: q, response, correct: isQuestionCorrect(q, response) };
+    });
+    const score = graded.filter((g) => g.correct).length;
+    await Promise.all(
+      graded.map((g) =>
+        reviewItem(g.question.itemId, g.correct ? "good" : "again"),
+      ),
+    );
+    setResults({ score, graded });
+    setPhase("done");
   }
 
   useEffect(() => {
     if (phase !== "playing") return;
     function onKeyDown(e: KeyboardEvent) {
-      if (e.key === "Escape") {
-        setPhase("pick");
-      } else if ((e.key === " " || e.key === "Enter") && answered) {
-        e.preventDefault();
-        next();
-      }
+      if (e.key === "Escape") setPhase("pick");
     }
     window.addEventListener("keydown", onKeyDown);
     return () => window.removeEventListener("keydown", onKeyDown);
-  }, [phase, answered, index, questions.length]);
+  }, [phase]);
 
   if (phase === "pick") {
     return (
@@ -167,31 +168,42 @@ export default function QuizPage() {
   }
 
   if (phase === "done") {
+    const graded = results?.graded ?? [];
+    const score = results?.score ?? 0;
     return (
-      <div className="space-y-6 py-12 text-center">
-        <div className="text-5xl">
-          {questions.length === 0
-            ? "📭"
-            : score >= questions.length * 0.8
-              ? "🏆"
-              : "📓"}
+      <div className="space-y-6 py-8">
+        <div className="space-y-4 text-center">
+          <div className="text-5xl">
+            {graded.length === 0
+              ? "📭"
+              : score >= graded.length * 0.8
+                ? "🏆"
+                : "📓"}
+          </div>
+          <h1 className="text-2xl font-bold">
+            {graded.length > 0 ? `${score} / ${graded.length}` : "Nothing due"}
+          </h1>
+          <p className="text-slate-500">
+            {graded.length > 0
+              ? `${Math.round((score / graded.length) * 100)}% correct`
+              : "No cards are due for this mode right now."}
+          </p>
+          <button
+            onClick={() => setPhase("pick")}
+            className="rounded-2xl bg-brand px-6 py-3 font-semibold text-white"
+          >
+            New quiz
+          </button>
         </div>
-        <h1 className="text-2xl font-bold">
-          {questions.length > 0
-            ? `${score} / ${questions.length}`
-            : "Nothing due"}
-        </h1>
-        <p className="text-slate-500">
-          {questions.length > 0
-            ? `${Math.round((score / questions.length) * 100)}% correct`
-            : "No cards are due for this mode right now."}
-        </p>
-        <button
-          onClick={() => setPhase("pick")}
-          className="rounded-2xl bg-brand px-6 py-3 font-semibold text-white"
-        >
-          New quiz
-        </button>
+
+        {graded.length > 0 && (
+          <div className="space-y-4">
+            {graded.map((g, i) => (
+              <ReviewQuestion key={g.question.itemId} index={i} graded={g} />
+            ))}
+          </div>
+        )}
+
         <div className="mx-auto max-w-sm pt-2">
           <AdSlot placement="sessionDone" />
         </div>
@@ -199,95 +211,87 @@ export default function QuizPage() {
     );
   }
 
-  const q = questions[index];
+  const answeredCount = questions.filter(
+    (question) => (responses[question.itemId] ?? "").length > 0,
+  ).length;
+
   return (
     <div className="space-y-6">
       <div className="flex items-center justify-between text-sm text-slate-500">
         <button onClick={() => setPhase("pick")}>✕ End (Esc)</button>
         <span>
-          {index + 1} / {questions.length} · Score {score}
+          {answeredCount} / {questions.length} answered
         </span>
       </div>
 
-      <QuestionView
-        question={q}
-        answered={answered}
-        onResolve={(correct) => resolve(correct, q.itemId)}
-      />
+      <div className="space-y-6">
+        {questions.map((question, i) => (
+          <AnsweringQuestion
+            key={question.itemId}
+            index={i}
+            question={question}
+            value={responses[question.itemId] ?? ""}
+            onChange={(value) => setResponse(question.itemId, value)}
+          />
+        ))}
+      </div>
 
-      {answered && (
-        <button
-          onClick={next}
-          className="w-full rounded-2xl bg-brand py-3 font-semibold text-white"
-        >
-          {index + 1 >= questions.length ? "See results" : "Next (Space)"}
-        </button>
+      <button
+        onClick={submit}
+        className="w-full rounded-2xl bg-brand py-3 font-semibold text-white"
+      >
+        Submit exam ({answeredCount}/{questions.length} answered)
+      </button>
+    </div>
+  );
+}
+
+function AnsweringQuestion({
+  index,
+  question,
+  value,
+  onChange,
+}: {
+  index: number;
+  question: QuizQuestion;
+  value: string;
+  onChange: (value: string) => void;
+}) {
+  return (
+    <div className="space-y-3 rounded-3xl border border-black/10 p-5 dark:border-white/10">
+      <div className="text-xs font-semibold uppercase tracking-wide text-slate-400">
+        Question {index + 1}
+      </div>
+      {question.mode === "typing" ? (
+        <AnsweringTyping
+          question={question}
+          value={value}
+          onChange={onChange}
+        />
+      ) : (
+        <AnsweringChoice
+          question={question}
+          value={value}
+          onChange={onChange}
+        />
       )}
     </div>
   );
 }
 
-function QuestionView({
+function AnsweringChoice({
   question,
-  answered,
-  onResolve,
+  value,
+  onChange,
 }: {
   question: QuizQuestion;
-  answered: null | { correct: boolean };
-  onResolve: (correct: boolean) => void;
+  value: string;
+  onChange: (value: string) => void;
 }) {
-  if (question.mode === "typing") {
-    return (
-      <TypingQuestion
-        question={question}
-        answered={answered}
-        onResolve={onResolve}
-      />
-    );
-  }
-  return (
-    <ChoiceQuestion
-      question={question}
-      answered={answered}
-      onResolve={onResolve}
-    />
-  );
-}
-
-function ChoiceQuestion({
-  question,
-  answered,
-  onResolve,
-}: {
-  question: QuizQuestion;
-  answered: null | { correct: boolean };
-  onResolve: (correct: boolean) => void;
-}) {
-  const [picked, setPicked] = useState<string | null>(null);
   const isListening = question.mode === "listening";
-
-  useEffect(() => {
-    setPicked(null);
-  }, [question]);
-
-  useEffect(() => {
-    function onKeyDown(e: KeyboardEvent) {
-      if (answered) return;
-      const idx = ["1", "2", "3", "4"].indexOf(e.key);
-      if (idx === -1) return;
-      const opt = question.options?.[idx];
-      if (!opt) return;
-      e.preventDefault();
-      setPicked(opt);
-      onResolve(opt === question.answer);
-    }
-    window.addEventListener("keydown", onKeyDown);
-    return () => window.removeEventListener("keydown", onKeyDown);
-  }, [answered, question, onResolve]);
-
   return (
     <div className="space-y-4">
-      <div className="flex min-h-[120px] flex-col items-center justify-center gap-3 rounded-3xl border border-black/10 p-6 text-center dark:border-white/10">
+      <div className="flex min-h-[100px] flex-col items-center justify-center gap-3 rounded-2xl bg-black/[0.02] p-6 text-center dark:bg-white/[0.03]">
         {isListening ? (
           <AudioButton
             text={question.prompt}
@@ -300,99 +304,120 @@ function ChoiceQuestion({
       </div>
 
       <div className="grid grid-cols-1 gap-2">
-        {question.options!.map((opt, i) => {
-          const isAnswer = opt === question.answer;
-          const isPicked = opt === picked;
-          let cls = "border-black/10 dark:border-white/10 hover:border-brand";
-          if (answered) {
-            if (isAnswer) cls = "border-emerald-500 bg-emerald-500/10";
-            else if (isPicked) cls = "border-rose-500 bg-rose-500/10";
-            else cls = "border-black/10 opacity-60 dark:border-white/10";
-          }
-          return (
-            <button
-              key={opt}
-              disabled={!!answered}
-              onClick={() => {
-                setPicked(opt);
-                onResolve(isAnswer);
-              }}
-              className={`flex items-center gap-3 rounded-2xl border p-4 text-center font-jp text-xl transition-colors ${cls}`}
-            >
-              <span className="text-xs font-sans font-normal opacity-50">
-                {i + 1}
-              </span>
-              <span className="flex-1">{opt}</span>
-            </button>
-          );
-        })}
+        {question.options!.map((opt, i) => (
+          <button
+            key={opt}
+            type="button"
+            onClick={() => onChange(opt)}
+            className={`flex items-center gap-3 rounded-2xl border p-4 text-center font-jp text-xl transition-colors ${
+              value === opt
+                ? "border-brand bg-brand/10"
+                : "border-black/10 hover:border-brand dark:border-white/10"
+            }`}
+          >
+            <span className="text-xs font-sans font-normal opacity-50">
+              {i + 1}
+            </span>
+            <span className="flex-1">{opt}</span>
+          </button>
+        ))}
       </div>
     </div>
   );
 }
 
-function TypingQuestion({
+function AnsweringTyping({
   question,
-  answered,
-  onResolve,
+  value,
+  onChange,
 }: {
   question: QuizQuestion;
-  answered: null | { correct: boolean };
-  onResolve: (correct: boolean) => void;
+  value: string;
+  onChange: (value: string) => void;
 }) {
-  const [value, setValue] = useState("");
   const kanaPreview = wanakana.toHiragana(value.trim().toLowerCase());
-
-  useEffect(() => {
-    setValue("");
-  }, [question]);
-
-  function submit(e: React.FormEvent) {
-    e.preventDefault();
-    if (answered) return;
-    onResolve(checkTyping(value, question.answer));
-  }
-
   return (
-    <form onSubmit={submit} className="space-y-4">
-      <div className="flex min-h-[120px] flex-col items-center justify-center gap-2 rounded-3xl border border-black/10 p-6 text-center dark:border-white/10">
+    <div className="space-y-3">
+      <div className="flex min-h-[100px] flex-col items-center justify-center gap-2 rounded-2xl bg-black/[0.02] p-6 text-center dark:bg-white/[0.03]">
         <span className="font-jp text-4xl">{question.prompt}</span>
         <span className="text-sm text-slate-500">Type the reading</span>
       </div>
       <input
         value={value}
-        onChange={(e) => setValue(e.target.value)}
-        disabled={!!answered}
-        autoFocus
+        onChange={(e) => onChange(e.target.value)}
         autoCapitalize="none"
         autoCorrect="off"
         spellCheck={false}
         placeholder="taberu → たべる"
         className="w-full rounded-2xl border border-black/10 bg-transparent p-4 text-center font-jp text-2xl outline-none focus:border-brand dark:border-white/15"
       />
-      {!answered &&
-        kanaPreview &&
-        kanaPreview !== value.trim().toLowerCase() && (
-          <p className="text-center font-jp text-lg text-slate-500">
-            {kanaPreview}
-          </p>
-        )}
-      {answered ? (
-        <p
-          className={`text-center text-lg font-semibold ${
-            answered.correct ? "text-emerald-500" : "text-rose-500"
-          }`}
-        >
-          {answered.correct ? "Correct!" : `Answer: ${question.answer}`}
+      {kanaPreview && kanaPreview !== value.trim().toLowerCase() && (
+        <p className="text-center font-jp text-lg text-slate-500">
+          {kanaPreview}
         </p>
-      ) : (
-        <button
-          type="submit"
-          className="w-full rounded-2xl bg-brand py-3 font-semibold text-white"
-        >
-          Check
-        </button>
       )}
-    </form>
+    </div>
+  );
+}
+
+function ReviewQuestion({
+  index,
+  graded,
+}: {
+  index: number;
+  graded: GradedQuestion;
+}) {
+  const { question, response, correct } = graded;
+  return (
+    <div className="space-y-3 rounded-3xl border border-black/10 p-5 dark:border-white/10">
+      <div className="flex items-center justify-between text-xs font-semibold uppercase tracking-wide text-slate-400">
+        <span>Question {index + 1}</span>
+        <span className={correct ? "text-emerald-500" : "text-rose-500"}>
+          {correct ? "Correct" : "Incorrect"}
+        </span>
+      </div>
+
+      {question.mode === "listening" ? (
+        <AudioButton
+          text={question.prompt}
+          label="Play the word"
+          className="inline-flex h-12 w-12 items-center justify-center rounded-full bg-brand text-xl text-white"
+        />
+      ) : (
+        <span className="font-jp text-2xl">{question.prompt}</span>
+      )}
+
+      {question.mode === "typing" ? (
+        <div className="space-y-1 text-lg">
+          <p className={correct ? "text-emerald-500" : "text-rose-500"}>
+            Your answer:{" "}
+            <span className="font-jp">{response || "(blank)"}</span>
+          </p>
+          {!correct && (
+            <p className="text-slate-500">
+              Correct: <span className="font-jp">{question.answer}</span>
+            </p>
+          )}
+        </div>
+      ) : (
+        <div className="grid grid-cols-1 gap-2">
+          {question.options!.map((opt) => {
+            const isAnswer = opt === question.answer;
+            const isPicked = opt === response;
+            let cls = "border-black/10 opacity-60 dark:border-white/10";
+            if (isAnswer) cls = "border-emerald-500 bg-emerald-500/10";
+            else if (isPicked) cls = "border-rose-500 bg-rose-500/10";
+            return (
+              <div
+                key={opt}
+                className={`rounded-2xl border p-3 text-center font-jp text-lg ${cls}`}
+              >
+                {opt}
+              </div>
+            );
+          })}
+        </div>
+      )}
+    </div>
   );
 }

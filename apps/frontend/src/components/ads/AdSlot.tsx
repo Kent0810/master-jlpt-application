@@ -8,7 +8,10 @@ declare global {
   }
 }
 
-const CLIENT_ID = process.env.NEXT_PUBLIC_ADSENSE_CLIENT_ID;
+// Public publisher ID, not a secret - matches the fallback in
+// src/app/layout.tsx so ad units render without needing the env var set.
+const CLIENT_ID =
+  process.env.NEXT_PUBLIC_ADSENSE_CLIENT_ID ?? "ca-pub-9567232763160769";
 
 const PLACEMENTS = {
   dashboard: {

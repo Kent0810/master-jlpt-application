@@ -3,8 +3,10 @@ import {
   buildQuestion,
   buildQuiz,
   checkTyping,
+  isQuestionCorrect,
   meaningChoices,
   similarityRank,
+  type QuizQuestion,
 } from "./generate";
 import { initialSrs } from "@/lib/srs/sm2";
 import type { StudyItem } from "@/lib/study/deck";
@@ -205,5 +207,45 @@ describe("checkTyping", () => {
   });
   it("rejects empty input", () => {
     expect(checkTyping("  ", "たべる")).toBe(false);
+  });
+});
+
+describe("isQuestionCorrect", () => {
+  it("matches an exact option for choice modes", () => {
+    const question: QuizQuestion = {
+      itemId: "v1",
+      mode: "meaning",
+      item: {} as StudyItem,
+      prompt: "book",
+      options: ["本", "犬", "猫", "水"],
+      answer: "本",
+    };
+    expect(isQuestionCorrect(question, "本")).toBe(true);
+    expect(isQuestionCorrect(question, "犬")).toBe(false);
+  });
+
+  it("treats a blank response as incorrect for choice modes", () => {
+    const question: QuizQuestion = {
+      itemId: "v1",
+      mode: "reading",
+      item: {} as StudyItem,
+      prompt: "本",
+      options: ["ほん", "いぬ", "ねこ", "みず"],
+      answer: "ほん",
+    };
+    expect(isQuestionCorrect(question, "")).toBe(false);
+  });
+
+  it("accepts romaji or kana for typing mode, via checkTyping", () => {
+    const question: QuizQuestion = {
+      itemId: "v1",
+      mode: "typing",
+      item: {} as StudyItem,
+      prompt: "食べる",
+      answer: "たべる",
+    };
+    expect(isQuestionCorrect(question, "taberu")).toBe(true);
+    expect(isQuestionCorrect(question, "たべる")).toBe(true);
+    expect(isQuestionCorrect(question, "nomu")).toBe(false);
   });
 });

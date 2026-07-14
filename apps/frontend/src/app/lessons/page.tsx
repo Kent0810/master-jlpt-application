@@ -6,6 +6,7 @@ import { getLessonHero, lessonImageSrc } from "@/lib/lessonImages";
 import { getGrammarByLesson, getVocabByLesson } from "@/lib/data";
 import { LEVELS } from "@/lib/levels";
 import { useT, useLang } from "@/lib/i18n";
+import { CollapsibleSection } from "@/components/CollapsibleSection";
 
 const LOCKED_LEVELS = LEVELS.filter((l) => !l.available);
 
@@ -30,13 +31,18 @@ export default function LessonsPage() {
         </p>
       </header>
 
-      <section className="space-y-3">
-        <h2 className="flex items-center gap-2 text-sm font-bold uppercase tracking-wide text-brand">
-          <span className="rounded-full bg-brand/10 px-2.5 py-0.5 dark:bg-brand/20">
-            N5
-          </span>
-          {t("Available now")}
-        </h2>
+      <CollapsibleSection
+        storageKey="lessons.section.N5"
+        defaultOpen
+        title={
+          <h2 className="flex items-center gap-2 text-sm font-bold uppercase tracking-wide text-brand">
+            <span className="rounded-full bg-brand/10 px-2.5 py-0.5 dark:bg-brand/20">
+              N5
+            </span>
+            {t("Available now")}
+          </h2>
+        }
+      >
         <ul className="grid gap-5 sm:grid-cols-2">
           {LESSON_META.map((l) => {
             const words = getVocabByLesson(l.lesson).length;
@@ -87,20 +93,26 @@ export default function LessonsPage() {
             );
           })}
         </ul>
-      </section>
+      </CollapsibleSection>
 
       {LOCKED_LEVELS.map((level) => (
-        <section key={level.level} className="space-y-3">
-          <h2 className="flex items-center gap-2 text-sm font-bold uppercase tracking-wide text-slate-400">
-            <span className="rounded-full bg-black/5 px-2.5 py-0.5 dark:bg-white/10">
-              {level.level}
-            </span>
-            {t("Coming soon")}
-          </h2>
+        <CollapsibleSection
+          key={level.level}
+          storageKey={`lessons.section.${level.level}`}
+          defaultOpen={false}
+          title={
+            <h2 className="flex items-center gap-2 text-sm font-bold uppercase tracking-wide text-slate-400">
+              <span className="rounded-full bg-black/5 px-2.5 py-0.5 dark:bg-white/10">
+                {level.level}
+              </span>
+              {t("Coming soon")}
+            </h2>
+          }
+        >
           <div className="rounded-3xl border border-dashed border-black/15 p-6 text-center text-sm text-slate-400 dark:border-white/15">
             🔒 {t("Lessons for this level are on the way.")}
           </div>
-        </section>
+        </CollapsibleSection>
       ))}
     </div>
   );

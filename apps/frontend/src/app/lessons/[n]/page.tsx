@@ -1,5 +1,6 @@
 "use client";
 
+import { useState } from "react";
 import { useParams, notFound } from "next/navigation";
 import Link from "next/link";
 import {
@@ -8,10 +9,12 @@ import {
   getBookReference,
   LESSON_META,
 } from "@/lib/lessons/lessons";
+import { getVocab } from "@/lib/data";
 import { Reading } from "@/components/Furigana";
 import { Sentence } from "@/components/Sentence";
 import { LessonImageFigure } from "@/components/LessonImage";
 import { getLessonHero } from "@/lib/lessonImages";
+import { AddToListButton } from "@/components/AddToListButton";
 import {
   useT,
   useLang,
@@ -27,6 +30,10 @@ export default function LessonDetailPage() {
   const dialogue = getDialogue(lesson);
   const t = useT();
   const lang = useLang();
+  const [selected, setSelected] = useState<{
+    line: number;
+    word: string;
+  } | null>(null);
   if (!content) return notFound();
 
   const { meta, grammar, vocab } = content;
@@ -172,19 +179,29 @@ export default function LessonDetailPage() {
             {dialogue.lines.map((line, i) => {
               const isReply = line.sp === "B";
               return (
-                <p key={i} className={isReply ? "pl-4" : ""}>
-                  {isReply && <span className="mr-1 font-jp">――</span>}
-                  <Sentence
-                    jp={line.jp}
-                    reading={line.reading}
-                    tokens={line.tokens}
-                    romaji={line.romaji}
-                    className="text-base leading-loose"
-                  />
-                  <span className="ml-2 text-sm text-slate-500 dark:text-slate-400">
-                    {lang === "vi" ? line.vi : line.en}
-                  </span>
-                </p>
+                <div key={i} className={isReply ? "pl-4" : ""}>
+                  <p>
+                    {isReply && <span className="mr-1 font-jp">――</span>}
+                    <Sentence
+                      jp={line.jp}
+                      reading={line.reading}
+                      tokens={line.tokens}
+                      romaji={line.romaji}
+                      className="text-base leading-loose"
+                      onWordSelect={(word) => setSelected({ line: i, word })}
+                      selectedWord={selected?.line === i ? selected.word : null}
+                    />
+                    <span className="ml-2 text-sm text-slate-500 dark:text-slate-400">
+                      {lang === "vi" ? line.vi : line.en}
+                    </span>
+                  </p>
+                  {selected?.line === i && (
+                    <WordLookupCard
+                      word={selected.word}
+                      onClose={() => setSelected(null)}
+                    />
+                  )}
+                </div>
               );
             })}
           </div>
@@ -218,6 +235,55 @@ export default function LessonDetailPage() {
           <span />
         )}
       </nav>
+    </div>
+  );
+}
+
+function WordLookupCard({
+  word,
+  onClose,
+}: {
+  word: string;
+  onClose: () => void;
+}) {
+  const lang = useLang();
+  const t = useT();
+  const vocab = getVocab().find((v) => v.word === word);
+
+  return (
+    <div className="mt-1 flex items-start justify-between gap-3 rounded-xl border border-black/10 bg-black/[0.02] p-3 dark:border-white/10 dark:bg-white/[0.03]">
+      <div className="min-w-0">
+        {vocab ? (
+          <>
+            <div className="font-jp text-lg">
+              <Reading
+                word={vocab.word}
+                reading={vocab.reading}
+                romaji={vocab.romaji}
+              />
+            </div>
+            <p className="text-sm text-slate-500">
+              {pickMeanings(vocab, lang).join(", ")}
+            </p>
+          </>
+        ) : (
+          <p className="text-sm text-slate-400">
+            <span className="font-jp">{word}</span> —{" "}
+            {t("not in the vocabulary list")}
+          </p>
+        )}
+      </div>
+      <div className="flex shrink-0 items-center gap-1">
+        {vocab && <AddToListButton itemId={vocab.id} />}
+        <button
+          type="button"
+          onClick={onClose}
+          aria-label={t("Close")}
+          className="inline-flex h-8 w-8 items-center justify-center rounded-full text-slate-400 hover:text-slate-600 dark:hover:text-slate-300"
+        >
+          ✕
+        </button>
+      </div>
     </div>
   );
 }

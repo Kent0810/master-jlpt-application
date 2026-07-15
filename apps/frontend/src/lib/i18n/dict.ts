@@ -119,6 +119,10 @@ export const VI: Record<string, string> = {
   "not in the vocabulary list": "không có trong danh sách từ vựng",
   "How it's formed": "Cách cấu tạo",
   "Watch out": "Lưu ý",
+  "Q&A": "Hỏi & Đáp",
+  "読み物 · Reading": "読み物 · Bài đọc",
+  Score: "Điểm",
+  "Try again": "Làm lại",
 
   // Lists page
   "Study Lists": "Danh sách học",

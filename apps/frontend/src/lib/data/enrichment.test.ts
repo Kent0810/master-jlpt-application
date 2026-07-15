@@ -23,8 +23,10 @@ function checkAlignment(
   const spans = resolveSpans(text, parts!);
   parts!.forEach((p, i) => {
     if (p !== null) {
-      expect(spans[i], `${label}[${i}]: "${p}" not found in "${text}"`).not
-        .toBeNull();
+      expect(
+        spans[i],
+        `${label}[${i}]: "${p}" not found in "${text}"`,
+      ).not.toBeNull();
     }
   });
 }

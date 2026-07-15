@@ -1,0 +1,271 @@
+[
+  {
+    "lesson": 10,
+    "blocks": [
+      {
+        "kind": "section",
+        "title": { "en": "Part 1 · Existence", "vi": "Phần 1 · Tồn tại" },
+        "subtitle": {
+          "en": "あります for things, います for people & animals",
+          "vi": "あります cho vật, います cho người & động vật"
+        }
+      },
+      {
+        "kind": "grammar",
+        "grammarIds": ["l10_arimasu_imasu"]
+      },
+      {
+        "kind": "dialogue",
+        "style": "conversational",
+        "title": { "en": "In the room", "vi": "Trong phòng" },
+        "lines": [
+          {
+            "sp": "A",
+            "jp": "部屋に何がありますか。",
+            "reading": "へやになにがありますか。",
+            "en": "What is in the room?",
+            "vi": "Trong phòng có gì?",
+            "tokens": [
+              [{ "t": "部屋", "f": "へや" }, { "t": "に" }],
+              [{ "t": "何", "f": "なに" }, { "t": "が" }],
+              [{ "t": "あります" }, { "t": "か。" }]
+            ]
+          },
+          {
+            "sp": "B",
+            "jp": "机と椅子があります。",
+            "reading": "つくえといすがあります。",
+            "en": "There is a desk and a chair.",
+            "vi": "Có một cái bàn và một cái ghế.",
+            "tokens": [
+              [{ "t": "机", "f": "つくえ" }, { "t": "と" }],
+              [{ "t": "椅子", "f": "いす" }, { "t": "が" }],
+              [{ "t": "あります。" }]
+            ]
+          },
+          {
+            "sp": "A",
+            "jp": "猫もいますか。",
+            "reading": "ねこもいますか。",
+            "en": "Is there a cat too?",
+            "vi": "Có cả mèo nữa không?",
+            "tokens": [
+              [{ "t": "猫", "f": "ねこ" }, { "t": "も" }],
+              [{ "t": "います" }, { "t": "か。" }]
+            ]
+          },
+          {
+            "sp": "B",
+            "jp": "はい、猫がいます。",
+            "reading": "はい、ねこがいます。",
+            "en": "Yes, there is a cat.",
+            "vi": "Vâng, có một con mèo.",
+            "tokens": [
+              [{ "t": "はい、" }],
+              [{ "t": "猫", "f": "ねこ" }, { "t": "が" }],
+              [{ "t": "います。" }]
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "exercise",
+        "title": { "en": "Practice · particles & verbs", "vi": "Luyện tập · trợ từ & động từ" },
+        "source": "authored",
+        "items": [
+          {
+            "prompt": "部屋（　）机があります。",
+            "reading": "へや（　）つくえがあります。",
+            "options": ["に", "で", "を", "へ"],
+            "answer": 0,
+            "explanation": {
+              "en": "Existence marks the location with に, never で.",
+              "vi": "Câu tồn tại đánh dấu nơi chốn bằng に, không dùng で."
+            }
+          },
+          {
+            "prompt": "先生が（　）。",
+            "reading": "せんせいが（　）。",
+            "options": ["あります", "います"],
+            "answer": 1,
+            "explanation": {
+              "en": "People take います — あります for a person is a hard error.",
+              "vi": "Người dùng います — dùng あります cho người là lỗi nặng."
+            }
+          },
+          {
+            "prompt": "机の上に本（　）あります。",
+            "reading": "つくえのうえにほん（　）あります。",
+            "options": ["が", "を", "に", "は"],
+            "answer": 0,
+            "explanation": {
+              "en": "The thing that exists is marked with が.",
+              "vi": "Vật tồn tại được đánh dấu bằng が."
+            }
+          }
+        ]
+      },
+      {
+        "kind": "section",
+        "title": { "en": "Part 2 · Position words", "vi": "Phần 2 · Từ chỉ vị trí" },
+        "subtitle": {
+          "en": "上・下・中・前・後ろ — saying where things are",
+          "vi": "上・下・中・前・後ろ — nói đồ vật ở đâu"
+        }
+      },
+      {
+        "kind": "grammar",
+        "grammarIds": ["l10_position"]
+      },
+      {
+        "kind": "dialogue",
+        "style": "paragraph",
+        "title": { "en": "My room", "vi": "Phòng của tôi" },
+        "lines": [
+          {
+            "sp": "",
+            "jp": "私の部屋に机があります。",
+            "reading": "わたしのへやにつくえがあります。",
+            "en": "There is a desk in my room.",
+            "vi": "Trong phòng tôi có một cái bàn.",
+            "tokens": [
+              [{ "t": "私", "f": "わたし" }, { "t": "の" }],
+              [{ "t": "部屋", "f": "へや" }, { "t": "に" }],
+              [{ "t": "机", "f": "つくえ" }, { "t": "が" }],
+              [{ "t": "あります。" }]
+            ]
+          },
+          {
+            "sp": "",
+            "jp": "机の上に本があります。",
+            "reading": "つくえのうえにほんがあります。",
+            "en": "On the desk there are books.",
+            "vi": "Trên bàn có sách.",
+            "tokens": [
+              [{ "t": "机", "f": "つくえ" }, { "t": "の" }],
+              [{ "t": "上", "f": "うえ" }, { "t": "に" }],
+              [{ "t": "本", "f": "ほん" }, { "t": "が" }],
+              [{ "t": "あります。" }]
+            ]
+          },
+          {
+            "sp": "",
+            "jp": "机の下に鞄があります。",
+            "reading": "つくえのしたにかばんがあります。",
+            "en": "Under the desk there is a bag.",
+            "vi": "Dưới bàn có một cái cặp.",
+            "tokens": [
+              [{ "t": "机", "f": "つくえ" }, { "t": "の" }],
+              [{ "t": "下", "f": "した" }, { "t": "に" }],
+              [{ "t": "鞄", "f": "かばん" }, { "t": "が" }],
+              [{ "t": "あります。" }]
+            ]
+          },
+          {
+            "sp": "",
+            "jp": "椅子の前に猫がいます。",
+            "reading": "いすのまえにねこがいます。",
+            "en": "In front of the chair there is a cat.",
+            "vi": "Trước ghế có một con mèo.",
+            "tokens": [
+              [{ "t": "椅子", "f": "いす" }, { "t": "の" }],
+              [{ "t": "前", "f": "まえ" }, { "t": "に" }],
+              [{ "t": "猫", "f": "ねこ" }, { "t": "が" }],
+              [{ "t": "います。" }]
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "dialogue",
+        "style": "qa",
+        "title": { "en": "Where is it?", "vi": "Ở đâu?" },
+        "lines": [
+          {
+            "sp": "Q",
+            "jp": "本はどこにありますか。",
+            "reading": "ほんはどこにありますか。",
+            "en": "Where are the books?",
+            "vi": "Sách ở đâu?",
+            "tokens": [
+              [{ "t": "本", "f": "ほん" }, { "t": "は" }],
+              [{ "t": "どこ" }, { "t": "に" }],
+              [{ "t": "あります" }, { "t": "か。" }]
+            ]
+          },
+          {
+            "sp": "A",
+            "jp": "机の上にあります。",
+            "reading": "つくえのうえにあります。",
+            "en": "They are on the desk.",
+            "vi": "Ở trên bàn.",
+            "tokens": [
+              [{ "t": "机", "f": "つくえ" }, { "t": "の" }],
+              [{ "t": "上", "f": "うえ" }, { "t": "に" }],
+              [{ "t": "あります。" }]
+            ]
+          },
+          {
+            "sp": "Q",
+            "jp": "猫はどこにいますか。",
+            "reading": "ねこはどこにいますか。",
+            "en": "Where is the cat?",
+            "vi": "Con mèo ở đâu?",
+            "tokens": [
+              [{ "t": "猫", "f": "ねこ" }, { "t": "は" }],
+              [{ "t": "どこ" }, { "t": "に" }],
+              [{ "t": "います" }, { "t": "か。" }]
+            ]
+          },
+          {
+            "sp": "A",
+            "jp": "椅子の前にいます。",
+            "reading": "いすのまえにいます。",
+            "en": "It is in front of the chair.",
+            "vi": "Ở trước ghế.",
+            "tokens": [
+              [{ "t": "椅子", "f": "いす" }, { "t": "の" }],
+              [{ "t": "前", "f": "まえ" }, { "t": "に" }],
+              [{ "t": "います。" }]
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "exercise",
+        "title": { "en": "Practice · reading comprehension", "vi": "Luyện tập · đọc hiểu" },
+        "source": "authored",
+        "items": [
+          {
+            "prompt": "本は机の（　）あります。",
+            "reading": "ほんはつくえの（　）あります。",
+            "options": ["上に", "下に", "前に", "中に"],
+            "answer": 0,
+            "explanation": {
+              "en": "The passage says the books are on top of the desk (上).",
+              "vi": "Đoạn văn nói sách ở trên bàn (上)."
+            }
+          },
+          {
+            "prompt": "猫は椅子の（　）います。",
+            "reading": "ねこはいすの（　）います。",
+            "options": ["後ろに", "前に", "中に", "上に"],
+            "answer": 1,
+            "explanation": {
+              "en": "The cat is in front of the chair (前).",
+              "vi": "Con mèo ở trước ghế (前)."
+            }
+          }
+        ]
+      },
+      {
+        "kind": "vocab"
+      },
+      {
+        "kind": "exercise",
+        "title": { "en": "Vocabulary check", "vi": "Kiểm tra từ vựng" },
+        "source": "vocab-auto"
+      }
+    ]
+  }
+]

@@ -35,6 +35,20 @@ function chunkText(chunk: TokenChunk): string {
     .replace(EDGE_PUNCTUATION_RE, "");
 }
 
+// Word-spaced romaji derived from the token chunks: each chunk is romanized from
+// its reading (furigana where present, kana otherwise) and chunks are joined
+// with spaces, so the romaji lines up with the 分かち書き display instead of
+// merging into one run. Used when no explicit `romaji` was authored.
+function tokensRomaji(tokens: TokenChunk[]): string {
+  return tokens
+    .map((chunk) =>
+      wanakana.toRomaji(chunk.map((seg) => seg.f ?? seg.t).join("")),
+    )
+    .join(" ")
+    .replace(/\s+([.,!?])/g, "$1")
+    .trim();
+}
+
 // Renders a sentence in traditional textbook style: word-spaced (分かち書き) with
 // furigana over kanji, and an optional spaced-romaji line below (honouring the
 // Romaji setting). Falls back to whole-string furigana when no tokens exist.
@@ -51,7 +65,13 @@ export function Sentence({
   highlightIndex,
 }: Props) {
   const { showRomaji } = useSettings();
-  const roma = romaji ?? (reading ? wanakana.toRomaji(reading) : "");
+  const roma =
+    romaji ??
+    (tokens && tokens.length > 0
+      ? tokensRomaji(tokens)
+      : reading
+        ? wanakana.toRomaji(reading)
+        : "");
 
   return (
     <span className={className}>

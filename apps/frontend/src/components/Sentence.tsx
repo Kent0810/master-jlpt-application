@@ -35,15 +35,26 @@ function chunkText(chunk: TokenChunk): string {
     .replace(EDGE_PUNCTUATION_RE, "");
 }
 
+// Grammatical particles whose Hepburn romaji differs from their kana spelling.
+// wanakana romanizes は→"ha", へ→"he", を→"wo"; as particles they are wa/e/o.
+// Tokenized sentences keep these as their own single-kana segment, so a lone
+// unfuriganated segment matching one of these is (almost always) the particle.
+const PARTICLE_ROMAJI: Record<string, string> = { は: "wa", へ: "e", を: "o" };
+
+function segmentRomaji(seg: { t: string; f?: string }): string {
+  if (!seg.f && PARTICLE_ROMAJI[seg.t] !== undefined) {
+    return " " + PARTICLE_ROMAJI[seg.t];
+  }
+  return wanakana.toRomaji(seg.f ?? seg.t);
+}
+
 // Word-spaced romaji derived from the token chunks: each chunk is romanized from
 // its reading (furigana where present, kana otherwise) and chunks are joined
 // with spaces, so the romaji lines up with the 分かち書き display instead of
 // merging into one run. Used when no explicit `romaji` was authored.
 function tokensRomaji(tokens: TokenChunk[]): string {
   return tokens
-    .map((chunk) =>
-      wanakana.toRomaji(chunk.map((seg) => seg.f ?? seg.t).join("")),
-    )
+    .map((chunk) => chunk.map(segmentRomaji).join("").trim())
     .join(" ")
     .replace(/\s+([.,!?])/g, "$1")
     .trim();

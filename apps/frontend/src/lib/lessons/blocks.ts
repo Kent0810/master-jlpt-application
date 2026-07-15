@@ -83,10 +83,20 @@ interface RawExerciseBlock {
   items?: AuthoredExerciseItem[];
   vocabIds?: string[];
 }
+// Authored dialogue carries its `lines` inline; a block with `source: "lesson"`
+// (and no lines) pulls the lesson's built-in conversational dialogue, keeping
+// its runtime-attached word alignments.
+interface RawDialogueBlock {
+  kind: "dialogue";
+  style: DialogueStyle;
+  title?: Localized;
+  lines?: DialogueLine[];
+  source?: "lesson";
+}
 type RawLessonBlock =
   | SectionBlock
   | RawGrammarBlock
-  | DialogueBlock
+  | RawDialogueBlock
   | RawVocabBlock
   | RawExerciseBlock;
 
@@ -136,7 +146,24 @@ function resolveBlock(raw: RawLessonBlock, lesson: number): LessonBlock {
             ? resolveVocab(raw.vocabIds, lesson)
             : undefined,
       };
-    // section and dialogue blocks carry their content inline — nothing to resolve.
+    case "dialogue": {
+      if (raw.lines && raw.lines.length > 0) {
+        return {
+          kind: "dialogue",
+          style: raw.style,
+          title: raw.title,
+          lines: raw.lines,
+        };
+      }
+      const d = getDialogue(lesson);
+      return {
+        kind: "dialogue",
+        style: raw.style,
+        title: raw.title,
+        lines: d ? d.lines : [],
+      };
+    }
+    // section blocks carry their content inline — nothing to resolve.
     default:
       return raw;
   }
@@ -144,7 +171,7 @@ function resolveBlock(raw: RawLessonBlock, lesson: number): LessonBlock {
 
 // Fallback layout for lessons without an authored one: the classic sections in
 // the new order (dialogue before vocab), capped with an auto vocab exercise.
-function synthesizeDefault(lesson: number): LessonBlock[] {
+export function synthesizeDefault(lesson: number): LessonBlock[] {
   const blocks: LessonBlock[] = [];
   const grammar = getGrammarByLesson(lesson);
   const vocab = getVocabByLesson(lesson);

@@ -392,6 +392,27 @@ function WordLookupCard({
   );
 }
 
+// Highlights example fragments inside a pitfall string: parenthesized groups
+function renderPitfall(text: string) {
+  const parts = text.split(/([（(][^）)]*[✗✓][^）)]*[）)])/g);
+  return parts.map((part, i) => {
+    if (!/[✗✓]/.test(part)) return <span key={i}>{part}</span>;
+    const isWrong = part.includes("✗");
+    return (
+      <span
+        key={i}
+        className={`rounded px-1 font-medium ${
+          isWrong
+            ? "bg-rose-500/10 text-rose-600 dark:text-rose-400"
+            : "bg-emerald-500/10 text-emerald-700 dark:text-emerald-400"
+        }`}
+      >
+        {part}
+      </span>
+    );
+  });
+}
+
 // Collapsible in-depth explanation under a grammar point: usage paragraphs,
 // a formation box, and common-mistake callouts.
 function GrammarDetailBlock({
@@ -445,17 +466,26 @@ function GrammarDetailBlock({
             </div>
           )}
           {detail.pitfalls.length > 0 && (
-            <div>
-              <p className="text-xs font-semibold uppercase tracking-wide text-slate-400">
-                {t("Watch out")}
-              </p>
-              <ul className="mt-1 space-y-1.5">
+            <div className="rounded-xl border border-amber-300/60 bg-amber-50/80 p-3 dark:border-amber-500/25 dark:bg-amber-500/[0.07]">
+              <div className="flex items-center gap-1.5">
+                <span aria-hidden className="text-sm leading-none">
+                  ⚠️
+                </span>
+                <p className="text-xs font-bold uppercase tracking-wide text-amber-700 dark:text-amber-400">
+                  {t("Watch out")}
+                </p>
+              </div>
+              <ul className="mt-2 space-y-2">
                 {detail.pitfalls.map((p, i) => (
-                  <li key={i} className="flex gap-2">
-                    <span aria-hidden className="shrink-0">
-                      ⚠️
-                    </span>
-                    <span>{p}</span>
+                  <li
+                    key={i}
+                    className="flex gap-2.5 text-sm leading-relaxed text-slate-700 dark:text-slate-200"
+                  >
+                    <span
+                      aria-hidden
+                      className="mt-[0.45rem] h-1.5 w-1.5 shrink-0 rounded-full bg-amber-500 dark:bg-amber-400"
+                    />
+                    <span>{renderPitfall(p)}</span>
                   </li>
                 ))}
               </ul>

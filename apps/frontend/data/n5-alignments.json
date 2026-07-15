@@ -1,0 +1,5450 @@
+{
+ "d1:0": {
+  "en": [
+   "Nice to meet you",
+   "I'm Linh",
+   "from Vietnam",
+   "came"
+  ],
+  "vi": [
+   "Rất vui được gặp bạn",
+   "Tôi là Linh",
+   "từ Việt Nam",
+   "đến"
+  ]
+ },
+ "d1:1": {
+  "en": [
+   "Nice to meet you",
+   "I'm Tanaka",
+   null,
+   "It's a pleasure"
+  ],
+  "vi": [
+   "Rất vui được gặp bạn",
+   "Tôi là Tanaka",
+   null,
+   "Rất mong được giúp đỡ"
+  ]
+ },
+ "d1:2": {
+  "en": [
+   "Mr. Tanaka",
+   "are you Japanese"
+  ],
+  "vi": [
+   "Anh Tanaka",
+   "là người Nhật phải không"
+  ]
+ },
+ "d1:3": {
+  "en": [
+   "Yes",
+   "I am",
+   "from Osaka",
+   "office worker"
+  ],
+  "vi": [
+   "Vâng",
+   "tôi là người Nhật",
+   "ở Osaka",
+   "nhân viên công ty"
+  ]
+ },
+ "d1:4": {
+  "en": [
+   "I see",
+   "I'm",
+   null,
+   "in the N5 class",
+   "student"
+  ],
+  "vi": [
+   "Vậy à",
+   "Tôi",
+   null,
+   "của lớp N5",
+   "là học viên"
+  ]
+ },
+ "d1:5": {
+  "en": [
+   "Linh",
+   null,
+   "are you twenty years old"
+  ],
+  "vi": [
+   "Linh",
+   null,
+   "20 tuổi phải không"
+  ]
+ },
+ "d1:6": {
+  "en": [
+   "No",
+   null,
+   "I'm not twenty",
+   null,
+   "I'm nineteen"
+  ],
+  "vi": [
+   "Không",
+   null,
+   "tôi không phải 20 tuổi",
+   null,
+   "Tôi 19 tuổi"
+  ]
+ },
+ "d1:7": {
+  "en": [
+   "I see",
+   "you also",
+   "this",
+   "school",
+   "new",
+   "student"
+  ],
+  "vi": [
+   "Vậy à",
+   "Linh cũng",
+   "này",
+   "của trường",
+   "mới",
+   "là học viên"
+  ]
+ },
+ "d1:8": {
+  "en": [
+   "Yes",
+   "I am",
+   "you also",
+   "this",
+   "school",
+   null
+  ],
+  "vi": [
+   "Vâng",
+   "đúng vậy",
+   "Anh Tanaka cũng",
+   "này",
+   "của trường",
+   "là người"
+  ]
+ },
+ "d1:9": {
+  "en": [
+   "Yes",
+   "I am",
+   null,
+   null,
+   null,
+   "I'm not a teacher, but",
+   "office",
+   "work"
+  ],
+  "vi": [
+   "Vâng",
+   "tôi cũng",
+   "này",
+   "ở trường",
+   "làm",
+   "Tôi không phải giáo viên, mà",
+   "hành chính",
+   "công việc"
+  ]
+ },
+ "d1:10": {
+  "en": [
+   "I see",
+   "Then",
+   "from now on",
+   "many things",
+   "please teach me"
+  ],
+  "vi": [
+   "Vậy à",
+   null,
+   "Từ giờ",
+   "nhiều điều",
+   "xin hãy chỉ cho tôi"
+  ]
+ },
+ "d1:11": {
+  "en": [
+   null,
+   "Of course",
+   "too",
+   "I look forward to working with you",
+   null,
+   null
+  ],
+  "vi": [
+   "Vâng",
+   "tất nhiên rồi",
+   "Tôi cũng",
+   "rất mong được giúp đỡ bạn",
+   null,
+   null
+  ]
+ },
+ "d2:0": {
+  "en": [
+   "Excuse me",
+   "this",
+   "notebook",
+   "whose"
+  ],
+  "vi": [
+   "Xin lỗi",
+   "này",
+   "cuốn sổ",
+   "của ai"
+  ]
+ },
+ "d2:1": {
+  "en": [
+   "That",
+   "blue",
+   "notebook",
+   "mine",
+   null,
+   "isn't"
+  ],
+  "vi": [
+   "đó",
+   "màu xanh",
+   "Quyển sổ",
+   "của tôi",
+   null,
+   "Không phải"
+  ]
+ },
+ "d2:2": {
+  "en": [
+   "Then",
+   "this",
+   "umbrella",
+   "Yamada's"
+  ],
+  "vi": [
+   "Vậy",
+   "này",
+   "cái ô",
+   "của anh Yamada"
+  ]
+ },
+ "d2:3": {
+  "en": [
+   "No",
+   "that",
+   "Yamada's",
+   null,
+   "isn't"
+  ],
+  "vi": [
+   "Không",
+   "cái đó cũng",
+   "của anh Yamada",
+   null,
+   "không phải"
+  ]
+ },
+ "d2:4": {
+  "en": [
+   "that",
+   "What's",
+   "the door",
+   "by",
+   "white",
+   "box"
+  ],
+  "vi": [
+   "Kia",
+   "là gì vậy",
+   "cửa",
+   "cạnh",
+   "trắng",
+   "Cái hộp"
+  ]
+ },
+ "d2:5": {
+  "en": [
+   "That's",
+   "copy",
+   "paper"
+  ],
+  "vi": [
+   "Đó là",
+   "photo",
+   "giấy"
+  ]
+ },
+ "d2:6": {
+  "en": [
+   "I see",
+   "Then",
+   "this",
+   "pencil",
+   "yours"
+  ],
+  "vi": [
+   "Vậy à",
+   "Thế",
+   "này",
+   "cây bút chì",
+   "của bạn"
+  ]
+ },
+ "d2:7": {
+  "en": [
+   "Yes",
+   "that's",
+   "mine",
+   "Thank you"
+  ],
+  "vi": [
+   "Vâng",
+   "đó là",
+   "của tôi",
+   "Cảm ơn bạn"
+  ]
+ },
+ "d2:8": {
+  "en": [
+   "You're welcome",
+   "Then",
+   "that",
+   "key",
+   "whose"
+  ],
+  "vi": [
+   "Không có gì",
+   "Vậy",
+   "kia",
+   "chiếc chìa khóa",
+   "của ai"
+  ]
+ },
+ "d2:9": {
+  "en": [
+   "That",
+   "small",
+   "key",
+   "probably",
+   "Kimura's",
+   "Professor"
+  ],
+  "vi": [
+   "kia",
+   "nhỏ",
+   "Chiếc chìa khóa",
+   "Chắc",
+   "Kimura",
+   "của thầy"
+  ]
+ },
+ "d2:10": {
+  "en": [
+   null,
+   "inside this bag",
+   "The memo",
+   "Kimura's",
+   "Professor"
+  ],
+  "vi": [
+   null,
+   "trong chiếc cặp này",
+   "Tờ ghi chú",
+   "Kimura",
+   "của thầy"
+  ]
+ },
+ "d2:11": {
+  "en": [
+   "Really",
+   "Then",
+   "this",
+   "key",
+   "the teacher's"
+  ],
+  "vi": [
+   "Thật à",
+   "Vậy",
+   "này",
+   "chiếc chìa khóa",
+   "của thầy"
+  ]
+ },
+ "d3:0": {
+  "en": [
+   "Excuse me",
+   "the restroom",
+   "where is"
+  ],
+  "vi": [
+   "Xin lỗi",
+   "nhà vệ sinh",
+   "ở đâu"
+  ]
+ },
+ "d3:1": {
+  "en": [
+   "It's over there",
+   "the elevator",
+   "next to"
+  ],
+  "vi": [
+   "Ở đằng kia",
+   "thang máy",
+   "cạnh"
+  ]
+ },
+ "d3:2": {
+  "en": [
+   "that",
+   "room",
+   "the library"
+  ],
+  "vi": [
+   "kia",
+   "Căn phòng",
+   "là thư viện"
+  ]
+ },
+ "d3:3": {
+  "en": [
+   "No",
+   "that",
+   "isn't the library",
+   "the teachers'",
+   "room"
+  ],
+  "vi": [
+   "Không",
+   "đó",
+   "không phải thư viện",
+   "giáo viên",
+   "phòng"
+  ]
+ },
+ "d3:4": {
+  "en": [
+   "Then",
+   "the library",
+   "where is"
+  ],
+  "vi": [
+   "Vậy",
+   "thư viện",
+   "ở đâu"
+  ]
+ },
+ "d3:5": {
+  "en": [
+   "It's on the second floor",
+   "from here",
+   "Go straight",
+   "on the right",
+   null
+  ],
+  "vi": [
+   "Ở tầng hai",
+   "Từ đây",
+   "đi thẳng",
+   "bên phải",
+   null
+  ]
+ },
+ "d3:6": {
+  "en": [
+   "Thank you",
+   "over there",
+   "people",
+   "a lot of",
+   "There are"
+  ],
+  "vi": [
+   "Cảm ơn",
+   "Ở đằng kia",
+   "người",
+   "rất nhiều",
+   "có"
+  ]
+ },
+ "d3:7": {
+  "en": [
+   "Yes",
+   "that's",
+   "the cafeteria",
+   "At lunchtime",
+   "people",
+   "many"
+  ],
+  "vi": [
+   "Vâng",
+   "đó là",
+   "nhà ăn",
+   "Buổi trưa",
+   "người",
+   "rất đông"
+  ]
+ },
+ "d3:8": {
+  "en": [
+   "this",
+   "new",
+   "school"
+  ],
+  "vi": [
+   "Đây là",
+   "mới",
+   "trường"
+  ]
+ },
+ "d3:9": {
+  "en": [
+   "Yes",
+   "very",
+   "new",
+   "a computer room",
+   "There is"
+  ],
+  "vi": [
+   "Vâng",
+   "rất",
+   "mới",
+   "phòng máy tính",
+   "có"
+  ]
+ },
+ "d3:10": {
+  "en": [
+   "the reception desk",
+   "on the first floor"
+  ],
+  "vi": [
+   "Quầy tiếp tân",
+   "ở tầng một"
+  ]
+ },
+ "d3:11": {
+  "en": [
+   "Yes",
+   "the entrance",
+   "near",
+   "right away",
+   "You'll find it"
+  ],
+  "vi": [
+   "Vâng",
+   "lối vào",
+   "ở gần",
+   "ngay",
+   "Bạn sẽ nhận ra"
+  ]
+ },
+ "d4:0": {
+  "en": [
+   "every morning",
+   "What time",
+   "get up"
+  ],
+  "vi": [
+   "Mỗi sáng",
+   "lúc mấy giờ",
+   "thức dậy"
+  ]
+ },
+ "d4:1": {
+  "en": [
+   "at six thirty",
+   "get up"
+  ],
+  "vi": [
+   "lúc 6 giờ rưỡi",
+   "dậy"
+  ]
+ },
+ "d4:2": {
+  "en": [
+   "That's early",
+   "after that",
+   "What",
+   "do you do"
+  ],
+  "vi": [
+   "Sớm nhỉ",
+   "Sau đó",
+   "gì",
+   "làm"
+  ]
+ },
+ "d4:3": {
+  "en": [
+   "a shower",
+   "take",
+   "Then",
+   null,
+   "breakfast",
+   "eat"
+  ],
+  "vi": [
+   "vòi sen",
+   "tắm",
+   "Sau đó",
+   "sáng",
+   null,
+   "ăn"
+  ]
+ },
+ "d4:4": {
+  "en": [
+   "work",
+   "What time"
+  ],
+  "vi": [
+   "Công ty",
+   "lúc mấy giờ"
+  ]
+ },
+ "d4:5": {
+  "en": [
+   "It starts at nine",
+   "at eight",
+   "home",
+   "leave"
+  ],
+  "vi": [
+   "Bắt đầu từ 9 giờ",
+   "lúc 8 giờ",
+   "nhà",
+   "rời"
+  ]
+ },
+ "d4:6": {
+  "en": [
+   "How",
+   "to work",
+   "go"
+  ],
+  "vi": [
+   "bằng gì",
+   "làm",
+   "đi"
+  ]
+ },
+ "d4:7": {
+  "en": [
+   "by bus",
+   "to the station",
+   "I go",
+   "From the station",
+   "by train",
+   "I go"
+  ],
+  "vi": [
+   "xe buýt",
+   "đến ga",
+   "Tôi đi",
+   "Từ ga",
+   "tàu điện",
+   "tôi đi"
+  ]
+ },
+ "d4:8": {
+  "en": [
+   "your lunch break",
+   "What time",
+   null
+  ],
+  "vi": [
+   "Giờ nghỉ trưa",
+   "từ mấy giờ",
+   "đến mấy giờ"
+  ]
+ },
+ "d4:9": {
+  "en": [
+   null,
+   "From twelve",
+   "to one",
+   "Sometimes",
+   "with friends",
+   "I eat"
+  ],
+  "vi": [
+   null,
+   "Từ 12 giờ",
+   "đến 1 giờ",
+   "Thỉnh thoảng",
+   "cùng bạn bè",
+   "tôi ăn"
+  ]
+ },
+ "d4:10": {
+  "en": [
+   "at night",
+   "What time",
+   "go home"
+  ],
+  "vi": [
+   "Buổi tối",
+   "lúc mấy giờ",
+   "về nhà"
+  ]
+ },
+ "d4:11": {
+  "en": [
+   "usually",
+   "at seven",
+   "go home",
+   "But",
+   "on Fridays",
+   "around eight"
+  ],
+  "vi": [
+   "Thường",
+   "lúc 7 giờ",
+   "tôi về",
+   "Nhưng",
+   "thứ Sáu",
+   "khoảng 8 giờ"
+  ]
+ },
+ "d5:0": {
+  "en": [
+   "this",
+   "Sunday",
+   "to Kyoto",
+   "going"
+  ],
+  "vi": [
+   "tới",
+   "Chủ nhật",
+   "Kyoto",
+   "đi"
+  ]
+ },
+ "d5:1": {
+  "en": [
+   "Yes",
+   "with a friend",
+   "I'm going"
+  ],
+  "vi": [
+   "Vâng",
+   "cùng bạn",
+   "tôi đi"
+  ]
+ },
+ "d5:2": {
+  "en": [
+   "How",
+   "will you go"
+  ],
+  "vi": [
+   "bằng gì",
+   "đi"
+  ]
+ },
+ "d5:3": {
+  "en": [
+   "by bullet train",
+   "I'll go",
+   "in the morning",
+   "the seven o'clock one",
+   "I'll take"
+  ],
+  "vi": [
+   "bằng shinkansen",
+   "Tôi sẽ đi",
+   "sáng",
+   "chuyến 7 giờ",
+   "sẽ lên"
+  ]
+ },
+ "d5:4": {
+  "en": [
+   "in Kyoto",
+   "What",
+   "will you do"
+  ],
+  "vi": [
+   "ở Kyoto",
+   "gì",
+   "làm"
+  ]
+ },
+ "d5:5": {
+  "en": [
+   "temples",
+   "I'll look at",
+   "Then",
+   "in the park",
+   "I'll walk"
+  ],
+  "vi": [
+   "chùa",
+   "xem",
+   "Sau đó",
+   "trong công viên",
+   "đi bộ"
+  ]
+ },
+ "d5:6": {
+  "en": [
+   "lunch",
+   "Who",
+   "have"
+  ],
+  "vi": [
+   "Buổi trưa",
+   "với ai",
+   "ăn"
+  ]
+ },
+ "d5:7": {
+  "en": [
+   "in Kyoto",
+   "with a friend",
+   "I'll eat"
+  ],
+  "vi": [
+   "ở Kyoto",
+   "với một người bạn",
+   "ăn"
+  ]
+ },
+ "d5:8": {
+  "en": [
+   "What time",
+   "to Tokyo",
+   "return"
+  ],
+  "vi": [
+   "lúc mấy giờ",
+   "Tokyo",
+   "về"
+  ]
+ },
+ "d5:9": {
+  "en": [
+   "at night",
+   "around nine",
+   "I'll come back"
+  ],
+  "vi": [
+   "tối",
+   "khoảng 9 giờ",
+   "về"
+  ]
+ },
+ "d5:10": {
+  "en": [
+   "Sounds nice",
+   "I'm also",
+   "next week",
+   "with my older sister",
+   "to Osaka",
+   "going"
+  ],
+  "vi": [
+   "Hay quá",
+   "tôi cũng",
+   "Tuần sau",
+   "với chị gái",
+   "Osaka",
+   "đi"
+  ]
+ },
+ "d5:11": {
+  "en": [
+   "I see",
+   "fun",
+   "trip"
+  ],
+  "vi": [
+   "Vậy à",
+   "vui",
+   "Chuyến đi"
+  ]
+ },
+ "d6:0": {
+  "en": [
+   "this",
+   "afternoon",
+   "What",
+   "are you doing"
+  ],
+  "vi": [
+   "nay",
+   "Chiều",
+   "gì",
+   "làm"
+  ]
+ },
+ "d6:1": {
+  "en": [
+   "at the library",
+   "a report",
+   "write"
+  ],
+  "vi": [
+   "ở thư viện",
+   "báo cáo",
+   "viết"
+  ]
+ },
+ "d6:2": {
+  "en": [
+   "I see",
+   "your report",
+   "After",
+   "together",
+   null,
+   "lunch",
+   "would you like to have"
+  ],
+  "vi": [
+   "Vậy à",
+   "viết báo cáo",
+   "Sau khi",
+   "cùng tôi",
+   "trưa",
+   null,
+   "ăn"
+  ]
+ },
+ "d6:3": {
+  "en": [
+   "Sounds good",
+   "Where",
+   "eat"
+  ],
+  "vi": [
+   "Được đấy",
+   "ở đâu",
+   "ăn"
+  ]
+ },
+ "d6:4": {
+  "en": [
+   "in front of the station",
+   "small",
+   "restaurant",
+   "Let's eat"
+  ],
+  "vi": [
+   "trước ga",
+   "nhỏ",
+   "ở nhà hàng",
+   "Hãy ăn"
+  ]
+ },
+ "d6:5": {
+  "en": [
+   "there",
+   "The curry",
+   "good"
+  ],
+  "vi": [
+   "ở đó",
+   "Cà ri",
+   "ngon"
+  ]
+ },
+ "d6:6": {
+  "en": [
+   "Yes",
+   "I",
+   "always",
+   "the curry",
+   "eat"
+  ],
+  "vi": [
+   "Vâng",
+   "tôi",
+   "Lúc nào",
+   "cà ri",
+   "ăn"
+  ]
+ },
+ "d6:7": {
+  "en": [
+   "I'll",
+   "a sandwich",
+   "have"
+  ],
+  "vi": [
+   "Tôi sẽ",
+   "sandwich",
+   "ăn"
+  ]
+ },
+ "d6:8": {
+  "en": [
+   null,
+   "lunch",
+   "After",
+   "at the supermarket",
+   "some shopping",
+   "would you like to do"
+  ],
+  "vi": [
+   "trưa",
+   "bữa",
+   "Sau",
+   "ở siêu thị",
+   "mua sắm",
+   "bạn có muốn đi"
+  ]
+ },
+ "d6:9": {
+  "en": [
+   "Sorry",
+   "that",
+   "after",
+   "a part-time job",
+   "I have"
+  ],
+  "vi": [
+   "Xin lỗi",
+   "đó",
+   "sau",
+   "ca làm thêm",
+   "tôi có"
+  ]
+ },
+ "d6:10": {
+  "en": [
+   "I see",
+   "Then",
+   "instead",
+   "tomorrow",
+   "a movie",
+   "would you like to watch"
+  ],
+  "vi": [
+   "Vậy à",
+   "Thế",
+   null,
+   "mai",
+   "phim",
+   "xem"
+  ]
+ },
+ "d6:11": {
+  "en": [
+   "Yes",
+   "definitely",
+   "at six",
+   "at the station",
+   "Let's meet"
+  ],
+  "vi": [
+   "Vâng",
+   "rất muốn",
+   "lúc 6 giờ",
+   "ở ga",
+   "Hãy gặp nhau"
+  ]
+ },
+ "d7:0": {
+  "en": [
+   "That",
+   "pencil",
+   "case",
+   "cute",
+   "Who",
+   "gave it to you"
+  ],
+  "vi": [
+   "đó",
+   "bút",
+   "Hộp",
+   "dễ thương",
+   "Ai",
+   "tặng bạn"
+  ]
+ },
+ "d7:1": {
+  "en": [
+   "My older sister",
+   "gave it to me",
+   "birthday",
+   "present"
+  ],
+  "vi": [
+   "chị gái",
+   "Tôi được",
+   "sinh nhật",
+   "quà"
+  ]
+ },
+ "d7:2": {
+  "en": [
+   "I see",
+   "What",
+   "letters",
+   "write"
+  ],
+  "vi": [
+   "Vậy à",
+   "bằng gì",
+   "thư",
+   "viết"
+  ]
+ },
+ "d7:3": {
+  "en": [
+   "this",
+   "blue",
+   "pen",
+   "I write",
+   "you",
+   "often",
+   "letters",
+   "write"
+  ],
+  "vi": [
+   "này",
+   "màu xanh",
+   "cây bút",
+   "Tôi viết",
+   "Bạn",
+   "thường",
+   "thư",
+   "viết"
+  ]
+ },
+ "d7:4": {
+  "en": [
+   "Yes",
+   "sometimes",
+   null,
+   "Last week",
+   "to a friend",
+   "a picture book",
+   "I gave"
+  ],
+  "vi": [
+   "Vâng",
+   "thỉnh thoảng",
+   null,
+   "Tuần trước",
+   "cho bạn",
+   "một cuốn sách tranh",
+   "tôi đã tặng"
+  ]
+ },
+ "d7:5": {
+  "en": [
+   "Oh",
+   "that",
+   "friend",
+   "What",
+   "give you"
+  ],
+  "vi": [
+   "Ồ",
+   "đó",
+   "Người bạn",
+   "gì",
+   "đã tặng bạn"
+  ]
+ },
+ "d7:6": {
+  "en": [
+   "pretty",
+   "bookmark",
+   "She gave me"
+  ],
+  "vi": [
+   "đẹp",
+   "chiếc đánh dấu sách",
+   "Bạn ấy đã tặng tôi"
+  ]
+ },
+ "d7:7": {
+  "en": [
+   "That's nice",
+   "already",
+   "Have you used it"
+  ],
+  "vi": [
+   "Hay nhỉ",
+   "rồi",
+   "dùng nó"
+  ]
+ },
+ "d7:8": {
+  "en": [
+   "Yes",
+   "already",
+   "used it",
+   "my book",
+   "between",
+   "It's tucked"
+  ],
+  "vi": [
+   "Vâng",
+   "rồi",
+   "tôi dùng",
+   "cuốn sách",
+   "trong",
+   "đang được kẹp"
+  ]
+ },
+ "d7:9": {
+  "en": [
+   "I",
+   "haven't yet",
+   "tonight",
+   "my sister",
+   "call",
+   null
+  ],
+  "vi": [
+   "Còn tôi",
+   "thì chưa",
+   "Tối nay",
+   "cho chị gái",
+   "gọi điện",
+   null
+  ]
+ },
+ "d7:10": {
+  "en": [
+   "That's",
+   "a good idea",
+   "I'm sure",
+   "your sister",
+   "will be happy"
+  ],
+  "vi": [
+   null,
+   "Ý hay đấy",
+   "Chắc",
+   "chị gái bạn",
+   "sẽ vui lắm"
+  ]
+ },
+ "d7:11": {
+  "en": [
+   "Yes",
+   "a photo",
+   "by smartphone",
+   "I'll send"
+  ],
+  "vi": [
+   "Vâng",
+   "ảnh",
+   "bằng điện thoại",
+   "sẽ gửi"
+  ]
+ },
+ "d8:0": {
+  "en": [
+   "new",
+   "apartment",
+   "How is"
+  ],
+  "vi": [
+   "mới",
+   "Căn hộ",
+   "thế nào"
+  ]
+ },
+ "d8:1": {
+  "en": [
+   "very",
+   "quiet",
+   "clean"
+  ],
+  "vi": [
+   "rất",
+   "yên tĩnh",
+   "sạch sẽ"
+  ]
+ },
+ "d8:2": {
+  "en": [
+   "Oh",
+   "the room",
+   "spacious"
+  ],
+  "vi": [
+   "Ồ",
+   "phòng",
+   "rộng"
+  ]
+ },
+ "d8:3": {
+  "en": [
+   "No",
+   null,
+   "it's not very spacious",
+   "But",
+   "it's bright"
+  ],
+  "vi": [
+   "Không",
+   null,
+   "không rộng lắm",
+   "Nhưng",
+   "sáng sủa"
+  ]
+ },
+ "d8:4": {
+  "en": [
+   "the kitchen",
+   "convenient"
+  ],
+  "vi": [
+   "Nhà bếp",
+   "có tiện"
+  ]
+ },
+ "d8:5": {
+  "en": [
+   "Yes",
+   "it is",
+   "The refrigerator",
+   null,
+   "big"
+  ],
+  "vi": [
+   "Vâng",
+   "tiện lắm",
+   "Tủ lạnh",
+   null,
+   "lớn"
+  ]
+ },
+ "d8:6": {
+  "en": [
+   "to the station",
+   "close"
+  ],
+  "vi": [
+   "ga",
+   "gần"
+  ]
+ },
+ "d8:7": {
+  "en": [
+   "Yes",
+   "it's close, but",
+   "the supermarket",
+   "a little",
+   "far"
+  ],
+  "vi": [
+   "Vâng",
+   "gần ga, nhưng",
+   "siêu thị",
+   "hơi",
+   "xa"
+  ]
+ },
+ "d8:8": {
+  "en": [
+   "the rent",
+   "expensive"
+  ],
+  "vi": [
+   "Tiền thuê",
+   "có đắt"
+  ]
+ },
+ "d8:9": {
+  "en": [
+   "No",
+   null,
+   "it's not that expensive",
+   "to students",
+   "kind",
+   "an apartment"
+  ],
+  "vi": [
+   "Không",
+   null,
+   "không đắt lắm",
+   "với sinh viên",
+   "dễ chịu",
+   "căn hộ"
+  ]
+ },
+ "d8:10": {
+  "en": [
+   "Nice",
+   "the landlord",
+   "kind"
+  ],
+  "vi": [
+   "Hay đấy",
+   "Chủ nhà",
+   "tốt bụng"
+  ]
+ },
+ "d8:11": {
+  "en": [
+   "Yes",
+   "very",
+   "kind",
+   "So",
+   "I feel at ease"
+  ],
+  "vi": [
+   "Vâng",
+   "rất",
+   "tốt bụng",
+   "Vì thế",
+   "tôi thấy yên tâm"
+  ]
+ },
+ "d9:0": {
+  "en": [
+   "Yamada",
+   "What kind",
+   "music",
+   "do you like"
+  ],
+  "vi": [
+   "Yamada",
+   "nào",
+   "nhạc",
+   "thích"
+  ]
+ },
+ "d9:1": {
+  "en": [
+   "jazz",
+   "I like",
+   "calm",
+   "stylish"
+  ],
+  "vi": [
+   "nhạc jazz",
+   "Tôi thích",
+   "yên",
+   "sang"
+  ]
+ },
+ "d9:2": {
+  "en": [
+   "I see",
+   "sports",
+   "Do you like"
+  ],
+  "vi": [
+   "Vậy à",
+   "thể thao",
+   "thích"
+  ]
+ },
+ "d9:3": {
+  "en": [
+   "Yes",
+   "tennis",
+   "I like",
+   "But",
+   "baseball",
+   "very well",
+   "I don't understand"
+  ],
+  "vi": [
+   "Vâng",
+   "quần vợt",
+   "tôi thích",
+   "Nhưng",
+   "bóng chày",
+   "lắm",
+   "tôi không hiểu"
+  ]
+ },
+ "d9:4": {
+  "en": [
+   "I",
+   "baseball",
+   "love",
+   "the rules",
+   "simple"
+  ],
+  "vi": [
+   "Tôi",
+   "bóng chày",
+   "rất thích",
+   "luật",
+   "đơn giản"
+  ]
+ },
+ "d9:5": {
+  "en": [
+   "Oh",
+   "Japanese",
+   "teams",
+   "the names",
+   "do you know"
+  ],
+  "vi": [
+   "Ồ",
+   "Nhật",
+   "các đội",
+   "tên",
+   "biết"
+  ]
+ },
+ "d9:6": {
+  "en": [
+   "Yes",
+   "a little",
+   "I know",
+   "on TV",
+   "watch"
+  ],
+  "vi": [
+   "Vâng",
+   "một chút",
+   "tôi biết",
+   "trên TV",
+   "xem"
+  ]
+ },
+ "d9:7": {
+  "en": [
+   "Nice",
+   "Then",
+   "cooking",
+   "do you like"
+  ],
+  "vi": [
+   "Hay nhỉ",
+   "Thế",
+   "nấu ăn",
+   "thích"
+  ]
+ },
+ "d9:8": {
+  "en": [
+   "Yes",
+   "I do",
+   "especially",
+   "curry",
+   "like",
+   "at home",
+   "make it"
+  ],
+  "vi": [
+   "Vâng",
+   "tôi thích",
+   "Đặc biệt",
+   "cà ri",
+   "thích",
+   "ở nhà",
+   "nấu"
+  ]
+ },
+ "d9:9": {
+  "en": [
+   "I",
+   "curry",
+   "like",
+   "spicy",
+   "food",
+   "I like"
+  ],
+  "vi": [
+   "Tôi cũng",
+   "cà ri",
+   "thích",
+   "cay",
+   "đồ ăn",
+   "tôi thích"
+  ]
+ },
+ "d9:10": {
+  "en": [
+   "Then",
+   "sometime",
+   "together",
+   "shall we eat"
+  ],
+  "vi": [
+   "Vậy",
+   "lần tới",
+   "cùng nhau",
+   "ăn"
+  ]
+ },
+ "d9:11": {
+  "en": [
+   "Definitely",
+   "good",
+   "place",
+   "I know"
+  ],
+  "vi": [
+   "Rất sẵn lòng",
+   "ngon",
+   "quán",
+   "Tôi biết"
+  ]
+ },
+ "d10:0": {
+  "en": [
+   "Tanaka",
+   "in your room",
+   "What",
+   "is"
+  ],
+  "vi": [
+   "của anh Tanaka",
+   "Trong phòng",
+   "những gì",
+   "có"
+  ]
+ },
+ "d10:1": {
+  "en": [
+   "on the desk",
+   null,
+   "a laptop",
+   "There is"
+  ],
+  "vi": [
+   "Trên bàn",
+   null,
+   "một chiếc laptop",
+   "có"
+  ]
+ },
+ "d10:2": {
+  "en": [
+   "in the bookshelf",
+   "books",
+   "Are there"
+  ],
+  "vi": [
+   "Trong giá sách",
+   "sách",
+   "có"
+  ]
+ },
+ "d10:3": {
+  "en": [
+   "Yes",
+   "Japanese",
+   "books",
+   "many",
+   "there are"
+  ],
+  "vi": [
+   "Vâng",
+   "tiếng Nhật",
+   "sách",
+   "rất nhiều",
+   "có"
+  ]
+ },
+ "d10:4": {
+  "en": [
+   "the chair",
+   "under",
+   "something",
+   "There is"
+  ],
+  "vi": [
+   "ghế",
+   "dưới",
+   "thứ gì đó",
+   "Có"
+  ]
+ },
+ "d10:5": {
+  "en": [
+   "Oh",
+   "a cat",
+   "there's",
+   "next door",
+   "the room",
+   "the cat"
+  ],
+  "vi": [
+   "À",
+   "một con mèo",
+   "có",
+   "bên cạnh",
+   "ở phòng",
+   "con mèo"
+  ]
+ },
+ "d10:6": {
+  "en": [
+   "Cute",
+   "the bed",
+   "beside",
+   "What",
+   "is"
+  ],
+  "vi": [
+   "Dễ thương nhỉ",
+   "giường",
+   "Bên cạnh",
+   "gì",
+   "có"
+  ]
+ },
+ "d10:7": {
+  "en": [
+   "small",
+   "table",
+   "There is",
+   "On it",
+   "a clock",
+   "there is"
+  ],
+  "vi": [
+   "nhỏ",
+   "bàn",
+   "Có",
+   "Trên đó",
+   "đồng hồ",
+   "có"
+  ]
+ },
+ "d10:8": {
+  "en": [
+   "the room",
+   "in front of",
+   "a bicycle",
+   "Is there"
+  ],
+  "vi": [
+   "phòng",
+   "Trước",
+   "xe đạp",
+   "có"
+  ]
+ },
+ "d10:9": {
+  "en": [
+   "No",
+   "in front",
+   "not",
+   "behind",
+   null,
+   "It's"
+  ],
+  "vi": [
+   "Không",
+   "phía trước",
+   "không ở",
+   "phía sau",
+   null,
+   "Nó ở"
+  ]
+ },
+ "d10:10": {
+  "en": [
+   "on the balcony",
+   "flowers",
+   "There are"
+  ],
+  "vi": [
+   "Trên ban công",
+   "hoa",
+   "có"
+  ]
+ },
+ "d10:11": {
+  "en": [
+   "Yes",
+   "my mother",
+   "gave them to me",
+   null,
+   "every morning",
+   "water",
+   null
+  ],
+  "vi": [
+   "Vâng",
+   "mẹ tôi",
+   "tặng",
+   "hoa",
+   "Mỗi sáng",
+   "tưới nước",
+   null
+  ]
+ },
+ "d11:0": {
+  "en": [
+   "Excuse me",
+   "apples",
+   "how many",
+   "would you like"
+  ],
+  "vi": [
+   "Xin lỗi",
+   "táo",
+   "mấy quả",
+   "muốn"
+  ]
+ },
+ "d11:1": {
+  "en": [
+   "Three",
+   "please",
+   "else",
+   "What",
+   "do you need"
+  ],
+  "vi": [
+   "ba quả",
+   "Cho tôi",
+   "nữa",
+   "gì",
+   "cần"
+  ]
+ },
+ "d11:2": {
+  "en": [
+   null,
+   "eggs",
+   "Six",
+   "please"
+  ],
+  "vi": [
+   null,
+   "trứng",
+   "sáu quả",
+   "Cho tôi"
+  ]
+ },
+ "d11:3": {
+  "en": [
+   "Sure",
+   "milk",
+   "How many bottles"
+  ],
+  "vi": [
+   "Vâng",
+   "Sữa",
+   "mấy chai"
+  ]
+ },
+ "d11:4": {
+  "en": [
+   "Two bottles",
+   "please",
+   null
+  ],
+  "vi": [
+   "hai chai",
+   "Cho tôi",
+   null
+  ]
+ },
+ "d11:5": {
+  "en": [
+   "bread",
+   "Is one loaf"
+  ],
+  "vi": [
+   "bánh mì",
+   "Một ổ"
+  ]
+ },
+ "d11:6": {
+  "en": [
+   "No",
+   "two",
+   "please give me",
+   "family",
+   "big"
+  ],
+  "vi": [
+   "Không",
+   "hai cái",
+   "cho tôi",
+   "gia đình",
+   "đông người"
+  ]
+ },
+ "d11:7": {
+  "en": [
+   "Certainly",
+   "in total",
+   null,
+   null,
+   "1,200 yen"
+  ],
+  "vi": [
+   "Vâng",
+   "Tất cả",
+   null,
+   null,
+   "1.200 yên"
+  ]
+ },
+ "d11:8": {
+  "en": [
+   "Yamada",
+   "this",
+   "shop",
+   "About how many times",
+   "come"
+  ],
+  "vi": [
+   "Yamada",
+   "này",
+   "cửa hàng",
+   "khoảng mấy lần",
+   "đến"
+  ]
+ },
+ "d11:9": {
+  "en": [
+   "a week",
+   "about twice",
+   "I come",
+   "cheap"
+  ],
+  "vi": [
+   "một tuần",
+   "khoảng hai lần",
+   "Tôi đến",
+   "rẻ"
+  ]
+ },
+ "d11:10": {
+  "en": [
+   "I",
+   "a month",
+   "once",
+   "come"
+  ],
+  "vi": [
+   "Tôi",
+   "mỗi tháng",
+   "một lần",
+   "đến"
+  ]
+ },
+ "d11:11": {
+  "en": [
+   "I see",
+   "Then",
+   "again",
+   "please",
+   null
+  ],
+  "vi": [
+   "Vậy à",
+   null,
+   "lần sau",
+   "Mong",
+   null
+  ]
+ },
+ "d12:0": {
+  "en": [
+   "on the weekend",
+   "Where",
+   "did you go"
+  ],
+  "vi": [
+   "Cuối tuần",
+   "đâu",
+   "đã đi"
+  ]
+ },
+ "d12:1": {
+  "en": [
+   "to Kobe",
+   "I went",
+   "The sea",
+   "was beautiful"
+  ],
+  "vi": [
+   "Kobe",
+   "Tôi đã đi",
+   "Biển",
+   "rất đẹp"
+  ]
+ },
+ "d12:2": {
+  "en": [
+   "Kobe",
+   "than Osaka",
+   "quieter"
+  ],
+  "vi": [
+   "Kobe",
+   "hơn Osaka",
+   "yên tĩnh"
+  ]
+ },
+ "d12:3": {
+  "en": [
+   "Yes",
+   "a little",
+   null,
+   "But",
+   "the station",
+   "in front of",
+   "was lively"
+  ],
+  "vi": [
+   "Vâng",
+   "một chút",
+   "yên tĩnh hơn",
+   "Nhưng",
+   "ga",
+   "phía trước",
+   "rất nhộn nhịp"
+  ]
+ },
+ "d12:4": {
+  "en": [
+   "How",
+   "did you go"
+  ],
+  "vi": [
+   "bằng gì",
+   "đã đi"
+  ]
+ },
+ "d12:5": {
+  "en": [
+   "by bus",
+   "I went",
+   "than the train",
+   "cheaper"
+  ],
+  "vi": [
+   "bằng xe buýt",
+   "Tôi đi",
+   "hơn tàu điện",
+   "rẻ"
+  ]
+ },
+ "d12:6": {
+  "en": [
+   "the food",
+   "How was"
+  ],
+  "vi": [
+   "Đồ ăn",
+   "thế nào"
+  ]
+ },
+ "d12:7": {
+  "en": [
+   "The bread",
+   "was delicious",
+   "The shop",
+   "staff",
+   "were kind"
+  ],
+  "vi": [
+   "Bánh mì",
+   "rất ngon",
+   "ở quán",
+   "Người",
+   "rất tử tế"
+  ]
+ },
+ "d12:8": {
+  "en": [
+   "I",
+   "last year",
+   "to Kyoto",
+   "went",
+   "Kyoto",
+   "was nice"
+  ],
+  "vi": [
+   "tôi",
+   "Năm ngoái",
+   "Kyoto",
+   "đã đi",
+   "Kyoto cũng",
+   "rất tuyệt"
+  ]
+ },
+ "d12:9": {
+  "en": [
+   "What",
+   "best",
+   "did you like"
+  ],
+  "vi": [
+   "chỗ nào",
+   "nhất",
+   "thích"
+  ]
+ },
+ "d12:10": {
+  "en": [
+   "small",
+   "temple",
+   "best",
+   "I liked",
+   "garden",
+   "very",
+   "beautiful"
+  ],
+  "vi": [
+   "nhỏ",
+   "ngôi chùa",
+   "nhất",
+   "Tôi thích",
+   "Khu vườn",
+   "rất",
+   "đẹp"
+  ]
+ },
+ "d12:11": {
+  "en": [
+   "That sounds nice",
+   "I",
+   "sometime",
+   "want to go"
+  ],
+  "vi": [
+   "Hay nhỉ",
+   "tôi cũng",
+   "Lần tới",
+   "muốn đi"
+  ]
+ },
+ "d13:0": {
+  "en": [
+   "soon",
+   "Your friend's",
+   "birthday",
+   "What",
+   "will you buy"
+  ],
+  "vi": [
+   "Sắp đến",
+   "bạn của bạn",
+   "sinh nhật",
+   "gì",
+   "sẽ mua"
+  ]
+ },
+ "d13:1": {
+  "en": [
+   "as a present",
+   "a bag",
+   "I want to buy"
+  ],
+  "vi": [
+   "làm quà",
+   "một chiếc túi",
+   "Tôi muốn mua"
+  ]
+ },
+ "d13:2": {
+  "en": [
+   "What kind",
+   "bag",
+   "do you want"
+  ],
+  "vi": [
+   "như thế nào",
+   "túi",
+   "muốn"
+  ]
+ },
+ "d13:3": {
+  "en": [
+   "light",
+   "sturdy",
+   "bag",
+   "I want"
+  ],
+  "vi": [
+   "nhẹ",
+   "bền",
+   "một chiếc túi",
+   "Tôi muốn"
+  ]
+ },
+ "d13:4": {
+  "en": [
+   "Where",
+   "to buy it",
+   "will you go"
+  ],
+  "vi": [
+   "đâu",
+   "để mua",
+   "sẽ đi"
+  ]
+ },
+ "d13:5": {
+  "en": [
+   "to the department store",
+   "I'm going",
+   "shoes",
+   "look at",
+   "want to go"
+  ],
+  "vi": [
+   "trung tâm bách hóa",
+   "Tôi sẽ đi",
+   "giày",
+   "xem",
+   "muốn đi"
+  ]
+ },
+ "d13:6": {
+  "en": [
+   "alone",
+   "Will you go"
+  ],
+  "vi": [
+   "một mình",
+   "sẽ đi"
+  ]
+ },
+ "d13:7": {
+  "en": [
+   "No",
+   "with my older sister",
+   "I'm going",
+   "she's",
+   "shopping",
+   "good at"
+  ],
+  "vi": [
+   "Không",
+   "với chị gái",
+   "tôi đi",
+   "chị ấy",
+   "mua sắm",
+   "rất giỏi"
+  ]
+ },
+ "d13:8": {
+  "en": [
+   "I",
+   "new",
+   "dictionary",
+   "want"
+  ],
+  "vi": [
+   "Tôi",
+   "mới",
+   "từ điển",
+   "muốn"
+  ]
+ },
+ "d13:9": {
+  "en": [
+   "Then",
+   "together",
+   "the bookstore",
+   "look at",
+   "shall we go"
+  ],
+  "vi": [
+   "Vậy",
+   "cùng",
+   "ở hiệu sách",
+   "xem",
+   "đi"
+  ]
+ },
+ "d13:10": {
+  "en": [
+   "Sounds good",
+   "on Saturday",
+   "I'd like to go"
+  ],
+  "vi": [
+   "Được đấy",
+   "vào thứ Bảy",
+   "Tôi muốn đi"
+  ]
+ },
+ "d13:11": {
+  "en": [
+   "Then",
+   "at ten",
+   "at the station",
+   "let's meet"
+  ],
+  "vi": [
+   "Vậy",
+   "lúc 10 giờ",
+   "ở ga",
+   "hãy gặp nhau"
+  ]
+ },
+ "d14:0": {
+  "en": [
+   "Hello",
+   "is this Yamada"
+  ],
+  "vi": [
+   "A lô",
+   "Yamada phải không"
+  ]
+ },
+ "d14:1": {
+  "en": [
+   "Yes",
+   "this is Yamada"
+  ],
+  "vi": [
+   "Vâng",
+   "tôi là Yamada đây"
+  ]
+ },
+ "d14:2": {
+  "en": [
+   "now",
+   "What",
+   "are you doing"
+  ],
+  "vi": [
+   "Bây giờ",
+   "gì",
+   "đang làm"
+  ]
+ },
+ "d14:3": {
+  "en": [
+   "right now",
+   "at the office",
+   "meeting",
+   "notes",
+   "I'm reading"
+  ],
+  "vi": [
+   "Bây giờ",
+   "ở công ty",
+   "cuộc họp",
+   "ghi chú",
+   "đang đọc"
+  ]
+ },
+ "d14:4": {
+  "en": [
+   "I see",
+   "Then",
+   "later",
+   "call me",
+   "please"
+  ],
+  "vi": [
+   "Vậy à",
+   "Thế",
+   "lát nữa",
+   "gọi lại cho tôi",
+   "hãy"
+  ]
+ },
+ "d14:5": {
+  "en": [
+   "Okay",
+   null,
+   "around twelve",
+   "I'll call"
+  ],
+  "vi": [
+   "Vâng",
+   null,
+   "khoảng 12 giờ",
+   "tôi sẽ gọi"
+  ]
+ },
+ "d14:6": {
+  "en": [
+   "Thank you",
+   "tomorrow's",
+   "materials",
+   "Do you have"
+  ],
+  "vi": [
+   "Cảm ơn",
+   "của ngày mai",
+   "tài liệu",
+   "có"
+  ]
+ },
+ "d14:7": {
+  "en": [
+   "Yes",
+   "I do",
+   "copies",
+   "I've made"
+  ],
+  "vi": [
+   "Vâng",
+   "tôi có",
+   "photo",
+   "sẵn rồi"
+  ]
+ },
+ "d14:8": {
+  "en": [
+   null,
+   "those",
+   "materials",
+   "by email",
+   "Could you please send"
+  ],
+  "vi": [
+   "Xin lỗi",
+   "đó",
+   "tài liệu",
+   "qua email",
+   "hãy gửi"
+  ]
+ },
+ "d14:9": {
+  "en": [
+   "Understood",
+   "during lunch break",
+   "I'll send them"
+  ],
+  "vi": [
+   "Tôi hiểu rồi",
+   "vào giờ nghỉ trưa",
+   "Tôi sẽ gửi"
+  ]
+ },
+ "d14:10": {
+  "en": [
+   "That helps a lot",
+   "I'll",
+   "in the meeting room",
+   "be waiting"
+  ],
+  "vi": [
+   "Thế thì tốt quá",
+   "Tôi sẽ",
+   "ở phòng họp",
+   "đợi"
+  ]
+ },
+ "d14:11": {
+  "en": [
+   "Then",
+   "right away",
+   "ready",
+   "I'll get everything"
+  ],
+  "vi": [
+   "Vậy",
+   "ngay",
+   "chuẩn bị",
+   "tôi sẽ"
+  ]
+ },
+ "d15:0": {
+  "en": [
+   "Excuse me",
+   "this",
+   "library",
+   "photos",
+   "may I take"
+  ],
+  "vi": [
+   "Xin lỗi",
+   "này",
+   "trong thư viện",
+   "ảnh",
+   "có thể chụp"
+  ]
+ },
+ "d15:1": {
+  "en": [
+   "No",
+   "inside",
+   "must not take photos"
+  ],
+  "vi": [
+   "Không",
+   "ở bên trong",
+   "không được chụp ảnh"
+  ]
+ },
+ "d15:2": {
+  "en": [
+   "Then",
+   "something",
+   "may I drink"
+  ],
+  "vi": [
+   "Vậy",
+   "nước",
+   "có thể uống"
+  ]
+ },
+ "d15:3": {
+  "en": [
+   "If it's only water",
+   "the entrance",
+   "near",
+   "you may drink it"
+  ],
+  "vi": [
+   "Nếu chỉ là nước",
+   "lối vào",
+   "ở gần",
+   "có thể uống"
+  ]
+ },
+ "d15:4": {
+  "en": [
+   "a laptop",
+   "May I use"
+  ],
+  "vi": [
+   "máy tính",
+   "có thể dùng"
+  ]
+ },
+ "d15:5": {
+  "en": [
+   "Yes",
+   "on the second floor",
+   "at the seats",
+   "you can use it"
+  ],
+  "vi": [
+   "Vâng",
+   "tầng hai",
+   "ở chỗ ngồi",
+   "có thể dùng"
+  ]
+ },
+ "d15:6": {
+  "en": [
+   "books",
+   "How many",
+   "may I borrow"
+  ],
+  "vi": [
+   "sách",
+   "tối đa mấy cuốn",
+   "có thể mượn"
+  ]
+ },
+ "d15:7": {
+  "en": [
+   "Up to five books",
+   "But",
+   "magazines",
+   "may not borrow"
+  ],
+  "vi": [
+   "Tối đa là năm cuốn",
+   "Nhưng",
+   "tạp chí",
+   "không được mượn"
+  ]
+ },
+ "d15:8": {
+  "en": [
+   "the return date",
+   "When is"
+  ],
+  "vi": [
+   "Ngày trả",
+   "khi nào"
+  ]
+ },
+ "d15:9": {
+  "en": [
+   "two weeks",
+   "It's in",
+   "If you'll be late",
+   "call us",
+   "please"
+  ],
+  "vi": [
+   "hai tuần",
+   "Là sau",
+   "Nếu trả trễ",
+   "gọi điện cho chúng tôi",
+   "hãy"
+  ]
+ },
+ "d15:10": {
+  "en": [
+   "now",
+   "the copier",
+   "Can I use"
+  ],
+  "vi": [
+   "Bây giờ",
+   "máy photocopy",
+   "có thể dùng"
+  ]
+ },
+ "d15:11": {
+  "en": [
+   "Yes",
+   "you can",
+   "That one over there",
+   "already",
+   "free"
+  ],
+  "vi": [
+   "Vâng",
+   "được",
+   "Máy bên kia",
+   "rồi",
+   "đang trống"
+  ]
+ },
+ "d16:0": {
+  "en": [
+   "tomorrow",
+   "the hike",
+   "What time",
+   "are we leaving"
+  ],
+  "vi": [
+   "Ngày mai",
+   "đi leo núi",
+   "lúc mấy giờ",
+   "sẽ xuất phát"
+  ]
+ },
+ "d16:1": {
+  "en": [
+   "at six",
+   "I'll get up",
+   "at seven",
+   "to the station",
+   "go"
+  ],
+  "vi": [
+   "lúc 6 giờ",
+   "sẽ dậy",
+   "lúc 7 giờ",
+   "đến ga",
+   "đi"
+  ]
+ },
+ "d16:2": {
+  "en": [
+   null,
+   "breakfast",
+   "after eating",
+   "Will you go"
+  ],
+  "vi": [
+   "sáng",
+   null,
+   "sau khi ăn",
+   "sẽ đi"
+  ]
+ },
+ "d16:3": {
+  "en": [
+   "Yes",
+   "bread",
+   "after eating",
+   "I'll go"
+  ],
+  "vi": [
+   "Vâng",
+   "bánh mì",
+   "sau khi ăn",
+   "tôi sẽ đi"
+  ]
+ },
+ "d16:4": {
+  "en": [
+   null,
+   "lunch",
+   "What about",
+   null
+  ],
+  "vi": [
+   "trưa",
+   "bữa",
+   "thì sao",
+   null
+  ]
+ },
+ "d16:5": {
+  "en": [
+   "rice balls",
+   "I'll make",
+   "bring them"
+  ],
+  "vi": [
+   "cơm nắm",
+   "sẽ làm",
+   "mang đi"
+  ]
+ },
+ "d16:6": {
+  "en": [
+   "Nice",
+   "in the mountains",
+   "still",
+   "cold"
+  ],
+  "vi": [
+   "Hay đấy",
+   "Trên núi",
+   "vẫn còn",
+   "lạnh"
+  ]
+ },
+ "d16:7": {
+  "en": [
+   "Yes",
+   "in the morning",
+   "cold",
+   "But",
+   "in the daytime",
+   "warm"
+  ],
+  "vi": [
+   "Vâng",
+   "buổi sáng",
+   "lạnh",
+   "Nhưng",
+   "ban ngày",
+   "ấm"
+  ]
+ },
+ "d16:8": {
+  "en": [
+   "Then",
+   "a jacket",
+   "I'll wear"
+  ],
+  "vi": [
+   "Vậy",
+   "áo khoác",
+   "sẽ mặc"
+  ]
+ },
+ "d16:9": {
+  "en": [
+   "And",
+   "water",
+   "let's buy"
+  ],
+  "vi": [
+   "Ngoài ra",
+   "nước",
+   "hãy mua"
+  ]
+ },
+ "d16:10": {
+  "en": [
+   "Got it",
+   "at the station",
+   "Let's meet",
+   "the bus",
+   "get on"
+  ],
+  "vi": [
+   "Tôi hiểu rồi",
+   "ở ga",
+   "Hãy gặp nhau",
+   "xe buýt",
+   "lên"
+  ]
+ },
+ "d16:11": {
+  "en": [
+   "Okay",
+   "The weather",
+   "looks good"
+  ],
+  "vi": [
+   "Vâng",
+   "Thời tiết",
+   "đẹp"
+  ]
+ },
+ "d17:0": {
+  "en": [
+   "lately",
+   "a little",
+   "I've gained"
+  ],
+  "vi": [
+   "Gần đây",
+   "hơi",
+   "tăng cân"
+  ]
+ },
+ "d17:1": {
+  "en": [
+   "Then",
+   "at night",
+   "late",
+   "sweets",
+   "please don't eat"
+  ],
+  "vi": [
+   "Vậy thì",
+   null,
+   "khuya",
+   "bánh kẹo",
+   "đừng ăn"
+  ]
+ },
+ "d17:2": {
+  "en": [
+   "Okay",
+   "But",
+   "work",
+   "busy"
+  ],
+  "vi": [
+   "Vâng",
+   "Nhưng",
+   "công việc",
+   "bận lắm"
+  ]
+ },
+ "d17:3": {
+  "en": [
+   "Still",
+   "every day",
+   "a little",
+   "exercise",
+   "you have to"
+  ],
+  "vi": [
+   "Dù vậy",
+   "ngày nào",
+   "một chút",
+   "vận động",
+   "phải"
+  ]
+ },
+ "d17:4": {
+  "en": [
+   "to the gym",
+   "Do I not have to go"
+  ],
+  "vi": [
+   "phòng gym",
+   "không cần phải đến"
+  ]
+ },
+ "d17:5": {
+  "en": [
+   "Yes",
+   "at home",
+   "walking",
+   "Simple",
+   "exercises are fine"
+  ],
+  "vi": [
+   "Vâng",
+   "ở nhà",
+   "đi bộ",
+   "đơn giản",
+   "Tập thể dục"
+  ]
+ },
+ "d17:6": {
+  "en": [
+   "coffee",
+   "May I drink"
+  ],
+  "vi": [
+   "cà phê",
+   "có thể uống"
+  ]
+ },
+ "d17:7": {
+  "en": [
+   "a day",
+   "If it's one cup",
+   "that's okay"
+  ],
+  "vi": [
+   "mỗi ngày",
+   "Nếu là một cốc",
+   "thì được"
+  ]
+ },
+ "d17:8": {
+  "en": [
+   null,
+   "breakfast",
+   "if I don't eat"
+  ],
+  "vi": [
+   "sáng",
+   null,
+   "không ăn"
+  ]
+ },
+ "d17:9": {
+  "en": [
+   "No",
+   "you have to eat",
+   "at least a little",
+   "Please eat"
+  ],
+  "vi": [
+   "Không",
+   "bạn phải ăn",
+   "dù chỉ một ít",
+   "Hãy ăn"
+  ]
+ },
+ "d17:10": {
+  "en": [
+   "Got it",
+   "starting this week",
+   "early",
+   "I'll go to bed"
+  ],
+  "vi": [
+   "Tôi hiểu rồi",
+   "Bắt đầu từ tuần này",
+   "sớm",
+   "sẽ ngủ"
+  ]
+ },
+ "d17:11": {
+  "en": [
+   "That",
+   "sounds good",
+   "overdo it",
+   "Please don't"
+  ],
+  "vi": [
+   "Thế thì",
+   "tốt",
+   "cố quá",
+   "Đừng"
+  ]
+ },
+ "d18:0": {
+  "en": [
+   "Kimura",
+   "cooking",
+   null,
+   "do you like"
+  ],
+  "vi": [
+   "Kimura",
+   "nấu ăn",
+   null,
+   "có thích"
+  ]
+ },
+ "d18:1": {
+  "en": [
+   "Yes",
+   "I do",
+   "especially",
+   "bread",
+   "baking",
+   "like"
+  ],
+  "vi": [
+   "Vâng",
+   "tôi thích",
+   "Đặc biệt",
+   "bánh mì",
+   "nướng",
+   "thích"
+  ]
+ },
+ "d18:2": {
+  "en": [
+   "Oh",
+   "at home",
+   "bread",
+   "can you make"
+  ],
+  "vi": [
+   "Ồ",
+   "ở nhà",
+   "bánh mì",
+   "có thể làm"
+  ]
+ },
+ "d18:3": {
+  "en": [
+   "Yes",
+   "simple",
+   "bread",
+   "I can make"
+  ],
+  "vi": [
+   "Vâng",
+   "đơn giản",
+   "loại bánh mì",
+   "tôi làm được"
+  ]
+ },
+ "d18:4": {
+  "en": [
+   "I",
+   "still",
+   "well",
+   "can't make it"
+  ],
+  "vi": [
+   "Tôi",
+   "vẫn chưa",
+   "giỏi",
+   "làm"
+  ]
+ },
+ "d18:5": {
+  "en": [
+   "bread",
+   "making",
+   "Before",
+   "the recipe",
+   "carefully",
+   "do you read"
+  ],
+  "vi": [
+   "bánh mì",
+   "làm",
+   "Trước khi",
+   "công thức",
+   "kỹ",
+   "có đọc"
+  ]
+ },
+ "d18:6": {
+  "en": [
+   "No",
+   "much",
+   "I don't read it",
+   "That's",
+   "the problem"
+  ],
+  "vi": [
+   "Không",
+   "lắm",
+   "tôi không đọc",
+   "đó là",
+   "vấn đề"
+  ]
+ },
+ "d18:7": {
+  "en": [
+   "Then",
+   "next time",
+   "together",
+   "shall we make it"
+  ],
+  "vi": [
+   "Vậy",
+   "lần tới",
+   "cùng",
+   "làm"
+  ]
+ },
+ "d18:8": {
+  "en": [
+   "Definitely",
+   "What",
+   "should I bring"
+  ],
+  "vi": [
+   "Rất muốn",
+   "gì",
+   "nên mang"
+  ]
+ },
+ "d18:9": {
+  "en": [
+   "an apron",
+   "Please bring",
+   "First",
+   "the ingredients",
+   "we'll measure"
+  ],
+  "vi": [
+   "tạp dề",
+   "Hãy mang theo",
+   "Đầu tiên",
+   "nguyên liệu",
+   "sẽ cân"
+  ]
+ },
+ "d18:10": {
+  "en": [
+   "the oven",
+   "how to use",
+   "learn",
+   "I also want to"
+  ],
+  "vi": [
+   "lò nướng",
+   "cách dùng",
+   "học",
+   "Tôi cũng muốn"
+  ]
+ },
+ "d18:11": {
+  "en": [
+   "Then",
+   "that",
+   "slowly",
+   "I'll teach you"
+  ],
+  "vi": [
+   "Vậy",
+   "việc đó",
+   "từ từ",
+   "sẽ chỉ cho bạn"
+  ]
+ },
+ "d19:0": {
+  "en": [
+   "to Hokkaido",
+   "ever been",
+   "Have you"
+  ],
+  "vi": [
+   "Hokkaido",
+   "đã từng đi",
+   "chưa"
+  ]
+ },
+ "d19:1": {
+  "en": [
+   "Yes",
+   "once",
+   null,
+   "in winter",
+   "I went"
+  ],
+  "vi": [
+   "Vâng",
+   "một lần thôi",
+   null,
+   "vào mùa đông",
+   "Tôi đã đi"
+  ]
+ },
+ "d19:2": {
+  "en": [
+   "What",
+   "did you do"
+  ],
+  "vi": [
+   "gì",
+   "đã làm"
+  ]
+ },
+ "d19:3": {
+  "en": [
+   "skiing",
+   null,
+   "in hot springs",
+   "soaking",
+   "I did things like"
+  ],
+  "vi": [
+   "trượt tuyết",
+   null,
+   "suối nước nóng",
+   "vào",
+   "Tôi đã đi"
+  ]
+ },
+ "d19:4": {
+  "en": [
+   "Sounds nice",
+   "the snow",
+   "How was"
+  ],
+  "vi": [
+   "Hay nhỉ",
+   "Tuyết",
+   "thế nào"
+  ]
+ },
+ "d19:5": {
+  "en": [
+   "very",
+   "white",
+   "beautiful",
+   "The town also",
+   "quiet",
+   "became"
+  ],
+  "vi": [
+   "rất",
+   "trắng",
+   "đẹp",
+   "Thị trấn cũng",
+   "yên tĩnh",
+   "trở nên"
+  ]
+ },
+ "d19:6": {
+  "en": [
+   "I",
+   "yet",
+   "to Hokkaido",
+   "been",
+   "haven't"
+  ],
+  "vi": [
+   "Tôi",
+   "vẫn",
+   "Hokkaido",
+   "từng đi",
+   "chưa"
+  ]
+ },
+ "d19:7": {
+  "en": [
+   "Then",
+   "someday",
+   "together",
+   "let's go"
+  ],
+  "vi": [
+   "Vậy",
+   "một lúc nào đó",
+   "cùng nhau",
+   "hãy đi"
+  ]
+ },
+ "d19:8": {
+  "en": [
+   "Yes",
+   "Recently",
+   "traveling",
+   "than before",
+   "like",
+   "I've come to"
+  ],
+  "vi": [
+   "Vâng",
+   "Gần đây",
+   "du lịch",
+   "hơn trước",
+   "thích",
+   null
+  ]
+ },
+ "d19:9": {
+  "en": [
+   "Why is that"
+  ],
+  "vi": [
+   "Tại sao vậy"
+  ]
+ },
+ "d19:10": {
+  "en": [
+   "many",
+   "people",
+   "meet",
+   "delicious food",
+   "eat",
+   "Because I can"
+  ],
+  "vi": [
+   "nhiều",
+   "người",
+   "gặp",
+   "món ngon",
+   "ăn",
+   "Vì tôi có thể"
+  ]
+ },
+ "d19:11": {
+  "en": [
+   "That's",
+   "nice",
+   "change"
+  ],
+  "vi": [
+   "Đó là",
+   "tốt",
+   "sự thay đổi"
+  ]
+ },
+ "d20:0": {
+  "en": [
+   "Hey",
+   "tonight",
+   "are you free"
+  ],
+  "vi": [
+   "Này",
+   "tối nay",
+   "rảnh"
+  ]
+ },
+ "d20:1": {
+  "en": [
+   "Yeah",
+   "I am",
+   "What's up",
+   null
+  ],
+  "vi": [
+   "Ừ",
+   "rảnh mà",
+   "Sao thế",
+   null
+  ]
+ },
+ "d20:2": {
+  "en": [
+   "new",
+   "café",
+   "opened",
+   "together",
+   "Want to go"
+  ],
+  "vi": [
+   "mới",
+   "quán cà phê",
+   "mở",
+   "cùng",
+   "Đi"
+  ]
+ },
+ "d20:3": {
+  "en": [
+   "Sounds good",
+   "the station",
+   "near",
+   "The place"
+  ],
+  "vi": [
+   "Hay đấy",
+   "ga",
+   "gần",
+   "Quán"
+  ]
+ },
+ "d20:4": {
+  "en": [
+   "Yeah",
+   null,
+   "the coffee",
+   "cake",
+   "cheap"
+  ],
+  "vi": [
+   "Đúng rồi",
+   null,
+   "cà phê",
+   "bánh",
+   "rẻ"
+  ]
+ },
+ "d20:5": {
+  "en": [
+   "Oh",
+   "what time",
+   "shall we go"
+  ],
+  "vi": [
+   "Ồ",
+   "mấy giờ",
+   "đi"
+  ]
+ },
+ "d20:6": {
+  "en": [
+   "seven",
+   "How about"
+  ],
+  "vi": [
+   "7 giờ",
+   "thì sao"
+  ]
+ },
+ "d20:7": {
+  "en": [
+   "That works",
+   "Work",
+   "at six",
+   "ends"
+  ],
+  "vi": [
+   "Được đó",
+   "Công việc",
+   "lúc 6 giờ",
+   "kết thúc"
+  ]
+ },
+ "d20:8": {
+  "en": [
+   "Then",
+   "in front of the station",
+   "I'll wait"
+  ],
+  "vi": [
+   "Vậy",
+   "ở trước ga",
+   "tớ đợi"
+  ]
+ },
+ "d20:9": {
+  "en": [
+   "Got it",
+   "first",
+   "If I get there",
+   "message you",
+   "I'll"
+  ],
+  "vi": [
+   "Biết rồi",
+   "trước",
+   "Nếu tớ đến",
+   "nhắn tin",
+   "tớ sẽ"
+  ]
+ },
+ "d20:10": {
+  "en": [
+   "Thanks",
+   "I'm",
+   null,
+   "hungry, so",
+   "soon",
+   "want to go"
+  ],
+  "vi": [
+   "Cảm ơn nhé",
+   "Tớ",
+   null,
+   "đói rồi nên",
+   "sớm",
+   "muốn đi"
+  ]
+ },
+ "d20:11": {
+  "en": [
+   "Haha",
+   "Then",
+   "today",
+   "a lot",
+   "let's eat"
+  ],
+  "vi": [
+   "Haha",
+   "Vậy",
+   "hôm nay",
+   "nhiều",
+   "ăn"
+  ]
+ },
+ "d21:0": {
+  "en": [
+   "tomorrow's",
+   "weather",
+   "What",
+   "do you think"
+  ],
+  "vi": [
+   "ngày mai",
+   "thời tiết",
+   "thế nào",
+   "nghĩ"
+  ]
+ },
+ "d21:1": {
+  "en": [
+   "rain",
+   "it will",
+   "I think",
+   "the sky is dark"
+  ],
+  "vi": [
+   "mưa",
+   "trời sẽ",
+   "Tôi nghĩ",
+   "bầu trời tối"
+  ]
+ },
+ "d21:2": {
+  "en": [
+   "I see",
+   "The teacher",
+   "in the afternoon",
+   "it would stop",
+   "said"
+  ],
+  "vi": [
+   "Vậy à",
+   "Thầy giáo",
+   "chiều",
+   "sẽ tạnh",
+   "nói rằng"
+  ]
+ },
+ "d21:3": {
+  "en": [
+   "Then",
+   "at night",
+   "a little",
+   "cool"
+  ],
+  "vi": [
+   "Vậy",
+   "tối",
+   "hơi",
+   "mát"
+  ]
+ },
+ "d21:4": {
+  "en": [
+   "Yes",
+   "So",
+   "a jacket",
+   "to bring",
+   "it would be better",
+   "I think"
+  ],
+  "vi": [
+   "Vâng",
+   "Vì vậy",
+   "áo khoác",
+   "mang",
+   "nên",
+   "tôi nghĩ"
+  ]
+ },
+ "d21:5": {
+  "en": [
+   "I",
+   "so",
+   "think",
+   "up in the mountains",
+   null,
+   "probably be colder"
+  ],
+  "vi": [
+   "Tôi cũng",
+   "vậy",
+   "nghĩ",
+   "Trên núi",
+   "hơn nữa",
+   "chắc sẽ lạnh"
+  ]
+ },
+ "d21:6": {
+  "en": [
+   "Tanaka",
+   "by bus",
+   "he would go",
+   "say"
+  ],
+  "vi": [
+   "Anh Tanaka",
+   "bằng xe buýt",
+   "sẽ đi",
+   "có nói là"
+  ]
+ },
+ "d21:7": {
+  "en": [
+   "No",
+   "by train",
+   "he would go",
+   "he said"
+  ],
+  "vi": [
+   "Không",
+   "tàu điện",
+   "sẽ đi",
+   "anh ấy nói"
+  ]
+ },
+ "d21:8": {
+  "en": [
+   "Then",
+   "at the station",
+   "probably be able to meet"
+  ],
+  "vi": [
+   "Vậy",
+   "ở ga",
+   "sẽ gặp được"
+  ]
+ },
+ "d21:9": {
+  "en": [
+   "probably",
+   "can",
+   "I think",
+   "But",
+   null,
+   "likely be crowded"
+  ],
+  "vi": [
+   "chắc là",
+   "gặp được",
+   "Tôi nghĩ",
+   "Nhưng",
+   "người",
+   "đông"
+  ]
+ },
+ "d21:10": {
+  "en": [
+   "That's true",
+   "a little",
+   "early",
+   "leave",
+   "we'd better",
+   "I think"
+  ],
+  "vi": [
+   "Đúng nhỉ",
+   "một chút",
+   "sớm",
+   "đi ra",
+   "nên",
+   "Tôi nghĩ"
+  ]
+ },
+ "d21:11": {
+  "en": [
+   "Yes",
+   "at seven thirty",
+   "let's go"
+  ],
+  "vi": [
+   "Vâng",
+   "lúc 7 giờ rưỡi",
+   "hãy đi"
+  ]
+ },
+ "d22:0": {
+  "en": [
+   "new",
+   "apartment",
+   "I'm looking for"
+  ],
+  "vi": [
+   "mới",
+   "một căn hộ",
+   "Tôi đang tìm"
+  ]
+ },
+ "d22:1": {
+  "en": [
+   "I see",
+   "What kind",
+   "apartment",
+   "do you want"
+  ],
+  "vi": [
+   "Vậy à",
+   "như thế nào",
+   "căn hộ",
+   "muốn"
+  ]
+ },
+ "d22:2": {
+  "en": [
+   "to the station",
+   "close",
+   "an apartment",
+   "I want"
+  ],
+  "vi": [
+   "ga",
+   "gần",
+   "một căn hộ",
+   "Tôi muốn"
+  ]
+ },
+ "d22:3": {
+  "en": [
+   "Then",
+   "yesterday",
+   "I",
+   "saw",
+   "the room",
+   "how about"
+  ],
+  "vi": [
+   "Vậy",
+   "hôm qua",
+   "tôi",
+   "xem",
+   "căn phòng",
+   "thì sao"
+  ]
+ },
+ "d22:4": {
+  "en": [
+   "Where",
+   "is",
+   "that room"
+  ],
+  "vi": [
+   "ở đâu",
+   null,
+   "Căn phòng đó"
+  ]
+ },
+ "d22:5": {
+  "en": [
+   "the park",
+   "in front of",
+   null,
+   "white",
+   "building"
+  ],
+  "vi": [
+   "công viên",
+   "trước",
+   "Nó ở trong",
+   "màu trắng",
+   "tòa nhà"
+  ]
+ },
+ "d22:6": {
+  "en": [
+   "rent",
+   "low",
+   "a room"
+  ],
+  "vi": [
+   "tiền thuê",
+   "rẻ",
+   "căn phòng"
+  ]
+ },
+ "d22:7": {
+  "en": [
+   "Yes",
+   "students",
+   "often",
+   "rent",
+   "a room"
+  ],
+  "vi": [
+   "Vâng",
+   "sinh viên",
+   "thường",
+   "thuê",
+   "căn phòng"
+  ]
+ },
+ "d22:8": {
+  "en": [
+   "with the room",
+   "a balcony",
+   "Is there"
+  ],
+  "vi": [
+   "Trong phòng",
+   "ban công",
+   "có"
+  ]
+ },
+ "d22:9": {
+  "en": [
+   "Yes",
+   "laundry",
+   "hanging",
+   "wide",
+   "balcony",
+   "there is"
+  ],
+  "vi": [
+   "Vâng",
+   "đồ",
+   "phơi",
+   "rộng",
+   "ban công",
+   "có"
+  ]
+ },
+ "d22:10": {
+  "en": [
+   "Nice",
+   "that",
+   "room",
+   "show us",
+   null,
+   "someone",
+   "Is there"
+  ],
+  "vi": [
+   "Hay đấy",
+   "đó",
+   "căn phòng",
+   "dẫn xem",
+   "có thể",
+   "ai",
+   "Có"
+  ]
+ },
+ "d22:11": {
+  "en": [
+   "Yes",
+   "this afternoon",
+   "I'm meeting",
+   "the real estate agent",
+   "will show it to us"
+  ],
+  "vi": [
+   "Vâng",
+   "chiều nay",
+   "tôi gặp",
+   "người môi giới bất động sản",
+   "sẽ dẫn xem"
+  ]
+ },
+ "d23:0": {
+  "en": [
+   "to the station",
+   "When you go",
+   "this",
+   "road",
+   "do you use"
+  ],
+  "vi": [
+   "đến ga",
+   "Khi đi",
+   "này",
+   "con đường",
+   "có đi qua"
+  ]
+ },
+ "d23:1": {
+  "en": [
+   "Yes",
+   "always",
+   "the park",
+   "go through"
+  ],
+  "vi": [
+   "Vâng",
+   "luôn",
+   "trong công viên",
+   "đi qua"
+  ]
+ },
+ "d23:2": {
+  "en": [
+   "even when it rains",
+   "Do you go through"
+  ],
+  "vi": [
+   "Khi trời mưa",
+   "đi qua"
+  ]
+ },
+ "d23:3": {
+  "en": [
+   "No",
+   "If it rains",
+   "in front of the station",
+   "the road",
+   "I walk"
+  ],
+  "vi": [
+   "Không",
+   "Nếu mưa",
+   "trước ga",
+   "con đường",
+   "tôi đi bộ"
+  ]
+ },
+ "d23:4": {
+  "en": [
+   "that",
+   "bridge",
+   "If you cross",
+   "right there",
+   "the station"
+  ],
+  "vi": [
+   "kia",
+   "cây cầu",
+   "Nếu qua",
+   "ngay đó",
+   "ga"
+  ]
+ },
+ "d23:5": {
+  "en": [
+   "Yes",
+   "the bridge",
+   "When you cross",
+   "on the left",
+   "the station",
+   "you can see"
+  ],
+  "vi": [
+   "Vâng",
+   "cầu",
+   "Qua",
+   "ở bên trái",
+   "ga",
+   "sẽ thấy"
+  ]
+ },
+ "d23:6": {
+  "en": [
+   "the train",
+   "When you take",
+   "the ticket",
+   "where",
+   "do you buy"
+  ],
+  "vi": [
+   "tàu điện",
+   "Khi lên",
+   "vé",
+   "ở đâu",
+   "mua"
+  ]
+ },
+ "d23:7": {
+  "en": [
+   "the entrance",
+   "next to",
+   "at the machine",
+   "I buy it"
+  ],
+  "vi": [
+   "lối vào",
+   "bên cạnh",
+   "ở máy",
+   "Tôi mua"
+  ]
+ },
+ "d23:8": {
+  "en": [
+   "work",
+   "after",
+   "often",
+   "around here",
+   "walk"
+  ],
+  "vi": [
+   "giờ làm",
+   "Sau",
+   "hay",
+   "quanh đây",
+   "đi bộ"
+  ]
+ },
+ "d23:9": {
+  "en": [
+   "Yes",
+   "time",
+   "when I have",
+   "the river",
+   "by",
+   "a walk",
+   "I take"
+  ],
+  "vi": [
+   "Vâng",
+   "thời gian",
+   "khi có",
+   "sông",
+   "bên bờ",
+   "đi dạo",
+   null
+  ]
+ },
+ "d23:10": {
+  "en": [
+   "That sounds nice",
+   "In spring",
+   null,
+   "the cherry blossoms",
+   "must be beautiful"
+  ],
+  "vi": [
+   "Hay nhỉ",
+   "mùa xuân",
+   "Đến",
+   "hoa anh đào",
+   "sẽ đẹp lắm"
+  ]
+ },
+ "d23:11": {
+  "en": [
+   "Yes",
+   "around that time",
+   "again",
+   "together",
+   "let's come"
+  ],
+  "vi": [
+   "Vâng",
+   "lúc đó",
+   "lại",
+   "cùng",
+   "đến nhé"
+  ]
+ },
+ "d24:0": {
+  "en": [
+   "moving",
+   "yet",
+   "Have you finished"
+  ],
+  "vi": [
+   "chuyển nhà",
+   "chưa",
+   "xong"
+  ]
+ },
+ "d24:1": {
+  "en": [
+   "Not yet",
+   "But",
+   "my friends",
+   "helped me"
+  ],
+  "vi": [
+   "Chưa xong",
+   "Nhưng",
+   "bạn bè",
+   "đã giúp tôi"
+  ]
+ },
+ "d24:2": {
+  "en": [
+   "What",
+   "did they do for you"
+  ],
+  "vi": [
+   "việc gì",
+   "đã giúp bạn"
+  ]
+ },
+ "d24:3": {
+  "en": [
+   "big",
+   "desk",
+   "They carried",
+   "They also",
+   "the curtains",
+   "put up"
+  ],
+  "vi": [
+   "lớn",
+   "chiếc bàn",
+   "Họ đã bê",
+   "Sau đó",
+   "rèm",
+   "treo"
+  ]
+ },
+ "d24:4": {
+  "en": [
+   "That",
+   "was a big help"
+  ],
+  "vi": [
+   "Thế thì",
+   "đỡ quá"
+  ]
+ },
+ "d24:5": {
+  "en": [
+   "Yes",
+   "I",
+   null,
+   "lunch",
+   "made"
+  ],
+  "vi": [
+   "Vâng",
+   "Tôi cũng",
+   "trưa",
+   "bữa",
+   "đã nấu"
+  ]
+ },
+ "d24:6": {
+  "en": [
+   "Nice",
+   "Who",
+   "a car",
+   "lent you"
+  ],
+  "vi": [
+   "Hay nhỉ",
+   "Ai",
+   "xe",
+   "đã đem"
+  ]
+ },
+ "d24:7": {
+  "en": [
+   "My older brother",
+   "did",
+   "to the station",
+   "my luggage",
+   "to pick up",
+   "went"
+  ],
+  "vi": [
+   "Anh trai tôi",
+   "đã giúp",
+   "đến ga",
+   "hành lý",
+   "lấy",
+   "đi"
+  ]
+ },
+ "d24:8": {
+  "en": [
+   "I",
+   "something",
+   "do"
+  ],
+  "vi": [
+   "Tôi cũng",
+   "gì đó",
+   "làm"
+  ]
+ },
+ "d24:9": {
+  "en": [
+   "Thank you",
+   "Then",
+   "old",
+   "boxes",
+   "throw away",
+   "please help me"
+  ],
+  "vi": [
+   "Cảm ơn bạn",
+   "Vậy",
+   "cũ",
+   "những chiếc hộp",
+   "vứt",
+   "hãy giúp tôi"
+  ]
+ },
+ "d24:10": {
+  "en": [
+   "Of course",
+   "later",
+   "the trash",
+   "area",
+   "Please tell me"
+  ],
+  "vi": [
+   "Tất nhiên rồi",
+   "Lát nữa",
+   "bỏ rác",
+   "chỗ",
+   "hãy chỉ cho tôi"
+  ]
+ },
+ "d24:11": {
+  "en": [
+   "Sure",
+   "very much",
+   "Thank you"
+  ],
+  "vi": [
+   "Vâng",
+   "Thật sự",
+   "cảm ơn bạn rất nhiều"
+  ]
+ },
+ "d25:0": {
+  "en": [
+   "tomorrow",
+   "it rains",
+   "If",
+   "what",
+   "will you do"
+  ],
+  "vi": [
+   "ngày mai",
+   "trời mưa",
+   "Nếu",
+   "gì",
+   "sẽ làm"
+  ]
+ },
+ "d25:1": {
+  "en": [
+   "it rains",
+   "If",
+   "at home",
+   "Japanese",
+   "study",
+   "I'll"
+  ],
+  "vi": [
+   "mưa",
+   "Nếu",
+   "ở nhà",
+   "tiếng Nhật",
+   "học",
+   "tôi sẽ"
+  ]
+ },
+ "d25:2": {
+  "en": [
+   "the picnic",
+   "You won't go"
+  ],
+  "vi": [
+   "picnic",
+   "sẽ không đi"
+  ]
+ },
+ "d25:3": {
+  "en": [
+   "Right",
+   "Even if it rains",
+   "if it's only light",
+   "I'll go",
+   "if it's strong",
+   "I'll cancel"
+  ],
+  "vi": [
+   "Vâng",
+   "Dù mưa",
+   "nếu chỉ mưa nhẹ",
+   "tôi vẫn đi",
+   "nếu mưa to",
+   "tôi sẽ hủy"
+  ]
+ },
+ "d25:4": {
+  "en": [
+   "a lunch box",
+   "If you make",
+   "will you bring it"
+  ],
+  "vi": [
+   "cơm hộp",
+   "Nếu làm",
+   "sẽ mang đi"
+  ]
+ },
+ "d25:5": {
+  "en": [
+   "Yes",
+   "I will",
+   "time",
+   "If I don't have",
+   "bread",
+   "I'll buy"
+  ],
+  "vi": [
+   "Vâng",
+   "tôi sẽ mang",
+   "thời gian",
+   "Nếu không có",
+   "bánh mì",
+   "tôi sẽ mua"
+  ]
+ },
+ "d25:6": {
+  "en": [
+   "If",
+   "the train",
+   "is delayed",
+   "what",
+   "will you do"
+  ],
+  "vi": [
+   "Nếu",
+   "tàu điện",
+   "đến muộn",
+   "gì",
+   "sẽ làm"
+  ]
+ },
+ "d25:7": {
+  "en": [
+   "from the station",
+   "everyone",
+   "call",
+   "I'll"
+  ],
+  "vi": [
+   "từ ga",
+   "cho mọi người",
+   "gọi điện",
+   "Tôi sẽ"
+  ]
+ },
+ "d25:8": {
+  "en": [
+   "even if it's cold",
+   "outside",
+   "Will you eat"
+  ],
+  "vi": [
+   "Dù lạnh",
+   "ở ngoài",
+   "vẫn sẽ ăn"
+  ]
+ },
+ "d25:9": {
+  "en": [
+   "No",
+   "If it's cold",
+   "nearby",
+   "shop",
+   "we'll go into"
+  ],
+  "vi": [
+   "Không",
+   "Nếu lạnh",
+   "gần đó",
+   "một quán",
+   "sẽ vào"
+  ]
+ },
+ "d25:10": {
+  "en": [
+   "Then",
+   null,
+   "early",
+   "if I wake up",
+   "sandwiches",
+   "I'll make"
+  ],
+  "vi": [
+   "Vậy",
+   "sáng",
+   "sớm",
+   "dậy",
+   "sandwich",
+   "sẽ làm"
+  ]
+ },
+ "d25:11": {
+  "en": [
+   "Thank you",
+   "I'll",
+   "the drinks",
+   "bring"
+  ],
+  "vi": [
+   "Cảm ơn bạn",
+   "Tôi sẽ",
+   "đồ uống",
+   "mang"
+  ]
+ },
+ "g:l1_wa_desu:0": {
+  "en": [
+   "I",
+   "am a student"
+  ],
+  "vi": [
+   "Tôi",
+   "là một sinh viên"
+  ]
+ },
+ "g:l1_wa_desu:1": {
+  "en": [
+   "Mr. Tanaka",
+   "is a teacher"
+  ],
+  "vi": [
+   "Ông Tanaka",
+   "là giáo viên"
+  ]
+ },
+ "g:l1_ja_arimasen:0": {
+  "en": [
+   "I",
+   "am not a teacher"
+  ],
+  "vi": [
+   "Tôi",
+   "không phải là giáo viên"
+  ]
+ },
+ "g:l1_ka:0": {
+  "en": [
+   "Mr. Miller",
+   "a company employee"
+  ],
+  "vi": [
+   "Ông Miller",
+   "có phải là nhân viên công ty không"
+  ]
+ },
+ "g:l1_mo:0": {
+  "en": [
+   "I",
+   "am a student"
+  ],
+  "vi": [
+   "Tôi cũng",
+   "là một sinh viên"
+  ]
+ },
+ "g:l1_no:0": {
+  "en": [
+   "My",
+   "name",
+   "is Kimura"
+  ],
+  "vi": [
+   "tôi",
+   "Tên",
+   "là Kimura"
+  ]
+ },
+ "g:l1_no:1": {
+  "en": [
+   "Toyota",
+   "car"
+  ],
+  "vi": [
+   "Toyota",
+   "một chiếc xe"
+  ]
+ },
+ "g:l2_kore_sore_are:0": {
+  "en": [
+   "This",
+   "is a book"
+  ],
+  "vi": [
+   "Đây",
+   "là một cuốn sách"
+  ]
+ },
+ "g:l2_kore_sore_are:1": {
+  "en": [
+   "that over there",
+   "What is"
+  ],
+  "vi": [
+   "ở đó",
+   "Cái gì"
+  ]
+ },
+ "g:l2_kono_sono_ano:0": {
+  "en": [
+   "This",
+   "book",
+   "is mine"
+  ],
+  "vi": [
+   "này",
+   "Cuốn sách",
+   "là của tôi"
+  ]
+ },
+ "g:l2_sou_desu:0": {
+  "en": [
+   "that",
+   "your",
+   "umbrella",
+   "Yes",
+   "it is"
+  ],
+  "vi": [
+   "Đó",
+   "của bạn",
+   "chiếc ô",
+   "Vâng",
+   "đúng vậy"
+  ]
+ },
+ "g:l2_ka_ka:0": {
+  "en": [
+   "this",
+   "a ballpoint pen",
+   "a pencil"
+  ],
+  "vi": [
+   "Đây",
+   "bút bi",
+   "bút chì"
+  ]
+ },
+ "g:l3_koko_soko_asoko:0": {
+  "en": [
+   "The toilet",
+   "is over there"
+  ],
+  "vi": [
+   "Nhà vệ sinh",
+   "ở đằng kia"
+  ]
+ },
+ "g:l3_wa_place:0": {
+  "en": [
+   "The company",
+   "is in Tokyo"
+  ],
+  "vi": [
+   "Công ty",
+   "ở Tokyo"
+  ]
+ },
+ "g:l3_wa_place:1": {
+  "en": [
+   "the telephone",
+   "Where is"
+  ],
+  "vi": [
+   "Điện thoại",
+   "ở đâu"
+  ]
+ },
+ "g:l4_time:0": {
+  "en": [
+   "now",
+   "9:15",
+   null
+  ],
+  "vi": [
+   "Bây giờ",
+   "9h15",
+   null
+  ]
+ },
+ "g:l4_time:1": {
+  "en": [
+   "every morning",
+   "at six",
+   "I get up"
+  ],
+  "vi": [
+   "mỗi sáng",
+   "lúc sáu giờ",
+   "thức dậy"
+  ]
+ },
+ "g:l4_kara_made:0": {
+  "en": [
+   "The bank",
+   "from 9",
+   "to 3"
+  ],
+  "vi": [
+   "Ngân hàng",
+   "từ 9",
+   "đến 3"
+  ]
+ },
+ "g:l4_verb_polite:0": {
+  "en": [
+   "yesterday",
+   "studied",
+   null
+  ],
+  "vi": [
+   "ngày hôm qua",
+   "học",
+   "đã"
+  ]
+ },
+ "g:l4_verb_polite:1": {
+  "en": [
+   "today",
+   "I don't work"
+  ],
+  "vi": [
+   "Hôm nay",
+   "không làm việc"
+  ]
+ },
+ "g:l5_e_ikimasu:0": {
+  "en": [
+   "to Kyoto",
+   "I am going"
+  ],
+  "vi": [
+   "đến Kyoto",
+   "đang đi"
+  ]
+ },
+ "g:l5_de_vehicle:0": {
+  "en": [
+   "by train",
+   "I go"
+  ],
+  "vi": [
+   "bằng tàu hỏa",
+   "đi"
+  ]
+ },
+ "g:l5_to_person:0": {
+  "en": [
+   "with a friend",
+   "to Kyoto",
+   "I'm going"
+  ],
+  "vi": [
+   "với một người bạn",
+   "Kyoto",
+   "sắp đi"
+  ]
+ },
+ "g:l6_wo_object:0": {
+  "en": [
+   "bread",
+   "I eat"
+  ],
+  "vi": [
+   "bánh mì",
+   "ăn"
+  ]
+ },
+ "g:l6_wo_object:1": {
+  "en": [
+   "a letter",
+   "I write"
+  ],
+  "vi": [
+   "một lá thư",
+   "viết"
+  ]
+ },
+ "g:l6_de_place:0": {
+  "en": [
+   "at the library",
+   "books",
+   "I read"
+  ],
+  "vi": [
+   "ở thư viện",
+   "sách",
+   "đọc"
+  ]
+ },
+ "g:l6_masenka_mashou:0": {
+  "en": [
+   "with me",
+   "a movie",
+   "Won't you watch"
+  ],
+  "vi": [
+   "với tôi",
+   "phim",
+   "không xem"
+  ]
+ },
+ "g:l6_masenka_mashou:1": {
+  "en": [
+   "a short",
+   "break"
+  ],
+  "vi": [
+   "một chút",
+   "hãy nghỉ ngơi"
+  ]
+ },
+ "g:l7_de_tool:0": {
+  "en": [
+   "with chopsticks",
+   "I eat"
+  ],
+  "vi": [
+   "bằng đũa",
+   "ăn"
+  ]
+ },
+ "g:l7_de_tool:1": {
+  "en": [
+   "in Japanese",
+   "letters",
+   "I write"
+  ],
+  "vi": [
+   "bằng tiếng Nhật",
+   "thư",
+   "viết"
+  ]
+ },
+ "g:l7_agemasu_moraimasu:0": {
+  "en": [
+   "to Mr. Yamada",
+   "flowers",
+   "I give"
+  ],
+  "vi": [
+   "cho ông Yamada",
+   "hoa",
+   "tặng"
+  ]
+ },
+ "g:l7_agemasu_moraimasu:1": {
+  "en": [
+   "from a friend",
+   "a present",
+   "I received"
+  ],
+  "vi": [
+   "từ một người bạn",
+   "một món quà",
+   "nhận được"
+  ]
+ },
+ "g:l7_mou_mashita:0": {
+  "en": [
+   "already",
+   null,
+   "lunch",
+   "eaten"
+  ],
+  "vi": [
+   "rồi",
+   "trưa",
+   null,
+   "đã ăn"
+  ]
+ },
+ "g:l8_i_adj:0": {
+  "en": [
+   "This",
+   "coffee",
+   "is hot"
+  ],
+  "vi": [
+   "này",
+   "Cà phê",
+   "nóng"
+  ]
+ },
+ "g:l8_i_adj:1": {
+  "en": [
+   "This",
+   "room",
+   "is not spacious"
+  ],
+  "vi": [
+   "này",
+   "Căn phòng",
+   "không rộng rãi"
+  ]
+ },
+ "g:l8_na_adj:0": {
+  "en": [
+   "This",
+   "town",
+   "is quiet"
+  ],
+  "vi": [
+   "này",
+   "Thị trấn",
+   "yên tĩnh"
+  ]
+ },
+ "g:l8_na_adj:1": {
+  "en": [
+   "pretty",
+   "flower"
+  ],
+  "vi": [
+   "đẹp",
+   "một bông hoa"
+  ]
+ },
+ "g:l8_ga_but:0": {
+  "en": [
+   "Japanese",
+   "is difficult, but",
+   "interesting"
+  ],
+  "vi": [
+   "Tiếng Nhật",
+   "khó nhưng",
+   "thú vị"
+  ]
+ },
+ "g:l9_ga_suki:0": {
+  "en": [
+   "I",
+   "music",
+   "like"
+  ],
+  "vi": [
+   "Tôi",
+   "âm nhạc",
+   "thích"
+  ]
+ },
+ "g:l9_ga_suki:1": {
+  "en": [
+   "Mr. Tanaka",
+   "cooking",
+   "is good at"
+  ],
+  "vi": [
+   "Anh Tanaka",
+   "nấu ăn",
+   "rất giỏi"
+  ]
+ },
+ "g:l9_ga_wakarimasu:0": {
+  "en": [
+   "Japanese",
+   "I understand"
+  ],
+  "vi": [
+   "tiếng Nhật",
+   "hiểu"
+  ]
+ },
+ "g:l9_kara_reason:0": {
+  "en": [
+   "time",
+   "Because I have no",
+   "the newspaper",
+   "I don't read"
+  ],
+  "vi": [
+   "thời gian",
+   "Vì không có",
+   "báo",
+   "tôi không đọc"
+  ]
+ },
+ "g:l10_arimasu_imasu:0": {
+  "en": [
+   "in the room",
+   "a TV",
+   "There is"
+  ],
+  "vi": [
+   "trong phòng",
+   "một chiếc TV",
+   "Có"
+  ]
+ },
+ "g:l10_arimasu_imasu:1": {
+  "en": [
+   "on the desk",
+   "a cat",
+   "There is"
+  ],
+  "vi": [
+   "trên bàn làm việc",
+   "một con mèo",
+   "Có"
+  ]
+ },
+ "g:l10_position:0": {
+  "en": [
+   "inside the box",
+   "sweets",
+   "There are"
+  ],
+  "vi": [
+   "bên trong hộp",
+   "kẹo",
+   "Có"
+  ]
+ },
+ "g:l11_counters:0": {
+  "en": [
+   "apples",
+   "two",
+   "I'll buy"
+  ],
+  "vi": [
+   "táo",
+   "hai quả",
+   "sẽ mua"
+  ]
+ },
+ "g:l11_counters:1": {
+  "en": [
+   "stamps",
+   "Three",
+   "please"
+  ],
+  "vi": [
+   "con dấu",
+   "ba",
+   "Làm ơn cho"
+  ]
+ },
+ "g:l11_frequency:0": {
+  "en": [
+   "a week",
+   "twice",
+   "tennis",
+   "I play"
+  ],
+  "vi": [
+   "một tuần",
+   "hai lần",
+   "quần vợt",
+   "chơi"
+  ]
+ },
+ "g:l12_past_noun_adj:0": {
+  "en": [
+   "yesterday",
+   "It was rainy"
+  ],
+  "vi": [
+   "Hôm qua",
+   "trời mưa"
+  ]
+ },
+ "g:l12_past_i_adj:0": {
+  "en": [
+   "The trip",
+   "was fun"
+  ],
+  "vi": [
+   "Chuyến đi",
+   "thật vui vẻ"
+  ]
+ },
+ "g:l12_comparison:0": {
+  "en": [
+   "Planes",
+   "than trains",
+   "are faster"
+  ],
+  "vi": [
+   "Máy bay",
+   "hơn tàu hỏa",
+   "nhanh"
+  ]
+ },
+ "g:l12_comparison:1": {
+  "en": [
+   "in Japan",
+   "Where",
+   "the most",
+   "beautiful"
+  ],
+  "vi": [
+   "Nhật Bản",
+   "Đâu",
+   "nhất",
+   "đẹp"
+  ]
+ },
+ "g:l13_hoshii:0": {
+  "en": [
+   "new",
+   "car",
+   "I want"
+  ],
+  "vi": [
+   "mới",
+   "một chiếc xe",
+   "muốn"
+  ]
+ },
+ "g:l13_tai:0": {
+  "en": [
+   "to Okinawa",
+   "I want to go"
+  ],
+  "vi": [
+   "Okinawa",
+   "muốn đến"
+  ]
+ },
+ "g:l13_ni_purpose:0": {
+  "en": [
+   "to the department store",
+   "a bag",
+   "to buy",
+   "I'm going"
+  ],
+  "vi": [
+   "đến cửa hàng bách hóa",
+   "một cái túi",
+   "để mua",
+   "đang đi"
+  ]
+ },
+ "g:l14_te_form:0": {
+  "en": [
+   "a book",
+   "I read",
+   "sleep"
+  ],
+  "vi": [
+   "một cuốn sách",
+   "đọc",
+   "ngủ"
+  ]
+ },
+ "g:l14_te_kudasai:0": {
+  "en": [
+   "here",
+   "your name",
+   "Please write"
+  ],
+  "vi": [
+   "ở đây",
+   "tên của bạn",
+   "Xin vui lòng viết"
+  ]
+ },
+ "g:l14_te_imasu:0": {
+  "en": [
+   "now",
+   "It is raining"
+  ],
+  "vi": [
+   "Bây giờ trời",
+   "đang mưa"
+  ]
+ },
+ "g:l15_te_mo_ii:0": {
+  "en": [
+   "here",
+   "photos",
+   "May I take"
+  ],
+  "vi": [
+   "ở đây",
+   "ảnh",
+   "có thể chụp"
+  ]
+ },
+ "g:l15_te_wa_ikemasen:0": {
+  "en": [
+   "here",
+   "smoke",
+   "You must not"
+  ],
+  "vi": [
+   "ở đây",
+   "thuốc",
+   "không được hút"
+  ]
+ },
+ "g:l15_te_imasu_state:0": {
+  "en": [
+   "at a bank",
+   "I work"
+  ],
+  "vi": [
+   "tại một ngân hàng",
+   "làm việc"
+  ]
+ },
+ "g:l16_te_connect:0": {
+  "en": [
+   null,
+   "breakfast",
+   "I eat",
+   "to work",
+   "go"
+  ],
+  "vi": [
+   "sáng",
+   null,
+   "ăn",
+   "làm",
+   "đi"
+  ]
+ },
+ "g:l16_te_kara:0": {
+  "en": [
+   "work",
+   "finishes",
+   "a movie",
+   "I'll watch"
+  ],
+  "vi": [
+   "làm việc",
+   "xong",
+   "phim",
+   "sẽ xem"
+  ]
+ },
+ "g:l16_adj_te:0": {
+  "en": [
+   "This",
+   "town",
+   "quiet",
+   "beautiful"
+  ],
+  "vi": [
+   "này",
+   "Thị trấn",
+   "yên tĩnh",
+   "xinh đẹp"
+  ]
+ },
+ "g:l17_nai_form:0": {
+  "en": [
+   "today",
+   "anything",
+   "I won't eat"
+  ],
+  "vi": [
+   "Hôm nay",
+   "gì cả",
+   "sẽ không ăn"
+  ]
+ },
+ "g:l17_naide_kudasai:0": {
+  "en": [
+   "here",
+   "your car",
+   "Please don't park"
+  ],
+  "vi": [
+   "ở đây",
+   "xe",
+   "Xin đừng đỗ"
+  ]
+ },
+ "g:l17_nakereba:0": {
+  "en": [
+   "medicine",
+   "must take"
+  ],
+  "vi": [
+   "thuốc",
+   "phải uống"
+  ]
+ },
+ "g:l17_nakereba:1": {
+  "en": [
+   "tomorrow",
+   "You don't have to come"
+  ],
+  "vi": [
+   "vào ngày mai",
+   "không cần phải đến"
+  ]
+ },
+ "g:l18_dict_form:0": {
+  "en": [
+   "every night",
+   "a book",
+   "I read"
+  ],
+  "vi": [
+   "mỗi tối",
+   "một cuốn sách",
+   "đọc"
+  ]
+ },
+ "g:l18_koto_ga_dekimasu:0": {
+  "en": [
+   "I",
+   "Japanese",
+   "speak",
+   "can"
+  ],
+  "vi": [
+   "Tôi",
+   "tiếng Nhật",
+   "nói",
+   "có thể"
+  ]
+ },
+ "g:l18_mae_ni:0": {
+  "en": [
+   "sleeping",
+   "before",
+   "a book",
+   "I read"
+  ],
+  "vi": [
+   "ngủ",
+   "trước khi",
+   "sách",
+   "đọc"
+  ]
+ },
+ "g:l19_ta_form:0": {
+  "en": [
+   "yesterday",
+   "to Kyoto",
+   "I went"
+  ],
+  "vi": [
+   "ngày hôm qua",
+   "Kyoto",
+   "đã đến"
+  ]
+ },
+ "g:l19_ta_koto_ga_arimasu:0": {
+  "en": [
+   "to Hokkaido",
+   "have been",
+   null
+  ],
+  "vi": [
+   "Hokkaido",
+   "đã từng đến",
+   null
+  ]
+ },
+ "g:l19_tari_tari:0": {
+  "en": [
+   "On Sundays",
+   "cleaning",
+   null,
+   "laundry",
+   null,
+   "I do things like"
+  ],
+  "vi": [
+   "Vào Chủ nhật",
+   "dọn dẹp",
+   null,
+   "giặt giũ",
+   null,
+   "tôi làm những việc như"
+  ]
+ },
+ "g:l19_narimasu:0": {
+  "en": [
+   "cold",
+   "It has gotten"
+  ],
+  "vi": [
+   "lạnh",
+   "đã trở"
+  ]
+ },
+ "g:l19_narimasu:1": {
+  "en": [
+   "better",
+   "I've gotten"
+  ],
+  "vi": [
+   "khỏe hơn",
+   "đã"
+  ]
+ },
+ "g:l20_plain_form:0": {
+  "en": [
+   "tomorrow",
+   "free"
+  ],
+  "vi": [
+   "Ngày mai",
+   "rảnh"
+  ]
+ },
+ "g:l20_plain_form:1": {
+  "en": [
+   "This",
+   "my",
+   "umbrella"
+  ],
+  "vi": [
+   "Đây",
+   "của tôi",
+   "chiếc ô"
+  ]
+ },
+ "g:l21_to_omoimasu:0": {
+  "en": [
+   "tomorrow",
+   "rain",
+   "it will",
+   "I think"
+  ],
+  "vi": [
+   "ngày mai",
+   "mưa",
+   "trời sẽ",
+   "Tôi nghĩ"
+  ]
+ },
+ "g:l21_to_iimashita:0": {
+  "en": [
+   "Mr. Tanaka",
+   "tomorrow",
+   "he won't come",
+   "said"
+  ],
+  "vi": [
+   "Ông Tanaka",
+   "ngày mai",
+   "sẽ không đến",
+   "nói"
+  ]
+ },
+ "g:l21_deshou:0": {
+  "en": [
+   "Tomorrow",
+   "a day off, right"
+  ],
+  "vi": [
+   "Ngày mai",
+   "ngày nghỉ phải không"
+  ]
+ },
+ "g:l22_noun_modify:0": {
+  "en": [
+   "This",
+   "I",
+   "made",
+   "the cake"
+  ],
+  "vi": [
+   "Đây",
+   "tôi",
+   "đã làm",
+   "chiếc bánh"
+  ]
+ },
+ "g:l22_noun_modify:1": {
+  "en": [
+   "yesterday",
+   "I saw",
+   "The movie",
+   "was interesting"
+  ],
+  "vi": [
+   "hôm qua",
+   "tôi xem",
+   "Bộ phim",
+   "rất thú vị"
+  ]
+ },
+ "g:l22_donna:0": {
+  "en": [
+   "What kind",
+   "music",
+   "do you like"
+  ],
+  "vi": [
+   "nào",
+   "nhạc",
+   "thích"
+  ]
+ },
+ "g:l23_toki:0": {
+  "en": [
+   "to the library",
+   "When you go",
+   "a card",
+   "you need"
+  ],
+  "vi": [
+   "thư viện",
+   "Khi vào",
+   "thẻ",
+   "phải có"
+  ]
+ },
+ "g:l23_to_conditional:0": {
+  "en": [
+   "this",
+   "button",
+   "When you press",
+   "a ticket",
+   "comes out"
+  ],
+  "vi": [
+   "này",
+   "nút",
+   "Khi bạn nhấn",
+   "một vé",
+   "sẽ xuất hiện"
+  ]
+ },
+ "g:l23_wo_movement:0": {
+  "en": [
+   "next",
+   "corner",
+   "right",
+   "Turn"
+  ],
+  "vi": [
+   "tiếp theo",
+   "góc",
+   "phải",
+   "Rẽ"
+  ]
+ },
+ "g:l24_kuremasu:0": {
+  "en": [
+   "Mr. Yamada",
+   "me",
+   "some sweets",
+   "gave"
+  ],
+  "vi": [
+   "Ông Yamada",
+   "tôi",
+   "ít kẹo",
+   "cho"
+  ]
+ },
+ "g:l24_te_giving:0": {
+  "en": [
+   "to a friend",
+   "a book",
+   "I lent"
+  ],
+  "vi": [
+   "một người bạn",
+   "một cuốn sách",
+   "mượn"
+  ]
+ },
+ "g:l24_te_giving:1": {
+  "en": [
+   "My older sister",
+   null,
+   "cooked for me"
+  ],
+  "vi": [
+   "Chị gái tôi",
+   null,
+   "nấu ăn cho tôi"
+  ]
+ },
+ "g:l25_tara:0": {
+  "en": [
+   "money",
+   "If I have",
+   "travel",
+   "I'll"
+  ],
+  "vi": [
+   "tiền",
+   "Nếu tôi có",
+   "đi du lịch",
+   "tôi sẽ"
+  ]
+ },
+ "g:l25_temo:0": {
+  "en": [
+   "it rains",
+   "Even if",
+   "I will go"
+  ],
+  "vi": [
+   "mưa",
+   "Dù trời có",
+   "sẽ đi"
+  ]
+ }
+}

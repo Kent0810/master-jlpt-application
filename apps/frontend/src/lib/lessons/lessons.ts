@@ -1,8 +1,9 @@
 import { getGrammarByLesson, getVocabByLesson } from "@/lib/data";
+import { getAlignment } from "@/lib/data/alignments";
 import type { Grammar, Vocabulary } from "@/lib/data/types";
 import dialoguesJson from "../../../data/n5-dialogues.json";
 
-import type { TokenChunk } from "@/lib/data/types";
+import type { TokenChunk, AlignmentParts } from "@/lib/data/types";
 
 export interface DialogueLine {
   sp: string;
@@ -12,6 +13,8 @@ export interface DialogueLine {
   vi: string;
   tokens?: TokenChunk[];
   romaji?: string;
+  alignEn?: AlignmentParts;
+  alignVi?: AlignmentParts;
 }
 
 export interface Dialogue {
@@ -19,7 +22,15 @@ export interface Dialogue {
   lines: DialogueLine[];
 }
 
-const DIALOGUES = dialoguesJson as Dialogue[];
+// Attach the separately-authored word alignments (keyed d{lesson}:{lineIdx})
+// so each line carries its translation-highlight data.
+const DIALOGUES = (dialoguesJson as Dialogue[]).map((d) => ({
+  ...d,
+  lines: d.lines.map((line, i) => {
+    const align = getAlignment(`d${d.lesson}:${i}`);
+    return align ? { ...line, alignEn: align.en, alignVi: align.vi } : line;
+  }),
+}));
 
 export function getDialogue(lesson: number): Dialogue | undefined {
   return DIALOGUES.find((d) => d.lesson === lesson);

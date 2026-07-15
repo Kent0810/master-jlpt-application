@@ -13,8 +13,13 @@ interface Props {
   romajiClassName?: string;
   // When set, each word token becomes tappable and calls back with its
   // surface text instead of rendering as a plain, non-interactive span.
-  onWordSelect?: (word: string) => void;
+  onWordSelect?: (word: string, index: number) => void;
   selectedWord?: string | null;
+  // Linked-highlight support: reports the hovered token index (null on leave)
+  // and tints the token at highlightIndex — used to pair each word with its
+  // span in the translation line.
+  onWordHover?: (index: number | null) => void;
+  highlightIndex?: number | null;
 }
 
 // Chunk boundaries in the dialogue data often bundle trailing punctuation
@@ -42,6 +47,8 @@ export function Sentence({
   romajiClassName,
   onWordSelect,
   selectedWord,
+  onWordHover,
+  highlightIndex,
 }: Props) {
   const { showRomaji } = useSettings();
   const roma = romaji ?? (reading ? wanakana.toRomaji(reading) : "");
@@ -61,7 +68,7 @@ export function Sentence({
                 <span key={si}>{seg.t}</span>
               ),
             );
-            if (!onWordSelect) {
+            if (!onWordSelect && !onWordHover) {
               return (
                 <span key={ci} className="mr-2 inline-block">
                   {content}
@@ -69,14 +76,16 @@ export function Sentence({
               );
             }
             const text = chunkText(chunk);
-            const isSelected = text === selectedWord;
+            const isActive = text === selectedWord || ci === highlightIndex;
             return (
               <button
                 key={ci}
                 type="button"
-                onClick={() => onWordSelect(text)}
+                onClick={() => onWordSelect?.(text, ci)}
+                onMouseEnter={() => onWordHover?.(ci)}
+                onMouseLeave={() => onWordHover?.(null)}
                 className={`mr-2 inline-block rounded px-0.5 transition-colors ${
-                  isSelected
+                  isActive
                     ? "bg-brand/20"
                     : "hover:bg-black/5 dark:hover:bg-white/10"
                 }`}

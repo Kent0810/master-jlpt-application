@@ -115,6 +115,10 @@ export const VI: Record<string, string> = {
   "会話 · Dialogue": "会話 · Hội thoại",
   "A short conversation for this lesson is coming soon.":
     "Đoạn hội thoại ngắn cho bài này sẽ sớm ra mắt.",
+  "Learn more": "Tìm hiểu thêm",
+  "not in the vocabulary list": "không có trong danh sách từ vựng",
+  "How it's formed": "Cách cấu tạo",
+  "Watch out": "Lưu ý",
 
   // Lists page
   "Study Lists": "Danh sách học",

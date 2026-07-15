@@ -14,4 +14,10 @@ export function useT() {
   return (s: string) => (language === "vi" ? (VI[s] ?? s) : s);
 }
 
-export { pickMeanings, pickGrammarMeaning, pickExampleGloss } from "./content";
+export {
+  pickMeanings,
+  pickGrammarMeaning,
+  pickExampleGloss,
+  pickExampleAlign,
+  pickGrammarDetail,
+} from "./content";

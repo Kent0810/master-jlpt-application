@@ -33,6 +33,11 @@ export interface FuriSegment {
 // spaces; chunks are separated by spaces.
 export type TokenChunk = FuriSegment[];
 
+// Word alignment for a tokenized sentence: one entry per token chunk, holding
+// the substring of the translation that renders that word (or null when the
+// word has no counterpart, e.g. bare particles).
+export type AlignmentParts = (string | null)[];
+
 export interface ExampleSentence {
   jp: string;
   reading: string;
@@ -40,6 +45,8 @@ export interface ExampleSentence {
   vi?: string;
   tokens?: TokenChunk[];
   romaji?: string;
+  alignEn?: AlignmentParts;
+  alignVi?: AlignmentParts;
 }
 
 export interface Vocabulary {
@@ -57,6 +64,16 @@ export interface Vocabulary {
   mnnBook?: "I" | "II";
 }
 
+// In-depth elaboration of a grammar point, shown in the "Learn more" block.
+export interface GrammarDetail {
+  // 2–4 short paragraphs on meaning, usage and register.
+  explanation: string[];
+  // How the form is built (what attaches to what, conjugation rules).
+  formation: string;
+  // Common-mistake / nuance callouts.
+  pitfalls: string[];
+}
+
 export interface Grammar {
   id: string;
   lesson: number;
@@ -65,6 +82,8 @@ export interface Grammar {
   meaningVi?: string;
   structure: string;
   examples: ExampleSentence[];
+  detail?: GrammarDetail;
+  detailVi?: GrammarDetail;
 }
 
 export type StudyStatus = "new" | "learning" | "mastered";

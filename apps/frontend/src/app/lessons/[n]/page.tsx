@@ -10,8 +10,10 @@ import {
   LESSON_META,
 } from "@/lib/lessons/lessons";
 import { getVocab } from "@/lib/data";
+import type { GrammarDetail } from "@/lib/data/types";
 import { Reading } from "@/components/Furigana";
 import { Sentence } from "@/components/Sentence";
+import { AlignedTranslation } from "@/components/AlignedTranslation";
 import { LessonImageFigure } from "@/components/LessonImage";
 import { GrammarImage } from "@/components/GrammarImage";
 import { getLessonHero } from "@/lib/lessonImages";
@@ -23,6 +25,8 @@ import {
   pickMeanings,
   pickGrammarMeaning,
   pickExampleGloss,
+  pickExampleAlign,
+  pickGrammarDetail,
 } from "@/lib/i18n";
 
 export default function LessonDetailPage() {
@@ -32,11 +36,30 @@ export default function LessonDetailPage() {
   const dialogue = getDialogue(lesson);
   const t = useT();
   const lang = useLang();
+  // Word selection (tap → lookup card) and hover, keyed per sentence:
+  // "d:{lineIdx}" for dialogue lines, "g:{grammarIdx}:{exampleIdx}" for
+  // grammar examples. `token` links the word to its translation span.
   const [selected, setSelected] = useState<{
-    line: number;
+    key: string;
     word: string;
+    token: number;
+  } | null>(null);
+  const [hovered, setHovered] = useState<{
+    key: string;
+    token: number;
   } | null>(null);
   if (!content) return notFound();
+
+  // The token index to tint in a given sentence and its translation — the
+  // hovered word wins, otherwise the tapped selection stays lit.
+  const linkFor = (key: string) =>
+    hovered?.key === key
+      ? hovered.token
+      : selected?.key === key
+        ? selected.token
+        : null;
+  const hoverFor = (key: string) => (token: number | null) =>
+    setHovered(token === null ? null : { key, token });
 
   const { meta, grammar, vocab } = content;
   const prev = LESSON_META.find((l) => l.lesson === lesson - 1);
@@ -113,58 +136,85 @@ export default function LessonDetailPage() {
           </p>
         ) : (
           <ul className="space-y-3">
-            {grammar.map((g, gi) => (
-              <li
-                key={g.id}
-                className="rounded-2xl border border-l-4 border-black/10 bg-black/[0.015] p-4 dark:border-white/10 dark:bg-white/[0.02]"
-                style={{ borderLeftColor: accent }}
-              >
-                <h3 className="flex items-center gap-2.5 font-jp text-lg font-semibold">
-                  <span
-                    className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full text-xs font-bold"
+            {grammar.map((g, gi) => {
+              const detail = pickGrammarDetail(g, lang);
+              return (
+                <li
+                  key={g.id}
+                  className="rounded-2xl border border-l-4 border-black/10 bg-black/[0.015] p-4 dark:border-white/10 dark:bg-white/[0.02]"
+                  style={{ borderLeftColor: accent }}
+                >
+                  <h3 className="flex items-center gap-2.5 font-jp text-lg font-semibold">
+                    <span
+                      className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full text-xs font-bold"
+                      style={{
+                        color: accent,
+                        backgroundColor: accentTint(accent, 0.14),
+                      }}
+                    >
+                      {gi + 1}
+                    </span>
+                    {g.title}
+                  </h3>
+                  <p className="mt-1 text-sm text-slate-500">
+                    {pickGrammarMeaning(g, lang)}
+                  </p>
+                  <p
+                    className="mt-2 inline-block rounded-lg px-2.5 py-1 font-mono text-xs font-medium"
                     style={{
                       color: accent,
-                      backgroundColor: accentTint(accent, 0.14),
+                      backgroundColor: accentTint(accent, 0.1),
                     }}
                   >
-                    {gi + 1}
-                  </span>
-                  {g.title}
-                </h3>
-                <p className="mt-1 text-sm text-slate-500">
-                  {pickGrammarMeaning(g, lang)}
-                </p>
-                <p
-                  className="mt-2 inline-block rounded-lg px-2.5 py-1 font-mono text-xs font-medium"
-                  style={{
-                    color: accent,
-                    backgroundColor: accentTint(accent, 0.1),
-                  }}
-                >
-                  {g.structure}
-                </p>
-                <GrammarImage grammarId={g.id} />
-                <ul
-                  className="mt-3 space-y-2.5 border-l-2 pl-3"
-                  style={{ borderColor: accentTint(accent, 0.35) }}
-                >
-                  {g.examples.map((ex, i) => (
-                    <li key={i} className="text-sm">
-                      <Sentence
-                        jp={ex.jp}
-                        reading={ex.reading}
-                        tokens={ex.tokens}
-                        romaji={ex.romaji}
-                        className="text-base"
-                      />
-                      <span className="mt-0.5 block text-slate-500">
-                        {pickExampleGloss(ex, lang)}
-                      </span>
-                    </li>
-                  ))}
-                </ul>
-              </li>
-            ))}
+                    {g.structure}
+                  </p>
+                  <GrammarImage grammarId={g.id} />
+                  <ul
+                    className="mt-3 space-y-2.5 border-l-2 pl-3"
+                    style={{ borderColor: accentTint(accent, 0.35) }}
+                  >
+                    {g.examples.map((ex, i) => {
+                      const key = `g:${gi}:${i}`;
+                      return (
+                        <li key={i} className="text-sm">
+                          <Sentence
+                            jp={ex.jp}
+                            reading={ex.reading}
+                            tokens={ex.tokens}
+                            romaji={ex.romaji}
+                            className="text-base"
+                            onWordSelect={(word, token) =>
+                              setSelected({ key, word, token })
+                            }
+                            selectedWord={
+                              selected?.key === key ? selected.word : null
+                            }
+                            onWordHover={hoverFor(key)}
+                            highlightIndex={linkFor(key)}
+                          />
+                          <AlignedTranslation
+                            text={pickExampleGloss(ex, lang)}
+                            parts={pickExampleAlign(ex, lang)}
+                            highlightIndex={linkFor(key)}
+                            onWordHover={hoverFor(key)}
+                            className="mt-0.5 block text-slate-500"
+                          />
+                          {selected?.key === key && (
+                            <WordLookupCard
+                              word={selected.word}
+                              onClose={() => setSelected(null)}
+                            />
+                          )}
+                        </li>
+                      );
+                    })}
+                  </ul>
+                  {detail && (
+                    <GrammarDetailBlock detail={detail} accent={accent} />
+                  )}
+                </li>
+              );
+            })}
           </ul>
         )}
       </section>
@@ -213,6 +263,7 @@ export default function LessonDetailPage() {
         {dialogue ? (
           <div className="space-y-4 rounded-2xl border border-black/10 bg-[#faf7ee] p-4 dark:border-white/10 dark:bg-white/[0.03] sm:p-6">
             {dialogue.lines.map((line, i) => {
+              const key = `d:${i}`;
               const isReply = line.sp !== dialogue.lines[0].sp;
               const speakerColor = isReply ? lessonAccent(lesson + 3) : accent;
               return (
@@ -248,16 +299,24 @@ export default function LessonDetailPage() {
                         tokens={line.tokens}
                         romaji={line.romaji}
                         className="text-base leading-loose"
-                        onWordSelect={(word) => setSelected({ line: i, word })}
-                        selectedWord={
-                          selected?.line === i ? selected.word : null
+                        onWordSelect={(word, token) =>
+                          setSelected({ key, word, token })
                         }
+                        selectedWord={
+                          selected?.key === key ? selected.word : null
+                        }
+                        onWordHover={hoverFor(key)}
+                        highlightIndex={linkFor(key)}
                       />
-                      <p className="mt-1 text-xs text-slate-500 dark:text-slate-400">
-                        {lang === "vi" ? line.vi : line.en}
-                      </p>
+                      <AlignedTranslation
+                        text={lang === "vi" ? line.vi : line.en}
+                        parts={lang === "vi" ? line.alignVi : line.alignEn}
+                        highlightIndex={linkFor(key)}
+                        onWordHover={hoverFor(key)}
+                        className="mt-1 block text-xs text-slate-500 dark:text-slate-400"
+                      />
                     </div>
-                    {selected?.line === i && (
+                    {selected?.key === key && (
                       <WordLookupCard
                         word={selected.word}
                         onClose={() => setSelected(null)}
@@ -329,6 +388,81 @@ function WordLookupCard({
           ✕
         </button>
       </div>
+    </div>
+  );
+}
+
+// Collapsible in-depth explanation under a grammar point: usage paragraphs,
+// a formation box, and common-mistake callouts.
+function GrammarDetailBlock({
+  detail,
+  accent,
+}: {
+  detail: GrammarDetail;
+  accent: string;
+}) {
+  const t = useT();
+  const [open, setOpen] = useState(false);
+
+  return (
+    <div className="mt-3">
+      <button
+        type="button"
+        onClick={() => setOpen((o) => !o)}
+        aria-expanded={open}
+        className="flex items-center gap-1.5 text-xs font-semibold"
+        style={{ color: accent }}
+      >
+        <span
+          aria-hidden
+          className={`inline-block transition-transform ${open ? "rotate-90" : ""}`}
+        >
+          ▸
+        </span>
+        {t("Learn more")}
+      </button>
+      {open && (
+        <div className="mt-2 space-y-3 rounded-xl border border-black/10 bg-white/70 p-3.5 text-sm dark:border-white/10 dark:bg-white/[0.03]">
+          <div className="space-y-2 leading-relaxed">
+            {detail.explanation.map((p, i) => (
+              <p key={i}>{p}</p>
+            ))}
+          </div>
+          {detail.formation && (
+            <div>
+              <p className="text-xs font-semibold uppercase tracking-wide text-slate-400">
+                {t("How it's formed")}
+              </p>
+              <p
+                className="mt-1 whitespace-pre-line rounded-lg px-2.5 py-1.5 font-mono text-xs font-medium leading-relaxed"
+                style={{
+                  color: accent,
+                  backgroundColor: accentTint(accent, 0.1),
+                }}
+              >
+                {detail.formation}
+              </p>
+            </div>
+          )}
+          {detail.pitfalls.length > 0 && (
+            <div>
+              <p className="text-xs font-semibold uppercase tracking-wide text-slate-400">
+                {t("Watch out")}
+              </p>
+              <ul className="mt-1 space-y-1.5">
+                {detail.pitfalls.map((p, i) => (
+                  <li key={i} className="flex gap-2">
+                    <span aria-hidden className="shrink-0">
+                      ⚠️
+                    </span>
+                    <span>{p}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+        </div>
+      )}
     </div>
   );
 }

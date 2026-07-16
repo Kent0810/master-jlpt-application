@@ -208,12 +208,14 @@ function Paragraph({
           <ParagraphSentence key={i} sKey={`${blockKey}:${i}`} line={line} />
         ))}
       </p>
-      <p className="mt-3 border-t border-black/5 pt-3 text-sm leading-relaxed text-slate-500 dark:border-white/10 dark:text-slate-400">
-        {lines.map((line) => gloss(line, lang)).join(" ")}
-      </p>
+      {/* Lookup card sits right under the Japanese it belongs to, not below the
+          whole block. Only the selected line's card renders. */}
       {lines.map((_, i) => (
         <WordCardFor key={i} sKey={`${blockKey}:${i}`} />
       ))}
+      <p className="mt-3 border-t border-black/5 pt-3 text-sm leading-relaxed text-slate-500 dark:border-white/10 dark:text-slate-400">
+        {lines.map((line) => gloss(line, lang)).join(" ")}
+      </p>
     </div>
   );
 }

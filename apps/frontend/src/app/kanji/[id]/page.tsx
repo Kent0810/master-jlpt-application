@@ -10,6 +10,7 @@ import { StatusBadge } from "@/components/StatusBadge";
 import { Reading } from "@/components/Furigana";
 import { StrokeOrderPlayer } from "@/components/StrokeOrderPlayer";
 import { useStudyState } from "@/lib/db/hooks";
+import { readingForAudio } from "@/lib/audio/url";
 import { useT, useLang, pickMeanings } from "@/lib/i18n";
 
 export default function KanjiDetailPage() {
@@ -28,7 +29,7 @@ export default function KanjiDetailPage() {
     .filter((v): v is NonNullable<typeof v> => Boolean(v));
 
   const readingsAudio = [...kanji.kunyomi, ...kanji.onyomi]
-    .map((r) => r.replace(/-/g, ""))
+    .map(readingForAudio)
     .filter(Boolean);
 
   return (
@@ -60,9 +61,7 @@ export default function KanjiDetailPage() {
       <section className="grid grid-cols-2 gap-4">
         <ReadingBlock
           title="On'yomi (音)"
-          subtitle={t(
-            "Chinese-derived reading — usually in compound words.",
-          )}
+          subtitle={t("Chinese-derived reading — usually in compound words.")}
           readings={kanji.onyomi}
         />
         <ReadingBlock
@@ -152,7 +151,7 @@ function ReadingBlock({
             <li key={r} className="flex items-center gap-1">
               <span className="font-jp text-lg">{r}</span>
               <AudioButton
-                text={r.replace(/-/g, "")}
+                text={readingForAudio(r)}
                 label={`Play ${r}`}
                 className="inline-flex h-6 w-6 items-center justify-center rounded-full text-xs hover:bg-brand hover:text-white"
               />

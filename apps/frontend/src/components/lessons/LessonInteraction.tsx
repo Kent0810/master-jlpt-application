@@ -1,9 +1,17 @@
 "use client";
 
-import { createContext, useContext, useState } from "react";
+import {
+  createContext,
+  useContext,
+  useEffect,
+  useLayoutEffect,
+  useRef,
+  useState,
+} from "react";
 import { getVocab } from "@/lib/data";
 import { Reading } from "@/components/Furigana";
 import { AddToListButton } from "@/components/AddToListButton";
+import { AudioButton } from "@/components/AudioButton";
 import { useT, useLang, pickMeanings } from "@/lib/i18n";
 
 // Shared tap-to-lookup + linked-highlight state for a whole lesson page. Each
@@ -14,6 +22,8 @@ interface Selection {
   key: string;
   word: string;
   token: number;
+  // Viewport rect of the tapped word, so the lookup popover can anchor to it.
+  anchor: DOMRect;
 }
 interface Hover {
   key: string;
@@ -65,37 +75,98 @@ export function useSentenceLink(key: string) {
   return {
     highlightIndex,
     selectedWord: selected?.key === key ? selected.word : null,
-    onWordSelect: (word: string, token: number) =>
-      setSelected({ key, word, token }),
+    onWordSelect: (word: string, token: number, anchor: DOMRect) =>
+      setSelected({ key, word, token, anchor }),
     onWordHover: (token: number | null) =>
       setHovered(token === null ? null : { key, token }),
   };
 }
 
-// Renders the lookup card for a sentence's currently-selected word, or nothing.
-// Placed by each block where the card should appear (e.g. below a dialogue
-// bubble vs. under a grammar example).
+// Renders the lookup popover for a sentence's currently-selected word, or
+// nothing. Placed by each block, but the popover itself is position: fixed and
+// anchored to the tapped word, so its spot in the DOM doesn't matter.
 export function WordCardFor({ sKey }: { sKey: string }) {
   const { selected, setSelected } = useInteraction();
   if (selected?.key !== sKey) return null;
   return (
-    <WordLookupCard word={selected.word} onClose={() => setSelected(null)} />
+    <WordLookupCard
+      word={selected.word}
+      anchor={selected.anchor}
+      onClose={() => setSelected(null)}
+    />
   );
 }
 
 function WordLookupCard({
   word,
+  anchor,
   onClose,
 }: {
   word: string;
+  anchor: DOMRect;
   onClose: () => void;
 }) {
   const lang = useLang();
   const t = useT();
   const vocab = getVocab().find((v) => v.word === word);
+  const ref = useRef<HTMLDivElement>(null);
+  const [pos, setPos] = useState<{ top: number; left: number } | null>(null);
+
+  // Position next to the tapped word: below it by default, above if it would
+  // overflow the bottom, and clamped horizontally to the viewport.
+  useLayoutEffect(() => {
+    const el = ref.current;
+    if (!el) return;
+    const { width, height } = el.getBoundingClientRect();
+    const m = 8;
+    const vw = window.innerWidth;
+    const vh = window.innerHeight;
+    const left = Math.min(Math.max(m, anchor.left), vw - width - m);
+    let top = anchor.bottom + 6;
+    if (top + height > vh - m) {
+      const above = anchor.top - height - 6;
+      top = above >= m ? above : Math.max(m, vh - height - m);
+    }
+    setPos({ top, left });
+  }, [anchor, word]);
+
+  // Dismiss on Escape, scroll, resize, or a click outside the popover. The
+  // outside-click listener is armed on the next tick so the opening tap (which
+  // is still propagating) doesn't immediately close it.
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === "Escape") onClose();
+    };
+    const onOutside = (e: MouseEvent) => {
+      if (ref.current && !ref.current.contains(e.target as Node)) onClose();
+    };
+    window.addEventListener("scroll", onClose, true);
+    window.addEventListener("resize", onClose);
+    document.addEventListener("keydown", onKey);
+    const id = window.setTimeout(
+      () => document.addEventListener("mousedown", onOutside),
+      0,
+    );
+    return () => {
+      window.removeEventListener("scroll", onClose, true);
+      window.removeEventListener("resize", onClose);
+      document.removeEventListener("keydown", onKey);
+      document.removeEventListener("mousedown", onOutside);
+      window.clearTimeout(id);
+    };
+  }, [onClose]);
 
   return (
-    <div className="mt-1 flex items-start justify-between gap-3 rounded-xl border border-black/10 bg-black/[0.02] p-3 text-left dark:border-white/10 dark:bg-white/[0.03]">
+    <div
+      ref={ref}
+      role="dialog"
+      style={{
+        top: pos?.top ?? anchor.bottom + 6,
+        left: pos?.left ?? anchor.left,
+        visibility: pos ? "visible" : "hidden",
+      }}
+      className="fixed z-50 flex w-[min(20rem,calc(100vw-1rem))] items-start justify-between gap-3 rounded-xl border border-black/10 bg-[var(--background)] p-3 text-left shadow-xl dark:border-white/15"
+    >
       <div className="min-w-0">
         {vocab ? (
           <>
@@ -118,6 +189,12 @@ function WordLookupCard({
         )}
       </div>
       <div className="flex shrink-0 items-center gap-1">
+        <AudioButton
+          text={vocab ? vocab.reading : word}
+          audioUrl={vocab?.audioUrl}
+          label={`Play ${word}`}
+          className="inline-flex h-8 w-8 items-center justify-center rounded-full text-base text-slate-400 transition-colors hover:bg-brand hover:text-white"
+        />
         {vocab && <AddToListButton itemId={vocab.id} />}
         <button
           type="button"

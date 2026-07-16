@@ -1,7 +1,8 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { getPlayer } from "@/lib/audio/player";
+import { playAudio, isAudioAvailable } from "@/lib/audio/player";
+import { AudioIcon } from "./AudioIcon";
 
 interface Props {
   text: string;
@@ -10,24 +11,29 @@ interface Props {
   className?: string;
 }
 
+type Status = "idle" | "loading" | "playing";
+
 export function AudioButton({ text, audioUrl, label, className }: Props) {
   const [available, setAvailable] = useState(true);
-  const [speaking, setSpeaking] = useState(false);
+  const [status, setStatus] = useState<Status>("idle");
 
   useEffect(() => {
-    setAvailable(getPlayer(audioUrl).isAvailable());
-  }, [audioUrl]);
+    setAvailable(isAudioAvailable(text, audioUrl));
+  }, [text, audioUrl]);
 
   if (!available) return null;
 
   const speak = async (e: React.MouseEvent) => {
     e.preventDefault();
     e.stopPropagation();
-    setSpeaking(true);
+    if (status !== "idle") return; // ignore taps while loading/playing
+    setStatus("loading");
     try {
-      await getPlayer(audioUrl).play(text, audioUrl);
+      await playAudio(text, audioUrl, {
+        onPlaying: () => setStatus("playing"),
+      });
     } finally {
-      setSpeaking(false);
+      setStatus("idle");
     }
   };
 
@@ -36,14 +42,15 @@ export function AudioButton({ text, audioUrl, label, className }: Props) {
       type="button"
       onClick={speak}
       aria-label={label ?? `Play pronunciation of ${text}`}
+      aria-busy={status === "loading"}
       className={
         className ??
         `inline-flex h-9 w-9 items-center justify-center rounded-full border border-black/10 text-lg transition-colors hover:bg-brand hover:text-white dark:border-white/15 ${
-          speaking ? "animate-pulse bg-brand text-white" : ""
+          status !== "idle" ? "bg-brand text-white" : ""
         }`
       }
     >
-      🔊
+      <AudioIcon state={status} />
     </button>
   );
 }

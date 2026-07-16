@@ -15,8 +15,9 @@ interface Props {
   className?: string;
   romajiClassName?: string;
   // When set, each word token becomes tappable and calls back with its
-  // surface text instead of rendering as a plain, non-interactive span.
-  onWordSelect?: (word: string, index: number) => void;
+  // surface text, index, and on-screen rect (so a lookup popover can anchor to
+  // the tapped word) instead of rendering as a plain, non-interactive span.
+  onWordSelect?: (word: string, index: number, anchor: DOMRect) => void;
   selectedWord?: string | null;
   // Linked-highlight support: reports the hovered token index (null on leave)
   // and tints the token at highlightIndex — used to pair each word with its
@@ -127,7 +128,9 @@ export function Sentence({
               <button
                 key={ci}
                 type="button"
-                onClick={() => onWordSelect?.(text, ci)}
+                onClick={(e) =>
+                  onWordSelect?.(text, ci, e.currentTarget.getBoundingClientRect())
+                }
                 onMouseEnter={() => onWordHover?.(ci)}
                 onMouseLeave={() => onWordHover?.(null)}
                 className={`mr-2 inline-block rounded px-0.5 transition-colors ${

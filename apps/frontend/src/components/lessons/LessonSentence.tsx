@@ -2,6 +2,7 @@
 
 import { Sentence } from "@/components/Sentence";
 import { AlignedTranslation } from "@/components/AlignedTranslation";
+import { AudioButton } from "@/components/AudioButton";
 import { useSentenceLink } from "./LessonInteraction";
 import type { TokenChunk, AlignmentParts } from "@/lib/data/types";
 
@@ -34,18 +35,27 @@ export function LessonSentence({
   const link = useSentenceLink(sKey);
   return (
     <>
-      <Sentence
-        jp={jp}
-        reading={reading}
-        tokens={tokens}
-        romaji={romaji}
-        romajiChunks={romajiChunks}
-        className={sentenceClassName}
-        onWordSelect={link.onWordSelect}
-        selectedWord={link.selectedWord}
-        onWordHover={link.onWordHover}
-        highlightIndex={link.highlightIndex}
-      />
+      <div className="flex items-start justify-between gap-2">
+        <div className="min-w-0 flex-1">
+          <Sentence
+            jp={jp}
+            reading={reading}
+            tokens={tokens}
+            romaji={romaji}
+            romajiChunks={romajiChunks}
+            className={sentenceClassName}
+            onWordSelect={link.onWordSelect}
+            selectedWord={link.selectedWord}
+            onWordHover={link.onWordHover}
+            highlightIndex={link.highlightIndex}
+          />
+        </div>
+        <AudioButton
+          text={reading || jp}
+          label="Play sentence"
+          className="mt-0.5 inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-black/5 text-base text-slate-500 transition-colors hover:bg-brand hover:text-white dark:bg-white/10 dark:text-slate-300"
+        />
+      </div>
       <AlignedTranslation
         text={gloss}
         parts={alignParts}

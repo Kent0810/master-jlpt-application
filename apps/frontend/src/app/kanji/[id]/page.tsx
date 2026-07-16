@@ -58,8 +58,20 @@ export default function KanjiDetailPage() {
       </header>
 
       <section className="grid grid-cols-2 gap-4">
-        <ReadingBlock title="On'yomi (音)" readings={kanji.onyomi} />
-        <ReadingBlock title="Kun'yomi (訓)" readings={kanji.kunyomi} />
+        <ReadingBlock
+          title="On'yomi (音)"
+          subtitle={t(
+            "Chinese-derived reading — usually in compound words.",
+          )}
+          readings={kanji.onyomi}
+        />
+        <ReadingBlock
+          title="Kun'yomi (訓)"
+          subtitle={t(
+            "Native Japanese reading — usually when the kanji stands alone.",
+          )}
+          readings={kanji.kunyomi}
+        />
       </section>
 
       <section className="flex flex-col items-center gap-2">
@@ -115,16 +127,23 @@ export default function KanjiDetailPage() {
 
 function ReadingBlock({
   title,
+  subtitle,
   readings,
 }: {
   title: string;
+  subtitle?: string;
   readings: string[];
 }) {
   return (
     <div className="rounded-xl border border-black/10 p-3 dark:border-white/10">
-      <h3 className="mb-2 text-xs font-semibold uppercase tracking-wide text-slate-500">
+      <h3 className="text-xs font-semibold uppercase tracking-wide text-slate-500">
         {title}
       </h3>
+      {subtitle && (
+        <p className="mb-2 mt-0.5 text-xs leading-snug text-slate-400">
+          {subtitle}
+        </p>
+      )}
       {readings.length === 0 ? (
         <p className="text-sm text-slate-400">—</p>
       ) : (

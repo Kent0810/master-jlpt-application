@@ -95,8 +95,12 @@ export const VI: Record<string, string> = {
   "Minna no Nihongo Shokyū Ⅰ · lessons 1–25":
     "Minna no Nihongo Sơ cấp Ⅰ · bài 1–25",
 
-  // Kanji list
+  // Kanji list & detail
   "N5 Kanji": "Kanji N5",
+  "Chinese-derived reading — usually in compound words.":
+    "Âm Hán (cách đọc gốc Hán) — thường dùng trong từ ghép.",
+  "Native Japanese reading — usually when the kanji stands alone.":
+    "Âm Nhật (cách đọc thuần Nhật) — thường khi kanji đứng một mình.",
   "Search by meaning, reading, or kanji…":
     "Tìm theo nghĩa, cách đọc, hoặc kanji…",
   strokes: "nét",

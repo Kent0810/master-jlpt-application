@@ -14,7 +14,7 @@ export function InstallGuide() {
           <span>✅</span> {t("App installed")}
         </h3>
         <p className="mt-1 text-slate-500">
-          {t("N5 道場 is installed on this device and works offline.")}
+          {t("JLPT 道場 is installed on this device and works offline.")}
         </p>
       </section>
     );
@@ -27,7 +27,7 @@ export function InstallGuide() {
       </h3>
       <p className="mt-1 text-slate-500">
         {t(
-          "Add N5 道場 to your home screen for a faster, full-screen, offline experience.",
+          "Add JLPT 道場 to your home screen for a faster, full-screen, offline experience.",
         )}
       </p>
 

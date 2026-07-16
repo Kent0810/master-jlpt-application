@@ -19,8 +19,8 @@ export const VI: Record<string, string> = {
   "← Practice": "← Luyện tập",
 
   // Dashboard
-  "Your JLPT N5 kanji & vocab trainer.":
-    "Ứng dụng luyện kanji & từ vựng JLPT N5 của bạn.",
+  "Your JLPT kanji & vocab trainer.":
+    "Ứng dụng luyện kanji & từ vựng JLPT của bạn.",
   "Good morning": "Chào buổi sáng",
   "Good afternoon": "Chào buổi chiều",
   "Good evening": "Chào buổi tối",
@@ -52,11 +52,11 @@ export const VI: Record<string, string> = {
 
   // Install guide
   "App installed": "Đã cài đặt ứng dụng",
-  "N5 道場 is installed on this device and works offline.":
-    "N5 道場 đã được cài trên thiết bị này và hoạt động ngoại tuyến.",
+  "JLPT 道場 is installed on this device and works offline.":
+    "JLPT 道場 đã được cài trên thiết bị này và hoạt động ngoại tuyến.",
   "Install the app": "Cài đặt ứng dụng",
-  "Add N5 道場 to your home screen for a faster, full-screen, offline experience.":
-    "Thêm N5 道場 vào màn hình chính để có trải nghiệm nhanh hơn, toàn màn hình và hoạt động ngoại tuyến.",
+  "Add JLPT 道場 to your home screen for a faster, full-screen, offline experience.":
+    "Thêm JLPT 道場 vào màn hình chính để có trải nghiệm nhanh hơn, toàn màn hình và hoạt động ngoại tuyến.",
   "Install app": "Cài đặt ứng dụng",
   "Tap the Share icon 📤 in Safari's toolbar.":
     "Chạm vào biểu tượng Chia sẻ 📤 trên thanh công cụ Safari.",
@@ -70,7 +70,7 @@ export const VI: Record<string, string> = {
     "Mở trang này bằng Chrome hoặc Edge để cài làm ứng dụng, hoặc lưu lại trang — dùng trên trình duyệt cũng rất tốt.",
 
   // Install popup
-  "Install N5 道場": "Cài đặt N5 道場",
+  "Install JLPT 道場": "Cài đặt JLPT 道場",
   "Get the full-screen, offline app experience.":
     "Trải nghiệm ứng dụng toàn màn hình, hoạt động ngoại tuyến.",
   "Maybe later": "Để sau",
@@ -144,9 +144,9 @@ export const VI: Record<string, string> = {
   // Landing
   "Start learning →": "Bắt đầu học →",
   "Browse kanji": "Xem kanji",
-  "Master every kanji and word for the JLPT N5 — with furigana, audio, flashcards, quizzes, and stroke-order practice. Free, offline, no account.":
-    "Chinh phục mọi kanji và từ vựng cho JLPT N5 — có furigana, âm thanh, thẻ ghi nhớ, bài kiểm tra và luyện thứ tự nét. Miễn phí, ngoại tuyến, không cần tài khoản.",
-  "Everything you need to pass N5": "Mọi thứ bạn cần để đậu N5",
+  "Master JLPT kanji and vocabulary — from N5 to N1 — with furigana, audio, flashcards, quizzes, and stroke-order practice. Free, offline, no account.":
+    "Chinh phục kanji và từ vựng JLPT — từ N5 đến N1 — có furigana, âm thanh, thẻ ghi nhớ, bài kiểm tra và luyện thứ tự nét. Miễn phí, ngoại tuyến, không cần tài khoản.",
+  "Everything you need to pass the JLPT": "Mọi thứ bạn cần để đậu JLPT",
   "grammar points": "điểm ngữ pháp",
   "Read & hear everything": "Đọc & nghe mọi thứ",
   "Furigana, romaji, and tap-to-speak audio on every kanji and word.":
@@ -167,8 +167,8 @@ export const VI: Record<string, string> = {
   "Installable as an app; study on the train with no connection.":
     "Cài như một ứng dụng; học trên tàu mà không cần mạng.",
   "Start with N5 today": "Bắt đầu với N5 hôm nay",
-  "N5 is fully available now. N4, N3, and N2 are on the way.":
-    "N5 đã có đầy đủ. N4, N3 và N2 sắp ra mắt.",
+  "N5 is available now — N4, N3, N2 and N1 are on the way.":
+    "N5 đã có sẵn — N4, N3, N2 và N1 sắp ra mắt.",
   "Enter the dojo →": "Vào võ đường →",
   "Built for self-study. Data from KANJIDIC, Tanos & KanjiVG — see attribution in the repo.":
     "Xây dựng để tự học. Dữ liệu từ KANJIDIC, Tanos & KanjiVG — xem phần ghi công trong kho mã.",

@@ -64,15 +64,15 @@ export default function HomePage() {
           aria-hidden
           className="pointer-events-none absolute -right-6 -top-8 select-none font-jp text-[9rem] font-bold leading-none opacity-15"
         >
-          五
+          道
         </div>
         <div className="relative">
           <p className="text-xs font-semibold uppercase tracking-[0.2em] text-white/80">
             {t(greetingKey(new Date().getHours()))}
           </p>
-          <h1 className="font-jp mt-1 text-3xl font-bold">N5 道場</h1>
+          <h1 className="font-jp mt-1 text-3xl font-bold">JLPT 道場</h1>
           <p className="mt-1 text-sm text-white/90">
-            {t("Your JLPT N5 kanji & vocab trainer.")}
+            {t("Your JLPT kanji & vocab trainer.")}
           </p>
         </div>
       </header>

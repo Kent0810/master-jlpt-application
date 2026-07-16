@@ -61,7 +61,7 @@ export function InstallPopup() {
           />
           <div className="min-w-0 flex-1">
             <h3 className="font-semibold text-[var(--foreground)]">
-              {t("Install N5 道場")}
+              {t("Install JLPT 道場")}
             </h3>
             <p className="mt-0.5 text-xs text-slate-500">
               {t("Get the full-screen, offline app experience.")}

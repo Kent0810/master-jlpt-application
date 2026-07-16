@@ -39,15 +39,15 @@ const THEME_INIT_SCRIPT = `
 `;
 
 export const metadata: Metadata = {
-  title: "N5 道場 — JLPT N5 Study",
+  title: "JLPT 道場 — JLPT Study",
   description:
-    "Learn JLPT N5 kanji and vocabulary with furigana, romaji, audio, spaced-repetition flashcards and quizzes.",
+    "Learn JLPT kanji and vocabulary from N5 to N1 with furigana, romaji, audio, spaced-repetition flashcards and quizzes.",
   manifest: "/manifest.webmanifest",
   icons: {
     icon: "/icon.svg",
     apple: "/icon.svg",
   },
-  appleWebApp: { capable: true, statusBarStyle: "default", title: "N5 道場" },
+  appleWebApp: { capable: true, statusBarStyle: "default", title: "JLPT 道場" },
   other: {
     "google-adsense-account": ADSENSE_CLIENT_ID,
   },

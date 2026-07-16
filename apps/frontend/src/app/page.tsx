@@ -56,16 +56,16 @@ export default function LandingPage() {
           aria-hidden
           className="pointer-events-none absolute inset-0 select-none font-jp text-[40vw] leading-none opacity-10"
         >
-          五
+          道
         </div>
         <div className="relative mx-auto max-w-xl space-y-5">
           <p className="text-sm font-medium uppercase tracking-[0.2em] text-white/80">
-            JLPT N5
+            JLPT N5–N1
           </p>
-          <h1 className="font-jp text-5xl font-bold sm:text-6xl">N5 道場</h1>
+          <h1 className="font-jp text-5xl font-bold sm:text-6xl">JLPT 道場</h1>
           <p className="text-lg text-white/90">
             {t(
-              "Master every kanji and word for the JLPT N5 — with furigana, audio, flashcards, quizzes, and stroke-order practice. Free, offline, no account.",
+              "Master JLPT kanji and vocabulary — from N5 to N1 — with furigana, audio, flashcards, quizzes, and stroke-order practice. Free, offline, no account.",
             )}
           </p>
           <div className="flex flex-col items-center justify-center gap-3 pt-2 sm:flex-row">
@@ -91,7 +91,7 @@ export default function LandingPage() {
 
       <section className="mx-auto max-w-4xl px-6 py-16">
         <h2 className="mb-8 text-center text-2xl font-bold">
-          {t("Everything you need to pass N5")}
+          {t("Everything you need to pass the JLPT")}
         </h2>
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {FEATURES.map((f) => (
@@ -111,13 +111,13 @@ export default function LandingPage() {
         <div className="rounded-3xl border border-black/10 p-8 text-center dark:border-white/10">
           <h2 className="text-xl font-bold">{t("Start with N5 today")}</h2>
           <p className="mx-auto mt-2 max-w-md text-sm text-slate-500">
-            {t("N5 is fully available now. N4, N3, and N2 are on the way.")}
+            {t("N5 is available now — N4, N3, N2 and N1 are on the way.")}
           </p>
           <div className="mx-auto mt-5 flex max-w-md justify-center gap-2">
             <span className="rounded-full bg-brand px-4 py-1.5 text-sm font-semibold text-white">
               N5
             </span>
-            {["N4", "N3", "N2"].map((l) => (
+            {["N4", "N3", "N2", "N1"].map((l) => (
               <span
                 key={l}
                 className="rounded-full border border-black/10 px-4 py-1.5 text-sm text-slate-400 dark:border-white/10"

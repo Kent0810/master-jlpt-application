@@ -14,6 +14,7 @@ export function LessonSentence({
   reading,
   tokens,
   romaji,
+  romajiChunks,
   gloss,
   alignParts,
   sentenceClassName,
@@ -24,6 +25,7 @@ export function LessonSentence({
   reading?: string;
   tokens?: TokenChunk[];
   romaji?: string;
+  romajiChunks?: string[];
   gloss: string;
   alignParts?: AlignmentParts;
   sentenceClassName?: string;
@@ -37,6 +39,7 @@ export function LessonSentence({
         reading={reading}
         tokens={tokens}
         romaji={romaji}
+        romajiChunks={romajiChunks}
         className={sentenceClassName}
         onWordSelect={link.onWordSelect}
         selectedWord={link.selectedWord}

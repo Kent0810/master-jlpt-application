@@ -27,7 +27,11 @@
             }
           ]
         ],
-        "romaji": "watashi wa gakusei desu."
+        "romaji": "watashi wa gakusei desu.",
+        "romajiChunks": [
+          "watashi wa",
+          "gakusei desu."
+        ]
       },
       {
         "jp": "田中さんは先生です。",
@@ -54,7 +58,11 @@
             }
           ]
         ],
-        "romaji": "tanakasan wa sensei desu."
+        "romaji": "tanakasan wa sensei desu.",
+        "romajiChunks": [
+          "tanakasan wa",
+          "sensei desu."
+        ]
       }
     ],
     "meaningVi": "は đánh dấu chủ đề, です là đuôi câu lịch sự — 'X là Y'."
@@ -87,7 +95,11 @@
             }
           ]
         ],
-        "romaji": "watashi wa sensei jaarimasen."
+        "romaji": "watashi wa sensei jaarimasen.",
+        "romajiChunks": [
+          "watashi wa",
+          "sensei jaarimasen."
+        ]
       }
     ],
     "meaningVi": "Dạng phủ định lịch sự của です — 'không phải là'. じゃ là dạng nói của では."
@@ -124,7 +136,11 @@
             }
           ]
         ],
-        "romaji": "miraasan wa kaishain desu ka."
+        "romaji": "miraasan wa kaishain desu ka.",
+        "romajiChunks": [
+          "miraasan wa",
+          "kaishain desu ka."
+        ]
       }
     ],
     "meaningVi": "Thêm か vào cuối câu để tạo câu hỏi. Không cần dấu chấm hỏi."
@@ -157,7 +173,11 @@
             }
           ]
         ],
-        "romaji": "watashi mo gakusei desu."
+        "romaji": "watashi mo gakusei desu.",
+        "romajiChunks": [
+          "watashi mo",
+          "gakusei desu."
+        ]
       }
     ],
     "meaningVi": "も thay cho は, nghĩa là 'cũng', khi phần thông tin giống câu trước."
@@ -199,7 +219,12 @@
             }
           ]
         ],
-        "romaji": "watashi no namae wa kimura desu."
+        "romaji": "watashi no namae wa kimura desu.",
+        "romajiChunks": [
+          "watashi no",
+          "namae wa",
+          "kimura desu."
+        ]
       },
       {
         "jp": "トヨタの車です。",
@@ -222,7 +247,11 @@
             }
           ]
         ],
-        "romaji": "toyota no kuruma desu."
+        "romaji": "toyota no kuruma desu.",
+        "romajiChunks": [
+          "toyota no",
+          "kuruma desu."
+        ]
       }
     ],
     "meaningVi": "の nối hai danh từ: sở hữu, nhóm hoặc đặc điểm — 'Y của X'."
@@ -255,7 +284,11 @@
             }
           ]
         ],
-        "romaji": "kore wa hon desu."
+        "romaji": "kore wa hon desu.",
+        "romajiChunks": [
+          "kore wa",
+          "hon desu."
+        ]
       },
       {
         "jp": "あれは何ですか。",
@@ -278,7 +311,11 @@
             }
           ]
         ],
-        "romaji": "are wa nani desu ka."
+        "romaji": "are wa nani desu ka.",
+        "romajiChunks": [
+          "are wa",
+          "nani desu ka."
+        ]
       }
     ],
     "meaningVi": "これ・それ・あれ = 'cái này / cái đó / cái kia', dùng độc lập làm chủ ngữ."
@@ -316,7 +353,12 @@
             }
           ]
         ],
-        "romaji": "kono hon wa watashino desu."
+        "romaji": "kono hon wa watashino desu.",
+        "romajiChunks": [
+          "kono",
+          "hon wa",
+          "watashino desu."
+        ]
       }
     ],
     "meaningVi": "この・その・あの đứng ngay trước danh từ — 'quyển sách này'. Không dùng một mình."
@@ -364,7 +406,14 @@
             }
           ]
         ],
-        "romaji": "sore wa anata no kasa desu ka. hai, sou desu."
+        "romaji": "sore wa anata no kasa desu ka. hai, sou desu.",
+        "romajiChunks": [
+          "sore wa",
+          "anata no",
+          "kasa desu ka.",
+          "hai,",
+          "sou desu."
+        ]
       }
     ],
     "meaningVi": "Trả lời câu hỏi có/không: はい、そうです ('vâng, đúng vậy'), いいえ、ちがいます ('không, không phải')."
@@ -402,7 +451,12 @@
             }
           ]
         ],
-        "romaji": "kore wa bourupen desu ka, enpitsu desu ka."
+        "romaji": "kore wa bourupen desu ka, enpitsu desu ka.",
+        "romajiChunks": [
+          "kore wa",
+          "bourupen desu ka,",
+          "enpitsu desu ka."
+        ]
       }
     ],
     "meaningVi": "Đưa ra lựa chọn giữa hai thứ — 'là A hay B?'."
@@ -431,7 +485,11 @@
             }
           ]
         ],
-        "romaji": "toire wa asoko desu."
+        "romaji": "toire wa asoko desu.",
+        "romajiChunks": [
+          "toire wa",
+          "asoko desu."
+        ]
       }
     ],
     "meaningVi": "ここ・そこ・あそこ = 'ở đây / ở đó / ở kia'. こちら・そちら・あちら là dạng lịch sự."
@@ -468,7 +526,11 @@
             }
           ]
         ],
-        "romaji": "kaisha wa toukyou desu."
+        "romaji": "kaisha wa toukyou desu.",
+        "romajiChunks": [
+          "kaisha wa",
+          "toukyou desu."
+        ]
       },
       {
         "jp": "電話はどこですか。",
@@ -491,7 +553,11 @@
             }
           ]
         ],
-        "romaji": "denwa wa doko desu ka."
+        "romaji": "denwa wa doko desu ka.",
+        "romajiChunks": [
+          "denwa wa",
+          "doko desu ka."
+        ]
       }
     ],
     "meaningVi": "Nói vị trí của một vật hoặc một người."
@@ -537,7 +603,12 @@
             }
           ]
         ],
-        "romaji": "ima 9ji 15fun desu."
+        "romaji": "ima 9ji 15fun desu.",
+        "romajiChunks": [
+          "ima",
+          "9ji",
+          "15fun desu."
+        ]
       },
       {
         "jp": "毎朝6時に起きます。",
@@ -573,7 +644,12 @@
             }
           ]
         ],
-        "romaji": "maiasa 6ji ni okimasu."
+        "romaji": "maiasa 6ji ni okimasu.",
+        "romajiChunks": [
+          "maiasa",
+          "6ji ni",
+          "okimasu."
+        ]
       }
     ],
     "meaningVi": "Nói giờ. Thêm に vào mốc thời gian để nói 'lúc' khi có động từ theo sau."
@@ -625,7 +701,12 @@
             }
           ]
         ],
-        "romaji": "ginkou wa 9ji kara 3ji made desu."
+        "romaji": "ginkou wa 9ji kara 3ji made desu.",
+        "romajiChunks": [
+          "ginkou wa",
+          "9ji kara",
+          "3ji made desu."
+        ]
       }
     ],
     "meaningVi": "'Từ ~ đến ~', dùng cho thời gian và địa điểm."
@@ -661,7 +742,12 @@
             }
           ]
         ],
-        "romaji": "kinou benkyou shimashita."
+        "romaji": "kinou benkyou shimashita.",
+        "romajiChunks": [
+          "kinou",
+          "benkyou",
+          "shimashita."
+        ]
       },
       {
         "jp": "今日は働きません。",
@@ -688,7 +774,11 @@
             }
           ]
         ],
-        "romaji": "kyou wa hatarakimasen."
+        "romaji": "kyou wa hatarakimasen.",
+        "romajiChunks": [
+          "kyou wa",
+          "hatarakimasen."
+        ]
       }
     ],
     "meaningVi": "Bốn đuôi động từ lịch sự: khẳng định/phủ định ở hiện tại và quá khứ."
@@ -725,7 +815,11 @@
             }
           ]
         ],
-        "romaji": "kyouto e ikimasu."
+        "romaji": "kyouto e ikimasu.",
+        "romajiChunks": [
+          "kyouto e",
+          "ikimasu."
+        ]
       }
     ],
     "meaningVi": "へ (đọc là 'e') đánh dấu điểm đến với 行きます / 来ます / 帰ります."
@@ -762,7 +856,11 @@
             }
           ]
         ],
-        "romaji": "densha de ikimasu."
+        "romaji": "densha de ikimasu.",
+        "romajiChunks": [
+          "densha de",
+          "ikimasu."
+        ]
       }
     ],
     "meaningVi": "で đánh dấu phương tiện di chuyển — 'bằng tàu / bằng xe'."
@@ -808,7 +906,12 @@
             }
           ]
         ],
-        "romaji": "tomodachi to kyouto e ikimasu."
+        "romaji": "tomodachi to kyouto e ikimasu.",
+        "romajiChunks": [
+          "tomodachi to",
+          "kyouto e",
+          "ikimasu."
+        ]
       }
     ],
     "meaningVi": "と đánh dấu người cùng làm việc gì đó với mình."
@@ -841,7 +944,11 @@
             }
           ]
         ],
-        "romaji": "pan wo tabemasu."
+        "romaji": "pan wo tabemasu.",
+        "romajiChunks": [
+          "pan wo",
+          "tabemasu."
+        ]
       },
       {
         "jp": "手紙を書きます。",
@@ -868,7 +975,11 @@
             }
           ]
         ],
-        "romaji": "tegami wo kakimasu."
+        "romaji": "tegami wo kakimasu.",
+        "romajiChunks": [
+          "tegami wo",
+          "kakimasu."
+        ]
       }
     ],
     "meaningVi": "を đánh dấu tân ngữ trực tiếp của động từ."
@@ -914,7 +1025,12 @@
             }
           ]
         ],
-        "romaji": "toshokan de hon wo yomimasu."
+        "romaji": "toshokan de hon wo yomimasu.",
+        "romajiChunks": [
+          "toshokan de",
+          "hon wo",
+          "yomimasu."
+        ]
       }
     ],
     "meaningVi": "で đánh dấu nơi diễn ra hành động."
@@ -960,7 +1076,12 @@
             }
           ]
         ],
-        "romaji": "issho ni eiga wo mimasen ka."
+        "romaji": "issho ni eiga wo mimasen ka.",
+        "romajiChunks": [
+          "issho ni",
+          "eiga wo",
+          "mimasen ka."
+        ]
       },
       {
         "jp": "ちょっと休みましょう。",
@@ -983,7 +1104,11 @@
             }
           ]
         ],
-        "romaji": "chotto yasumimashou."
+        "romaji": "chotto yasumimashou.",
+        "romajiChunks": [
+          "chotto",
+          "yasumimashou."
+        ]
       }
     ],
     "meaningVi": "Vませんか để mời ('bạn ~ không?'); Vましょう để rủ cùng làm ('cùng ~ nào')."
@@ -1016,7 +1141,11 @@
             }
           ]
         ],
-        "romaji": "hashi de tabemasu."
+        "romaji": "hashi de tabemasu.",
+        "romajiChunks": [
+          "hashi de",
+          "tabemasu."
+        ]
       },
       {
         "jp": "日本語で手紙を書きます。",
@@ -1052,7 +1181,12 @@
             }
           ]
         ],
-        "romaji": "nihongo de tegami wo kakimasu."
+        "romaji": "nihongo de tegami wo kakimasu.",
+        "romajiChunks": [
+          "nihongo de",
+          "tegami wo",
+          "kakimasu."
+        ]
       }
     ],
     "meaningVi": "で cũng đánh dấu công cụ, ngôn ngữ hay cách thức dùng để làm gì."
@@ -1094,7 +1228,12 @@
             }
           ]
         ],
-        "romaji": "yamadasan ni hana wo agemasu."
+        "romaji": "yamadasan ni hana wo agemasu.",
+        "romajiChunks": [
+          "yamadasan ni",
+          "hana wo",
+          "agemasu."
+        ]
       },
       {
         "jp": "友達にプレゼントをもらいました。",
@@ -1122,7 +1261,12 @@
             }
           ]
         ],
-        "romaji": "tomodachi ni purezento wo moraimashita."
+        "romaji": "tomodachi ni purezento wo moraimashita.",
+        "romajiChunks": [
+          "tomodachi ni",
+          "purezento wo",
+          "moraimashita."
+        ]
       }
     ],
     "meaningVi": "あげます = cho (ai đó); もらいます = nhận (từ ai đó). に đánh dấu người kia."
@@ -1173,7 +1317,13 @@
             }
           ]
         ],
-        "romaji": "mou hiru gohan wo tabemashita."
+        "romaji": "mou hiru gohan wo tabemashita.",
+        "romajiChunks": [
+          "mou",
+          "hiru",
+          "gohan wo",
+          "tabemashita."
+        ]
       }
     ],
     "meaningVi": "'Đã ~ rồi'. Trả lời もう~ましたか bằng はい、~ました hoặc いいえ、まだです."
@@ -1211,7 +1361,12 @@
             }
           ]
         ],
-        "romaji": "kono kouhii wa atsui desu."
+        "romaji": "kono kouhii wa atsui desu.",
+        "romajiChunks": [
+          "kono",
+          "kouhii wa",
+          "atsui desu."
+        ]
       },
       {
         "jp": "この部屋は広くないです。",
@@ -1243,7 +1398,12 @@
             }
           ]
         ],
-        "romaji": "kono heya wa hirokunai desu."
+        "romaji": "kono heya wa hirokunai desu.",
+        "romajiChunks": [
+          "kono",
+          "heya wa",
+          "hirokunai desu."
+        ]
       }
     ],
     "meaningVi": "Tính từ đuôi い. Dùng với です; phủ định bỏ い → くないです."
@@ -1285,7 +1445,12 @@
             }
           ]
         ],
-        "romaji": "kono machi wa shizuka desu."
+        "romaji": "kono machi wa shizuka desu.",
+        "romajiChunks": [
+          "kono",
+          "machi wa",
+          "shizuka desu."
+        ]
       },
       {
         "jp": "きれいな花ですね。",
@@ -1308,7 +1473,11 @@
             }
           ]
         ],
-        "romaji": "kireina hana desu ne."
+        "romaji": "kireina hana desu ne.",
+        "romajiChunks": [
+          "kireina",
+          "hana desu ne."
+        ]
       }
     ],
     "meaningVi": "Tính từ cần thêm な trước danh từ. Phủ định là じゃありません như danh từ."
@@ -1354,7 +1523,12 @@
             }
           ]
         ],
-        "romaji": "nihongo wa muzukashii desu ga, omoshiroi desu."
+        "romaji": "nihongo wa muzukashii desu ga, omoshiroi desu.",
+        "romajiChunks": [
+          "nihongo wa",
+          "muzukashii desu ga,",
+          "omoshiroi desu."
+        ]
       }
     ],
     "meaningVi": "Nối hai vế có ý tương phản — 'X, nhưng Y'."
@@ -1396,7 +1570,12 @@
             }
           ]
         ],
-        "romaji": "watashi wa ongaku ga suki desu."
+        "romaji": "watashi wa ongaku ga suki desu.",
+        "romajiChunks": [
+          "watashi wa",
+          "ongaku ga",
+          "suki desu."
+        ]
       },
       {
         "jp": "田中さんは料理が上手です。",
@@ -1432,7 +1611,12 @@
             }
           ]
         ],
-        "romaji": "tanakasan wa ryouri ga jouzu desu."
+        "romaji": "tanakasan wa ryouri ga jouzu desu.",
+        "romajiChunks": [
+          "tanakasan wa",
+          "ryouri ga",
+          "jouzu desu."
+        ]
       }
     ],
     "meaningVi": "Với thích, ghét, giỏi, kém (好き・嫌い・上手・下手), đối tượng dùng が chứ không dùng を."
@@ -1465,7 +1649,11 @@
             }
           ]
         ],
-        "romaji": "nihongo ga wakarimasu."
+        "romaji": "nihongo ga wakarimasu.",
+        "romajiChunks": [
+          "nihongo ga",
+          "wakarimasu."
+        ]
       }
     ],
     "meaningVi": "Đối tượng của わかります (hiểu) và あります (có) cũng dùng が."
@@ -1516,7 +1704,13 @@
             }
           ]
         ],
-        "romaji": "jikan ga arimasen kara, shinbun wo yomimasen."
+        "romaji": "jikan ga arimasen kara, shinbun wo yomimasen.",
+        "romajiChunks": [
+          "jikan ga",
+          "arimasen kara,",
+          "shinbun wo",
+          "yomimasen."
+        ]
       }
     ],
     "meaningVi": "'Vì ~'. Đặt ở cuối vế lý do. どうして hỏi 'tại sao?'."
@@ -1554,7 +1748,12 @@
             }
           ]
         ],
-        "romaji": "heya ni terebi ga arimasu."
+        "romaji": "heya ni terebi ga arimasu.",
+        "romajiChunks": [
+          "heya ni",
+          "terebi ga",
+          "arimasu."
+        ]
       },
       {
         "jp": "机の上に猫がいます。",
@@ -1593,7 +1792,12 @@
             }
           ]
         ],
-        "romaji": "tsukue noue ni neko ga imasu."
+        "romaji": "tsukue noue ni neko ga imasu.",
+        "romajiChunks": [
+          "tsukue noue ni",
+          "neko ga",
+          "imasu."
+        ]
       }
     ],
     "meaningVi": "あります cho vật/cây, います cho người/động vật — 'có ~'."
@@ -1645,7 +1849,12 @@
             }
           ]
         ],
-        "romaji": "hako nonaka ni okashi ga arimasu."
+        "romaji": "hako nonaka ni okashi ga arimasu.",
+        "romajiChunks": [
+          "hako nonaka ni",
+          "okashi ga",
+          "arimasu."
+        ]
       }
     ],
     "meaningVi": "Từ chỉ vị trí nối bằng の — trên, dưới, trong, trước, sau, bên cạnh."
@@ -1687,7 +1896,12 @@
             }
           ]
         ],
-        "romaji": "ringo wo futatsu kaimasu."
+        "romaji": "ringo wo futatsu kaimasu.",
+        "romajiChunks": [
+          "ringo wo",
+          "futatsu",
+          "kaimasu."
+        ]
       },
       {
         "jp": "切手を三枚ください。",
@@ -1720,7 +1934,12 @@
             }
           ]
         ],
-        "romaji": "kitte wo sanmai kudasai."
+        "romaji": "kitte wo sanmai kudasai.",
+        "romajiChunks": [
+          "kitte wo",
+          "sanmai",
+          "kudasai."
+        ]
       }
     ],
     "meaningVi": "Số đi kèm lượng từ tùy vật được đếm: ～つ (đồ vật), ～人 (người), ～枚 (vật mỏng), ～台 (máy móc)."
@@ -1770,7 +1989,13 @@
             }
           ]
         ],
-        "romaji": "1shuukan ni 2kai tenisu wo shimasu."
+        "romaji": "1shuukan ni 2kai tenisu wo shimasu.",
+        "romajiChunks": [
+          "1shuukan ni",
+          "2kai",
+          "tenisu wo",
+          "shimasu."
+        ]
       }
     ],
     "meaningVi": "Diễn tả tần suất — 'X lần trong mỗi khoảng thời gian'."
@@ -1807,7 +2032,11 @@
             }
           ]
         ],
-        "romaji": "kinou wa amedeshita."
+        "romaji": "kinou wa amedeshita.",
+        "romajiChunks": [
+          "kinou wa",
+          "amedeshita."
+        ]
       }
     ],
     "meaningVi": "Dạng quá khứ: でした (khẳng định) và じゃありませんでした (phủ định)."
@@ -1844,7 +2073,11 @@
             }
           ]
         ],
-        "romaji": "ryokou wa tanoshikata desu."
+        "romaji": "ryokou wa tanoshikata desu.",
+        "romajiChunks": [
+          "ryokou wa",
+          "tanoshikata desu."
+        ]
       }
     ],
     "meaningVi": "Quá khứ của tính từ い: bỏ い → かったです (khẳng định), くなかったです (phủ định)."
@@ -1890,7 +2123,12 @@
             }
           ]
         ],
-        "romaji": "hikouki wa densha yori hayai desu."
+        "romaji": "hikouki wa densha yori hayai desu.",
+        "romajiChunks": [
+          "hikouki wa",
+          "densha yori",
+          "hayai desu."
+        ]
       },
       {
         "jp": "日本でどこがいちばんきれいですか。",
@@ -1923,7 +2161,13 @@
             }
           ]
         ],
-        "romaji": "nippon de doko ga ichiban kirei desu ka."
+        "romaji": "nippon de doko ga ichiban kirei desu ka.",
+        "romajiChunks": [
+          "nippon de",
+          "doko ga",
+          "ichiban",
+          "kirei desu ka."
+        ]
       }
     ],
     "meaningVi": "So sánh: N1はN2より (hơn), どちらが (cái nào hơn), いちばん (nhất)."
@@ -1965,7 +2209,12 @@
             }
           ]
         ],
-        "romaji": "atarashii kuruma ga hoshii desu."
+        "romaji": "atarashii kuruma ga hoshii desu.",
+        "romajiChunks": [
+          "atarashii",
+          "kuruma ga",
+          "hoshii desu."
+        ]
       }
     ],
     "meaningVi": "Diễn tả muốn có một vật — 'tôi muốn ~'. Vật được đánh dấu bằng が."
@@ -2002,7 +2251,11 @@
             }
           ]
         ],
-        "romaji": "okinawa e ikitai desu."
+        "romaji": "okinawa e ikitai desu.",
+        "romajiChunks": [
+          "okinawa e",
+          "ikitai desu."
+        ]
       }
     ],
     "meaningVi": "Diễn tả muốn làm gì đó. Thay ます bằng たいです."
@@ -2049,7 +2302,13 @@
             }
           ]
         ],
-        "romaji": "depaato e kaban wo kai ni ikimasu."
+        "romaji": "depaato e kaban wo kai ni ikimasu.",
+        "romajiChunks": [
+          "depaato e",
+          "kaban wo",
+          "kai ni",
+          "ikimasu."
+        ]
       }
     ],
     "meaningVi": "Nói mục đích của việc đi đâu đó — 'đi đến ~ để làm ~'."
@@ -2095,7 +2354,12 @@
             }
           ]
         ],
-        "romaji": "hon wo yon de, nemasu."
+        "romaji": "hon wo yon de, nemasu.",
+        "romajiChunks": [
+          "hon wo",
+          "yon de,",
+          "nemasu."
+        ]
       }
     ],
     "meaningVi": "Thể kết nối quan trọng, dùng cho yêu cầu, thể tiếp diễn và nối câu. Cách chia tùy nhóm động từ."
@@ -2137,7 +2401,12 @@
             }
           ]
         ],
-        "romaji": "koko ni namae wo kai tekudasai."
+        "romaji": "koko ni namae wo kai tekudasai.",
+        "romajiChunks": [
+          "koko ni",
+          "namae wo",
+          "kai tekudasai."
+        ]
       }
     ],
     "meaningVi": "Lời đề nghị lịch sự — 'xin hãy ~'."
@@ -2178,7 +2447,11 @@
             }
           ]
         ],
-        "romaji": "koname ga fu teimasu."
+        "romaji": "koname ga fu teimasu.",
+        "romajiChunks": [
+          "koname ga",
+          "fu teimasu."
+        ]
       }
     ],
     "meaningVi": "Hành động đang diễn ra ngay lúc này — 'đang ~'."
@@ -2220,7 +2493,12 @@
             }
           ]
         ],
-        "romaji": "koko de shashin wo to te moii desu ka."
+        "romaji": "koko de shashin wo to te moii desu ka.",
+        "romajiChunks": [
+          "koko de",
+          "shashin wo",
+          "to te moii desu ka."
+        ]
       }
     ],
     "meaningVi": "Cho phép hoặc xin phép — 'được phép ~'."
@@ -2258,7 +2536,12 @@
             }
           ]
         ],
-        "romaji": "koko de tabako wo su te waikemasen."
+        "romaji": "koko de tabako wo su te waikemasen.",
+        "romajiChunks": [
+          "koko de",
+          "tabako wo",
+          "su te waikemasen."
+        ]
       }
     ],
     "meaningVi": "Cấm làm gì đó — 'không được ~'."
@@ -2295,7 +2578,11 @@
             }
           ]
         ],
-        "romaji": "ginkou de hatarai teimasu."
+        "romaji": "ginkou de hatarai teimasu.",
+        "romajiChunks": [
+          "ginkou de",
+          "hatarai teimasu."
+        ]
       }
     ],
     "meaningVi": "Cũng diễn tả trạng thái kéo dài hoặc thói quen, ví dụ nghề nghiệp hay nơi ở."
@@ -2359,7 +2646,14 @@
             }
           ]
         ],
-        "romaji": "asa gohan wo tabe te, kaisha e ikimasu."
+        "romaji": "asa gohan wo tabe te, kaisha e ikimasu.",
+        "romajiChunks": [
+          "asa",
+          "gohan wo",
+          "tabe te,",
+          "kaisha e",
+          "ikimasu."
+        ]
       }
     ],
     "meaningVi": "Nối các hành động theo trình tự — 'làm V1 rồi V2'. Thì do động từ cuối quyết định."
@@ -2414,7 +2708,13 @@
             }
           ]
         ],
-        "romaji": "shigoto ga owa te kara, eiga wo mimasu."
+        "romaji": "shigoto ga owa te kara, eiga wo mimasu.",
+        "romajiChunks": [
+          "shigoto ga",
+          "owa te kara,",
+          "eiga wo",
+          "mimasu."
+        ]
       }
     ],
     "meaningVi": "'Sau khi ~'. Nhấn mạnh một việc xảy ra sau một việc khác."
@@ -2461,7 +2761,13 @@
             }
           ]
         ],
-        "romaji": "kono machi wa shizukade, kirei desu."
+        "romaji": "kono machi wa shizukade, kirei desu.",
+        "romajiChunks": [
+          "kono",
+          "machi wa",
+          "shizukade,",
+          "kirei desu."
+        ]
       }
     ],
     "meaningVi": "Nối tính từ: tính từ い → くて, tính từ な/danh từ → で — 'vừa A vừa B'."
@@ -2507,7 +2813,12 @@
             }
           ]
         ],
-        "romaji": "kyou wa nani mo tabenai."
+        "romaji": "kyou wa nani mo tabenai.",
+        "romajiChunks": [
+          "kyou wa",
+          "nani mo",
+          "tabenai."
+        ]
       }
     ],
     "meaningVi": "Thể phủ định thông thường, là gốc cho các mẫu câu bên dưới."
@@ -2549,7 +2860,12 @@
             }
           ]
         ],
-        "romaji": "koko ni kuruma wo tomenai dekudasai."
+        "romaji": "koko ni kuruma wo tomenai dekudasai.",
+        "romajiChunks": [
+          "koko ni",
+          "kuruma wo",
+          "tomenai dekudasai."
+        ]
       }
     ],
     "meaningVi": "Đề nghị đừng làm gì đó — 'xin đừng ~'."
@@ -2586,7 +2902,11 @@
             }
           ]
         ],
-        "romaji": "kusuri wo nomanakere banarimasen."
+        "romaji": "kusuri wo nomanakere banarimasen.",
+        "romajiChunks": [
+          "kusuri wo",
+          "nomanakere banarimasen."
+        ]
       },
       {
         "jp": "明日来なくてもいいです。",
@@ -2610,7 +2930,11 @@
             }
           ]
         ],
-        "romaji": "ashita konaku te moii desu."
+        "romaji": "ashita konaku te moii desu.",
+        "romajiChunks": [
+          "ashita",
+          "konaku te moii desu."
+        ]
       }
     ],
     "meaningVi": "Nghĩa vụ ('phải ~') và ngược lại ('không cần ~')."
@@ -2653,7 +2977,12 @@
             }
           ]
         ],
-        "romaji": "maiban hon wo yomu."
+        "romaji": "maiban hon wo yomu.",
+        "romajiChunks": [
+          "maiban",
+          "hon wo",
+          "yomu."
+        ]
       }
     ],
     "meaningVi": "Thể nguyên dạng (hiện tại), dùng trước こと, まえに và trong lối nói thân mật."
@@ -2700,7 +3029,13 @@
             }
           ]
         ],
-        "romaji": "watashi wa nihongo wo hanasukoto ga dekimasu."
+        "romaji": "watashi wa nihongo wo hanasukoto ga dekimasu.",
+        "romajiChunks": [
+          "watashi wa",
+          "nihongo wo",
+          "hanasukoto ga",
+          "dekimasu."
+        ]
       }
     ],
     "meaningVi": "Diễn tả khả năng — 'có thể ~'."
@@ -2755,7 +3090,13 @@
             }
           ]
         ],
-        "romaji": "neru mae ni, hon wo yomimasu."
+        "romaji": "neru mae ni, hon wo yomimasu.",
+        "romajiChunks": [
+          "neru",
+          "mae ni,",
+          "hon wo",
+          "yomimasu."
+        ]
       }
     ],
     "meaningVi": "'Trước khi ~'. Luôn dùng thể từ điển dù thì chính là gì."
@@ -2801,7 +3142,12 @@
             }
           ]
         ],
-        "romaji": "kinou, kyouto e ita."
+        "romaji": "kinou, kyouto e ita.",
+        "romajiChunks": [
+          "kinou,",
+          "kyouto e",
+          "ita."
+        ]
       }
     ],
     "meaningVi": "Thể quá khứ thông thường, chia như thể て. Là gốc cho các mẫu câu bên dưới."
@@ -2843,7 +3189,12 @@
             }
           ]
         ],
-        "romaji": "hokkaidou e itakoto ga arimasu."
+        "romaji": "hokkaidou e itakoto ga arimasu.",
+        "romajiChunks": [
+          "hokkaidou e",
+          "itakoto ga",
+          "arimasu."
+        ]
       }
     ],
     "meaningVi": "Nói về kinh nghiệm — 'đã từng ~'."
@@ -2904,7 +3255,15 @@
             }
           ]
         ],
-        "romaji": "nichiyoubi wa souji wo shi tari, sentaku wo shi tari shimasu."
+        "romaji": "nichiyoubi wa souji wo shi tari, sentaku wo shi tari shimasu.",
+        "romajiChunks": [
+          "nichiyoubi wa",
+          "souji wo",
+          "shi tari,",
+          "sentaku wo",
+          "shi tari",
+          "shimasu."
+        ]
       }
     ],
     "meaningVi": "Liệt kê vài hành động tiêu biểu — 'làm những việc như A và B'."
@@ -2937,7 +3296,11 @@
             }
           ]
         ],
-        "romaji": "samuku narimashita."
+        "romaji": "samuku narimashita.",
+        "romajiChunks": [
+          "samuku",
+          "narimashita."
+        ]
       },
       {
         "jp": "元気になりました。",
@@ -2960,7 +3323,11 @@
             }
           ]
         ],
-        "romaji": "genki ni narimashita."
+        "romaji": "genki ni narimashita.",
+        "romajiChunks": [
+          "genki ni",
+          "narimashita."
+        ]
       }
     ],
     "meaningVi": "Diễn tả sự thay đổi: tính từ い → くなります, tính từ な/danh từ → になります — 'trở nên ~'."
@@ -2997,7 +3364,11 @@
             }
           ]
         ],
-        "romaji": "ashita, hima?"
+        "romaji": "ashita, hima?",
+        "romajiChunks": [
+          "ashita,",
+          "hima?"
+        ]
       },
       {
         "jp": "これ、わたしの傘だ。",
@@ -3025,7 +3396,12 @@
             }
           ]
         ],
-        "romaji": "kore, watashi no kasa da."
+        "romaji": "kore, watashi no kasa da.",
+        "romajiChunks": [
+          "kore,",
+          "watashi no",
+          "kasa da."
+        ]
       }
     ],
     "meaningVi": "Lối nói thân mật với bạn bè, người thân. Động từ dùng thể từ điển/ない/た; です thành だ."
@@ -3077,7 +3453,13 @@
             }
           ]
         ],
-        "romaji": "ashita ame ga furu to omoimasu."
+        "romaji": "ashita ame ga furu to omoimasu.",
+        "romajiChunks": [
+          "ashita",
+          "ame ga",
+          "furu to",
+          "omoimasu."
+        ]
       }
     ],
     "meaningVi": "Nêu ý kiến hoặc phỏng đoán — 'tôi nghĩ rằng ~'. Vế trước と ở thể thông thường."
@@ -3129,7 +3511,13 @@
             }
           ]
         ],
-        "romaji": "tanakasan wa ashita konai to iimashita."
+        "romaji": "tanakasan wa ashita konai to iimashita.",
+        "romajiChunks": [
+          "tanakasan wa",
+          "ashita",
+          "konai to",
+          "iimashita."
+        ]
       }
     ],
     "meaningVi": "Thuật lại lời nói — 'đã nói rằng ~'. Phần trích dẫn ở thể thông thường."
@@ -3166,7 +3554,11 @@
             }
           ]
         ],
-        "romaji": "ashita wa yasumi deshou?"
+        "romaji": "ashita wa yasumi deshou?",
+        "romajiChunks": [
+          "ashita wa",
+          "yasumi deshou?"
+        ]
       }
     ],
     "meaningVi": "Tìm sự đồng tình — 'đúng không?'. Nói với ngữ điệu lên giọng."
@@ -3209,7 +3601,13 @@
             }
           ]
         ],
-        "romaji": "kore wa watashi ga tsukuta keeki desu."
+        "romaji": "kore wa watashi ga tsukuta keeki desu.",
+        "romajiChunks": [
+          "kore wa",
+          "watashi ga",
+          "tsukuta",
+          "keeki desu."
+        ]
       },
       {
         "jp": "昨日見た映画は面白かったです。",
@@ -3251,7 +3649,13 @@
             }
           ]
         ],
-        "romaji": "kinou mita eiga wa omoshirokata desu."
+        "romaji": "kinou mita eiga wa omoshirokata desu.",
+        "romajiChunks": [
+          "kinou",
+          "mita",
+          "eiga wa",
+          "omoshirokata desu."
+        ]
       }
     ],
     "meaningVi": "Một vế ở thể thông thường đặt ngay trước danh từ để bổ nghĩa — 'cái ~ mà ...'."
@@ -3293,7 +3697,12 @@
             }
           ]
         ],
-        "romaji": "donna ongaku ga suki desu ka."
+        "romaji": "donna ongaku ga suki desu ka.",
+        "romajiChunks": [
+          "donna",
+          "ongaku ga",
+          "suki desu ka."
+        ]
       }
     ],
     "meaningVi": "Hỏi 'loại ~ nào?'."
@@ -3340,7 +3749,13 @@
             }
           ]
         ],
-        "romaji": "toshokan e ikutoki, kaado ga irimasu."
+        "romaji": "toshokan e ikutoki, kaado ga irimasu.",
+        "romajiChunks": [
+          "toshokan e",
+          "ikutoki,",
+          "kaado ga",
+          "irimasu."
+        ]
       }
     ],
     "meaningVi": "'Khi ~'. Vế trước とき có thể ở thể hiện tại hoặc quá khứ tùy thời điểm."
@@ -3396,7 +3811,14 @@
             }
           ]
         ],
-        "romaji": "kono botan wo osu to, kippu ga demasu."
+        "romaji": "kono botan wo osu to, kippu ga demasu.",
+        "romajiChunks": [
+          "kono",
+          "botan wo",
+          "osu to,",
+          "kippu ga",
+          "demasu."
+        ]
       }
     ],
     "meaningVi": "'Hễ / nếu ~ thì ~' cho một kết quả tự nhiên, tất yếu."
@@ -3451,7 +3873,13 @@
             }
           ]
         ],
-        "romaji": "tsugi no kaku wo migi e magarimasu."
+        "romaji": "tsugi no kaku wo migi e magarimasu.",
+        "romajiChunks": [
+          "tsugi no",
+          "kaku wo",
+          "migi e",
+          "magarimasu."
+        ]
       }
     ],
     "meaningVi": "を đánh dấu nơi mình đi qua, rời khỏi, hoặc rẽ."
@@ -3501,7 +3929,13 @@
             }
           ]
         ],
-        "romaji": "yamadasan ga watashi ni okashi wo kuremashita."
+        "romaji": "yamadasan ga watashi ni okashi wo kuremashita.",
+        "romajiChunks": [
+          "yamadasan ga",
+          "watashi ni",
+          "okashi wo",
+          "kuremashita."
+        ]
       }
     ],
     "meaningVi": "Dùng khi ai đó cho tôi hoặc người thân của tôi, khác với あげます."
@@ -3547,7 +3981,12 @@
             }
           ]
         ],
-        "romaji": "tomodachi ni hon wo kashi teagemashita."
+        "romaji": "tomodachi ni hon wo kashi teagemashita.",
+        "romajiChunks": [
+          "tomodachi ni",
+          "hon wo",
+          "kashi teagemashita."
+        ]
       },
       {
         "jp": "姉が料理を作ってくれました。",
@@ -3583,7 +4022,12 @@
             }
           ]
         ],
-        "romaji": "ane ga ryouri wo tsuku tekuremashita."
+        "romaji": "ane ga ryouri wo tsuku tekuremashita.",
+        "romajiChunks": [
+          "ane ga",
+          "ryouri wo",
+          "tsuku tekuremashita."
+        ]
       }
     ],
     "meaningVi": "Cho và nhận hành động (sự giúp đỡ): làm giúp ai / được ai làm cho / ai đó làm cho tôi."
@@ -3630,7 +4074,13 @@
             }
           ]
         ],
-        "romaji": "okane ga atara, ryokou shimasu."
+        "romaji": "okane ga atara, ryokou shimasu.",
+        "romajiChunks": [
+          "okane ga",
+          "atara,",
+          "ryokou",
+          "shimasu."
+        ]
       }
     ],
     "meaningVi": "Câu điều kiện — 'nếu / một khi ~ thì ~'. Tạo từ thể た cộng ら."
@@ -3676,7 +4126,12 @@
             }
           ]
         ],
-        "romaji": "ame ga fu te mo, ikimasu."
+        "romaji": "ame ga fu te mo, ikimasu.",
+        "romajiChunks": [
+          "ame ga",
+          "fu te mo,",
+          "ikimasu."
+        ]
       }
     ],
     "meaningVi": "'Dù cho ~'. Tạo từ thể て cộng も."

@@ -88,6 +88,7 @@ export function GrammarBlock({
                         reading={ex.reading}
                         tokens={ex.tokens}
                         romaji={ex.romaji}
+                        romajiChunks={ex.romajiChunks}
                         gloss={pickExampleGloss(ex, lang)}
                         alignParts={pickExampleAlign(ex, lang)}
                         sentenceClassName="text-base"

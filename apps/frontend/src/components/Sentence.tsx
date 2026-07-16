@@ -9,6 +9,9 @@ interface Props {
   reading?: string;
   tokens?: TokenChunk[];
   romaji?: string;
+  // Romaji split per token chunk (aligned 1:1 with `tokens`). When present in an
+  // interactive sentence, each romaji word highlights with its Japanese word.
+  romajiChunks?: string[];
   className?: string;
   romajiClassName?: string;
   // When set, each word token becomes tappable and calls back with its
@@ -68,6 +71,7 @@ export function Sentence({
   reading,
   tokens,
   romaji,
+  romajiChunks,
   className,
   romajiClassName,
   onWordSelect,
@@ -76,6 +80,7 @@ export function Sentence({
   highlightIndex,
 }: Props) {
   const { showRomaji } = useSettings();
+  const interactive = Boolean(onWordSelect || onWordHover);
   const roma =
     romaji ??
     (tokens && tokens.length > 0
@@ -83,6 +88,16 @@ export function Sentence({
       : reading
         ? wanakana.toRomaji(reading)
         : "");
+  // Per-chunk romaji (authored alongside the tokens) drives the linked
+  // highlight; only used when it lines up 1:1 with the tokens, otherwise we fall
+  // back to the joined `roma` line.
+  const chunkedRomaji =
+    romajiChunks && tokens && romajiChunks.length === tokens.length
+      ? romajiChunks
+      : null;
+  const romajiClass =
+    romajiClassName ??
+    "mt-0.5 block text-sm text-slate-500 dark:text-slate-400";
 
   return (
     <span className={className}>
@@ -134,16 +149,29 @@ export function Sentence({
           jp
         )}
       </span>
-      {showRomaji && roma && (
-        <span
-          className={
-            romajiClassName ??
-            "mt-0.5 block text-sm text-slate-500 dark:text-slate-400"
-          }
-        >
-          {roma}
-        </span>
-      )}
+      {showRomaji &&
+        (chunkedRomaji && interactive ? (
+          <span className={romajiClass}>
+            {chunkedRomaji.map((piece, ci) =>
+              piece ? (
+                <span
+                  key={ci}
+                  onMouseEnter={() => onWordHover?.(ci)}
+                  onMouseLeave={() => onWordHover?.(null)}
+                  className={`mr-1 inline-block rounded px-0.5 transition-colors ${
+                    ci === highlightIndex
+                      ? "bg-brand/20"
+                      : "hover:bg-black/5 dark:hover:bg-white/10"
+                  }`}
+                >
+                  {piece}
+                </span>
+              ) : null,
+            )}
+          </span>
+        ) : roma ? (
+          <span className={romajiClass}>{roma}</span>
+        ) : null)}
     </span>
   );
 }

@@ -34,7 +34,13 @@
             }
           ]
         ],
-        "romaji": "hajimemashite. rin desu. betonamu kara kimashita."
+        "romaji": "hajimemashite. rin desu. betonamu kara kimashita.",
+        "romajiChunks": [
+          "hajimemashite.",
+          "rin desu.",
+          "betonamu kara",
+          "kimashita."
+        ]
       },
       {
         "sp": "B",
@@ -68,7 +74,13 @@
             }
           ]
         ],
-        "romaji": "hajimemashite. tanaka desu. douzo yoroshiku."
+        "romaji": "hajimemashite. tanaka desu. douzo yoroshiku.",
+        "romajiChunks": [
+          "hajimemashite.",
+          "tanaka desu.",
+          "douzo",
+          "yoroshiku."
+        ]
       },
       {
         "sp": "A",
@@ -96,7 +108,11 @@
             }
           ]
         ],
-        "romaji": "tanakasan wa nipponjin desu ka."
+        "romaji": "tanakasan wa nipponjin desu ka.",
+        "romajiChunks": [
+          "tanakasan wa",
+          "nipponjin desu ka."
+        ]
       },
       {
         "sp": "B",
@@ -142,7 +158,13 @@
             }
           ]
         ],
-        "romaji": "hai, nipponjin desu. ousaka no kaishain desu."
+        "romaji": "hai, nipponjin desu. ousaka no kaishain desu.",
+        "romajiChunks": [
+          "hai,",
+          "nipponjin desu.",
+          "ousaka no",
+          "kaishain desu."
+        ]
       },
       {
         "sp": "A",
@@ -181,7 +203,14 @@
             }
           ]
         ],
-        "romaji": "sou desu ka. watashi wa N 5kurasu no gakusei desu."
+        "romaji": "sou desu ka. watashi wa N 5kurasu no gakusei desu.",
+        "romajiChunks": [
+          "sou desu ka.",
+          "watashi wa",
+          "N",
+          "5kurasu no",
+          "gakusei desu."
+        ]
       },
       {
         "sp": "B",
@@ -215,7 +244,12 @@
             }
           ]
         ],
-        "romaji": "rinsan wa ni juusai desu ka."
+        "romaji": "rinsan wa ni juusai desu ka.",
+        "romajiChunks": [
+          "rinsan wa",
+          "ni",
+          "juusai desu ka."
+        ]
       },
       {
         "sp": "A",
@@ -268,7 +302,14 @@
             }
           ]
         ],
-        "romaji": "iie, ni juusai jaarimasen. juu kyuusai desu."
+        "romaji": "iie, ni juusai jaarimasen. juu kyuusai desu.",
+        "romajiChunks": [
+          "iie,",
+          "ni",
+          "juusai jaarimasen.",
+          "juu",
+          "kyuusai desu."
+        ]
       },
       {
         "sp": "B",
@@ -320,7 +361,15 @@
             }
           ]
         ],
-        "romaji": "sou desu ka. rinsan mo kono gakkou no atarashii gakusei desu ka."
+        "romaji": "sou desu ka. rinsan mo kono gakkou no atarashii gakusei desu ka.",
+        "romajiChunks": [
+          "sou desu ka.",
+          "rinsan mo",
+          "kono",
+          "gakkou no",
+          "atarashii",
+          "gakusei desu ka."
+        ]
       },
       {
         "sp": "A",
@@ -372,7 +421,15 @@
             }
           ]
         ],
-        "romaji": "hai, sou desu. tanakasan mo kono gakkou no hito desu ka."
+        "romaji": "hai, sou desu. tanakasan mo kono gakkou no hito desu ka.",
+        "romajiChunks": [
+          "hai,",
+          "sou desu.",
+          "tanakasan mo",
+          "kono",
+          "gakkou no",
+          "hito desu ka."
+        ]
       },
       {
         "sp": "B",
@@ -442,7 +499,17 @@
             }
           ]
         ],
-        "romaji": "hai, watashi mo kono gakkou no hito desu. sensei jaarimasen ga, jimu no shigoto desu."
+        "romaji": "hai, watashi mo kono gakkou no hito desu. sensei jaarimasen ga, jimu no shigoto desu.",
+        "romajiChunks": [
+          "hai,",
+          "watashi mo",
+          "kono",
+          "gakkou no",
+          "hito desu.",
+          "sensei jaarimasen ga,",
+          "jimu no",
+          "shigoto desu."
+        ]
       },
       {
         "sp": "A",
@@ -477,7 +544,14 @@
             }
           ]
         ],
-        "romaji": "sou desu ka. ja, korekara iroiro oshie tekudasai."
+        "romaji": "sou desu ka. ja, korekara iroiro oshie tekudasai.",
+        "romajiChunks": [
+          "sou desu ka.",
+          "ja,",
+          "korekara",
+          "iroiro",
+          "oshie tekudasai."
+        ]
       },
       {
         "sp": "B",
@@ -524,7 +598,15 @@
             }
           ]
         ],
-        "romaji": "hai, mochiron desu. kochira koso yoroshiku onegai shimasu."
+        "romaji": "hai, mochiron desu. kochira koso yoroshiku onegai shimasu.",
+        "romajiChunks": [
+          "hai,",
+          "mochiron desu.",
+          "kochira koso",
+          "yoroshiku",
+          "onegai",
+          "shimasu."
+        ]
       }
     ]
   },
@@ -559,7 +641,13 @@
             }
           ]
         ],
-        "romaji": "sumimasen, kono nouto wa dareno desu ka."
+        "romaji": "sumimasen, kono nouto wa dareno desu ka.",
+        "romajiChunks": [
+          "sumimasen,",
+          "kono",
+          "nouto wa",
+          "dareno desu ka."
+        ]
       },
       {
         "sp": "B",
@@ -603,7 +691,15 @@
             }
           ]
         ],
-        "romaji": "sono aoi nouto desu ka. watashi no ja arimasen."
+        "romaji": "sono aoi nouto desu ka. watashi no ja arimasen.",
+        "romajiChunks": [
+          "sono",
+          "aoi",
+          "nouto desu ka.",
+          "watashi no",
+          "ja",
+          "arimasen."
+        ]
       },
       {
         "sp": "A",
@@ -637,7 +733,13 @@
             }
           ]
         ],
-        "romaji": "ja, kono kasa wa yamadasanno desu ka."
+        "romaji": "ja, kono kasa wa yamadasanno desu ka.",
+        "romajiChunks": [
+          "ja,",
+          "kono",
+          "kasa wa",
+          "yamadasanno desu ka."
+        ]
       },
       {
         "sp": "B",
@@ -676,7 +778,14 @@
             }
           ]
         ],
-        "romaji": "iie, sore mo yamadasan no ja arimasen."
+        "romaji": "iie, sore mo yamadasan no ja arimasen.",
+        "romajiChunks": [
+          "iie,",
+          "sore mo",
+          "yamadasan no",
+          "ja",
+          "arimasen."
+        ]
       },
       {
         "sp": "A",
@@ -728,7 +837,15 @@
             }
           ]
         ],
-        "romaji": "are wa nani desu ka. doa no soba no shiroi hako desu."
+        "romaji": "are wa nani desu ka. doa no soba no shiroi hako desu.",
+        "romajiChunks": [
+          "are wa",
+          "nani desu ka.",
+          "doa no",
+          "soba no",
+          "shiroi",
+          "hako desu."
+        ]
       },
       {
         "sp": "B",
@@ -757,7 +874,12 @@
             }
           ]
         ],
-        "romaji": "are wa kopii no kami desu."
+        "romaji": "are wa kopii no kami desu.",
+        "romajiChunks": [
+          "are wa",
+          "kopii no",
+          "kami desu."
+        ]
       },
       {
         "sp": "A",
@@ -792,7 +914,14 @@
             }
           ]
         ],
-        "romaji": "sou desu ka. dewa, kono enpitsu wa anatano desu ka."
+        "romaji": "sou desu ka. dewa, kono enpitsu wa anatano desu ka.",
+        "romajiChunks": [
+          "sou desu ka.",
+          "dewa,",
+          "kono",
+          "enpitsu wa",
+          "anatano desu ka."
+        ]
       },
       {
         "sp": "B",
@@ -822,7 +951,13 @@
             }
           ]
         ],
-        "romaji": "hai, sore wa watashino desu. arigatougozaimasu."
+        "romaji": "hai, sore wa watashino desu. arigatougozaimasu.",
+        "romajiChunks": [
+          "hai,",
+          "sore wa",
+          "watashino desu.",
+          "arigatougozaimasu."
+        ]
       },
       {
         "sp": "A",
@@ -857,7 +992,14 @@
             }
           ]
         ],
-        "romaji": "iie. ja, ano kagi wa dareno desu ka."
+        "romaji": "iie. ja, ano kagi wa dareno desu ka.",
+        "romajiChunks": [
+          "iie.",
+          "ja,",
+          "ano",
+          "kagi wa",
+          "dareno desu ka."
+        ]
       },
       {
         "sp": "B",
@@ -906,7 +1048,15 @@
             }
           ]
         ],
-        "romaji": "ano chiisai kagi desu ka. tabun kimura senseino desu."
+        "romaji": "ano chiisai kagi desu ka. tabun kimura senseino desu.",
+        "romajiChunks": [
+          "ano",
+          "chiisai",
+          "kagi desu ka.",
+          "tabun",
+          "kimura",
+          "senseino desu."
+        ]
       },
       {
         "sp": "A",
@@ -953,7 +1103,14 @@
             }
           ]
         ],
-        "romaji": "kono kaban nonaka no memo wa kimura senseino desu."
+        "romaji": "kono kaban nonaka no memo wa kimura senseino desu.",
+        "romajiChunks": [
+          "kono",
+          "kaban nonaka no",
+          "memo wa",
+          "kimura",
+          "senseino desu."
+        ]
       },
       {
         "sp": "B",
@@ -992,7 +1149,14 @@
             }
           ]
         ],
-        "romaji": "hontou desu ka. dewa, kono kagi mo senseino desu ne."
+        "romaji": "hontou desu ka. dewa, kono kagi mo senseino desu ne.",
+        "romajiChunks": [
+          "hontou desu ka.",
+          "dewa,",
+          "kono",
+          "kagi mo",
+          "senseino desu ne."
+        ]
       }
     ]
   },
@@ -1022,7 +1186,12 @@
             }
           ]
         ],
-        "romaji": "sumimasen, toire wa doko desu ka."
+        "romaji": "sumimasen, toire wa doko desu ka.",
+        "romajiChunks": [
+          "sumimasen,",
+          "toire wa",
+          "doko desu ka."
+        ]
       },
       {
         "sp": "B",
@@ -1047,7 +1216,12 @@
             }
           ]
         ],
-        "romaji": "asoko desu. erebeetaa no tonari desu."
+        "romaji": "asoko desu. erebeetaa no tonari desu.",
+        "romajiChunks": [
+          "asoko desu.",
+          "erebeetaa no",
+          "tonari desu."
+        ]
       },
       {
         "sp": "A",
@@ -1080,7 +1254,12 @@
             }
           ]
         ],
-        "romaji": "ano heya wa toshoshitsu desu ka."
+        "romaji": "ano heya wa toshoshitsu desu ka.",
+        "romajiChunks": [
+          "ano",
+          "heya wa",
+          "toshoshitsu desu ka."
+        ]
       },
       {
         "sp": "B",
@@ -1127,7 +1306,14 @@
             }
           ]
         ],
-        "romaji": "iie, soko wa toshoshitsu jaarimasen. sensei no heya desu."
+        "romaji": "iie, soko wa toshoshitsu jaarimasen. sensei no heya desu.",
+        "romajiChunks": [
+          "iie,",
+          "soko wa",
+          "toshoshitsu jaarimasen.",
+          "sensei no",
+          "heya desu."
+        ]
       },
       {
         "sp": "A",
@@ -1160,7 +1346,12 @@
             }
           ]
         ],
-        "romaji": "dewa, toshoshitsu wa doko desu ka."
+        "romaji": "dewa, toshoshitsu wa doko desu ka.",
+        "romajiChunks": [
+          "dewa,",
+          "toshoshitsu wa",
+          "doko desu ka."
+        ]
       },
       {
         "sp": "B",
@@ -1207,7 +1398,14 @@
             }
           ]
         ],
-        "romaji": "nikai desu. koko kara massugu desu. migi ni arimasu."
+        "romaji": "nikai desu. koko kara massugu desu. migi ni arimasu.",
+        "romajiChunks": [
+          "nikai desu.",
+          "koko kara",
+          "massugu desu.",
+          "migi ni",
+          "arimasu."
+        ]
       },
       {
         "sp": "A",
@@ -1246,7 +1444,14 @@
             }
           ]
         ],
-        "romaji": "arigatougozaimasu. asoko ni hito ga takusan imasu ne."
+        "romaji": "arigatougozaimasu. asoko ni hito ga takusan imasu ne.",
+        "romajiChunks": [
+          "arigatougozaimasu.",
+          "asoko ni",
+          "hito ga",
+          "takusan",
+          "imasu ne."
+        ]
       },
       {
         "sp": "B",
@@ -1298,7 +1503,15 @@
             }
           ]
         ],
-        "romaji": "hai, asoko wa shokudou desu. hiru wa hito ga oui desu."
+        "romaji": "hai, asoko wa shokudou desu. hiru wa hito ga oui desu.",
+        "romajiChunks": [
+          "hai,",
+          "asoko wa",
+          "shokudou desu.",
+          "hiru wa",
+          "hito ga",
+          "oui desu."
+        ]
       },
       {
         "sp": "A",
@@ -1331,7 +1544,12 @@
             }
           ]
         ],
-        "romaji": "koko wa atarashii gakkou desu ka."
+        "romaji": "koko wa atarashii gakkou desu ka.",
+        "romajiChunks": [
+          "koko wa",
+          "atarashii",
+          "gakkou desu ka."
+        ]
       },
       {
         "sp": "B",
@@ -1377,7 +1595,14 @@
             }
           ]
         ],
-        "romaji": "hai, totemo atarashii desu. konpyuutaashitsu mo arimasu."
+        "romaji": "hai, totemo atarashii desu. konpyuutaashitsu mo arimasu.",
+        "romajiChunks": [
+          "hai,",
+          "totemo",
+          "atarashii desu.",
+          "konpyuutaashitsu mo",
+          "arimasu."
+        ]
       },
       {
         "sp": "A",
@@ -1409,7 +1634,11 @@
             }
           ]
         ],
-        "romaji": "uketsuke wa ichikai desu ka."
+        "romaji": "uketsuke wa ichikai desu ka.",
+        "romajiChunks": [
+          "uketsuke wa",
+          "ichikai desu ka."
+        ]
       },
       {
         "sp": "B",
@@ -1452,7 +1681,14 @@
             }
           ]
         ],
-        "romaji": "hai, iriguchi no chikaku desu. sugu wakarimasu yo."
+        "romaji": "hai, iriguchi no chikaku desu. sugu wakarimasu yo.",
+        "romajiChunks": [
+          "hai,",
+          "iriguchi no",
+          "chikaku desu.",
+          "sugu",
+          "wakarimasu yo."
+        ]
       }
     ]
   },
@@ -1498,7 +1734,12 @@
             }
           ]
         ],
-        "romaji": "maiasa, nanji ni okimasu ka."
+        "romaji": "maiasa, nanji ni okimasu ka.",
+        "romajiChunks": [
+          "maiasa,",
+          "nanji ni",
+          "okimasu ka."
+        ]
       },
       {
         "sp": "B",
@@ -1530,7 +1771,11 @@
             }
           ]
         ],
-        "romaji": "rokujihan ni okimasu."
+        "romaji": "rokujihan ni okimasu.",
+        "romajiChunks": [
+          "rokujihan ni",
+          "okimasu."
+        ]
       },
       {
         "sp": "A",
@@ -1568,7 +1813,13 @@
             }
           ]
         ],
-        "romaji": "hayai desu ne. sorekara, nani wo shimasu ka."
+        "romaji": "hayai desu ne. sorekara, nani wo shimasu ka.",
+        "romajiChunks": [
+          "hayai desu ne.",
+          "sorekara,",
+          "nani wo",
+          "shimasu ka."
+        ]
       },
       {
         "sp": "B",
@@ -1613,7 +1864,15 @@
             }
           ]
         ],
-        "romaji": "shawaa wo abimasu. sorekara, asa gohan wo tabemasu."
+        "romaji": "shawaa wo abimasu. sorekara, asa gohan wo tabemasu.",
+        "romajiChunks": [
+          "shawaa wo",
+          "abimasu.",
+          "sorekara,",
+          "asa",
+          "gohan wo",
+          "tabemasu."
+        ]
       },
       {
         "sp": "A",
@@ -1645,7 +1904,11 @@
             }
           ]
         ],
-        "romaji": "kaisha wa nanji kara desu ka."
+        "romaji": "kaisha wa nanji kara desu ka.",
+        "romajiChunks": [
+          "kaisha wa",
+          "nanji kara desu ka."
+        ]
       },
       {
         "sp": "B",
@@ -1695,7 +1958,13 @@
             }
           ]
         ],
-        "romaji": "kyuuji kara desu. hachiji ni uchi wo demasu."
+        "romaji": "kyuuji kara desu. hachiji ni uchi wo demasu.",
+        "romajiChunks": [
+          "kyuuji kara desu.",
+          "hachiji ni",
+          "uchi wo",
+          "demasu."
+        ]
       },
       {
         "sp": "A",
@@ -1732,7 +2001,12 @@
             }
           ]
         ],
-        "romaji": "nande kaisha e ikimasu ka."
+        "romaji": "nande kaisha e ikimasu ka.",
+        "romajiChunks": [
+          "nande",
+          "kaisha e",
+          "ikimasu ka."
+        ]
       },
       {
         "sp": "B",
@@ -1792,7 +2066,15 @@
             }
           ]
         ],
-        "romaji": "basu de eki made ikimasu. eki kara densha de ikimasu."
+        "romaji": "basu de eki made ikimasu. eki kara densha de ikimasu.",
+        "romajiChunks": [
+          "basu de",
+          "eki made",
+          "ikimasu.",
+          "eki kara",
+          "densha de",
+          "ikimasu."
+        ]
       },
       {
         "sp": "A",
@@ -1837,7 +2119,12 @@
             }
           ]
         ],
-        "romaji": "hiruyasumi wa nanji kara nanji made desu ka."
+        "romaji": "hiruyasumi wa nanji kara nanji made desu ka.",
+        "romajiChunks": [
+          "hiruyasumi wa",
+          "nanji kara",
+          "nanji made desu ka."
+        ]
       },
       {
         "sp": "B",
@@ -1902,7 +2189,15 @@
             }
           ]
         ],
-        "romaji": "juu niji kara ichiji made desu. tokidoki tomodachi to tabemasu."
+        "romaji": "juu niji kara ichiji made desu. tokidoki tomodachi to tabemasu.",
+        "romajiChunks": [
+          "juu",
+          "niji kara",
+          "ichiji made desu.",
+          "tokidoki",
+          "tomodachi to",
+          "tabemasu."
+        ]
       },
       {
         "sp": "A",
@@ -1943,7 +2238,12 @@
             }
           ]
         ],
-        "romaji": "yoru wa nanji ni kaerimasu ka."
+        "romaji": "yoru wa nanji ni kaerimasu ka.",
+        "romajiChunks": [
+          "yoru wa",
+          "nanji ni",
+          "kaerimasu ka."
+        ]
       },
       {
         "sp": "B",
@@ -2007,7 +2307,15 @@
             }
           ]
         ],
-        "romaji": "daitai nanaji ni kaerimasu. demo, kin'youbi wa hachijigoro desu."
+        "romaji": "daitai nanaji ni kaerimasu. demo, kin'youbi wa hachijigoro desu.",
+        "romajiChunks": [
+          "daitai",
+          "nanaji ni",
+          "kaerimasu.",
+          "demo,",
+          "kin'youbi wa",
+          "hachijigoro desu."
+        ]
       }
     ]
   },
@@ -2058,7 +2366,13 @@
             }
           ]
         ],
-        "romaji": "kondo no nichiyoubi, kyouto e ikimasu ka."
+        "romaji": "kondo no nichiyoubi, kyouto e ikimasu ka.",
+        "romajiChunks": [
+          "kondo no",
+          "nichiyoubi,",
+          "kyouto e",
+          "ikimasu ka."
+        ]
       },
       {
         "sp": "B",
@@ -2091,7 +2405,12 @@
             }
           ]
         ],
-        "romaji": "hai, tomodachi to ikimasu."
+        "romaji": "hai, tomodachi to ikimasu.",
+        "romajiChunks": [
+          "hai,",
+          "tomodachi to",
+          "ikimasu."
+        ]
       },
       {
         "sp": "A",
@@ -2119,7 +2438,11 @@
             }
           ]
         ],
-        "romaji": "nande ikimasu ka."
+        "romaji": "nande ikimasu ka.",
+        "romajiChunks": [
+          "nande",
+          "ikimasu ka."
+        ]
       },
       {
         "sp": "B",
@@ -2175,7 +2498,14 @@
             }
           ]
         ],
-        "romaji": "shinkansen de ikimasu. asa nanajino ni norimasu."
+        "romaji": "shinkansen de ikimasu. asa nanajino ni norimasu.",
+        "romajiChunks": [
+          "shinkansen de",
+          "ikimasu.",
+          "asa",
+          "nanajino ni",
+          "norimasu."
+        ]
       },
       {
         "sp": "A",
@@ -2208,7 +2538,12 @@
             }
           ]
         ],
-        "romaji": "kyouto de nani wo shimasu ka."
+        "romaji": "kyouto de nani wo shimasu ka.",
+        "romajiChunks": [
+          "kyouto de",
+          "nani wo",
+          "shimasu ka."
+        ]
       },
       {
         "sp": "B",
@@ -2262,7 +2597,14 @@
             }
           ]
         ],
-        "romaji": "otera wo mimasu. sorekara, kouen wo arukimasu."
+        "romaji": "otera wo mimasu. sorekara, kouen wo arukimasu.",
+        "romajiChunks": [
+          "otera wo",
+          "mimasu.",
+          "sorekara,",
+          "kouen wo",
+          "arukimasu."
+        ]
       },
       {
         "sp": "A",
@@ -2298,7 +2640,12 @@
             }
           ]
         ],
-        "romaji": "ohiru wa dare to tabemasu ka."
+        "romaji": "ohiru wa dare to tabemasu ka.",
+        "romajiChunks": [
+          "ohiru wa",
+          "dare to",
+          "tabemasu ka."
+        ]
       },
       {
         "sp": "B",
@@ -2335,7 +2682,12 @@
             }
           ]
         ],
-        "romaji": "kyouto no tomodachi to tabemasu."
+        "romaji": "kyouto no tomodachi to tabemasu.",
+        "romajiChunks": [
+          "kyouto no",
+          "tomodachi to",
+          "tabemasu."
+        ]
       },
       {
         "sp": "A",
@@ -2376,7 +2728,12 @@
             }
           ]
         ],
-        "romaji": "nanji ni toukyou e kaerimasu ka."
+        "romaji": "nanji ni toukyou e kaerimasu ka.",
+        "romajiChunks": [
+          "nanji ni",
+          "toukyou e",
+          "kaerimasu ka."
+        ]
       },
       {
         "sp": "B",
@@ -2414,7 +2771,12 @@
             }
           ]
         ],
-        "romaji": "yoru kyuujigoro kaerimasu."
+        "romaji": "yoru kyuujigoro kaerimasu.",
+        "romajiChunks": [
+          "yoru",
+          "kyuujigoro",
+          "kaerimasu."
+        ]
       },
       {
         "sp": "A",
@@ -2470,7 +2832,15 @@
             }
           ]
         ],
-        "romaji": "ii desu ne. watashi mo raishuu, ane to ousaka e ikimasu."
+        "romaji": "ii desu ne. watashi mo raishuu, ane to ousaka e ikimasu.",
+        "romajiChunks": [
+          "ii desu ne.",
+          "watashi mo",
+          "raishuu,",
+          "ane to",
+          "ousaka e",
+          "ikimasu."
+        ]
       },
       {
         "sp": "B",
@@ -2503,7 +2873,12 @@
             }
           ]
         ],
-        "romaji": "sou desu ka. tanoshii ryokou desu ne."
+        "romaji": "sou desu ka. tanoshii ryokou desu ne.",
+        "romajiChunks": [
+          "sou desu ka.",
+          "tanoshii",
+          "ryokou desu ne."
+        ]
       }
     ]
   },
@@ -2546,7 +2921,13 @@
             }
           ]
         ],
-        "romaji": "kyou no gogo, nani wo shimasu ka."
+        "romaji": "kyou no gogo, nani wo shimasu ka.",
+        "romajiChunks": [
+          "kyou no",
+          "gogo,",
+          "nani wo",
+          "shimasu ka."
+        ]
       },
       {
         "sp": "B",
@@ -2579,7 +2960,12 @@
             }
           ]
         ],
-        "romaji": "toshokan de repouto wo kakimasu."
+        "romaji": "toshokan de repouto wo kakimasu.",
+        "romajiChunks": [
+          "toshokan de",
+          "repouto wo",
+          "kakimasu."
+        ]
       },
       {
         "sp": "A",
@@ -2629,7 +3015,16 @@
             }
           ]
         ],
-        "romaji": "sou desu ka. repouto no ato de, issho ni hiru gohan wo tabemasen ka."
+        "romaji": "sou desu ka. repouto no ato de, issho ni hiru gohan wo tabemasen ka.",
+        "romajiChunks": [
+          "sou desu ka.",
+          "repouto no",
+          "ato de,",
+          "issho ni",
+          "hiru",
+          "gohan wo",
+          "tabemasen ka."
+        ]
       },
       {
         "sp": "B",
@@ -2658,7 +3053,12 @@
             }
           ]
         ],
-        "romaji": "ii desu ne. doko de tabemasu ka."
+        "romaji": "ii desu ne. doko de tabemasu ka.",
+        "romajiChunks": [
+          "ii desu ne.",
+          "doko de",
+          "tabemasu ka."
+        ]
       },
       {
         "sp": "A",
@@ -2700,7 +3100,13 @@
             }
           ]
         ],
-        "romaji": "ekimae no chiisai resutoran de tabemashou."
+        "romaji": "ekimae no chiisai resutoran de tabemashou.",
+        "romajiChunks": [
+          "ekimae no",
+          "chiisai",
+          "resutoran de",
+          "tabemashou."
+        ]
       },
       {
         "sp": "B",
@@ -2725,7 +3131,12 @@
             }
           ]
         ],
-        "romaji": "asoko wa karee ga oishii desu ne."
+        "romaji": "asoko wa karee ga oishii desu ne.",
+        "romajiChunks": [
+          "asoko wa",
+          "karee ga",
+          "oishii desu ne."
+        ]
       },
       {
         "sp": "A",
@@ -2764,7 +3175,14 @@
             }
           ]
         ],
-        "romaji": "hai. watashi wa itsumo karee wo tabemasu."
+        "romaji": "hai. watashi wa itsumo karee wo tabemasu.",
+        "romajiChunks": [
+          "hai.",
+          "watashi wa",
+          "itsumo",
+          "karee wo",
+          "tabemasu."
+        ]
       },
       {
         "sp": "B",
@@ -2793,7 +3211,12 @@
             }
           ]
         ],
-        "romaji": "watashi wa sandoitchi wo tabemasu."
+        "romaji": "watashi wa sandoitchi wo tabemasu.",
+        "romajiChunks": [
+          "watashi wa",
+          "sandoitchi wo",
+          "tabemasu."
+        ]
       },
       {
         "sp": "A",
@@ -2838,7 +3261,15 @@
             }
           ]
         ],
-        "romaji": "hiru gohan no ato de, suupaa de kaimono wo shimasen ka."
+        "romaji": "hiru gohan no ato de, suupaa de kaimono wo shimasen ka.",
+        "romajiChunks": [
+          "hiru",
+          "gohan no",
+          "ato de,",
+          "suupaa de",
+          "kaimono wo",
+          "shimasen ka."
+        ]
       },
       {
         "sp": "B",
@@ -2873,7 +3304,14 @@
             }
           ]
         ],
-        "romaji": "sumimasen, sono ato de arubaito ga arimasu."
+        "romaji": "sumimasen, sono ato de arubaito ga arimasu.",
+        "romajiChunks": [
+          "sumimasen,",
+          "sono",
+          "ato de",
+          "arubaito ga",
+          "arimasu."
+        ]
       },
       {
         "sp": "A",
@@ -2921,7 +3359,15 @@
             }
           ]
         ],
-        "romaji": "sou desu ka. ja, mata ashita eiga wo mimasen ka."
+        "romaji": "sou desu ka. ja, mata ashita eiga wo mimasen ka.",
+        "romajiChunks": [
+          "sou desu ka.",
+          "ja,",
+          "mata",
+          "ashita",
+          "eiga wo",
+          "mimasen ka."
+        ]
       },
       {
         "sp": "B",
@@ -2972,7 +3418,14 @@
             }
           ]
         ],
-        "romaji": "ee, zehi. rokuji ni eki de aimashou."
+        "romaji": "ee, zehi. rokuji ni eki de aimashou.",
+        "romajiChunks": [
+          "ee,",
+          "zehi.",
+          "rokuji ni",
+          "eki de",
+          "aimashou."
+        ]
       }
     ]
   },
@@ -3017,7 +3470,15 @@
             }
           ]
         ],
-        "romaji": "sono pen keesu, kawaii desu ne. dare ni moraimashita ka."
+        "romaji": "sono pen keesu, kawaii desu ne. dare ni moraimashita ka.",
+        "romajiChunks": [
+          "sono",
+          "pen",
+          "keesu,",
+          "kawaii desu ne.",
+          "dare ni",
+          "moraimashita ka."
+        ]
       },
       {
         "sp": "B",
@@ -3059,7 +3520,13 @@
             }
           ]
         ],
-        "romaji": "ane ni moraimashita. tanjoubi no purezento desu."
+        "romaji": "ane ni moraimashita. tanjoubi no purezento desu.",
+        "romajiChunks": [
+          "ane ni",
+          "moraimashita.",
+          "tanjoubi no",
+          "purezento desu."
+        ]
       },
       {
         "sp": "A",
@@ -3101,7 +3568,13 @@
             }
           ]
         ],
-        "romaji": "sou desu ka. nande tegami wo kakimasu ka."
+        "romaji": "sou desu ka. nande tegami wo kakimasu ka.",
+        "romajiChunks": [
+          "sou desu ka.",
+          "nande",
+          "tegami wo",
+          "kakimasu ka."
+        ]
       },
       {
         "sp": "B",
@@ -3167,7 +3640,17 @@
             }
           ]
         ],
-        "romaji": "kono aoi pen de kakimasu. Asan wa yoku tegami wo kakimasu ka."
+        "romaji": "kono aoi pen de kakimasu. Asan wa yoku tegami wo kakimasu ka.",
+        "romajiChunks": [
+          "kono",
+          "aoi",
+          "pen de",
+          "kakimasu.",
+          "Asan wa",
+          "yoku",
+          "tegami wo",
+          "kakimasu ka."
+        ]
       },
       {
         "sp": "A",
@@ -3228,7 +3711,16 @@
             }
           ]
         ],
-        "romaji": "hai, tokidoki kakimasu. senshuu, tomodachi ni ehon wo agemashita."
+        "romaji": "hai, tokidoki kakimasu. senshuu, tomodachi ni ehon wo agemashita.",
+        "romajiChunks": [
+          "hai,",
+          "tokidoki",
+          "kakimasu.",
+          "senshuu,",
+          "tomodachi ni",
+          "ehon wo",
+          "agemashita."
+        ]
       },
       {
         "sp": "B",
@@ -3271,7 +3763,14 @@
             }
           ]
         ],
-        "romaji": "hee, sono tomodachi wa nani wo kuremashita ka."
+        "romaji": "hee, sono tomodachi wa nani wo kuremashita ka.",
+        "romajiChunks": [
+          "hee,",
+          "sono",
+          "tomodachi wa",
+          "nani wo",
+          "kuremashita ka."
+        ]
       },
       {
         "sp": "A",
@@ -3296,7 +3795,12 @@
             }
           ]
         ],
-        "romaji": "kireina shiori wo kuremashita."
+        "romaji": "kireina shiori wo kuremashita.",
+        "romajiChunks": [
+          "kireina",
+          "shiori wo",
+          "kuremashita."
+        ]
       },
       {
         "sp": "B",
@@ -3325,7 +3829,12 @@
             }
           ]
         ],
-        "romaji": "ii desu ne. mou tsukaimashita ka."
+        "romaji": "ii desu ne. mou tsukaimashita ka.",
+        "romajiChunks": [
+          "ii desu ne.",
+          "mou",
+          "tsukaimashita ka."
+        ]
       },
       {
         "sp": "A",
@@ -3373,7 +3882,15 @@
             }
           ]
         ],
-        "romaji": "hai, mou tsukaimashita. hon no aida ni hasan deimasu."
+        "romaji": "hai, mou tsukaimashita. hon no aida ni hasan deimasu.",
+        "romajiChunks": [
+          "hai,",
+          "mou",
+          "tsukaimashita.",
+          "hon no",
+          "aida ni",
+          "hasan deimasu."
+        ]
       },
       {
         "sp": "B",
@@ -3425,7 +3942,15 @@
             }
           ]
         ],
-        "romaji": "watashi wa mada desu. konban, ane ni denwa wo shimasu."
+        "romaji": "watashi wa mada desu. konban, ane ni denwa wo shimasu.",
+        "romajiChunks": [
+          "watashi wa",
+          "mada desu.",
+          "konban,",
+          "ane ni",
+          "denwa wo",
+          "shimasu."
+        ]
       },
       {
         "sp": "A",
@@ -3467,7 +3992,14 @@
             }
           ]
         ],
-        "romaji": "sore wa ii desu ne. kitto oneesan wa yorokobimasu."
+        "romaji": "sore wa ii desu ne. kitto oneesan wa yorokobimasu.",
+        "romajiChunks": [
+          "sore wa",
+          "ii desu ne.",
+          "kitto",
+          "oneesan wa",
+          "yorokobimasu."
+        ]
       },
       {
         "sp": "B",
@@ -3505,7 +4037,13 @@
             }
           ]
         ],
-        "romaji": "hai. shashin mo スマホ de okurimasu."
+        "romaji": "hai. shashin mo スマホ de okurimasu.",
+        "romajiChunks": [
+          "hai.",
+          "shashin mo",
+          "スマホ de",
+          "okurimasu."
+        ]
       }
     ]
   },
@@ -3539,7 +4077,12 @@
             }
           ]
         ],
-        "romaji": "atarashii apaato wa dou desu ka."
+        "romaji": "atarashii apaato wa dou desu ka.",
+        "romajiChunks": [
+          "atarashii",
+          "apaato wa",
+          "dou desu ka."
+        ]
       },
       {
         "sp": "B",
@@ -3568,7 +4111,12 @@
             }
           ]
         ],
-        "romaji": "totemo shizukade, kirei desu."
+        "romaji": "totemo shizukade, kirei desu.",
+        "romajiChunks": [
+          "totemo",
+          "shizukade,",
+          "kirei desu."
+        ]
       },
       {
         "sp": "A",
@@ -3597,7 +4145,12 @@
             }
           ]
         ],
-        "romaji": "hee, heya wa hiroi desu ka."
+        "romaji": "hee, heya wa hiroi desu ka.",
+        "romajiChunks": [
+          "hee,",
+          "heya wa",
+          "hiroi desu ka."
+        ]
       },
       {
         "sp": "B",
@@ -3640,7 +4193,14 @@
             }
           ]
         ],
-        "romaji": "iie, amari hirokunai desu. demo, akarui desu."
+        "romaji": "iie, amari hirokunai desu. demo, akarui desu.",
+        "romajiChunks": [
+          "iie,",
+          "amari",
+          "hirokunai desu.",
+          "demo,",
+          "akarui desu."
+        ]
       },
       {
         "sp": "A",
@@ -3668,7 +4228,11 @@
             }
           ]
         ],
-        "romaji": "daidokoro wa benri desu ka."
+        "romaji": "daidokoro wa benri desu ka.",
+        "romajiChunks": [
+          "daidokoro wa",
+          "benri desu ka."
+        ]
       },
       {
         "sp": "B",
@@ -3711,7 +4275,14 @@
             }
           ]
         ],
-        "romaji": "hai, benri desu. rei zo uko mo oukii desu."
+        "romaji": "hai, benri desu. rei zo uko mo oukii desu.",
+        "romajiChunks": [
+          "hai,",
+          "benri desu.",
+          "rei zo",
+          "uko mo",
+          "oukii desu."
+        ]
       },
       {
         "sp": "A",
@@ -3739,7 +4310,11 @@
             }
           ]
         ],
-        "romaji": "eki kara chikai desu ka."
+        "romaji": "eki kara chikai desu ka.",
+        "romajiChunks": [
+          "eki kara",
+          "chikai desu ka."
+        ]
       },
       {
         "sp": "B",
@@ -3782,7 +4357,14 @@
             }
           ]
         ],
-        "romaji": "hai, chikai desu ga, suupaa wa chotto toui desu."
+        "romaji": "hai, chikai desu ga, suupaa wa chotto toui desu.",
+        "romajiChunks": [
+          "hai,",
+          "chikai desu ga,",
+          "suupaa wa",
+          "chotto",
+          "toui desu."
+        ]
       },
       {
         "sp": "A",
@@ -3810,7 +4392,11 @@
             }
           ]
         ],
-        "romaji": "yachin wa takai desu ka."
+        "romaji": "yachin wa takai desu ka.",
+        "romajiChunks": [
+          "yachin wa",
+          "takai desu ka."
+        ]
       },
       {
         "sp": "B",
@@ -3858,7 +4444,15 @@
             }
           ]
         ],
-        "romaji": "iie, sonnani takakunai desu. gakusei ni yasashii apaato desu."
+        "romaji": "iie, sonnani takakunai desu. gakusei ni yasashii apaato desu.",
+        "romajiChunks": [
+          "iie,",
+          "sonnani",
+          "takakunai desu.",
+          "gakusei ni",
+          "yasashii",
+          "apaato desu."
+        ]
       },
       {
         "sp": "A",
@@ -3891,7 +4485,12 @@
             }
           ]
         ],
-        "romaji": "ii desu ne. ouyasan wa shinsetsu desu ka."
+        "romaji": "ii desu ne. ouyasan wa shinsetsu desu ka.",
+        "romajiChunks": [
+          "ii desu ne.",
+          "ouyasan wa",
+          "shinsetsu desu ka."
+        ]
       },
       {
         "sp": "B",
@@ -3934,7 +4533,14 @@
             }
           ]
         ],
-        "romaji": "hai, totemo shinsetsu desu. dakara, anshin desu."
+        "romaji": "hai, totemo shinsetsu desu. dakara, anshin desu.",
+        "romajiChunks": [
+          "hai,",
+          "totemo",
+          "shinsetsu desu.",
+          "dakara,",
+          "anshin desu."
+        ]
       }
     ]
   },
@@ -3981,7 +4587,13 @@
             }
           ]
         ],
-        "romaji": "yamadasan wa donna ongaku ga suki desu ka."
+        "romaji": "yamadasan wa donna ongaku ga suki desu ka.",
+        "romajiChunks": [
+          "yamadasan wa",
+          "donna",
+          "ongaku ga",
+          "suki desu ka."
+        ]
       },
       {
         "sp": "B",
@@ -4015,7 +4627,13 @@
             }
           ]
         ],
-        "romaji": "jazu ga suki desu. shizuka de oshare desu kara."
+        "romaji": "jazu ga suki desu. shizuka de oshare desu kara.",
+        "romajiChunks": [
+          "jazu ga",
+          "suki desu.",
+          "shizuka de",
+          "oshare desu kara."
+        ]
       },
       {
         "sp": "A",
@@ -4044,7 +4662,12 @@
             }
           ]
         ],
-        "romaji": "sou desu ka. supoutsu wa suki desu ka."
+        "romaji": "sou desu ka. supoutsu wa suki desu ka.",
+        "romajiChunks": [
+          "sou desu ka.",
+          "supoutsu wa",
+          "suki desu ka."
+        ]
       },
       {
         "sp": "B",
@@ -4097,7 +4720,16 @@
             }
           ]
         ],
-        "romaji": "hai, tenisu ga suki desu. demo, yakyuu wa amari wakarimasen."
+        "romaji": "hai, tenisu ga suki desu. demo, yakyuu wa amari wakarimasen.",
+        "romajiChunks": [
+          "hai,",
+          "tenisu ga",
+          "suki desu.",
+          "demo,",
+          "yakyuu wa",
+          "amari",
+          "wakarimasen."
+        ]
       },
       {
         "sp": "A",
@@ -4140,7 +4772,14 @@
             }
           ]
         ],
-        "romaji": "watashi wa yakyuu ga daisuki desu. ruuru ga kantan desu kara."
+        "romaji": "watashi wa yakyuu ga daisuki desu. ruuru ga kantan desu kara.",
+        "romajiChunks": [
+          "watashi wa",
+          "yakyuu ga",
+          "daisuki desu.",
+          "ruuru ga",
+          "kantan desu kara."
+        ]
       },
       {
         "sp": "B",
@@ -4183,7 +4822,14 @@
             }
           ]
         ],
-        "romaji": "hee, nippon no chiimu no namae ga wakarimasu ka."
+        "romaji": "hee, nippon no chiimu no namae ga wakarimasu ka.",
+        "romajiChunks": [
+          "hee,",
+          "nippon no",
+          "chiimu no",
+          "namae ga",
+          "wakarimasu ka."
+        ]
       },
       {
         "sp": "A",
@@ -4226,7 +4872,14 @@
             }
           ]
         ],
-        "romaji": "hai, sukoshi wakarimasu. terebideyoku mimasu kara."
+        "romaji": "hai, sukoshi wakarimasu. terebideyoku mimasu kara.",
+        "romajiChunks": [
+          "hai,",
+          "sukoshi",
+          "wakarimasu.",
+          "terebideyoku",
+          "mimasu kara."
+        ]
       },
       {
         "sp": "B",
@@ -4264,7 +4917,13 @@
             }
           ]
         ],
-        "romaji": "ii desu ne. ja, ryouri wa suki desu ka."
+        "romaji": "ii desu ne. ja, ryouri wa suki desu ka.",
+        "romajiChunks": [
+          "ii desu ne.",
+          "ja,",
+          "ryouri wa",
+          "suki desu ka."
+        ]
       },
       {
         "sp": "A",
@@ -4325,7 +4984,16 @@
             }
           ]
         ],
-        "romaji": "hai, suki desu. tokuni karee ga suki desu. iedeyoku tsukurimasu kara."
+        "romaji": "hai, suki desu. tokuni karee ga suki desu. iedeyoku tsukurimasu kara.",
+        "romajiChunks": [
+          "hai,",
+          "suki desu.",
+          "tokuni",
+          "karee ga",
+          "suki desu.",
+          "iedeyoku",
+          "tsukurimasu kara."
+        ]
       },
       {
         "sp": "B",
@@ -4381,7 +5049,15 @@
             }
           ]
         ],
-        "romaji": "watashi mo karee ga suki desu. tsurai tabemono ga suki desu kara."
+        "romaji": "watashi mo karee ga suki desu. tsurai tabemono ga suki desu kara.",
+        "romajiChunks": [
+          "watashi mo",
+          "karee ga",
+          "suki desu.",
+          "tsurai",
+          "tabemono ga",
+          "suki desu kara."
+        ]
       },
       {
         "sp": "A",
@@ -4416,7 +5092,13 @@
             }
           ]
         ],
-        "romaji": "ja, kondo issho ni tabemasen ka."
+        "romaji": "ja, kondo issho ni tabemasen ka.",
+        "romajiChunks": [
+          "ja,",
+          "kondo",
+          "issho ni",
+          "tabemasen ka."
+        ]
       },
       {
         "sp": "B",
@@ -4454,7 +5136,13 @@
             }
           ]
         ],
-        "romaji": "zehi. oishii mise wo shi teimasu."
+        "romaji": "zehi. oishii mise wo shi teimasu.",
+        "romajiChunks": [
+          "zehi.",
+          "oishii",
+          "mise wo",
+          "shi teimasu."
+        ]
       }
     ]
   },
@@ -4497,7 +5185,13 @@
             }
           ]
         ],
-        "romaji": "tanakasan no heya ni nani ga arimasu ka."
+        "romaji": "tanakasan no heya ni nani ga arimasu ka.",
+        "romajiChunks": [
+          "tanakasan no",
+          "heya ni",
+          "nani ga",
+          "arimasu ka."
+        ]
       },
       {
         "sp": "B",
@@ -4538,7 +5232,13 @@
             }
           ]
         ],
-        "romaji": "tsukue noue ni nouto pasokon ga arimasu."
+        "romaji": "tsukue noue ni nouto pasokon ga arimasu.",
+        "romajiChunks": [
+          "tsukue noue ni",
+          "nouto",
+          "pasokon ga",
+          "arimasu."
+        ]
       },
       {
         "sp": "A",
@@ -4578,7 +5278,12 @@
             }
           ]
         ],
-        "romaji": "hondana nonaka ni hon mo arimasu ka."
+        "romaji": "hondana nonaka ni hon mo arimasu ka.",
+        "romajiChunks": [
+          "hondana nonaka ni",
+          "hon mo",
+          "arimasu ka."
+        ]
       },
       {
         "sp": "B",
@@ -4621,7 +5326,14 @@
             }
           ]
         ],
-        "romaji": "hai, nihongo no hon ga takusan arimasu."
+        "romaji": "hai, nihongo no hon ga takusan arimasu.",
+        "romajiChunks": [
+          "hai,",
+          "nihongo no",
+          "hon ga",
+          "takusan",
+          "arimasu."
+        ]
       },
       {
         "sp": "A",
@@ -4659,7 +5371,13 @@
             }
           ]
         ],
-        "romaji": "isu no shita ni nani ka arimasu ne."
+        "romaji": "isu no shita ni nani ka arimasu ne.",
+        "romajiChunks": [
+          "isu no",
+          "shita ni",
+          "nani ka",
+          "arimasu ne."
+        ]
       },
       {
         "sp": "B",
@@ -4699,7 +5417,15 @@
             }
           ]
         ],
-        "romaji": "a, neko ga imasu. tonari no heya no neko desu."
+        "romaji": "a, neko ga imasu. tonari no heya no neko desu.",
+        "romajiChunks": [
+          "a,",
+          "neko ga",
+          "imasu.",
+          "tonari no",
+          "heya no",
+          "neko desu."
+        ]
       },
       {
         "sp": "A",
@@ -4742,7 +5468,14 @@
             }
           ]
         ],
-        "romaji": "kawaii desu ne. beddo no yoko ni wa nani ga arimasu ka."
+        "romaji": "kawaii desu ne. beddo no yoko ni wa nani ga arimasu ka.",
+        "romajiChunks": [
+          "kawaii desu ne.",
+          "beddo no",
+          "yoko ni wa",
+          "nani ga",
+          "arimasu ka."
+        ]
       },
       {
         "sp": "B",
@@ -4797,7 +5530,15 @@
             }
           ]
         ],
-        "romaji": "chiisai teeburu ga arimasu. sonoue ni tokei ga arimasu."
+        "romaji": "chiisai teeburu ga arimasu. sonoue ni tokei ga arimasu.",
+        "romajiChunks": [
+          "chiisai",
+          "teeburu ga",
+          "arimasu.",
+          "sonoue ni",
+          "tokei ga",
+          "arimasu."
+        ]
       },
       {
         "sp": "A",
@@ -4835,7 +5576,13 @@
             }
           ]
         ],
-        "romaji": "heya no mae ni jitensha ga arimasu ka."
+        "romaji": "heya no mae ni jitensha ga arimasu ka.",
+        "romajiChunks": [
+          "heya no",
+          "mae ni",
+          "jitensha ga",
+          "arimasu ka."
+        ]
       },
       {
         "sp": "B",
@@ -4879,7 +5626,15 @@
             }
           ]
         ],
-        "romaji": "iie, mae ni wa arimasen. ushi ro ni arimasu."
+        "romaji": "iie, mae ni wa arimasen. ushi ro ni arimasu.",
+        "romajiChunks": [
+          "iie,",
+          "mae ni wa",
+          "arimasen.",
+          "ushi",
+          "ro ni",
+          "arimasu."
+        ]
       },
       {
         "sp": "A",
@@ -4908,7 +5663,12 @@
             }
           ]
         ],
-        "romaji": "beranda ni hana ga arimasu ne."
+        "romaji": "beranda ni hana ga arimasu ne.",
+        "romajiChunks": [
+          "beranda ni",
+          "hana ga",
+          "arimasu ne."
+        ]
       },
       {
         "sp": "B",
@@ -4966,7 +5726,16 @@
             }
           ]
         ],
-        "romaji": "hai, haha ni morata hana desu. maiasa mizu wo agemasu."
+        "romaji": "hai, haha ni morata hana desu. maiasa mizu wo agemasu.",
+        "romajiChunks": [
+          "hai,",
+          "haha ni",
+          "morata",
+          "hana desu.",
+          "maiasa",
+          "mizu wo",
+          "agemasu."
+        ]
       }
     ]
   },
@@ -5001,7 +5770,13 @@
             }
           ]
         ],
-        "romaji": "sumimasen, ringo wo ikutsu kudasai."
+        "romaji": "sumimasen, ringo wo ikutsu kudasai.",
+        "romajiChunks": [
+          "sumimasen,",
+          "ringo wo",
+          "ikutsu",
+          "kudasai."
+        ]
       },
       {
         "sp": "B",
@@ -5044,7 +5819,14 @@
             }
           ]
         ],
-        "romaji": "mittsu kudasai. hoka ni nani ga irimasu ka."
+        "romaji": "mittsu kudasai. hoka ni nani ga irimasu ka.",
+        "romajiChunks": [
+          "mittsu",
+          "kudasai.",
+          "hoka ni",
+          "nani ga",
+          "irimasu ka."
+        ]
       },
       {
         "sp": "A",
@@ -5078,7 +5860,13 @@
             }
           ]
         ],
-        "romaji": "tama gowo muttsu kudasai."
+        "romaji": "tama gowo muttsu kudasai.",
+        "romajiChunks": [
+          "tama",
+          "gowo",
+          "muttsu",
+          "kudasai."
+        ]
       },
       {
         "sp": "B",
@@ -5115,7 +5903,12 @@
             }
           ]
         ],
-        "romaji": "hai. gyuunyuu wa nanhon desu ka."
+        "romaji": "hai. gyuunyuu wa nanhon desu ka.",
+        "romajiChunks": [
+          "hai.",
+          "gyuunyuu wa",
+          "nanhon desu ka."
+        ]
       },
       {
         "sp": "A",
@@ -5152,7 +5945,12 @@
             }
           ]
         ],
-        "romaji": "nihon onegai shimasu."
+        "romaji": "nihon onegai shimasu.",
+        "romajiChunks": [
+          "nihon",
+          "onegai",
+          "shimasu."
+        ]
       },
       {
         "sp": "B",
@@ -5176,7 +5974,11 @@
             }
           ]
         ],
-        "romaji": "pan wa hitotsudeii desu ka."
+        "romaji": "pan wa hitotsudeii desu ka.",
+        "romajiChunks": [
+          "pan wa",
+          "hitotsudeii desu ka."
+        ]
       },
       {
         "sp": "A",
@@ -5223,7 +6025,14 @@
             }
           ]
         ],
-        "romaji": "iie, futatsu kudasai. kazoku ga oui desu kara."
+        "romaji": "iie, futatsu kudasai. kazoku ga oui desu kara.",
+        "romajiChunks": [
+          "iie,",
+          "futatsu",
+          "kudasai.",
+          "kazoku ga",
+          "oui desu kara."
+        ]
       },
       {
         "sp": "B",
@@ -5272,7 +6081,14 @@
             }
           ]
         ],
-        "romaji": "kashikomarimashita. zenbu de sen ni hyakuen desu."
+        "romaji": "kashikomarimashita. zenbu de sen ni hyakuen desu.",
+        "romajiChunks": [
+          "kashikomarimashita.",
+          "zenbu de",
+          "sen",
+          "ni",
+          "hyakuen desu."
+        ]
       },
       {
         "sp": "A",
@@ -5327,7 +6143,14 @@
             }
           ]
         ],
-        "romaji": "yamadasan wa kono mise ni nankai gurai kimasu ka."
+        "romaji": "yamadasan wa kono mise ni nankai gurai kimasu ka.",
+        "romajiChunks": [
+          "yamadasan wa",
+          "kono",
+          "mise ni",
+          "nankai gurai",
+          "kimasu ka."
+        ]
       },
       {
         "sp": "B",
@@ -5377,7 +6200,13 @@
             }
           ]
         ],
-        "romaji": "shuu ni nikai gurai kimasu. yasui desu kara."
+        "romaji": "shuu ni nikai gurai kimasu. yasui desu kara.",
+        "romajiChunks": [
+          "shuu ni",
+          "nikai gurai",
+          "kimasu.",
+          "yasui desu kara."
+        ]
       },
       {
         "sp": "A",
@@ -5423,7 +6252,13 @@
             }
           ]
         ],
-        "romaji": "watashi wa tsuki ni ichikai shika kimasen."
+        "romaji": "watashi wa tsuki ni ichikai shika kimasen.",
+        "romajiChunks": [
+          "watashi wa",
+          "tsuki ni",
+          "ichikai shika",
+          "kimasen."
+        ]
       },
       {
         "sp": "B",
@@ -5465,7 +6300,14 @@
             }
           ]
         ],
-        "romaji": "sou desu ka. dewa, mata onegai shimasu."
+        "romaji": "sou desu ka. dewa, mata onegai shimasu.",
+        "romajiChunks": [
+          "sou desu ka.",
+          "dewa,",
+          "mata",
+          "onegai",
+          "shimasu."
+        ]
       }
     ]
   },
@@ -5503,7 +6345,12 @@
             }
           ]
         ],
-        "romaji": "shuumatsu, doko e ikimashita ka."
+        "romaji": "shuumatsu, doko e ikimashita ka.",
+        "romajiChunks": [
+          "shuumatsu,",
+          "doko e",
+          "ikimashita ka."
+        ]
       },
       {
         "sp": "B",
@@ -5545,7 +6392,13 @@
             }
           ]
         ],
-        "romaji": "koube e ikimashita. umi ga kireideshita."
+        "romaji": "koube e ikimashita. umi ga kireideshita.",
+        "romajiChunks": [
+          "koube e",
+          "ikimashita.",
+          "umi ga",
+          "kireideshita."
+        ]
       },
       {
         "sp": "A",
@@ -5578,7 +6431,12 @@
             }
           ]
         ],
-        "romaji": "koube wa ousaka yori shizukadeshita ka."
+        "romaji": "koube wa ousaka yori shizukadeshita ka.",
+        "romajiChunks": [
+          "koube wa",
+          "ousaka yori",
+          "shizukadeshita ka."
+        ]
       },
       {
         "sp": "B",
@@ -5635,7 +6493,16 @@
             }
           ]
         ],
-        "romaji": "hai, sukoshi shizukadeshita. demo, eki no mae wa nigiyakadeshita."
+        "romaji": "hai, sukoshi shizukadeshita. demo, eki no mae wa nigiyakadeshita.",
+        "romajiChunks": [
+          "hai,",
+          "sukoshi",
+          "shizukadeshita.",
+          "demo,",
+          "eki no",
+          "mae wa",
+          "nigiyakadeshita."
+        ]
       },
       {
         "sp": "A",
@@ -5663,7 +6530,11 @@
             }
           ]
         ],
-        "romaji": "nande ikimashita ka."
+        "romaji": "nande ikimashita ka.",
+        "romajiChunks": [
+          "nande",
+          "ikimashita ka."
+        ]
       },
       {
         "sp": "B",
@@ -5705,7 +6576,13 @@
             }
           ]
         ],
-        "romaji": "basu de ikimashita. densha yori yasukata desu kara."
+        "romaji": "basu de ikimashita. densha yori yasukata desu kara.",
+        "romajiChunks": [
+          "basu de",
+          "ikimashita.",
+          "densha yori",
+          "yasukata desu kara."
+        ]
       },
       {
         "sp": "A",
@@ -5729,7 +6606,11 @@
             }
           ]
         ],
-        "romaji": "tabemono wa doudeshita ka."
+        "romaji": "tabemono wa doudeshita ka.",
+        "romajiChunks": [
+          "tabemono wa",
+          "doudeshita ka."
+        ]
       },
       {
         "sp": "B",
@@ -5776,7 +6657,14 @@
             }
           ]
         ],
-        "romaji": "pan ga oishikata desu. mise no hito mo shinsetsudeshita."
+        "romaji": "pan ga oishikata desu. mise no hito mo shinsetsudeshita.",
+        "romajiChunks": [
+          "pan ga",
+          "oishikata desu.",
+          "mise no",
+          "hito mo",
+          "shinsetsudeshita."
+        ]
       },
       {
         "sp": "A",
@@ -5832,7 +6720,15 @@
             }
           ]
         ],
-        "romaji": "watashi wa kyonen, kyouto e ikimashita. kyouto mo yokata desu."
+        "romaji": "watashi wa kyonen, kyouto e ikimashita. kyouto mo yokata desu.",
+        "romajiChunks": [
+          "watashi wa",
+          "kyonen,",
+          "kyouto e",
+          "ikimashita.",
+          "kyouto mo",
+          "yokata desu."
+        ]
       },
       {
         "sp": "B",
@@ -5857,7 +6753,12 @@
             }
           ]
         ],
-        "romaji": "doko ga ichiban yokata desu ka."
+        "romaji": "doko ga ichiban yokata desu ka.",
+        "romajiChunks": [
+          "doko ga",
+          "ichiban",
+          "yokata desu ka."
+        ]
       },
       {
         "sp": "A",
@@ -5917,7 +6818,16 @@
             }
           ]
         ],
-        "romaji": "chiisai otera ga ichiban sukideshita. niwa ga totemo kireideshita."
+        "romaji": "chiisai otera ga ichiban sukideshita. niwa ga totemo kireideshita.",
+        "romajiChunks": [
+          "chiisai",
+          "otera ga",
+          "ichiban",
+          "sukideshita.",
+          "niwa ga",
+          "totemo",
+          "kireideshita."
+        ]
       },
       {
         "sp": "B",
@@ -5952,7 +6862,13 @@
             }
           ]
         ],
-        "romaji": "ii desu ne. watashi mo kondo ikitai desu."
+        "romaji": "ii desu ne. watashi mo kondo ikitai desu.",
+        "romajiChunks": [
+          "ii desu ne.",
+          "watashi mo",
+          "kondo",
+          "ikitai desu."
+        ]
       }
     ]
   },
@@ -6012,7 +6928,14 @@
             }
           ]
         ],
-        "romaji": "mousugu tomodachi no tanjoubi desu ne. nani wo kaimasu ka."
+        "romaji": "mousugu tomodachi no tanjoubi desu ne. nani wo kaimasu ka.",
+        "romajiChunks": [
+          "mousugu",
+          "tomodachi no",
+          "tanjoubi desu ne.",
+          "nani wo",
+          "kaimasu ka."
+        ]
       },
       {
         "sp": "B",
@@ -6041,7 +6964,12 @@
             }
           ]
         ],
-        "romaji": "purezento ni, kaban wo kaitai desu."
+        "romaji": "purezento ni, kaban wo kaitai desu.",
+        "romajiChunks": [
+          "purezento ni,",
+          "kaban wo",
+          "kaitai desu."
+        ]
       },
       {
         "sp": "A",
@@ -6066,7 +6994,12 @@
             }
           ]
         ],
-        "romaji": "donna kaban ga hoshii desu ka."
+        "romaji": "donna kaban ga hoshii desu ka.",
+        "romajiChunks": [
+          "donna",
+          "kaban ga",
+          "hoshii desu ka."
+        ]
       },
       {
         "sp": "B",
@@ -6100,7 +7033,13 @@
             }
           ]
         ],
-        "romaji": "karuku te, joubuna kaban ga hoshii desu."
+        "romaji": "karuku te, joubuna kaban ga hoshii desu.",
+        "romajiChunks": [
+          "karuku te,",
+          "joubuna",
+          "kaban ga",
+          "hoshii desu."
+        ]
       },
       {
         "sp": "A",
@@ -6133,7 +7072,12 @@
             }
           ]
         ],
-        "romaji": "doko e kai ni ikimasu ka."
+        "romaji": "doko e kai ni ikimasu ka.",
+        "romajiChunks": [
+          "doko e",
+          "kai ni",
+          "ikimasu ka."
+        ]
       },
       {
         "sp": "B",
@@ -6180,7 +7124,14 @@
             }
           ]
         ],
-        "romaji": "depaato e ikimasu. kutsu mo mi ni ikitai desu."
+        "romaji": "depaato e ikimasu. kutsu mo mi ni ikitai desu.",
+        "romajiChunks": [
+          "depaato e",
+          "ikimasu.",
+          "kutsu mo",
+          "mi ni",
+          "ikitai desu."
+        ]
       },
       {
         "sp": "A",
@@ -6204,7 +7155,11 @@
             }
           ]
         ],
-        "romaji": "hitori de ikimasu ka."
+        "romaji": "hitori de ikimasu ka.",
+        "romajiChunks": [
+          "hitori de",
+          "ikimasu ka."
+        ]
       },
       {
         "sp": "B",
@@ -6264,7 +7219,15 @@
             }
           ]
         ],
-        "romaji": "iie, ane to ikimasu. ane wa kaimono ga jouzu desu kara."
+        "romaji": "iie, ane to ikimasu. ane wa kaimono ga jouzu desu kara.",
+        "romajiChunks": [
+          "iie,",
+          "ane to",
+          "ikimasu.",
+          "ane wa",
+          "kaimono ga",
+          "jouzu desu kara."
+        ]
       },
       {
         "sp": "A",
@@ -6302,7 +7265,13 @@
             }
           ]
         ],
-        "romaji": "watashi wa atarashii jisho ga hoshii desu."
+        "romaji": "watashi wa atarashii jisho ga hoshii desu.",
+        "romajiChunks": [
+          "watashi wa",
+          "atarashii",
+          "jisho ga",
+          "hoshii desu."
+        ]
       },
       {
         "sp": "B",
@@ -6349,7 +7318,14 @@
             }
           ]
         ],
-        "romaji": "ja, issho ni hon'ya e mi ni ikimasen ka."
+        "romaji": "ja, issho ni hon'ya e mi ni ikimasen ka.",
+        "romajiChunks": [
+          "ja,",
+          "issho ni",
+          "hon'ya e",
+          "mi ni",
+          "ikimasen ka."
+        ]
       },
       {
         "sp": "A",
@@ -6382,7 +7358,12 @@
             }
           ]
         ],
-        "romaji": "ii desu ne. doyoubi ni ikitai desu."
+        "romaji": "ii desu ne. doyoubi ni ikitai desu.",
+        "romajiChunks": [
+          "ii desu ne.",
+          "doyoubi ni",
+          "ikitai desu."
+        ]
       },
       {
         "sp": "B",
@@ -6428,7 +7409,13 @@
             }
           ]
         ],
-        "romaji": "dewa, juuji ni eki de aimashou."
+        "romaji": "dewa, juuji ni eki de aimashou.",
+        "romajiChunks": [
+          "dewa,",
+          "juuji ni",
+          "eki de",
+          "aimashou."
+        ]
       }
     ]
   },
@@ -6457,7 +7444,11 @@
             }
           ]
         ],
-        "romaji": "moshimoshi, yamadasan desu ka."
+        "romaji": "moshimoshi, yamadasan desu ka.",
+        "romajiChunks": [
+          "moshimoshi,",
+          "yamadasan desu ka."
+        ]
       },
       {
         "sp": "B",
@@ -6481,7 +7472,11 @@
             }
           ]
         ],
-        "romaji": "hai, yamada desu."
+        "romaji": "hai, yamada desu.",
+        "romajiChunks": [
+          "hai,",
+          "yamada desu."
+        ]
       },
       {
         "sp": "A",
@@ -6510,7 +7505,12 @@
             }
           ]
         ],
-        "romaji": "ima nani wo shi teimasu ka."
+        "romaji": "ima nani wo shi teimasu ka.",
+        "romajiChunks": [
+          "ima",
+          "nani wo",
+          "shi teimasu ka."
+        ]
       },
       {
         "sp": "B",
@@ -6557,7 +7557,14 @@
             }
           ]
         ],
-        "romaji": "ima kaisha de kaigi no memo wo yon deimasu."
+        "romaji": "ima kaisha de kaigi no memo wo yon deimasu.",
+        "romajiChunks": [
+          "ima",
+          "kaisha de",
+          "kaigi no",
+          "memo wo",
+          "yon deimasu."
+        ]
       },
       {
         "sp": "A",
@@ -6593,7 +7600,14 @@
             }
           ]
         ],
-        "romaji": "sou desu ka. dewa, ato de denwa shi tekudasai."
+        "romaji": "sou desu ka. dewa, ato de denwa shi tekudasai.",
+        "romajiChunks": [
+          "sou desu ka.",
+          "dewa,",
+          "ato de",
+          "denwa",
+          "shi tekudasai."
+        ]
       },
       {
         "sp": "B",
@@ -6632,7 +7646,13 @@
             }
           ]
         ],
-        "romaji": "hai, juu nijigoro kakemasu."
+        "romaji": "hai, juu nijigoro kakemasu.",
+        "romajiChunks": [
+          "hai,",
+          "juu",
+          "nijigoro",
+          "kakemasu."
+        ]
       },
       {
         "sp": "A",
@@ -6670,7 +7690,13 @@
             }
           ]
         ],
-        "romaji": "arigatougozaimasu. ashita no shiryou wo mo teimasu ka."
+        "romaji": "arigatougozaimasu. ashita no shiryou wo mo teimasu ka.",
+        "romajiChunks": [
+          "arigatougozaimasu.",
+          "ashita no",
+          "shiryou wo",
+          "mo teimasu ka."
+        ]
       },
       {
         "sp": "B",
@@ -6704,7 +7730,13 @@
             }
           ]
         ],
-        "romaji": "hai, mo teimasu. kopii shi tearimasu."
+        "romaji": "hai, mo teimasu. kopii shi tearimasu.",
+        "romajiChunks": [
+          "hai,",
+          "mo teimasu.",
+          "kopii",
+          "shi tearimasu."
+        ]
       },
       {
         "sp": "A",
@@ -6747,7 +7779,14 @@
             }
           ]
         ],
-        "romaji": "sumimasen, sono shiryou wo meeru de oku tekudasai."
+        "romaji": "sumimasen, sono shiryou wo meeru de oku tekudasai.",
+        "romajiChunks": [
+          "sumimasen,",
+          "sono",
+          "shiryou wo",
+          "meeru de",
+          "oku tekudasai."
+        ]
       },
       {
         "sp": "B",
@@ -6780,7 +7819,12 @@
             }
           ]
         ],
-        "romaji": "wakarimashita. hiruyasumi ni okurimasu."
+        "romaji": "wakarimashita. hiruyasumi ni okurimasu.",
+        "romajiChunks": [
+          "wakarimashita.",
+          "hiruyasumi ni",
+          "okurimasu."
+        ]
       },
       {
         "sp": "A",
@@ -6826,7 +7870,13 @@
             }
           ]
         ],
-        "romaji": "tasukarimasu. watashi wa kaigishitsu de ma teimasu."
+        "romaji": "tasukarimasu. watashi wa kaigishitsu de ma teimasu.",
+        "romajiChunks": [
+          "tasukarimasu.",
+          "watashi wa",
+          "kaigishitsu de",
+          "ma teimasu."
+        ]
       },
       {
         "sp": "B",
@@ -6857,7 +7907,13 @@
             }
           ]
         ],
-        "romaji": "dewa, sugu youi shi teokimasu."
+        "romaji": "dewa, sugu youi shi teokimasu.",
+        "romajiChunks": [
+          "dewa,",
+          "sugu",
+          "youi",
+          "shi teokimasu."
+        ]
       }
     ]
   },
@@ -6909,7 +7965,14 @@
             }
           ]
         ],
-        "romaji": "sumimasen, kono toshokan de shashin wo to te moii desu ka."
+        "romaji": "sumimasen, kono toshokan de shashin wo to te moii desu ka.",
+        "romajiChunks": [
+          "sumimasen,",
+          "kono",
+          "toshokan de",
+          "shashin wo",
+          "to te moii desu ka."
+        ]
       },
       {
         "sp": "B",
@@ -6942,7 +8005,12 @@
             }
           ]
         ],
-        "romaji": "iie, naka de wa to te waikemasen."
+        "romaji": "iie, naka de wa to te waikemasen.",
+        "romajiChunks": [
+          "iie,",
+          "naka de wa",
+          "to te waikemasen."
+        ]
       },
       {
         "sp": "A",
@@ -6975,7 +8043,12 @@
             }
           ]
         ],
-        "romaji": "dewa, nomimono wo non de moii desu ka."
+        "romaji": "dewa, nomimono wo non de moii desu ka.",
+        "romajiChunks": [
+          "dewa,",
+          "nomimono wo",
+          "non de moii desu ka."
+        ]
       },
       {
         "sp": "B",
@@ -7021,7 +8094,13 @@
             }
           ]
         ],
-        "romaji": "mizu dakenara, iriguchi no chikaku de non de moii desu."
+        "romaji": "mizu dakenara, iriguchi no chikaku de non de moii desu.",
+        "romajiChunks": [
+          "mizu dakenara,",
+          "iriguchi no",
+          "chikaku de",
+          "non de moii desu."
+        ]
       },
       {
         "sp": "A",
@@ -7045,7 +8124,11 @@
             }
           ]
         ],
-        "romaji": "pasokon wo tsuka te moii desu ka."
+        "romaji": "pasokon wo tsuka te moii desu ka.",
+        "romajiChunks": [
+          "pasokon wo",
+          "tsuka te moii desu ka."
+        ]
       },
       {
         "sp": "B",
@@ -7091,7 +8174,13 @@
             }
           ]
         ],
-        "romaji": "hai, nikai no seki de tsukaemasu."
+        "romaji": "hai, nikai no seki de tsukaemasu.",
+        "romajiChunks": [
+          "hai,",
+          "nikai no",
+          "seki de",
+          "tsukaemasu."
+        ]
       },
       {
         "sp": "A",
@@ -7132,7 +8221,12 @@
             }
           ]
         ],
-        "romaji": "hon wa nansatsu made kari te moii desu ka."
+        "romaji": "hon wa nansatsu made kari te moii desu ka.",
+        "romajiChunks": [
+          "hon wa",
+          "nansatsu made",
+          "kari te moii desu ka."
+        ]
       },
       {
         "sp": "B",
@@ -7178,7 +8272,13 @@
             }
           ]
         ],
-        "romaji": "gosatsu made desu. demo, zasshi wa kari te waikemasen."
+        "romaji": "gosatsu made desu. demo, zasshi wa kari te waikemasen.",
+        "romajiChunks": [
+          "gosatsu made desu.",
+          "demo,",
+          "zasshi wa",
+          "kari te waikemasen."
+        ]
       },
       {
         "sp": "A",
@@ -7209,7 +8309,11 @@
             }
           ]
         ],
-        "romaji": "kaesuhi wa itsu desu ka."
+        "romaji": "kaesuhi wa itsu desu ka.",
+        "romajiChunks": [
+          "kaesuhi wa",
+          "itsu desu ka."
+        ]
       },
       {
         "sp": "B",
@@ -7253,7 +8357,14 @@
             }
           ]
         ],
-        "romaji": "nishuukan ato desu. osoitoki wa, denwa wo kudasai."
+        "romaji": "nishuukan ato desu. osoitoki wa, denwa wo kudasai.",
+        "romajiChunks": [
+          "nishuukan",
+          "ato desu.",
+          "osoitoki wa,",
+          "denwa wo",
+          "kudasai."
+        ]
       },
       {
         "sp": "A",
@@ -7289,7 +8400,12 @@
             }
           ]
         ],
-        "romaji": "ima, kopiiki wa tsukaemasu ka."
+        "romaji": "ima, kopiiki wa tsukaemasu ka.",
+        "romajiChunks": [
+          "ima,",
+          "kopiiki wa",
+          "tsukaemasu ka."
+        ]
       },
       {
         "sp": "B",
@@ -7328,7 +8444,14 @@
             }
           ]
         ],
-        "romaji": "hai, tsukaemasu. achira wa mou ai teimasu."
+        "romaji": "hai, tsukaemasu. achira wa mou ai teimasu.",
+        "romajiChunks": [
+          "hai,",
+          "tsukaemasu.",
+          "achira wa",
+          "mou",
+          "ai teimasu."
+        ]
       }
     ]
   },
@@ -7375,7 +8498,13 @@
             }
           ]
         ],
-        "romaji": "ashita no haikingu, nanji ni dekakemasu ka."
+        "romaji": "ashita no haikingu, nanji ni dekakemasu ka.",
+        "romajiChunks": [
+          "ashita no",
+          "haikingu,",
+          "nanji ni",
+          "dekakemasu ka."
+        ]
       },
       {
         "sp": "B",
@@ -7438,7 +8567,14 @@
             }
           ]
         ],
-        "romaji": "rokuji ni oki te, nanaji ni eki e ikimasu."
+        "romaji": "rokuji ni oki te, nanaji ni eki e ikimasu.",
+        "romajiChunks": [
+          "rokuji ni",
+          "oki te,",
+          "nanaji ni",
+          "eki e",
+          "ikimasu."
+        ]
       },
       {
         "sp": "A",
@@ -7477,7 +8613,13 @@
             }
           ]
         ],
-        "romaji": "asa gohan wo tabe te kara ikimasu ka."
+        "romaji": "asa gohan wo tabe te kara ikimasu ka.",
+        "romajiChunks": [
+          "asa",
+          "gohan wo",
+          "tabe te kara",
+          "ikimasu ka."
+        ]
       },
       {
         "sp": "B",
@@ -7515,7 +8657,13 @@
             }
           ]
         ],
-        "romaji": "hai, pan wo tabe te kara ikimasu."
+        "romaji": "hai, pan wo tabe te kara ikimasu.",
+        "romajiChunks": [
+          "hai,",
+          "pan wo",
+          "tabe te kara",
+          "ikimasu."
+        ]
       },
       {
         "sp": "A",
@@ -7546,7 +8694,13 @@
             }
           ]
         ],
-        "romaji": "hiru gohan wa dou shimasu ka."
+        "romaji": "hiru gohan wa dou shimasu ka.",
+        "romajiChunks": [
+          "hiru",
+          "gohan wa",
+          "dou",
+          "shimasu ka."
+        ]
       },
       {
         "sp": "B",
@@ -7586,7 +8740,12 @@
             }
           ]
         ],
-        "romaji": "onigiri wo tsuku te, mo teikimasu."
+        "romaji": "onigiri wo tsuku te, mo teikimasu.",
+        "romajiChunks": [
+          "onigiri wo",
+          "tsuku te,",
+          "mo teikimasu."
+        ]
       },
       {
         "sp": "A",
@@ -7624,7 +8783,13 @@
             }
           ]
         ],
-        "romaji": "ii desu ne. yama wa mada samui desu ka."
+        "romaji": "ii desu ne. yama wa mada samui desu ka.",
+        "romajiChunks": [
+          "ii desu ne.",
+          "yama wa",
+          "mada",
+          "samui desu ka."
+        ]
       },
       {
         "sp": "B",
@@ -7676,7 +8841,15 @@
             }
           ]
         ],
-        "romaji": "ee, asa wa samui desu. demo, hiru wa atatakai desu."
+        "romaji": "ee, asa wa samui desu. demo, hiru wa atatakai desu.",
+        "romajiChunks": [
+          "ee,",
+          "asa wa",
+          "samui desu.",
+          "demo,",
+          "hiru wa",
+          "atatakai desu."
+        ]
       },
       {
         "sp": "A",
@@ -7709,7 +8882,12 @@
             }
           ]
         ],
-        "romaji": "ja, uwagi wo ki teikimasu."
+        "romaji": "ja, uwagi wo ki teikimasu.",
+        "romajiChunks": [
+          "ja,",
+          "uwagi wo",
+          "ki teikimasu."
+        ]
       },
       {
         "sp": "B",
@@ -7742,7 +8920,12 @@
             }
           ]
         ],
-        "romaji": "sorekara, mizu wo ka teokimashou."
+        "romaji": "sorekara, mizu wo ka teokimashou.",
+        "romajiChunks": [
+          "sorekara,",
+          "mizu wo",
+          "ka teokimashou."
+        ]
       },
       {
         "sp": "A",
@@ -7789,7 +8972,14 @@
             }
           ]
         ],
-        "romaji": "wakarimashita. eki de a te kara, basu ni norimashou."
+        "romaji": "wakarimashita. eki de a te kara, basu ni norimashou.",
+        "romajiChunks": [
+          "wakarimashita.",
+          "eki de",
+          "a te kara,",
+          "basu ni",
+          "norimashou."
+        ]
       },
       {
         "sp": "B",
@@ -7818,7 +9008,12 @@
             }
           ]
         ],
-        "romaji": "hai. tenki mo yosasou desu."
+        "romaji": "hai. tenki mo yosasou desu.",
+        "romajiChunks": [
+          "hai.",
+          "tenki mo",
+          "yosasou desu."
+        ]
       }
     ]
   },
@@ -7860,7 +9055,12 @@
             }
           ]
         ],
-        "romaji": "saikin, sukoshi futorimashita."
+        "romaji": "saikin, sukoshi futorimashita.",
+        "romajiChunks": [
+          "saikin,",
+          "sukoshi",
+          "futorimashita."
+        ]
       },
       {
         "sp": "B",
@@ -7907,7 +9107,14 @@
             }
           ]
         ],
-        "romaji": "ja, yoru osoku okashi wo tabenai dekudasai."
+        "romaji": "ja, yoru osoku okashi wo tabenai dekudasai.",
+        "romajiChunks": [
+          "ja,",
+          "yoru",
+          "osoku",
+          "okashi wo",
+          "tabenai dekudasai."
+        ]
       },
       {
         "sp": "A",
@@ -7941,7 +9148,13 @@
             }
           ]
         ],
-        "romaji": "hai. demo, shigoto ga isogashii desu."
+        "romaji": "hai. demo, shigoto ga isogashii desu.",
+        "romajiChunks": [
+          "hai.",
+          "demo,",
+          "shigoto ga",
+          "isogashii desu."
+        ]
       },
       {
         "sp": "B",
@@ -7982,7 +9195,14 @@
             }
           ]
         ],
-        "romaji": "demo, mainichi sukoshi undou shinakere banarimasen."
+        "romaji": "demo, mainichi sukoshi undou shinakere banarimasen.",
+        "romajiChunks": [
+          "demo,",
+          "mainichi",
+          "sukoshi",
+          "undou",
+          "shinakere banarimasen."
+        ]
       },
       {
         "sp": "A",
@@ -8006,7 +9226,11 @@
             }
           ]
         ],
-        "romaji": "jimu e ikanaku te moii desu ka."
+        "romaji": "jimu e ikanaku te moii desu ka.",
+        "romajiChunks": [
+          "jimu e",
+          "ikanaku te moii desu ka."
+        ]
       },
       {
         "sp": "B",
@@ -8049,7 +9273,14 @@
             }
           ]
         ],
-        "romaji": "hai, uchi de arui te moii desu. kantanna taisou de moii desu."
+        "romaji": "hai, uchi de arui te moii desu. kantanna taisou de moii desu.",
+        "romajiChunks": [
+          "hai,",
+          "uchi de",
+          "arui te moii desu.",
+          "kantanna",
+          "taisou de moii desu."
+        ]
       },
       {
         "sp": "A",
@@ -8073,7 +9304,11 @@
             }
           ]
         ],
-        "romaji": "kouhii wa non de moii desu ka."
+        "romaji": "kouhii wa non de moii desu ka.",
+        "romajiChunks": [
+          "kouhii wa",
+          "non de moii desu ka."
+        ]
       },
       {
         "sp": "B",
@@ -8118,7 +9353,12 @@
             }
           ]
         ],
-        "romaji": "ichinichi ni ichihainara, non de moii desu."
+        "romaji": "ichinichi ni ichihainara, non de moii desu.",
+        "romajiChunks": [
+          "ichinichi ni",
+          "ichihainara,",
+          "non de moii desu."
+        ]
       },
       {
         "sp": "A",
@@ -8148,7 +9388,12 @@
             }
           ]
         ],
-        "romaji": "asa gohan wa tabenaku te moii desu ka."
+        "romaji": "asa gohan wa tabenaku te moii desu ka.",
+        "romajiChunks": [
+          "asa",
+          "gohan wa",
+          "tabenaku te moii desu ka."
+        ]
       },
       {
         "sp": "B",
@@ -8190,7 +9435,13 @@
             }
           ]
         ],
-        "romaji": "iie, tabenakere banarimasen. sukoshi demo tabe tekudasai."
+        "romaji": "iie, tabenakere banarimasen. sukoshi demo tabe tekudasai.",
+        "romajiChunks": [
+          "iie,",
+          "tabenakere banarimasen.",
+          "sukoshi demo",
+          "tabe tekudasai."
+        ]
       },
       {
         "sp": "A",
@@ -8232,7 +9483,13 @@
             }
           ]
         ],
-        "romaji": "wakarimashita. konshuu kara hayaku nemasu."
+        "romaji": "wakarimashita. konshuu kara hayaku nemasu.",
+        "romajiChunks": [
+          "wakarimashita.",
+          "konshuu kara",
+          "hayaku",
+          "nemasu."
+        ]
       },
       {
         "sp": "B",
@@ -8266,7 +9523,13 @@
             }
           ]
         ],
-        "romaji": "sore ga ii desu ne. muri wo shinai dekudasai."
+        "romaji": "sore ga ii desu ne. muri wo shinai dekudasai.",
+        "romajiChunks": [
+          "sore ga",
+          "ii desu ne.",
+          "muri wo",
+          "shinai dekudasai."
+        ]
       }
     ]
   },
@@ -8313,7 +9576,13 @@
             }
           ]
         ],
-        "romaji": "kimurasan wa ryouri wo surukoto ga suki desu ka."
+        "romaji": "kimurasan wa ryouri wo surukoto ga suki desu ka.",
+        "romajiChunks": [
+          "kimurasan wa",
+          "ryouri wo",
+          "surukoto ga",
+          "suki desu ka."
+        ]
       },
       {
         "sp": "B",
@@ -8365,7 +9634,15 @@
             }
           ]
         ],
-        "romaji": "hai, suki desu. tokuni pan wo yakukoto ga suki desu."
+        "romaji": "hai, suki desu. tokuni pan wo yakukoto ga suki desu.",
+        "romajiChunks": [
+          "hai,",
+          "suki desu.",
+          "tokuni",
+          "pan wo",
+          "yakukoto ga",
+          "suki desu."
+        ]
       },
       {
         "sp": "A",
@@ -8399,7 +9676,13 @@
             }
           ]
         ],
-        "romaji": "hee, uchi de pan ga tsukuremasu ka."
+        "romaji": "hee, uchi de pan ga tsukuremasu ka.",
+        "romajiChunks": [
+          "hee,",
+          "uchi de",
+          "pan ga",
+          "tsukuremasu ka."
+        ]
       },
       {
         "sp": "B",
@@ -8433,7 +9716,13 @@
             }
           ]
         ],
-        "romaji": "hai, kantanna pannara tsukuremasu."
+        "romaji": "hai, kantanna pannara tsukuremasu.",
+        "romajiChunks": [
+          "hai,",
+          "kantanna",
+          "pannara",
+          "tsukuremasu."
+        ]
       },
       {
         "sp": "A",
@@ -8471,7 +9760,13 @@
             }
           ]
         ],
-        "romaji": "watashi wa mada jouzu ni tsukuremasen."
+        "romaji": "watashi wa mada jouzu ni tsukuremasen.",
+        "romajiChunks": [
+          "watashi wa",
+          "mada",
+          "jouzu ni",
+          "tsukuremasen."
+        ]
       },
       {
         "sp": "B",
@@ -8519,7 +9814,15 @@
             }
           ]
         ],
-        "romaji": "pan wo tsukuru mae ni, reshipi wo yoku yomimasu ka."
+        "romaji": "pan wo tsukuru mae ni, reshipi wo yoku yomimasu ka.",
+        "romajiChunks": [
+          "pan wo",
+          "tsukuru",
+          "mae ni,",
+          "reshipi wo",
+          "yoku",
+          "yomimasu ka."
+        ]
       },
       {
         "sp": "A",
@@ -8558,7 +9861,14 @@
             }
           ]
         ],
-        "romaji": "iie, amari yomimasen. sore ga dame desu ne."
+        "romaji": "iie, amari yomimasen. sore ga dame desu ne.",
+        "romajiChunks": [
+          "iie,",
+          "amari",
+          "yomimasen.",
+          "sore ga",
+          "dame desu ne."
+        ]
       },
       {
         "sp": "B",
@@ -8593,7 +9903,13 @@
             }
           ]
         ],
-        "romaji": "ja, kondo issho ni tsukurimasen ka."
+        "romaji": "ja, kondo issho ni tsukurimasen ka.",
+        "romajiChunks": [
+          "ja,",
+          "kondo",
+          "issho ni",
+          "tsukurimasen ka."
+        ]
       },
       {
         "sp": "A",
@@ -8633,7 +9949,12 @@
             }
           ]
         ],
-        "romaji": "zehi. nani wo mo teike baii desu ka."
+        "romaji": "zehi. nani wo mo teike baii desu ka.",
+        "romajiChunks": [
+          "zehi.",
+          "nani wo",
+          "mo teike baii desu ka."
+        ]
       },
       {
         "sp": "B",
@@ -8676,7 +9997,14 @@
             }
           ]
         ],
-        "romaji": "epuron wo mo teki tekudasai. hajime ni zairyou wo hakarimasu."
+        "romaji": "epuron wo mo teki tekudasai. hajime ni zairyou wo hakarimasu.",
+        "romajiChunks": [
+          "epuron wo",
+          "mo teki tekudasai.",
+          "hajime ni",
+          "zairyou wo",
+          "hakarimasu."
+        ]
       },
       {
         "sp": "A",
@@ -8711,7 +10039,13 @@
             }
           ]
         ],
-        "romaji": "oubun no tsukaikata mo benkyou shitai desu."
+        "romaji": "oubun no tsukaikata mo benkyou shitai desu.",
+        "romajiChunks": [
+          "oubun no",
+          "tsukaikata mo",
+          "benkyou",
+          "shitai desu."
+        ]
       },
       {
         "sp": "B",
@@ -8745,7 +10079,13 @@
             }
           ]
         ],
-        "romaji": "ja, sonokoto mo yukkuri oshiemasu."
+        "romaji": "ja, sonokoto mo yukkuri oshiemasu.",
+        "romajiChunks": [
+          "ja,",
+          "sonokoto mo",
+          "yukkuri",
+          "oshiemasu."
+        ]
       }
     ]
   },
@@ -8783,7 +10123,12 @@
             }
           ]
         ],
-        "romaji": "hokkaidou e itakoto ga arimasu ka."
+        "romaji": "hokkaidou e itakoto ga arimasu ka.",
+        "romajiChunks": [
+          "hokkaidou e",
+          "itakoto ga",
+          "arimasu ka."
+        ]
       },
       {
         "sp": "B",
@@ -8834,7 +10179,14 @@
             }
           ]
         ],
-        "romaji": "hai, ichido dake arimasu. fuyu ni ikimashita."
+        "romaji": "hai, ichido dake arimasu. fuyu ni ikimashita.",
+        "romajiChunks": [
+          "hai,",
+          "ichido dake",
+          "arimasu.",
+          "fuyu ni",
+          "ikimashita."
+        ]
       },
       {
         "sp": "A",
@@ -8858,7 +10210,11 @@
             }
           ]
         ],
-        "romaji": "nani wo shimashita ka."
+        "romaji": "nani wo shimashita ka.",
+        "romajiChunks": [
+          "nani wo",
+          "shimashita ka."
+        ]
       },
       {
         "sp": "B",
@@ -8901,7 +10257,14 @@
             }
           ]
         ],
-        "romaji": "sukii wo shi tari, onsen ni hai tari shimashita."
+        "romaji": "sukii wo shi tari, onsen ni hai tari shimashita.",
+        "romajiChunks": [
+          "sukii wo",
+          "shi tari,",
+          "onsen ni",
+          "hai tari",
+          "shimashita."
+        ]
       },
       {
         "sp": "A",
@@ -8930,7 +10293,12 @@
             }
           ]
         ],
-        "romaji": "ii desu ne. yuki wa doudeshita ka."
+        "romaji": "ii desu ne. yuki wa doudeshita ka.",
+        "romajiChunks": [
+          "ii desu ne.",
+          "yuki wa",
+          "doudeshita ka."
+        ]
       },
       {
         "sp": "B",
@@ -8982,7 +10350,15 @@
             }
           ]
         ],
-        "romaji": "totemo shiroku te, kireideshita. machi mo shizuka ni narimashita."
+        "romaji": "totemo shiroku te, kireideshita. machi mo shizuka ni narimashita.",
+        "romajiChunks": [
+          "totemo",
+          "shiroku te,",
+          "kireideshita.",
+          "machi mo",
+          "shizuka ni",
+          "narimashita."
+        ]
       },
       {
         "sp": "A",
@@ -9025,7 +10401,14 @@
             }
           ]
         ],
-        "romaji": "watashi wa mada hokkaidou e itakoto ga arimasen."
+        "romaji": "watashi wa mada hokkaidou e itakoto ga arimasen.",
+        "romajiChunks": [
+          "watashi wa",
+          "mada",
+          "hokkaidou e",
+          "itakoto ga",
+          "arimasen."
+        ]
       },
       {
         "sp": "B",
@@ -9059,7 +10442,13 @@
             }
           ]
         ],
-        "romaji": "ja, itsuka issho ni ikimashou."
+        "romaji": "ja, itsuka issho ni ikimashou.",
+        "romajiChunks": [
+          "ja,",
+          "itsuka",
+          "issho ni",
+          "ikimashou."
+        ]
       },
       {
         "sp": "A",
@@ -9115,7 +10504,15 @@
             }
           ]
         ],
-        "romaji": "hai. saikin, ryokou ga mae yori suki ni narimashita."
+        "romaji": "hai. saikin, ryokou ga mae yori suki ni narimashita.",
+        "romajiChunks": [
+          "hai.",
+          "saikin,",
+          "ryokou ga",
+          "mae yori",
+          "suki ni",
+          "narimashita."
+        ]
       },
       {
         "sp": "B",
@@ -9130,7 +10527,10 @@
             }
           ]
         ],
-        "romaji": "doushite desu ka."
+        "romaji": "doushite desu ka.",
+        "romajiChunks": [
+          "doushite desu ka."
+        ]
       },
       {
         "sp": "A",
@@ -9189,7 +10589,15 @@
             }
           ]
         ],
-        "romaji": "iroirona hito ni a tari, oishiimono wo tabe tari dekimasu kara."
+        "romaji": "iroirona hito ni a tari, oishiimono wo tabe tari dekimasu kara.",
+        "romajiChunks": [
+          "iroirona",
+          "hito ni",
+          "a tari,",
+          "oishiimono wo",
+          "tabe tari",
+          "dekimasu kara."
+        ]
       },
       {
         "sp": "B",
@@ -9218,7 +10626,12 @@
             }
           ]
         ],
-        "romaji": "sore wa ii henka desu ne."
+        "romaji": "sore wa ii henka desu ne.",
+        "romajiChunks": [
+          "sore wa",
+          "ii",
+          "henka desu ne."
+        ]
       }
     ]
   },
@@ -9249,7 +10662,12 @@
             }
           ]
         ],
-        "romaji": "nee, konban hima?"
+        "romaji": "nee, konban hima?",
+        "romajiChunks": [
+          "nee,",
+          "konban",
+          "hima?"
+        ]
       },
       {
         "sp": "B",
@@ -9279,7 +10697,13 @@
             }
           ]
         ],
-        "romaji": "un, hima da yo. dou shita no?"
+        "romaji": "un, hima da yo. dou shita no?",
+        "romajiChunks": [
+          "un,",
+          "hima da yo.",
+          "dou",
+          "shita no?"
+        ]
       },
       {
         "sp": "A",
@@ -9322,7 +10746,14 @@
             }
           ]
         ],
-        "romaji": "atarashii kafye ga dekitan da. issho ni ikanai?"
+        "romaji": "atarashii kafye ga dekitan da. issho ni ikanai?",
+        "romajiChunks": [
+          "atarashii",
+          "kafye ga",
+          "dekitan da.",
+          "issho ni",
+          "ikanai?"
+        ]
       },
       {
         "sp": "B",
@@ -9364,7 +10795,13 @@
             }
           ]
         ],
-        "romaji": "ii ne. eki no chikaku no mise?"
+        "romaji": "ii ne. eki no chikaku no mise?",
+        "romajiChunks": [
+          "ii ne.",
+          "eki no",
+          "chikaku no",
+          "mise?"
+        ]
       },
       {
         "sp": "A",
@@ -9403,7 +10840,14 @@
             }
           ]
         ],
-        "romaji": "sou sou. kouhii mo keeki mo yasuirashii yo."
+        "romaji": "sou sou. kouhii mo keeki mo yasuirashii yo.",
+        "romajiChunks": [
+          "sou",
+          "sou.",
+          "kouhii mo",
+          "keeki mo",
+          "yasuirashii yo."
+        ]
       },
       {
         "sp": "B",
@@ -9440,7 +10884,12 @@
             }
           ]
         ],
-        "romaji": "hee, nanji ni iku?"
+        "romaji": "hee, nanji ni iku?",
+        "romajiChunks": [
+          "hee,",
+          "nanji ni",
+          "iku?"
+        ]
       },
       {
         "sp": "A",
@@ -9468,7 +10917,11 @@
             }
           ]
         ],
-        "romaji": "nanaji wa dou?"
+        "romaji": "nanaji wa dou?",
+        "romajiChunks": [
+          "nanaji wa",
+          "dou?"
+        ]
       },
       {
         "sp": "B",
@@ -9514,7 +10967,13 @@
             }
           ]
         ],
-        "romaji": "daijoubu. shigoto wa rokuji ni owaru."
+        "romaji": "daijoubu. shigoto wa rokuji ni owaru.",
+        "romajiChunks": [
+          "daijoubu.",
+          "shigoto wa",
+          "rokuji ni",
+          "owaru."
+        ]
       },
       {
         "sp": "A",
@@ -9547,7 +11006,12 @@
             }
           ]
         ],
-        "romaji": "ja, ekimae de materu ne."
+        "romaji": "ja, ekimae de materu ne.",
+        "romajiChunks": [
+          "ja,",
+          "ekimae de",
+          "materu ne."
+        ]
       },
       {
         "sp": "B",
@@ -9590,7 +11054,14 @@
             }
           ]
         ],
-        "romaji": "wakata. saki ni tsuitara, messeeji suru yo."
+        "romaji": "wakata. saki ni tsuitara, messeeji suru yo.",
+        "romajiChunks": [
+          "wakata.",
+          "saki ni",
+          "tsuitara,",
+          "messeeji",
+          "suru yo."
+        ]
       },
       {
         "sp": "A",
@@ -9638,7 +11109,15 @@
             }
           ]
         ],
-        "romaji": "arigatou. boku, onaka suita kara, hayaku ikitai."
+        "romaji": "arigatou. boku, onaka suita kara, hayaku ikitai.",
+        "romajiChunks": [
+          "arigatou.",
+          "boku,",
+          "onaka",
+          "suita kara,",
+          "hayaku",
+          "ikitai."
+        ]
       },
       {
         "sp": "B",
@@ -9681,7 +11160,14 @@
             }
           ]
         ],
-        "romaji": "a wa wa. ja, kyou wa takusan tabeyou."
+        "romaji": "a wa wa. ja, kyou wa takusan tabeyou.",
+        "romajiChunks": [
+          "a wa wa.",
+          "ja,",
+          "kyou wa",
+          "takusan",
+          "tabeyou."
+        ]
       }
     ]
   },
@@ -9724,7 +11210,13 @@
             }
           ]
         ],
-        "romaji": "ashita no tenki, dou omoimasu ka."
+        "romaji": "ashita no tenki, dou omoimasu ka.",
+        "romajiChunks": [
+          "ashita no",
+          "tenki,",
+          "dou",
+          "omoimasu ka."
+        ]
       },
       {
         "sp": "B",
@@ -9770,7 +11262,13 @@
             }
           ]
         ],
-        "romaji": "ame ga furu to omoimasu. sora ga kurai desu kara."
+        "romaji": "ame ga furu to omoimasu. sora ga kurai desu kara.",
+        "romajiChunks": [
+          "ame ga",
+          "furu to",
+          "omoimasu.",
+          "sora ga kurai desu kara."
+        ]
       },
       {
         "sp": "A",
@@ -9817,7 +11315,14 @@
             }
           ]
         ],
-        "romaji": "sou desu ka. sensei wa gogo ni wa yamu to iimashita."
+        "romaji": "sou desu ka. sensei wa gogo ni wa yamu to iimashita.",
+        "romajiChunks": [
+          "sou desu ka.",
+          "sensei wa",
+          "gogo ni wa",
+          "yamu to",
+          "iimashita."
+        ]
       },
       {
         "sp": "B",
@@ -9855,7 +11360,13 @@
             }
           ]
         ],
-        "romaji": "ja, yoru wa sukoshi suzushii deshou ne."
+        "romaji": "ja, yoru wa sukoshi suzushii deshou ne.",
+        "romajiChunks": [
+          "ja,",
+          "yoru wa",
+          "sukoshi",
+          "suzushii deshou ne."
+        ]
       },
       {
         "sp": "A",
@@ -9914,7 +11425,15 @@
             }
           ]
         ],
-        "romaji": "hai. dakara, uwagi wo mo teitahou ga ii to omoimasu."
+        "romaji": "hai. dakara, uwagi wo mo teitahou ga ii to omoimasu.",
+        "romajiChunks": [
+          "hai.",
+          "dakara,",
+          "uwagi wo",
+          "mo teitahou ga",
+          "ii to",
+          "omoimasu."
+        ]
       },
       {
         "sp": "B",
@@ -9966,7 +11485,15 @@
             }
           ]
         ],
-        "romaji": "watashi mo sou omoimasu. yamanoue wa motto samui deshou."
+        "romaji": "watashi mo sou omoimasu. yamanoue wa motto samui deshou.",
+        "romajiChunks": [
+          "watashi mo",
+          "sou",
+          "omoimasu.",
+          "yamanoue wa",
+          "motto",
+          "samui deshou."
+        ]
       },
       {
         "sp": "A",
@@ -10008,7 +11535,13 @@
             }
           ]
         ],
-        "romaji": "tanakasan wa basu de iku to iimashita ka."
+        "romaji": "tanakasan wa basu de iku to iimashita ka.",
+        "romajiChunks": [
+          "tanakasan wa",
+          "basu de",
+          "iku to",
+          "iimashita ka."
+        ]
       },
       {
         "sp": "B",
@@ -10050,7 +11583,13 @@
             }
           ]
         ],
-        "romaji": "iie, densha de iku to iimashita."
+        "romaji": "iie, densha de iku to iimashita.",
+        "romajiChunks": [
+          "iie,",
+          "densha de",
+          "iku to",
+          "iimashita."
+        ]
       },
       {
         "sp": "A",
@@ -10083,7 +11622,12 @@
             }
           ]
         ],
-        "romaji": "ja, eki de aeru deshou."
+        "romaji": "ja, eki de aeru deshou.",
+        "romajiChunks": [
+          "ja,",
+          "eki de",
+          "aeru deshou."
+        ]
       },
       {
         "sp": "B",
@@ -10139,7 +11683,15 @@
             }
           ]
         ],
-        "romaji": "tabun aeru to omoimasu. demo, hito ga oui deshou ne."
+        "romaji": "tabun aeru to omoimasu. demo, hito ga oui deshou ne.",
+        "romajiChunks": [
+          "tabun",
+          "aeru to",
+          "omoimasu.",
+          "demo,",
+          "hito ga",
+          "oui deshou ne."
+        ]
       },
       {
         "sp": "A",
@@ -10195,7 +11747,15 @@
             }
           ]
         ],
-        "romaji": "soudesune. sukoshi hayaku detahou ga ii to omoimasu."
+        "romaji": "soudesune. sukoshi hayaku detahou ga ii to omoimasu.",
+        "romajiChunks": [
+          "soudesune.",
+          "sukoshi",
+          "hayaku",
+          "detahou ga",
+          "ii to",
+          "omoimasu."
+        ]
       },
       {
         "sp": "B",
@@ -10232,7 +11792,12 @@
             }
           ]
         ],
-        "romaji": "hai, nanajihan ni ikimashou."
+        "romaji": "hai, nanajihan ni ikimashou.",
+        "romajiChunks": [
+          "hai,",
+          "nanajihan ni",
+          "ikimashou."
+        ]
       }
     ]
   },
@@ -10266,7 +11831,12 @@
             }
           ]
         ],
-        "romaji": "atarashii apaato wo sagashi teirun desu."
+        "romaji": "atarashii apaato wo sagashi teirun desu.",
+        "romajiChunks": [
+          "atarashii",
+          "apaato wo",
+          "sagashi teirun desu."
+        ]
       },
       {
         "sp": "B",
@@ -10296,7 +11866,13 @@
             }
           ]
         ],
-        "romaji": "sou desu ka. donna apaato ga ii desu ka."
+        "romaji": "sou desu ka. donna apaato ga ii desu ka.",
+        "romajiChunks": [
+          "sou desu ka.",
+          "donna",
+          "apaato ga",
+          "ii desu ka."
+        ]
       },
       {
         "sp": "A",
@@ -10334,7 +11910,13 @@
             }
           ]
         ],
-        "romaji": "eki ni chikai apaato ga ii desu."
+        "romaji": "eki ni chikai apaato ga ii desu.",
+        "romajiChunks": [
+          "eki ni",
+          "chikai",
+          "apaato ga",
+          "ii desu."
+        ]
       },
       {
         "sp": "B",
@@ -10383,7 +11965,15 @@
             }
           ]
         ],
-        "romaji": "ja, kinou watashi ga mita heya wa dou desu ka."
+        "romaji": "ja, kinou watashi ga mita heya wa dou desu ka.",
+        "romajiChunks": [
+          "ja,",
+          "kinou",
+          "watashi ga",
+          "mita",
+          "heya wa",
+          "dou desu ka."
+        ]
       },
       {
         "sp": "A",
@@ -10412,7 +12002,12 @@
             }
           ]
         ],
-        "romaji": "doko ni aru heya desu ka."
+        "romaji": "doko ni aru heya desu ka.",
+        "romajiChunks": [
+          "doko ni",
+          "aru",
+          "heya desu ka."
+        ]
       },
       {
         "sp": "B",
@@ -10463,7 +12058,14 @@
             }
           ]
         ],
-        "romaji": "kouen no mae ni aru shiroi tatemono desu."
+        "romaji": "kouen no mae ni aru shiroi tatemono desu.",
+        "romajiChunks": [
+          "kouen no",
+          "mae ni",
+          "aru",
+          "shiroi",
+          "tatemono desu."
+        ]
       },
       {
         "sp": "A",
@@ -10500,7 +12102,12 @@
             }
           ]
         ],
-        "romaji": "yachin ga yasui heya desu ka."
+        "romaji": "yachin ga yasui heya desu ka.",
+        "romajiChunks": [
+          "yachin ga",
+          "yasui",
+          "heya desu ka."
+        ]
       },
       {
         "sp": "B",
@@ -10547,7 +12154,14 @@
             }
           ]
         ],
-        "romaji": "hai, gakusei ga yoku kariru heya desu."
+        "romaji": "hai, gakusei ga yoku kariru heya desu.",
+        "romajiChunks": [
+          "hai,",
+          "gakusei ga",
+          "yoku",
+          "kariru",
+          "heya desu."
+        ]
       },
       {
         "sp": "A",
@@ -10579,7 +12193,12 @@
             }
           ]
         ],
-        "romaji": "heya nonaka ni beranda ga arimasu ka."
+        "romaji": "heya nonaka ni beranda ga arimasu ka.",
+        "romajiChunks": [
+          "heya nonaka ni",
+          "beranda ga",
+          "arimasu ka."
+        ]
       },
       {
         "sp": "B",
@@ -10635,7 +12254,15 @@
             }
           ]
         ],
-        "romaji": "hai, sentakubutsu wo hosu hiroi beranda ga arimasu."
+        "romaji": "hai, sentakubutsu wo hosu hiroi beranda ga arimasu.",
+        "romajiChunks": [
+          "hai,",
+          "sentakubutsu wo",
+          "hosu",
+          "hiroi",
+          "beranda ga",
+          "arimasu."
+        ]
       },
       {
         "sp": "A",
@@ -10689,7 +12316,16 @@
             }
           ]
         ],
-        "romaji": "ii desu ne. sono heya wo annai shi tekureru hito wa imasu ka."
+        "romaji": "ii desu ne. sono heya wo annai shi tekureru hito wa imasu ka.",
+        "romajiChunks": [
+          "ii desu ne.",
+          "sono",
+          "heya wo",
+          "annai",
+          "shi tekureru",
+          "hito wa",
+          "imasu ka."
+        ]
       },
       {
         "sp": "B",
@@ -10744,7 +12380,14 @@
             }
           ]
         ],
-        "romaji": "hai, gogo ni au fudousanyasan ga mise tekuremasu."
+        "romaji": "hai, gogo ni au fudousanyasan ga mise tekuremasu.",
+        "romajiChunks": [
+          "hai,",
+          "gogo ni",
+          "au",
+          "fudousanyasan ga",
+          "mise tekuremasu."
+        ]
       }
     ]
   },
@@ -10800,7 +12443,14 @@
             }
           ]
         ],
-        "romaji": "eki e ikutoki, kono michi wo tourimasu ka."
+        "romaji": "eki e ikutoki, kono michi wo tourimasu ka.",
+        "romajiChunks": [
+          "eki e",
+          "ikutoki,",
+          "kono",
+          "michi wo",
+          "tourimasu ka."
+        ]
       },
       {
         "sp": "B",
@@ -10845,7 +12495,13 @@
             }
           ]
         ],
-        "romaji": "hai, itsumo kouen nonaka wo tourimasu."
+        "romaji": "hai, itsumo kouen nonaka wo tourimasu.",
+        "romajiChunks": [
+          "hai,",
+          "itsumo",
+          "kouen nonaka wo",
+          "tourimasu."
+        ]
       },
       {
         "sp": "A",
@@ -10873,7 +12529,11 @@
             }
           ]
         ],
-        "romaji": "ame notoki mo tourimasu ka."
+        "romaji": "ame notoki mo tourimasu ka.",
+        "romajiChunks": [
+          "ame notoki mo",
+          "tourimasu ka."
+        ]
       },
       {
         "sp": "B",
@@ -10924,7 +12584,14 @@
             }
           ]
         ],
-        "romaji": "iie, ame da to, ekimae no michi wo arukimasu."
+        "romaji": "iie, ame da to, ekimae no michi wo arukimasu.",
+        "romajiChunks": [
+          "iie,",
+          "ame da to,",
+          "ekimae no",
+          "michi wo",
+          "arukimasu."
+        ]
       },
       {
         "sp": "A",
@@ -10967,7 +12634,14 @@
             }
           ]
         ],
-        "romaji": "ano hashi wo wataru to, sugu eki desu ka."
+        "romaji": "ano hashi wo wataru to, sugu eki desu ka.",
+        "romajiChunks": [
+          "ano",
+          "hashi wo",
+          "wataru to,",
+          "sugu",
+          "eki desu ka."
+        ]
       },
       {
         "sp": "B",
@@ -11023,7 +12697,15 @@
             }
           ]
         ],
-        "romaji": "hai, hashi wo wataru to, hidari ni eki ga miemasu."
+        "romaji": "hai, hashi wo wataru to, hidari ni eki ga miemasu.",
+        "romajiChunks": [
+          "hai,",
+          "hashi wo",
+          "wataru to,",
+          "hidari ni",
+          "eki ga",
+          "miemasu."
+        ]
       },
       {
         "sp": "A",
@@ -11070,7 +12752,14 @@
             }
           ]
         ],
-        "romaji": "densha ni norutoki, kippu wa doko de kaimasu ka."
+        "romaji": "densha ni norutoki, kippu wa doko de kaimasu ka.",
+        "romajiChunks": [
+          "densha ni",
+          "norutoki,",
+          "kippu wa",
+          "doko de",
+          "kaimasu ka."
+        ]
       },
       {
         "sp": "B",
@@ -11112,7 +12801,13 @@
             }
           ]
         ],
-        "romaji": "iriguchi no tonari no kikai de kaimasu."
+        "romaji": "iriguchi no tonari no kikai de kaimasu.",
+        "romajiChunks": [
+          "iriguchi no",
+          "tonari no",
+          "kikai de",
+          "kaimasu."
+        ]
       },
       {
         "sp": "A",
@@ -11151,7 +12846,14 @@
             }
           ]
         ],
-        "romaji": "shigoto no ato, yoku konohen wo arukimasu ka."
+        "romaji": "shigoto no ato, yoku konohen wo arukimasu ka.",
+        "romajiChunks": [
+          "shigoto no",
+          "ato,",
+          "yoku",
+          "konohen wo",
+          "arukimasu ka."
+        ]
       },
       {
         "sp": "B",
@@ -11205,7 +12907,16 @@
             }
           ]
         ],
-        "romaji": "hai, jikan ga arutoki, kawa no soba wo sanpo shimasu."
+        "romaji": "hai, jikan ga arutoki, kawa no soba wo sanpo shimasu.",
+        "romajiChunks": [
+          "hai,",
+          "jikan ga",
+          "arutoki,",
+          "kawa no",
+          "soba wo",
+          "sanpo",
+          "shimasu."
+        ]
       },
       {
         "sp": "A",
@@ -11244,7 +12955,14 @@
             }
           ]
         ],
-        "romaji": "ii desu ne. haru ni naru to, sakura ga kirei deshou ne."
+        "romaji": "ii desu ne. haru ni naru to, sakura ga kirei deshou ne.",
+        "romajiChunks": [
+          "ii desu ne.",
+          "haru ni",
+          "naru to,",
+          "sakura ga",
+          "kirei deshou ne."
+        ]
       },
       {
         "sp": "B",
@@ -11283,7 +13001,14 @@
             }
           ]
         ],
-        "romaji": "hai, sonokoro, mata issho ni kimashou."
+        "romaji": "hai, sonokoro, mata issho ni kimashou.",
+        "romajiChunks": [
+          "hai,",
+          "sonokoro,",
+          "mata",
+          "issho ni",
+          "kimashou."
+        ]
       }
     ]
   },
@@ -11321,7 +13046,12 @@
             }
           ]
         ],
-        "romaji": "hikoshi wa mou owarimashita ka."
+        "romaji": "hikoshi wa mou owarimashita ka.",
+        "romajiChunks": [
+          "hikoshi wa",
+          "mou",
+          "owarimashita ka."
+        ]
       },
       {
         "sp": "B",
@@ -11359,7 +13089,13 @@
             }
           ]
         ],
-        "romaji": "mada desu. demo, tomodachi ga tetsuda tekuremashita."
+        "romaji": "mada desu. demo, tomodachi ga tetsuda tekuremashita.",
+        "romajiChunks": [
+          "mada desu.",
+          "demo,",
+          "tomodachi ga",
+          "tetsuda tekuremashita."
+        ]
       },
       {
         "sp": "A",
@@ -11383,7 +13119,11 @@
             }
           ]
         ],
-        "romaji": "nani wo shi tekuremashita ka."
+        "romaji": "nani wo shi tekuremashita ka.",
+        "romajiChunks": [
+          "nani wo",
+          "shi tekuremashita ka."
+        ]
       },
       {
         "sp": "B",
@@ -11435,7 +13175,15 @@
             }
           ]
         ],
-        "romaji": "oukii tsukue wo hakon dekuremashita. sorekara, kaaten mo tsuke tekuremashita."
+        "romaji": "oukii tsukue wo hakon dekuremashita. sorekara, kaaten mo tsuke tekuremashita.",
+        "romajiChunks": [
+          "oukii",
+          "tsukue wo",
+          "hakon dekuremashita.",
+          "sorekara,",
+          "kaaten mo",
+          "tsuke tekuremashita."
+        ]
       },
       {
         "sp": "A",
@@ -11459,7 +13207,11 @@
             }
           ]
         ],
-        "romaji": "sore wa tasukarimashita ne."
+        "romaji": "sore wa tasukarimashita ne.",
+        "romajiChunks": [
+          "sore wa",
+          "tasukarimashita ne."
+        ]
       },
       {
         "sp": "B",
@@ -11499,7 +13251,14 @@
             }
           ]
         ],
-        "romaji": "hai. watashi mo hiru gohan wo tsuku teagemashita."
+        "romaji": "hai. watashi mo hiru gohan wo tsuku teagemashita.",
+        "romajiChunks": [
+          "hai.",
+          "watashi mo",
+          "hiru",
+          "gohan wo",
+          "tsuku teagemashita."
+        ]
       },
       {
         "sp": "A",
@@ -11537,7 +13296,13 @@
             }
           ]
         ],
-        "romaji": "ii desu ne. dare ga kuruma wo dashi tekuremashita ka."
+        "romaji": "ii desu ne. dare ga kuruma wo dashi tekuremashita ka.",
+        "romajiChunks": [
+          "ii desu ne.",
+          "dare ga",
+          "kuruma wo",
+          "dashi tekuremashita ka."
+        ]
       },
       {
         "sp": "B",
@@ -11601,7 +13366,15 @@
             }
           ]
         ],
-        "romaji": "ani ga dashi tekuremashita. eki made nimotsu wo tori ni i tekuretan desu."
+        "romaji": "ani ga dashi tekuremashita. eki made nimotsu wo tori ni i tekuretan desu.",
+        "romajiChunks": [
+          "ani ga",
+          "dashi tekuremashita.",
+          "eki made",
+          "nimotsu wo",
+          "tori ni",
+          "i tekuretan desu."
+        ]
       },
       {
         "sp": "A",
@@ -11630,7 +13403,12 @@
             }
           ]
         ],
-        "romaji": "watashi mo nani ka shimashou ka."
+        "romaji": "watashi mo nani ka shimashou ka.",
+        "romajiChunks": [
+          "watashi mo",
+          "nani ka",
+          "shimashou ka."
+        ]
       },
       {
         "sp": "B",
@@ -11682,7 +13460,15 @@
             }
           ]
         ],
-        "romaji": "arigatougozaimasu. ja, furui hako wo suteruno wo tetsuda tekudasai."
+        "romaji": "arigatougozaimasu. ja, furui hako wo suteruno wo tetsuda tekudasai.",
+        "romajiChunks": [
+          "arigatougozaimasu.",
+          "ja,",
+          "furui",
+          "hako wo",
+          "suteruno wo",
+          "tetsuda tekudasai."
+        ]
       },
       {
         "sp": "A",
@@ -11725,7 +13511,14 @@
             }
           ]
         ],
-        "romaji": "mochiron desu. ato de gomi no basho wo oshie tekudasai."
+        "romaji": "mochiron desu. ato de gomi no basho wo oshie tekudasai.",
+        "romajiChunks": [
+          "mochiron desu.",
+          "ato de",
+          "gomi no",
+          "basho wo",
+          "oshie tekudasai."
+        ]
       },
       {
         "sp": "B",
@@ -11754,7 +13547,12 @@
             }
           ]
         ],
-        "romaji": "hai. hontouni arigatougozaimasu."
+        "romaji": "hai. hontouni arigatougozaimasu.",
+        "romajiChunks": [
+          "hai.",
+          "hontouni",
+          "arigatougozaimasu."
+        ]
       }
     ]
   },
@@ -11802,7 +13600,14 @@
             }
           ]
         ],
-        "romaji": "ashita, ame ga futara, dou shimasu ka."
+        "romaji": "ashita, ame ga futara, dou shimasu ka.",
+        "romajiChunks": [
+          "ashita,",
+          "ame ga",
+          "futara,",
+          "dou",
+          "shimasu ka."
+        ]
       },
       {
         "sp": "B",
@@ -11855,7 +13660,15 @@
             }
           ]
         ],
-        "romaji": "ame ga futara, uchi de nihongo wo benkyou shimasu."
+        "romaji": "ame ga futara, uchi de nihongo wo benkyou shimasu.",
+        "romajiChunks": [
+          "ame ga",
+          "futara,",
+          "uchi de",
+          "nihongo wo",
+          "benkyou",
+          "shimasu."
+        ]
       },
       {
         "sp": "A",
@@ -11879,7 +13692,11 @@
             }
           ]
         ],
-        "romaji": "pikunikku wa ikanain desu ka."
+        "romaji": "pikunikku wa ikanain desu ka.",
+        "romajiChunks": [
+          "pikunikku wa",
+          "ikanain desu ka."
+        ]
       },
       {
         "sp": "B",
@@ -11935,7 +13752,15 @@
             }
           ]
         ],
-        "romaji": "hai. ame de mo, sukoshinara ikimasu ga, tsuyokatara yamemasu."
+        "romaji": "hai. ame de mo, sukoshinara ikimasu ga, tsuyokatara yamemasu.",
+        "romajiChunks": [
+          "hai.",
+          "ame de mo,",
+          "sukoshinara",
+          "ikimasu ga,",
+          "tsuyokatara",
+          "yamemasu."
+        ]
       },
       {
         "sp": "A",
@@ -11982,7 +13807,12 @@
             }
           ]
         ],
-        "romaji": "obentou wo tsukutara, mo teikimasu ka."
+        "romaji": "obentou wo tsukutara, mo teikimasu ka.",
+        "romajiChunks": [
+          "obentou wo",
+          "tsukutara,",
+          "mo teikimasu ka."
+        ]
       },
       {
         "sp": "B",
@@ -12041,7 +13871,15 @@
             }
           ]
         ],
-        "romaji": "hai, mo teikimasu. jikan ga nakatara, pan wo kaimasu."
+        "romaji": "hai, mo teikimasu. jikan ga nakatara, pan wo kaimasu.",
+        "romajiChunks": [
+          "hai,",
+          "mo teikimasu.",
+          "jikan ga",
+          "nakatara,",
+          "pan wo",
+          "kaimasu."
+        ]
       },
       {
         "sp": "A",
@@ -12084,7 +13922,14 @@
             }
           ]
         ],
-        "romaji": "moshi densha ga okuretara, dou shimasu ka."
+        "romaji": "moshi densha ga okuretara, dou shimasu ka.",
+        "romajiChunks": [
+          "moshi",
+          "densha ga",
+          "okuretara,",
+          "dou",
+          "shimasu ka."
+        ]
       },
       {
         "sp": "B",
@@ -12119,7 +13964,13 @@
             }
           ]
         ],
-        "romaji": "eki de minna ni denwa shimasu."
+        "romaji": "eki de minna ni denwa shimasu.",
+        "romajiChunks": [
+          "eki de",
+          "minna ni",
+          "denwa",
+          "shimasu."
+        ]
       },
       {
         "sp": "A",
@@ -12156,7 +14007,12 @@
             }
           ]
         ],
-        "romaji": "samuku te mo, soto de tabemasu ka."
+        "romaji": "samuku te mo, soto de tabemasu ka.",
+        "romajiChunks": [
+          "samuku te mo,",
+          "soto de",
+          "tabemasu ka."
+        ]
       },
       {
         "sp": "B",
@@ -12207,7 +14063,14 @@
             }
           ]
         ],
-        "romaji": "iie, samukatara, chikaku no mise ni hairimasu."
+        "romaji": "iie, samukatara, chikaku no mise ni hairimasu.",
+        "romajiChunks": [
+          "iie,",
+          "samukatara,",
+          "chikaku no",
+          "mise ni",
+          "hairimasu."
+        ]
       },
       {
         "sp": "A",
@@ -12260,7 +14123,15 @@
             }
           ]
         ],
-        "romaji": "ja, asa hayaku okitara, sandoitchi wo tsukurimasu."
+        "romaji": "ja, asa hayaku okitara, sandoitchi wo tsukurimasu.",
+        "romajiChunks": [
+          "ja,",
+          "asa",
+          "hayaku",
+          "okitara,",
+          "sandoitchi wo",
+          "tsukurimasu."
+        ]
       },
       {
         "sp": "B",
@@ -12305,7 +14176,13 @@
             }
           ]
         ],
-        "romaji": "arigatougozaimasu. watashi wa nomimono wo mo teikimasu."
+        "romaji": "arigatougozaimasu. watashi wa nomimono wo mo teikimasu.",
+        "romajiChunks": [
+          "arigatougozaimasu.",
+          "watashi wa",
+          "nomimono wo",
+          "mo teikimasu."
+        ]
       }
     ]
   }

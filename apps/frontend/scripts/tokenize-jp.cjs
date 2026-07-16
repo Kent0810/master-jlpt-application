@@ -116,6 +116,10 @@ function romajiSpaceBefore(tok, prev) {
 function analyze(tokenizer, jp) {
   const morphemes = tokenizer.tokenize(jp);
   const chunks = [];
+  // Romaji for each chunk, aligned 1:1 with `chunks` (and the merged tokens), so
+  // the app can highlight a word's romaji together with the word and its
+  // translation. Concatenated with spaces these reproduce `romaji` exactly.
+  const chunkRomaji = [];
   let cur = null;
   let romaji = "";
   morphemes.forEach((tok, i) => {
@@ -123,19 +127,32 @@ function analyze(tokenizer, jp) {
     if (startsNewChunk(tok, prev) || !cur) {
       cur = [];
       chunks.push(cur);
+      chunkRomaji.push("");
     }
     for (const seg of segmentsFor(tok.surface_form, tok.reading)) cur.push(seg);
 
     const ro = romajiFor(tok);
     if (ro) {
-      if (tok.pos === "記号") romaji += ro;
-      else
+      const ci = chunkRomaji.length - 1;
+      if (tok.pos === "記号") {
+        romaji += ro;
+        chunkRomaji[ci] += ro;
+      } else {
         romaji +=
           (romajiSpaceBefore(tok, prev) || romaji === ""
             ? romaji === ""
               ? ""
               : " "
             : "") + ro;
+        // Same word-spacing within the chunk (particles, copula), minus the
+        // leading space that would otherwise start the piece.
+        chunkRomaji[ci] +=
+          (chunkRomaji[ci] === ""
+            ? ""
+            : romajiSpaceBefore(tok, prev)
+              ? " "
+              : "") + ro;
+      }
     }
   });
   // Merge adjacent plain segments inside each chunk for tidiness.
@@ -148,7 +165,11 @@ function analyze(tokenizer, jp) {
     }
     return out;
   });
-  return { tokens: merged, romaji: romaji.trim() };
+  return {
+    tokens: merged,
+    romaji: romaji.trim(),
+    romajiChunks: chunkRomaji.map((s) => s.trim()),
+  };
 }
 
 function romajiWordCount(tokenizer, s) {
@@ -174,9 +195,10 @@ kuromoji
     let gCount = 0;
     for (const g of grammar) {
       for (const ex of g.examples) {
-        const { tokens, romaji } = analyze(tokenizer, ex.jp);
+        const { tokens, romaji, romajiChunks } = analyze(tokenizer, ex.jp);
         ex.tokens = tokens;
         ex.romaji = romaji;
+        ex.romajiChunks = romajiChunks;
         gCount++;
       }
     }
@@ -188,9 +210,10 @@ kuromoji
     let dCount = 0;
     for (const d of dialogues) {
       for (const line of d.lines) {
-        const { tokens, romaji } = analyze(tokenizer, line.jp);
+        const { tokens, romaji, romajiChunks } = analyze(tokenizer, line.jp);
         line.tokens = tokens;
         line.romaji = romaji;
+        line.romajiChunks = romajiChunks;
         dCount++;
       }
     }

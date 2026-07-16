@@ -45,6 +45,9 @@ export interface ExampleSentence {
   vi?: string;
   tokens?: TokenChunk[];
   romaji?: string;
+  // Romaji split per token chunk (aligned 1:1 with `tokens`); joined with spaces
+  // they equal `romaji`. Lets each romaji word highlight with its chunk.
+  romajiChunks?: string[];
   alignEn?: AlignmentParts;
   alignVi?: AlignmentParts;
 }

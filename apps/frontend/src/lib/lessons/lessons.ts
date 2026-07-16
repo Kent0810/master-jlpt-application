@@ -13,6 +13,7 @@ export interface DialogueLine {
   vi: string;
   tokens?: TokenChunk[];
   romaji?: string;
+  romajiChunks?: string[];
   alignEn?: AlignmentParts;
   alignVi?: AlignmentParts;
 }

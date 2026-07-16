@@ -123,6 +123,7 @@ function Conversational({
                   reading={line.reading}
                   tokens={line.tokens}
                   romaji={line.romaji}
+                  romajiChunks={line.romajiChunks}
                   gloss={gloss(line, lang)}
                   alignParts={align(line, lang)}
                   sentenceClassName="text-base leading-loose"
@@ -175,6 +176,7 @@ function QA({
                 reading={line.reading}
                 tokens={line.tokens}
                 romaji={line.romaji}
+                romajiChunks={line.romajiChunks}
                 gloss={gloss(line, lang)}
                 alignParts={align(line, lang)}
                 sentenceClassName="text-base"
@@ -230,6 +232,7 @@ function ParagraphSentence({
       reading={line.reading}
       tokens={line.tokens}
       romaji={line.romaji}
+      romajiChunks={line.romajiChunks}
       className="mr-1 inline"
       onWordSelect={link.onWordSelect}
       selectedWord={link.selectedWord}

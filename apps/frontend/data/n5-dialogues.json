@@ -101,17 +101,17 @@
           [
             {
               "t": "日本人",
-              "f": "にっぽんじん"
+              "f": "にほんじん"
             },
             {
               "t": "ですか。"
             }
           ]
         ],
-        "romaji": "tanakasan wa nipponjin desu ka.",
+        "romaji": "tanakasan wa nihonjin desu ka.",
         "romajiChunks": [
           "tanakasan wa",
-          "nipponjin desu ka."
+          "nihonjin desu ka."
         ]
       },
       {
@@ -129,7 +129,7 @@
           [
             {
               "t": "日本人",
-              "f": "にっぽんじん"
+              "f": "にほんじん"
             },
             {
               "t": "です。"
@@ -158,10 +158,10 @@
             }
           ]
         ],
-        "romaji": "hai, nipponjin desu. ousaka no kaishain desu.",
+        "romaji": "hai, nihonjin desu. ousaka no kaishain desu.",
         "romajiChunks": [
           "hai,",
-          "nipponjin desu.",
+          "nihonjin desu.",
           "ousaka no",
           "kaishain desu."
         ]
@@ -1634,10 +1634,10 @@
             }
           ]
         ],
-        "romaji": "uketsuke wa ichikai desu ka.",
+        "romaji": "uketsuke wa ikkai desu ka.",
         "romajiChunks": [
           "uketsuke wa",
-          "ichikai desu ka."
+          "ikkai desu ka."
         ]
       },
       {
@@ -4796,7 +4796,7 @@
           [
             {
               "t": "日本",
-              "f": "にっぽん"
+              "f": "にほん"
             },
             {
               "t": "の"
@@ -4822,10 +4822,10 @@
             }
           ]
         ],
-        "romaji": "hee, nippon no chiimu no namae ga wakarimasu ka.",
+        "romaji": "hee, nihon no chiimu no namae ga wakarimasu ka.",
         "romajiChunks": [
           "hee,",
-          "nippon no",
+          "nihon no",
           "chiimu no",
           "namae ga",
           "wakarimasu ka."
@@ -6252,11 +6252,11 @@
             }
           ]
         ],
-        "romaji": "watashi wa tsuki ni ichikai shika kimasen.",
+        "romaji": "watashi wa tsuki ni ikkai shika kimasen.",
         "romajiChunks": [
           "watashi wa",
           "tsuki ni",
-          "ichikai shika",
+          "ikkai shika",
           "kimasen."
         ]
       },

@@ -470,6 +470,86 @@
           "vi": "Kiểm tra từ vựng"
         },
         "source": "vocab-auto"
+      },
+      {
+        "kind": "exercise",
+        "source": "authored",
+        "title": {
+          "en": "More practice",
+          "vi": "Luyện tập thêm"
+        },
+        "items": [
+          {
+            "prompt": "わたし（　）学生です。",
+            "options": [
+              "は",
+              "の",
+              "も",
+              "か"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "は marks わたし as the topic: 'As for me, (I) am a student.'",
+              "vi": "は đánh dấu わたし là chủ đề: 'Về phần tôi, (tôi) là sinh viên.'"
+            }
+          },
+          {
+            "prompt": "田中さんは先生です（　）。",
+            "options": [
+              "か",
+              "は",
+              "の",
+              "も"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "か at the end turns the statement into a question.",
+              "vi": "か ở cuối biến câu trần thuật thành câu hỏi."
+            }
+          },
+          {
+            "prompt": "サントスさん（　）会社員です。（＝Santos also）",
+            "options": [
+              "も",
+              "は",
+              "の",
+              "か"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "も means 'also' and replaces は.",
+              "vi": "も nghĩa là 'cũng' và thay thế は."
+            }
+          },
+          {
+            "prompt": "これは日本（　）車です。",
+            "options": [
+              "の",
+              "は",
+              "も",
+              "か"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "の links 日本 and 車: 'a car of Japan' → a Japanese car.",
+              "vi": "の nối 日本 và 車: 'xe của Nhật' → xe Nhật."
+            }
+          },
+          {
+            "prompt": "「あなたは医者ですか。」「いいえ、医者（　）。」",
+            "options": [
+              "じゃありません",
+              "です",
+              "も",
+              "の"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "The negative answer needs じゃありません ('is not').",
+              "vi": "Câu trả lời phủ định cần じゃありません ('không phải là')."
+            }
+          }
+        ]
       }
     ]
   },
@@ -914,6 +994,86 @@
           "vi": "Kiểm tra từ vựng"
         },
         "source": "vocab-auto"
+      },
+      {
+        "kind": "exercise",
+        "source": "authored",
+        "title": {
+          "en": "More practice",
+          "vi": "Luyện tập thêm"
+        },
+        "items": [
+          {
+            "prompt": "（　）は本です。（this one）",
+            "options": [
+              "これ",
+              "この",
+              "ここ",
+              "こちら"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "これ stands alone as 'this one'; この needs a noun after it.",
+              "vi": "これ đứng một mình nghĩa 'cái này'; この cần danh từ theo sau."
+            }
+          },
+          {
+            "prompt": "（　）本はわたしのです。（this book）",
+            "options": [
+              "この",
+              "これ",
+              "それ",
+              "あれ"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "Before a noun you use この, not これ.",
+              "vi": "Trước danh từ dùng この, không phải これ."
+            }
+          },
+          {
+            "prompt": "「これはあなたの傘ですか。」「はい、（　）。」",
+            "options": [
+              "そうです",
+              "ちがいます",
+              "です",
+              "います"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "はい pairs with そうです to confirm.",
+              "vi": "はい đi với そうです để xác nhận."
+            }
+          },
+          {
+            "prompt": "「先生ですか。」「いいえ、（　）。」",
+            "options": [
+              "ちがいます",
+              "そうです",
+              "はい",
+              "です"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "ちがいます is the natural 'no' to an identification question.",
+              "vi": "ちがいます là câu 'không' tự nhiên cho câu hỏi nhận dạng."
+            }
+          },
+          {
+            "prompt": "これは鉛筆です（　）、ボールペンですか。",
+            "options": [
+              "か",
+              "の",
+              "は",
+              "も"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "か after each option makes an 'A or B' question.",
+              "vi": "か sau mỗi lựa chọn tạo câu hỏi 'A hay B'."
+            }
+          }
+        ]
       }
     ]
   },
@@ -1285,6 +1445,86 @@
           "vi": "Kiểm tra từ vựng"
         },
         "source": "vocab-auto"
+      },
+      {
+        "kind": "exercise",
+        "source": "authored",
+        "title": {
+          "en": "More practice",
+          "vi": "Luyện tập thêm"
+        },
+        "items": [
+          {
+            "prompt": "（　）は食堂です。（this place）",
+            "options": [
+              "ここ",
+              "これ",
+              "この",
+              "どこ"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "ここ names a place ('this place').",
+              "vi": "ここ chỉ nơi chốn ('chỗ này')."
+            }
+          },
+          {
+            "prompt": "受付は（　）です。（over there）",
+            "options": [
+              "あそこ",
+              "あれ",
+              "あの",
+              "どれ"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "あそこ = 'over there' (far from both).",
+              "vi": "あそこ = 'đằng kia' (xa cả hai)."
+            }
+          },
+          {
+            "prompt": "トイレ（　）どこですか。",
+            "options": [
+              "は",
+              "を",
+              "も",
+              "の"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "は marks the topic before asking どこですか.",
+              "vi": "は đánh dấu chủ đề trước khi hỏi どこですか."
+            }
+          },
+          {
+            "prompt": "「事務所はどこですか。」「（　）です。」",
+            "options": [
+              "あそこ",
+              "あれ",
+              "どれ",
+              "この"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "Answer a どこ question by naming the place.",
+              "vi": "Trả lời câu hỏi どこ bằng cách nêu nơi chốn."
+            }
+          },
+          {
+            "prompt": "ミラーさん（　）事務所です。",
+            "options": [
+              "は",
+              "を",
+              "で",
+              "に"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "は…です states where Mr. Miller is.",
+              "vi": "は…です nói anh Miller ở đâu."
+            }
+          }
+        ]
       }
     ]
   },
@@ -1743,6 +1983,86 @@
           "vi": "Kiểm tra từ vựng"
         },
         "source": "vocab-auto"
+      },
+      {
+        "kind": "exercise",
+        "source": "authored",
+        "title": {
+          "en": "More practice",
+          "vi": "Luyện tập thêm"
+        },
+        "items": [
+          {
+            "prompt": "毎朝7時（　）起きます。",
+            "options": [
+              "に",
+              "で",
+              "を",
+              "へ"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "に marks a specific clock time before a verb.",
+              "vi": "に đánh dấu giờ cụ thể trước động từ."
+            }
+          },
+          {
+            "prompt": "今（　）ですか。（what time）",
+            "options": [
+              "何時",
+              "何",
+              "どこ",
+              "だれ"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "何時 asks 'what time'.",
+              "vi": "何時 hỏi 'mấy giờ'."
+            }
+          },
+          {
+            "prompt": "銀行は9時（　）3時までです。",
+            "options": [
+              "から",
+              "まで",
+              "に",
+              "と"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "から marks the start of the range.",
+              "vi": "から đánh dấu điểm bắt đầu của khoảng."
+            }
+          },
+          {
+            "prompt": "昨日働き（　）。（past affirmative）",
+            "options": [
+              "ました",
+              "ます",
+              "ません",
+              "ませんでした"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "ました is the polite past affirmative.",
+              "vi": "ました là quá khứ khẳng định lịch sự."
+            }
+          },
+          {
+            "prompt": "日曜日は働き（　）。（don't / non-past negative）",
+            "options": [
+              "ません",
+              "ました",
+              "ませんでした",
+              "ます"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "ません is the non-past negative.",
+              "vi": "ません là phủ định hiện tại."
+            }
+          }
+        ]
       }
     ]
   },
@@ -2213,6 +2533,86 @@
           "vi": "Kiểm tra từ vựng"
         },
         "source": "vocab-auto"
+      },
+      {
+        "kind": "exercise",
+        "source": "authored",
+        "title": {
+          "en": "More practice",
+          "vi": "Luyện tập thêm"
+        },
+        "items": [
+          {
+            "prompt": "あした東京（　）行きます。",
+            "options": [
+              "へ",
+              "で",
+              "を",
+              "が"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "へ marks the destination of movement.",
+              "vi": "へ đánh dấu đích của chuyển động."
+            }
+          },
+          {
+            "prompt": "電車（　）会社へ行きます。",
+            "options": [
+              "で",
+              "へ",
+              "と",
+              "に"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "で marks the means of transport.",
+              "vi": "で đánh dấu phương tiện đi lại."
+            }
+          },
+          {
+            "prompt": "友達（　）京都へ行きます。",
+            "options": [
+              "と",
+              "で",
+              "へ",
+              "を"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "と marks the person you go with.",
+              "vi": "と đánh dấu người bạn đi cùng."
+            }
+          },
+          {
+            "prompt": "うち（　）帰ります。",
+            "options": [
+              "へ",
+              "で",
+              "を",
+              "が"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "帰ります takes へ for the destination.",
+              "vi": "帰ります dùng へ cho đích đến."
+            }
+          },
+          {
+            "prompt": "一人（　）行きます。（alone）",
+            "options": [
+              "で",
+              "と",
+              "へ",
+              "に"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "'Alone' is 一人で, using で.",
+              "vi": "'Một mình' là 一人で, dùng で."
+            }
+          }
+        ]
       }
     ]
   },
@@ -2619,6 +3019,86 @@
           "vi": "Kiểm tra từ vựng"
         },
         "source": "vocab-auto"
+      },
+      {
+        "kind": "exercise",
+        "source": "authored",
+        "title": {
+          "en": "More practice",
+          "vi": "Luyện tập thêm"
+        },
+        "items": [
+          {
+            "prompt": "パン（　）食べます。",
+            "options": [
+              "を",
+              "が",
+              "で",
+              "に"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "を marks the direct object.",
+              "vi": "を đánh dấu tân ngữ trực tiếp."
+            }
+          },
+          {
+            "prompt": "図書館（　）本を読みます。",
+            "options": [
+              "で",
+              "に",
+              "を",
+              "へ"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "で marks where the action happens.",
+              "vi": "で đánh dấu nơi diễn ra hành động."
+            }
+          },
+          {
+            "prompt": "いっしょに昼ごはんを食べ（　）。（won't you…?）",
+            "options": [
+              "ませんか",
+              "ましょう",
+              "ました",
+              "ません"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "Vませんか is an invitation.",
+              "vi": "Vませんか là lời mời."
+            }
+          },
+          {
+            "prompt": "ちょっと休み（　）。（let's…）",
+            "options": [
+              "ましょう",
+              "ませんか",
+              "ました",
+              "ます"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "Vましょう proposes doing it together.",
+              "vi": "Vましょう đề nghị cùng làm."
+            }
+          },
+          {
+            "prompt": "うち（　）音楽を聞きます。",
+            "options": [
+              "で",
+              "を",
+              "へ",
+              "が"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "で marks the place of the action.",
+              "vi": "で đánh dấu nơi hành động."
+            }
+          }
+        ]
       }
     ]
   },
@@ -3116,6 +3596,86 @@
           "vi": "Kiểm tra từ vựng"
         },
         "source": "vocab-auto"
+      },
+      {
+        "kind": "exercise",
+        "source": "authored",
+        "title": {
+          "en": "More practice",
+          "vi": "Luyện tập thêm"
+        },
+        "items": [
+          {
+            "prompt": "はし（　）ごはんを食べます。",
+            "options": [
+              "で",
+              "を",
+              "に",
+              "と"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "で marks the tool used.",
+              "vi": "で đánh dấu công cụ được dùng."
+            }
+          },
+          {
+            "prompt": "山田さん（　）花をあげます。",
+            "options": [
+              "に",
+              "を",
+              "で",
+              "が"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "に marks the receiver with あげます.",
+              "vi": "に đánh dấu người nhận với あげます."
+            }
+          },
+          {
+            "prompt": "友達に本を（　）。（received）",
+            "options": [
+              "もらいました",
+              "あげました",
+              "書きました",
+              "見ました"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "もらいました = received.",
+              "vi": "もらいました = đã nhận."
+            }
+          },
+          {
+            "prompt": "「もう食べましたか。」「いいえ、（　）。」",
+            "options": [
+              "まだです",
+              "そうです",
+              "食べました",
+              "ちがいます"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "'Not yet' is いいえ、まだです.",
+              "vi": "'Chưa' là いいえ、まだです."
+            }
+          },
+          {
+            "prompt": "日本語（　）レポートを書きます。",
+            "options": [
+              "で",
+              "を",
+              "に",
+              "へ"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "で marks the language/method.",
+              "vi": "で đánh dấu ngôn ngữ/cách thức."
+            }
+          }
+        ]
       }
     ]
   },
@@ -3566,6 +4126,86 @@
           "vi": "Kiểm tra từ vựng"
         },
         "source": "vocab-auto"
+      },
+      {
+        "kind": "exercise",
+        "source": "authored",
+        "title": {
+          "en": "More practice",
+          "vi": "Luyện tập thêm"
+        },
+        "items": [
+          {
+            "prompt": "今日は暑（　）です。（is not hot）",
+            "options": [
+              "くない",
+              "じゃない",
+              "ない",
+              "くありません"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "い-adjective negative: 暑い → 暑くないです.",
+              "vi": "Phủ định tính từ い: 暑い → 暑くないです."
+            }
+          },
+          {
+            "prompt": "田中さんは親切（　）人です。",
+            "options": [
+              "な",
+              "い",
+              "の",
+              "だ"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "な-adjectives take な before a noun.",
+              "vi": "Tính từ な thêm な trước danh từ."
+            }
+          },
+          {
+            "prompt": "京都は有名（　）。（is not famous）",
+            "options": [
+              "じゃありません",
+              "くないです",
+              "ないです",
+              "ません"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "な-adjectives negate like nouns: じゃありません.",
+              "vi": "Tính từ な phủ định như danh từ: じゃありません."
+            }
+          },
+          {
+            "prompt": "この部屋は狭いです（　）、きれいです。",
+            "options": [
+              "が",
+              "から",
+              "の",
+              "も"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "が joins clauses with a contrast ('but').",
+              "vi": "が nối mệnh đề với ý tương phản ('nhưng')."
+            }
+          },
+          {
+            "prompt": "この本は（　）です。（interesting）",
+            "options": [
+              "おもしろい",
+              "おもしろな",
+              "おもしろく",
+              "おもしろの"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "い-adjectives keep い before です.",
+              "vi": "Tính từ い giữ い trước です."
+            }
+          }
+        ]
       }
     ]
   },
@@ -4016,6 +4656,86 @@
           "vi": "Kiểm tra từ vựng"
         },
         "source": "vocab-auto"
+      },
+      {
+        "kind": "exercise",
+        "source": "authored",
+        "title": {
+          "en": "More practice",
+          "vi": "Luyện tập thêm"
+        },
+        "items": [
+          {
+            "prompt": "わたしは音楽（　）好きです。",
+            "options": [
+              "が",
+              "を",
+              "は",
+              "に"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "好き marks its object with が.",
+              "vi": "好き đánh dấu đối tượng bằng が."
+            }
+          },
+          {
+            "prompt": "田中さんはテニス（　）上手です。",
+            "options": [
+              "が",
+              "を",
+              "で",
+              "に"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "上手 also takes が.",
+              "vi": "上手 cũng dùng が."
+            }
+          },
+          {
+            "prompt": "日本語（　）少しわかります。",
+            "options": [
+              "が",
+              "を",
+              "は",
+              "で"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "わかります takes が.",
+              "vi": "わかります dùng が."
+            }
+          },
+          {
+            "prompt": "時間がありません（　）、行きません。",
+            "options": [
+              "から",
+              "が",
+              "の",
+              "まで"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "から gives the reason ('because').",
+              "vi": "から nêu lý do ('vì')."
+            }
+          },
+          {
+            "prompt": "スポーツ（　）好きです。",
+            "options": [
+              "が",
+              "を",
+              "に",
+              "へ"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "Use が, not を, with 好き.",
+              "vi": "Dùng が, không phải を, với 好き."
+            }
+          }
+        ]
       }
     ]
   },
@@ -4606,6 +5326,86 @@
           "vi": "Kiểm tra từ vựng"
         },
         "source": "vocab-auto"
+      },
+      {
+        "kind": "exercise",
+        "source": "authored",
+        "title": {
+          "en": "More practice",
+          "vi": "Luyện tập thêm"
+        },
+        "items": [
+          {
+            "prompt": "机の上に本が（　）。",
+            "options": [
+              "あります",
+              "います",
+              "です",
+              "します"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "Books are inanimate → あります.",
+              "vi": "Sách là vật vô tri → あります."
+            }
+          },
+          {
+            "prompt": "部屋に猫が（　）。",
+            "options": [
+              "います",
+              "あります",
+              "です",
+              "します"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "A cat is animate → います.",
+              "vi": "Con mèo là động vật → います."
+            }
+          },
+          {
+            "prompt": "本は机（　）上にあります。",
+            "options": [
+              "の",
+              "に",
+              "が",
+              "を"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "Position joins with の: 机の上.",
+              "vi": "Vị trí nối bằng の: 机の上."
+            }
+          },
+          {
+            "prompt": "公園（　）子供がいます。",
+            "options": [
+              "に",
+              "で",
+              "を",
+              "へ"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "に marks the place of existence.",
+              "vi": "に đánh dấu nơi tồn tại."
+            }
+          },
+          {
+            "prompt": "銀行は郵便局の（　）です。（next to）",
+            "options": [
+              "隣",
+              "上",
+              "中",
+              "前"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "隣 means 'next to'.",
+              "vi": "隣 nghĩa 'bên cạnh'."
+            }
+          }
+        ]
       }
     ]
   },
@@ -5000,6 +5800,86 @@
           "vi": "Kiểm tra từ vựng"
         },
         "source": "vocab-auto"
+      },
+      {
+        "kind": "exercise",
+        "source": "authored",
+        "title": {
+          "en": "More practice",
+          "vi": "Luyện tập thêm"
+        },
+        "items": [
+          {
+            "prompt": "りんごを（　）買いました。（two things）",
+            "options": [
+              "二つ",
+              "二枚",
+              "二人",
+              "二回"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "General objects use ～つ: 二つ.",
+              "vi": "Vật nói chung dùng ～つ: 二つ."
+            }
+          },
+          {
+            "prompt": "切手を（　）ください。（three flat items）",
+            "options": [
+              "三枚",
+              "三つ",
+              "三人",
+              "三本"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "Flat items (stamps) use ～枚.",
+              "vi": "Vật mỏng dẹt (tem) dùng ～枚."
+            }
+          },
+          {
+            "prompt": "教室に学生が（　）います。（five people）",
+            "options": [
+              "五人",
+              "五つ",
+              "五枚",
+              "五回"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "People are counted with ～人.",
+              "vi": "Người đếm bằng ～人."
+            }
+          },
+          {
+            "prompt": "一週間（　）一回勉強します。",
+            "options": [
+              "に",
+              "で",
+              "を",
+              "へ"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "に marks the period for frequency.",
+              "vi": "に đánh dấu khoảng thời gian cho tần suất."
+            }
+          },
+          {
+            "prompt": "一日に三（　）ごはんを食べます。（times）",
+            "options": [
+              "回",
+              "枚",
+              "人",
+              "つ"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "～回 counts occasions ('times').",
+              "vi": "～回 đếm số lần ('lần')."
+            }
+          }
+        ]
       }
     ]
   },
@@ -5423,6 +6303,86 @@
           "vi": "Kiểm tra từ vựng"
         },
         "source": "vocab-auto"
+      },
+      {
+        "kind": "exercise",
+        "source": "authored",
+        "title": {
+          "en": "More practice",
+          "vi": "Luyện tập thêm"
+        },
+        "items": [
+          {
+            "prompt": "昨日は雨（　）。（was）",
+            "options": [
+              "でした",
+              "です",
+              "だった",
+              "でしたです"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "Noun past: 雨でした.",
+              "vi": "Quá khứ danh từ: 雨でした."
+            }
+          },
+          {
+            "prompt": "旅行は楽し（　）です。（was fun）",
+            "options": [
+              "かった",
+              "い",
+              "くない",
+              "でした"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "い-adjective past: 楽しかったです.",
+              "vi": "Quá khứ tính từ い: 楽しかったです."
+            }
+          },
+          {
+            "prompt": "テストは簡単（　）。（was not）",
+            "options": [
+              "じゃありませんでした",
+              "くなかったです",
+              "じゃありません",
+              "でした"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "な-adjective negative past: じゃありませんでした.",
+              "vi": "Quá khứ phủ định tính từ な: じゃありませんでした."
+            }
+          },
+          {
+            "prompt": "東京は大阪（　）大きいです。（than）",
+            "options": [
+              "より",
+              "から",
+              "まで",
+              "と"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "より marks the standard of comparison.",
+              "vi": "より đánh dấu chuẩn so sánh."
+            }
+          },
+          {
+            "prompt": "スポーツの中でサッカーが（　）好きです。（best）",
+            "options": [
+              "いちばん",
+              "より",
+              "どちら",
+              "とても"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "いちばん = 'the most / best'.",
+              "vi": "いちばん = 'nhất'."
+            }
+          }
+        ]
       }
     ]
   },
@@ -5823,6 +6783,86 @@
           "vi": "Kiểm tra từ vựng"
         },
         "source": "vocab-auto"
+      },
+      {
+        "kind": "exercise",
+        "source": "authored",
+        "title": {
+          "en": "More practice",
+          "vi": "Luyện tập thêm"
+        },
+        "items": [
+          {
+            "prompt": "新しいパソコン（　）ほしいです。",
+            "options": [
+              "が",
+              "を",
+              "に",
+              "へ"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "ほしい marks the wanted thing with が.",
+              "vi": "ほしい đánh dấu vật muốn có bằng が."
+            }
+          },
+          {
+            "prompt": "日本へ行き（　）です。（want to go）",
+            "options": [
+              "たい",
+              "ほしい",
+              "ましょう",
+              "ません"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "V-stem + たい = want to do.",
+              "vi": "Thể V + たい = muốn làm."
+            }
+          },
+          {
+            "prompt": "今日は何もし（　）です。（don't want to）",
+            "options": [
+              "たくない",
+              "たい",
+              "ません",
+              "ないたい"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "たい negative: したくないです.",
+              "vi": "Phủ định たい: したくないです."
+            }
+          },
+          {
+            "prompt": "デパートへかばんを買い（　）行きます。",
+            "options": [
+              "に",
+              "を",
+              "で",
+              "へ"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "に marks the purpose of going.",
+              "vi": "に đánh dấu mục đích của việc đi."
+            }
+          },
+          {
+            "prompt": "車（　）ほしいです。",
+            "options": [
+              "が",
+              "を",
+              "は",
+              "に"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "Use が with ほしい.",
+              "vi": "Dùng が với ほしい."
+            }
+          }
+        ]
       }
     ]
   },
@@ -6234,6 +7274,86 @@
           "vi": "Kiểm tra từ vựng"
         },
         "source": "vocab-auto"
+      },
+      {
+        "kind": "exercise",
+        "source": "authored",
+        "title": {
+          "en": "More practice",
+          "vi": "Luyện tập thêm"
+        },
+        "items": [
+          {
+            "prompt": "ちょっと（　）ください。（wait — 待ちます）",
+            "options": [
+              "待って",
+              "待ちて",
+              "待いて",
+              "待んで"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "つ-verb: 待ちます → 待って.",
+              "vi": "Động từ đuôi つ: 待ちます → 待って."
+            }
+          },
+          {
+            "prompt": "ここに名前を書いて（　）。",
+            "options": [
+              "ください",
+              "います",
+              "あります",
+              "です"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "V-てください = please do.",
+              "vi": "V-てください = xin hãy làm."
+            }
+          },
+          {
+            "prompt": "今、雨が降って（　）。（is …ing）",
+            "options": [
+              "います",
+              "ください",
+              "あります",
+              "です"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "V-ています = action in progress.",
+              "vi": "V-ています = hành động đang diễn ra."
+            }
+          },
+          {
+            "prompt": "本を（　）います。（reading — 読みます）",
+            "options": [
+              "読んで",
+              "読みて",
+              "読くて",
+              "読んて"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "む-verb: 読みます → 読んで.",
+              "vi": "Động từ đuôi む: 読みます → 読んで."
+            }
+          },
+          {
+            "prompt": "（　）ください。（go — 行きます）",
+            "options": [
+              "行って",
+              "行きて",
+              "行いて",
+              "行んで"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "行きます is irregular: 行って.",
+              "vi": "行きます bất quy tắc: 行って."
+            }
+          }
+        ]
       }
     ]
   },
@@ -6618,6 +7738,86 @@
           "vi": "Kiểm tra từ vựng"
         },
         "source": "vocab-auto"
+      },
+      {
+        "kind": "exercise",
+        "source": "authored",
+        "title": {
+          "en": "More practice",
+          "vi": "Luyện tập thêm"
+        },
+        "items": [
+          {
+            "prompt": "ここで写真を撮って（　）です。（may）",
+            "options": [
+              "もいい",
+              "はいけません",
+              "から",
+              "ください"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "てもいいです = permission.",
+              "vi": "てもいいです = cho phép."
+            }
+          },
+          {
+            "prompt": "ここでたばこを吸って（　）。（must not）",
+            "options": [
+              "はいけません",
+              "もいいです",
+              "ください",
+              "います"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "てはいけません = prohibition.",
+              "vi": "てはいけません = cấm."
+            }
+          },
+          {
+            "prompt": "ミラーさんは東京に住んで（　）。（lives）",
+            "options": [
+              "います",
+              "ください",
+              "もいいです",
+              "はいけません"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "住んでいます = ongoing state ('lives').",
+              "vi": "住んでいます = trạng thái ('sống')."
+            }
+          },
+          {
+            "prompt": "「入ってもいいです（　）。」「はい、どうぞ。」",
+            "options": [
+              "か",
+              "ね",
+              "よ",
+              "の"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "か asks for permission.",
+              "vi": "か dùng để xin phép."
+            }
+          },
+          {
+            "prompt": "図書館で話（　）はいけません。",
+            "options": [
+              "して",
+              "しって",
+              "しいて",
+              "しんで"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "す-verb: 話します → 話して.",
+              "vi": "Động từ đuôi す: 話します → 話して."
+            }
+          }
+        ]
       }
     ]
   },
@@ -7116,6 +8316,86 @@
           "vi": "Kiểm tra từ vựng"
         },
         "source": "vocab-auto"
+      },
+      {
+        "kind": "exercise",
+        "source": "authored",
+        "title": {
+          "en": "More practice",
+          "vi": "Luyện tập thêm"
+        },
+        "items": [
+          {
+            "prompt": "図書館へ（　）、本を借ります。（go — 行きます）",
+            "options": [
+              "行って",
+              "行きて",
+              "行いて",
+              "行くて"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "行きます → 行って joins the next action.",
+              "vi": "行きます → 行って nối hành động sau."
+            }
+          },
+          {
+            "prompt": "ごはんを食べて（　）、薬を飲みます。（after）",
+            "options": [
+              "から",
+              "まで",
+              "ので",
+              "が"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "てから = 'after doing'.",
+              "vi": "てから = 'sau khi làm'."
+            }
+          },
+          {
+            "prompt": "この部屋は広（　）、きれいです。（and）",
+            "options": [
+              "くて",
+              "いで",
+              "で",
+              "だ"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "い-adjective join: 広い → 広くて.",
+              "vi": "Nối tính từ い: 広い → 広くて."
+            }
+          },
+          {
+            "prompt": "京都は静か（　）、有名です。（and）",
+            "options": [
+              "で",
+              "くて",
+              "て",
+              "に"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "な-adjective join: 静か → 静かで.",
+              "vi": "Nối tính từ な: 静か → 静かで."
+            }
+          },
+          {
+            "prompt": "手を（　）、昼ごはんを食べます。（wash — 洗います）",
+            "options": [
+              "洗って",
+              "洗いて",
+              "洗んで",
+              "洗くて"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "う-verb: 洗います → 洗って.",
+              "vi": "Động từ đuôi う: 洗います → 洗って."
+            }
+          }
+        ]
       }
     ]
   },
@@ -7505,6 +8785,86 @@
           "vi": "Kiểm tra từ vựng"
         },
         "source": "vocab-auto"
+      },
+      {
+        "kind": "exercise",
+        "source": "authored",
+        "title": {
+          "en": "More practice",
+          "vi": "Luyện tập thêm"
+        },
+        "items": [
+          {
+            "prompt": "ここに（　）でください。（don't enter — 入ります）",
+            "options": [
+              "入らない",
+              "入りない",
+              "入れない",
+              "入るない"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "う-verb ない-form: 入る → 入らない.",
+              "vi": "Thể ない nhóm う: 入る → 入らない."
+            }
+          },
+          {
+            "prompt": "心配し（　）でください。（don't worry）",
+            "options": [
+              "ない",
+              "なくて",
+              "ません",
+              "ず"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "する → しない before でください.",
+              "vi": "する → しない trước でください."
+            }
+          },
+          {
+            "prompt": "毎日薬を飲ま（　）なりません。（must）",
+            "options": [
+              "なければ",
+              "なくても",
+              "ないで",
+              "なく"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "なければなりません = must.",
+              "vi": "なければなりません = phải."
+            }
+          },
+          {
+            "prompt": "日曜日は働か（　）いいです。（don't have to）",
+            "options": [
+              "なくても",
+              "なければ",
+              "ないで",
+              "なく"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "なくてもいいです = don't have to.",
+              "vi": "なくてもいいです = không cần."
+            }
+          },
+          {
+            "prompt": "写真を（　）でください。（don't take — 撮ります）",
+            "options": [
+              "撮らない",
+              "撮りない",
+              "撮るない",
+              "撮れない"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "う-verb: 撮る → 撮らない.",
+              "vi": "Nhóm う: 撮る → 撮らない."
+            }
+          }
+        ]
       }
     ]
   },
@@ -7980,6 +9340,86 @@
           "vi": "Kiểm tra từ vựng"
         },
         "source": "vocab-auto"
+      },
+      {
+        "kind": "exercise",
+        "source": "authored",
+        "title": {
+          "en": "More practice",
+          "vi": "Luyện tập thêm"
+        },
+        "items": [
+          {
+            "prompt": "わたしは日本語を話す（　）ができます。",
+            "options": [
+              "こと",
+              "の",
+              "もの",
+              "とき"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "ことができます expresses ability.",
+              "vi": "ことができます diễn tả khả năng."
+            }
+          },
+          {
+            "prompt": "ここで写真を（　）ことができます。（take — 撮ります）",
+            "options": [
+              "撮る",
+              "撮り",
+              "撮って",
+              "撮った"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "Use the dictionary form before こと: 撮る.",
+              "vi": "Dùng thể từ điển trước こと: 撮る."
+            }
+          },
+          {
+            "prompt": "食べる（　）に、手を洗います。（before）",
+            "options": [
+              "まえ",
+              "あと",
+              "とき",
+              "から"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "V-るまえに = before doing.",
+              "vi": "V-るまえに = trước khi làm."
+            }
+          },
+          {
+            "prompt": "寝る（　）、本を読みます。（before sleeping）",
+            "options": [
+              "まえに",
+              "あとで",
+              "ながら",
+              "ので"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "まえに follows the dictionary form.",
+              "vi": "まえに theo sau thể từ điển."
+            }
+          },
+          {
+            "prompt": "読みます → dictionary form is（　）。",
+            "options": [
+              "読む",
+              "読る",
+              "読い",
+              "読んだ"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "う-verb: 読みます → 読む.",
+              "vi": "Nhóm う: 読みます → 読む."
+            }
+          }
+        ]
       }
     ]
   },
@@ -8436,6 +9876,86 @@
           "vi": "Kiểm tra từ vựng"
         },
         "source": "vocab-auto"
+      },
+      {
+        "kind": "exercise",
+        "source": "authored",
+        "title": {
+          "en": "More practice",
+          "vi": "Luyện tập thêm"
+        },
+        "items": [
+          {
+            "prompt": "日本へ（　）ことがあります。（have been — 行きます）",
+            "options": [
+              "行った",
+              "行って",
+              "行く",
+              "行き"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "Experience uses the た-form: 行った.",
+              "vi": "Kinh nghiệm dùng thể た: 行った."
+            }
+          },
+          {
+            "prompt": "日曜日は本を読んだり、音楽を（　）します。",
+            "options": [
+              "聞いたり",
+              "聞いて",
+              "聞く",
+              "聞き"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "たり…たりします lists actions.",
+              "vi": "たり…たりします liệt kê hành động."
+            }
+          },
+          {
+            "prompt": "寒く（　）。（has become cold）",
+            "options": [
+              "なりました",
+              "しました",
+              "ありました",
+              "いました"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "い-adj + くなります = become.",
+              "vi": "Tính từ い + くなります = trở nên."
+            }
+          },
+          {
+            "prompt": "日本語が上手（　）なりました。",
+            "options": [
+              "に",
+              "く",
+              "で",
+              "と"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "な-adjective + に + なります.",
+              "vi": "Tính từ な + に + なります."
+            }
+          },
+          {
+            "prompt": "食べます → た-form is（　）。",
+            "options": [
+              "食べた",
+              "食べて",
+              "食べり",
+              "食べって"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "る-verb: 食べます → 食べた.",
+              "vi": "Nhóm る: 食べます → 食べた."
+            }
+          }
+        ]
       }
     ]
   },
@@ -8803,6 +10323,86 @@
           "vi": "Kiểm tra từ vựng"
         },
         "source": "vocab-auto"
+      },
+      {
+        "kind": "exercise",
+        "source": "authored",
+        "title": {
+          "en": "More practice",
+          "vi": "Luyện tập thêm"
+        },
+        "items": [
+          {
+            "prompt": "あした映画を（　）。（plain: 見ます）",
+            "options": [
+              "見る",
+              "見た",
+              "見て",
+              "見ない"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "Plain non-past of 見ます is 見る.",
+              "vi": "Thể thường hiện tại của 見ます là 見る."
+            }
+          },
+          {
+            "prompt": "きのうは（　）。（plain: 楽しいでした ✗）",
+            "options": [
+              "楽しかった",
+              "楽しいだ",
+              "楽しいた",
+              "楽しくた"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "い-adj plain past: 楽しかった.",
+              "vi": "Quá khứ thể thường tính từ い: 楽しかった."
+            }
+          },
+          {
+            "prompt": "今日は日曜日（　）。（plain）",
+            "options": [
+              "だ",
+              "です",
+              "である",
+              "の"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "Nouns take だ in plain form.",
+              "vi": "Danh từ thêm だ ở thể thường."
+            }
+          },
+          {
+            "prompt": "行きます → plain non-past（　）。",
+            "options": [
+              "行く",
+              "行った",
+              "行かない",
+              "行って"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "Dictionary form 行く is the plain non-past.",
+              "vi": "Thể từ điển 行く là thể thường hiện tại."
+            }
+          },
+          {
+            "prompt": "食べません → plain（　）。",
+            "options": [
+              "食べない",
+              "食べる",
+              "食べた",
+              "食べなかった"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "Plain non-past negative: 食べない.",
+              "vi": "Phủ định hiện tại thể thường: 食べない."
+            }
+          }
+        ]
       }
     ]
   },
@@ -9254,6 +10854,86 @@
           "vi": "Kiểm tra từ vựng"
         },
         "source": "vocab-auto"
+      },
+      {
+        "kind": "exercise",
+        "source": "authored",
+        "title": {
+          "en": "More practice",
+          "vi": "Luyện tập thêm"
+        },
+        "items": [
+          {
+            "prompt": "あした雨が降る（　）思います。",
+            "options": [
+              "と",
+              "を",
+              "が",
+              "の"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "と marks the content of a thought.",
+              "vi": "と đánh dấu nội dung suy nghĩ."
+            }
+          },
+          {
+            "prompt": "この映画はおもしろい（　）思います。（plain before と）",
+            "options": [
+              "と",
+              "ですと",
+              "だと",
+              "のと"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "い-adjective stays plain before と.",
+              "vi": "Tính từ い giữ thể thường trước と."
+            }
+          },
+          {
+            "prompt": "田中さんはあした来る（　）言いました。",
+            "options": [
+              "と",
+              "を",
+              "は",
+              "が"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "と reports what was said.",
+              "vi": "と thuật lại lời đã nói."
+            }
+          },
+          {
+            "prompt": "この料理はおいしい（　）？（right?）",
+            "options": [
+              "でしょう",
+              "ますか",
+              "です",
+              "だか"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "でしょう？ seeks agreement.",
+              "vi": "でしょう？ tìm sự đồng tình."
+            }
+          },
+          {
+            "prompt": "母は元気（　）と言いました。（plain noun/na-adj）",
+            "options": [
+              "だ",
+              "です",
+              "の",
+              "な"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "Plain form uses だ before と.",
+              "vi": "Thể thường dùng だ trước と."
+            }
+          }
+        ]
       }
     ]
   },
@@ -9660,6 +11340,86 @@
           "vi": "Kiểm tra từ vựng"
         },
         "source": "vocab-auto"
+      },
+      {
+        "kind": "exercise",
+        "source": "authored",
+        "title": {
+          "en": "More practice",
+          "vi": "Luyện tập thêm"
+        },
+        "items": [
+          {
+            "prompt": "これはミラーさん（　）作った料理です。",
+            "options": [
+              "が",
+              "は",
+              "を",
+              "も"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "Inside a modifying clause the subject takes が.",
+              "vi": "Trong mệnh đề bổ nghĩa, chủ ngữ dùng が."
+            }
+          },
+          {
+            "prompt": "きのう（　）本はおもしろいです。（bought — 買います）",
+            "options": [
+              "買った",
+              "買います",
+              "買って",
+              "買う"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "Use plain past 買った before the noun.",
+              "vi": "Dùng quá khứ thể thường 買った trước danh từ."
+            }
+          },
+          {
+            "prompt": "あそこに（　）人は田中さんです。（is there — います）",
+            "options": [
+              "いる",
+              "います",
+              "いた",
+              "あって"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "Plain form いる modifies 人.",
+              "vi": "Thể thường いる bổ nghĩa cho 人."
+            }
+          },
+          {
+            "prompt": "（　）音楽が好きですか。（what kind of）",
+            "options": [
+              "どんな",
+              "どう",
+              "どれ",
+              "どこ"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "どんな + noun = 'what kind of'.",
+              "vi": "どんな + danh từ = 'loại nào'."
+            }
+          },
+          {
+            "prompt": "日本は（　）国ですか。",
+            "options": [
+              "どんな",
+              "どこ",
+              "どちら",
+              "どう"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "どんな attaches to the noun 国.",
+              "vi": "どんな gắn với danh từ 国."
+            }
+          }
+        ]
       }
     ]
   },
@@ -10122,6 +11882,86 @@
           "vi": "Kiểm tra từ vựng"
         },
         "source": "vocab-auto"
+      },
+      {
+        "kind": "exercise",
+        "source": "authored",
+        "title": {
+          "en": "More practice",
+          "vi": "Luyện tập thêm"
+        },
+        "items": [
+          {
+            "prompt": "暇な（　）、本を読みます。（when）",
+            "options": [
+              "とき",
+              "こと",
+              "から",
+              "まで"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "な-adjective + な + とき.",
+              "vi": "Tính từ な + な + とき."
+            }
+          },
+          {
+            "prompt": "このボタンを押す（　）、ドアが開きます。（natural result）",
+            "options": [
+              "と",
+              "とき",
+              "たら",
+              "ので"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "と marks an automatic result.",
+              "vi": "と đánh dấu kết quả tự nhiên."
+            }
+          },
+          {
+            "prompt": "ここでバス（　）降ります。",
+            "options": [
+              "を",
+              "に",
+              "で",
+              "へ"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "降ります takes を for the vehicle.",
+              "vi": "降ります dùng を cho phương tiện."
+            }
+          },
+          {
+            "prompt": "毎朝公園（　）散歩します。",
+            "options": [
+              "を",
+              "で",
+              "に",
+              "へ"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "を marks the path of movement.",
+              "vi": "を đánh dấu lộ trình di chuyển."
+            }
+          },
+          {
+            "prompt": "子供（　）とき、京都に住んでいました。（when a child）",
+            "options": [
+              "の",
+              "な",
+              "だ",
+              "が"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "Nouns take の before とき.",
+              "vi": "Danh từ thêm の trước とき."
+            }
+          }
+        ]
       }
     ]
   },
@@ -10584,6 +12424,86 @@
           "vi": "Kiểm tra từ vựng"
         },
         "source": "vocab-auto"
+      },
+      {
+        "kind": "exercise",
+        "source": "authored",
+        "title": {
+          "en": "More practice",
+          "vi": "Luyện tập thêm"
+        },
+        "items": [
+          {
+            "prompt": "田中さんがわたしに本を（　）。（gave me）",
+            "options": [
+              "くれました",
+              "あげました",
+              "もらいました",
+              "しました"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "Given to me → くれました.",
+              "vi": "Cho tôi → くれました."
+            }
+          },
+          {
+            "prompt": "田中さんがわたし（　）本をくれました。",
+            "options": [
+              "に",
+              "が",
+              "を",
+              "で"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "に marks the receiver (me).",
+              "vi": "に đánh dấu người nhận (tôi)."
+            }
+          },
+          {
+            "prompt": "わたしは友達に日本語を教えて（　）。（did for them）",
+            "options": [
+              "あげました",
+              "くれました",
+              "もらいました",
+              "いました"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "Do a favour for someone → てあげます.",
+              "vi": "Làm ơn cho ai → てあげます."
+            }
+          },
+          {
+            "prompt": "ミラーさんに写真を撮って（　）。（had them do for me）",
+            "options": [
+              "もらいました",
+              "あげました",
+              "くれました",
+              "しました"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "Have someone do for you → てもらいます.",
+              "vi": "Nhờ ai làm cho mình → てもらいます."
+            }
+          },
+          {
+            "prompt": "田中さんが手伝って（　）。（did for me）",
+            "options": [
+              "くれました",
+              "あげました",
+              "もらいました",
+              "いました"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "Someone does for me → てくれます.",
+              "vi": "Ai đó làm cho tôi → てくれます."
+            }
+          }
+        ]
       }
     ]
   },
@@ -11027,6 +12947,86 @@
           "vi": "Kiểm tra từ vựng"
         },
         "source": "vocab-auto"
+      },
+      {
+        "kind": "exercise",
+        "source": "authored",
+        "title": {
+          "en": "More practice",
+          "vi": "Luyện tập thêm"
+        },
+        "items": [
+          {
+            "prompt": "お金が（　）、旅行します。（if there is — あります）",
+            "options": [
+              "あったら",
+              "あると",
+              "あって",
+              "あるなら"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "たら from the た-form: あった → あったら.",
+              "vi": "たら từ thể た: あった → あったら."
+            }
+          },
+          {
+            "prompt": "安（　）、買います。（if cheap）",
+            "options": [
+              "かったら",
+              "いたら",
+              "くても",
+              "ければ"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "い-adjective たら: 安かったら.",
+              "vi": "たら tính từ い: 安かったら."
+            }
+          },
+          {
+            "prompt": "雨が降（　）、行きます。（even if）",
+            "options": [
+              "っても",
+              "ったら",
+              "ると",
+              "って"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "ても from the て-form: 降っても.",
+              "vi": "ても từ thể て: 降っても."
+            }
+          },
+          {
+            "prompt": "高（　）、買います。（even if expensive）",
+            "options": [
+              "くても",
+              "かったら",
+              "いても",
+              "ければ"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "い-adjective ても: 高くても.",
+              "vi": "ても tính từ い: 高くても."
+            }
+          },
+          {
+            "prompt": "日曜日（　）、働きます。（even on）",
+            "options": [
+              "でも",
+              "ても",
+              "だら",
+              "なら"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "Noun + でも = 'even'.",
+              "vi": "Danh từ + でも = 'dù'."
+            }
+          }
+        ]
       }
     ]
   }

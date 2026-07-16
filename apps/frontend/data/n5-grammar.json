@@ -63,6 +63,139 @@
           "tanakasan wa",
           "sensei desu."
         ]
+      },
+      {
+        "jp": "田中さんは医者です。",
+        "reading": "たなかさんはいしゃです。",
+        "en": "Mr. Tanaka is a doctor.",
+        "vi": "Ông Tanaka là bác sĩ.",
+        "tokens": [
+          [
+            {
+              "t": "田中",
+              "f": "たなか"
+            },
+            {
+              "t": "さんは"
+            }
+          ],
+          [
+            {
+              "t": "医者",
+              "f": "いしゃ"
+            },
+            {
+              "t": "です。"
+            }
+          ]
+        ],
+        "romaji": "tanakasan wa isha desu.",
+        "romajiChunks": [
+          "tanakasan wa",
+          "isha desu."
+        ]
+      },
+      {
+        "jp": "わたしは会社員です。",
+        "reading": "わたしはかいしゃいんです。",
+        "en": "I am a company employee.",
+        "vi": "Tôi là nhân viên công ty.",
+        "tokens": [
+          [
+            {
+              "t": "わたしは"
+            }
+          ],
+          [
+            {
+              "t": "会社",
+              "f": "かいしゃ"
+            },
+            {
+              "t": "員",
+              "f": "いん"
+            },
+            {
+              "t": "です。"
+            }
+          ]
+        ],
+        "romaji": "watashi wa kaishain desu.",
+        "romajiChunks": [
+          "watashi wa",
+          "kaishain desu."
+        ]
+      },
+      {
+        "jp": "あの人は銀行員です。",
+        "reading": "あのひとはぎんこういんです。",
+        "en": "That person is a bank clerk.",
+        "vi": "Người kia là nhân viên ngân hàng.",
+        "tokens": [
+          [
+            {
+              "t": "あの"
+            }
+          ],
+          [
+            {
+              "t": "人",
+              "f": "ひと"
+            },
+            {
+              "t": "は"
+            }
+          ],
+          [
+            {
+              "t": "銀行",
+              "f": "ぎんこう"
+            },
+            {
+              "t": "員",
+              "f": "いん"
+            },
+            {
+              "t": "です。"
+            }
+          ]
+        ],
+        "romaji": "ano hito wa ginkouin desu.",
+        "romajiChunks": [
+          "ano",
+          "hito wa",
+          "ginkouin desu."
+        ]
+      },
+      {
+        "jp": "ミラーさんはアメリカ人です。",
+        "reading": "ミラーさんはアメリカじんです。",
+        "en": "Mr. Miller is American.",
+        "vi": "Anh Miller là người Mỹ.",
+        "tokens": [
+          [
+            {
+              "t": "ミラーさんは"
+            }
+          ],
+          [
+            {
+              "t": "アメリカ"
+            },
+            {
+              "t": "人",
+              "f": "じん"
+            },
+            {
+              "t": "です。"
+            }
+          ]
+        ],
+        "romaji": "miraasan wa amerikajin desu.",
+        "romajiChunks": [
+          "miraasan wa",
+          "amerikajin desu."
+        ]
       }
     ],
     "meaningVi": "は đánh dấu chủ đề, です là đuôi câu lịch sự — 'X là Y'."
@@ -99,6 +232,132 @@
         "romajiChunks": [
           "watashi wa",
           "sensei jaarimasen."
+        ]
+      },
+      {
+        "jp": "わたしは医者じゃありません。",
+        "reading": "わたしはいしゃじゃありません。",
+        "en": "I am not a doctor.",
+        "vi": "Tôi không phải là bác sĩ.",
+        "tokens": [
+          [
+            {
+              "t": "わたしは"
+            }
+          ],
+          [
+            {
+              "t": "医者",
+              "f": "いしゃ"
+            },
+            {
+              "t": "じゃありません。"
+            }
+          ]
+        ],
+        "romaji": "watashi wa isha jaarimasen.",
+        "romajiChunks": [
+          "watashi wa",
+          "isha jaarimasen."
+        ]
+      },
+      {
+        "jp": "サントスさんは学生じゃありません。",
+        "reading": "サントスさんはがくせいじゃありません。",
+        "en": "Mr. Santos is not a student.",
+        "vi": "Anh Santos không phải là sinh viên.",
+        "tokens": [
+          [
+            {
+              "t": "サントスさんは"
+            }
+          ],
+          [
+            {
+              "t": "学生",
+              "f": "がくせい"
+            },
+            {
+              "t": "じゃありません。"
+            }
+          ]
+        ],
+        "romaji": "santosusan wa gakusei jaarimasen.",
+        "romajiChunks": [
+          "santosusan wa",
+          "gakusei jaarimasen."
+        ]
+      },
+      {
+        "jp": "あの人は先生じゃありません。",
+        "reading": "あのひとはせんせいじゃありません。",
+        "en": "That person is not a teacher.",
+        "vi": "Người kia không phải là giáo viên.",
+        "tokens": [
+          [
+            {
+              "t": "あの"
+            }
+          ],
+          [
+            {
+              "t": "人",
+              "f": "ひと"
+            },
+            {
+              "t": "は"
+            }
+          ],
+          [
+            {
+              "t": "先生",
+              "f": "せんせい"
+            },
+            {
+              "t": "じゃありません。"
+            }
+          ]
+        ],
+        "romaji": "ano hito wa sensei jaarimasen.",
+        "romajiChunks": [
+          "ano",
+          "hito wa",
+          "sensei jaarimasen."
+        ]
+      },
+      {
+        "jp": "田中さんは会社員じゃありません。",
+        "reading": "たなかさんはかいしゃいんじゃありません。",
+        "en": "Mr. Tanaka is not a company employee.",
+        "vi": "Ông Tanaka không phải là nhân viên công ty.",
+        "tokens": [
+          [
+            {
+              "t": "田中",
+              "f": "たなか"
+            },
+            {
+              "t": "さんは"
+            }
+          ],
+          [
+            {
+              "t": "会社",
+              "f": "かいしゃ"
+            },
+            {
+              "t": "員",
+              "f": "いん"
+            },
+            {
+              "t": "じゃありません。"
+            }
+          ]
+        ],
+        "romaji": "tanakasan wa kaishain jaarimasen.",
+        "romajiChunks": [
+          "tanakasan wa",
+          "kaishain jaarimasen."
         ]
       }
     ],
@@ -141,6 +400,101 @@
           "miraasan wa",
           "kaishain desu ka."
         ]
+      },
+      {
+        "jp": "あなたは学生ですか。",
+        "reading": "あなたはがくせいですか。",
+        "en": "Are you a student?",
+        "vi": "Bạn là sinh viên phải không?",
+        "tokens": [
+          [
+            {
+              "t": "あなたは"
+            }
+          ],
+          [
+            {
+              "t": "学生",
+              "f": "がくせい"
+            },
+            {
+              "t": "ですか。"
+            }
+          ]
+        ],
+        "romaji": "anata wa gakusei desu ka.",
+        "romajiChunks": [
+          "anata wa",
+          "gakusei desu ka."
+        ]
+      },
+      {
+        "jp": "田中さんは先生ですか。",
+        "reading": "たなかさんはせんせいですか。",
+        "en": "Is Mr. Tanaka a teacher?",
+        "vi": "Ông Tanaka là giáo viên phải không?",
+        "tokens": [
+          [
+            {
+              "t": "田中",
+              "f": "たなか"
+            },
+            {
+              "t": "さんは"
+            }
+          ],
+          [
+            {
+              "t": "先生",
+              "f": "せんせい"
+            },
+            {
+              "t": "ですか。"
+            }
+          ]
+        ],
+        "romaji": "tanakasan wa sensei desu ka.",
+        "romajiChunks": [
+          "tanakasan wa",
+          "sensei desu ka."
+        ]
+      },
+      {
+        "jp": "あの人は医者ですか。",
+        "reading": "あのひとはいしゃですか。",
+        "en": "Is that person a doctor?",
+        "vi": "Người kia là bác sĩ phải không?",
+        "tokens": [
+          [
+            {
+              "t": "あの"
+            }
+          ],
+          [
+            {
+              "t": "人",
+              "f": "ひと"
+            },
+            {
+              "t": "は"
+            }
+          ],
+          [
+            {
+              "t": "医者",
+              "f": "いしゃ"
+            },
+            {
+              "t": "ですか。"
+            }
+          ]
+        ],
+        "romaji": "ano hito wa isha desu ka.",
+        "romajiChunks": [
+          "ano",
+          "hito wa",
+          "isha desu ka."
+        ]
       }
     ],
     "meaningVi": "Thêm か vào cuối câu để tạo câu hỏi. Không cần dấu chấm hỏi."
@@ -177,6 +531,108 @@
         "romajiChunks": [
           "watashi mo",
           "gakusei desu."
+        ]
+      },
+      {
+        "jp": "田中さんも先生です。",
+        "reading": "たなかさんもせんせいです。",
+        "en": "Mr. Tanaka is also a teacher.",
+        "vi": "Ông Tanaka cũng là giáo viên.",
+        "tokens": [
+          [
+            {
+              "t": "田中",
+              "f": "たなか"
+            },
+            {
+              "t": "さんも"
+            }
+          ],
+          [
+            {
+              "t": "先生",
+              "f": "せんせい"
+            },
+            {
+              "t": "です。"
+            }
+          ]
+        ],
+        "romaji": "tanakasan mo sensei desu.",
+        "romajiChunks": [
+          "tanakasan mo",
+          "sensei desu."
+        ]
+      },
+      {
+        "jp": "あの人もアメリカ人です。",
+        "reading": "あのひともアメリカじんです。",
+        "en": "That person is also American.",
+        "vi": "Người kia cũng là người Mỹ.",
+        "tokens": [
+          [
+            {
+              "t": "あの"
+            }
+          ],
+          [
+            {
+              "t": "人",
+              "f": "ひと"
+            },
+            {
+              "t": "も"
+            }
+          ],
+          [
+            {
+              "t": "アメリカ"
+            },
+            {
+              "t": "人",
+              "f": "じん"
+            },
+            {
+              "t": "です。"
+            }
+          ]
+        ],
+        "romaji": "ano hito mo amerikajin desu.",
+        "romajiChunks": [
+          "ano",
+          "hito mo",
+          "amerikajin desu."
+        ]
+      },
+      {
+        "jp": "サントスさんも会社員です。",
+        "reading": "サントスさんもかいしゃいんです。",
+        "en": "Mr. Santos is also a company employee.",
+        "vi": "Anh Santos cũng là nhân viên công ty.",
+        "tokens": [
+          [
+            {
+              "t": "サントスさんも"
+            }
+          ],
+          [
+            {
+              "t": "会社",
+              "f": "かいしゃ"
+            },
+            {
+              "t": "員",
+              "f": "いん"
+            },
+            {
+              "t": "です。"
+            }
+          ]
+        ],
+        "romaji": "santosusan mo kaishain desu.",
+        "romajiChunks": [
+          "santosusan mo",
+          "kaishain desu."
         ]
       }
     ],
@@ -252,6 +708,127 @@
           "toyota no",
           "kuruma desu."
         ]
+      },
+      {
+        "jp": "あの人は日本語の先生です。",
+        "reading": "あのひとはにほんごのせんせいです。",
+        "en": "That person is a Japanese-language teacher.",
+        "vi": "Người kia là giáo viên tiếng Nhật.",
+        "tokens": [
+          [
+            {
+              "t": "あの"
+            }
+          ],
+          [
+            {
+              "t": "人",
+              "f": "ひと"
+            },
+            {
+              "t": "は"
+            }
+          ],
+          [
+            {
+              "t": "日本語",
+              "f": "にほんご"
+            },
+            {
+              "t": "の"
+            }
+          ],
+          [
+            {
+              "t": "先生",
+              "f": "せんせい"
+            },
+            {
+              "t": "です。"
+            }
+          ]
+        ],
+        "romaji": "ano hito wa nihongo no sensei desu.",
+        "romajiChunks": [
+          "ano",
+          "hito wa",
+          "nihongo no",
+          "sensei desu."
+        ]
+      },
+      {
+        "jp": "これは日本の車です。",
+        "reading": "これはにほんのくるまです。",
+        "en": "This is a Japanese car.",
+        "vi": "Đây là xe hơi của Nhật.",
+        "tokens": [
+          [
+            {
+              "t": "これは"
+            }
+          ],
+          [
+            {
+              "t": "日本",
+              "f": "にほん"
+            },
+            {
+              "t": "の"
+            }
+          ],
+          [
+            {
+              "t": "車",
+              "f": "くるま"
+            },
+            {
+              "t": "です。"
+            }
+          ]
+        ],
+        "romaji": "kore wa nihon no kuruma desu.",
+        "romajiChunks": [
+          "kore wa",
+          "nihon no",
+          "kuruma desu."
+        ]
+      },
+      {
+        "jp": "サントスさんはブラジルの会社員です。",
+        "reading": "サントスさんはブラジルのかいしゃいんです。",
+        "en": "Mr. Santos is a company employee from Brazil.",
+        "vi": "Anh Santos là nhân viên công ty của Brazil.",
+        "tokens": [
+          [
+            {
+              "t": "サントスさんは"
+            }
+          ],
+          [
+            {
+              "t": "ブラジルの"
+            }
+          ],
+          [
+            {
+              "t": "会社",
+              "f": "かいしゃ"
+            },
+            {
+              "t": "員",
+              "f": "いん"
+            },
+            {
+              "t": "です。"
+            }
+          ]
+        ],
+        "romaji": "santosusan wa burajiru no kaishain desu.",
+        "romajiChunks": [
+          "santosusan wa",
+          "burajiru no",
+          "kaishain desu."
+        ]
       }
     ],
     "meaningVi": "の nối hai danh từ: sở hữu, nhóm hoặc đặc điểm — 'Y của X'."
@@ -316,6 +893,60 @@
           "are wa",
           "nani desu ka."
         ]
+      },
+      {
+        "jp": "それは傘です。",
+        "reading": "それはかさです。",
+        "en": "That is an umbrella.",
+        "vi": "Đó là cái ô.",
+        "tokens": [
+          [
+            {
+              "t": "それは"
+            }
+          ],
+          [
+            {
+              "t": "傘",
+              "f": "かさ"
+            },
+            {
+              "t": "です。"
+            }
+          ]
+        ],
+        "romaji": "sore wa kasa desu.",
+        "romajiChunks": [
+          "sore wa",
+          "kasa desu."
+        ]
+      },
+      {
+        "jp": "あれは時計です。",
+        "reading": "あれはとけいです。",
+        "en": "That (over there) is a clock.",
+        "vi": "Kia là cái đồng hồ.",
+        "tokens": [
+          [
+            {
+              "t": "あれは"
+            }
+          ],
+          [
+            {
+              "t": "時計",
+              "f": "とけい"
+            },
+            {
+              "t": "です。"
+            }
+          ]
+        ],
+        "romaji": "are wa tokei desu.",
+        "romajiChunks": [
+          "are wa",
+          "tokei desu."
+        ]
       }
     ],
     "meaningVi": "これ・それ・あれ = 'cái này / cái đó / cái kia', dùng độc lập làm chủ ngữ."
@@ -358,6 +989,72 @@
           "kono",
           "hon wa",
           "watashino desu."
+        ]
+      },
+      {
+        "jp": "そのかばんはミラーさんのです。",
+        "reading": "そのかばんはミラーさんのです。",
+        "en": "That bag is Mr. Miller's.",
+        "vi": "Cái cặp đó là của anh Miller.",
+        "tokens": [
+          [
+            {
+              "t": "その"
+            }
+          ],
+          [
+            {
+              "t": "かばんは"
+            }
+          ],
+          [
+            {
+              "t": "ミラーさんのです。"
+            }
+          ]
+        ],
+        "romaji": "sono kaban wa miraasanno desu.",
+        "romajiChunks": [
+          "sono",
+          "kaban wa",
+          "miraasanno desu."
+        ]
+      },
+      {
+        "jp": "あの人は田中さんです。",
+        "reading": "あのひとはたなかさんです。",
+        "en": "That person is Mr. Tanaka.",
+        "vi": "Người kia là ông Tanaka.",
+        "tokens": [
+          [
+            {
+              "t": "あの"
+            }
+          ],
+          [
+            {
+              "t": "人",
+              "f": "ひと"
+            },
+            {
+              "t": "は"
+            }
+          ],
+          [
+            {
+              "t": "田中",
+              "f": "たなか"
+            },
+            {
+              "t": "さんです。"
+            }
+          ]
+        ],
+        "romaji": "ano hito wa tanakasan desu.",
+        "romajiChunks": [
+          "ano",
+          "hito wa",
+          "tanakasan desu."
         ]
       }
     ],
@@ -414,6 +1111,112 @@
           "hai,",
           "sou desu."
         ]
+      },
+      {
+        "jp": "「これはあなたの傘ですか。」「はい、そうです。」",
+        "reading": "「これはあなたのかさですか。」「はい、そうです。」",
+        "en": "\"Is this your umbrella?\" \"Yes, it is.\"",
+        "vi": "\"Đây là cái ô của bạn phải không?\" \"Vâng, đúng vậy.\"",
+        "tokens": [
+          [
+            {
+              "t": "「"
+            }
+          ],
+          [
+            {
+              "t": "これは"
+            }
+          ],
+          [
+            {
+              "t": "あなたの"
+            }
+          ],
+          [
+            {
+              "t": "傘",
+              "f": "かさ"
+            },
+            {
+              "t": "ですか。」「"
+            }
+          ],
+          [
+            {
+              "t": "はい、"
+            }
+          ],
+          [
+            {
+              "t": "そうです。」"
+            }
+          ]
+        ],
+        "romaji": "kore wa anata no kasa desu ka. hai, sou desu.",
+        "romajiChunks": [
+          "",
+          "kore wa",
+          "anata no",
+          "kasa desu ka.",
+          "hai,",
+          "sou desu."
+        ]
+      },
+      {
+        "jp": "「それは英語の本ですか。」「いいえ、ちがいます。」",
+        "reading": "「それはえいごのほんですか。」「いいえ、ちがいます。」",
+        "en": "\"Is that an English book?\" \"No, it isn't.\"",
+        "vi": "\"Đó là sách tiếng Anh phải không?\" \"Không, không phải.\"",
+        "tokens": [
+          [
+            {
+              "t": "「"
+            }
+          ],
+          [
+            {
+              "t": "それは"
+            }
+          ],
+          [
+            {
+              "t": "英語",
+              "f": "えいご"
+            },
+            {
+              "t": "の"
+            }
+          ],
+          [
+            {
+              "t": "本",
+              "f": "ほん"
+            },
+            {
+              "t": "ですか。」「"
+            }
+          ],
+          [
+            {
+              "t": "いいえ、"
+            }
+          ],
+          [
+            {
+              "t": "ちがいます。」"
+            }
+          ]
+        ],
+        "romaji": "sore wa eigo no hon desu ka. iie, chigaimasu.",
+        "romajiChunks": [
+          "",
+          "sore wa",
+          "eigo no",
+          "hon desu ka.",
+          "iie,",
+          "chigaimasu."
+        ]
       }
     ],
     "meaningVi": "Trả lời câu hỏi có/không: はい、そうです ('vâng, đúng vậy'), いいえ、ちがいます ('không, không phải')."
@@ -457,6 +1260,68 @@
           "bourupen desu ka,",
           "enpitsu desu ka."
         ]
+      },
+      {
+        "jp": "これは鉛筆ですか、ボールペンですか。",
+        "reading": "これはえんぴつですか、ボールペンですか。",
+        "en": "Is this a pencil or a ballpoint pen?",
+        "vi": "Đây là bút chì hay bút bi?",
+        "tokens": [
+          [
+            {
+              "t": "これは"
+            }
+          ],
+          [
+            {
+              "t": "鉛筆",
+              "f": "えんぴつ"
+            },
+            {
+              "t": "ですか、"
+            }
+          ],
+          [
+            {
+              "t": "ボールペンですか。"
+            }
+          ]
+        ],
+        "romaji": "kore wa enpitsu desu ka, bourupen desu ka.",
+        "romajiChunks": [
+          "kore wa",
+          "enpitsu desu ka,",
+          "bourupen desu ka."
+        ]
+      },
+      {
+        "jp": "あれはテレビですか、ラジオですか。",
+        "reading": "あれはテレビですか、ラジオですか。",
+        "en": "Is that (over there) a TV or a radio?",
+        "vi": "Kia là ti vi hay radio?",
+        "tokens": [
+          [
+            {
+              "t": "あれは"
+            }
+          ],
+          [
+            {
+              "t": "テレビですか、"
+            }
+          ],
+          [
+            {
+              "t": "ラジオですか。"
+            }
+          ]
+        ],
+        "romaji": "are wa terebi desu ka, rajio desu ka.",
+        "romajiChunks": [
+          "are wa",
+          "terebi desu ka,",
+          "rajio desu ka."
+        ]
       }
     ],
     "meaningVi": "Đưa ra lựa chọn giữa hai thứ — 'là A hay B?'."
@@ -489,6 +1354,83 @@
         "romajiChunks": [
           "toire wa",
           "asoko desu."
+        ]
+      },
+      {
+        "jp": "ここは教室です。",
+        "reading": "ここはきょうしつです。",
+        "en": "This place is a classroom.",
+        "vi": "Đây là phòng học.",
+        "tokens": [
+          [
+            {
+              "t": "ここは"
+            }
+          ],
+          [
+            {
+              "t": "教室",
+              "f": "きょうしつ"
+            },
+            {
+              "t": "です。"
+            }
+          ]
+        ],
+        "romaji": "koko wa kyoushitsu desu.",
+        "romajiChunks": [
+          "koko wa",
+          "kyoushitsu desu."
+        ]
+      },
+      {
+        "jp": "そこは食堂です。",
+        "reading": "そこはしょくどうです。",
+        "en": "That place (by you) is the dining hall.",
+        "vi": "Chỗ đó là nhà ăn.",
+        "tokens": [
+          [
+            {
+              "t": "そこは"
+            }
+          ],
+          [
+            {
+              "t": "食堂",
+              "f": "しょくどう"
+            },
+            {
+              "t": "です。"
+            }
+          ]
+        ],
+        "romaji": "soko wa shokudou desu.",
+        "romajiChunks": [
+          "soko wa",
+          "shokudou desu."
+        ]
+      },
+      {
+        "jp": "あそこはトイレです。",
+        "reading": "あそこはトイレです。",
+        "en": "That place over there is the toilet.",
+        "vi": "Kia là nhà vệ sinh.",
+        "tokens": [
+          [
+            {
+              "t": "あそこは"
+            }
+          ],
+          [
+            {
+              "t": "トイレです。"
+            }
+          ]
+        ],
+        "romaji": "asoko wa toire desu.",
+        "romajiChunks": [
+          "asoko wa",
+          "toire desu."
         ]
       }
     ],
@@ -557,6 +1499,83 @@
         "romajiChunks": [
           "denwa wa",
           "doko desu ka."
+        ]
+      },
+      {
+        "jp": "受付はあそこです。",
+        "reading": "うけつけはあそこです。",
+        "en": "The reception is over there.",
+        "vi": "Quầy tiếp tân ở đằng kia.",
+        "tokens": [
+          [
+            {
+              "t": "受付",
+              "f": "うけつけ"
+            },
+            {
+              "t": "は"
+            }
+          ],
+          [
+            {
+              "t": "あそこです。"
+            }
+          ]
+        ],
+        "romaji": "uketsuke wa asoko desu.",
+        "romajiChunks": [
+          "uketsuke wa",
+          "asoko desu."
+        ]
+      },
+      {
+        "jp": "ミラーさんは事務所です。",
+        "reading": "ミラーさんはじむしょです。",
+        "en": "Mr. Miller is in the office.",
+        "vi": "Anh Miller đang ở văn phòng.",
+        "tokens": [
+          [
+            {
+              "t": "ミラーさんは"
+            }
+          ],
+          [
+            {
+              "t": "事務所",
+              "f": "じむしょ"
+            },
+            {
+              "t": "です。"
+            }
+          ]
+        ],
+        "romaji": "miraasan wa jimusho desu.",
+        "romajiChunks": [
+          "miraasan wa",
+          "jimusho desu."
+        ]
+      },
+      {
+        "jp": "トイレはそこです。",
+        "reading": "トイレはそこです。",
+        "en": "The toilet is there.",
+        "vi": "Nhà vệ sinh ở đó.",
+        "tokens": [
+          [
+            {
+              "t": "トイレは"
+            }
+          ],
+          [
+            {
+              "t": "そこです。"
+            }
+          ]
+        ],
+        "romaji": "toire wa soko desu.",
+        "romajiChunks": [
+          "toire wa",
+          "soko desu."
         ]
       }
     ],
@@ -650,6 +1669,120 @@
           "6ji ni",
           "okimasu."
         ]
+      },
+      {
+        "jp": "今何時ですか。",
+        "reading": "いまなんじですか。",
+        "en": "What time is it now?",
+        "vi": "Bây giờ là mấy giờ?",
+        "tokens": [
+          [
+            {
+              "t": "今",
+              "f": "いま"
+            }
+          ],
+          [
+            {
+              "t": "何",
+              "f": "なん"
+            },
+            {
+              "t": "時",
+              "f": "じ"
+            },
+            {
+              "t": "ですか。"
+            }
+          ]
+        ],
+        "romaji": "ima nanji desu ka.",
+        "romajiChunks": [
+          "ima",
+          "nanji desu ka."
+        ]
+      },
+      {
+        "jp": "毎朝7時に起きます。",
+        "reading": "まいあさ7じにおきます。",
+        "en": "I get up at seven every morning.",
+        "vi": "Mỗi sáng tôi thức dậy lúc 7 giờ.",
+        "tokens": [
+          [
+            {
+              "t": "毎朝",
+              "f": "まいあさ"
+            }
+          ],
+          [
+            {
+              "t": "7"
+            },
+            {
+              "t": "時",
+              "f": "じ"
+            },
+            {
+              "t": "に"
+            }
+          ],
+          [
+            {
+              "t": "起",
+              "f": "お"
+            },
+            {
+              "t": "きます。"
+            }
+          ]
+        ],
+        "romaji": "maiasa 7ji ni okimasu.",
+        "romajiChunks": [
+          "maiasa",
+          "7ji ni",
+          "okimasu."
+        ]
+      },
+      {
+        "jp": "毎晩11時に寝ます。",
+        "reading": "まいばん11じにねます。",
+        "en": "I go to bed at eleven every night.",
+        "vi": "Mỗi tối tôi đi ngủ lúc 11 giờ.",
+        "tokens": [
+          [
+            {
+              "t": "毎晩",
+              "f": "まいばん"
+            }
+          ],
+          [
+            {
+              "t": "11"
+            },
+            {
+              "t": "時",
+              "f": "じ"
+            },
+            {
+              "t": "に"
+            }
+          ],
+          [
+            {
+              "t": "寝",
+              "f": "ね"
+            },
+            {
+              "t": "ます。"
+            }
+          ]
+        ],
+        "romaji": "maiban 11ji ni nemasu.",
+        "romajiChunks": [
+          "maiban",
+          "11ji ni",
+          "nemasu."
+        ]
       }
     ],
     "meaningVi": "Nói giờ. Thêm に vào mốc thời gian để nói 'lúc' khi có động từ theo sau."
@@ -706,6 +1839,47 @@
           "ginkou wa",
           "9ji kara",
           "3ji made desu."
+        ]
+      },
+      {
+        "jp": "会社は月曜日から金曜日までです。",
+        "reading": "かいしゃはげつようびからきんようびまでです。",
+        "en": "Work is from Monday to Friday.",
+        "vi": "Công ty làm việc từ thứ Hai đến thứ Sáu.",
+        "tokens": [
+          [
+            {
+              "t": "会社",
+              "f": "かいしゃ"
+            },
+            {
+              "t": "は"
+            }
+          ],
+          [
+            {
+              "t": "月曜日",
+              "f": "げつようび"
+            },
+            {
+              "t": "から"
+            }
+          ],
+          [
+            {
+              "t": "金曜日",
+              "f": "きんようび"
+            },
+            {
+              "t": "までです。"
+            }
+          ]
+        ],
+        "romaji": "kaisha wa getsuyoubi kara kin'youbi made desu.",
+        "romajiChunks": [
+          "kaisha wa",
+          "getsuyoubi kara",
+          "kin'youbi made desu."
         ]
       }
     ],
@@ -779,6 +1953,96 @@
           "kyou wa",
           "hatarakimasen."
         ]
+      },
+      {
+        "jp": "毎日勉強します。",
+        "reading": "まいにちべんきょうします。",
+        "en": "I study every day.",
+        "vi": "Tôi học mỗi ngày.",
+        "tokens": [
+          [
+            {
+              "t": "毎日",
+              "f": "まいにち"
+            }
+          ],
+          [
+            {
+              "t": "勉強",
+              "f": "べんきょう"
+            }
+          ],
+          [
+            {
+              "t": "します。"
+            }
+          ]
+        ],
+        "romaji": "mainichi benkyou shimasu.",
+        "romajiChunks": [
+          "mainichi",
+          "benkyou",
+          "shimasu."
+        ]
+      },
+      {
+        "jp": "昨日働きました。",
+        "reading": "きのうはたらきました。",
+        "en": "I worked yesterday.",
+        "vi": "Hôm qua tôi đã làm việc.",
+        "tokens": [
+          [
+            {
+              "t": "昨日",
+              "f": "きのう"
+            }
+          ],
+          [
+            {
+              "t": "働",
+              "f": "はたら"
+            },
+            {
+              "t": "きました。"
+            }
+          ]
+        ],
+        "romaji": "kinou hatarakimashita.",
+        "romajiChunks": [
+          "kinou",
+          "hatarakimashita."
+        ]
+      },
+      {
+        "jp": "日曜日は働きません。",
+        "reading": "にちようびははたらきません。",
+        "en": "I don't work on Sundays.",
+        "vi": "Chủ nhật tôi không làm việc.",
+        "tokens": [
+          [
+            {
+              "t": "日曜日",
+              "f": "にちようび"
+            },
+            {
+              "t": "は"
+            }
+          ],
+          [
+            {
+              "t": "働",
+              "f": "はたら"
+            },
+            {
+              "t": "きません。"
+            }
+          ]
+        ],
+        "romaji": "nichiyoubi wa hatarakimasen.",
+        "romajiChunks": [
+          "nichiyoubi wa",
+          "hatarakimasen."
+        ]
       }
     ],
     "meaningVi": "Bốn đuôi động từ lịch sự: khẳng định/phủ định ở hiện tại và quá khứ."
@@ -820,6 +2084,121 @@
           "kyouto e",
           "ikimasu."
         ]
+      },
+      {
+        "jp": "あした東京へ行きます。",
+        "reading": "あしたとうきょうへいきます。",
+        "en": "I will go to Tokyo tomorrow.",
+        "vi": "Ngày mai tôi sẽ đi Tokyo.",
+        "tokens": [
+          [
+            {
+              "t": "あした"
+            }
+          ],
+          [
+            {
+              "t": "東京",
+              "f": "とうきょう"
+            },
+            {
+              "t": "へ"
+            }
+          ],
+          [
+            {
+              "t": "行",
+              "f": "い"
+            },
+            {
+              "t": "きます。"
+            }
+          ]
+        ],
+        "romaji": "ashita toukyou e ikimasu.",
+        "romajiChunks": [
+          "ashita",
+          "toukyou e",
+          "ikimasu."
+        ]
+      },
+      {
+        "jp": "先週京都へ行きました。",
+        "reading": "せんしゅうきょうとへいきました。",
+        "en": "I went to Kyoto last week.",
+        "vi": "Tuần trước tôi đã đi Kyoto.",
+        "tokens": [
+          [
+            {
+              "t": "先週",
+              "f": "せんしゅう"
+            }
+          ],
+          [
+            {
+              "t": "京都",
+              "f": "きょうと"
+            },
+            {
+              "t": "へ"
+            }
+          ],
+          [
+            {
+              "t": "行",
+              "f": "い"
+            },
+            {
+              "t": "きました。"
+            }
+          ]
+        ],
+        "romaji": "senshuu kyouto e ikimashita.",
+        "romajiChunks": [
+          "senshuu",
+          "kyouto e",
+          "ikimashita."
+        ]
+      },
+      {
+        "jp": "6時にうちへ帰ります。",
+        "reading": "6じにうちへかえります。",
+        "en": "I will go home at six.",
+        "vi": "Tôi sẽ về nhà lúc 6 giờ.",
+        "tokens": [
+          [
+            {
+              "t": "6"
+            },
+            {
+              "t": "時",
+              "f": "じ"
+            },
+            {
+              "t": "に"
+            }
+          ],
+          [
+            {
+              "t": "うちへ"
+            }
+          ],
+          [
+            {
+              "t": "帰",
+              "f": "かえ"
+            },
+            {
+              "t": "ります。"
+            }
+          ]
+        ],
+        "romaji": "6ji ni uchi e kaerimasu.",
+        "romajiChunks": [
+          "6ji ni",
+          "uchi e",
+          "kaerimasu."
+        ]
       }
     ],
     "meaningVi": "へ (đọc là 'e') đánh dấu điểm đến với 行きます / 来ます / 帰ります."
@@ -860,6 +2239,125 @@
         "romajiChunks": [
           "densha de",
           "ikimasu."
+        ]
+      },
+      {
+        "jp": "電車で会社へ行きます。",
+        "reading": "でんしゃでかいしゃへいきます。",
+        "en": "I go to work by train.",
+        "vi": "Tôi đi làm bằng tàu điện.",
+        "tokens": [
+          [
+            {
+              "t": "電車",
+              "f": "でんしゃ"
+            },
+            {
+              "t": "で"
+            }
+          ],
+          [
+            {
+              "t": "会社",
+              "f": "かいしゃ"
+            },
+            {
+              "t": "へ"
+            }
+          ],
+          [
+            {
+              "t": "行",
+              "f": "い"
+            },
+            {
+              "t": "きます。"
+            }
+          ]
+        ],
+        "romaji": "densha de kaisha e ikimasu.",
+        "romajiChunks": [
+          "densha de",
+          "kaisha e",
+          "ikimasu."
+        ]
+      },
+      {
+        "jp": "バスで学校へ行きます。",
+        "reading": "バスでがっこうへいきます。",
+        "en": "I go to school by bus.",
+        "vi": "Tôi đi học bằng xe buýt.",
+        "tokens": [
+          [
+            {
+              "t": "バスで"
+            }
+          ],
+          [
+            {
+              "t": "学校",
+              "f": "がっこう"
+            },
+            {
+              "t": "へ"
+            }
+          ],
+          [
+            {
+              "t": "行",
+              "f": "い"
+            },
+            {
+              "t": "きます。"
+            }
+          ]
+        ],
+        "romaji": "basu de gakkou e ikimasu.",
+        "romajiChunks": [
+          "basu de",
+          "gakkou e",
+          "ikimasu."
+        ]
+      },
+      {
+        "jp": "飛行機で日本へ来ました。",
+        "reading": "ひこうきでにほんへきました。",
+        "en": "I came to Japan by plane.",
+        "vi": "Tôi đã đến Nhật bằng máy bay.",
+        "tokens": [
+          [
+            {
+              "t": "飛行機",
+              "f": "ひこうき"
+            },
+            {
+              "t": "で"
+            }
+          ],
+          [
+            {
+              "t": "日本",
+              "f": "にほん"
+            },
+            {
+              "t": "へ"
+            }
+          ],
+          [
+            {
+              "t": "来",
+              "f": "き"
+            },
+            {
+              "t": "ました。"
+            }
+          ]
+        ],
+        "romaji": "hikouki de nihon e kimashita.",
+        "romajiChunks": [
+          "hikouki de",
+          "nihon e",
+          "kimashita."
         ]
       }
     ],
@@ -911,6 +2409,84 @@
           "tomodachi to",
           "kyouto e",
           "ikimasu."
+        ]
+      },
+      {
+        "jp": "家族と日本へ来ました。",
+        "reading": "かぞくとにほんへきました。",
+        "en": "I came to Japan with my family.",
+        "vi": "Tôi đã đến Nhật cùng gia đình.",
+        "tokens": [
+          [
+            {
+              "t": "家族",
+              "f": "かぞく"
+            },
+            {
+              "t": "と"
+            }
+          ],
+          [
+            {
+              "t": "日本",
+              "f": "にほん"
+            },
+            {
+              "t": "へ"
+            }
+          ],
+          [
+            {
+              "t": "来",
+              "f": "き"
+            },
+            {
+              "t": "ました。"
+            }
+          ]
+        ],
+        "romaji": "kazoku to nihon e kimashita.",
+        "romajiChunks": [
+          "kazoku to",
+          "nihon e",
+          "kimashita."
+        ]
+      },
+      {
+        "jp": "田中さんとうちへ帰ります。",
+        "reading": "たなかさんとうちへかえります。",
+        "en": "I will go home with Mr. Tanaka.",
+        "vi": "Tôi sẽ về nhà cùng ông Tanaka.",
+        "tokens": [
+          [
+            {
+              "t": "田中",
+              "f": "たなか"
+            },
+            {
+              "t": "さんと"
+            }
+          ],
+          [
+            {
+              "t": "うちへ"
+            }
+          ],
+          [
+            {
+              "t": "帰",
+              "f": "かえ"
+            },
+            {
+              "t": "ります。"
+            }
+          ]
+        ],
+        "romaji": "tanakasan to uchi e kaerimasu.",
+        "romajiChunks": [
+          "tanakasan to",
+          "uchi e",
+          "kaerimasu."
         ]
       }
     ],
@@ -980,6 +2556,98 @@
           "tegami wo",
           "kakimasu."
         ]
+      },
+      {
+        "jp": "毎朝パンを食べます。",
+        "reading": "まいあさパンをたべます。",
+        "en": "I eat bread every morning.",
+        "vi": "Mỗi sáng tôi ăn bánh mì.",
+        "tokens": [
+          [
+            {
+              "t": "毎朝",
+              "f": "まいあさ"
+            }
+          ],
+          [
+            {
+              "t": "パンを"
+            }
+          ],
+          [
+            {
+              "t": "食",
+              "f": "た"
+            },
+            {
+              "t": "べます。"
+            }
+          ]
+        ],
+        "romaji": "maiasa pan wo tabemasu.",
+        "romajiChunks": [
+          "maiasa",
+          "pan wo",
+          "tabemasu."
+        ]
+      },
+      {
+        "jp": "新聞を読みます。",
+        "reading": "しんぶんをよみます。",
+        "en": "I read the newspaper.",
+        "vi": "Tôi đọc báo.",
+        "tokens": [
+          [
+            {
+              "t": "新聞",
+              "f": "しんぶん"
+            },
+            {
+              "t": "を"
+            }
+          ],
+          [
+            {
+              "t": "読",
+              "f": "よ"
+            },
+            {
+              "t": "みます。"
+            }
+          ]
+        ],
+        "romaji": "shinbun wo yomimasu.",
+        "romajiChunks": [
+          "shinbun wo",
+          "yomimasu."
+        ]
+      },
+      {
+        "jp": "テレビを見ます。",
+        "reading": "テレビをみます。",
+        "en": "I watch TV.",
+        "vi": "Tôi xem ti vi.",
+        "tokens": [
+          [
+            {
+              "t": "テレビを"
+            }
+          ],
+          [
+            {
+              "t": "見",
+              "f": "み"
+            },
+            {
+              "t": "ます。"
+            }
+          ]
+        ],
+        "romaji": "terebi wo mimasu.",
+        "romajiChunks": [
+          "terebi wo",
+          "mimasu."
+        ]
       }
     ],
     "meaningVi": "を đánh dấu tân ngữ trực tiếp của động từ."
@@ -1030,6 +2698,87 @@
           "toshokan de",
           "hon wo",
           "yomimasu."
+        ]
+      },
+      {
+        "jp": "食堂で昼ごはんを食べます。",
+        "reading": "しょくどうでひるごはんをたべます。",
+        "en": "I eat lunch at the cafeteria.",
+        "vi": "Tôi ăn trưa ở nhà ăn.",
+        "tokens": [
+          [
+            {
+              "t": "食堂",
+              "f": "しょくどう"
+            },
+            {
+              "t": "で"
+            }
+          ],
+          [
+            {
+              "t": "昼",
+              "f": "ひる"
+            }
+          ],
+          [
+            {
+              "t": "ごはんを"
+            }
+          ],
+          [
+            {
+              "t": "食",
+              "f": "た"
+            },
+            {
+              "t": "べます。"
+            }
+          ]
+        ],
+        "romaji": "shokudou de hiru gohan wo tabemasu.",
+        "romajiChunks": [
+          "shokudou de",
+          "hiru",
+          "gohan wo",
+          "tabemasu."
+        ]
+      },
+      {
+        "jp": "うちで音楽を聞きます。",
+        "reading": "うちでおんがくをききます。",
+        "en": "I listen to music at home.",
+        "vi": "Tôi nghe nhạc ở nhà.",
+        "tokens": [
+          [
+            {
+              "t": "うちで"
+            }
+          ],
+          [
+            {
+              "t": "音楽",
+              "f": "おんがく"
+            },
+            {
+              "t": "を"
+            }
+          ],
+          [
+            {
+              "t": "聞",
+              "f": "き"
+            },
+            {
+              "t": "きます。"
+            }
+          ]
+        ],
+        "romaji": "uchi de ongaku wo kikimasu.",
+        "romajiChunks": [
+          "uchi de",
+          "ongaku wo",
+          "kikimasu."
         ]
       }
     ],
@@ -1109,6 +2858,83 @@
           "chotto",
           "yasumimashou."
         ]
+      },
+      {
+        "jp": "いっしょに昼ごはんを食べませんか。",
+        "reading": "いっしょにひるごはんをたべませんか。",
+        "en": "Won't you have lunch together?",
+        "vi": "Chúng ta cùng ăn trưa nhé?",
+        "tokens": [
+          [
+            {
+              "t": "いっしょに"
+            }
+          ],
+          [
+            {
+              "t": "昼",
+              "f": "ひる"
+            }
+          ],
+          [
+            {
+              "t": "ごはんを"
+            }
+          ],
+          [
+            {
+              "t": "食",
+              "f": "た"
+            },
+            {
+              "t": "べませんか。"
+            }
+          ]
+        ],
+        "romaji": "issho ni hiru gohan wo tabemasen ka.",
+        "romajiChunks": [
+          "issho ni",
+          "hiru",
+          "gohan wo",
+          "tabemasen ka."
+        ]
+      },
+      {
+        "jp": "いっしょに公園へ行きませんか。",
+        "reading": "いっしょにこうえんへいきませんか。",
+        "en": "Won't you go to the park with me?",
+        "vi": "Chúng ta cùng đi công viên nhé?",
+        "tokens": [
+          [
+            {
+              "t": "いっしょに"
+            }
+          ],
+          [
+            {
+              "t": "公園",
+              "f": "こうえん"
+            },
+            {
+              "t": "へ"
+            }
+          ],
+          [
+            {
+              "t": "行",
+              "f": "い"
+            },
+            {
+              "t": "きませんか。"
+            }
+          ]
+        ],
+        "romaji": "issho ni kouen e ikimasen ka.",
+        "romajiChunks": [
+          "issho ni",
+          "kouen e",
+          "ikimasen ka."
+        ]
       }
     ],
     "meaningVi": "Vませんか để mời ('bạn ~ không?'); Vましょう để rủ cùng làm ('cùng ~ nào')."
@@ -1184,6 +3010,113 @@
         "romaji": "nihongo de tegami wo kakimasu.",
         "romajiChunks": [
           "nihongo de",
+          "tegami wo",
+          "kakimasu."
+        ]
+      },
+      {
+        "jp": "はしでごはんを食べます。",
+        "reading": "はしでごはんをたべます。",
+        "en": "I eat rice with chopsticks.",
+        "vi": "Tôi ăn cơm bằng đũa.",
+        "tokens": [
+          [
+            {
+              "t": "はしで"
+            }
+          ],
+          [
+            {
+              "t": "ごはんを"
+            }
+          ],
+          [
+            {
+              "t": "食",
+              "f": "た"
+            },
+            {
+              "t": "べます。"
+            }
+          ]
+        ],
+        "romaji": "hashi de gohan wo tabemasu.",
+        "romajiChunks": [
+          "hashi de",
+          "gohan wo",
+          "tabemasu."
+        ]
+      },
+      {
+        "jp": "日本語でレポートを書きます。",
+        "reading": "にほんごでレポートをかきます。",
+        "en": "I write the report in Japanese.",
+        "vi": "Tôi viết báo cáo bằng tiếng Nhật.",
+        "tokens": [
+          [
+            {
+              "t": "日本語",
+              "f": "にほんご"
+            },
+            {
+              "t": "で"
+            }
+          ],
+          [
+            {
+              "t": "レポートを"
+            }
+          ],
+          [
+            {
+              "t": "書",
+              "f": "か"
+            },
+            {
+              "t": "きます。"
+            }
+          ]
+        ],
+        "romaji": "nihongo de repouto wo kakimasu.",
+        "romajiChunks": [
+          "nihongo de",
+          "repouto wo",
+          "kakimasu."
+        ]
+      },
+      {
+        "jp": "ペンで手紙を書きます。",
+        "reading": "ペンでてがみをかきます。",
+        "en": "I write a letter with a pen.",
+        "vi": "Tôi viết thư bằng bút.",
+        "tokens": [
+          [
+            {
+              "t": "ペンで"
+            }
+          ],
+          [
+            {
+              "t": "手紙",
+              "f": "てがみ"
+            },
+            {
+              "t": "を"
+            }
+          ],
+          [
+            {
+              "t": "書",
+              "f": "か"
+            },
+            {
+              "t": "きます。"
+            }
+          ]
+        ],
+        "romaji": "pen de tegami wo kakimasu.",
+        "romajiChunks": [
+          "pen de",
           "tegami wo",
           "kakimasu."
         ]
@@ -1267,6 +3200,80 @@
           "purezento wo",
           "moraimashita."
         ]
+      },
+      {
+        "jp": "友達に本をもらいました。",
+        "reading": "ともだちにほんをもらいました。",
+        "en": "I received a book from a friend.",
+        "vi": "Tôi được bạn tặng một quyển sách.",
+        "tokens": [
+          [
+            {
+              "t": "友達",
+              "f": "ともだち"
+            },
+            {
+              "t": "に"
+            }
+          ],
+          [
+            {
+              "t": "本",
+              "f": "ほん"
+            },
+            {
+              "t": "を"
+            }
+          ],
+          [
+            {
+              "t": "もらいました。"
+            }
+          ]
+        ],
+        "romaji": "tomodachi ni hon wo moraimashita.",
+        "romajiChunks": [
+          "tomodachi ni",
+          "hon wo",
+          "moraimashita."
+        ]
+      },
+      {
+        "jp": "先生に辞書をもらいました。",
+        "reading": "せんせいにじしょをもらいました。",
+        "en": "I received a dictionary from the teacher.",
+        "vi": "Tôi được thầy tặng một quyển từ điển.",
+        "tokens": [
+          [
+            {
+              "t": "先生",
+              "f": "せんせい"
+            },
+            {
+              "t": "に"
+            }
+          ],
+          [
+            {
+              "t": "辞書",
+              "f": "じしょ"
+            },
+            {
+              "t": "を"
+            }
+          ],
+          [
+            {
+              "t": "もらいました。"
+            }
+          ]
+        ],
+        "romaji": "sensei ni jisho wo moraimashita.",
+        "romajiChunks": [
+          "sensei ni",
+          "jisho wo",
+          "moraimashita."
+        ]
       }
     ],
     "meaningVi": "あげます = cho (ai đó); もらいます = nhận (từ ai đó). に đánh dấu người kia."
@@ -1323,6 +3330,134 @@
           "hiru",
           "gohan wo",
           "tabemashita."
+        ]
+      },
+      {
+        "jp": "もう昼ごはんを食べました。",
+        "reading": "もうひるごはんをたべました。",
+        "en": "I have already eaten lunch.",
+        "vi": "Tôi đã ăn trưa rồi.",
+        "tokens": [
+          [
+            {
+              "t": "もう"
+            }
+          ],
+          [
+            {
+              "t": "昼",
+              "f": "ひる"
+            }
+          ],
+          [
+            {
+              "t": "ごはんを"
+            }
+          ],
+          [
+            {
+              "t": "食",
+              "f": "た"
+            },
+            {
+              "t": "べました。"
+            }
+          ]
+        ],
+        "romaji": "mou hiru gohan wo tabemashita.",
+        "romajiChunks": [
+          "mou",
+          "hiru",
+          "gohan wo",
+          "tabemashita."
+        ]
+      },
+      {
+        "jp": "もうレポートを書きました。",
+        "reading": "もうレポートをかきました。",
+        "en": "I have already written the report.",
+        "vi": "Tôi đã viết báo cáo rồi.",
+        "tokens": [
+          [
+            {
+              "t": "もう"
+            }
+          ],
+          [
+            {
+              "t": "レポートを"
+            }
+          ],
+          [
+            {
+              "t": "書",
+              "f": "か"
+            },
+            {
+              "t": "きました。"
+            }
+          ]
+        ],
+        "romaji": "mou repouto wo kakimashita.",
+        "romajiChunks": [
+          "mou",
+          "repouto wo",
+          "kakimashita."
+        ]
+      },
+      {
+        "jp": "「もうメールを送りましたか。」「はい、送りました。」",
+        "reading": "「もうメールをおくりましたか。」「はい、おくりました。」",
+        "en": "\"Have you sent the email yet?\" \"Yes, I sent it.\"",
+        "vi": "\"Bạn đã gửi email chưa?\" \"Rồi, tôi gửi rồi.\"",
+        "tokens": [
+          [
+            {
+              "t": "「"
+            }
+          ],
+          [
+            {
+              "t": "もう"
+            }
+          ],
+          [
+            {
+              "t": "メールを"
+            }
+          ],
+          [
+            {
+              "t": "送",
+              "f": "おく"
+            },
+            {
+              "t": "りましたか。」「"
+            }
+          ],
+          [
+            {
+              "t": "はい、"
+            }
+          ],
+          [
+            {
+              "t": "送",
+              "f": "おく"
+            },
+            {
+              "t": "りました。」"
+            }
+          ]
+        ],
+        "romaji": "mou meeru wo okurimashita ka. hai, okurimashita.",
+        "romajiChunks": [
+          "",
+          "mou",
+          "meeru wo",
+          "okurimashita ka.",
+          "hai,",
+          "okurimashita."
         ]
       }
     ],
@@ -1404,6 +3539,101 @@
           "heya wa",
           "hirokunai desu."
         ]
+      },
+      {
+        "jp": "この本はおもしろいです。",
+        "reading": "このほんはおもしろいです。",
+        "en": "This book is interesting.",
+        "vi": "Quyển sách này thú vị.",
+        "tokens": [
+          [
+            {
+              "t": "この"
+            }
+          ],
+          [
+            {
+              "t": "本",
+              "f": "ほん"
+            },
+            {
+              "t": "は"
+            }
+          ],
+          [
+            {
+              "t": "おもしろいです。"
+            }
+          ]
+        ],
+        "romaji": "kono hon wa omoshiroi desu.",
+        "romajiChunks": [
+          "kono",
+          "hon wa",
+          "omoshiroi desu."
+        ]
+      },
+      {
+        "jp": "日本語は難しいです。",
+        "reading": "にほんごはむずかしいです。",
+        "en": "Japanese is difficult.",
+        "vi": "Tiếng Nhật thì khó.",
+        "tokens": [
+          [
+            {
+              "t": "日本語",
+              "f": "にほんご"
+            },
+            {
+              "t": "は"
+            }
+          ],
+          [
+            {
+              "t": "難",
+              "f": "むずか"
+            },
+            {
+              "t": "しいです。"
+            }
+          ]
+        ],
+        "romaji": "nihongo wa muzukashii desu.",
+        "romajiChunks": [
+          "nihongo wa",
+          "muzukashii desu."
+        ]
+      },
+      {
+        "jp": "今日は暑くないです。",
+        "reading": "きょうはあつくないです。",
+        "en": "It is not hot today.",
+        "vi": "Hôm nay trời không nóng.",
+        "tokens": [
+          [
+            {
+              "t": "今日",
+              "f": "きょう"
+            },
+            {
+              "t": "は"
+            }
+          ],
+          [
+            {
+              "t": "暑",
+              "f": "あつ"
+            },
+            {
+              "t": "くないです。"
+            }
+          ]
+        ],
+        "romaji": "kyou wa atsukunai desu.",
+        "romajiChunks": [
+          "kyou wa",
+          "atsukunai desu."
+        ]
       }
     ],
     "meaningVi": "Tính từ đuôi い. Dùng với です; phủ định bỏ い → くないです."
@@ -1478,6 +3708,111 @@
           "kireina",
           "hana desu ne."
         ]
+      },
+      {
+        "jp": "京都は有名です。",
+        "reading": "きょうとはゆうめいです。",
+        "en": "Kyoto is famous.",
+        "vi": "Kyoto thì nổi tiếng.",
+        "tokens": [
+          [
+            {
+              "t": "京都",
+              "f": "きょうと"
+            },
+            {
+              "t": "は"
+            }
+          ],
+          [
+            {
+              "t": "有名",
+              "f": "ゆうめい"
+            },
+            {
+              "t": "です。"
+            }
+          ]
+        ],
+        "romaji": "kyouto wa yuumei desu.",
+        "romajiChunks": [
+          "kyouto wa",
+          "yuumei desu."
+        ]
+      },
+      {
+        "jp": "この町はにぎやかです。",
+        "reading": "このまちはにぎやかです。",
+        "en": "This town is lively.",
+        "vi": "Thị trấn này náo nhiệt.",
+        "tokens": [
+          [
+            {
+              "t": "この"
+            }
+          ],
+          [
+            {
+              "t": "町",
+              "f": "まち"
+            },
+            {
+              "t": "は"
+            }
+          ],
+          [
+            {
+              "t": "にぎやかです。"
+            }
+          ]
+        ],
+        "romaji": "kono machi wa nigiyaka desu.",
+        "romajiChunks": [
+          "kono",
+          "machi wa",
+          "nigiyaka desu."
+        ]
+      },
+      {
+        "jp": "田中さんは親切な人です。",
+        "reading": "たなかさんはしんせつなひとです。",
+        "en": "Mr. Tanaka is a kind person.",
+        "vi": "Ông Tanaka là người tốt bụng.",
+        "tokens": [
+          [
+            {
+              "t": "田中",
+              "f": "たなか"
+            },
+            {
+              "t": "さんは"
+            }
+          ],
+          [
+            {
+              "t": "親切",
+              "f": "しんせつ"
+            },
+            {
+              "t": "な"
+            }
+          ],
+          [
+            {
+              "t": "人",
+              "f": "ひと"
+            },
+            {
+              "t": "です。"
+            }
+          ]
+        ],
+        "romaji": "tanakasan wa shinsetsuna hito desu.",
+        "romajiChunks": [
+          "tanakasan wa",
+          "shinsetsuna",
+          "hito desu."
+        ]
       }
     ],
     "meaningVi": "Tính từ cần thêm な trước danh từ. Phủ định là じゃありません như danh từ."
@@ -1528,6 +3863,129 @@
           "nihongo wa",
           "muzukashii desu ga,",
           "omoshiroi desu."
+        ]
+      },
+      {
+        "jp": "この部屋は狭いですが、きれいです。",
+        "reading": "このへやはせまいですが、きれいです。",
+        "en": "This room is small, but it is clean.",
+        "vi": "Căn phòng này chật, nhưng sạch sẽ.",
+        "tokens": [
+          [
+            {
+              "t": "この"
+            }
+          ],
+          [
+            {
+              "t": "部屋",
+              "f": "へや"
+            },
+            {
+              "t": "は"
+            }
+          ],
+          [
+            {
+              "t": "狭",
+              "f": "せま"
+            },
+            {
+              "t": "いですが、"
+            }
+          ],
+          [
+            {
+              "t": "きれいです。"
+            }
+          ]
+        ],
+        "romaji": "kono heya wa semai desu ga, kirei desu.",
+        "romajiChunks": [
+          "kono",
+          "heya wa",
+          "semai desu ga,",
+          "kirei desu."
+        ]
+      },
+      {
+        "jp": "日本語は難しいですが、おもしろいです。",
+        "reading": "にほんごはむずかしいですが、おもしろいです。",
+        "en": "Japanese is difficult, but interesting.",
+        "vi": "Tiếng Nhật khó, nhưng thú vị.",
+        "tokens": [
+          [
+            {
+              "t": "日本語",
+              "f": "にほんご"
+            },
+            {
+              "t": "は"
+            }
+          ],
+          [
+            {
+              "t": "難",
+              "f": "むずか"
+            },
+            {
+              "t": "しいですが、"
+            }
+          ],
+          [
+            {
+              "t": "おもしろいです。"
+            }
+          ]
+        ],
+        "romaji": "nihongo wa muzukashii desu ga, omoshiroi desu.",
+        "romajiChunks": [
+          "nihongo wa",
+          "muzukashii desu ga,",
+          "omoshiroi desu."
+        ]
+      },
+      {
+        "jp": "この店は安いですが、おいしいです。",
+        "reading": "このみせはやすいですが、おいしいです。",
+        "en": "This shop is cheap, but tasty.",
+        "vi": "Quán này rẻ, nhưng ngon.",
+        "tokens": [
+          [
+            {
+              "t": "この"
+            }
+          ],
+          [
+            {
+              "t": "店",
+              "f": "みせ"
+            },
+            {
+              "t": "は"
+            }
+          ],
+          [
+            {
+              "t": "安",
+              "f": "やす"
+            },
+            {
+              "t": "いですが、"
+            }
+          ],
+          [
+            {
+              "t": "おいしいです。"
+            }
+          ]
+        ],
+        "romaji": "kono mise wa yasui desu ga, oishii desu.",
+        "romajiChunks": [
+          "kono",
+          "mise wa",
+          "yasui desu ga,",
+          "oishii desu."
         ]
       }
     ],
@@ -1617,6 +4075,87 @@
           "ryouri ga",
           "jouzu desu."
         ]
+      },
+      {
+        "jp": "ミラーさんは日本料理が好きです。",
+        "reading": "ミラーさんはにほんりょうりがすきです。",
+        "en": "Mr. Miller likes Japanese food.",
+        "vi": "Anh Miller thích món ăn Nhật.",
+        "tokens": [
+          [
+            {
+              "t": "ミラーさんは"
+            }
+          ],
+          [
+            {
+              "t": "日本",
+              "f": "にほん"
+            }
+          ],
+          [
+            {
+              "t": "料理",
+              "f": "りょうり"
+            },
+            {
+              "t": "が"
+            }
+          ],
+          [
+            {
+              "t": "好",
+              "f": "す"
+            },
+            {
+              "t": "きです。"
+            }
+          ]
+        ],
+        "romaji": "miraasan wa nihon ryouri ga suki desu.",
+        "romajiChunks": [
+          "miraasan wa",
+          "nihon",
+          "ryouri ga",
+          "suki desu."
+        ]
+      },
+      {
+        "jp": "田中さんはテニスが上手です。",
+        "reading": "たなかさんはテニスがじょうずです。",
+        "en": "Mr. Tanaka is good at tennis.",
+        "vi": "Ông Tanaka giỏi quần vợt.",
+        "tokens": [
+          [
+            {
+              "t": "田中",
+              "f": "たなか"
+            },
+            {
+              "t": "さんは"
+            }
+          ],
+          [
+            {
+              "t": "テニスが"
+            }
+          ],
+          [
+            {
+              "t": "上手",
+              "f": "じょうず"
+            },
+            {
+              "t": "です。"
+            }
+          ]
+        ],
+        "romaji": "tanakasan wa tenisu ga jouzu desu.",
+        "romajiChunks": [
+          "tanakasan wa",
+          "tenisu ga",
+          "jouzu desu."
+        ]
       }
     ],
     "meaningVi": "Với thích, ghét, giỏi, kém (好き・嫌い・上手・下手), đối tượng dùng が chứ không dùng を."
@@ -1653,6 +4192,126 @@
         "romajiChunks": [
           "nihongo ga",
           "wakarimasu."
+        ]
+      },
+      {
+        "jp": "わたしは日本語が少しわかります。",
+        "reading": "わたしはにほんごがすこしわかります。",
+        "en": "I understand a little Japanese.",
+        "vi": "Tôi hiểu tiếng Nhật một chút.",
+        "tokens": [
+          [
+            {
+              "t": "わたしは"
+            }
+          ],
+          [
+            {
+              "t": "日本語",
+              "f": "にほんご"
+            },
+            {
+              "t": "が"
+            }
+          ],
+          [
+            {
+              "t": "少",
+              "f": "すこ"
+            },
+            {
+              "t": "し"
+            }
+          ],
+          [
+            {
+              "t": "わかります。"
+            }
+          ]
+        ],
+        "romaji": "watashi wa nihongo ga sukoshi wakarimasu.",
+        "romajiChunks": [
+          "watashi wa",
+          "nihongo ga",
+          "sukoshi",
+          "wakarimasu."
+        ]
+      },
+      {
+        "jp": "今日は時間がありません。",
+        "reading": "きょうはじかんがありません。",
+        "en": "I have no time today.",
+        "vi": "Hôm nay tôi không có thời gian.",
+        "tokens": [
+          [
+            {
+              "t": "今日",
+              "f": "きょう"
+            },
+            {
+              "t": "は"
+            }
+          ],
+          [
+            {
+              "t": "時間",
+              "f": "じかん"
+            },
+            {
+              "t": "が"
+            }
+          ],
+          [
+            {
+              "t": "ありません。"
+            }
+          ]
+        ],
+        "romaji": "kyou wa jikan ga arimasen.",
+        "romajiChunks": [
+          "kyou wa",
+          "jikan ga",
+          "arimasen."
+        ]
+      },
+      {
+        "jp": "お金がありませんから、買いません。",
+        "reading": "おかねがありませんから、かいません。",
+        "en": "I won't buy it because I have no money.",
+        "vi": "Vì không có tiền nên tôi không mua.",
+        "tokens": [
+          [
+            {
+              "t": "お"
+            },
+            {
+              "t": "金",
+              "f": "かね"
+            },
+            {
+              "t": "が"
+            }
+          ],
+          [
+            {
+              "t": "ありませんから、"
+            }
+          ],
+          [
+            {
+              "t": "買",
+              "f": "か"
+            },
+            {
+              "t": "いません。"
+            }
+          ]
+        ],
+        "romaji": "okane ga arimasen kara, kaimasen.",
+        "romajiChunks": [
+          "okane ga",
+          "arimasen kara,",
+          "kaimasen."
         ]
       }
     ],
@@ -1710,6 +4369,129 @@
           "arimasen kara,",
           "shinbun wo",
           "yomimasen."
+        ]
+      },
+      {
+        "jp": "時間がありませんから、行きません。",
+        "reading": "じかんがありませんから、いきません。",
+        "en": "I won't go because I don't have time.",
+        "vi": "Vì không có thời gian nên tôi không đi.",
+        "tokens": [
+          [
+            {
+              "t": "時間",
+              "f": "じかん"
+            },
+            {
+              "t": "が"
+            }
+          ],
+          [
+            {
+              "t": "ありませんから、"
+            }
+          ],
+          [
+            {
+              "t": "行",
+              "f": "い"
+            },
+            {
+              "t": "きません。"
+            }
+          ]
+        ],
+        "romaji": "jikan ga arimasen kara, ikimasen.",
+        "romajiChunks": [
+          "jikan ga",
+          "arimasen kara,",
+          "ikimasen."
+        ]
+      },
+      {
+        "jp": "おいしいですから、この店が好きです。",
+        "reading": "おいしいですから、このみせがすきです。",
+        "en": "I like this shop because it's tasty.",
+        "vi": "Vì ngon nên tôi thích quán này.",
+        "tokens": [
+          [
+            {
+              "t": "おいしいですから、"
+            }
+          ],
+          [
+            {
+              "t": "この"
+            }
+          ],
+          [
+            {
+              "t": "店",
+              "f": "みせ"
+            },
+            {
+              "t": "が"
+            }
+          ],
+          [
+            {
+              "t": "好",
+              "f": "す"
+            },
+            {
+              "t": "きです。"
+            }
+          ]
+        ],
+        "romaji": "oishii desu kara, kono mise ga suki desu.",
+        "romajiChunks": [
+          "oishii desu kara,",
+          "kono",
+          "mise ga",
+          "suki desu."
+        ]
+      },
+      {
+        "jp": "「どうして休みましたか。」「病気でしたから。」",
+        "reading": "「どうしてやすみましたか。」「びょうきでしたから。」",
+        "en": "\"Why were you absent?\" \"Because I was sick.\"",
+        "vi": "\"Sao bạn nghỉ vậy?\" \"Vì tôi bị ốm.\"",
+        "tokens": [
+          [
+            {
+              "t": "「"
+            }
+          ],
+          [
+            {
+              "t": "どうして"
+            }
+          ],
+          [
+            {
+              "t": "休",
+              "f": "やす"
+            },
+            {
+              "t": "みましたか。」「"
+            }
+          ],
+          [
+            {
+              "t": "病気",
+              "f": "びょうき"
+            },
+            {
+              "t": "でしたから。」"
+            }
+          ]
+        ],
+        "romaji": "doushite yasumimashita ka. byoukideshita kara.",
+        "romajiChunks": [
+          "",
+          "doushite",
+          "yasumimashita ka.",
+          "byoukideshita kara."
         ]
       }
     ],
@@ -1798,6 +4580,124 @@
           "neko ga",
           "imasu."
         ]
+      },
+      {
+        "jp": "机の上に本があります。",
+        "reading": "つくえのうえにほんがあります。",
+        "en": "There is a book on the desk.",
+        "vi": "Trên bàn có một quyển sách.",
+        "tokens": [
+          [
+            {
+              "t": "机",
+              "f": "つくえ"
+            },
+            {
+              "t": "の"
+            },
+            {
+              "t": "上",
+              "f": "うえ"
+            },
+            {
+              "t": "に"
+            }
+          ],
+          [
+            {
+              "t": "本",
+              "f": "ほん"
+            },
+            {
+              "t": "が"
+            }
+          ],
+          [
+            {
+              "t": "あります。"
+            }
+          ]
+        ],
+        "romaji": "tsukue noue ni hon ga arimasu.",
+        "romajiChunks": [
+          "tsukue noue ni",
+          "hon ga",
+          "arimasu."
+        ]
+      },
+      {
+        "jp": "部屋に猫がいます。",
+        "reading": "へやにねこがいます。",
+        "en": "There is a cat in the room.",
+        "vi": "Trong phòng có một con mèo.",
+        "tokens": [
+          [
+            {
+              "t": "部屋",
+              "f": "へや"
+            },
+            {
+              "t": "に"
+            }
+          ],
+          [
+            {
+              "t": "猫",
+              "f": "ねこ"
+            },
+            {
+              "t": "が"
+            }
+          ],
+          [
+            {
+              "t": "います。"
+            }
+          ]
+        ],
+        "romaji": "heya ni neko ga imasu.",
+        "romajiChunks": [
+          "heya ni",
+          "neko ga",
+          "imasu."
+        ]
+      },
+      {
+        "jp": "公園に子供がいます。",
+        "reading": "こうえんにこどもがいます。",
+        "en": "There are children in the park.",
+        "vi": "Trong công viên có trẻ em.",
+        "tokens": [
+          [
+            {
+              "t": "公園",
+              "f": "こうえん"
+            },
+            {
+              "t": "に"
+            }
+          ],
+          [
+            {
+              "t": "子供",
+              "f": "こども"
+            },
+            {
+              "t": "が"
+            }
+          ],
+          [
+            {
+              "t": "います。"
+            }
+          ]
+        ],
+        "romaji": "kouen ni kodomo ga imasu.",
+        "romajiChunks": [
+          "kouen ni",
+          "kodomo ga",
+          "imasu."
+        ]
       }
     ],
     "meaningVi": "あります cho vật/cây, います cho người/động vật — 'có ~'."
@@ -1854,6 +4754,138 @@
           "hako nonaka ni",
           "okashi ga",
           "arimasu."
+        ]
+      },
+      {
+        "jp": "本は机の上にあります。",
+        "reading": "ほんはつくえのうえにあります。",
+        "en": "The book is on the desk.",
+        "vi": "Quyển sách ở trên bàn.",
+        "tokens": [
+          [
+            {
+              "t": "本",
+              "f": "ほん"
+            },
+            {
+              "t": "は"
+            }
+          ],
+          [
+            {
+              "t": "机",
+              "f": "つくえ"
+            },
+            {
+              "t": "の"
+            },
+            {
+              "t": "上",
+              "f": "うえ"
+            },
+            {
+              "t": "に"
+            }
+          ],
+          [
+            {
+              "t": "あります。"
+            }
+          ]
+        ],
+        "romaji": "hon wa tsukue noue ni arimasu.",
+        "romajiChunks": [
+          "hon wa",
+          "tsukue noue ni",
+          "arimasu."
+        ]
+      },
+      {
+        "jp": "猫はいすの下にいます。",
+        "reading": "ねこはいすのしたにいます。",
+        "en": "The cat is under the chair.",
+        "vi": "Con mèo ở dưới ghế.",
+        "tokens": [
+          [
+            {
+              "t": "猫",
+              "f": "ねこ"
+            },
+            {
+              "t": "は"
+            }
+          ],
+          [
+            {
+              "t": "いすの"
+            }
+          ],
+          [
+            {
+              "t": "下",
+              "f": "した"
+            },
+            {
+              "t": "に"
+            }
+          ],
+          [
+            {
+              "t": "います。"
+            }
+          ]
+        ],
+        "romaji": "neko wa isu no shita ni imasu.",
+        "romajiChunks": [
+          "neko wa",
+          "isu no",
+          "shita ni",
+          "imasu."
+        ]
+      },
+      {
+        "jp": "銀行は郵便局の隣です。",
+        "reading": "ぎんこうはゆうびんきょくのとなりです。",
+        "en": "The bank is next to the post office.",
+        "vi": "Ngân hàng ở cạnh bưu điện.",
+        "tokens": [
+          [
+            {
+              "t": "銀行",
+              "f": "ぎんこう"
+            },
+            {
+              "t": "は"
+            }
+          ],
+          [
+            {
+              "t": "郵便",
+              "f": "ゆうびん"
+            },
+            {
+              "t": "局",
+              "f": "きょく"
+            },
+            {
+              "t": "の"
+            }
+          ],
+          [
+            {
+              "t": "隣",
+              "f": "となり"
+            },
+            {
+              "t": "です。"
+            }
+          ]
+        ],
+        "romaji": "ginkou wa yuubinkyoku no tonari desu.",
+        "romajiChunks": [
+          "ginkou wa",
+          "yuubinkyoku no",
+          "tonari desu."
         ]
       }
     ],
@@ -1940,6 +4972,91 @@
           "sanmai",
           "kudasai."
         ]
+      },
+      {
+        "jp": "りんごを二つ買いました。",
+        "reading": "りんごをふたつかいました。",
+        "en": "I bought two apples.",
+        "vi": "Tôi đã mua hai quả táo.",
+        "tokens": [
+          [
+            {
+              "t": "りんごを"
+            }
+          ],
+          [
+            {
+              "t": "二",
+              "f": "ふた"
+            },
+            {
+              "t": "つ"
+            }
+          ],
+          [
+            {
+              "t": "買",
+              "f": "か"
+            },
+            {
+              "t": "いました。"
+            }
+          ]
+        ],
+        "romaji": "ringo wo futatsu kaimashita.",
+        "romajiChunks": [
+          "ringo wo",
+          "futatsu",
+          "kaimashita."
+        ]
+      },
+      {
+        "jp": "教室に学生が五人います。",
+        "reading": "きょうしつにがくせいがごにんいます。",
+        "en": "There are five students in the classroom.",
+        "vi": "Trong phòng học có năm sinh viên.",
+        "tokens": [
+          [
+            {
+              "t": "教室",
+              "f": "きょうしつ"
+            },
+            {
+              "t": "に"
+            }
+          ],
+          [
+            {
+              "t": "学生",
+              "f": "がくせい"
+            },
+            {
+              "t": "が"
+            }
+          ],
+          [
+            {
+              "t": "五",
+              "f": "ご"
+            },
+            {
+              "t": "人",
+              "f": "にん"
+            }
+          ],
+          [
+            {
+              "t": "います。"
+            }
+          ]
+        ],
+        "romaji": "kyoushitsu ni gakusei ga gonin imasu.",
+        "romajiChunks": [
+          "kyoushitsu ni",
+          "gakusei ga",
+          "gonin",
+          "imasu."
+        ]
       }
     ],
     "meaningVi": "Số đi kèm lượng từ tùy vật được đếm: ～つ (đồ vật), ～人 (người), ～枚 (vật mỏng), ～台 (máy móc)."
@@ -1996,6 +5113,176 @@
           "tenisu wo",
           "shimasu."
         ]
+      },
+      {
+        "jp": "一週間に一回日本語を勉強します。",
+        "reading": "いっしゅうかんにいっかいにほんごをべんきょうします。",
+        "en": "I study Japanese once a week.",
+        "vi": "Tôi học tiếng Nhật một lần mỗi tuần.",
+        "tokens": [
+          [
+            {
+              "t": "一",
+              "f": "いち"
+            },
+            {
+              "t": "週間",
+              "f": "しゅうかん"
+            },
+            {
+              "t": "に"
+            }
+          ],
+          [
+            {
+              "t": "一",
+              "f": "いち"
+            },
+            {
+              "t": "回",
+              "f": "かい"
+            }
+          ],
+          [
+            {
+              "t": "日本語",
+              "f": "にほんご"
+            },
+            {
+              "t": "を"
+            }
+          ],
+          [
+            {
+              "t": "勉強",
+              "f": "べんきょう"
+            }
+          ],
+          [
+            {
+              "t": "します。"
+            }
+          ]
+        ],
+        "romaji": "isshuukan ni ikkai nihongo wo benkyou shimasu.",
+        "romajiChunks": [
+          "isshuukan ni",
+          "ikkai",
+          "nihongo wo",
+          "benkyou",
+          "shimasu."
+        ]
+      },
+      {
+        "jp": "一日に三回ごはんを食べます。",
+        "reading": "いちにちにさんかいごはんをたべます。",
+        "en": "I eat three meals a day.",
+        "vi": "Tôi ăn ba bữa mỗi ngày.",
+        "tokens": [
+          [
+            {
+              "t": "一",
+              "f": "いち"
+            },
+            {
+              "t": "日",
+              "f": "にち"
+            },
+            {
+              "t": "に"
+            }
+          ],
+          [
+            {
+              "t": "三",
+              "f": "さん"
+            },
+            {
+              "t": "回",
+              "f": "かい"
+            }
+          ],
+          [
+            {
+              "t": "ごはんを"
+            }
+          ],
+          [
+            {
+              "t": "食",
+              "f": "た"
+            },
+            {
+              "t": "べます。"
+            }
+          ]
+        ],
+        "romaji": "ichinichi ni sankai gohan wo tabemasu.",
+        "romajiChunks": [
+          "ichinichi ni",
+          "sankai",
+          "gohan wo",
+          "tabemasu."
+        ]
+      },
+      {
+        "jp": "一か月に二回映画を見ます。",
+        "reading": "いっかげつににかいえいがをみます。",
+        "en": "I watch a movie twice a month.",
+        "vi": "Tôi xem phim hai lần mỗi tháng.",
+        "tokens": [
+          [
+            {
+              "t": "一",
+              "f": "いち"
+            },
+            {
+              "t": "か"
+            },
+            {
+              "t": "月",
+              "f": "げつ"
+            },
+            {
+              "t": "に"
+            }
+          ],
+          [
+            {
+              "t": "二",
+              "f": "に"
+            },
+            {
+              "t": "回",
+              "f": "かい"
+            }
+          ],
+          [
+            {
+              "t": "映画",
+              "f": "えいが"
+            },
+            {
+              "t": "を"
+            }
+          ],
+          [
+            {
+              "t": "見",
+              "f": "み"
+            },
+            {
+              "t": "ます。"
+            }
+          ]
+        ],
+        "romaji": "ikkagetsu ni nikai eiga wo mimasu.",
+        "romajiChunks": [
+          "ikkagetsu ni",
+          "nikai",
+          "eiga wo",
+          "mimasu."
+        ]
       }
     ],
     "meaningVi": "Diễn tả tần suất — 'X lần trong mỗi khoảng thời gian'."
@@ -2037,6 +5324,60 @@
           "kinou wa",
           "amedeshita."
         ]
+      },
+      {
+        "jp": "京都はにぎやかでした。",
+        "reading": "きょうとはにぎやかでした。",
+        "en": "Kyoto was lively.",
+        "vi": "Kyoto đã rất náo nhiệt.",
+        "tokens": [
+          [
+            {
+              "t": "京都",
+              "f": "きょうと"
+            },
+            {
+              "t": "は"
+            }
+          ],
+          [
+            {
+              "t": "にぎやかでした。"
+            }
+          ]
+        ],
+        "romaji": "kyouto wa nigiyakadeshita.",
+        "romajiChunks": [
+          "kyouto wa",
+          "nigiyakadeshita."
+        ]
+      },
+      {
+        "jp": "テストは簡単じゃありませんでした。",
+        "reading": "テストはかんたんじゃありませんでした。",
+        "en": "The test was not easy.",
+        "vi": "Bài kiểm tra đã không dễ.",
+        "tokens": [
+          [
+            {
+              "t": "テストは"
+            }
+          ],
+          [
+            {
+              "t": "簡単",
+              "f": "かんたん"
+            },
+            {
+              "t": "じゃありませんでした。"
+            }
+          ]
+        ],
+        "romaji": "tesuto wa kantan jaarimasendeshita.",
+        "romajiChunks": [
+          "tesuto wa",
+          "kantan jaarimasendeshita."
+        ]
       }
     ],
     "meaningVi": "Dạng quá khứ: でした (khẳng định) và じゃありませんでした (phủ định)."
@@ -2077,6 +5418,60 @@
         "romajiChunks": [
           "ryokou wa",
           "tanoshikata desu."
+        ]
+      },
+      {
+        "jp": "映画はおもしろかったです。",
+        "reading": "えいがはおもしろかったです。",
+        "en": "The movie was interesting.",
+        "vi": "Bộ phim đã rất thú vị.",
+        "tokens": [
+          [
+            {
+              "t": "映画",
+              "f": "えいが"
+            },
+            {
+              "t": "は"
+            }
+          ],
+          [
+            {
+              "t": "おもしろかったです。"
+            }
+          ]
+        ],
+        "romaji": "eiga wa omoshirokata desu.",
+        "romajiChunks": [
+          "eiga wa",
+          "omoshirokata desu."
+        ]
+      },
+      {
+        "jp": "天気はよくなかったです。",
+        "reading": "てんきはよくなかったです。",
+        "en": "The weather was not good.",
+        "vi": "Thời tiết đã không tốt.",
+        "tokens": [
+          [
+            {
+              "t": "天気",
+              "f": "てんき"
+            },
+            {
+              "t": "は"
+            }
+          ],
+          [
+            {
+              "t": "よくなかったです。"
+            }
+          ]
+        ],
+        "romaji": "tenki wa yokunakata desu.",
+        "romajiChunks": [
+          "tenki wa",
+          "yokunakata desu."
         ]
       }
     ],
@@ -2139,7 +5534,7 @@
           [
             {
               "t": "日本",
-              "f": "にっぽん"
+              "f": "にほん"
             },
             {
               "t": "で"
@@ -2161,12 +5556,172 @@
             }
           ]
         ],
-        "romaji": "nippon de doko ga ichiban kirei desu ka.",
+        "romaji": "nihon de doko ga ichiban kirei desu ka.",
         "romajiChunks": [
-          "nippon de",
+          "nihon de",
           "doko ga",
           "ichiban",
           "kirei desu ka."
+        ]
+      },
+      {
+        "jp": "東京は大阪より大きいです。",
+        "reading": "とうきょうはおおさかよりおおきいです。",
+        "en": "Tokyo is bigger than Osaka.",
+        "vi": "Tokyo lớn hơn Osaka.",
+        "tokens": [
+          [
+            {
+              "t": "東京",
+              "f": "とうきょう"
+            },
+            {
+              "t": "は"
+            }
+          ],
+          [
+            {
+              "t": "大阪",
+              "f": "おおさか"
+            },
+            {
+              "t": "より"
+            }
+          ],
+          [
+            {
+              "t": "大",
+              "f": "おお"
+            },
+            {
+              "t": "きいです。"
+            }
+          ]
+        ],
+        "romaji": "toukyou wa ousaka yori oukii desu.",
+        "romajiChunks": [
+          "toukyou wa",
+          "ousaka yori",
+          "oukii desu."
+        ]
+      },
+      {
+        "jp": "「肉と魚とどちらが好きですか。」「魚のほうが好きです。」",
+        "reading": "「にくとさかなとどちらがすきですか。」「さかなのほうがすきです。」",
+        "en": "\"Which do you prefer, meat or fish?\" \"I prefer fish.\"",
+        "vi": "\"Bạn thích thịt hay cá hơn?\" \"Tôi thích cá hơn.\"",
+        "tokens": [
+          [
+            {
+              "t": "「"
+            }
+          ],
+          [
+            {
+              "t": "肉",
+              "f": "にく"
+            },
+            {
+              "t": "と"
+            }
+          ],
+          [
+            {
+              "t": "魚",
+              "f": "さかな"
+            },
+            {
+              "t": "と"
+            }
+          ],
+          [
+            {
+              "t": "どちらが"
+            }
+          ],
+          [
+            {
+              "t": "好",
+              "f": "す"
+            },
+            {
+              "t": "きですか。」「"
+            }
+          ],
+          [
+            {
+              "t": "魚",
+              "f": "さかな"
+            },
+            {
+              "t": "のほうが"
+            }
+          ],
+          [
+            {
+              "t": "好",
+              "f": "す"
+            },
+            {
+              "t": "きです。」"
+            }
+          ]
+        ],
+        "romaji": "niku to sakana to dochira ga suki desu ka. sakana nohou ga suki desu.",
+        "romajiChunks": [
+          "",
+          "niku to",
+          "sakana to",
+          "dochira ga",
+          "suki desu ka.",
+          "sakana nohou ga",
+          "suki desu."
+        ]
+      },
+      {
+        "jp": "スポーツの中でサッカーがいちばん好きです。",
+        "reading": "スポーツのなかでサッカーがいちばんすきです。",
+        "en": "Among sports, I like soccer best.",
+        "vi": "Trong các môn thể thao, tôi thích bóng đá nhất.",
+        "tokens": [
+          [
+            {
+              "t": "スポーツの"
+            },
+            {
+              "t": "中",
+              "f": "なか"
+            },
+            {
+              "t": "で"
+            }
+          ],
+          [
+            {
+              "t": "サッカーが"
+            }
+          ],
+          [
+            {
+              "t": "いちばん"
+            }
+          ],
+          [
+            {
+              "t": "好",
+              "f": "す"
+            },
+            {
+              "t": "きです。"
+            }
+          ]
+        ],
+        "romaji": "supoutsu nonaka de sakkaa ga ichiban suki desu.",
+        "romajiChunks": [
+          "supoutsu nonaka de",
+          "sakkaa ga",
+          "ichiban",
+          "suki desu."
         ]
       }
     ],
@@ -2215,6 +5770,103 @@
           "kuruma ga",
           "hoshii desu."
         ]
+      },
+      {
+        "jp": "新しいパソコンがほしいです。",
+        "reading": "あたらしいパソコンがほしいです。",
+        "en": "I want a new computer.",
+        "vi": "Tôi muốn có một chiếc máy tính mới.",
+        "tokens": [
+          [
+            {
+              "t": "新",
+              "f": "あたら"
+            },
+            {
+              "t": "しい"
+            }
+          ],
+          [
+            {
+              "t": "パソコンが"
+            }
+          ],
+          [
+            {
+              "t": "ほしいです。"
+            }
+          ]
+        ],
+        "romaji": "atarashii pasokon ga hoshii desu.",
+        "romajiChunks": [
+          "atarashii",
+          "pasokon ga",
+          "hoshii desu."
+        ]
+      },
+      {
+        "jp": "車がほしいです。",
+        "reading": "くるまがほしいです。",
+        "en": "I want a car.",
+        "vi": "Tôi muốn có một chiếc xe hơi.",
+        "tokens": [
+          [
+            {
+              "t": "車",
+              "f": "くるま"
+            },
+            {
+              "t": "が"
+            }
+          ],
+          [
+            {
+              "t": "ほしいです。"
+            }
+          ]
+        ],
+        "romaji": "kuruma ga hoshii desu.",
+        "romajiChunks": [
+          "kuruma ga",
+          "hoshii desu."
+        ]
+      },
+      {
+        "jp": "今、時間がほしいです。",
+        "reading": "いま、じかんがほしいです。",
+        "en": "I want time right now.",
+        "vi": "Bây giờ tôi muốn có thời gian.",
+        "tokens": [
+          [
+            {
+              "t": "今",
+              "f": "いま"
+            },
+            {
+              "t": "、"
+            }
+          ],
+          [
+            {
+              "t": "時間",
+              "f": "じかん"
+            },
+            {
+              "t": "が"
+            }
+          ],
+          [
+            {
+              "t": "ほしいです。"
+            }
+          ]
+        ],
+        "romaji": "ima, jikan ga hoshii desu.",
+        "romajiChunks": [
+          "ima,",
+          "jikan ga",
+          "hoshii desu."
+        ]
       }
     ],
     "meaningVi": "Diễn tả muốn có một vật — 'tôi muốn ~'. Vật được đánh dấu bằng が."
@@ -2255,6 +5907,101 @@
         "romajiChunks": [
           "okinawa e",
           "ikitai desu."
+        ]
+      },
+      {
+        "jp": "日本へ行きたいです。",
+        "reading": "にほんへいきたいです。",
+        "en": "I want to go to Japan.",
+        "vi": "Tôi muốn đi Nhật.",
+        "tokens": [
+          [
+            {
+              "t": "日本",
+              "f": "にほん"
+            },
+            {
+              "t": "へ"
+            }
+          ],
+          [
+            {
+              "t": "行",
+              "f": "い"
+            },
+            {
+              "t": "きたいです。"
+            }
+          ]
+        ],
+        "romaji": "nihon e ikitai desu.",
+        "romajiChunks": [
+          "nihon e",
+          "ikitai desu."
+        ]
+      },
+      {
+        "jp": "すしを食べたいです。",
+        "reading": "すしをたべたいです。",
+        "en": "I want to eat sushi.",
+        "vi": "Tôi muốn ăn sushi.",
+        "tokens": [
+          [
+            {
+              "t": "すしを"
+            }
+          ],
+          [
+            {
+              "t": "食",
+              "f": "た"
+            },
+            {
+              "t": "べたいです。"
+            }
+          ]
+        ],
+        "romaji": "sushi wo tabetai desu.",
+        "romajiChunks": [
+          "sushi wo",
+          "tabetai desu."
+        ]
+      },
+      {
+        "jp": "今日は何もしたくないです。",
+        "reading": "きょうはなにもしたくないです。",
+        "en": "I don't want to do anything today.",
+        "vi": "Hôm nay tôi không muốn làm gì cả.",
+        "tokens": [
+          [
+            {
+              "t": "今日",
+              "f": "きょう"
+            },
+            {
+              "t": "は"
+            }
+          ],
+          [
+            {
+              "t": "何",
+              "f": "なに"
+            },
+            {
+              "t": "も"
+            }
+          ],
+          [
+            {
+              "t": "したくないです。"
+            }
+          ]
+        ],
+        "romaji": "kyou wa nani mo shitakunai desu.",
+        "romajiChunks": [
+          "kyou wa",
+          "nani mo",
+          "shitakunai desu."
         ]
       }
     ],
@@ -2309,6 +6056,110 @@
           "kai ni",
           "ikimasu."
         ]
+      },
+      {
+        "jp": "日本へ日本語を勉強しに行きます。",
+        "reading": "にほんへにほんごをべんきょうしにいきます。",
+        "en": "I go to Japan to study Japanese.",
+        "vi": "Tôi đi Nhật để học tiếng Nhật.",
+        "tokens": [
+          [
+            {
+              "t": "日本",
+              "f": "にほん"
+            },
+            {
+              "t": "へ"
+            }
+          ],
+          [
+            {
+              "t": "日本語",
+              "f": "にほんご"
+            },
+            {
+              "t": "を"
+            }
+          ],
+          [
+            {
+              "t": "勉強",
+              "f": "べんきょう"
+            }
+          ],
+          [
+            {
+              "t": "しに"
+            }
+          ],
+          [
+            {
+              "t": "行",
+              "f": "い"
+            },
+            {
+              "t": "きます。"
+            }
+          ]
+        ],
+        "romaji": "nihon e nihongo wo benkyou shi ni ikimasu.",
+        "romajiChunks": [
+          "nihon e",
+          "nihongo wo",
+          "benkyou",
+          "shi ni",
+          "ikimasu."
+        ]
+      },
+      {
+        "jp": "レストランへ昼ごはんを食べに行きます。",
+        "reading": "レストランへひるごはんをたべにいきます。",
+        "en": "I go to the restaurant to eat lunch.",
+        "vi": "Tôi đến nhà hàng để ăn trưa.",
+        "tokens": [
+          [
+            {
+              "t": "レストランへ"
+            }
+          ],
+          [
+            {
+              "t": "昼",
+              "f": "ひる"
+            }
+          ],
+          [
+            {
+              "t": "ごはんを"
+            }
+          ],
+          [
+            {
+              "t": "食",
+              "f": "た"
+            },
+            {
+              "t": "べに"
+            }
+          ],
+          [
+            {
+              "t": "行",
+              "f": "い"
+            },
+            {
+              "t": "きます。"
+            }
+          ]
+        ],
+        "romaji": "resutoran e hiru gohan wo tabe ni ikimasu.",
+        "romajiChunks": [
+          "resutoran e",
+          "hiru",
+          "gohan wo",
+          "tabe ni",
+          "ikimasu."
+        ]
       }
     ],
     "meaningVi": "Nói mục đích của việc đi đâu đó — 'đi đến ~ để làm ~'."
@@ -2360,6 +6211,97 @@
           "yon de,",
           "nemasu."
         ]
+      },
+      {
+        "jp": "パスポートを見せてください。",
+        "reading": "パスポートをみせてください。",
+        "en": "Please show me your passport.",
+        "vi": "Vui lòng cho tôi xem hộ chiếu.",
+        "tokens": [
+          [
+            {
+              "t": "パスポートを"
+            }
+          ],
+          [
+            {
+              "t": "見",
+              "f": "み"
+            },
+            {
+              "t": "せてください。"
+            }
+          ]
+        ],
+        "romaji": "pasupouto wo mise tekudasai.",
+        "romajiChunks": [
+          "pasupouto wo",
+          "mise tekudasai."
+        ]
+      },
+      {
+        "jp": "ここに名前を書いてください。",
+        "reading": "ここになまえをかいてください。",
+        "en": "Please write your name here.",
+        "vi": "Xin hãy viết tên vào đây.",
+        "tokens": [
+          [
+            {
+              "t": "ここに"
+            }
+          ],
+          [
+            {
+              "t": "名前",
+              "f": "なまえ"
+            },
+            {
+              "t": "を"
+            }
+          ],
+          [
+            {
+              "t": "書",
+              "f": "か"
+            },
+            {
+              "t": "いてください。"
+            }
+          ]
+        ],
+        "romaji": "koko ni namae wo kai tekudasai.",
+        "romajiChunks": [
+          "koko ni",
+          "namae wo",
+          "kai tekudasai."
+        ]
+      },
+      {
+        "jp": "ゆっくり話してください。",
+        "reading": "ゆっくりはなしてください。",
+        "en": "Please speak slowly.",
+        "vi": "Xin hãy nói chậm rãi.",
+        "tokens": [
+          [
+            {
+              "t": "ゆっくり"
+            }
+          ],
+          [
+            {
+              "t": "話",
+              "f": "はな"
+            },
+            {
+              "t": "してください。"
+            }
+          ]
+        ],
+        "romaji": "yukkuri hanashi tekudasai.",
+        "romajiChunks": [
+          "yukkuri",
+          "hanashi tekudasai."
+        ]
       }
     ],
     "meaningVi": "Thể kết nối quan trọng, dùng cho yêu cầu, thể tiếp diễn và nối câu. Cách chia tùy nhóm động từ."
@@ -2407,6 +6349,101 @@
           "namae wo",
           "kai tekudasai."
         ]
+      },
+      {
+        "jp": "ちょっと待ってください。",
+        "reading": "ちょっとまってください。",
+        "en": "Please wait a moment.",
+        "vi": "Xin đợi một chút.",
+        "tokens": [
+          [
+            {
+              "t": "ちょっと"
+            }
+          ],
+          [
+            {
+              "t": "待",
+              "f": "ま"
+            },
+            {
+              "t": "ってください。"
+            }
+          ]
+        ],
+        "romaji": "chotto ma tekudasai.",
+        "romajiChunks": [
+          "chotto",
+          "ma tekudasai."
+        ]
+      },
+      {
+        "jp": "この漢字を教えてください。",
+        "reading": "このかんじをおしえてください。",
+        "en": "Please teach me this kanji.",
+        "vi": "Xin hãy dạy tôi chữ kanji này.",
+        "tokens": [
+          [
+            {
+              "t": "この"
+            }
+          ],
+          [
+            {
+              "t": "漢字",
+              "f": "かんじ"
+            },
+            {
+              "t": "を"
+            }
+          ],
+          [
+            {
+              "t": "教",
+              "f": "おし"
+            },
+            {
+              "t": "えてください。"
+            }
+          ]
+        ],
+        "romaji": "kono kanji wo oshie tekudasai.",
+        "romajiChunks": [
+          "kono",
+          "kanji wo",
+          "oshie tekudasai."
+        ]
+      },
+      {
+        "jp": "窓を開けてください。",
+        "reading": "まどをあけてください。",
+        "en": "Please open the window.",
+        "vi": "Xin hãy mở cửa sổ.",
+        "tokens": [
+          [
+            {
+              "t": "窓",
+              "f": "まど"
+            },
+            {
+              "t": "を"
+            }
+          ],
+          [
+            {
+              "t": "開",
+              "f": "あ"
+            },
+            {
+              "t": "けてください。"
+            }
+          ]
+        ],
+        "romaji": "mado wo ake tekudasai.",
+        "romajiChunks": [
+          "mado wo",
+          "ake tekudasai."
+        ]
       }
     ],
     "meaningVi": "Lời đề nghị lịch sự — 'xin hãy ~'."
@@ -2451,6 +6488,121 @@
         "romajiChunks": [
           "koname ga",
           "fu teimasu."
+        ]
+      },
+      {
+        "jp": "今、雨が降っています。",
+        "reading": "いま、あめがふっています。",
+        "en": "It is raining now.",
+        "vi": "Bây giờ trời đang mưa.",
+        "tokens": [
+          [
+            {
+              "t": "今",
+              "f": "いま"
+            },
+            {
+              "t": "、"
+            }
+          ],
+          [
+            {
+              "t": "雨",
+              "f": "あめ"
+            },
+            {
+              "t": "が"
+            }
+          ],
+          [
+            {
+              "t": "降",
+              "f": "ふ"
+            },
+            {
+              "t": "っています。"
+            }
+          ]
+        ],
+        "romaji": "ima, ame ga fu teimasu.",
+        "romajiChunks": [
+          "ima,",
+          "ame ga",
+          "fu teimasu."
+        ]
+      },
+      {
+        "jp": "ミラーさんは電話をかけています。",
+        "reading": "ミラーさんはでんわをかけています。",
+        "en": "Mr. Miller is making a phone call.",
+        "vi": "Anh Miller đang gọi điện thoại.",
+        "tokens": [
+          [
+            {
+              "t": "ミラーさんは"
+            }
+          ],
+          [
+            {
+              "t": "電話",
+              "f": "でんわ"
+            },
+            {
+              "t": "を"
+            }
+          ],
+          [
+            {
+              "t": "かけています。"
+            }
+          ]
+        ],
+        "romaji": "miraasan wa denwa wo kake teimasu.",
+        "romajiChunks": [
+          "miraasan wa",
+          "denwa wo",
+          "kake teimasu."
+        ]
+      },
+      {
+        "jp": "田中さんは本を読んでいます。",
+        "reading": "たなかさんはほんをよんでいます。",
+        "en": "Mr. Tanaka is reading a book.",
+        "vi": "Ông Tanaka đang đọc sách.",
+        "tokens": [
+          [
+            {
+              "t": "田中",
+              "f": "たなか"
+            },
+            {
+              "t": "さんは"
+            }
+          ],
+          [
+            {
+              "t": "本",
+              "f": "ほん"
+            },
+            {
+              "t": "を"
+            }
+          ],
+          [
+            {
+              "t": "読",
+              "f": "よ"
+            },
+            {
+              "t": "んでいます。"
+            }
+          ]
+        ],
+        "romaji": "tanakasan wa hon wo yon deimasu.",
+        "romajiChunks": [
+          "tanakasan wa",
+          "hon wo",
+          "yon deimasu."
         ]
       }
     ],
@@ -2499,6 +6651,113 @@
           "shashin wo",
           "to te moii desu ka."
         ]
+      },
+      {
+        "jp": "ここで写真を撮ってもいいです。",
+        "reading": "ここでしゃしんをとってもいいです。",
+        "en": "You may take photos here.",
+        "vi": "Bạn có thể chụp ảnh ở đây.",
+        "tokens": [
+          [
+            {
+              "t": "ここで"
+            }
+          ],
+          [
+            {
+              "t": "写真",
+              "f": "しゃしん"
+            },
+            {
+              "t": "を"
+            }
+          ],
+          [
+            {
+              "t": "撮",
+              "f": "と"
+            },
+            {
+              "t": "ってもいいです。"
+            }
+          ]
+        ],
+        "romaji": "koko de shashin wo to te moii desu.",
+        "romajiChunks": [
+          "koko de",
+          "shashin wo",
+          "to te moii desu."
+        ]
+      },
+      {
+        "jp": "「入ってもいいですか。」「はい、どうぞ。」",
+        "reading": "「はいってもいいですか。」「はい、どうぞ。」",
+        "en": "\"May I come in?\" \"Yes, please.\"",
+        "vi": "\"Tôi vào được không?\" \"Vâng, mời vào.\"",
+        "tokens": [
+          [
+            {
+              "t": "「"
+            }
+          ],
+          [
+            {
+              "t": "入",
+              "f": "はい"
+            },
+            {
+              "t": "ってもいいですか。」「"
+            }
+          ],
+          [
+            {
+              "t": "はい、"
+            }
+          ],
+          [
+            {
+              "t": "どうぞ。」"
+            }
+          ]
+        ],
+        "romaji": "hai te moii desu ka. hai, douzo.",
+        "romajiChunks": [
+          "",
+          "hai te moii desu ka.",
+          "hai,",
+          "douzo."
+        ]
+      },
+      {
+        "jp": "鉛筆で書いてもいいです。",
+        "reading": "えんぴつでかいてもいいです。",
+        "en": "You may write in pencil.",
+        "vi": "Bạn có thể viết bằng bút chì.",
+        "tokens": [
+          [
+            {
+              "t": "鉛筆",
+              "f": "えんぴつ"
+            },
+            {
+              "t": "で"
+            }
+          ],
+          [
+            {
+              "t": "書",
+              "f": "か"
+            },
+            {
+              "t": "いてもいいです。"
+            }
+          ]
+        ],
+        "romaji": "enpitsu de kai te moii desu.",
+        "romajiChunks": [
+          "enpitsu de",
+          "kai te moii desu."
+        ]
       }
     ],
     "meaningVi": "Cho phép hoặc xin phép — 'được phép ~'."
@@ -2542,6 +6801,74 @@
           "tabako wo",
           "su te waikemasen."
         ]
+      },
+      {
+        "jp": "ここに車を止めてはいけません。",
+        "reading": "ここにくるまをとめてはいけません。",
+        "en": "You must not park here.",
+        "vi": "Không được đỗ xe ở đây.",
+        "tokens": [
+          [
+            {
+              "t": "ここに"
+            }
+          ],
+          [
+            {
+              "t": "車",
+              "f": "くるま"
+            },
+            {
+              "t": "を"
+            }
+          ],
+          [
+            {
+              "t": "止",
+              "f": "と"
+            },
+            {
+              "t": "めてはいけません。"
+            }
+          ]
+        ],
+        "romaji": "koko ni kuruma wo tome te waikemasen.",
+        "romajiChunks": [
+          "koko ni",
+          "kuruma wo",
+          "tome te waikemasen."
+        ]
+      },
+      {
+        "jp": "図書館で話してはいけません。",
+        "reading": "としょかんではなしてはいけません。",
+        "en": "You must not talk in the library.",
+        "vi": "Không được nói chuyện trong thư viện.",
+        "tokens": [
+          [
+            {
+              "t": "図書館",
+              "f": "としょかん"
+            },
+            {
+              "t": "で"
+            }
+          ],
+          [
+            {
+              "t": "話",
+              "f": "はな"
+            },
+            {
+              "t": "してはいけません。"
+            }
+          ]
+        ],
+        "romaji": "toshokan de hanashi te waikemasen.",
+        "romajiChunks": [
+          "toshokan de",
+          "hanashi te waikemasen."
+        ]
       }
     ],
     "meaningVi": "Cấm làm gì đó — 'không được ~'."
@@ -2582,6 +6909,114 @@
         "romajiChunks": [
           "ginkou de",
           "hatarai teimasu."
+        ]
+      },
+      {
+        "jp": "ミラーさんは東京に住んでいます。",
+        "reading": "ミラーさんはとうきょうにすんでいます。",
+        "en": "Mr. Miller lives in Tokyo.",
+        "vi": "Anh Miller sống ở Tokyo.",
+        "tokens": [
+          [
+            {
+              "t": "ミラーさんは"
+            }
+          ],
+          [
+            {
+              "t": "東京",
+              "f": "とうきょう"
+            },
+            {
+              "t": "に"
+            }
+          ],
+          [
+            {
+              "t": "住",
+              "f": "す"
+            },
+            {
+              "t": "んでいます。"
+            }
+          ]
+        ],
+        "romaji": "miraasan wa toukyou ni sun deimasu.",
+        "romajiChunks": [
+          "miraasan wa",
+          "toukyou ni",
+          "sun deimasu."
+        ]
+      },
+      {
+        "jp": "姉は銀行に勤めています。",
+        "reading": "あねはぎんこうにつとめています。",
+        "en": "My older sister works at a bank.",
+        "vi": "Chị gái tôi làm ở ngân hàng.",
+        "tokens": [
+          [
+            {
+              "t": "姉",
+              "f": "あね"
+            },
+            {
+              "t": "は"
+            }
+          ],
+          [
+            {
+              "t": "銀行",
+              "f": "ぎんこう"
+            },
+            {
+              "t": "に"
+            }
+          ],
+          [
+            {
+              "t": "勤",
+              "f": "つと"
+            },
+            {
+              "t": "めています。"
+            }
+          ]
+        ],
+        "romaji": "ane wa ginkou ni tsutome teimasu.",
+        "romajiChunks": [
+          "ane wa",
+          "ginkou ni",
+          "tsutome teimasu."
+        ]
+      },
+      {
+        "jp": "わたしは結婚しています。",
+        "reading": "わたしはけっこんしています。",
+        "en": "I am married.",
+        "vi": "Tôi đã kết hôn.",
+        "tokens": [
+          [
+            {
+              "t": "わたしは"
+            }
+          ],
+          [
+            {
+              "t": "結婚",
+              "f": "けっこん"
+            }
+          ],
+          [
+            {
+              "t": "しています。"
+            }
+          ]
+        ],
+        "romaji": "watashi wa kekkon shi teimasu.",
+        "romajiChunks": [
+          "watashi wa",
+          "kekkon",
+          "shi teimasu."
         ]
       }
     ],
@@ -2654,6 +7089,175 @@
           "kaisha e",
           "ikimasu."
         ]
+      },
+      {
+        "jp": "朝起きて、ごはんを食べて、会社へ行きます。",
+        "reading": "あさおきて、ごはんをたべて、かいしゃへいきます。",
+        "en": "I get up, eat, and go to work.",
+        "vi": "Tôi thức dậy, ăn cơm, rồi đi làm.",
+        "tokens": [
+          [
+            {
+              "t": "朝",
+              "f": "あさ"
+            }
+          ],
+          [
+            {
+              "t": "起",
+              "f": "お"
+            },
+            {
+              "t": "きて、"
+            }
+          ],
+          [
+            {
+              "t": "ごはんを"
+            }
+          ],
+          [
+            {
+              "t": "食",
+              "f": "た"
+            },
+            {
+              "t": "べて、"
+            }
+          ],
+          [
+            {
+              "t": "会社",
+              "f": "かいしゃ"
+            },
+            {
+              "t": "へ"
+            }
+          ],
+          [
+            {
+              "t": "行",
+              "f": "い"
+            },
+            {
+              "t": "きます。"
+            }
+          ]
+        ],
+        "romaji": "asa oki te, gohan wo tabe te, kaisha e ikimasu.",
+        "romajiChunks": [
+          "asa",
+          "oki te,",
+          "gohan wo",
+          "tabe te,",
+          "kaisha e",
+          "ikimasu."
+        ]
+      },
+      {
+        "jp": "図書館へ行って、本を借ります。",
+        "reading": "としょかんへいって、ほんをかります。",
+        "en": "I go to the library and borrow a book.",
+        "vi": "Tôi đến thư viện và mượn sách.",
+        "tokens": [
+          [
+            {
+              "t": "図書館",
+              "f": "としょかん"
+            },
+            {
+              "t": "へ"
+            }
+          ],
+          [
+            {
+              "t": "行",
+              "f": "い"
+            },
+            {
+              "t": "って、"
+            }
+          ],
+          [
+            {
+              "t": "本",
+              "f": "ほん"
+            },
+            {
+              "t": "を"
+            }
+          ],
+          [
+            {
+              "t": "借",
+              "f": "か"
+            },
+            {
+              "t": "ります。"
+            }
+          ]
+        ],
+        "romaji": "toshokan e i te, hon wo karimasu.",
+        "romajiChunks": [
+          "toshokan e",
+          "i te,",
+          "hon wo",
+          "karimasu."
+        ]
+      },
+      {
+        "jp": "手を洗って、昼ごはんを食べます。",
+        "reading": "てをあらって、ひるごはんをたべます。",
+        "en": "I wash my hands and eat lunch.",
+        "vi": "Tôi rửa tay rồi ăn trưa.",
+        "tokens": [
+          [
+            {
+              "t": "手",
+              "f": "て"
+            },
+            {
+              "t": "を"
+            }
+          ],
+          [
+            {
+              "t": "洗",
+              "f": "あら"
+            },
+            {
+              "t": "って、"
+            }
+          ],
+          [
+            {
+              "t": "昼",
+              "f": "ひる"
+            }
+          ],
+          [
+            {
+              "t": "ごはんを"
+            }
+          ],
+          [
+            {
+              "t": "食",
+              "f": "た"
+            },
+            {
+              "t": "べます。"
+            }
+          ]
+        ],
+        "romaji": "te wo ara te, hiru gohan wo tabemasu.",
+        "romajiChunks": [
+          "te wo",
+          "ara te,",
+          "hiru",
+          "gohan wo",
+          "tabemasu."
+        ]
       }
     ],
     "meaningVi": "Nối các hành động theo trình tự — 'làm V1 rồi V2'. Thì do động từ cuối quyết định."
@@ -2715,6 +7319,107 @@
           "eiga wo",
           "mimasu."
         ]
+      },
+      {
+        "jp": "ごはんを食べてから、薬を飲みます。",
+        "reading": "ごはんをたべてから、くすりをのみます。",
+        "en": "After eating, I take medicine.",
+        "vi": "Sau khi ăn cơm, tôi uống thuốc.",
+        "tokens": [
+          [
+            {
+              "t": "ごはんを"
+            }
+          ],
+          [
+            {
+              "t": "食",
+              "f": "た"
+            },
+            {
+              "t": "べてから、"
+            }
+          ],
+          [
+            {
+              "t": "薬",
+              "f": "くすり"
+            },
+            {
+              "t": "を"
+            }
+          ],
+          [
+            {
+              "t": "飲",
+              "f": "の"
+            },
+            {
+              "t": "みます。"
+            }
+          ]
+        ],
+        "romaji": "gohan wo tabe te kara, kusuri wo nomimasu.",
+        "romajiChunks": [
+          "gohan wo",
+          "tabe te kara,",
+          "kusuri wo",
+          "nomimasu."
+        ]
+      },
+      {
+        "jp": "日本へ来てから、日本語を勉強しています。",
+        "reading": "にほんへきてから、にほんごをべんきょうしています。",
+        "en": "Since coming to Japan, I have been studying Japanese.",
+        "vi": "Từ khi đến Nhật, tôi vẫn đang học tiếng Nhật.",
+        "tokens": [
+          [
+            {
+              "t": "日本",
+              "f": "にほん"
+            },
+            {
+              "t": "へ"
+            }
+          ],
+          [
+            {
+              "t": "来",
+              "f": "き"
+            },
+            {
+              "t": "てから、"
+            }
+          ],
+          [
+            {
+              "t": "日本語",
+              "f": "にほんご"
+            },
+            {
+              "t": "を"
+            }
+          ],
+          [
+            {
+              "t": "勉強",
+              "f": "べんきょう"
+            }
+          ],
+          [
+            {
+              "t": "しています。"
+            }
+          ]
+        ],
+        "romaji": "nihon e ki te kara, nihongo wo benkyou shi teimasu.",
+        "romajiChunks": [
+          "nihon e",
+          "ki te kara,",
+          "nihongo wo",
+          "benkyou",
+          "shi teimasu."
+        ]
       }
     ],
     "meaningVi": "'Sau khi ~'. Nhấn mạnh một việc xảy ra sau một việc khác."
@@ -2768,6 +7473,127 @@
           "shizukade,",
           "kirei desu."
         ]
+      },
+      {
+        "jp": "この部屋は広くて、きれいです。",
+        "reading": "このへやはひろくて、きれいです。",
+        "en": "This room is spacious and clean.",
+        "vi": "Căn phòng này rộng và sạch.",
+        "tokens": [
+          [
+            {
+              "t": "この"
+            }
+          ],
+          [
+            {
+              "t": "部屋",
+              "f": "へや"
+            },
+            {
+              "t": "は"
+            }
+          ],
+          [
+            {
+              "t": "広",
+              "f": "ひろ"
+            },
+            {
+              "t": "くて、"
+            }
+          ],
+          [
+            {
+              "t": "きれいです。"
+            }
+          ]
+        ],
+        "romaji": "kono heya wa hiroku te, kirei desu.",
+        "romajiChunks": [
+          "kono",
+          "heya wa",
+          "hiroku te,",
+          "kirei desu."
+        ]
+      },
+      {
+        "jp": "京都は静かで、有名です。",
+        "reading": "きょうとはしずかで、ゆうめいです。",
+        "en": "Kyoto is quiet and famous.",
+        "vi": "Kyoto yên tĩnh và nổi tiếng.",
+        "tokens": [
+          [
+            {
+              "t": "京都",
+              "f": "きょうと"
+            },
+            {
+              "t": "は"
+            }
+          ],
+          [
+            {
+              "t": "静",
+              "f": "しず"
+            },
+            {
+              "t": "かで、"
+            }
+          ],
+          [
+            {
+              "t": "有名",
+              "f": "ゆうめい"
+            },
+            {
+              "t": "です。"
+            }
+          ]
+        ],
+        "romaji": "kyouto wa shizukade, yuumei desu.",
+        "romajiChunks": [
+          "kyouto wa",
+          "shizukade,",
+          "yuumei desu."
+        ]
+      },
+      {
+        "jp": "田中さんは親切で、ハンサムです。",
+        "reading": "たなかさんはしんせつで、ハンサムです。",
+        "en": "Mr. Tanaka is kind and handsome.",
+        "vi": "Ông Tanaka tốt bụng và đẹp trai.",
+        "tokens": [
+          [
+            {
+              "t": "田中",
+              "f": "たなか"
+            },
+            {
+              "t": "さんは"
+            }
+          ],
+          [
+            {
+              "t": "親切",
+              "f": "しんせつ"
+            },
+            {
+              "t": "で、"
+            }
+          ],
+          [
+            {
+              "t": "ハンサムです。"
+            }
+          ]
+        ],
+        "romaji": "tanakasan wa shinsetsude, hansamu desu.",
+        "romajiChunks": [
+          "tanakasan wa",
+          "shinsetsude,",
+          "hansamu desu."
+        ]
       }
     ],
     "meaningVi": "Nối tính từ: tính từ い → くて, tính từ な/danh từ → で — 'vừa A vừa B'."
@@ -2819,6 +7645,101 @@
           "nani mo",
           "tabenai."
         ]
+      },
+      {
+        "jp": "ここで写真を撮らないでください。",
+        "reading": "ここでしゃしんをとらないでください。",
+        "en": "Please don't take photos here.",
+        "vi": "Xin đừng chụp ảnh ở đây.",
+        "tokens": [
+          [
+            {
+              "t": "ここで"
+            }
+          ],
+          [
+            {
+              "t": "写真",
+              "f": "しゃしん"
+            },
+            {
+              "t": "を"
+            }
+          ],
+          [
+            {
+              "t": "撮",
+              "f": "と"
+            },
+            {
+              "t": "らないでください。"
+            }
+          ]
+        ],
+        "romaji": "koko de shashin wo toranai dekudasai.",
+        "romajiChunks": [
+          "koko de",
+          "shashin wo",
+          "toranai dekudasai."
+        ]
+      },
+      {
+        "jp": "無理をしないでください。",
+        "reading": "むりをしないでください。",
+        "en": "Please don't overdo it.",
+        "vi": "Xin đừng làm quá sức.",
+        "tokens": [
+          [
+            {
+              "t": "無理",
+              "f": "むり"
+            },
+            {
+              "t": "を"
+            }
+          ],
+          [
+            {
+              "t": "しないでください。"
+            }
+          ]
+        ],
+        "romaji": "muri wo shinai dekudasai.",
+        "romajiChunks": [
+          "muri wo",
+          "shinai dekudasai."
+        ]
+      },
+      {
+        "jp": "電気を消さないでください。",
+        "reading": "でんきをけさないでください。",
+        "en": "Please don't turn off the light.",
+        "vi": "Xin đừng tắt đèn.",
+        "tokens": [
+          [
+            {
+              "t": "電気",
+              "f": "でんき"
+            },
+            {
+              "t": "を"
+            }
+          ],
+          [
+            {
+              "t": "消",
+              "f": "け"
+            },
+            {
+              "t": "さないでください。"
+            }
+          ]
+        ],
+        "romaji": "denki wo kesanai dekudasai.",
+        "romajiChunks": [
+          "denki wo",
+          "kesanai dekudasai."
+        ]
       }
     ],
     "meaningVi": "Thể phủ định thông thường, là gốc cho các mẫu câu bên dưới."
@@ -2865,6 +7786,98 @@
           "koko ni",
           "kuruma wo",
           "tomenai dekudasai."
+        ]
+      },
+      {
+        "jp": "ここに入らないでください。",
+        "reading": "ここにはいらないでください。",
+        "en": "Please don't enter here.",
+        "vi": "Xin đừng vào đây.",
+        "tokens": [
+          [
+            {
+              "t": "ここに"
+            }
+          ],
+          [
+            {
+              "t": "入",
+              "f": "はい"
+            },
+            {
+              "t": "らないでください。"
+            }
+          ]
+        ],
+        "romaji": "koko ni hairanai dekudasai.",
+        "romajiChunks": [
+          "koko ni",
+          "hairanai dekudasai."
+        ]
+      },
+      {
+        "jp": "大きい声で話さないでください。",
+        "reading": "おおきいこえではなさないでください。",
+        "en": "Please don't speak loudly.",
+        "vi": "Xin đừng nói to.",
+        "tokens": [
+          [
+            {
+              "t": "大",
+              "f": "おお"
+            },
+            {
+              "t": "きい"
+            }
+          ],
+          [
+            {
+              "t": "声",
+              "f": "こえ"
+            },
+            {
+              "t": "で"
+            }
+          ],
+          [
+            {
+              "t": "話",
+              "f": "はな"
+            },
+            {
+              "t": "さないでください。"
+            }
+          ]
+        ],
+        "romaji": "oukii koe de hanasanai dekudasai.",
+        "romajiChunks": [
+          "oukii",
+          "koe de",
+          "hanasanai dekudasai."
+        ]
+      },
+      {
+        "jp": "心配しないでください。",
+        "reading": "しんぱいしないでください。",
+        "en": "Please don't worry.",
+        "vi": "Xin đừng lo lắng.",
+        "tokens": [
+          [
+            {
+              "t": "心配",
+              "f": "しんぱい"
+            }
+          ],
+          [
+            {
+              "t": "しないでください。"
+            }
+          ]
+        ],
+        "romaji": "shinpai shinai dekudasai.",
+        "romajiChunks": [
+          "shinpai",
+          "shinai dekudasai."
         ]
       }
     ],
@@ -2935,6 +7948,109 @@
           "ashita",
           "konaku te moii desu."
         ]
+      },
+      {
+        "jp": "毎日薬を飲まなければなりません。",
+        "reading": "まいにちやくをのまなければなりません。",
+        "en": "I must take medicine every day.",
+        "vi": "Tôi phải uống thuốc mỗi ngày.",
+        "tokens": [
+          [
+            {
+              "t": "毎日",
+              "f": "まいにち"
+            },
+            {
+              "t": "薬",
+              "f": "やく"
+            },
+            {
+              "t": "を"
+            }
+          ],
+          [
+            {
+              "t": "飲",
+              "f": "の"
+            },
+            {
+              "t": "まなければなりません。"
+            }
+          ]
+        ],
+        "romaji": "mainichiyaku wo nomanakere banarimasen.",
+        "romajiChunks": [
+          "mainichiyaku wo",
+          "nomanakere banarimasen."
+        ]
+      },
+      {
+        "jp": "あした早く起きなければなりません。",
+        "reading": "あしたはやくおきなければなりません。",
+        "en": "I must get up early tomorrow.",
+        "vi": "Ngày mai tôi phải dậy sớm.",
+        "tokens": [
+          [
+            {
+              "t": "あした"
+            }
+          ],
+          [
+            {
+              "t": "早",
+              "f": "はや"
+            },
+            {
+              "t": "く"
+            }
+          ],
+          [
+            {
+              "t": "起",
+              "f": "お"
+            },
+            {
+              "t": "きなければなりません。"
+            }
+          ]
+        ],
+        "romaji": "ashita hayaku okinakere banarimasen.",
+        "romajiChunks": [
+          "ashita",
+          "hayaku",
+          "okinakere banarimasen."
+        ]
+      },
+      {
+        "jp": "日曜日は働かなくてもいいです。",
+        "reading": "にちようびははたらかなくてもいいです。",
+        "en": "I don't have to work on Sundays.",
+        "vi": "Chủ nhật tôi không cần làm việc.",
+        "tokens": [
+          [
+            {
+              "t": "日曜日",
+              "f": "にちようび"
+            },
+            {
+              "t": "は"
+            }
+          ],
+          [
+            {
+              "t": "働",
+              "f": "はたら"
+            },
+            {
+              "t": "かなくてもいいです。"
+            }
+          ]
+        ],
+        "romaji": "nichiyoubi wa hatarakanaku te moii desu.",
+        "romajiChunks": [
+          "nichiyoubi wa",
+          "hatarakanaku te moii desu."
+        ]
       }
     ],
     "meaningVi": "Nghĩa vụ ('phải ~') và ngược lại ('không cần ~')."
@@ -2982,6 +8098,129 @@
           "maiban",
           "hon wo",
           "yomu."
+        ]
+      },
+      {
+        "jp": "本を読むことが好きです。",
+        "reading": "ほんをよむことがすきです。",
+        "en": "I like reading books.",
+        "vi": "Tôi thích đọc sách.",
+        "tokens": [
+          [
+            {
+              "t": "本",
+              "f": "ほん"
+            },
+            {
+              "t": "を"
+            }
+          ],
+          [
+            {
+              "t": "読",
+              "f": "よ"
+            },
+            {
+              "t": "むことが"
+            }
+          ],
+          [
+            {
+              "t": "好",
+              "f": "す"
+            },
+            {
+              "t": "きです。"
+            }
+          ]
+        ],
+        "romaji": "hon wo yomukoto ga suki desu.",
+        "romajiChunks": [
+          "hon wo",
+          "yomukoto ga",
+          "suki desu."
+        ]
+      },
+      {
+        "jp": "音楽を聞くことが好きです。",
+        "reading": "おんがくをきくことがすきです。",
+        "en": "I like listening to music.",
+        "vi": "Tôi thích nghe nhạc.",
+        "tokens": [
+          [
+            {
+              "t": "音楽",
+              "f": "おんがく"
+            },
+            {
+              "t": "を"
+            }
+          ],
+          [
+            {
+              "t": "聞",
+              "f": "き"
+            },
+            {
+              "t": "くことが"
+            }
+          ],
+          [
+            {
+              "t": "好",
+              "f": "す"
+            },
+            {
+              "t": "きです。"
+            }
+          ]
+        ],
+        "romaji": "ongaku wo kikukoto ga suki desu.",
+        "romajiChunks": [
+          "ongaku wo",
+          "kikukoto ga",
+          "suki desu."
+        ]
+      },
+      {
+        "jp": "早く起きることは難しいです。",
+        "reading": "はやくおきることはむずかしいです。",
+        "en": "Getting up early is difficult.",
+        "vi": "Dậy sớm thì khó.",
+        "tokens": [
+          [
+            {
+              "t": "早",
+              "f": "はや"
+            },
+            {
+              "t": "く"
+            }
+          ],
+          [
+            {
+              "t": "起",
+              "f": "お"
+            },
+            {
+              "t": "きることは"
+            }
+          ],
+          [
+            {
+              "t": "難",
+              "f": "むずか"
+            },
+            {
+              "t": "しいです。"
+            }
+          ]
+        ],
+        "romaji": "hayaku okirukoto wa muzukashii desu.",
+        "romajiChunks": [
+          "hayaku",
+          "okirukoto wa",
+          "muzukashii desu."
         ]
       }
     ],
@@ -3034,6 +8273,92 @@
           "watashi wa",
           "nihongo wo",
           "hanasukoto ga",
+          "dekimasu."
+        ]
+      },
+      {
+        "jp": "ミラーさんは漢字を読むことができます。",
+        "reading": "ミラーさんはかんじをよむことができます。",
+        "en": "Mr. Miller can read kanji.",
+        "vi": "Anh Miller có thể đọc chữ Hán.",
+        "tokens": [
+          [
+            {
+              "t": "ミラーさんは"
+            }
+          ],
+          [
+            {
+              "t": "漢字",
+              "f": "かんじ"
+            },
+            {
+              "t": "を"
+            }
+          ],
+          [
+            {
+              "t": "読",
+              "f": "よ"
+            },
+            {
+              "t": "むことが"
+            }
+          ],
+          [
+            {
+              "t": "できます。"
+            }
+          ]
+        ],
+        "romaji": "miraasan wa kanji wo yomukoto ga dekimasu.",
+        "romajiChunks": [
+          "miraasan wa",
+          "kanji wo",
+          "yomukoto ga",
+          "dekimasu."
+        ]
+      },
+      {
+        "jp": "ここで写真を撮ることができます。",
+        "reading": "ここでしゃしんをとることができます。",
+        "en": "You can take photos here.",
+        "vi": "Bạn có thể chụp ảnh ở đây.",
+        "tokens": [
+          [
+            {
+              "t": "ここで"
+            }
+          ],
+          [
+            {
+              "t": "写真",
+              "f": "しゃしん"
+            },
+            {
+              "t": "を"
+            }
+          ],
+          [
+            {
+              "t": "撮",
+              "f": "と"
+            },
+            {
+              "t": "ることが"
+            }
+          ],
+          [
+            {
+              "t": "できます。"
+            }
+          ]
+        ],
+        "romaji": "koko de shashin wo torukoto ga dekimasu.",
+        "romajiChunks": [
+          "koko de",
+          "shashin wo",
+          "torukoto ga",
           "dekimasu."
         ]
       }
@@ -3097,6 +8422,160 @@
           "hon wo",
           "yomimasu."
         ]
+      },
+      {
+        "jp": "食べるまえに、手を洗います。",
+        "reading": "たべるまえに、てをあらいます。",
+        "en": "Before eating, I wash my hands.",
+        "vi": "Trước khi ăn, tôi rửa tay.",
+        "tokens": [
+          [
+            {
+              "t": "食",
+              "f": "た"
+            },
+            {
+              "t": "べる"
+            }
+          ],
+          [
+            {
+              "t": "まえに、"
+            }
+          ],
+          [
+            {
+              "t": "手",
+              "f": "て"
+            },
+            {
+              "t": "を"
+            }
+          ],
+          [
+            {
+              "t": "洗",
+              "f": "あら"
+            },
+            {
+              "t": "います。"
+            }
+          ]
+        ],
+        "romaji": "taberu mae ni, te wo araimasu.",
+        "romajiChunks": [
+          "taberu",
+          "mae ni,",
+          "te wo",
+          "araimasu."
+        ]
+      },
+      {
+        "jp": "寝るまえに、本を読みます。",
+        "reading": "ねるまえに、ほんをよみます。",
+        "en": "Before sleeping, I read a book.",
+        "vi": "Trước khi ngủ, tôi đọc sách.",
+        "tokens": [
+          [
+            {
+              "t": "寝",
+              "f": "ね"
+            },
+            {
+              "t": "る"
+            }
+          ],
+          [
+            {
+              "t": "まえに、"
+            }
+          ],
+          [
+            {
+              "t": "本",
+              "f": "ほん"
+            },
+            {
+              "t": "を"
+            }
+          ],
+          [
+            {
+              "t": "読",
+              "f": "よ"
+            },
+            {
+              "t": "みます。"
+            }
+          ]
+        ],
+        "romaji": "neru mae ni, hon wo yomimasu.",
+        "romajiChunks": [
+          "neru",
+          "mae ni,",
+          "hon wo",
+          "yomimasu."
+        ]
+      },
+      {
+        "jp": "日本へ来るまえに、日本語を勉強しました。",
+        "reading": "にほんへくるまえに、にほんごをべんきょうしました。",
+        "en": "Before coming to Japan, I studied Japanese.",
+        "vi": "Trước khi đến Nhật, tôi đã học tiếng Nhật.",
+        "tokens": [
+          [
+            {
+              "t": "日本",
+              "f": "にほん"
+            },
+            {
+              "t": "へ"
+            }
+          ],
+          [
+            {
+              "t": "来",
+              "f": "く"
+            },
+            {
+              "t": "る"
+            }
+          ],
+          [
+            {
+              "t": "まえに、"
+            }
+          ],
+          [
+            {
+              "t": "日本語",
+              "f": "にほんご"
+            },
+            {
+              "t": "を"
+            }
+          ],
+          [
+            {
+              "t": "勉強",
+              "f": "べんきょう"
+            }
+          ],
+          [
+            {
+              "t": "しました。"
+            }
+          ]
+        ],
+        "romaji": "nihon e kuru mae ni, nihongo wo benkyou shimashita.",
+        "romajiChunks": [
+          "nihon e",
+          "kuru",
+          "mae ni,",
+          "nihongo wo",
+          "benkyou",
+          "shimashita."
+        ]
       }
     ],
     "meaningVi": "'Trước khi ~'. Luôn dùng thể từ điển dù thì chính là gì."
@@ -3148,6 +8627,113 @@
           "kyouto e",
           "ita."
         ]
+      },
+      {
+        "jp": "きのう京都へ行った。",
+        "reading": "きのうきょうとへいった。",
+        "en": "I went to Kyoto yesterday.",
+        "vi": "Hôm qua tôi đã đi Kyoto.",
+        "tokens": [
+          [
+            {
+              "t": "きのう"
+            }
+          ],
+          [
+            {
+              "t": "京都",
+              "f": "きょうと"
+            },
+            {
+              "t": "へ"
+            }
+          ],
+          [
+            {
+              "t": "行",
+              "f": "い"
+            },
+            {
+              "t": "った。"
+            }
+          ]
+        ],
+        "romaji": "kinou kyouto e ita.",
+        "romajiChunks": [
+          "kinou",
+          "kyouto e",
+          "ita."
+        ]
+      },
+      {
+        "jp": "ゆうべ映画を見た。",
+        "reading": "ゆうべえいがをみた。",
+        "en": "I watched a movie last night.",
+        "vi": "Tối qua tôi đã xem phim.",
+        "tokens": [
+          [
+            {
+              "t": "ゆうべ"
+            }
+          ],
+          [
+            {
+              "t": "映画",
+              "f": "えいが"
+            },
+            {
+              "t": "を"
+            }
+          ],
+          [
+            {
+              "t": "見",
+              "f": "み"
+            },
+            {
+              "t": "た。"
+            }
+          ]
+        ],
+        "romaji": "yuube eiga wo mita.",
+        "romajiChunks": [
+          "yuube",
+          "eiga wo",
+          "mita."
+        ]
+      },
+      {
+        "jp": "けさパンを食べた。",
+        "reading": "けさパンをたべた。",
+        "en": "I ate bread this morning.",
+        "vi": "Sáng nay tôi đã ăn bánh mì.",
+        "tokens": [
+          [
+            {
+              "t": "けさ"
+            }
+          ],
+          [
+            {
+              "t": "パンを"
+            }
+          ],
+          [
+            {
+              "t": "食",
+              "f": "た"
+            },
+            {
+              "t": "べた。"
+            }
+          ]
+        ],
+        "romaji": "kesa pan wo tabeta.",
+        "romajiChunks": [
+          "kesa",
+          "pan wo",
+          "tabeta."
+        ]
       }
     ],
     "meaningVi": "Thể quá khứ thông thường, chia như thể て. Là gốc cho các mẫu câu bên dưới."
@@ -3193,6 +8779,113 @@
         "romajiChunks": [
           "hokkaidou e",
           "itakoto ga",
+          "arimasu."
+        ]
+      },
+      {
+        "jp": "日本へ行ったことがあります。",
+        "reading": "にほんへいったことがあります。",
+        "en": "I have been to Japan.",
+        "vi": "Tôi đã từng đến Nhật.",
+        "tokens": [
+          [
+            {
+              "t": "日本",
+              "f": "にほん"
+            },
+            {
+              "t": "へ"
+            }
+          ],
+          [
+            {
+              "t": "行",
+              "f": "い"
+            },
+            {
+              "t": "ったことが"
+            }
+          ],
+          [
+            {
+              "t": "あります。"
+            }
+          ]
+        ],
+        "romaji": "nihon e itakoto ga arimasu.",
+        "romajiChunks": [
+          "nihon e",
+          "itakoto ga",
+          "arimasu."
+        ]
+      },
+      {
+        "jp": "すしを食べたことがあります。",
+        "reading": "すしをたべたことがあります。",
+        "en": "I have eaten sushi before.",
+        "vi": "Tôi đã từng ăn sushi.",
+        "tokens": [
+          [
+            {
+              "t": "すしを"
+            }
+          ],
+          [
+            {
+              "t": "食",
+              "f": "た"
+            },
+            {
+              "t": "べたことが"
+            }
+          ],
+          [
+            {
+              "t": "あります。"
+            }
+          ]
+        ],
+        "romaji": "sushi wo tabetakoto ga arimasu.",
+        "romajiChunks": [
+          "sushi wo",
+          "tabetakoto ga",
+          "arimasu."
+        ]
+      },
+      {
+        "jp": "富士山に登ったことがあります。",
+        "reading": "ふじさんにのぼったことがあります。",
+        "en": "I have climbed Mt. Fuji.",
+        "vi": "Tôi đã từng leo núi Phú Sĩ.",
+        "tokens": [
+          [
+            {
+              "t": "富士山",
+              "f": "ふじさん"
+            },
+            {
+              "t": "に"
+            }
+          ],
+          [
+            {
+              "t": "登",
+              "f": "のぼ"
+            },
+            {
+              "t": "ったことが"
+            }
+          ],
+          [
+            {
+              "t": "あります。"
+            }
+          ]
+        ],
+        "romaji": "fujisan ni nobotakoto ga arimasu.",
+        "romajiChunks": [
+          "fujisan ni",
+          "nobotakoto ga",
           "arimasu."
         ]
       }
@@ -3264,6 +8957,196 @@
           "shi tari",
           "shimasu."
         ]
+      },
+      {
+        "jp": "日曜日は本を読んだり、音楽を聞いたりします。",
+        "reading": "にちようびはほんをよんだり、おんがくをきいたりします。",
+        "en": "On Sundays I do things like read and listen to music.",
+        "vi": "Chủ nhật tôi đọc sách, nghe nhạc, v.v.",
+        "tokens": [
+          [
+            {
+              "t": "日曜日",
+              "f": "にちようび"
+            },
+            {
+              "t": "は"
+            }
+          ],
+          [
+            {
+              "t": "本",
+              "f": "ほん"
+            },
+            {
+              "t": "を"
+            }
+          ],
+          [
+            {
+              "t": "読",
+              "f": "よ"
+            },
+            {
+              "t": "んだり、"
+            }
+          ],
+          [
+            {
+              "t": "音楽",
+              "f": "おんがく"
+            },
+            {
+              "t": "を"
+            }
+          ],
+          [
+            {
+              "t": "聞",
+              "f": "き"
+            },
+            {
+              "t": "いたり"
+            }
+          ],
+          [
+            {
+              "t": "します。"
+            }
+          ]
+        ],
+        "romaji": "nichiyoubi wa hon wo yon dari, ongaku wo kii tari shimasu.",
+        "romajiChunks": [
+          "nichiyoubi wa",
+          "hon wo",
+          "yon dari,",
+          "ongaku wo",
+          "kii tari",
+          "shimasu."
+        ]
+      },
+      {
+        "jp": "京都で写真を撮ったり、買い物をしたりしました。",
+        "reading": "きょうとでしゃしんをとったり、かいものをしたりしました。",
+        "en": "In Kyoto I took photos, went shopping, and so on.",
+        "vi": "Ở Kyoto tôi chụp ảnh, mua sắm, v.v.",
+        "tokens": [
+          [
+            {
+              "t": "京都",
+              "f": "きょうと"
+            },
+            {
+              "t": "で"
+            }
+          ],
+          [
+            {
+              "t": "写真",
+              "f": "しゃしん"
+            },
+            {
+              "t": "を"
+            }
+          ],
+          [
+            {
+              "t": "撮",
+              "f": "と"
+            },
+            {
+              "t": "ったり、"
+            }
+          ],
+          [
+            {
+              "t": "買い物",
+              "f": "かいもの"
+            },
+            {
+              "t": "を"
+            }
+          ],
+          [
+            {
+              "t": "したり"
+            }
+          ],
+          [
+            {
+              "t": "しました。"
+            }
+          ]
+        ],
+        "romaji": "kyouto de shashin wo to tari, kaimono wo shi tari shimashita.",
+        "romajiChunks": [
+          "kyouto de",
+          "shashin wo",
+          "to tari,",
+          "kaimono wo",
+          "shi tari",
+          "shimashita."
+        ]
+      },
+      {
+        "jp": "休みの日はテレビを見たり、寝たりします。",
+        "reading": "やすみのひはテレビをみたり、ねたりします。",
+        "en": "On days off I watch TV, sleep, and so on.",
+        "vi": "Ngày nghỉ tôi xem ti vi, ngủ, v.v.",
+        "tokens": [
+          [
+            {
+              "t": "休",
+              "f": "やす"
+            },
+            {
+              "t": "みの"
+            },
+            {
+              "t": "日",
+              "f": "ひ"
+            },
+            {
+              "t": "は"
+            }
+          ],
+          [
+            {
+              "t": "テレビを"
+            }
+          ],
+          [
+            {
+              "t": "見",
+              "f": "み"
+            },
+            {
+              "t": "たり、"
+            }
+          ],
+          [
+            {
+              "t": "寝",
+              "f": "ね"
+            },
+            {
+              "t": "たり"
+            }
+          ],
+          [
+            {
+              "t": "します。"
+            }
+          ]
+        ],
+        "romaji": "yasumi nohi wa terebi wo mi tari, ne tari shimasu.",
+        "romajiChunks": [
+          "yasumi nohi wa",
+          "terebi wo",
+          "mi tari,",
+          "ne tari",
+          "shimasu."
+        ]
       }
     ],
     "meaningVi": "Liệt kê vài hành động tiêu biểu — 'làm những việc như A và B'."
@@ -3326,6 +9209,70 @@
         "romaji": "genki ni narimashita.",
         "romajiChunks": [
           "genki ni",
+          "narimashita."
+        ]
+      },
+      {
+        "jp": "春になりました。",
+        "reading": "はるになりました。",
+        "en": "It has become spring.",
+        "vi": "Đã sang xuân rồi.",
+        "tokens": [
+          [
+            {
+              "t": "春",
+              "f": "はる"
+            },
+            {
+              "t": "に"
+            }
+          ],
+          [
+            {
+              "t": "なりました。"
+            }
+          ]
+        ],
+        "romaji": "haru ni narimashita.",
+        "romajiChunks": [
+          "haru ni",
+          "narimashita."
+        ]
+      },
+      {
+        "jp": "日本語が上手になりました。",
+        "reading": "にほんごがじょうずになりました。",
+        "en": "I have become good at Japanese.",
+        "vi": "Tôi đã giỏi tiếng Nhật hơn.",
+        "tokens": [
+          [
+            {
+              "t": "日本語",
+              "f": "にほんご"
+            },
+            {
+              "t": "が"
+            }
+          ],
+          [
+            {
+              "t": "上手",
+              "f": "じょうず"
+            },
+            {
+              "t": "に"
+            }
+          ],
+          [
+            {
+              "t": "なりました。"
+            }
+          ]
+        ],
+        "romaji": "nihongo ga jouzu ni narimashita.",
+        "romajiChunks": [
+          "nihongo ga",
+          "jouzu ni",
           "narimashita."
         ]
       }
@@ -3402,6 +9349,101 @@
           "watashi no",
           "kasa da."
         ]
+      },
+      {
+        "jp": "あした映画を見る。",
+        "reading": "あしたえいがをみる。",
+        "en": "I'll watch a movie tomorrow.",
+        "vi": "Ngày mai tôi sẽ xem phim.",
+        "tokens": [
+          [
+            {
+              "t": "あした"
+            }
+          ],
+          [
+            {
+              "t": "映画",
+              "f": "えいが"
+            },
+            {
+              "t": "を"
+            }
+          ],
+          [
+            {
+              "t": "見",
+              "f": "み"
+            },
+            {
+              "t": "る。"
+            }
+          ]
+        ],
+        "romaji": "ashita eiga wo miru.",
+        "romajiChunks": [
+          "ashita",
+          "eiga wo",
+          "miru."
+        ]
+      },
+      {
+        "jp": "きのうは楽しかった。",
+        "reading": "きのうはたのしかった。",
+        "en": "Yesterday was fun.",
+        "vi": "Hôm qua rất vui.",
+        "tokens": [
+          [
+            {
+              "t": "きのうは"
+            }
+          ],
+          [
+            {
+              "t": "楽",
+              "f": "たの"
+            },
+            {
+              "t": "しかった。"
+            }
+          ]
+        ],
+        "romaji": "kinou wa tanoshikata.",
+        "romajiChunks": [
+          "kinou wa",
+          "tanoshikata."
+        ]
+      },
+      {
+        "jp": "今日は日曜日だ。",
+        "reading": "きょうはにちようびだ。",
+        "en": "Today is Sunday.",
+        "vi": "Hôm nay là chủ nhật.",
+        "tokens": [
+          [
+            {
+              "t": "今日",
+              "f": "きょう"
+            },
+            {
+              "t": "は"
+            }
+          ],
+          [
+            {
+              "t": "日曜日",
+              "f": "にちようび"
+            },
+            {
+              "t": "だ。"
+            }
+          ]
+        ],
+        "romaji": "kyou wa nichiyoubi da.",
+        "romajiChunks": [
+          "kyou wa",
+          "nichiyoubi da."
+        ]
       }
     ],
     "meaningVi": "Lối nói thân mật với bạn bè, người thân. Động từ dùng thể từ điển/ない/た; です thành だ."
@@ -3458,6 +9500,139 @@
           "ashita",
           "ame ga",
           "furu to",
+          "omoimasu."
+        ]
+      },
+      {
+        "jp": "あした雨が降ると思います。",
+        "reading": "あしたあめがふるとおもいます。",
+        "en": "I think it will rain tomorrow.",
+        "vi": "Tôi nghĩ ngày mai trời sẽ mưa.",
+        "tokens": [
+          [
+            {
+              "t": "あした"
+            }
+          ],
+          [
+            {
+              "t": "雨",
+              "f": "あめ"
+            },
+            {
+              "t": "が"
+            }
+          ],
+          [
+            {
+              "t": "降",
+              "f": "ふ"
+            },
+            {
+              "t": "ると"
+            }
+          ],
+          [
+            {
+              "t": "思",
+              "f": "おも"
+            },
+            {
+              "t": "います。"
+            }
+          ]
+        ],
+        "romaji": "ashita ame ga furu to omoimasu.",
+        "romajiChunks": [
+          "ashita",
+          "ame ga",
+          "furu to",
+          "omoimasu."
+        ]
+      },
+      {
+        "jp": "ミラーさんは会社にいると思います。",
+        "reading": "ミラーさんはかいしゃにいるとおもいます。",
+        "en": "I think Mr. Miller is at the office.",
+        "vi": "Tôi nghĩ anh Miller đang ở công ty.",
+        "tokens": [
+          [
+            {
+              "t": "ミラーさんは"
+            }
+          ],
+          [
+            {
+              "t": "会社",
+              "f": "かいしゃ"
+            },
+            {
+              "t": "に"
+            }
+          ],
+          [
+            {
+              "t": "いると"
+            }
+          ],
+          [
+            {
+              "t": "思",
+              "f": "おも"
+            },
+            {
+              "t": "います。"
+            }
+          ]
+        ],
+        "romaji": "miraasan wa kaisha ni iru to omoimasu.",
+        "romajiChunks": [
+          "miraasan wa",
+          "kaisha ni",
+          "iru to",
+          "omoimasu."
+        ]
+      },
+      {
+        "jp": "この映画はおもしろいと思います。",
+        "reading": "このえいがはおもしろいとおもいます。",
+        "en": "I think this movie is interesting.",
+        "vi": "Tôi nghĩ bộ phim này thú vị.",
+        "tokens": [
+          [
+            {
+              "t": "この"
+            }
+          ],
+          [
+            {
+              "t": "映画",
+              "f": "えいが"
+            },
+            {
+              "t": "は"
+            }
+          ],
+          [
+            {
+              "t": "おもしろいと"
+            }
+          ],
+          [
+            {
+              "t": "思",
+              "f": "おも"
+            },
+            {
+              "t": "います。"
+            }
+          ]
+        ],
+        "romaji": "kono eiga wa omoshiroi to omoimasu.",
+        "romajiChunks": [
+          "kono",
+          "eiga wa",
+          "omoshiroi to",
           "omoimasu."
         ]
       }
@@ -3518,6 +9693,141 @@
           "konai to",
           "iimashita."
         ]
+      },
+      {
+        "jp": "田中さんはあした来ると言いました。",
+        "reading": "たなかさんはあしたくるといいました。",
+        "en": "Mr. Tanaka said he will come tomorrow.",
+        "vi": "Ông Tanaka nói ngày mai sẽ đến.",
+        "tokens": [
+          [
+            {
+              "t": "田中",
+              "f": "たなか"
+            },
+            {
+              "t": "さんは"
+            }
+          ],
+          [
+            {
+              "t": "あした"
+            }
+          ],
+          [
+            {
+              "t": "来",
+              "f": "く"
+            },
+            {
+              "t": "ると"
+            }
+          ],
+          [
+            {
+              "t": "言",
+              "f": "い"
+            },
+            {
+              "t": "いました。"
+            }
+          ]
+        ],
+        "romaji": "tanakasan wa ashita kuru to iimashita.",
+        "romajiChunks": [
+          "tanakasan wa",
+          "ashita",
+          "kuru to",
+          "iimashita."
+        ]
+      },
+      {
+        "jp": "先生は「宿題をしてください」と言いました。",
+        "reading": "せんせいは「しゅくだいをしてください」といいました。",
+        "en": "The teacher said, \"Please do the homework.\"",
+        "vi": "Thầy giáo nói \"Hãy làm bài tập.\"",
+        "tokens": [
+          [
+            {
+              "t": "先生",
+              "f": "せんせい"
+            },
+            {
+              "t": "は「"
+            }
+          ],
+          [
+            {
+              "t": "宿題",
+              "f": "しゅくだい"
+            },
+            {
+              "t": "を"
+            }
+          ],
+          [
+            {
+              "t": "してください」と"
+            }
+          ],
+          [
+            {
+              "t": "言",
+              "f": "い"
+            },
+            {
+              "t": "いました。"
+            }
+          ]
+        ],
+        "romaji": "sensei wa shukudai wo shi tekudasai to iimashita.",
+        "romajiChunks": [
+          "sensei wa",
+          "shukudai wo",
+          "shi tekudasai to",
+          "iimashita."
+        ]
+      },
+      {
+        "jp": "母は元気だと言いました。",
+        "reading": "はははげんきだといいました。",
+        "en": "My mother said she is well.",
+        "vi": "Mẹ tôi nói bà khỏe.",
+        "tokens": [
+          [
+            {
+              "t": "母",
+              "f": "はは"
+            },
+            {
+              "t": "は"
+            }
+          ],
+          [
+            {
+              "t": "元気",
+              "f": "げんき"
+            },
+            {
+              "t": "だと"
+            }
+          ],
+          [
+            {
+              "t": "言",
+              "f": "い"
+            },
+            {
+              "t": "いました。"
+            }
+          ]
+        ],
+        "romaji": "haha wa genki da to iimashita.",
+        "romajiChunks": [
+          "haha wa",
+          "genki da to",
+          "iimashita."
+        ]
       }
     ],
     "meaningVi": "Thuật lại lời nói — 'đã nói rằng ~'. Phần trích dẫn ở thể thông thường."
@@ -3558,6 +9868,97 @@
         "romajiChunks": [
           "ashita wa",
           "yasumi deshou?"
+        ]
+      },
+      {
+        "jp": "この料理はおいしいでしょう？",
+        "reading": "このりょうりはおいしいでしょう？",
+        "en": "This food is delicious, isn't it?",
+        "vi": "Món này ngon nhỉ?",
+        "tokens": [
+          [
+            {
+              "t": "この"
+            }
+          ],
+          [
+            {
+              "t": "料理",
+              "f": "りょうり"
+            },
+            {
+              "t": "は"
+            }
+          ],
+          [
+            {
+              "t": "おいしいでしょう？"
+            }
+          ]
+        ],
+        "romaji": "kono ryouri wa oishii deshou?",
+        "romajiChunks": [
+          "kono",
+          "ryouri wa",
+          "oishii deshou?"
+        ]
+      },
+      {
+        "jp": "あなたも行くでしょう？",
+        "reading": "あなたもいくでしょう？",
+        "en": "You're going too, right?",
+        "vi": "Bạn cũng đi phải không?",
+        "tokens": [
+          [
+            {
+              "t": "あなたも"
+            }
+          ],
+          [
+            {
+              "t": "行",
+              "f": "い"
+            },
+            {
+              "t": "くでしょう？"
+            }
+          ]
+        ],
+        "romaji": "anata mo iku deshou?",
+        "romajiChunks": [
+          "anata mo",
+          "iku deshou?"
+        ]
+      },
+      {
+        "jp": "田中さんは先生でしょう？",
+        "reading": "たなかさんはせんせいでしょう？",
+        "en": "Mr. Tanaka is a teacher, right?",
+        "vi": "Ông Tanaka là giáo viên nhỉ?",
+        "tokens": [
+          [
+            {
+              "t": "田中",
+              "f": "たなか"
+            },
+            {
+              "t": "さんは"
+            }
+          ],
+          [
+            {
+              "t": "先生",
+              "f": "せんせい"
+            },
+            {
+              "t": "でしょう？"
+            }
+          ]
+        ],
+        "romaji": "tanakasan wa sensei deshou?",
+        "romajiChunks": [
+          "tanakasan wa",
+          "sensei deshou?"
         ]
       }
     ],
@@ -3656,6 +10057,135 @@
           "eiga wa",
           "omoshirokata desu."
         ]
+      },
+      {
+        "jp": "これはミラーさんが作った料理です。",
+        "reading": "これはミラーさんがつくったりょうりです。",
+        "en": "This is the dish that Mr. Miller made.",
+        "vi": "Đây là món ăn mà anh Miller đã làm.",
+        "tokens": [
+          [
+            {
+              "t": "これは"
+            }
+          ],
+          [
+            {
+              "t": "ミラーさんが"
+            }
+          ],
+          [
+            {
+              "t": "作",
+              "f": "つく"
+            },
+            {
+              "t": "った"
+            }
+          ],
+          [
+            {
+              "t": "料理",
+              "f": "りょうり"
+            },
+            {
+              "t": "です。"
+            }
+          ]
+        ],
+        "romaji": "kore wa miraasan ga tsukuta ryouri desu.",
+        "romajiChunks": [
+          "kore wa",
+          "miraasan ga",
+          "tsukuta",
+          "ryouri desu."
+        ]
+      },
+      {
+        "jp": "きのう買った本はおもしろいです。",
+        "reading": "きのうかったほんはおもしろいです。",
+        "en": "The book I bought yesterday is interesting.",
+        "vi": "Quyển sách tôi mua hôm qua thú vị.",
+        "tokens": [
+          [
+            {
+              "t": "きのう"
+            }
+          ],
+          [
+            {
+              "t": "買",
+              "f": "か"
+            },
+            {
+              "t": "った"
+            }
+          ],
+          [
+            {
+              "t": "本",
+              "f": "ほん"
+            },
+            {
+              "t": "は"
+            }
+          ],
+          [
+            {
+              "t": "おもしろいです。"
+            }
+          ]
+        ],
+        "romaji": "kinou kata hon wa omoshiroi desu.",
+        "romajiChunks": [
+          "kinou",
+          "kata",
+          "hon wa",
+          "omoshiroi desu."
+        ]
+      },
+      {
+        "jp": "あそこにいる人は田中さんです。",
+        "reading": "あそこにいるひとはたなかさんです。",
+        "en": "The person over there is Mr. Tanaka.",
+        "vi": "Người ở đằng kia là ông Tanaka.",
+        "tokens": [
+          [
+            {
+              "t": "あそこに"
+            }
+          ],
+          [
+            {
+              "t": "いる"
+            }
+          ],
+          [
+            {
+              "t": "人",
+              "f": "ひと"
+            },
+            {
+              "t": "は"
+            }
+          ],
+          [
+            {
+              "t": "田中",
+              "f": "たなか"
+            },
+            {
+              "t": "さんです。"
+            }
+          ]
+        ],
+        "romaji": "asoko ni iru hito wa tanakasan desu.",
+        "romajiChunks": [
+          "asoko ni",
+          "iru",
+          "hito wa",
+          "tanakasan desu."
+        ]
       }
     ],
     "meaningVi": "Một vế ở thể thông thường đặt ngay trước danh từ để bổ nghĩa — 'cái ~ mà ...'."
@@ -3702,6 +10232,80 @@
           "donna",
           "ongaku ga",
           "suki desu ka."
+        ]
+      },
+      {
+        "jp": "日本はどんな国ですか。",
+        "reading": "にほんはどんなくにですか。",
+        "en": "What kind of country is Japan?",
+        "vi": "Nhật Bản là đất nước như thế nào?",
+        "tokens": [
+          [
+            {
+              "t": "日本",
+              "f": "にほん"
+            },
+            {
+              "t": "は"
+            }
+          ],
+          [
+            {
+              "t": "どんな"
+            }
+          ],
+          [
+            {
+              "t": "国",
+              "f": "くに"
+            },
+            {
+              "t": "ですか。"
+            }
+          ]
+        ],
+        "romaji": "nihon wa donna kuni desu ka.",
+        "romajiChunks": [
+          "nihon wa",
+          "donna",
+          "kuni desu ka."
+        ]
+      },
+      {
+        "jp": "田中さんはどんな人ですか。",
+        "reading": "たなかさんはどんなひとですか。",
+        "en": "What kind of person is Mr. Tanaka?",
+        "vi": "Ông Tanaka là người như thế nào?",
+        "tokens": [
+          [
+            {
+              "t": "田中",
+              "f": "たなか"
+            },
+            {
+              "t": "さんは"
+            }
+          ],
+          [
+            {
+              "t": "どんな"
+            }
+          ],
+          [
+            {
+              "t": "人",
+              "f": "ひと"
+            },
+            {
+              "t": "ですか。"
+            }
+          ]
+        ],
+        "romaji": "tanakasan wa donna hito desu ka.",
+        "romajiChunks": [
+          "tanakasan wa",
+          "donna",
+          "hito desu ka."
         ]
       }
     ],
@@ -3755,6 +10359,144 @@
           "ikutoki,",
           "kaado ga",
           "irimasu."
+        ]
+      },
+      {
+        "jp": "日本へ行くとき、この本を買いました。",
+        "reading": "にほんへいくとき、このほんをかいました。",
+        "en": "When I went to Japan, I bought this book.",
+        "vi": "Khi đi Nhật, tôi đã mua quyển sách này.",
+        "tokens": [
+          [
+            {
+              "t": "日本",
+              "f": "にほん"
+            },
+            {
+              "t": "へ"
+            }
+          ],
+          [
+            {
+              "t": "行",
+              "f": "い"
+            },
+            {
+              "t": "くとき、"
+            }
+          ],
+          [
+            {
+              "t": "この"
+            }
+          ],
+          [
+            {
+              "t": "本",
+              "f": "ほん"
+            },
+            {
+              "t": "を"
+            }
+          ],
+          [
+            {
+              "t": "買",
+              "f": "か"
+            },
+            {
+              "t": "いました。"
+            }
+          ]
+        ],
+        "romaji": "nihon e ikutoki, kono hon wo kaimashita.",
+        "romajiChunks": [
+          "nihon e",
+          "ikutoki,",
+          "kono",
+          "hon wo",
+          "kaimashita."
+        ]
+      },
+      {
+        "jp": "暇なとき、本を読みます。",
+        "reading": "ひまなとき、ほんをよみます。",
+        "en": "When I'm free, I read books.",
+        "vi": "Khi rảnh, tôi đọc sách.",
+        "tokens": [
+          [
+            {
+              "t": "暇",
+              "f": "ひま"
+            },
+            {
+              "t": "なとき、"
+            }
+          ],
+          [
+            {
+              "t": "本",
+              "f": "ほん"
+            },
+            {
+              "t": "を"
+            }
+          ],
+          [
+            {
+              "t": "読",
+              "f": "よ"
+            },
+            {
+              "t": "みます。"
+            }
+          ]
+        ],
+        "romaji": "himanatoki, hon wo yomimasu.",
+        "romajiChunks": [
+          "himanatoki,",
+          "hon wo",
+          "yomimasu."
+        ]
+      },
+      {
+        "jp": "若いとき、よく旅行しました。",
+        "reading": "わかいとき、よくりょこうしました。",
+        "en": "When I was young, I traveled a lot.",
+        "vi": "Khi còn trẻ, tôi hay đi du lịch.",
+        "tokens": [
+          [
+            {
+              "t": "若",
+              "f": "わか"
+            },
+            {
+              "t": "いとき、"
+            }
+          ],
+          [
+            {
+              "t": "よく"
+            }
+          ],
+          [
+            {
+              "t": "旅行",
+              "f": "りょこう"
+            }
+          ],
+          [
+            {
+              "t": "しました。"
+            }
+          ]
+        ],
+        "romaji": "wakaitoki, yoku ryokou shimashita.",
+        "romajiChunks": [
+          "wakaitoki,",
+          "yoku",
+          "ryokou",
+          "shimashita."
         ]
       }
     ],
@@ -3819,6 +10561,149 @@
           "kippu ga",
           "demasu."
         ]
+      },
+      {
+        "jp": "このボタンを押すと、ドアが開きます。",
+        "reading": "このボタンをおすと、ドアがひらきます。",
+        "en": "If you push this button, the door opens.",
+        "vi": "Nếu bấm nút này, cửa sẽ mở.",
+        "tokens": [
+          [
+            {
+              "t": "この"
+            }
+          ],
+          [
+            {
+              "t": "ボタンを"
+            }
+          ],
+          [
+            {
+              "t": "押",
+              "f": "お"
+            },
+            {
+              "t": "すと、"
+            }
+          ],
+          [
+            {
+              "t": "ドアが"
+            }
+          ],
+          [
+            {
+              "t": "開",
+              "f": "ひら"
+            },
+            {
+              "t": "きます。"
+            }
+          ]
+        ],
+        "romaji": "kono botan wo osu to, doa ga hirakimasu.",
+        "romajiChunks": [
+          "kono",
+          "botan wo",
+          "osu to,",
+          "doa ga",
+          "hirakimasu."
+        ]
+      },
+      {
+        "jp": "右へ曲がると、駅があります。",
+        "reading": "みぎへまがると、えきがあります。",
+        "en": "If you turn right, there is the station.",
+        "vi": "Rẽ phải thì có nhà ga.",
+        "tokens": [
+          [
+            {
+              "t": "右",
+              "f": "みぎ"
+            },
+            {
+              "t": "へ"
+            }
+          ],
+          [
+            {
+              "t": "曲",
+              "f": "ま"
+            },
+            {
+              "t": "がると、"
+            }
+          ],
+          [
+            {
+              "t": "駅",
+              "f": "えき"
+            },
+            {
+              "t": "が"
+            }
+          ],
+          [
+            {
+              "t": "あります。"
+            }
+          ]
+        ],
+        "romaji": "migi e magaru to, eki ga arimasu.",
+        "romajiChunks": [
+          "migi e",
+          "magaru to,",
+          "eki ga",
+          "arimasu."
+        ]
+      },
+      {
+        "jp": "春になると、桜が咲きます。",
+        "reading": "はるになると、さくらがさきます。",
+        "en": "When spring comes, the cherry blossoms bloom.",
+        "vi": "Khi xuân đến, hoa anh đào nở.",
+        "tokens": [
+          [
+            {
+              "t": "春",
+              "f": "はる"
+            },
+            {
+              "t": "に"
+            }
+          ],
+          [
+            {
+              "t": "なると、"
+            }
+          ],
+          [
+            {
+              "t": "桜",
+              "f": "さくら"
+            },
+            {
+              "t": "が"
+            }
+          ],
+          [
+            {
+              "t": "咲",
+              "f": "さ"
+            },
+            {
+              "t": "きます。"
+            }
+          ]
+        ],
+        "romaji": "haru ni naru to, sakura ga sakimasu.",
+        "romajiChunks": [
+          "haru ni",
+          "naru to,",
+          "sakura ga",
+          "sakimasu."
+        ]
       }
     ],
     "meaningVi": "'Hễ / nếu ~ thì ~' cho một kết quả tự nhiên, tất yếu."
@@ -3880,6 +10765,80 @@
           "migi e",
           "magarimasu."
         ]
+      },
+      {
+        "jp": "ここでバスを降ります。",
+        "reading": "ここでバスをおります。",
+        "en": "I get off the bus here.",
+        "vi": "Tôi xuống xe buýt ở đây.",
+        "tokens": [
+          [
+            {
+              "t": "ここで"
+            }
+          ],
+          [
+            {
+              "t": "バスを"
+            }
+          ],
+          [
+            {
+              "t": "降",
+              "f": "お"
+            },
+            {
+              "t": "ります。"
+            }
+          ]
+        ],
+        "romaji": "koko de basu wo orimasu.",
+        "romajiChunks": [
+          "koko de",
+          "basu wo",
+          "orimasu."
+        ]
+      },
+      {
+        "jp": "毎朝公園を散歩します。",
+        "reading": "まいあさこうえんをさんぽします。",
+        "en": "I take a walk in the park every morning.",
+        "vi": "Mỗi sáng tôi đi dạo trong công viên.",
+        "tokens": [
+          [
+            {
+              "t": "毎朝",
+              "f": "まいあさ"
+            }
+          ],
+          [
+            {
+              "t": "公園",
+              "f": "こうえん"
+            },
+            {
+              "t": "を"
+            }
+          ],
+          [
+            {
+              "t": "散歩",
+              "f": "さんぽ"
+            }
+          ],
+          [
+            {
+              "t": "します。"
+            }
+          ]
+        ],
+        "romaji": "maiasa kouen wo sanpo shimasu.",
+        "romajiChunks": [
+          "maiasa",
+          "kouen wo",
+          "sanpo",
+          "shimasu."
+        ]
       }
     ],
     "meaningVi": "を đánh dấu nơi mình đi qua, rời khỏi, hoặc rẽ."
@@ -3934,6 +10893,119 @@
           "yamadasan ga",
           "watashi ni",
           "okashi wo",
+          "kuremashita."
+        ]
+      },
+      {
+        "jp": "田中さんがわたしに本をくれました。",
+        "reading": "たなかさんがわたしにほんをくれました。",
+        "en": "Mr. Tanaka gave me a book.",
+        "vi": "Ông Tanaka đã cho tôi một quyển sách.",
+        "tokens": [
+          [
+            {
+              "t": "田中",
+              "f": "たなか"
+            },
+            {
+              "t": "さんが"
+            }
+          ],
+          [
+            {
+              "t": "わたしに"
+            }
+          ],
+          [
+            {
+              "t": "本",
+              "f": "ほん"
+            },
+            {
+              "t": "を"
+            }
+          ],
+          [
+            {
+              "t": "くれました。"
+            }
+          ]
+        ],
+        "romaji": "tanakasan ga watashi ni hon wo kuremashita.",
+        "romajiChunks": [
+          "tanakasan ga",
+          "watashi ni",
+          "hon wo",
+          "kuremashita."
+        ]
+      },
+      {
+        "jp": "友達が花をくれました。",
+        "reading": "ともだちがはなをくれました。",
+        "en": "A friend gave me flowers.",
+        "vi": "Một người bạn đã tặng tôi hoa.",
+        "tokens": [
+          [
+            {
+              "t": "友達",
+              "f": "ともだち"
+            },
+            {
+              "t": "が"
+            }
+          ],
+          [
+            {
+              "t": "花",
+              "f": "はな"
+            },
+            {
+              "t": "を"
+            }
+          ],
+          [
+            {
+              "t": "くれました。"
+            }
+          ]
+        ],
+        "romaji": "tomodachi ga hana wo kuremashita.",
+        "romajiChunks": [
+          "tomodachi ga",
+          "hana wo",
+          "kuremashita."
+        ]
+      },
+      {
+        "jp": "母がセーターをくれました。",
+        "reading": "ははがセーターをくれました。",
+        "en": "My mother gave me a sweater.",
+        "vi": "Mẹ tôi đã cho tôi một chiếc áo len.",
+        "tokens": [
+          [
+            {
+              "t": "母",
+              "f": "はは"
+            },
+            {
+              "t": "が"
+            }
+          ],
+          [
+            {
+              "t": "セーターを"
+            }
+          ],
+          [
+            {
+              "t": "くれました。"
+            }
+          ]
+        ],
+        "romaji": "haha ga seetaa wo kuremashita.",
+        "romajiChunks": [
+          "haha ga",
+          "seetaa wo",
           "kuremashita."
         ]
       }
@@ -4028,6 +11100,121 @@
           "ryouri wo",
           "tsuku tekuremashita."
         ]
+      },
+      {
+        "jp": "わたしは友達に日本語を教えてあげました。",
+        "reading": "わたしはともだちににほんごをおしえてあげました。",
+        "en": "I taught my friend Japanese (for them).",
+        "vi": "Tôi đã dạy tiếng Nhật cho bạn.",
+        "tokens": [
+          [
+            {
+              "t": "わたしは"
+            }
+          ],
+          [
+            {
+              "t": "友達",
+              "f": "ともだち"
+            },
+            {
+              "t": "に"
+            }
+          ],
+          [
+            {
+              "t": "日本語",
+              "f": "にほんご"
+            },
+            {
+              "t": "を"
+            }
+          ],
+          [
+            {
+              "t": "教",
+              "f": "おし"
+            },
+            {
+              "t": "えてあげました。"
+            }
+          ]
+        ],
+        "romaji": "watashi wa tomodachi ni nihongo wo oshie teagemashita.",
+        "romajiChunks": [
+          "watashi wa",
+          "tomodachi ni",
+          "nihongo wo",
+          "oshie teagemashita."
+        ]
+      },
+      {
+        "jp": "ミラーさんに写真を撮ってもらいました。",
+        "reading": "ミラーさんにしゃしんをとってもらいました。",
+        "en": "I had Mr. Miller take a photo (for me).",
+        "vi": "Tôi đã nhờ anh Miller chụp ảnh giúp.",
+        "tokens": [
+          [
+            {
+              "t": "ミラーさんに"
+            }
+          ],
+          [
+            {
+              "t": "写真",
+              "f": "しゃしん"
+            },
+            {
+              "t": "を"
+            }
+          ],
+          [
+            {
+              "t": "撮",
+              "f": "と"
+            },
+            {
+              "t": "ってもらいました。"
+            }
+          ]
+        ],
+        "romaji": "miraasan ni shashin wo to temoraimashita.",
+        "romajiChunks": [
+          "miraasan ni",
+          "shashin wo",
+          "to temoraimashita."
+        ]
+      },
+      {
+        "jp": "田中さんが手伝ってくれました。",
+        "reading": "たなかさんがてつだってくれました。",
+        "en": "Mr. Tanaka helped me (for my benefit).",
+        "vi": "Ông Tanaka đã giúp tôi.",
+        "tokens": [
+          [
+            {
+              "t": "田中",
+              "f": "たなか"
+            },
+            {
+              "t": "さんが"
+            }
+          ],
+          [
+            {
+              "t": "手伝",
+              "f": "てつだ"
+            },
+            {
+              "t": "ってくれました。"
+            }
+          ]
+        ],
+        "romaji": "tanakasan ga tetsuda tekuremashita.",
+        "romajiChunks": [
+          "tanakasan ga",
+          "tetsuda tekuremashita."
+        ]
       }
     ],
     "meaningVi": "Cho và nhận hành động (sự giúp đỡ): làm giúp ai / được ai làm cho / ai đó làm cho tôi."
@@ -4081,6 +11268,88 @@
           "ryokou",
           "shimasu."
         ]
+      },
+      {
+        "jp": "日本へ行ったら、京都を見たいです。",
+        "reading": "にほんへいったら、きょうとをみたいです。",
+        "en": "When I go to Japan, I want to see Kyoto.",
+        "vi": "Khi đi Nhật, tôi muốn thăm Kyoto.",
+        "tokens": [
+          [
+            {
+              "t": "日本",
+              "f": "にほん"
+            },
+            {
+              "t": "へ"
+            }
+          ],
+          [
+            {
+              "t": "行",
+              "f": "い"
+            },
+            {
+              "t": "ったら、"
+            }
+          ],
+          [
+            {
+              "t": "京都",
+              "f": "きょうと"
+            },
+            {
+              "t": "を"
+            }
+          ],
+          [
+            {
+              "t": "見",
+              "f": "み"
+            },
+            {
+              "t": "たいです。"
+            }
+          ]
+        ],
+        "romaji": "nihon e itara, kyouto wo mitai desu.",
+        "romajiChunks": [
+          "nihon e",
+          "itara,",
+          "kyouto wo",
+          "mitai desu."
+        ]
+      },
+      {
+        "jp": "安かったら、買います。",
+        "reading": "やすかったら、かいます。",
+        "en": "If it's cheap, I'll buy it.",
+        "vi": "Nếu rẻ, tôi sẽ mua.",
+        "tokens": [
+          [
+            {
+              "t": "安",
+              "f": "やす"
+            },
+            {
+              "t": "かったら、"
+            }
+          ],
+          [
+            {
+              "t": "買",
+              "f": "か"
+            },
+            {
+              "t": "います。"
+            }
+          ]
+        ],
+        "romaji": "yasukatara, kaimasu.",
+        "romajiChunks": [
+          "yasukatara,",
+          "kaimasu."
+        ]
       }
     ],
     "meaningVi": "Câu điều kiện — 'nếu / một khi ~ thì ~'. Tạo từ thể た cộng ら."
@@ -4131,6 +11400,68 @@
           "ame ga",
           "fu te mo,",
           "ikimasu."
+        ]
+      },
+      {
+        "jp": "高くても、買います。",
+        "reading": "たかくても、かいます。",
+        "en": "Even if it's expensive, I'll buy it.",
+        "vi": "Dù đắt, tôi vẫn mua.",
+        "tokens": [
+          [
+            {
+              "t": "高",
+              "f": "たか"
+            },
+            {
+              "t": "くても、"
+            }
+          ],
+          [
+            {
+              "t": "買",
+              "f": "か"
+            },
+            {
+              "t": "います。"
+            }
+          ]
+        ],
+        "romaji": "takaku te mo, kaimasu.",
+        "romajiChunks": [
+          "takaku te mo,",
+          "kaimasu."
+        ]
+      },
+      {
+        "jp": "日曜日でも、働きます。",
+        "reading": "にちようびでも、はたらきます。",
+        "en": "Even on Sundays, I work.",
+        "vi": "Dù là chủ nhật, tôi vẫn làm việc.",
+        "tokens": [
+          [
+            {
+              "t": "日曜日",
+              "f": "にちようび"
+            },
+            {
+              "t": "でも、"
+            }
+          ],
+          [
+            {
+              "t": "働",
+              "f": "はたら"
+            },
+            {
+              "t": "きます。"
+            }
+          ]
+        ],
+        "romaji": "nichiyoubi demo, hatarakimasu.",
+        "romajiChunks": [
+          "nichiyoubi demo,",
+          "hatarakimasu."
         ]
       }
     ],

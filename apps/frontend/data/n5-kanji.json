@@ -183,6 +183,34 @@
     ]
   },
   {
+    "id": "kanji_力",
+    "character": "力",
+    "meanings": [
+      "power",
+      "strength",
+      "strong",
+      "strain",
+      "bear up",
+      "exert"
+    ],
+    "onyomi": [
+      "リョク",
+      "リキ",
+      "リイ"
+    ],
+    "kunyomi": [
+      "ちから"
+    ],
+    "strokeCount": 2,
+    "jlptLevel": "N5",
+    "kanjivgId": "0529b",
+    "exampleVocabIds": [],
+    "meaningsVi": [
+      "sức mạnh",
+      "lực"
+    ]
+  },
+  {
     "id": "kanji_十",
     "character": "十",
     "meanings": [
@@ -419,6 +447,53 @@
     ]
   },
   {
+    "id": "kanji_士",
+    "character": "士",
+    "meanings": [
+      "gentleman",
+      "scholar",
+      "samurai",
+      "samurai radical (no. 33)"
+    ],
+    "onyomi": [
+      "シ"
+    ],
+    "kunyomi": [
+      "さむらい"
+    ],
+    "strokeCount": 3,
+    "jlptLevel": "N5",
+    "kanjivgId": "058eb",
+    "exampleVocabIds": [
+      "vocab_富士山",
+      "vocab_さくら大学／富士大学"
+    ],
+    "meaningsVi": [
+      "kẻ sĩ",
+      "samurai"
+    ]
+  },
+  {
+    "id": "kanji_夕",
+    "character": "夕",
+    "meanings": [
+      "evening"
+    ],
+    "onyomi": [
+      "セキ"
+    ],
+    "kunyomi": [
+      "ゆう"
+    ],
+    "strokeCount": 3,
+    "jlptLevel": "N5",
+    "kanjivgId": "05915",
+    "exampleVocabIds": [],
+    "meaningsVi": [
+      "buổi chiều"
+    ]
+  },
+  {
     "id": "kanji_大",
     "character": "大",
     "meanings": [
@@ -589,6 +664,32 @@
     ]
   },
   {
+    "id": "kanji_不",
+    "character": "不",
+    "meanings": [
+      "negative",
+      "non-",
+      "bad",
+      "ugly",
+      "clumsy"
+    ],
+    "onyomi": [
+      "フ",
+      "ブ"
+    ],
+    "kunyomi": [],
+    "strokeCount": 4,
+    "jlptLevel": "N5",
+    "kanjivgId": "04e0d",
+    "exampleVocabIds": [
+      "vocab_不便"
+    ],
+    "meaningsVi": [
+      "không",
+      "phủ định"
+    ]
+  },
+  {
     "id": "kanji_中",
     "character": "中",
     "meanings": [
@@ -668,6 +769,35 @@
     ]
   },
   {
+    "id": "kanji_元",
+    "character": "元",
+    "meanings": [
+      "beginning",
+      "former time",
+      "origin"
+    ],
+    "onyomi": [
+      "ゲン",
+      "ガン"
+    ],
+    "kunyomi": [
+      "もと"
+    ],
+    "strokeCount": 4,
+    "jlptLevel": "N5",
+    "kanjivgId": "05143",
+    "exampleVocabIds": [
+      "vocab_元気茶",
+      "vocab_お元気ですか。",
+      "vocab_どうぞお元気で。"
+    ],
+    "meaningsVi": [
+      "gốc",
+      "nguyên",
+      "ban đầu"
+    ]
+  },
+  {
     "id": "kanji_六",
     "character": "六",
     "meanings": [
@@ -689,6 +819,35 @@
     "exampleVocabIds": [],
     "meaningsVi": [
       "sáu"
+    ]
+  },
+  {
+    "id": "kanji_内",
+    "character": "内",
+    "meanings": [
+      "inside",
+      "within",
+      "between",
+      "among",
+      "house",
+      "home"
+    ],
+    "onyomi": [
+      "ナイ",
+      "ダイ"
+    ],
+    "kunyomi": [
+      "うち"
+    ],
+    "strokeCount": 4,
+    "jlptLevel": "N5",
+    "kanjivgId": "05185",
+    "exampleVocabIds": [
+      "vocab_妻／家内",
+      "vocab_案内します"
+    ],
+    "meaningsVi": [
+      "bên trong"
     ]
   },
   {
@@ -858,6 +1017,33 @@
     ]
   },
   {
+    "id": "kanji_太",
+    "character": "太",
+    "meanings": [
+      "plump",
+      "thick",
+      "big around"
+    ],
+    "onyomi": [
+      "タイ",
+      "タ"
+    ],
+    "kunyomi": [
+      "ふと.い",
+      "ふと.る"
+    ],
+    "strokeCount": 4,
+    "jlptLevel": "N5",
+    "kanjivgId": "0592a",
+    "exampleVocabIds": [
+      "vocab_聖徳太子"
+    ],
+    "meaningsVi": [
+      "to",
+      "mập"
+    ]
+  },
+  {
     "id": "kanji_少",
     "character": "少",
     "meanings": [
@@ -882,6 +1068,34 @@
     "meaningsVi": [
       "ít",
       "ít"
+    ]
+  },
+  {
+    "id": "kanji_心",
+    "character": "心",
+    "meanings": [
+      "heart",
+      "mind",
+      "spirit",
+      "heart radical (no. 61)"
+    ],
+    "onyomi": [
+      "シン"
+    ],
+    "kunyomi": [
+      "こころ",
+      "-ごころ"
+    ],
+    "strokeCount": 4,
+    "jlptLevel": "N5",
+    "kanjivgId": "05fc3",
+    "exampleVocabIds": [
+      "vocab_心配します"
+    ],
+    "meaningsVi": [
+      "tim",
+      "tâm",
+      "lòng"
     ]
   },
   {
@@ -910,6 +1124,36 @@
     ],
     "meaningsVi": [
       "tay"
+    ]
+  },
+  {
+    "id": "kanji_方",
+    "character": "方",
+    "meanings": [
+      "direction",
+      "person",
+      "alternative"
+    ],
+    "onyomi": [
+      "ホウ"
+    ],
+    "kunyomi": [
+      "かた",
+      "-かた",
+      "-がた"
+    ],
+    "strokeCount": 4,
+    "jlptLevel": "N5",
+    "kanjivgId": "065b9",
+    "exampleVocabIds": [
+      "vocab_方",
+      "vocab_読み方",
+      "vocab_あの人"
+    ],
+    "meaningsVi": [
+      "hướng",
+      "phía",
+      "người"
     ]
   },
   {
@@ -1000,6 +1244,67 @@
     ]
   },
   {
+    "id": "kanji_止",
+    "character": "止",
+    "meanings": [
+      "stop",
+      "halt"
+    ],
+    "onyomi": [
+      "シ"
+    ],
+    "kunyomi": [
+      "と.まる",
+      "-ど.まり",
+      "と.める",
+      "-と.める",
+      "-ど.め",
+      "とど.める",
+      "とど.め",
+      "とど.まる",
+      "や.める",
+      "や.む",
+      "-や.む",
+      "よ.す",
+      "-さ.す",
+      "-さ.し"
+    ],
+    "strokeCount": 4,
+    "jlptLevel": "N5",
+    "kanjivgId": "06b62",
+    "exampleVocabIds": [
+      "vocab_止めます"
+    ],
+    "meaningsVi": [
+      "dừng",
+      "ngừng"
+    ]
+  },
+  {
+    "id": "kanji_毛",
+    "character": "毛",
+    "meanings": [
+      "fur",
+      "hair",
+      "feather",
+      "down"
+    ],
+    "onyomi": [
+      "モウ"
+    ],
+    "kunyomi": [
+      "け"
+    ],
+    "strokeCount": 4,
+    "jlptLevel": "N5",
+    "kanjivgId": "06bdb",
+    "exampleVocabIds": [],
+    "meaningsVi": [
+      "lông",
+      "tóc"
+    ]
+  },
+  {
     "id": "kanji_水",
     "character": "水",
     "meanings": [
@@ -1068,6 +1373,101 @@
     ],
     "meaningsVi": [
       "cha"
+    ]
+  },
+  {
+    "id": "kanji_牛",
+    "character": "牛",
+    "meanings": [
+      "cow"
+    ],
+    "onyomi": [
+      "ギュウ"
+    ],
+    "kunyomi": [
+      "うし"
+    ],
+    "strokeCount": 4,
+    "jlptLevel": "N5",
+    "kanjivgId": "0725b",
+    "exampleVocabIds": [
+      "vocab_牛肉",
+      "vocab_牛どん",
+      "vocab_牛乳"
+    ],
+    "meaningsVi": [
+      "bò"
+    ]
+  },
+  {
+    "id": "kanji_犬",
+    "character": "犬",
+    "meanings": [
+      "dog"
+    ],
+    "onyomi": [
+      "ケン"
+    ],
+    "kunyomi": [
+      "いぬ",
+      "いぬ-"
+    ],
+    "strokeCount": 4,
+    "jlptLevel": "N5",
+    "kanjivgId": "072ac",
+    "exampleVocabIds": [
+      "vocab_犬"
+    ],
+    "meaningsVi": [
+      "chó"
+    ]
+  },
+  {
+    "id": "kanji_兄",
+    "character": "兄",
+    "meanings": [
+      "elder brother",
+      "big brother"
+    ],
+    "onyomi": [
+      "ケイ",
+      "キョウ"
+    ],
+    "kunyomi": [
+      "あに"
+    ],
+    "strokeCount": 5,
+    "jlptLevel": "N5",
+    "kanjivgId": "05144",
+    "exampleVocabIds": [
+      "vocab_兄",
+      "vocab_兄弟",
+      "vocab_お兄さん"
+    ],
+    "meaningsVi": [
+      "anh trai"
+    ]
+  },
+  {
+    "id": "kanji_冬",
+    "character": "冬",
+    "meanings": [
+      "winter"
+    ],
+    "onyomi": [
+      "トウ"
+    ],
+    "kunyomi": [
+      "ふゆ"
+    ],
+    "strokeCount": 5,
+    "jlptLevel": "N5",
+    "kanjivgId": "051ac",
+    "exampleVocabIds": [
+      "vocab_冬"
+    ],
+    "meaningsVi": [
+      "mùa đông"
     ]
   },
   {
@@ -1348,6 +1748,33 @@
     ]
   },
   {
+    "id": "kanji_氷",
+    "character": "氷",
+    "meanings": [
+      "icicle",
+      "ice",
+      "hail",
+      "freeze",
+      "congeal"
+    ],
+    "onyomi": [
+      "ヒョウ"
+    ],
+    "kunyomi": [
+      "こおり",
+      "ひ",
+      "こお.る"
+    ],
+    "strokeCount": 5,
+    "jlptLevel": "N5",
+    "kanjivgId": "06c37",
+    "exampleVocabIds": [],
+    "meaningsVi": [
+      "băng",
+      "nước đá"
+    ]
+  },
+  {
     "id": "kanji_生",
     "character": "生",
     "meanings": [
@@ -1391,6 +1818,31 @@
       "cuộc sống",
       "chính hãng",
       "sinh"
+    ]
+  },
+  {
+    "id": "kanji_田",
+    "character": "田",
+    "meanings": [
+      "rice field",
+      "rice paddy"
+    ],
+    "onyomi": [
+      "デン"
+    ],
+    "kunyomi": [
+      "た"
+    ],
+    "strokeCount": 5,
+    "jlptLevel": "N5",
+    "kanjivgId": "07530",
+    "exampleVocabIds": [
+      "vocab_梅田",
+      "vocab_田舎",
+      "vocab_本田駅"
+    ],
+    "meaningsVi": [
+      "ruộng lúa"
     ]
   },
   {
@@ -1459,6 +1911,28 @@
     ]
   },
   {
+    "id": "kanji_石",
+    "character": "石",
+    "meanings": [
+      "stone"
+    ],
+    "onyomi": [
+      "セキ",
+      "シャク",
+      "コク"
+    ],
+    "kunyomi": [
+      "いし"
+    ],
+    "strokeCount": 5,
+    "jlptLevel": "N5",
+    "kanjivgId": "077f3",
+    "exampleVocabIds": [],
+    "meaningsVi": [
+      "đá"
+    ]
+  },
+  {
     "id": "kanji_立",
     "character": "立",
     "meanings": [
@@ -1496,6 +1970,42 @@
       "tăng lên",
       "thiết lập",
       "dựng lên"
+    ]
+  },
+  {
+    "id": "kanji_交",
+    "character": "交",
+    "meanings": [
+      "mingle",
+      "mixing",
+      "association",
+      "coming & going"
+    ],
+    "onyomi": [
+      "コウ"
+    ],
+    "kunyomi": [
+      "まじ.わる",
+      "まじ.える",
+      "ま.じる",
+      "まじ.る",
+      "ま.ざる",
+      "ま.ぜる",
+      "-か.う",
+      "か.わす",
+      "かわ.す",
+      "こもごも"
+    ],
+    "strokeCount": 6,
+    "jlptLevel": "N5",
+    "kanjivgId": "04ea4",
+    "exampleVocabIds": [
+      "vocab_交通",
+      "vocab_交差点"
+    ],
+    "meaningsVi": [
+      "giao",
+      "trộn lẫn"
     ]
   },
   {
@@ -1601,6 +2111,91 @@
     ]
   },
   {
+    "id": "kanji_光",
+    "character": "光",
+    "meanings": [
+      "ray",
+      "light"
+    ],
+    "onyomi": [
+      "コウ"
+    ],
+    "kunyomi": [
+      "ひか.る",
+      "ひかり"
+    ],
+    "strokeCount": 6,
+    "jlptLevel": "N5",
+    "kanjivgId": "05149",
+    "exampleVocabIds": [],
+    "meaningsVi": [
+      "ánh sáng"
+    ]
+  },
+  {
+    "id": "kanji_合",
+    "character": "合",
+    "meanings": [
+      "fit",
+      "suit",
+      "join",
+      "0.1"
+    ],
+    "onyomi": [
+      "ゴウ",
+      "ガッ",
+      "カッ"
+    ],
+    "kunyomi": [
+      "あ.う",
+      "-あ.う",
+      "あ.い",
+      "あい-",
+      "-あ.い",
+      "-あい",
+      "あ.わす",
+      "あ.わせる",
+      "-あ.わせる"
+    ],
+    "strokeCount": 6,
+    "jlptLevel": "N5",
+    "kanjivgId": "05408",
+    "exampleVocabIds": [
+      "vocab_試合",
+      "vocab_都合",
+      "vocab_お問い合わせの番号"
+    ],
+    "meaningsVi": [
+      "hợp",
+      "vừa"
+    ]
+  },
+  {
+    "id": "kanji_同",
+    "character": "同",
+    "meanings": [
+      "same",
+      "agree",
+      "equal"
+    ],
+    "onyomi": [
+      "ドウ"
+    ],
+    "kunyomi": [
+      "おな.じ"
+    ],
+    "strokeCount": 6,
+    "jlptLevel": "N5",
+    "kanjivgId": "0540c",
+    "exampleVocabIds": [
+      "vocab_同じ"
+    ],
+    "meaningsVi": [
+      "giống",
+      "cùng"
+    ]
+  },
+  {
     "id": "kanji_名",
     "character": "名",
     "meanings": [
@@ -1662,6 +2257,64 @@
     ]
   },
   {
+    "id": "kanji_好",
+    "character": "好",
+    "meanings": [
+      "fond",
+      "pleasing",
+      "like something"
+    ],
+    "onyomi": [
+      "コウ"
+    ],
+    "kunyomi": [
+      "この.む",
+      "す.く",
+      "よ.い",
+      "い.い"
+    ],
+    "strokeCount": 6,
+    "jlptLevel": "N5",
+    "kanjivgId": "0597d",
+    "exampleVocabIds": [
+      "vocab_好き"
+    ],
+    "meaningsVi": [
+      "thích",
+      "tốt"
+    ]
+  },
+  {
+    "id": "kanji_字",
+    "character": "字",
+    "meanings": [
+      "character",
+      "letter",
+      "word",
+      "section of village"
+    ],
+    "onyomi": [
+      "ジ"
+    ],
+    "kunyomi": [
+      "あざ",
+      "あざな",
+      "-な"
+    ],
+    "strokeCount": 6,
+    "jlptLevel": "N5",
+    "kanjivgId": "05b57",
+    "exampleVocabIds": [
+      "vocab_字",
+      "vocab_漢字",
+      "vocab_ローマ字"
+    ],
+    "meaningsVi": [
+      "chữ",
+      "ký tự"
+    ]
+  },
+  {
     "id": "kanji_安",
     "character": "安",
     "meanings": [
@@ -1699,6 +2352,30 @@
     ]
   },
   {
+    "id": "kanji_寺",
+    "character": "寺",
+    "meanings": [
+      "buddhist temple"
+    ],
+    "onyomi": [
+      "ジ"
+    ],
+    "kunyomi": [
+      "てら"
+    ],
+    "strokeCount": 6,
+    "jlptLevel": "N5",
+    "kanjivgId": "05bfa",
+    "exampleVocabIds": [
+      "vocab_金閣寺",
+      "vocab_法隆寺",
+      "vocab_寺"
+    ],
+    "meaningsVi": [
+      "chùa"
+    ]
+  },
+  {
     "id": "kanji_年",
     "character": "年",
     "meanings": [
@@ -1722,6 +2399,37 @@
     "meaningsVi": [
       "năm",
       "truy cập trong nhiều năm"
+    ]
+  },
+  {
+    "id": "kanji_早",
+    "character": "早",
+    "meanings": [
+      "early",
+      "fast"
+    ],
+    "onyomi": [
+      "ソウ",
+      "サッ"
+    ],
+    "kunyomi": [
+      "はや.い",
+      "はや",
+      "はや-",
+      "はや.まる",
+      "はや.める",
+      "さ-"
+    ],
+    "strokeCount": 6,
+    "jlptLevel": "N5",
+    "kanjivgId": "065e9",
+    "exampleVocabIds": [
+      "vocab_早く、速く",
+      "vocab_速い、早い"
+    ],
+    "meaningsVi": [
+      "sớm",
+      "nhanh"
     ]
   },
   {
@@ -1806,6 +2514,32 @@
     ]
   },
   {
+    "id": "kanji_米",
+    "character": "米",
+    "meanings": [
+      "rice",
+      "usa",
+      "metre"
+    ],
+    "onyomi": [
+      "ベイ",
+      "マイ",
+      "メエトル"
+    ],
+    "kunyomi": [
+      "こめ",
+      "よね"
+    ],
+    "strokeCount": 6,
+    "jlptLevel": "N5",
+    "kanjivgId": "07c73",
+    "exampleVocabIds": [],
+    "meaningsVi": [
+      "gạo",
+      "mét"
+    ]
+  },
+  {
     "id": "kanji_耳",
     "character": "耳",
     "meanings": [
@@ -1825,6 +2559,58 @@
     ],
     "meaningsVi": [
       "tai"
+    ]
+  },
+  {
+    "id": "kanji_肉",
+    "character": "肉",
+    "meanings": [
+      "meat"
+    ],
+    "onyomi": [
+      "ニク"
+    ],
+    "kunyomi": [
+      "しし"
+    ],
+    "strokeCount": 6,
+    "jlptLevel": "N5",
+    "kanjivgId": "08089",
+    "exampleVocabIds": [
+      "vocab_肉",
+      "vocab_牛肉",
+      "vocab_豚肉"
+    ],
+    "meaningsVi": [
+      "thịt"
+    ]
+  },
+  {
+    "id": "kanji_自",
+    "character": "自",
+    "meanings": [
+      "oneself"
+    ],
+    "onyomi": [
+      "ジ",
+      "シ"
+    ],
+    "kunyomi": [
+      "みずか.ら",
+      "おの.ずから",
+      "おの.ずと"
+    ],
+    "strokeCount": 6,
+    "jlptLevel": "N5",
+    "kanjivgId": "081ea",
+    "exampleVocabIds": [
+      "vocab_自動車",
+      "vocab_自転車",
+      "vocab_自分で"
+    ],
+    "meaningsVi": [
+      "tự",
+      "bản thân"
     ]
   },
   {
@@ -1899,6 +2685,68 @@
     ]
   },
   {
+    "id": "kanji_住",
+    "character": "住",
+    "meanings": [
+      "dwell",
+      "reside",
+      "live",
+      "inhabit"
+    ],
+    "onyomi": [
+      "ジュウ",
+      "ヂュウ",
+      "チュウ"
+    ],
+    "kunyomi": [
+      "す.む",
+      "す.まう",
+      "-ず.まい"
+    ],
+    "strokeCount": 7,
+    "jlptLevel": "N5",
+    "kanjivgId": "04f4f",
+    "exampleVocabIds": [
+      "vocab_住所",
+      "vocab_住みます",
+      "vocab_住んでいます"
+    ],
+    "meaningsVi": [
+      "sống",
+      "cư trú"
+    ]
+  },
+  {
+    "id": "kanji_体",
+    "character": "体",
+    "meanings": [
+      "body",
+      "substance",
+      "object",
+      "reality",
+      "counter for images"
+    ],
+    "onyomi": [
+      "タイ",
+      "テイ"
+    ],
+    "kunyomi": [
+      "からだ",
+      "かたち"
+    ],
+    "strokeCount": 7,
+    "jlptLevel": "N5",
+    "kanjivgId": "04f53",
+    "exampleVocabIds": [
+      "vocab_体",
+      "vocab_体にいい"
+    ],
+    "meaningsVi": [
+      "cơ thể",
+      "thân thể"
+    ]
+  },
+  {
     "id": "kanji_何",
     "character": "何",
     "meanings": [
@@ -1923,6 +2771,31 @@
     ],
     "meaningsVi": [
       "cái gì"
+    ]
+  },
+  {
+    "id": "kanji_売",
+    "character": "売",
+    "meanings": [
+      "sell"
+    ],
+    "onyomi": [
+      "バイ"
+    ],
+    "kunyomi": [
+      "う.る",
+      "う.れる"
+    ],
+    "strokeCount": 7,
+    "jlptLevel": "N5",
+    "kanjivgId": "058f2",
+    "exampleVocabIds": [
+      "vocab_売り場",
+      "vocab_売ります",
+      "vocab_自動販売機"
+    ],
+    "meaningsVi": [
+      "bán"
     ]
   },
   {
@@ -1990,6 +2863,33 @@
     ]
   },
   {
+    "id": "kanji_町",
+    "character": "町",
+    "meanings": [
+      "town",
+      "village",
+      "block",
+      "street"
+    ],
+    "onyomi": [
+      "チョウ"
+    ],
+    "kunyomi": [
+      "まち"
+    ],
+    "strokeCount": 7,
+    "jlptLevel": "N5",
+    "kanjivgId": "0753a",
+    "exampleVocabIds": [
+      "vocab_町",
+      "vocab_みどり町"
+    ],
+    "meaningsVi": [
+      "thị trấn",
+      "phố"
+    ]
+  },
+  {
     "id": "kanji_社",
     "character": "社",
     "meanings": [
@@ -2019,6 +2919,34 @@
       "văn phòng",
       "hiệp hội",
       "điện thờ"
+    ]
+  },
+  {
+    "id": "kanji_良",
+    "character": "良",
+    "meanings": [
+      "good",
+      "pleasing",
+      "skilled"
+    ],
+    "onyomi": [
+      "リョウ"
+    ],
+    "kunyomi": [
+      "よ.い",
+      "-よ.い",
+      "い.い",
+      "-い.い"
+    ],
+    "strokeCount": 7,
+    "jlptLevel": "N5",
+    "kanjivgId": "0826f",
+    "exampleVocabIds": [
+      "vocab_奈良公園"
+    ],
+    "meaningsVi": [
+      "tốt",
+      "giỏi"
     ]
   },
   {
@@ -2111,6 +3039,74 @@
     ]
   },
   {
+    "id": "kanji_貝",
+    "character": "貝",
+    "meanings": [
+      "shellfish"
+    ],
+    "onyomi": [
+      "バイ"
+    ],
+    "kunyomi": [
+      "かい"
+    ],
+    "strokeCount": 7,
+    "jlptLevel": "N5",
+    "kanjivgId": "08c9d",
+    "exampleVocabIds": [],
+    "meaningsVi": [
+      "vỏ sò",
+      "con sò"
+    ]
+  },
+  {
+    "id": "kanji_赤",
+    "character": "赤",
+    "meanings": [
+      "red"
+    ],
+    "onyomi": [
+      "セキ",
+      "シャク"
+    ],
+    "kunyomi": [
+      "あか",
+      "あか-",
+      "あか.い",
+      "あか.らむ",
+      "あか.らめる"
+    ],
+    "strokeCount": 7,
+    "jlptLevel": "N5",
+    "kanjivgId": "08d64",
+    "exampleVocabIds": [
+      "vocab_赤い"
+    ],
+    "meaningsVi": [
+      "màu đỏ"
+    ]
+  },
+  {
+    "id": "kanji_走",
+    "character": "走",
+    "meanings": [
+      "run"
+    ],
+    "onyomi": [
+      "ソウ"
+    ],
+    "kunyomi": [
+      "はし.る"
+    ],
+    "strokeCount": 7,
+    "jlptLevel": "N5",
+    "kanjivgId": "08d70",
+    "exampleVocabIds": [],
+    "meaningsVi": [
+      "chạy"
+    ]
+  },
+  {
     "id": "kanji_足",
     "character": "足",
     "meanings": [
@@ -2167,6 +3163,87 @@
     ]
   },
   {
+    "id": "kanji_近",
+    "character": "近",
+    "meanings": [
+      "near",
+      "early",
+      "akin",
+      "tantamount"
+    ],
+    "onyomi": [
+      "キン",
+      "コン"
+    ],
+    "kunyomi": [
+      "ちか.い"
+    ],
+    "strokeCount": 7,
+    "jlptLevel": "N5",
+    "kanjivgId": "08fd1",
+    "exampleVocabIds": [
+      "vocab_近く",
+      "vocab_近い",
+      "vocab_最近"
+    ],
+    "meaningsVi": [
+      "gần"
+    ]
+  },
+  {
+    "id": "kanji_京",
+    "character": "京",
+    "meanings": [
+      "capital",
+      "10**16"
+    ],
+    "onyomi": [
+      "キョウ",
+      "ケイ",
+      "キン"
+    ],
+    "kunyomi": [
+      "みやこ"
+    ],
+    "strokeCount": 8,
+    "jlptLevel": "N5",
+    "kanjivgId": "04eac",
+    "exampleVocabIds": [
+      "vocab_東京スカイツリー",
+      "vocab_東京ディズニーランド"
+    ],
+    "meaningsVi": [
+      "thủ đô",
+      "kinh"
+    ]
+  },
+  {
+    "id": "kanji_具",
+    "character": "具",
+    "meanings": [
+      "tool",
+      "utensil",
+      "means",
+      "possess",
+      "ingredients",
+      "counter for armor, suits, sets of furniture"
+    ],
+    "onyomi": [
+      "グ"
+    ],
+    "kunyomi": [
+      "そな.える",
+      "つぶさ.に"
+    ],
+    "strokeCount": 8,
+    "jlptLevel": "N5",
+    "kanjivgId": "05177",
+    "exampleVocabIds": [],
+    "meaningsVi": [
+      "dụng cụ"
+    ]
+  },
+  {
     "id": "kanji_国",
     "character": "国",
     "meanings": [
@@ -2188,6 +3265,30 @@
     ],
     "meaningsVi": [
       "đất nước"
+    ]
+  },
+  {
+    "id": "kanji_夜",
+    "character": "夜",
+    "meanings": [
+      "night",
+      "evening"
+    ],
+    "onyomi": [
+      "ヤ"
+    ],
+    "kunyomi": [
+      "よ",
+      "よる"
+    ],
+    "strokeCount": 8,
+    "jlptLevel": "N5",
+    "kanjivgId": "0591c",
+    "exampleVocabIds": [
+      "vocab_晩"
+    ],
+    "meaningsVi": [
+      "đêm"
     ]
   },
   {
@@ -2246,6 +3347,42 @@
     ]
   },
   {
+    "id": "kanji_明",
+    "character": "明",
+    "meanings": [
+      "bright",
+      "light"
+    ],
+    "onyomi": [
+      "メイ",
+      "ミョウ",
+      "ミン"
+    ],
+    "kunyomi": [
+      "あ.かり",
+      "あか.るい",
+      "あか.るむ",
+      "あか.らむ",
+      "あき.らか",
+      "あ.ける",
+      "-あ.け",
+      "あ.く",
+      "あ.くる",
+      "あ.かす"
+    ],
+    "strokeCount": 8,
+    "jlptLevel": "N5",
+    "kanjivgId": "0660e",
+    "exampleVocabIds": [
+      "vocab_明るい",
+      "vocab_説明します"
+    ],
+    "meaningsVi": [
+      "sáng",
+      "rõ ràng"
+    ]
+  },
+  {
     "id": "kanji_東",
     "character": "東",
     "meanings": [
@@ -2266,6 +3403,109 @@
     ],
     "meaningsVi": [
       "phía đông"
+    ]
+  },
+  {
+    "id": "kanji_林",
+    "character": "林",
+    "meanings": [
+      "grove",
+      "forest"
+    ],
+    "onyomi": [
+      "リン"
+    ],
+    "kunyomi": [
+      "はやし"
+    ],
+    "strokeCount": 8,
+    "jlptLevel": "N5",
+    "kanjivgId": "06797",
+    "exampleVocabIds": [],
+    "meaningsVi": [
+      "rừng cây"
+    ]
+  },
+  {
+    "id": "kanji_泳",
+    "character": "泳",
+    "meanings": [
+      "swim"
+    ],
+    "onyomi": [
+      "エイ"
+    ],
+    "kunyomi": [
+      "およ.ぐ"
+    ],
+    "strokeCount": 8,
+    "jlptLevel": "N5",
+    "kanjivgId": "06cf3",
+    "exampleVocabIds": [
+      "vocab_泳ぎます"
+    ],
+    "meaningsVi": [
+      "bơi"
+    ]
+  },
+  {
+    "id": "kanji_物",
+    "character": "物",
+    "meanings": [
+      "thing",
+      "object",
+      "matter"
+    ],
+    "onyomi": [
+      "ブツ",
+      "モツ"
+    ],
+    "kunyomi": [
+      "もの",
+      "もの-"
+    ],
+    "strokeCount": 8,
+    "jlptLevel": "N5",
+    "kanjivgId": "07269",
+    "exampleVocabIds": [
+      "vocab_物",
+      "vocab_果物",
+      "vocab_荷物"
+    ],
+    "meaningsVi": [
+      "vật",
+      "đồ vật"
+    ]
+  },
+  {
+    "id": "kanji_画",
+    "character": "画",
+    "meanings": [
+      "brush-stroke",
+      "picture"
+    ],
+    "onyomi": [
+      "ガ",
+      "カク",
+      "エ",
+      "カイ"
+    ],
+    "kunyomi": [
+      "えが.く",
+      "かく.する",
+      "かぎ.る",
+      "はかりごと",
+      "はか.る"
+    ],
+    "strokeCount": 8,
+    "jlptLevel": "N5",
+    "kanjivgId": "0753b",
+    "exampleVocabIds": [
+      "vocab_映画"
+    ],
+    "meaningsVi": [
+      "bức tranh",
+      "nét vẽ"
     ]
   },
   {
@@ -2366,6 +3606,31 @@
     ]
   },
   {
+    "id": "kanji_門",
+    "character": "門",
+    "meanings": [
+      "gate",
+      "counter for cannons"
+    ],
+    "onyomi": [
+      "モン"
+    ],
+    "kunyomi": [
+      "かど",
+      "と"
+    ],
+    "strokeCount": 8,
+    "jlptLevel": "N5",
+    "kanjivgId": "09580",
+    "exampleVocabIds": [
+      "vocab_専門"
+    ],
+    "meaningsVi": [
+      "cổng",
+      "cửa"
+    ]
+  },
+  {
     "id": "kanji_雨",
     "character": "雨",
     "meanings": [
@@ -2388,6 +3653,32 @@
     ],
     "meaningsVi": [
       "mưa"
+    ]
+  },
+  {
+    "id": "kanji_青",
+    "character": "青",
+    "meanings": [
+      "blue",
+      "green"
+    ],
+    "onyomi": [
+      "セイ",
+      "ショウ"
+    ],
+    "kunyomi": [
+      "あお",
+      "あお-",
+      "あお.い"
+    ],
+    "strokeCount": 8,
+    "jlptLevel": "N5",
+    "kanjivgId": "09752",
+    "exampleVocabIds": [
+      "vocab_青い"
+    ],
+    "meaningsVi": [
+      "màu xanh"
     ]
   },
   {
@@ -2439,6 +3730,31 @@
     ]
   },
   {
+    "id": "kanji_待",
+    "character": "待",
+    "meanings": [
+      "wait",
+      "depend on"
+    ],
+    "onyomi": [
+      "タイ"
+    ],
+    "kunyomi": [
+      "ま.つ",
+      "-ま.ち"
+    ],
+    "strokeCount": 9,
+    "jlptLevel": "N5",
+    "kanjivgId": "05f85",
+    "exampleVocabIds": [
+      "vocab_待ちます",
+      "vocab_お待ちください。"
+    ],
+    "meaningsVi": [
+      "chờ đợi"
+    ]
+  },
+  {
     "id": "kanji_後",
     "character": "後",
     "meanings": [
@@ -2470,6 +3786,263 @@
     ]
   },
   {
+    "id": "kanji_春",
+    "character": "春",
+    "meanings": [
+      "springtime",
+      "spring (season)"
+    ],
+    "onyomi": [
+      "シュン"
+    ],
+    "kunyomi": [
+      "はる"
+    ],
+    "strokeCount": 9,
+    "jlptLevel": "N5",
+    "kanjivgId": "06625",
+    "exampleVocabIds": [
+      "vocab_春"
+    ],
+    "meaningsVi": [
+      "mùa xuân"
+    ]
+  },
+  {
+    "id": "kanji_海",
+    "character": "海",
+    "meanings": [
+      "sea",
+      "ocean"
+    ],
+    "onyomi": [
+      "カイ"
+    ],
+    "kunyomi": [
+      "うみ"
+    ],
+    "strokeCount": 9,
+    "jlptLevel": "N5",
+    "kanjivgId": "06d77",
+    "exampleVocabIds": [
+      "vocab_海"
+    ],
+    "meaningsVi": [
+      "biển"
+    ]
+  },
+  {
+    "id": "kanji_界",
+    "character": "界",
+    "meanings": [
+      "world",
+      "boundary"
+    ],
+    "onyomi": [
+      "カイ"
+    ],
+    "kunyomi": [],
+    "strokeCount": 9,
+    "jlptLevel": "N5",
+    "kanjivgId": "0754c",
+    "exampleVocabIds": [
+      "vocab_世界"
+    ],
+    "meaningsVi": [
+      "thế giới",
+      "ranh giới"
+    ]
+  },
+  {
+    "id": "kanji_畑",
+    "character": "畑",
+    "meanings": [
+      "farm",
+      "field",
+      "garden",
+      "one's specialty",
+      "(kokuji)"
+    ],
+    "onyomi": [],
+    "kunyomi": [
+      "はた",
+      "はたけ",
+      "-ばたけ"
+    ],
+    "strokeCount": 9,
+    "jlptLevel": "N5",
+    "kanjivgId": "07551",
+    "exampleVocabIds": [],
+    "meaningsVi": [
+      "ruộng",
+      "cánh đồng"
+    ]
+  },
+  {
+    "id": "kanji_秋",
+    "character": "秋",
+    "meanings": [
+      "autumn"
+    ],
+    "onyomi": [
+      "シュウ"
+    ],
+    "kunyomi": [
+      "あき",
+      "とき"
+    ],
+    "strokeCount": 9,
+    "jlptLevel": "N5",
+    "kanjivgId": "079cb",
+    "exampleVocabIds": [
+      "vocab_秋",
+      "vocab_秋葉原"
+    ],
+    "meaningsVi": [
+      "mùa thu"
+    ]
+  },
+  {
+    "id": "kanji_茶",
+    "character": "茶",
+    "meanings": [
+      "tea"
+    ],
+    "onyomi": [
+      "チャ",
+      "サ"
+    ],
+    "kunyomi": [],
+    "strokeCount": 9,
+    "jlptLevel": "N5",
+    "kanjivgId": "08336",
+    "exampleVocabIds": [
+      "vocab_お茶",
+      "vocab_紅茶",
+      "vocab_喫茶店"
+    ],
+    "meaningsVi": [
+      "trà"
+    ]
+  },
+  {
+    "id": "kanji_草",
+    "character": "草",
+    "meanings": [
+      "grass",
+      "weeds",
+      "herbs",
+      "pasture",
+      "write",
+      "draft"
+    ],
+    "onyomi": [
+      "ソウ"
+    ],
+    "kunyomi": [
+      "くさ",
+      "くさ-",
+      "-ぐさ"
+    ],
+    "strokeCount": 9,
+    "jlptLevel": "N5",
+    "kanjivgId": "08349",
+    "exampleVocabIds": [],
+    "meaningsVi": [
+      "cỏ"
+    ]
+  },
+  {
+    "id": "kanji_重",
+    "character": "重",
+    "meanings": [
+      "heavy",
+      "important",
+      "esteem",
+      "respect",
+      "heap up",
+      "pile up",
+      "nest of boxes",
+      "-fold"
+    ],
+    "onyomi": [
+      "ジュウ",
+      "チョウ"
+    ],
+    "kunyomi": [
+      "え",
+      "おも.い",
+      "おも.り",
+      "おも.なう",
+      "かさ.ねる",
+      "かさ.なる",
+      "おも"
+    ],
+    "strokeCount": 9,
+    "jlptLevel": "N5",
+    "kanjivgId": "091cd",
+    "exampleVocabIds": [
+      "vocab_重い"
+    ],
+    "meaningsVi": [
+      "nặng",
+      "quan trọng"
+    ]
+  },
+  {
+    "id": "kanji_音",
+    "character": "音",
+    "meanings": [
+      "sound",
+      "noise"
+    ],
+    "onyomi": [
+      "オン",
+      "イン",
+      "ーノン"
+    ],
+    "kunyomi": [
+      "おと",
+      "ね"
+    ],
+    "strokeCount": 9,
+    "jlptLevel": "N5",
+    "kanjivgId": "097f3",
+    "exampleVocabIds": [
+      "vocab_音",
+      "vocab_音楽"
+    ],
+    "meaningsVi": [
+      "âm thanh"
+    ]
+  },
+  {
+    "id": "kanji_風",
+    "character": "風",
+    "meanings": [
+      "wind",
+      "air",
+      "style",
+      "manner"
+    ],
+    "onyomi": [
+      "フウ",
+      "フ"
+    ],
+    "kunyomi": [
+      "かぜ",
+      "かざ-",
+      "-かぜ"
+    ],
+    "strokeCount": 9,
+    "jlptLevel": "N5",
+    "kanjivgId": "098a8",
+    "exampleVocabIds": [],
+    "meaningsVi": [
+      "gió"
+    ]
+  },
+  {
     "id": "kanji_食",
     "character": "食",
     "meanings": [
@@ -2497,6 +4070,140 @@
     "meaningsVi": [
       "ăn",
       "thức ăn"
+    ]
+  },
+  {
+    "id": "kanji_首",
+    "character": "首",
+    "meanings": [
+      "neck",
+      "counter for songs and poems"
+    ],
+    "onyomi": [
+      "シュ"
+    ],
+    "kunyomi": [
+      "くび"
+    ],
+    "strokeCount": 9,
+    "jlptLevel": "N5",
+    "kanjivgId": "09996",
+    "exampleVocabIds": [
+      "vocab_首相"
+    ],
+    "meaningsVi": [
+      "cổ"
+    ]
+  },
+  {
+    "id": "kanji_夏",
+    "character": "夏",
+    "meanings": [
+      "summer"
+    ],
+    "onyomi": [
+      "カ",
+      "ガ",
+      "ゲ"
+    ],
+    "kunyomi": [
+      "なつ"
+    ],
+    "strokeCount": 10,
+    "jlptLevel": "N5",
+    "kanjivgId": "0590f",
+    "exampleVocabIds": [
+      "vocab_夏"
+    ],
+    "meaningsVi": [
+      "mùa hè"
+    ]
+  },
+  {
+    "id": "kanji_家",
+    "character": "家",
+    "meanings": [
+      "house",
+      "home",
+      "family",
+      "professional",
+      "expert",
+      "performer"
+    ],
+    "onyomi": [
+      "カ",
+      "ケ"
+    ],
+    "kunyomi": [
+      "いえ",
+      "や",
+      "うち"
+    ],
+    "strokeCount": 10,
+    "jlptLevel": "N5",
+    "kanjivgId": "05bb6",
+    "exampleVocabIds": [
+      "vocab_家族",
+      "vocab_家賃",
+      "vocab_ご家族"
+    ],
+    "meaningsVi": [
+      "nhà",
+      "gia đình"
+    ]
+  },
+  {
+    "id": "kanji_帰",
+    "character": "帰",
+    "meanings": [
+      "homecoming",
+      "arrive at",
+      "lead to",
+      "result in"
+    ],
+    "onyomi": [
+      "キ"
+    ],
+    "kunyomi": [
+      "かえ.る",
+      "かえ.す",
+      "おく.る",
+      "とつ.ぐ"
+    ],
+    "strokeCount": 10,
+    "jlptLevel": "N5",
+    "kanjivgId": "05e30",
+    "exampleVocabIds": [
+      "vocab_帰ります",
+      "vocab_お帰りなさい。",
+      "vocab_国へ帰るの？"
+    ],
+    "meaningsVi": [
+      "trở về"
+    ]
+  },
+  {
+    "id": "kanji_旅",
+    "character": "旅",
+    "meanings": [
+      "trip",
+      "travel"
+    ],
+    "onyomi": [
+      "リョ"
+    ],
+    "kunyomi": [
+      "たび"
+    ],
+    "strokeCount": 10,
+    "jlptLevel": "N5",
+    "kanjivgId": "065c5",
+    "exampleVocabIds": [
+      "vocab_旅行"
+    ],
+    "meaningsVi": [
+      "chuyến đi",
+      "du lịch"
     ]
   },
   {
@@ -2583,6 +4290,147 @@
     ]
   },
   {
+    "id": "kanji_病",
+    "character": "病",
+    "meanings": [
+      "ill",
+      "sick"
+    ],
+    "onyomi": [
+      "ビョウ",
+      "ヘイ"
+    ],
+    "kunyomi": [
+      "や.む",
+      "-や.み",
+      "やまい"
+    ],
+    "strokeCount": 10,
+    "jlptLevel": "N5",
+    "kanjivgId": "075c5",
+    "exampleVocabIds": [
+      "vocab_病院",
+      "vocab_病気",
+      "vocab_神戸病院"
+    ],
+    "meaningsVi": [
+      "bệnh"
+    ]
+  },
+  {
+    "id": "kanji_荷",
+    "character": "荷",
+    "meanings": [
+      "baggage",
+      "shoulder-pole load",
+      "bear (a burden)",
+      "shoulder (a gun)",
+      "load",
+      "cargo",
+      "freight"
+    ],
+    "onyomi": [
+      "カ"
+    ],
+    "kunyomi": [
+      "に"
+    ],
+    "strokeCount": 10,
+    "jlptLevel": "N5",
+    "kanjivgId": "08377",
+    "exampleVocabIds": [
+      "vocab_荷物"
+    ],
+    "meaningsVi": [
+      "hành lý"
+    ]
+  },
+  {
+    "id": "kanji_通",
+    "character": "通",
+    "meanings": [
+      "traffic",
+      "pass through",
+      "avenue",
+      "commute",
+      "counter for letters, notes, documents, etc."
+    ],
+    "onyomi": [
+      "ツウ",
+      "ツ"
+    ],
+    "kunyomi": [
+      "とお.る",
+      "とお.り",
+      "-とお.り",
+      "-どお.り",
+      "とお.す",
+      "とお.し",
+      "-どお.し",
+      "かよ.う"
+    ],
+    "strokeCount": 10,
+    "jlptLevel": "N5",
+    "kanjivgId": "0901a",
+    "exampleVocabIds": [
+      "vocab_普通",
+      "vocab_交通"
+    ],
+    "meaningsVi": [
+      "đi qua",
+      "thông"
+    ]
+  },
+  {
+    "id": "kanji_酒",
+    "character": "酒",
+    "meanings": [
+      "sake",
+      "alcohol"
+    ],
+    "onyomi": [
+      "シュ"
+    ],
+    "kunyomi": [
+      "さけ",
+      "さか-"
+    ],
+    "strokeCount": 10,
+    "jlptLevel": "N5",
+    "kanjivgId": "09152",
+    "exampleVocabIds": [
+      "vocab_酒"
+    ],
+    "meaningsVi": [
+      "rượu"
+    ]
+  },
+  {
+    "id": "kanji_院",
+    "character": "院",
+    "meanings": [
+      "inst.",
+      "institution",
+      "temple",
+      "mansion",
+      "school"
+    ],
+    "onyomi": [
+      "イン"
+    ],
+    "kunyomi": [],
+    "strokeCount": 10,
+    "jlptLevel": "N5",
+    "kanjivgId": "09662",
+    "exampleVocabIds": [
+      "vocab_病院",
+      "vocab_神戸病院"
+    ],
+    "meaningsVi": [
+      "viện"
+    ]
+  },
+  {
     "id": "kanji_高",
     "character": "高",
     "meanings": [
@@ -2615,6 +4463,109 @@
     ]
   },
   {
+    "id": "kanji_動",
+    "character": "動",
+    "meanings": [
+      "move",
+      "motion",
+      "change",
+      "confusion",
+      "shift",
+      "shake"
+    ],
+    "onyomi": [
+      "ドウ"
+    ],
+    "kunyomi": [
+      "うご.く",
+      "うご.かす"
+    ],
+    "strokeCount": 11,
+    "jlptLevel": "N5",
+    "kanjivgId": "052d5",
+    "exampleVocabIds": [
+      "vocab_動物",
+      "vocab_自動車",
+      "vocab_動きます"
+    ],
+    "meaningsVi": [
+      "chuyển động"
+    ]
+  },
+  {
+    "id": "kanji_問",
+    "character": "問",
+    "meanings": [
+      "question",
+      "ask",
+      "problem"
+    ],
+    "onyomi": [
+      "モン"
+    ],
+    "kunyomi": [
+      "と.う",
+      "と.い",
+      "とん"
+    ],
+    "strokeCount": 11,
+    "jlptLevel": "N5",
+    "kanjivgId": "0554f",
+    "exampleVocabIds": [
+      "vocab_問題",
+      "vocab_お問い合わせの番号"
+    ],
+    "meaningsVi": [
+      "hỏi",
+      "câu hỏi"
+    ]
+  },
+  {
+    "id": "kanji_族",
+    "character": "族",
+    "meanings": [
+      "tribe",
+      "family"
+    ],
+    "onyomi": [
+      "ゾク"
+    ],
+    "kunyomi": [],
+    "strokeCount": 11,
+    "jlptLevel": "N5",
+    "kanjivgId": "065cf",
+    "exampleVocabIds": [
+      "vocab_家族",
+      "vocab_ご家族"
+    ],
+    "meaningsVi": [
+      "gia tộc",
+      "dân tộc"
+    ]
+  },
+  {
+    "id": "kanji_猫",
+    "character": "猫",
+    "meanings": [
+      "cat"
+    ],
+    "onyomi": [
+      "ビョウ"
+    ],
+    "kunyomi": [
+      "ねこ"
+    ],
+    "strokeCount": 11,
+    "jlptLevel": "N5",
+    "kanjivgId": "0732b",
+    "exampleVocabIds": [
+      "vocab_猫"
+    ],
+    "meaningsVi": [
+      "mèo"
+    ]
+  },
+  {
     "id": "kanji_週",
     "character": "週",
     "meanings": [
@@ -2634,6 +4585,29 @@
     ],
     "meaningsVi": [
       "tuần"
+    ]
+  },
+  {
+    "id": "kanji_雪",
+    "character": "雪",
+    "meanings": [
+      "snow"
+    ],
+    "onyomi": [
+      "セツ"
+    ],
+    "kunyomi": [
+      "ゆき"
+    ],
+    "strokeCount": 11,
+    "jlptLevel": "N5",
+    "kanjivgId": "096ea",
+    "exampleVocabIds": [
+      "vocab_雪",
+      "vocab_雪祭り"
+    ],
+    "meaningsVi": [
+      "tuyết"
     ]
   },
   {
@@ -2661,6 +4635,102 @@
     ]
   },
   {
+    "id": "kanji_鳥",
+    "character": "鳥",
+    "meanings": [
+      "bird",
+      "chicken"
+    ],
+    "onyomi": [
+      "チョウ"
+    ],
+    "kunyomi": [
+      "とり"
+    ],
+    "strokeCount": 11,
+    "jlptLevel": "N5",
+    "kanjivgId": "09ce5",
+    "exampleVocabIds": [],
+    "meaningsVi": [
+      "chim"
+    ]
+  },
+  {
+    "id": "kanji_黒",
+    "character": "黒",
+    "meanings": [
+      "black"
+    ],
+    "onyomi": [
+      "コク"
+    ],
+    "kunyomi": [
+      "くろ",
+      "くろ.ずむ",
+      "くろ.い"
+    ],
+    "strokeCount": 11,
+    "jlptLevel": "N5",
+    "kanjivgId": "09ed2",
+    "exampleVocabIds": [
+      "vocab_黒い"
+    ],
+    "meaningsVi": [
+      "màu đen"
+    ]
+  },
+  {
+    "id": "kanji_朝",
+    "character": "朝",
+    "meanings": [
+      "morning",
+      "dynasty",
+      "regime",
+      "epoch",
+      "period",
+      "(north) korea"
+    ],
+    "onyomi": [
+      "チョウ"
+    ],
+    "kunyomi": [
+      "あさ"
+    ],
+    "strokeCount": 12,
+    "jlptLevel": "N5",
+    "kanjivgId": "0671d",
+    "exampleVocabIds": [
+      "vocab_朝",
+      "vocab_毎朝",
+      "vocab_朝ごはん"
+    ],
+    "meaningsVi": [
+      "buổi sáng",
+      "triều đại"
+    ]
+  },
+  {
+    "id": "kanji_森",
+    "character": "森",
+    "meanings": [
+      "forest",
+      "woods"
+    ],
+    "onyomi": [
+      "シン"
+    ],
+    "kunyomi": [
+      "もり"
+    ],
+    "strokeCount": 12,
+    "jlptLevel": "N5",
+    "kanjivgId": "068ee",
+    "exampleVocabIds": [],
+    "meaningsVi": [
+      "rừng"
+    ]
+  },
+  {
     "id": "kanji_買",
     "character": "買",
     "meanings": [
@@ -2681,6 +4751,64 @@
     ],
     "meaningsVi": [
       "mua"
+    ]
+  },
+  {
+    "id": "kanji_軽",
+    "character": "軽",
+    "meanings": [
+      "lightly",
+      "trifling",
+      "unimportant"
+    ],
+    "onyomi": [
+      "ケイ",
+      "キョウ",
+      "キン"
+    ],
+    "kunyomi": [
+      "かる.い",
+      "かろ.やか",
+      "かろ.んじる"
+    ],
+    "strokeCount": 12,
+    "jlptLevel": "N5",
+    "kanjivgId": "08efd",
+    "exampleVocabIds": [
+      "vocab_軽い"
+    ],
+    "meaningsVi": [
+      "nhẹ"
+    ]
+  },
+  {
+    "id": "kanji_運",
+    "character": "運",
+    "meanings": [
+      "carry",
+      "luck",
+      "destiny",
+      "fate",
+      "lot",
+      "transport",
+      "progress",
+      "advance"
+    ],
+    "onyomi": [
+      "ウン"
+    ],
+    "kunyomi": [
+      "はこ.ぶ"
+    ],
+    "strokeCount": 12,
+    "jlptLevel": "N5",
+    "kanjivgId": "0904b",
+    "exampleVocabIds": [
+      "vocab_運転します"
+    ],
+    "meaningsVi": [
+      "vận chuyển",
+      "vận may"
     ]
   },
   {
@@ -2720,6 +4848,36 @@
     ]
   },
   {
+    "id": "kanji_開",
+    "character": "開",
+    "meanings": [
+      "open",
+      "unfold",
+      "unseal"
+    ],
+    "onyomi": [
+      "カイ"
+    ],
+    "kunyomi": [
+      "ひら.く",
+      "ひら.き",
+      "-びら.き",
+      "ひら.ける",
+      "あ.く",
+      "あ.ける"
+    ],
+    "strokeCount": 12,
+    "jlptLevel": "N5",
+    "kanjivgId": "0958b",
+    "exampleVocabIds": [
+      "vocab_開けます",
+      "vocab_余暇開発センター"
+    ],
+    "meaningsVi": [
+      "mở"
+    ]
+  },
+  {
     "id": "kanji_間",
     "character": "間",
     "meanings": [
@@ -2746,6 +4904,49 @@
     "meaningsVi": [
       "khoảng thời gian",
       "không gian"
+    ]
+  },
+  {
+    "id": "kanji_雲",
+    "character": "雲",
+    "meanings": [
+      "cloud"
+    ],
+    "onyomi": [
+      "ウン"
+    ],
+    "kunyomi": [
+      "くも",
+      "-ぐも"
+    ],
+    "strokeCount": 12,
+    "jlptLevel": "N5",
+    "kanjivgId": "096f2",
+    "exampleVocabIds": [],
+    "meaningsVi": [
+      "mây"
+    ]
+  },
+  {
+    "id": "kanji_飯",
+    "character": "飯",
+    "meanings": [
+      "meal",
+      "boiled rice"
+    ],
+    "onyomi": [
+      "ハン"
+    ],
+    "kunyomi": [
+      "めし"
+    ],
+    "strokeCount": 12,
+    "jlptLevel": "N5",
+    "kanjivgId": "098ef",
+    "exampleVocabIds": [],
+    "meaningsVi": [
+      "cơm",
+      "bữa ăn"
     ]
   },
   {
@@ -2806,6 +5007,36 @@
     ]
   },
   {
+    "id": "kanji_暗",
+    "character": "暗",
+    "meanings": [
+      "darkness",
+      "disappear",
+      "shade",
+      "informal",
+      "grow dark",
+      "be blinded"
+    ],
+    "onyomi": [
+      "アン"
+    ],
+    "kunyomi": [
+      "くら.い",
+      "くら.む",
+      "くれ.る"
+    ],
+    "strokeCount": 13,
+    "jlptLevel": "N5",
+    "kanjivgId": "06697",
+    "exampleVocabIds": [
+      "vocab_暗い",
+      "vocab_暗証番号"
+    ],
+    "meaningsVi": [
+      "tối"
+    ]
+  },
+  {
     "id": "kanji_話",
     "character": "話",
     "meanings": [
@@ -2833,6 +5064,30 @@
     ]
   },
   {
+    "id": "kanji_遠",
+    "character": "遠",
+    "meanings": [
+      "distant",
+      "far"
+    ],
+    "onyomi": [
+      "エン",
+      "オン"
+    ],
+    "kunyomi": [
+      "とお.い"
+    ],
+    "strokeCount": 13,
+    "jlptLevel": "N5",
+    "kanjivgId": "09060",
+    "exampleVocabIds": [
+      "vocab_遠い"
+    ],
+    "meaningsVi": [
+      "xa"
+    ]
+  },
+  {
     "id": "kanji_電",
     "character": "電",
     "meanings": [
@@ -2852,6 +5107,33 @@
     ],
     "meaningsVi": [
       "điện"
+    ]
+  },
+  {
+    "id": "kanji_歌",
+    "character": "歌",
+    "meanings": [
+      "song",
+      "sing"
+    ],
+    "onyomi": [
+      "カ"
+    ],
+    "kunyomi": [
+      "うた",
+      "うた.う"
+    ],
+    "strokeCount": 14,
+    "jlptLevel": "N5",
+    "kanjivgId": "06b4c",
+    "exampleVocabIds": [
+      "vocab_歌",
+      "vocab_歌舞伎",
+      "vocab_歌います"
+    ],
+    "meaningsVi": [
+      "bài hát",
+      "hát"
     ]
   },
   {
@@ -2939,6 +5221,30 @@
     ]
   },
   {
+    "id": "kanji_銀",
+    "character": "銀",
+    "meanings": [
+      "silver"
+    ],
+    "onyomi": [
+      "ギン"
+    ],
+    "kunyomi": [
+      "しろがね"
+    ],
+    "strokeCount": 14,
+    "jlptLevel": "N5",
+    "kanjivgId": "09280",
+    "exampleVocabIds": [
+      "vocab_銀行",
+      "vocab_銀行員",
+      "vocab_アップル銀行"
+    ],
+    "meaningsVi": [
+      "bạc"
+    ]
+  },
+  {
     "id": "kanji_駅",
     "character": "駅",
     "meanings": [
@@ -2957,6 +5263,88 @@
     ],
     "meaningsVi": [
       "trạm"
+    ]
+  },
+  {
+    "id": "kanji_髪",
+    "character": "髪",
+    "meanings": [
+      "hair of the head"
+    ],
+    "onyomi": [
+      "ハツ"
+    ],
+    "kunyomi": [
+      "かみ"
+    ],
+    "strokeCount": 14,
+    "jlptLevel": "N5",
+    "kanjivgId": "09aea",
+    "exampleVocabIds": [
+      "vocab_髪"
+    ],
+    "meaningsVi": [
+      "tóc"
+    ]
+  },
+  {
+    "id": "kanji_親",
+    "character": "親",
+    "meanings": [
+      "parent",
+      "intimacy",
+      "relative",
+      "familiarity",
+      "dealer (cards)"
+    ],
+    "onyomi": [
+      "シン"
+    ],
+    "kunyomi": [
+      "おや",
+      "おや-",
+      "した.しい",
+      "した.しむ"
+    ],
+    "strokeCount": 16,
+    "jlptLevel": "N5",
+    "kanjivgId": "089aa",
+    "exampleVocabIds": [
+      "vocab_両親",
+      "vocab_親切"
+    ],
+    "meaningsVi": [
+      "cha mẹ",
+      "thân thiết"
+    ]
+  },
+  {
+    "id": "kanji_頭",
+    "character": "頭",
+    "meanings": [
+      "head",
+      "counter for large animals"
+    ],
+    "onyomi": [
+      "トウ",
+      "ズ",
+      "ト"
+    ],
+    "kunyomi": [
+      "あたま",
+      "かしら",
+      "-がしら",
+      "かぶり"
+    ],
+    "strokeCount": 16,
+    "jlptLevel": "N5",
+    "kanjivgId": "0982d",
+    "exampleVocabIds": [
+      "vocab_頭",
+      "vocab_頭がいい"
+    ],
+    "meaningsVi": [
+      "đầu"
     ]
   }
 ]

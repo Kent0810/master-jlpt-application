@@ -103,8 +103,8 @@ export const VI: Record<string, string> = {
   "Kanji for this level are on the way.": "Kanji cho cấp độ này sắp ra mắt.",
 
   // Lessons
-  "Grammar and vocabulary organised like Minna no Nihongo Shokyū Ⅰ, lessons 1–25.":
-    "Ngữ pháp và từ vựng sắp xếp theo Minna no Nihongo Sơ cấp Ⅰ, bài 1–25.",
+  "Grammar and vocabulary in structured, bite-size lessons — N5 is ready now, with N4 to N1 on the way.":
+    "Ngữ pháp và từ vựng trong các bài học ngắn gọn, có cấu trúc — N5 đã có, N4 đến N1 sắp ra mắt.",
   "Available now": "Đang có",
   "Coming soon": "Sắp ra mắt",
   "Lessons for this level are on the way.":

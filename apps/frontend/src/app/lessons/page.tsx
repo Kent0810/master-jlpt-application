@@ -18,12 +18,12 @@ export default function LessonsPage() {
       </Link>
       <header className="overflow-hidden rounded-3xl bg-gradient-to-br from-brand to-brand-soft px-6 py-8 text-white shadow-lg">
         <p className="text-xs font-semibold uppercase tracking-[0.2em] text-white/80">
-          {t("Minna no Nihongo Shokyū Ⅰ")}
+          JLPT N5–N1
         </p>
         <h1 className="mt-1 text-3xl font-bold">{t("Lessons")}</h1>
         <p className="mt-1 max-w-lg text-sm text-white/90">
           {t(
-            "Grammar and vocabulary organised like Minna no Nihongo Shokyū Ⅰ, lessons 1–25.",
+            "Grammar and vocabulary in structured, bite-size lessons — N5 is ready now, with N4 to N1 on the way.",
           )}
         </p>
       </header>

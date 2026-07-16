@@ -40,6 +40,9 @@ const THEME_INIT_SCRIPT = `
 `;
 
 export const metadata: Metadata = {
+  metadataBase: new URL(
+    process.env.NEXT_PUBLIC_SITE_URL ?? "https://hoc-jlpt.com",
+  ),
   title: "JLPT 道場 — JLPT Study",
   description:
     "Learn JLPT kanji and vocabulary from N5 to N1 with furigana, romaji, audio, spaced-repetition flashcards and quizzes.",

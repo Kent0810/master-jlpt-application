@@ -120,25 +120,3 @@ rt {
 .animate-heart-pop {
   animation: heart-pop 1.5s ease-out forwards;
 }
-
-@keyframes toast-in {
-  0% {
-    opacity: 0;
-    transform: translateY(-12px);
-  }
-  10% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-  85% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-  100% {
-    opacity: 0;
-    transform: translateY(-12px);
-  }
-}
-.animate-toast-in {
-  animation: toast-in 3s ease-out forwards;
-}

@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import Script from "next/script";
+import { Toaster } from "sonner";
 import "./globals.css";
 import { AppShell } from "@/components/AppShell";
 import { ServiceWorker } from "@/components/ServiceWorker";
@@ -77,6 +78,7 @@ export default function RootLayout({
             <ServiceWorker />
           </SettingsProvider>
         </InstallPromptProvider>
+        <Toaster position="top-center" />
         {ADSENSE_CLIENT_ID && (
           <Script
             async

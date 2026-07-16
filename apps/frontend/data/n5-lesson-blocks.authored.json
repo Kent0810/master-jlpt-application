@@ -150,6 +150,79 @@
         ]
       },
       {
+        "kind": "section",
+        "title": {
+          "en": "Part 3 · だれ・〜歳",
+          "vi": "Phần 3 · だれ・〜歳"
+        },
+        "subtitle": {
+          "en": "Ask who someone is with だれ／どなた, and ask ages with 何歳／おいくつ.",
+          "vi": "Hỏi ai đó là ai với だれ／どなた, và hỏi tuổi với 何歳／おいくつ."
+        }
+      },
+      {
+        "kind": "grammar",
+        "grammarIds": [
+          "l1_dare",
+          "l1_sai"
+        ]
+      },
+      {
+        "kind": "exercise",
+        "source": "authored",
+        "title": {
+          "en": "Practice · だれ・〜歳",
+          "vi": "Luyện tập · だれ・〜歳"
+        },
+        "items": [
+          {
+            "prompt": "あの人は（　）ですか。",
+            "reading": "あのひとは（　）ですか。",
+            "options": [
+              "だれ",
+              "なに",
+              "どれ",
+              "いくら"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "だれ asks 'who?' — the question word sits where the answer would go.",
+              "vi": "だれ hỏi 'ai?' — từ để hỏi đứng đúng vị trí của câu trả lời."
+            }
+          },
+          {
+            "prompt": "あの方は（　）ですか。",
+            "reading": "あのかたは（　）ですか。",
+            "options": [
+              "どなた",
+              "なに",
+              "どれ",
+              "いくら"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "方 is polite, so pair it with どなた rather than だれ.",
+              "vi": "方 là từ lịch sự, nên đi cùng どなた thay vì だれ."
+            }
+          },
+          {
+            "prompt": "テレサちゃんは　９（　）です。",
+            "reading": "テレサちゃんは　きゅう（　）です。",
+            "options": [
+              "歳",
+              "円",
+              "人",
+              "本"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "Ages are [number] + 歳: ９歳 'nine years old'.",
+              "vi": "Tuổi là [số] + 歳: ９歳 'chín tuổi'."
+            }
+          }
+        ]
+      },
+      {
         "kind": "dialogue",
         "style": "conversational",
         "source": "lesson"

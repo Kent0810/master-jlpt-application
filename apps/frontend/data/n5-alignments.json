@@ -7800,5 +7800,85 @@
       null,
       null
     ]
+  },
+  "g:l1_dare:0": {
+    "en": [
+      "that person",
+      "Who is"
+    ],
+    "vi": [
+      "Người kia",
+      "là ai"
+    ]
+  },
+  "g:l1_dare:1": {
+    "en": [
+      "that person",
+      "Who is"
+    ],
+    "vi": [
+      "Vị kia",
+      "là ai"
+    ]
+  },
+  "g:l1_dare:2": {
+    "en": [
+      "the teacher",
+      "Who is"
+    ],
+    "vi": [
+      "Giáo viên",
+      "là ai"
+    ]
+  },
+  "g:l1_dare:3": {
+    "en": [
+      "That person",
+      "is Mr. Miller"
+    ],
+    "vi": [
+      "Người kia",
+      "là anh Miller"
+    ]
+  },
+  "g:l1_sai:0": {
+    "en": [
+      "I",
+      "25 years old"
+    ],
+    "vi": [
+      "Tôi",
+      "25 tuổi"
+    ]
+  },
+  "g:l1_sai:1": {
+    "en": [
+      "Teresa",
+      "How old"
+    ],
+    "vi": [
+      "Bé Teresa",
+      "mấy tuổi"
+    ]
+  },
+  "g:l1_sai:2": {
+    "en": [
+      "Teresa",
+      "nine years old"
+    ],
+    "vi": [
+      "Bé Teresa",
+      "9 tuổi"
+    ]
+  },
+  "g:l1_sai:3": {
+    "en": [
+      "sensei",
+      "How old"
+    ],
+    "vi": [
+      "Thầy/cô",
+      "bao nhiêu tuổi"
+    ]
   }
 }

@@ -85,7 +85,7 @@ function Conversational({
   const firstSp = lines[0]?.sp;
   const replyColor = lessonAccent(lesson + 3);
   return (
-    <div className="space-y-4 rounded-2xl border border-black/10 bg-[#faf7ee] p-4 dark:border-white/10 dark:bg-white/[0.03] sm:p-6">
+    <div className="space-y-4 rounded-2xl border border-black/10 bg-[#faf7ee] p-4 shadow-sm dark:border-white/10 dark:bg-white/[0.04] sm:p-6">
       {lines.map((line, i) => {
         const key = `${blockKey}:${i}`;
         const isReply = line.sp !== firstSp;
@@ -152,7 +152,7 @@ function QA({
   accent: string;
 }) {
   return (
-    <div className="space-y-3 rounded-2xl border border-black/10 bg-black/[0.015] p-4 dark:border-white/10 dark:bg-white/[0.02] sm:p-5">
+    <div className="space-y-3 rounded-2xl border border-black/10 bg-white p-4 shadow-sm dark:border-white/10 dark:bg-white/[0.04] sm:p-5">
       {lines.map((line, i) => {
         const key = `${blockKey}:${i}`;
         const isAnswer = (line.sp || "").toUpperCase() === "A";
@@ -202,7 +202,7 @@ function Paragraph({
   lang: Language;
 }) {
   return (
-    <div className="rounded-2xl border border-black/10 bg-[#faf7ee] p-4 dark:border-white/10 dark:bg-white/[0.03] sm:p-6">
+    <div className="rounded-2xl border border-black/10 bg-[#faf7ee] p-4 shadow-sm dark:border-white/10 dark:bg-white/[0.04] sm:p-6">
       <p className="font-jp text-base leading-loose">
         {lines.map((line, i) => (
           <ParagraphSentence key={i} sKey={`${blockKey}:${i}`} line={line} />

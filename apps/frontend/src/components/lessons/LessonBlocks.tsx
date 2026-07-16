@@ -58,7 +58,14 @@ export function LessonBlocks({
             case "vocab":
               return <VocabBlock key={key} block={block} accent={accent} />;
             case "exercise":
-              return <ExerciseBlock key={key} block={block} accent={accent} />;
+              return (
+                <ExerciseBlock
+                  key={key}
+                  block={block}
+                  lesson={lesson}
+                  accent={accent}
+                />
+              );
           }
         })}
       </div>

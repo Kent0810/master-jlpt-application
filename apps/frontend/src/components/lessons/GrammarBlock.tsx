@@ -46,16 +46,13 @@ export function GrammarBlock({
           return (
             <li
               key={g.id}
-              className="rounded-2xl border border-l-4 border-black/10 bg-black/[0.015] p-4 dark:border-white/10 dark:bg-white/[0.02]"
+              className="rounded-2xl border border-l-4 border-black/10 bg-white p-4 shadow-sm dark:border-white/10 dark:bg-white/[0.04]"
               style={{ borderLeftColor: accent }}
             >
               <h3 className="flex items-center gap-2.5 font-jp text-lg font-semibold">
                 <span
-                  className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full text-xs font-bold"
-                  style={{
-                    color: accent,
-                    backgroundColor: accentTint(accent, 0.14),
-                  }}
+                  className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full text-xs font-bold text-white shadow-sm"
+                  style={{ backgroundColor: accent }}
                 >
                   {gi + 1}
                 </span>
@@ -73,10 +70,10 @@ export function GrammarBlock({
               >
                 {g.structure}
               </p>
-              <GrammarImage grammarId={g.id} />
+              <GrammarImage grammarId={g.id} accent={accent} />
               <ul
                 className="mt-3 space-y-2.5 border-l-2 pl-3"
-                style={{ borderColor: accentTint(accent, 0.35) }}
+                style={{ borderColor: accentTint(accent, 0.55) }}
               >
                 {g.examples.map((ex, i) => {
                   const key = `g:${g.id}:${i}`;

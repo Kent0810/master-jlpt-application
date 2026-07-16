@@ -29,7 +29,7 @@ export function VocabBlock({
         count={block.items.length}
         accent={accent}
       />
-      <ul className="overflow-hidden rounded-2xl border border-black/10 dark:border-white/10">
+      <ul className="overflow-hidden rounded-2xl border border-black/10 bg-white shadow-sm dark:border-white/10 dark:bg-white/[0.04]">
         {block.items.map((v, i) => (
           <li
             key={v.id}

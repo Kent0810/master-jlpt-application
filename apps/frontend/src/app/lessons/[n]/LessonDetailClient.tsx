@@ -69,7 +69,11 @@ export default function LessonDetailClient() {
       </header>
 
       {/* Lesson hero illustration */}
-      <LessonImageFigure image={getLessonHero(meta.lesson)} variant="hero" />
+      <LessonImageFigure
+        image={getLessonHero(meta.lesson)}
+        variant="hero"
+        accent={accent}
+      />
 
       {/* Original recap + textbook reference */}
       <section className="rounded-2xl border border-black/10 bg-black/[0.015] p-4 dark:border-white/10 dark:bg-white/[0.02]">

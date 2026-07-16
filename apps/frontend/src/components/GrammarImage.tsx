@@ -2,9 +2,16 @@
 
 import { useEffect, useState } from "react";
 import { getGrammarImage } from "@/lib/grammarImages";
+import { accentOnWhite } from "@/lib/lessonAccents";
 import { useLang } from "@/lib/i18n";
 
-export function GrammarImage({ grammarId }: { grammarId: string }) {
+export function GrammarImage({
+  grammarId,
+  accent,
+}: {
+  grammarId: string;
+  accent?: string;
+}) {
   const lang = useLang();
   const image = getGrammarImage(grammarId);
   const src = image ? `/grammar-images/${image.file}` : null;
@@ -32,7 +39,11 @@ export function GrammarImage({ grammarId }: { grammarId: string }) {
 
   return (
     <figure className="mt-3 overflow-hidden rounded-xl border border-black/10 dark:border-white/10">
-      <div className="flex items-center justify-center bg-white p-3 dark:bg-white/95">
+      <div
+        className="flex items-center justify-center bg-white p-3 dark:bg-white/95"
+        // Solid light tint so the artwork pops; stays light in dark mode too.
+        style={accent ? { backgroundColor: accentOnWhite(accent, 0.08) } : undefined}
+      >
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           src={src}

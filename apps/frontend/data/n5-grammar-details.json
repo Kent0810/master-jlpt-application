@@ -2426,5 +2426,65 @@
         "Dùng くても / でも cho tính từ và danh từ, không chỉ ても đơn thuần."
       ]
     }
+  },
+  "l1_dare": {
+    "en": {
+      "explanation": [
+        "だれ asks 'who?'. It sits exactly where the answer would go: あの人はだれですか 'Who is that person?' → あの人はミラーさんです 'That person is Mr. Miller.'",
+        "どなた is the polite version of だれ — use it when asking about (or in front of) someone you should be respectful toward: あの方はどなたですか.",
+        "あの人 'that person' pairs naturally with だれ; its polite partner あの方 pairs with どなた. Politeness levels usually match across the whole sentence.",
+        "Questions keep normal word order and simply end in か — nothing moves around the way it does in English."
+      ],
+      "formation": "[Topic] は だれ／どなた ですか\nあの人はだれですか ／ あの方はどなたですか",
+      "pitfalls": [
+        "Don't mix politeness levels: あの方はだれですか sounds off — 方 goes with どなた.",
+        "Answer with a name or role, not with だれ: だれ only appears in the question.",
+        "Use さん after other people's names in the answer — never after your own name."
+      ]
+    },
+    "vi": {
+      "explanation": [
+        "だれ hỏi 'ai?'. Nó đứng đúng vị trí của câu trả lời: あの人はだれですか 'Người kia là ai?' → あの人はミラーさんです 'Người kia là anh Miller.'",
+        "どなた là dạng lịch sự của だれ — dùng khi hỏi về (hoặc trước mặt) người cần tỏ sự tôn trọng: あの方はどなたですか.",
+        "あの人 'người kia' đi tự nhiên với だれ; dạng lịch sự あの方 đi với どなた. Mức độ lịch sự thường thống nhất trong cả câu.",
+        "Câu hỏi giữ nguyên trật tự từ và chỉ thêm か ở cuối — không đảo từ như tiếng Anh."
+      ],
+      "formation": "[Chủ đề] は だれ／どなた ですか\nあの人はだれですか ／ あの方はどなたですか",
+      "pitfalls": [
+        "Đừng trộn mức lịch sự: あの方はだれですか nghe lệch — 方 đi với どなた.",
+        "Trả lời bằng tên hoặc nghề nghiệp, không dùng だれ: だれ chỉ xuất hiện trong câu hỏi.",
+        "Dùng さん sau tên người khác khi trả lời — không bao giờ dùng sau tên của chính mình."
+      ]
+    }
+  },
+  "l1_sai": {
+    "en": {
+      "explanation": [
+        "Ages are [number] + 歳: ９歳 'nine years old', ２５歳 'twenty-five years old'. State them with the usual は…です pattern: わたしは２５歳です.",
+        "Ask with 何歳（なんさい）ですか, or politely with おいくつですか — the polite form is the safe choice with adults and superiors.",
+        "Some readings change shape: １歳 いっさい, ８歳 はっさい, １０歳 じゅっさい — and ２０歳 is the irregular はたち.",
+        "As always, the topic drops when it's obvious: （わたしは）２５歳です is a complete, natural answer."
+      ],
+      "formation": "[Topic] は [number]歳 です\n何歳ですか（neutral）／ おいくつですか（polite）",
+      "pitfalls": [
+        "２０歳 is read はたち, not にじゅっさい — a classic slip.",
+        "Don't ask a superior 何歳ですか — use おいくつですか.",
+        "歳 is often written 才 in casual writing; both are read さい."
+      ]
+    },
+    "vi": {
+      "explanation": [
+        "Tuổi là [số] + 歳: ９歳 'chín tuổi', ２５歳 'hai mươi lăm tuổi'. Nói tuổi bằng mẫu は…です quen thuộc: わたしは２５歳です.",
+        "Hỏi tuổi bằng 何歳（なんさい）ですか, hoặc lịch sự hơn với おいくつですか — dạng lịch sự là lựa chọn an toàn với người lớn và người trên.",
+        "Một số cách đọc biến âm: １歳 いっさい, ８歳 はっさい, １０歳 じゅっさい — và ２０歳 đọc bất quy tắc là はたち.",
+        "Như thường lệ, chủ đề được lược bỏ khi đã rõ: （わたしは）２５歳です là câu trả lời hoàn chỉnh, tự nhiên."
+      ],
+      "formation": "[Chủ đề] は [số]歳 です\n何歳ですか（thường）／ おいくつですか（lịch sự）",
+      "pitfalls": [
+        "２０歳 đọc là はたち, không phải にじゅっさい — lỗi kinh điển.",
+        "Đừng hỏi người trên bằng 何歳ですか — hãy dùng おいくつですか.",
+        "歳 hay được viết là 才 trong văn viết thân mật; cả hai đều đọc さい."
+      ]
+    }
   }
 }

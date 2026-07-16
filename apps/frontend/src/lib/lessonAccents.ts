@@ -25,6 +25,16 @@ export function accentTint(hex: string, alpha: number): string {
   return `rgba(${r}, ${g}, ${b}, ${alpha})`;
 }
 
+// Solid light tint: the accent mixed into white. Unlike accentTint this has
+// no alpha, so panels stay light in dark mode (illustrations need a light bg).
+export function accentOnWhite(hex: string, amount: number): string {
+  const mix = (c: number) => Math.round(255 + (c - 255) * amount);
+  const r = mix(parseInt(hex.slice(1, 3), 16));
+  const g = mix(parseInt(hex.slice(3, 5), 16));
+  const b = mix(parseInt(hex.slice(5, 7), 16));
+  return `rgb(${r}, ${g}, ${b})`;
+}
+
 // Darkened shade of an accent (factor 0..1, fraction kept), for gradients.
 export function accentShade(hex: string, factor: number): string {
   const r = Math.round(parseInt(hex.slice(1, 3), 16) * factor);

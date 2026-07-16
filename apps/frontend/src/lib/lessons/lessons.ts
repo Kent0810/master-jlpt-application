@@ -76,9 +76,9 @@ export const LESSON_META: LessonMeta[] = [
     focus: "は・です・か・も・の — saying who you are",
     focusVi: "は・です・か・も・の — nói bạn là ai",
     recap:
-      "Meeting people for the first time: give your name, nationality and job with は…です, and ask questions with か.",
+      "Meeting people for the first time: give your name, nationality and job with は…です, ask questions with か, and ask who someone is (だれ/どなた) and their age (何歳/おいくつ).",
     recapVi:
-      "Làm quen lần đầu: nói tên, quốc tịch và nghề nghiệp bằng は…です, và đặt câu hỏi với か.",
+      "Làm quen lần đầu: nói tên, quốc tịch và nghề nghiệp bằng は…です, đặt câu hỏi với か, và hỏi ai đó là ai (だれ/どなた) cùng tuổi của họ (何歳/おいくつ).",
   },
   {
     lesson: 2,

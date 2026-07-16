@@ -1,7 +1,8 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { accentTint } from "@/lib/lessonAccents";
+import { recordQuizResult, starsForScore } from "@/lib/lessons/progress";
 import { useT, useLang } from "@/lib/i18n";
 import type { ExerciseBlock as ExerciseBlockData } from "@/lib/lessons/blocks";
 import {
@@ -13,9 +14,11 @@ import { SectionHeading } from "./Headings";
 
 export function ExerciseBlock({
   block,
+  lesson,
   accent,
 }: {
   block: ExerciseBlockData;
+  lesson: number;
   accent: string;
 }) {
   const t = useT();
@@ -40,16 +43,18 @@ export function ExerciseBlock({
     <section className="space-y-3">
       <SectionHeading emoji="✏️" title={title} accent={accent} />
       {/* Remount on language switch so answers reset cleanly. */}
-      <Quiz key={lang} questions={questions} accent={accent} />
+      <Quiz key={lang} questions={questions} lesson={lesson} accent={accent} />
     </section>
   );
 }
 
 function Quiz({
   questions,
+  lesson,
   accent,
 }: {
   questions: ExerciseQuestion[];
+  lesson: number;
   accent: string;
 }) {
   const t = useT();
@@ -57,8 +62,14 @@ function Quiz({
   const done = Object.keys(answers).length === questions.length;
   const correct = questions.filter((q, i) => answers[i] === q.answer).length;
 
+  // Finishing the quiz marks the lesson complete on the journey map; the map
+  // keeps the best star count, so retries can only improve it.
+  useEffect(() => {
+    if (done) recordQuizResult(lesson, correct, questions.length);
+  }, [done, correct, lesson, questions.length]);
+
   return (
-    <div className="space-y-5 rounded-2xl border border-black/10 bg-black/[0.015] p-4 dark:border-white/10 dark:bg-white/[0.02] sm:p-5">
+    <div className="space-y-5 rounded-2xl border border-black/10 bg-white p-4 shadow-sm dark:border-white/10 dark:bg-white/[0.04] sm:p-5">
       {questions.map((q, qi) => {
         const chosen = answers[qi];
         const answered = chosen !== undefined;
@@ -125,8 +136,14 @@ function Quiz({
       })}
       {done && (
         <div className="flex items-center justify-between border-t border-black/10 pt-3 dark:border-white/10">
-          <p className="text-sm font-semibold">
+          <p className="flex items-center gap-2 text-sm font-semibold">
             {t("Score")}: {correct}/{questions.length}
+            <span aria-hidden className="tracking-tight text-amber-400">
+              {"★".repeat(starsForScore(correct, questions.length))}
+              <span className="text-black/15 dark:text-white/20">
+                {"★".repeat(3 - starsForScore(correct, questions.length))}
+              </span>
+            </span>
           </p>
           <button
             type="button"

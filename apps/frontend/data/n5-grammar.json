@@ -834,6 +834,251 @@
     "meaningVi": "の nối hai danh từ: sở hữu, nhóm hoặc đặc điểm — 'Y của X'."
   },
   {
+    "id": "l1_dare",
+    "lesson": 1,
+    "title": "だれ／どなた (who)",
+    "meaning": "Asks 'who?'. The question word sits where the answer would go; どなた is the polite equivalent of だれ.",
+    "meaningVi": "Hỏi 'ai?'. Từ để hỏi đứng đúng vị trí của câu trả lời; どなた là dạng lịch sự của だれ.",
+    "structure": "[Topic] は だれ／どなた ですか",
+    "examples": [
+      {
+        "jp": "あの人はだれですか。",
+        "reading": "あのひとはだれですか。",
+        "en": "Who is that person?",
+        "vi": "Người kia là ai?",
+        "tokens": [
+          [
+            {
+              "t": "あの"
+            },
+            {
+              "t": "人",
+              "f": "ひと"
+            },
+            {
+              "t": "は"
+            }
+          ],
+          [
+            {
+              "t": "だれですか。"
+            }
+          ]
+        ],
+        "romaji": "ano hito wa dare desuka.",
+        "romajiChunks": [
+          "ano hito wa",
+          "dare desuka."
+        ]
+      },
+      {
+        "jp": "あの方はどなたですか。",
+        "reading": "あのかたはどなたですか。",
+        "en": "Who is that person? (polite)",
+        "vi": "Vị kia là ai? (lịch sự)",
+        "tokens": [
+          [
+            {
+              "t": "あの"
+            },
+            {
+              "t": "方",
+              "f": "かた"
+            },
+            {
+              "t": "は"
+            }
+          ],
+          [
+            {
+              "t": "どなたですか。"
+            }
+          ]
+        ],
+        "romaji": "ano kata wa donata desuka.",
+        "romajiChunks": [
+          "ano kata wa",
+          "donata desuka."
+        ]
+      },
+      {
+        "jp": "先生はだれですか。",
+        "reading": "せんせいはだれですか。",
+        "en": "Who is the teacher?",
+        "vi": "Giáo viên là ai?",
+        "tokens": [
+          [
+            {
+              "t": "先生",
+              "f": "せんせい"
+            },
+            {
+              "t": "は"
+            }
+          ],
+          [
+            {
+              "t": "だれですか。"
+            }
+          ]
+        ],
+        "romaji": "sensei wa dare desuka.",
+        "romajiChunks": [
+          "sensei wa",
+          "dare desuka."
+        ]
+      },
+      {
+        "jp": "あの人はミラーさんです。",
+        "reading": "あのひとはミラーさんです。",
+        "en": "That person is Mr. Miller.",
+        "vi": "Người kia là anh Miller.",
+        "tokens": [
+          [
+            {
+              "t": "あの"
+            },
+            {
+              "t": "人",
+              "f": "ひと"
+            },
+            {
+              "t": "は"
+            }
+          ],
+          [
+            {
+              "t": "ミラーさんです。"
+            }
+          ]
+        ],
+        "romaji": "ano hito wa miraasan desu.",
+        "romajiChunks": [
+          "ano hito wa",
+          "miraasan desu."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "l1_sai",
+    "lesson": 1,
+    "title": "〜歳（何歳／おいくつ）",
+    "meaning": "States age with [number] + 歳 and asks it with 何歳; おいくつ is the polite way to ask.",
+    "meaningVi": "Nói tuổi với [số] + 歳 và hỏi tuổi với 何歳; おいくつ là cách hỏi lịch sự.",
+    "structure": "[Topic] は [number]歳 です ／ 何歳ですか・おいくつですか",
+    "examples": [
+      {
+        "jp": "わたしは２５歳です。",
+        "reading": "わたしはにじゅうごさいです。",
+        "en": "I am 25 years old.",
+        "vi": "Tôi 25 tuổi.",
+        "tokens": [
+          [
+            {
+              "t": "わたしは"
+            }
+          ],
+          [
+            {
+              "t": "２５歳",
+              "f": "にじゅうごさい"
+            },
+            {
+              "t": "です。"
+            }
+          ]
+        ],
+        "romaji": "watashi wa nijuugosai desu.",
+        "romajiChunks": [
+          "watashi wa",
+          "nijuugosai desu."
+        ]
+      },
+      {
+        "jp": "テレサちゃんは何歳ですか。",
+        "reading": "テレサちゃんはなんさいですか。",
+        "en": "How old is Teresa?",
+        "vi": "Bé Teresa mấy tuổi?",
+        "tokens": [
+          [
+            {
+              "t": "テレサちゃんは"
+            }
+          ],
+          [
+            {
+              "t": "何歳",
+              "f": "なんさい"
+            },
+            {
+              "t": "ですか。"
+            }
+          ]
+        ],
+        "romaji": "teresachan wa nansai desuka.",
+        "romajiChunks": [
+          "teresachan wa",
+          "nansai desuka."
+        ]
+      },
+      {
+        "jp": "テレサちゃんは９歳です。",
+        "reading": "テレサちゃんはきゅうさいです。",
+        "en": "Teresa is nine years old.",
+        "vi": "Bé Teresa 9 tuổi.",
+        "tokens": [
+          [
+            {
+              "t": "テレサちゃんは"
+            }
+          ],
+          [
+            {
+              "t": "９歳",
+              "f": "きゅうさい"
+            },
+            {
+              "t": "です。"
+            }
+          ]
+        ],
+        "romaji": "teresachan wa kyuusai desu.",
+        "romajiChunks": [
+          "teresachan wa",
+          "kyuusai desu."
+        ]
+      },
+      {
+        "jp": "先生はおいくつですか。",
+        "reading": "せんせいはおいくつですか。",
+        "en": "How old are you, sensei? (polite)",
+        "vi": "Thầy/cô bao nhiêu tuổi ạ? (lịch sự)",
+        "tokens": [
+          [
+            {
+              "t": "先生",
+              "f": "せんせい"
+            },
+            {
+              "t": "は"
+            }
+          ],
+          [
+            {
+              "t": "おいくつですか。"
+            }
+          ]
+        ],
+        "romaji": "sensei wa oikutsu desuka.",
+        "romajiChunks": [
+          "sensei wa",
+          "oikutsu desuka."
+        ]
+      }
+    ]
+  },
+  {
     "id": "l2_kore_sore_are",
     "lesson": 2,
     "title": "これ・それ・あれ",

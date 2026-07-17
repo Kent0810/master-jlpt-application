@@ -4,20 +4,52 @@ module.exports = {
     l2_kore_sore_are: [
       { jp: "これは本です。", en: "This is a book.", vi: "Đây là quyển sách." },
       { jp: "それは傘です。", en: "That is an umbrella.", vi: "Đó là cái ô." },
-      { jp: "あれは時計です。", en: "That (over there) is a clock.", vi: "Kia là cái đồng hồ." },
+      {
+        jp: "あれは時計です。",
+        en: "That (over there) is a clock.",
+        vi: "Kia là cái đồng hồ.",
+      },
     ],
     l2_kono_sono_ano: [
-      { jp: "この本はわたしのです。", en: "This book is mine.", vi: "Quyển sách này là của tôi." },
-      { jp: "そのかばんはミラーさんのです。", en: "That bag is Mr. Miller's.", vi: "Cái cặp đó là của anh Miller." },
-      { jp: "あの人は田中さんです。", en: "That person is Mr. Tanaka.", vi: "Người kia là ông Tanaka." },
+      {
+        jp: "この本はわたしのです。",
+        en: "This book is mine.",
+        vi: "Quyển sách này là của tôi.",
+      },
+      {
+        jp: "そのかばんはミラーさんのです。",
+        en: "That bag is Mr. Miller's.",
+        vi: "Cái cặp đó là của anh Miller.",
+      },
+      {
+        jp: "あの人は田中さんです。",
+        en: "That person is Mr. Tanaka.",
+        vi: "Người kia là ông Tanaka.",
+      },
     ],
     l2_sou_desu: [
-      { jp: "「これはあなたの傘ですか。」「はい、そうです。」", en: "\"Is this your umbrella?\" \"Yes, it is.\"", vi: "\"Đây là cái ô của bạn phải không?\" \"Vâng, đúng vậy.\"" },
-      { jp: "「それは英語の本ですか。」「いいえ、ちがいます。」", en: "\"Is that an English book?\" \"No, it isn't.\"", vi: "\"Đó là sách tiếng Anh phải không?\" \"Không, không phải.\"" },
+      {
+        jp: "「これはあなたの傘ですか。」「はい、そうです。」",
+        en: '"Is this your umbrella?" "Yes, it is."',
+        vi: '"Đây là cái ô của bạn phải không?" "Vâng, đúng vậy."',
+      },
+      {
+        jp: "「それは英語の本ですか。」「いいえ、ちがいます。」",
+        en: '"Is that an English book?" "No, it isn\'t."',
+        vi: '"Đó là sách tiếng Anh phải không?" "Không, không phải."',
+      },
     ],
     l2_ka_ka: [
-      { jp: "これは鉛筆ですか、ボールペンですか。", en: "Is this a pencil or a ballpoint pen?", vi: "Đây là bút chì hay bút bi?" },
-      { jp: "あれはテレビですか、ラジオですか。", en: "Is that (over there) a TV or a radio?", vi: "Kia là ti vi hay radio?" },
+      {
+        jp: "これは鉛筆ですか、ボールペンですか。",
+        en: "Is this a pencil or a ballpoint pen?",
+        vi: "Đây là bút chì hay bút bi?",
+      },
+      {
+        jp: "あれはテレビですか、ラジオですか。",
+        en: "Is that (over there) a TV or a radio?",
+        vi: "Kia là ti vi hay radio?",
+      },
     ],
   },
   explanations: {
@@ -116,11 +148,51 @@ module.exports = {
       source: "authored",
       title: { en: "More practice", vi: "Luyện tập thêm" },
       items: [
-        { prompt: "（　）は本です。（this one）", options: ["これ", "この", "ここ", "こちら"], answer: 0, explanation: { en: "これ stands alone as 'this one'; この needs a noun after it.", vi: "これ đứng một mình nghĩa 'cái này'; この cần danh từ theo sau." } },
-        { prompt: "（　）本はわたしのです。（this book）", options: ["この", "これ", "それ", "あれ"], answer: 0, explanation: { en: "Before a noun you use この, not これ.", vi: "Trước danh từ dùng この, không phải これ." } },
-        { prompt: "「これはあなたの傘ですか。」「はい、（　）。」", options: ["そうです", "ちがいます", "です", "います"], answer: 0, explanation: { en: "はい pairs with そうです to confirm.", vi: "はい đi với そうです để xác nhận." } },
-        { prompt: "「先生ですか。」「いいえ、（　）。」", options: ["ちがいます", "そうです", "はい", "です"], answer: 0, explanation: { en: "ちがいます is the natural 'no' to an identification question.", vi: "ちがいます là câu 'không' tự nhiên cho câu hỏi nhận dạng." } },
-        { prompt: "これは鉛筆です（　）、ボールペンですか。", options: ["か", "の", "は", "も"], answer: 0, explanation: { en: "か after each option makes an 'A or B' question.", vi: "か sau mỗi lựa chọn tạo câu hỏi 'A hay B'." } },
+        {
+          prompt: "（　）は本です。（this one）",
+          options: ["これ", "この", "ここ", "こちら"],
+          answer: 0,
+          explanation: {
+            en: "これ stands alone as 'this one'; この needs a noun after it.",
+            vi: "これ đứng một mình nghĩa 'cái này'; この cần danh từ theo sau.",
+          },
+        },
+        {
+          prompt: "（　）本はわたしのです。（this book）",
+          options: ["この", "これ", "それ", "あれ"],
+          answer: 0,
+          explanation: {
+            en: "Before a noun you use この, not これ.",
+            vi: "Trước danh từ dùng この, không phải これ.",
+          },
+        },
+        {
+          prompt: "「これはあなたの傘ですか。」「はい、（　）。」",
+          options: ["そうです", "ちがいます", "です", "います"],
+          answer: 0,
+          explanation: {
+            en: "はい pairs with そうです to confirm.",
+            vi: "はい đi với そうです để xác nhận.",
+          },
+        },
+        {
+          prompt: "「先生ですか。」「いいえ、（　）。」",
+          options: ["ちがいます", "そうです", "はい", "です"],
+          answer: 0,
+          explanation: {
+            en: "ちがいます is the natural 'no' to an identification question.",
+            vi: "ちがいます là câu 'không' tự nhiên cho câu hỏi nhận dạng.",
+          },
+        },
+        {
+          prompt: "これは鉛筆です（　）、ボールペンですか。",
+          options: ["か", "の", "は", "も"],
+          answer: 0,
+          explanation: {
+            en: "か after each option makes an 'A or B' question.",
+            vi: "か sau mỗi lựa chọn tạo câu hỏi 'A hay B'.",
+          },
+        },
       ],
     },
   },

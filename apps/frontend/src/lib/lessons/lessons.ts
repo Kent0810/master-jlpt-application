@@ -73,8 +73,8 @@ export const LESSON_META: LessonMeta[] = [
     titleEn: "Introductions",
     titleVi: "Giới thiệu",
     titleJp: "はじめまして",
-    focus: "は・です・か・も・の — saying who you are",
-    focusVi: "は・です・か・も・の — nói bạn là ai",
+    focus: "は・です・か・も・の・さん — saying who you are",
+    focusVi: "は・です・か・も・の・さん — nói bạn là ai",
     recap:
       "Meeting people for the first time: give your name, nationality and job with は…です, ask questions with か, and ask who someone is (だれ/どなた) and their age (何歳/おいくつ).",
     recapVi:

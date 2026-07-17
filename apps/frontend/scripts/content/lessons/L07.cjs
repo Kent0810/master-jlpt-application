@@ -2,19 +2,55 @@
 module.exports = {
   examples: {
     l7_de_tool: [
-      { jp: "はしでごはんを食べます。", en: "I eat rice with chopsticks.", vi: "Tôi ăn cơm bằng đũa." },
-      { jp: "日本語でレポートを書きます。", en: "I write the report in Japanese.", vi: "Tôi viết báo cáo bằng tiếng Nhật." },
-      { jp: "ペンで手紙を書きます。", en: "I write a letter with a pen.", vi: "Tôi viết thư bằng bút." },
+      {
+        jp: "はしでごはんを食べます。",
+        en: "I eat rice with chopsticks.",
+        vi: "Tôi ăn cơm bằng đũa.",
+      },
+      {
+        jp: "日本語でレポートを書きます。",
+        en: "I write the report in Japanese.",
+        vi: "Tôi viết báo cáo bằng tiếng Nhật.",
+      },
+      {
+        jp: "ペンで手紙を書きます。",
+        en: "I write a letter with a pen.",
+        vi: "Tôi viết thư bằng bút.",
+      },
     ],
     l7_agemasu_moraimasu: [
-      { jp: "山田さんに花をあげます。", en: "I give flowers to Ms. Yamada.", vi: "Tôi tặng hoa cho chị Yamada." },
-      { jp: "友達に本をもらいました。", en: "I received a book from a friend.", vi: "Tôi được bạn tặng một quyển sách." },
-      { jp: "先生に辞書をもらいました。", en: "I received a dictionary from the teacher.", vi: "Tôi được thầy tặng một quyển từ điển." },
+      {
+        jp: "山田さんに花をあげます。",
+        en: "I give flowers to Ms. Yamada.",
+        vi: "Tôi tặng hoa cho chị Yamada.",
+      },
+      {
+        jp: "友達に本をもらいました。",
+        en: "I received a book from a friend.",
+        vi: "Tôi được bạn tặng một quyển sách.",
+      },
+      {
+        jp: "先生に辞書をもらいました。",
+        en: "I received a dictionary from the teacher.",
+        vi: "Tôi được thầy tặng một quyển từ điển.",
+      },
     ],
     l7_mou_mashita: [
-      { jp: "もう昼ごはんを食べました。", en: "I have already eaten lunch.", vi: "Tôi đã ăn trưa rồi." },
-      { jp: "もうレポートを書きました。", en: "I have already written the report.", vi: "Tôi đã viết báo cáo rồi." },
-      { jp: "「もうメールを送りましたか。」「はい、送りました。」", en: "\"Have you sent the email yet?\" \"Yes, I sent it.\"", vi: "\"Bạn đã gửi email chưa?\" \"Rồi, tôi gửi rồi.\"" },
+      {
+        jp: "もう昼ごはんを食べました。",
+        en: "I have already eaten lunch.",
+        vi: "Tôi đã ăn trưa rồi.",
+      },
+      {
+        jp: "もうレポートを書きました。",
+        en: "I have already written the report.",
+        vi: "Tôi đã viết báo cáo rồi.",
+      },
+      {
+        jp: "「もうメールを送りましたか。」「はい、送りました。」",
+        en: '"Have you sent the email yet?" "Yes, I sent it."',
+        vi: '"Bạn đã gửi email chưa?" "Rồi, tôi gửi rồi."',
+      },
     ],
   },
   explanations: {
@@ -91,11 +127,51 @@ module.exports = {
       source: "authored",
       title: { en: "More practice", vi: "Luyện tập thêm" },
       items: [
-        { prompt: "はし（　）ごはんを食べます。", options: ["で", "を", "に", "と"], answer: 0, explanation: { en: "で marks the tool used.", vi: "で đánh dấu công cụ được dùng." } },
-        { prompt: "山田さん（　）花をあげます。", options: ["に", "を", "で", "が"], answer: 0, explanation: { en: "に marks the receiver with あげます.", vi: "に đánh dấu người nhận với あげます." } },
-        { prompt: "友達に本を（　）。（received）", options: ["もらいました", "あげました", "書きました", "見ました"], answer: 0, explanation: { en: "もらいました = received.", vi: "もらいました = đã nhận." } },
-        { prompt: "「もう食べましたか。」「いいえ、（　）。」", options: ["まだです", "そうです", "食べました", "ちがいます"], answer: 0, explanation: { en: "'Not yet' is いいえ、まだです.", vi: "'Chưa' là いいえ、まだです." } },
-        { prompt: "日本語（　）レポートを書きます。", options: ["で", "を", "に", "へ"], answer: 0, explanation: { en: "で marks the language/method.", vi: "で đánh dấu ngôn ngữ/cách thức." } },
+        {
+          prompt: "はし（　）ごはんを食べます。",
+          options: ["で", "を", "に", "と"],
+          answer: 0,
+          explanation: {
+            en: "で marks the tool used.",
+            vi: "で đánh dấu công cụ được dùng.",
+          },
+        },
+        {
+          prompt: "山田さん（　）花をあげます。",
+          options: ["に", "を", "で", "が"],
+          answer: 0,
+          explanation: {
+            en: "に marks the receiver with あげます.",
+            vi: "に đánh dấu người nhận với あげます.",
+          },
+        },
+        {
+          prompt: "友達に本を（　）。（received）",
+          options: ["もらいました", "あげました", "書きました", "見ました"],
+          answer: 0,
+          explanation: {
+            en: "もらいました = received.",
+            vi: "もらいました = đã nhận.",
+          },
+        },
+        {
+          prompt: "「もう食べましたか。」「いいえ、（　）。」",
+          options: ["まだです", "そうです", "食べました", "ちがいます"],
+          answer: 0,
+          explanation: {
+            en: "'Not yet' is いいえ、まだです.",
+            vi: "'Chưa' là いいえ、まだです.",
+          },
+        },
+        {
+          prompt: "日本語（　）レポートを書きます。",
+          options: ["で", "を", "に", "へ"],
+          answer: 0,
+          explanation: {
+            en: "で marks the language/method.",
+            vi: "で đánh dấu ngôn ngữ/cách thức.",
+          },
+        },
       ],
     },
   },

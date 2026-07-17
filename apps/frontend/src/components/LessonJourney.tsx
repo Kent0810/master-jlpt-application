@@ -58,8 +58,7 @@ function rowPoints(rows: Row[], width: number): [number, number][] {
   let top = 0;
   return rows.map((row) => {
     const x = width * (row.kind === "lesson" ? row.xFrac : 0.5);
-    const y =
-      top + (row.kind === "lesson" ? NODE_CENTER_Y : MARKER_ROW_H / 2);
+    const y = top + (row.kind === "lesson" ? NODE_CENTER_Y : MARKER_ROW_H / 2);
     top += rowHeight(row);
     return [x, y];
   });
@@ -140,7 +139,11 @@ export function LessonJourney() {
       {rows.map((row) => {
         if (row.kind === "banner") {
           return (
-            <ChapterBanner key={`c${row.first}`} first={row.first} last={row.last} />
+            <ChapterBanner
+              key={`c${row.first}`}
+              first={row.first}
+              last={row.last}
+            />
           );
         }
         if (row.kind === "finish") {

@@ -2,19 +2,55 @@
 module.exports = {
   examples: {
     l8_i_adj: [
-      { jp: "この本はおもしろいです。", en: "This book is interesting.", vi: "Quyển sách này thú vị." },
-      { jp: "日本語は難しいです。", en: "Japanese is difficult.", vi: "Tiếng Nhật thì khó." },
-      { jp: "今日は暑くないです。", en: "It is not hot today.", vi: "Hôm nay trời không nóng." },
+      {
+        jp: "この本はおもしろいです。",
+        en: "This book is interesting.",
+        vi: "Quyển sách này thú vị.",
+      },
+      {
+        jp: "日本語は難しいです。",
+        en: "Japanese is difficult.",
+        vi: "Tiếng Nhật thì khó.",
+      },
+      {
+        jp: "今日は暑くないです。",
+        en: "It is not hot today.",
+        vi: "Hôm nay trời không nóng.",
+      },
     ],
     l8_na_adj: [
-      { jp: "京都は有名です。", en: "Kyoto is famous.", vi: "Kyoto thì nổi tiếng." },
-      { jp: "この町はにぎやかです。", en: "This town is lively.", vi: "Thị trấn này náo nhiệt." },
-      { jp: "田中さんは親切な人です。", en: "Mr. Tanaka is a kind person.", vi: "Ông Tanaka là người tốt bụng." },
+      {
+        jp: "京都は有名です。",
+        en: "Kyoto is famous.",
+        vi: "Kyoto thì nổi tiếng.",
+      },
+      {
+        jp: "この町はにぎやかです。",
+        en: "This town is lively.",
+        vi: "Thị trấn này náo nhiệt.",
+      },
+      {
+        jp: "田中さんは親切な人です。",
+        en: "Mr. Tanaka is a kind person.",
+        vi: "Ông Tanaka là người tốt bụng.",
+      },
     ],
     l8_ga_but: [
-      { jp: "この部屋は狭いですが、きれいです。", en: "This room is small, but it is clean.", vi: "Căn phòng này chật, nhưng sạch sẽ." },
-      { jp: "日本語は難しいですが、おもしろいです。", en: "Japanese is difficult, but interesting.", vi: "Tiếng Nhật khó, nhưng thú vị." },
-      { jp: "この店は安いですが、おいしいです。", en: "This shop is cheap, but tasty.", vi: "Quán này rẻ, nhưng ngon." },
+      {
+        jp: "この部屋は狭いですが、きれいです。",
+        en: "This room is small, but it is clean.",
+        vi: "Căn phòng này chật, nhưng sạch sẽ.",
+      },
+      {
+        jp: "日本語は難しいですが、おもしろいです。",
+        en: "Japanese is difficult, but interesting.",
+        vi: "Tiếng Nhật khó, nhưng thú vị.",
+      },
+      {
+        jp: "この店は安いですが、おいしいです。",
+        en: "This shop is cheap, but tasty.",
+        vi: "Quán này rẻ, nhưng ngon.",
+      },
     ],
   },
   explanations: {
@@ -91,11 +127,51 @@ module.exports = {
       source: "authored",
       title: { en: "More practice", vi: "Luyện tập thêm" },
       items: [
-        { prompt: "今日は暑（　）です。（is not hot）", options: ["くない", "じゃない", "ない", "くありません"], answer: 0, explanation: { en: "い-adjective negative: 暑い → 暑くないです.", vi: "Phủ định tính từ い: 暑い → 暑くないです." } },
-        { prompt: "田中さんは親切（　）人です。", options: ["な", "い", "の", "だ"], answer: 0, explanation: { en: "な-adjectives take な before a noun.", vi: "Tính từ な thêm な trước danh từ." } },
-        { prompt: "京都は有名（　）。（is not famous）", options: ["じゃありません", "くないです", "ないです", "ません"], answer: 0, explanation: { en: "な-adjectives negate like nouns: じゃありません.", vi: "Tính từ な phủ định như danh từ: じゃありません." } },
-        { prompt: "この部屋は狭いです（　）、きれいです。", options: ["が", "から", "の", "も"], answer: 0, explanation: { en: "が joins clauses with a contrast ('but').", vi: "が nối mệnh đề với ý tương phản ('nhưng')." } },
-        { prompt: "この本は（　）です。（interesting）", options: ["おもしろい", "おもしろな", "おもしろく", "おもしろの"], answer: 0, explanation: { en: "い-adjectives keep い before です.", vi: "Tính từ い giữ い trước です." } },
+        {
+          prompt: "今日は暑（　）です。（is not hot）",
+          options: ["くない", "じゃない", "ない", "くありません"],
+          answer: 0,
+          explanation: {
+            en: "い-adjective negative: 暑い → 暑くないです.",
+            vi: "Phủ định tính từ い: 暑い → 暑くないです.",
+          },
+        },
+        {
+          prompt: "田中さんは親切（　）人です。",
+          options: ["な", "い", "の", "だ"],
+          answer: 0,
+          explanation: {
+            en: "な-adjectives take な before a noun.",
+            vi: "Tính từ な thêm な trước danh từ.",
+          },
+        },
+        {
+          prompt: "京都は有名（　）。（is not famous）",
+          options: ["じゃありません", "くないです", "ないです", "ません"],
+          answer: 0,
+          explanation: {
+            en: "な-adjectives negate like nouns: じゃありません.",
+            vi: "Tính từ な phủ định như danh từ: じゃありません.",
+          },
+        },
+        {
+          prompt: "この部屋は狭いです（　）、きれいです。",
+          options: ["が", "から", "の", "も"],
+          answer: 0,
+          explanation: {
+            en: "が joins clauses with a contrast ('but').",
+            vi: "が nối mệnh đề với ý tương phản ('nhưng').",
+          },
+        },
+        {
+          prompt: "この本は（　）です。（interesting）",
+          options: ["おもしろい", "おもしろな", "おもしろく", "おもしろの"],
+          answer: 0,
+          explanation: {
+            en: "い-adjectives keep い before です.",
+            vi: "Tính từ い giữ い trước です.",
+          },
+        },
       ],
     },
   },

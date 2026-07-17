@@ -2,19 +2,55 @@
 module.exports = {
   examples: {
     l12_past_noun_adj: [
-      { jp: "昨日は雨でした。", en: "It was rainy yesterday.", vi: "Hôm qua trời mưa." },
-      { jp: "京都はにぎやかでした。", en: "Kyoto was lively.", vi: "Kyoto đã rất náo nhiệt." },
-      { jp: "テストは簡単じゃありませんでした。", en: "The test was not easy.", vi: "Bài kiểm tra đã không dễ." },
+      {
+        jp: "昨日は雨でした。",
+        en: "It was rainy yesterday.",
+        vi: "Hôm qua trời mưa.",
+      },
+      {
+        jp: "京都はにぎやかでした。",
+        en: "Kyoto was lively.",
+        vi: "Kyoto đã rất náo nhiệt.",
+      },
+      {
+        jp: "テストは簡単じゃありませんでした。",
+        en: "The test was not easy.",
+        vi: "Bài kiểm tra đã không dễ.",
+      },
     ],
     l12_past_i_adj: [
-      { jp: "旅行は楽しかったです。", en: "The trip was fun.", vi: "Chuyến đi đã rất vui." },
-      { jp: "映画はおもしろかったです。", en: "The movie was interesting.", vi: "Bộ phim đã rất thú vị." },
-      { jp: "天気はよくなかったです。", en: "The weather was not good.", vi: "Thời tiết đã không tốt." },
+      {
+        jp: "旅行は楽しかったです。",
+        en: "The trip was fun.",
+        vi: "Chuyến đi đã rất vui.",
+      },
+      {
+        jp: "映画はおもしろかったです。",
+        en: "The movie was interesting.",
+        vi: "Bộ phim đã rất thú vị.",
+      },
+      {
+        jp: "天気はよくなかったです。",
+        en: "The weather was not good.",
+        vi: "Thời tiết đã không tốt.",
+      },
     ],
     l12_comparison: [
-      { jp: "東京は大阪より大きいです。", en: "Tokyo is bigger than Osaka.", vi: "Tokyo lớn hơn Osaka." },
-      { jp: "「肉と魚とどちらが好きですか。」「魚のほうが好きです。」", en: "\"Which do you prefer, meat or fish?\" \"I prefer fish.\"", vi: "\"Bạn thích thịt hay cá hơn?\" \"Tôi thích cá hơn.\"" },
-      { jp: "スポーツの中でサッカーがいちばん好きです。", en: "Among sports, I like soccer best.", vi: "Trong các môn thể thao, tôi thích bóng đá nhất." },
+      {
+        jp: "東京は大阪より大きいです。",
+        en: "Tokyo is bigger than Osaka.",
+        vi: "Tokyo lớn hơn Osaka.",
+      },
+      {
+        jp: "「肉と魚とどちらが好きですか。」「魚のほうが好きです。」",
+        en: '"Which do you prefer, meat or fish?" "I prefer fish."',
+        vi: '"Bạn thích thịt hay cá hơn?" "Tôi thích cá hơn."',
+      },
+      {
+        jp: "スポーツの中でサッカーがいちばん好きです。",
+        en: "Among sports, I like soccer best.",
+        vi: "Trong các môn thể thao, tôi thích bóng đá nhất.",
+      },
     ],
   },
   explanations: {
@@ -91,11 +127,56 @@ module.exports = {
       source: "authored",
       title: { en: "More practice", vi: "Luyện tập thêm" },
       items: [
-        { prompt: "昨日は雨（　）。（was）", options: ["でした", "です", "だった", "でしたです"], answer: 0, explanation: { en: "Noun past: 雨でした.", vi: "Quá khứ danh từ: 雨でした." } },
-        { prompt: "旅行は楽し（　）です。（was fun）", options: ["かった", "い", "くない", "でした"], answer: 0, explanation: { en: "い-adjective past: 楽しかったです.", vi: "Quá khứ tính từ い: 楽しかったです." } },
-        { prompt: "テストは簡単（　）。（was not）", options: ["じゃありませんでした", "くなかったです", "じゃありません", "でした"], answer: 0, explanation: { en: "な-adjective negative past: じゃありませんでした.", vi: "Quá khứ phủ định tính từ な: じゃありませんでした." } },
-        { prompt: "東京は大阪（　）大きいです。（than）", options: ["より", "から", "まで", "と"], answer: 0, explanation: { en: "より marks the standard of comparison.", vi: "より đánh dấu chuẩn so sánh." } },
-        { prompt: "スポーツの中でサッカーが（　）好きです。（best）", options: ["いちばん", "より", "どちら", "とても"], answer: 0, explanation: { en: "いちばん = 'the most / best'.", vi: "いちばん = 'nhất'." } },
+        {
+          prompt: "昨日は雨（　）。（was）",
+          options: ["でした", "です", "だった", "でしたです"],
+          answer: 0,
+          explanation: {
+            en: "Noun past: 雨でした.",
+            vi: "Quá khứ danh từ: 雨でした.",
+          },
+        },
+        {
+          prompt: "旅行は楽し（　）です。（was fun）",
+          options: ["かった", "い", "くない", "でした"],
+          answer: 0,
+          explanation: {
+            en: "い-adjective past: 楽しかったです.",
+            vi: "Quá khứ tính từ い: 楽しかったです.",
+          },
+        },
+        {
+          prompt: "テストは簡単（　）。（was not）",
+          options: [
+            "じゃありませんでした",
+            "くなかったです",
+            "じゃありません",
+            "でした",
+          ],
+          answer: 0,
+          explanation: {
+            en: "な-adjective negative past: じゃありませんでした.",
+            vi: "Quá khứ phủ định tính từ な: じゃありませんでした.",
+          },
+        },
+        {
+          prompt: "東京は大阪（　）大きいです。（than）",
+          options: ["より", "から", "まで", "と"],
+          answer: 0,
+          explanation: {
+            en: "より marks the standard of comparison.",
+            vi: "より đánh dấu chuẩn so sánh.",
+          },
+        },
+        {
+          prompt: "スポーツの中でサッカーが（　）好きです。（best）",
+          options: ["いちばん", "より", "どちら", "とても"],
+          answer: 0,
+          explanation: {
+            en: "いちばん = 'the most / best'.",
+            vi: "いちばん = 'nhất'.",
+          },
+        },
       ],
     },
   },

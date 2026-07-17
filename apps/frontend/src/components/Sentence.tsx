@@ -89,13 +89,17 @@ export function Sentence({
       : reading
         ? wanakana.toRomaji(reading)
         : "");
-  // Per-chunk romaji (authored alongside the tokens) drives the linked
-  // highlight; only used when it lines up 1:1 with the tokens, otherwise we fall
-  // back to the joined `roma` line.
+  // Per-chunk romaji drives the linked highlight: authored chunks when they
+  // line up 1:1 with the tokens, else derived per token chunk (the same pieces
+  // tokensRomaji joins, so the text matches the plain `roma` line). An authored
+  // whole-line `romaji` may word-break differently from the tokens, so in that
+  // case we don't derive and fall back to the joined line.
   const chunkedRomaji =
     romajiChunks && tokens && romajiChunks.length === tokens.length
       ? romajiChunks
-      : null;
+      : !romaji && tokens && tokens.length > 0
+        ? tokens.map((chunk) => chunk.map(segmentRomaji).join("").trim())
+        : null;
   const romajiClass =
     romajiClassName ??
     "mt-0.5 block text-sm text-slate-500 dark:text-slate-400";
@@ -129,7 +133,11 @@ export function Sentence({
                 key={ci}
                 type="button"
                 onClick={(e) =>
-                  onWordSelect?.(text, ci, e.currentTarget.getBoundingClientRect())
+                  onWordSelect?.(
+                    text,
+                    ci,
+                    e.currentTarget.getBoundingClientRect(),
+                  )
                 }
                 onMouseEnter={() => onWordHover?.(ci)}
                 onMouseLeave={() => onWordHover?.(null)}

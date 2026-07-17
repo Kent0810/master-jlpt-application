@@ -19,7 +19,9 @@ export async function generateMetadata({
   if (!kanji) return { title: "Kanji not found — JLPT 道場" };
 
   const meanings = kanji.meanings.slice(0, 4).join(", ");
-  const readings = [...kanji.kunyomi, ...kanji.onyomi].filter(Boolean).join("、");
+  const readings = [...kanji.kunyomi, ...kanji.onyomi]
+    .filter(Boolean)
+    .join("、");
   const title = `${kanji.character} — ${meanings} · Kanji | JLPT 道場`;
   const description = `Learn the JLPT ${kanji.jlptLevel} kanji ${kanji.character} (${meanings}).${
     readings ? ` Readings: ${readings}.` : ""

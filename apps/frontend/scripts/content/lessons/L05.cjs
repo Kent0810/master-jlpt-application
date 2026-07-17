@@ -2,19 +2,55 @@
 module.exports = {
   examples: {
     l5_e_ikimasu: [
-      { jp: "あした東京へ行きます。", en: "I will go to Tokyo tomorrow.", vi: "Ngày mai tôi sẽ đi Tokyo." },
-      { jp: "先週京都へ行きました。", en: "I went to Kyoto last week.", vi: "Tuần trước tôi đã đi Kyoto." },
-      { jp: "6時にうちへ帰ります。", en: "I will go home at six.", vi: "Tôi sẽ về nhà lúc 6 giờ." },
+      {
+        jp: "あした東京へ行きます。",
+        en: "I will go to Tokyo tomorrow.",
+        vi: "Ngày mai tôi sẽ đi Tokyo.",
+      },
+      {
+        jp: "先週京都へ行きました。",
+        en: "I went to Kyoto last week.",
+        vi: "Tuần trước tôi đã đi Kyoto.",
+      },
+      {
+        jp: "6時にうちへ帰ります。",
+        en: "I will go home at six.",
+        vi: "Tôi sẽ về nhà lúc 6 giờ.",
+      },
     ],
     l5_de_vehicle: [
-      { jp: "電車で会社へ行きます。", en: "I go to work by train.", vi: "Tôi đi làm bằng tàu điện." },
-      { jp: "バスで学校へ行きます。", en: "I go to school by bus.", vi: "Tôi đi học bằng xe buýt." },
-      { jp: "飛行機で日本へ来ました。", en: "I came to Japan by plane.", vi: "Tôi đã đến Nhật bằng máy bay." },
+      {
+        jp: "電車で会社へ行きます。",
+        en: "I go to work by train.",
+        vi: "Tôi đi làm bằng tàu điện.",
+      },
+      {
+        jp: "バスで学校へ行きます。",
+        en: "I go to school by bus.",
+        vi: "Tôi đi học bằng xe buýt.",
+      },
+      {
+        jp: "飛行機で日本へ来ました。",
+        en: "I came to Japan by plane.",
+        vi: "Tôi đã đến Nhật bằng máy bay.",
+      },
     ],
     l5_to_person: [
-      { jp: "友達と京都へ行きます。", en: "I will go to Kyoto with a friend.", vi: "Tôi sẽ đi Kyoto với bạn." },
-      { jp: "家族と日本へ来ました。", en: "I came to Japan with my family.", vi: "Tôi đã đến Nhật cùng gia đình." },
-      { jp: "田中さんとうちへ帰ります。", en: "I will go home with Mr. Tanaka.", vi: "Tôi sẽ về nhà cùng ông Tanaka." },
+      {
+        jp: "友達と京都へ行きます。",
+        en: "I will go to Kyoto with a friend.",
+        vi: "Tôi sẽ đi Kyoto với bạn.",
+      },
+      {
+        jp: "家族と日本へ来ました。",
+        en: "I came to Japan with my family.",
+        vi: "Tôi đã đến Nhật cùng gia đình.",
+      },
+      {
+        jp: "田中さんとうちへ帰ります。",
+        en: "I will go home with Mr. Tanaka.",
+        vi: "Tôi sẽ về nhà cùng ông Tanaka.",
+      },
     ],
   },
   explanations: {
@@ -91,11 +127,51 @@ module.exports = {
       source: "authored",
       title: { en: "More practice", vi: "Luyện tập thêm" },
       items: [
-        { prompt: "あした東京（　）行きます。", options: ["へ", "で", "を", "が"], answer: 0, explanation: { en: "へ marks the destination of movement.", vi: "へ đánh dấu đích của chuyển động." } },
-        { prompt: "電車（　）会社へ行きます。", options: ["で", "へ", "と", "に"], answer: 0, explanation: { en: "で marks the means of transport.", vi: "で đánh dấu phương tiện đi lại." } },
-        { prompt: "友達（　）京都へ行きます。", options: ["と", "で", "へ", "を"], answer: 0, explanation: { en: "と marks the person you go with.", vi: "と đánh dấu người bạn đi cùng." } },
-        { prompt: "うち（　）帰ります。", options: ["へ", "で", "を", "が"], answer: 0, explanation: { en: "帰ります takes へ for the destination.", vi: "帰ります dùng へ cho đích đến." } },
-        { prompt: "一人（　）行きます。（alone）", options: ["で", "と", "へ", "に"], answer: 0, explanation: { en: "'Alone' is 一人で, using で.", vi: "'Một mình' là 一人で, dùng で." } },
+        {
+          prompt: "あした東京（　）行きます。",
+          options: ["へ", "で", "を", "が"],
+          answer: 0,
+          explanation: {
+            en: "へ marks the destination of movement.",
+            vi: "へ đánh dấu đích của chuyển động.",
+          },
+        },
+        {
+          prompt: "電車（　）会社へ行きます。",
+          options: ["で", "へ", "と", "に"],
+          answer: 0,
+          explanation: {
+            en: "で marks the means of transport.",
+            vi: "で đánh dấu phương tiện đi lại.",
+          },
+        },
+        {
+          prompt: "友達（　）京都へ行きます。",
+          options: ["と", "で", "へ", "を"],
+          answer: 0,
+          explanation: {
+            en: "と marks the person you go with.",
+            vi: "と đánh dấu người bạn đi cùng.",
+          },
+        },
+        {
+          prompt: "うち（　）帰ります。",
+          options: ["へ", "で", "を", "が"],
+          answer: 0,
+          explanation: {
+            en: "帰ります takes へ for the destination.",
+            vi: "帰ります dùng へ cho đích đến.",
+          },
+        },
+        {
+          prompt: "一人（　）行きます。（alone）",
+          options: ["で", "と", "へ", "に"],
+          answer: 0,
+          explanation: {
+            en: "'Alone' is 一人で, using で.",
+            vi: "'Một mình' là 一人で, dùng で.",
+          },
+        },
       ],
     },
   },

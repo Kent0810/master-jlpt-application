@@ -42,6 +42,11 @@ const SettingsContext = createContext<SettingsContextValue | null>(null);
 
 export function SettingsProvider({ children }: { children: ReactNode }) {
   const [settings, setSettings] = useState<Settings>(DEFAULTS);
+  // False until the stored settings have been loaded into state. Persisting is
+  // gated on this: the first post-mount effect pass still sees DEFAULTS, and
+  // writing those would clobber the saved settings before they're read back
+  // (guaranteed to lose them under StrictMode's double mount).
+  const [hydrated, setHydrated] = useState(false);
   const [systemDark, setSystemDark] = useState(false);
 
   useEffect(() => {
@@ -51,6 +56,7 @@ export function SettingsProvider({ children }: { children: ReactNode }) {
     } catch {
       /* ignore */
     }
+    setHydrated(true);
   }, []);
 
   useEffect(() => {
@@ -65,14 +71,16 @@ export function SettingsProvider({ children }: { children: ReactNode }) {
   const resolvedTheme = resolveTheme(settings.theme, systemDark);
 
   useEffect(() => {
-    try {
-      localStorage.setItem(STORAGE_KEY, JSON.stringify(settings));
-    } catch {
-      /* ignore */
+    if (hydrated) {
+      try {
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(settings));
+      } catch {
+        /* ignore */
+      }
     }
     document.body.classList.toggle("hide-furigana", !settings.showFurigana);
     document.documentElement.setAttribute("data-theme", resolvedTheme);
-  }, [settings, resolvedTheme]);
+  }, [hydrated, settings, resolvedTheme]);
 
   const value: SettingsContextValue = {
     ...settings,

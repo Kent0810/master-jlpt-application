@@ -1,6 +1,7 @@
 import { describe, expect, it } from "vitest";
 import { getGrammar } from "./index";
 import { getDialogue } from "@/lib/lessons/lessons";
+import { getLessonBlocks } from "@/lib/lessons/blocks";
 import { resolveSpans } from "@/lib/align/resolve";
 import type { AlignmentParts, TokenChunk } from "./types";
 
@@ -41,6 +42,22 @@ describe("dialogue alignments", () => {
         expect(line.tokens, `${label}: missing tokens`).toBeDefined();
         checkAlignment(`${label} en`, line.tokens, line.alignEn, line.en);
         checkAlignment(`${label} vi`, line.tokens, line.alignVi, line.vi);
+      });
+    }
+  });
+});
+
+describe("lesson block dialogue alignments", () => {
+  it("aligns every inline-authored dialogue line in both languages", () => {
+    for (const lesson of LESSONS) {
+      getLessonBlocks(lesson).forEach((block, bi) => {
+        if (block.kind !== "dialogue") return;
+        block.lines.forEach((line, i) => {
+          const label = `b${lesson}:${bi}:${i}`;
+          expect(line.tokens, `${label}: missing tokens`).toBeDefined();
+          checkAlignment(`${label} en`, line.tokens, line.alignEn, line.en);
+          checkAlignment(`${label} vi`, line.tokens, line.alignVi, line.vi);
+        });
       });
     }
   });

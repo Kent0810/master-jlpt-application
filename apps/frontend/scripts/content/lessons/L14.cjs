@@ -2,19 +2,55 @@
 module.exports = {
   examples: {
     l14_te_form: [
-      { jp: "パスポートを見せてください。", en: "Please show me your passport.", vi: "Vui lòng cho tôi xem hộ chiếu." },
-      { jp: "ここに名前を書いてください。", en: "Please write your name here.", vi: "Xin hãy viết tên vào đây." },
-      { jp: "ゆっくり話してください。", en: "Please speak slowly.", vi: "Xin hãy nói chậm rãi." },
+      {
+        jp: "パスポートを見せてください。",
+        en: "Please show me your passport.",
+        vi: "Vui lòng cho tôi xem hộ chiếu.",
+      },
+      {
+        jp: "ここに名前を書いてください。",
+        en: "Please write your name here.",
+        vi: "Xin hãy viết tên vào đây.",
+      },
+      {
+        jp: "ゆっくり話してください。",
+        en: "Please speak slowly.",
+        vi: "Xin hãy nói chậm rãi.",
+      },
     ],
     l14_te_kudasai: [
-      { jp: "ちょっと待ってください。", en: "Please wait a moment.", vi: "Xin đợi một chút." },
-      { jp: "この漢字を教えてください。", en: "Please teach me this kanji.", vi: "Xin hãy dạy tôi chữ kanji này." },
-      { jp: "窓を開けてください。", en: "Please open the window.", vi: "Xin hãy mở cửa sổ." },
+      {
+        jp: "ちょっと待ってください。",
+        en: "Please wait a moment.",
+        vi: "Xin đợi một chút.",
+      },
+      {
+        jp: "この漢字を教えてください。",
+        en: "Please teach me this kanji.",
+        vi: "Xin hãy dạy tôi chữ kanji này.",
+      },
+      {
+        jp: "窓を開けてください。",
+        en: "Please open the window.",
+        vi: "Xin hãy mở cửa sổ.",
+      },
     ],
     l14_te_imasu: [
-      { jp: "今、雨が降っています。", en: "It is raining now.", vi: "Bây giờ trời đang mưa." },
-      { jp: "ミラーさんは電話をかけています。", en: "Mr. Miller is making a phone call.", vi: "Anh Miller đang gọi điện thoại." },
-      { jp: "田中さんは本を読んでいます。", en: "Mr. Tanaka is reading a book.", vi: "Ông Tanaka đang đọc sách." },
+      {
+        jp: "今、雨が降っています。",
+        en: "It is raining now.",
+        vi: "Bây giờ trời đang mưa.",
+      },
+      {
+        jp: "ミラーさんは電話をかけています。",
+        en: "Mr. Miller is making a phone call.",
+        vi: "Anh Miller đang gọi điện thoại.",
+      },
+      {
+        jp: "田中さんは本を読んでいます。",
+        en: "Mr. Tanaka is reading a book.",
+        vi: "Ông Tanaka đang đọc sách.",
+      },
     ],
   },
   explanations: {
@@ -91,11 +127,51 @@ module.exports = {
       source: "authored",
       title: { en: "More practice", vi: "Luyện tập thêm" },
       items: [
-        { prompt: "ちょっと（　）ください。（wait — 待ちます）", options: ["待って", "待ちて", "待いて", "待んで"], answer: 0, explanation: { en: "つ-verb: 待ちます → 待って.", vi: "Động từ đuôi つ: 待ちます → 待って." } },
-        { prompt: "ここに名前を書いて（　）。", options: ["ください", "います", "あります", "です"], answer: 0, explanation: { en: "V-てください = please do.", vi: "V-てください = xin hãy làm." } },
-        { prompt: "今、雨が降って（　）。（is …ing）", options: ["います", "ください", "あります", "です"], answer: 0, explanation: { en: "V-ています = action in progress.", vi: "V-ています = hành động đang diễn ra." } },
-        { prompt: "本を（　）います。（reading — 読みます）", options: ["読んで", "読みて", "読くて", "読んて"], answer: 0, explanation: { en: "む-verb: 読みます → 読んで.", vi: "Động từ đuôi む: 読みます → 読んで." } },
-        { prompt: "（　）ください。（go — 行きます）", options: ["行って", "行きて", "行いて", "行んで"], answer: 0, explanation: { en: "行きます is irregular: 行って.", vi: "行きます bất quy tắc: 行って." } },
+        {
+          prompt: "ちょっと（　）ください。（wait — 待ちます）",
+          options: ["待って", "待ちて", "待いて", "待んで"],
+          answer: 0,
+          explanation: {
+            en: "つ-verb: 待ちます → 待って.",
+            vi: "Động từ đuôi つ: 待ちます → 待って.",
+          },
+        },
+        {
+          prompt: "ここに名前を書いて（　）。",
+          options: ["ください", "います", "あります", "です"],
+          answer: 0,
+          explanation: {
+            en: "V-てください = please do.",
+            vi: "V-てください = xin hãy làm.",
+          },
+        },
+        {
+          prompt: "今、雨が降って（　）。（is …ing）",
+          options: ["います", "ください", "あります", "です"],
+          answer: 0,
+          explanation: {
+            en: "V-ています = action in progress.",
+            vi: "V-ています = hành động đang diễn ra.",
+          },
+        },
+        {
+          prompt: "本を（　）います。（reading — 読みます）",
+          options: ["読んで", "読みて", "読くて", "読んて"],
+          answer: 0,
+          explanation: {
+            en: "む-verb: 読みます → 読んで.",
+            vi: "Động từ đuôi む: 読みます → 読んで.",
+          },
+        },
+        {
+          prompt: "（　）ください。（go — 行きます）",
+          options: ["行って", "行きて", "行いて", "行んで"],
+          answer: 0,
+          explanation: {
+            en: "行きます is irregular: 行って.",
+            vi: "行きます bất quy tắc: 行って.",
+          },
+        },
       ],
     },
   },

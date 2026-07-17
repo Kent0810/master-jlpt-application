@@ -44,22 +44,35 @@ export function SectionHeading({
   );
 }
 
+// "Phần 2 · も・の" → eyebrow "Phần 2", main title "も・の". A part title
+// without the separator just renders whole as the main title. Shared by the
+// divider banner and the lesson table of contents.
+export function splitPartTitle(title: string): {
+  eyebrow: string | null;
+  main: string;
+} {
+  const sep = title.indexOf("·");
+  return {
+    eyebrow: sep === -1 ? null : title.slice(0, sep).trim(),
+    main: sep === -1 ? title : title.slice(sep + 1).trim(),
+  };
+}
+
 // A named-section divider (from a `section` block) that visually groups the
-// blocks beneath it — e.g. "Part 1 · Existence".
+// blocks beneath it — e.g. "Part 1 · Existence". `id` makes it a jump target
+// for the lesson table of contents.
 export function SectionDivider({
+  id,
   title,
   subtitle,
   accent,
 }: {
+  id?: string;
   title: string;
   subtitle?: string;
   accent: string;
 }) {
-  // "Phần 2 · も・の" → eyebrow "Phần 2", main title "も・の". A part title
-  // without the separator just renders whole as the main title.
-  const sep = title.indexOf("·");
-  const eyebrow = sep === -1 ? null : title.slice(0, sep).trim();
-  const main = sep === -1 ? title : title.slice(sep + 1).trim();
+  const { eyebrow, main } = splitPartTitle(title);
 
   // Duolingo-style unit banner: the part divider is the parent of the
   // section bands below it, so it must visually outrank them — solid
@@ -67,7 +80,8 @@ export function SectionDivider({
   // pale tints.
   return (
     <div
-      className="mt-6 overflow-hidden rounded-2xl p-5 text-white shadow-md"
+      id={id}
+      className="mt-6 scroll-mt-4 overflow-hidden rounded-2xl p-5 text-white shadow-md"
       style={{
         background: `linear-gradient(135deg, ${accent}, ${accentShade(accent, 0.55)})`,
       }}

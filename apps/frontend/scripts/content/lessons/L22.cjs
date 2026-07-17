@@ -2,14 +2,38 @@
 module.exports = {
   examples: {
     l22_noun_modify: [
-      { jp: "これはミラーさんが作った料理です。", en: "This is the dish that Mr. Miller made.", vi: "Đây là món ăn mà anh Miller đã làm." },
-      { jp: "きのう買った本はおもしろいです。", en: "The book I bought yesterday is interesting.", vi: "Quyển sách tôi mua hôm qua thú vị." },
-      { jp: "あそこにいる人は田中さんです。", en: "The person over there is Mr. Tanaka.", vi: "Người ở đằng kia là ông Tanaka." },
+      {
+        jp: "これはミラーさんが作った料理です。",
+        en: "This is the dish that Mr. Miller made.",
+        vi: "Đây là món ăn mà anh Miller đã làm.",
+      },
+      {
+        jp: "きのう買った本はおもしろいです。",
+        en: "The book I bought yesterday is interesting.",
+        vi: "Quyển sách tôi mua hôm qua thú vị.",
+      },
+      {
+        jp: "あそこにいる人は田中さんです。",
+        en: "The person over there is Mr. Tanaka.",
+        vi: "Người ở đằng kia là ông Tanaka.",
+      },
     ],
     l22_donna: [
-      { jp: "どんな音楽が好きですか。", en: "What kind of music do you like?", vi: "Bạn thích loại nhạc nào?" },
-      { jp: "日本はどんな国ですか。", en: "What kind of country is Japan?", vi: "Nhật Bản là đất nước như thế nào?" },
-      { jp: "田中さんはどんな人ですか。", en: "What kind of person is Mr. Tanaka?", vi: "Ông Tanaka là người như thế nào?" },
+      {
+        jp: "どんな音楽が好きですか。",
+        en: "What kind of music do you like?",
+        vi: "Bạn thích loại nhạc nào?",
+      },
+      {
+        jp: "日本はどんな国ですか。",
+        en: "What kind of country is Japan?",
+        vi: "Nhật Bản là đất nước như thế nào?",
+      },
+      {
+        jp: "田中さんはどんな人ですか。",
+        en: "What kind of person is Mr. Tanaka?",
+        vi: "Ông Tanaka là người như thế nào?",
+      },
     ],
   },
   explanations: {
@@ -64,11 +88,51 @@ module.exports = {
       source: "authored",
       title: { en: "More practice", vi: "Luyện tập thêm" },
       items: [
-        { prompt: "これはミラーさん（　）作った料理です。", options: ["が", "は", "を", "も"], answer: 0, explanation: { en: "Inside a modifying clause the subject takes が.", vi: "Trong mệnh đề bổ nghĩa, chủ ngữ dùng が." } },
-        { prompt: "きのう（　）本はおもしろいです。（bought — 買います）", options: ["買った", "買います", "買って", "買う"], answer: 0, explanation: { en: "Use plain past 買った before the noun.", vi: "Dùng quá khứ thể thường 買った trước danh từ." } },
-        { prompt: "あそこに（　）人は田中さんです。（is there — います）", options: ["いる", "います", "いた", "あって"], answer: 0, explanation: { en: "Plain form いる modifies 人.", vi: "Thể thường いる bổ nghĩa cho 人." } },
-        { prompt: "（　）音楽が好きですか。（what kind of）", options: ["どんな", "どう", "どれ", "どこ"], answer: 0, explanation: { en: "どんな + noun = 'what kind of'.", vi: "どんな + danh từ = 'loại nào'." } },
-        { prompt: "日本は（　）国ですか。", options: ["どんな", "どこ", "どちら", "どう"], answer: 0, explanation: { en: "どんな attaches to the noun 国.", vi: "どんな gắn với danh từ 国." } },
+        {
+          prompt: "これはミラーさん（　）作った料理です。",
+          options: ["が", "は", "を", "も"],
+          answer: 0,
+          explanation: {
+            en: "Inside a modifying clause the subject takes が.",
+            vi: "Trong mệnh đề bổ nghĩa, chủ ngữ dùng が.",
+          },
+        },
+        {
+          prompt: "きのう（　）本はおもしろいです。（bought — 買います）",
+          options: ["買った", "買います", "買って", "買う"],
+          answer: 0,
+          explanation: {
+            en: "Use plain past 買った before the noun.",
+            vi: "Dùng quá khứ thể thường 買った trước danh từ.",
+          },
+        },
+        {
+          prompt: "あそこに（　）人は田中さんです。（is there — います）",
+          options: ["いる", "います", "いた", "あって"],
+          answer: 0,
+          explanation: {
+            en: "Plain form いる modifies 人.",
+            vi: "Thể thường いる bổ nghĩa cho 人.",
+          },
+        },
+        {
+          prompt: "（　）音楽が好きですか。（what kind of）",
+          options: ["どんな", "どう", "どれ", "どこ"],
+          answer: 0,
+          explanation: {
+            en: "どんな + noun = 'what kind of'.",
+            vi: "どんな + danh từ = 'loại nào'.",
+          },
+        },
+        {
+          prompt: "日本は（　）国ですか。",
+          options: ["どんな", "どこ", "どちら", "どう"],
+          answer: 0,
+          explanation: {
+            en: "どんな attaches to the noun 国.",
+            vi: "どんな gắn với danh từ 国.",
+          },
+        },
       ],
     },
   },

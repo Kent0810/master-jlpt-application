@@ -1,10 +1,11 @@
 [
   {
-    "id": "l1_wa_desu",
+    "id": "l1_desu",
     "lesson": 1,
-    "title": "N は N です",
-    "meaning": "Marks the topic and states what it is — 'X is Y'. です is the polite copula.",
-    "structure": "[Topic] は [noun] です",
+    "title": "N です／N じゃありません",
+    "meaning": "The polite noun endings: です 'is', じゃありません 'is not'.",
+    "meaningVi": "Đuôi câu danh từ lịch sự: です 'là', じゃありません 'không phải là'.",
+    "structure": "N です ／ N じゃありません",
     "examples": [
       {
         "jp": "わたしは学生です。",
@@ -33,6 +34,131 @@
           "gakusei desu."
         ]
       },
+      {
+        "jp": "わたしは先生じゃありません。",
+        "reading": "わたしはせんせいじゃありません。",
+        "en": "I am not a teacher.",
+        "vi": "Tôi không phải là giáo viên.",
+        "tokens": [
+          [
+            {
+              "t": "わたしは"
+            }
+          ],
+          [
+            {
+              "t": "先生",
+              "f": "せんせい"
+            },
+            {
+              "t": "じゃありません。"
+            }
+          ]
+        ],
+        "romaji": "watashi wa sensei jaarimasen.",
+        "romajiChunks": [
+          "watashi wa",
+          "sensei jaarimasen."
+        ]
+      },
+      {
+        "jp": "ミラーさんはアメリカ人です。",
+        "reading": "ミラーさんはアメリカじんです。",
+        "en": "Mr. Miller is American.",
+        "vi": "Anh Miller là người Mỹ.",
+        "tokens": [
+          [
+            {
+              "t": "ミラーさんは"
+            }
+          ],
+          [
+            {
+              "t": "アメリカ"
+            },
+            {
+              "t": "人",
+              "f": "じん"
+            },
+            {
+              "t": "です。"
+            }
+          ]
+        ],
+        "romaji": "miraasan wa amerikajin desu.",
+        "romajiChunks": [
+          "miraasan wa",
+          "amerikajin desu."
+        ]
+      },
+      {
+        "jp": "サントスさんは学生じゃありません。",
+        "reading": "サントスさんはがくせいじゃありません。",
+        "en": "Mr. Santos is not a student.",
+        "vi": "Anh Santos không phải là sinh viên.",
+        "tokens": [
+          [
+            {
+              "t": "サントスさんは"
+            }
+          ],
+          [
+            {
+              "t": "学生",
+              "f": "がくせい"
+            },
+            {
+              "t": "じゃありません。"
+            }
+          ]
+        ],
+        "romaji": "santosusan wa gakusei jaarimasen.",
+        "romajiChunks": [
+          "santosusan wa",
+          "gakusei jaarimasen."
+        ]
+      },
+      {
+        "jp": "わたしは会社員です。",
+        "reading": "わたしはかいしゃいんです。",
+        "en": "I am a company employee.",
+        "vi": "Tôi là nhân viên công ty.",
+        "tokens": [
+          [
+            {
+              "t": "わたしは"
+            }
+          ],
+          [
+            {
+              "t": "会社",
+              "f": "かいしゃ"
+            },
+            {
+              "t": "員",
+              "f": "いん"
+            },
+            {
+              "t": "です。"
+            }
+          ]
+        ],
+        "romaji": "watashi wa kaishain desu.",
+        "romajiChunks": [
+          "watashi wa",
+          "kaishain desu."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "l1_wa",
+    "lesson": 1,
+    "title": "～は (topic)",
+    "meaning": "は marks the topic — what the sentence is about; the rest comments on it. Pronounced 'wa'.",
+    "meaningVi": "は đánh dấu chủ đề — điều câu nói đến; phần sau là lời nhận xét. Đọc là 'wa'.",
+    "structure": "[Topic] は [comment]",
+    "examples": [
       {
         "jp": "田中さんは先生です。",
         "reading": "たなかさんはせんせいです。",
@@ -65,41 +191,10 @@
         ]
       },
       {
-        "jp": "田中さんは医者です。",
-        "reading": "たなかさんはいしゃです。",
-        "en": "Mr. Tanaka is a doctor.",
-        "vi": "Ông Tanaka là bác sĩ.",
-        "tokens": [
-          [
-            {
-              "t": "田中",
-              "f": "たなか"
-            },
-            {
-              "t": "さんは"
-            }
-          ],
-          [
-            {
-              "t": "医者",
-              "f": "いしゃ"
-            },
-            {
-              "t": "です。"
-            }
-          ]
-        ],
-        "romaji": "tanakasan wa isha desu.",
-        "romajiChunks": [
-          "tanakasan wa",
-          "isha desu."
-        ]
-      },
-      {
-        "jp": "わたしは会社員です。",
-        "reading": "わたしはかいしゃいんです。",
-        "en": "I am a company employee.",
-        "vi": "Tôi là nhân viên công ty.",
+        "jp": "わたしは医者じゃありません。",
+        "reading": "わたしはいしゃじゃありません。",
+        "en": "I am not a doctor.",
+        "vi": "Tôi không phải là bác sĩ.",
         "tokens": [
           [
             {
@@ -108,22 +203,18 @@
           ],
           [
             {
-              "t": "会社",
-              "f": "かいしゃ"
+              "t": "医者",
+              "f": "いしゃ"
             },
             {
-              "t": "員",
-              "f": "いん"
-            },
-            {
-              "t": "です。"
+              "t": "じゃありません。"
             }
           ]
         ],
-        "romaji": "watashi wa kaishain desu.",
+        "romaji": "watashi wa isha jaarimasen.",
         "romajiChunks": [
           "watashi wa",
-          "kaishain desu."
+          "isha jaarimasen."
         ]
       },
       {
@@ -166,208 +257,14 @@
           "hito wa",
           "ginkouin desu."
         ]
-      },
-      {
-        "jp": "ミラーさんはアメリカ人です。",
-        "reading": "ミラーさんはアメリカじんです。",
-        "en": "Mr. Miller is American.",
-        "vi": "Anh Miller là người Mỹ.",
-        "tokens": [
-          [
-            {
-              "t": "ミラーさんは"
-            }
-          ],
-          [
-            {
-              "t": "アメリカ"
-            },
-            {
-              "t": "人",
-              "f": "じん"
-            },
-            {
-              "t": "です。"
-            }
-          ]
-        ],
-        "romaji": "miraasan wa amerikajin desu.",
-        "romajiChunks": [
-          "miraasan wa",
-          "amerikajin desu."
-        ]
       }
-    ],
-    "meaningVi": "は đánh dấu chủ đề, です là đuôi câu lịch sự — 'X là Y'."
-  },
-  {
-    "id": "l1_ja_arimasen",
-    "lesson": 1,
-    "title": "N じゃありません",
-    "meaning": "The polite negative of です — 'is not'. じゃ is the casual form of では.",
-    "structure": "[Topic] は [noun] じゃ (では) ありません",
-    "examples": [
-      {
-        "jp": "わたしは先生じゃありません。",
-        "reading": "わたしはせんせいじゃありません。",
-        "en": "I am not a teacher.",
-        "vi": "Tôi không phải là giáo viên.",
-        "tokens": [
-          [
-            {
-              "t": "わたしは"
-            }
-          ],
-          [
-            {
-              "t": "先生",
-              "f": "せんせい"
-            },
-            {
-              "t": "じゃありません。"
-            }
-          ]
-        ],
-        "romaji": "watashi wa sensei jaarimasen.",
-        "romajiChunks": [
-          "watashi wa",
-          "sensei jaarimasen."
-        ]
-      },
-      {
-        "jp": "わたしは医者じゃありません。",
-        "reading": "わたしはいしゃじゃありません。",
-        "en": "I am not a doctor.",
-        "vi": "Tôi không phải là bác sĩ.",
-        "tokens": [
-          [
-            {
-              "t": "わたしは"
-            }
-          ],
-          [
-            {
-              "t": "医者",
-              "f": "いしゃ"
-            },
-            {
-              "t": "じゃありません。"
-            }
-          ]
-        ],
-        "romaji": "watashi wa isha jaarimasen.",
-        "romajiChunks": [
-          "watashi wa",
-          "isha jaarimasen."
-        ]
-      },
-      {
-        "jp": "サントスさんは学生じゃありません。",
-        "reading": "サントスさんはがくせいじゃありません。",
-        "en": "Mr. Santos is not a student.",
-        "vi": "Anh Santos không phải là sinh viên.",
-        "tokens": [
-          [
-            {
-              "t": "サントスさんは"
-            }
-          ],
-          [
-            {
-              "t": "学生",
-              "f": "がくせい"
-            },
-            {
-              "t": "じゃありません。"
-            }
-          ]
-        ],
-        "romaji": "santosusan wa gakusei jaarimasen.",
-        "romajiChunks": [
-          "santosusan wa",
-          "gakusei jaarimasen."
-        ]
-      },
-      {
-        "jp": "あの人は先生じゃありません。",
-        "reading": "あのひとはせんせいじゃありません。",
-        "en": "That person is not a teacher.",
-        "vi": "Người kia không phải là giáo viên.",
-        "tokens": [
-          [
-            {
-              "t": "あの"
-            }
-          ],
-          [
-            {
-              "t": "人",
-              "f": "ひと"
-            },
-            {
-              "t": "は"
-            }
-          ],
-          [
-            {
-              "t": "先生",
-              "f": "せんせい"
-            },
-            {
-              "t": "じゃありません。"
-            }
-          ]
-        ],
-        "romaji": "ano hito wa sensei jaarimasen.",
-        "romajiChunks": [
-          "ano",
-          "hito wa",
-          "sensei jaarimasen."
-        ]
-      },
-      {
-        "jp": "田中さんは会社員じゃありません。",
-        "reading": "たなかさんはかいしゃいんじゃありません。",
-        "en": "Mr. Tanaka is not a company employee.",
-        "vi": "Ông Tanaka không phải là nhân viên công ty.",
-        "tokens": [
-          [
-            {
-              "t": "田中",
-              "f": "たなか"
-            },
-            {
-              "t": "さんは"
-            }
-          ],
-          [
-            {
-              "t": "会社",
-              "f": "かいしゃ"
-            },
-            {
-              "t": "員",
-              "f": "いん"
-            },
-            {
-              "t": "じゃありません。"
-            }
-          ]
-        ],
-        "romaji": "tanakasan wa kaishain jaarimasen.",
-        "romajiChunks": [
-          "tanakasan wa",
-          "kaishain jaarimasen."
-        ]
-      }
-    ],
-    "meaningVi": "Dạng phủ định lịch sự của です — 'không phải là'. じゃ là dạng nói của では."
+    ]
   },
   {
     "id": "l1_ka",
     "lesson": 1,
     "title": "～か (question)",
-    "meaning": "Added to the end of a sentence to make it a question. No question mark needed.",
+    "meaning": "Added to the end of a sentence to make a yes/no question — answer with はい or いいえ. No question mark needed.",
     "structure": "[sentence] か",
     "examples": [
       {
@@ -497,7 +394,134 @@
         ]
       }
     ],
-    "meaningVi": "Thêm か vào cuối câu để tạo câu hỏi. Không cần dấu chấm hỏi."
+    "meaningVi": "Thêm か vào cuối câu để tạo câu hỏi có/không — trả lời bằng はい hoặc いいえ. Không cần dấu chấm hỏi."
+  },
+  {
+    "id": "l1_dare",
+    "lesson": 1,
+    "title": "だれ／どなた (who)",
+    "meaning": "Question words like だれ sit where the answer would go; answer directly, without はい／いいえ. どなた is the polite form.",
+    "meaningVi": "Nghi vấn từ như だれ đứng đúng vị trí của câu trả lời; trả lời thẳng, không dùng はい／いいえ. どなた là dạng lịch sự.",
+    "structure": "[Topic] は だれ／どなた ですか",
+    "examples": [
+      {
+        "jp": "あの人はだれですか。",
+        "reading": "あのひとはだれですか。",
+        "en": "Who is that person?",
+        "vi": "Người kia là ai?",
+        "tokens": [
+          [
+            {
+              "t": "あの"
+            },
+            {
+              "t": "人",
+              "f": "ひと"
+            },
+            {
+              "t": "は"
+            }
+          ],
+          [
+            {
+              "t": "だれですか。"
+            }
+          ]
+        ],
+        "romaji": "ano hito wa dare desuka.",
+        "romajiChunks": [
+          "ano hito wa",
+          "dare desuka."
+        ]
+      },
+      {
+        "jp": "あの方はどなたですか。",
+        "reading": "あのかたはどなたですか。",
+        "en": "Who is that person? (polite)",
+        "vi": "Vị kia là ai? (lịch sự)",
+        "tokens": [
+          [
+            {
+              "t": "あの"
+            },
+            {
+              "t": "方",
+              "f": "かた"
+            },
+            {
+              "t": "は"
+            }
+          ],
+          [
+            {
+              "t": "どなたですか。"
+            }
+          ]
+        ],
+        "romaji": "ano kata wa donata desuka.",
+        "romajiChunks": [
+          "ano kata wa",
+          "donata desuka."
+        ]
+      },
+      {
+        "jp": "先生はだれですか。",
+        "reading": "せんせいはだれですか。",
+        "en": "Who is the teacher?",
+        "vi": "Giáo viên là ai?",
+        "tokens": [
+          [
+            {
+              "t": "先生",
+              "f": "せんせい"
+            },
+            {
+              "t": "は"
+            }
+          ],
+          [
+            {
+              "t": "だれですか。"
+            }
+          ]
+        ],
+        "romaji": "sensei wa dare desuka.",
+        "romajiChunks": [
+          "sensei wa",
+          "dare desuka."
+        ]
+      },
+      {
+        "jp": "あの人はミラーさんです。",
+        "reading": "あのひとはミラーさんです。",
+        "en": "That person is Mr. Miller.",
+        "vi": "Người kia là anh Miller.",
+        "tokens": [
+          [
+            {
+              "t": "あの"
+            },
+            {
+              "t": "人",
+              "f": "ひと"
+            },
+            {
+              "t": "は"
+            }
+          ],
+          [
+            {
+              "t": "ミラーさんです。"
+            }
+          ]
+        ],
+        "romaji": "ano hito wa miraasan desu.",
+        "romajiChunks": [
+          "ano hito wa",
+          "miraasan desu."
+        ]
+      }
+    ]
   },
   {
     "id": "l1_mo",
@@ -834,133 +858,6 @@
     "meaningVi": "の nối hai danh từ: sở hữu, nhóm hoặc đặc điểm — 'Y của X'."
   },
   {
-    "id": "l1_dare",
-    "lesson": 1,
-    "title": "だれ／どなた (who)",
-    "meaning": "Asks 'who?'. The question word sits where the answer would go; どなた is the polite equivalent of だれ.",
-    "meaningVi": "Hỏi 'ai?'. Từ để hỏi đứng đúng vị trí của câu trả lời; どなた là dạng lịch sự của だれ.",
-    "structure": "[Topic] は だれ／どなた ですか",
-    "examples": [
-      {
-        "jp": "あの人はだれですか。",
-        "reading": "あのひとはだれですか。",
-        "en": "Who is that person?",
-        "vi": "Người kia là ai?",
-        "tokens": [
-          [
-            {
-              "t": "あの"
-            },
-            {
-              "t": "人",
-              "f": "ひと"
-            },
-            {
-              "t": "は"
-            }
-          ],
-          [
-            {
-              "t": "だれですか。"
-            }
-          ]
-        ],
-        "romaji": "ano hito wa dare desuka.",
-        "romajiChunks": [
-          "ano hito wa",
-          "dare desuka."
-        ]
-      },
-      {
-        "jp": "あの方はどなたですか。",
-        "reading": "あのかたはどなたですか。",
-        "en": "Who is that person? (polite)",
-        "vi": "Vị kia là ai? (lịch sự)",
-        "tokens": [
-          [
-            {
-              "t": "あの"
-            },
-            {
-              "t": "方",
-              "f": "かた"
-            },
-            {
-              "t": "は"
-            }
-          ],
-          [
-            {
-              "t": "どなたですか。"
-            }
-          ]
-        ],
-        "romaji": "ano kata wa donata desuka.",
-        "romajiChunks": [
-          "ano kata wa",
-          "donata desuka."
-        ]
-      },
-      {
-        "jp": "先生はだれですか。",
-        "reading": "せんせいはだれですか。",
-        "en": "Who is the teacher?",
-        "vi": "Giáo viên là ai?",
-        "tokens": [
-          [
-            {
-              "t": "先生",
-              "f": "せんせい"
-            },
-            {
-              "t": "は"
-            }
-          ],
-          [
-            {
-              "t": "だれですか。"
-            }
-          ]
-        ],
-        "romaji": "sensei wa dare desuka.",
-        "romajiChunks": [
-          "sensei wa",
-          "dare desuka."
-        ]
-      },
-      {
-        "jp": "あの人はミラーさんです。",
-        "reading": "あのひとはミラーさんです。",
-        "en": "That person is Mr. Miller.",
-        "vi": "Người kia là anh Miller.",
-        "tokens": [
-          [
-            {
-              "t": "あの"
-            },
-            {
-              "t": "人",
-              "f": "ひと"
-            },
-            {
-              "t": "は"
-            }
-          ],
-          [
-            {
-              "t": "ミラーさんです。"
-            }
-          ]
-        ],
-        "romaji": "ano hito wa miraasan desu.",
-        "romajiChunks": [
-          "ano hito wa",
-          "miraasan desu."
-        ]
-      }
-    ]
-  },
-  {
     "id": "l1_sai",
     "lesson": 1,
     "title": "〜歳（何歳／おいくつ）",
@@ -1074,6 +971,101 @@
         "romajiChunks": [
           "sensei wa",
           "oikutsu desuka."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "l1_san",
+    "lesson": 1,
+    "title": "～さん／～ちゃん",
+    "meaning": "さん after another person's name shows respect — never after your own. ちゃん is the friendly form for children.",
+    "meaningVi": "さん sau tên người khác để tỏ sự tôn trọng — không dùng cho tên mình. ちゃん là cách gọi thân mật cho trẻ em.",
+    "structure": "N さん ／ N ちゃん",
+    "examples": [
+      {
+        "jp": "田中さんは医者です。",
+        "reading": "たなかさんはいしゃです。",
+        "en": "Mr. Tanaka is a doctor.",
+        "vi": "Ông Tanaka là bác sĩ.",
+        "tokens": [
+          [
+            {
+              "t": "田中",
+              "f": "たなか"
+            },
+            {
+              "t": "さんは"
+            }
+          ],
+          [
+            {
+              "t": "医者",
+              "f": "いしゃ"
+            },
+            {
+              "t": "です。"
+            }
+          ]
+        ],
+        "romaji": "tanakasan wa isha desu.",
+        "romajiChunks": [
+          "tanakasan wa",
+          "isha desu."
+        ]
+      },
+      {
+        "jp": "テレサちゃんは９歳です。",
+        "reading": "テレサちゃんはきゅうさいです。",
+        "en": "Teresa is nine years old.",
+        "vi": "Bé Teresa 9 tuổi.",
+        "tokens": [
+          [
+            {
+              "t": "テレサちゃんは"
+            }
+          ],
+          [
+            {
+              "t": "９歳",
+              "f": "きゅうさい"
+            },
+            {
+              "t": "です。"
+            }
+          ]
+        ],
+        "romaji": "teresachan wa kyuusai desu.",
+        "romajiChunks": [
+          "teresachan wa",
+          "kyuusai desu."
+        ]
+      },
+      {
+        "jp": "わたしは田中です。",
+        "reading": "わたしはたなかです。",
+        "en": "I am Tanaka.",
+        "vi": "Tôi là Tanaka.",
+        "tokens": [
+          [
+            {
+              "t": "わたしは"
+            }
+          ],
+          [
+            {
+              "t": "田中",
+              "f": "たなか"
+            },
+            {
+              "t": "です。"
+            }
+          ]
+        ],
+        "romaji": "watashi wa tanaka desu.",
+        "romajiChunks": [
+          "watashi wa",
+          "tanaka desu."
         ]
       }
     ]

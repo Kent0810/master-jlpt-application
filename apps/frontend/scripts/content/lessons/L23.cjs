@@ -2,19 +2,55 @@
 module.exports = {
   examples: {
     l23_toki: [
-      { jp: "日本へ行くとき、この本を買いました。", en: "When I went to Japan, I bought this book.", vi: "Khi đi Nhật, tôi đã mua quyển sách này." },
-      { jp: "暇なとき、本を読みます。", en: "When I'm free, I read books.", vi: "Khi rảnh, tôi đọc sách." },
-      { jp: "若いとき、よく旅行しました。", en: "When I was young, I traveled a lot.", vi: "Khi còn trẻ, tôi hay đi du lịch." },
+      {
+        jp: "日本へ行くとき、この本を買いました。",
+        en: "When I went to Japan, I bought this book.",
+        vi: "Khi đi Nhật, tôi đã mua quyển sách này.",
+      },
+      {
+        jp: "暇なとき、本を読みます。",
+        en: "When I'm free, I read books.",
+        vi: "Khi rảnh, tôi đọc sách.",
+      },
+      {
+        jp: "若いとき、よく旅行しました。",
+        en: "When I was young, I traveled a lot.",
+        vi: "Khi còn trẻ, tôi hay đi du lịch.",
+      },
     ],
     l23_to_conditional: [
-      { jp: "このボタンを押すと、ドアが開きます。", en: "If you push this button, the door opens.", vi: "Nếu bấm nút này, cửa sẽ mở." },
-      { jp: "右へ曲がると、駅があります。", en: "If you turn right, there is the station.", vi: "Rẽ phải thì có nhà ga." },
-      { jp: "春になると、桜が咲きます。", en: "When spring comes, the cherry blossoms bloom.", vi: "Khi xuân đến, hoa anh đào nở." },
+      {
+        jp: "このボタンを押すと、ドアが開きます。",
+        en: "If you push this button, the door opens.",
+        vi: "Nếu bấm nút này, cửa sẽ mở.",
+      },
+      {
+        jp: "右へ曲がると、駅があります。",
+        en: "If you turn right, there is the station.",
+        vi: "Rẽ phải thì có nhà ga.",
+      },
+      {
+        jp: "春になると、桜が咲きます。",
+        en: "When spring comes, the cherry blossoms bloom.",
+        vi: "Khi xuân đến, hoa anh đào nở.",
+      },
     ],
     l23_wo_movement: [
-      { jp: "次の角を右へ曲がります。", en: "Turn right at the next corner.", vi: "Rẽ phải ở góc tiếp theo." },
-      { jp: "ここでバスを降ります。", en: "I get off the bus here.", vi: "Tôi xuống xe buýt ở đây." },
-      { jp: "毎朝公園を散歩します。", en: "I take a walk in the park every morning.", vi: "Mỗi sáng tôi đi dạo trong công viên." },
+      {
+        jp: "次の角を右へ曲がります。",
+        en: "Turn right at the next corner.",
+        vi: "Rẽ phải ở góc tiếp theo.",
+      },
+      {
+        jp: "ここでバスを降ります。",
+        en: "I get off the bus here.",
+        vi: "Tôi xuống xe buýt ở đây.",
+      },
+      {
+        jp: "毎朝公園を散歩します。",
+        en: "I take a walk in the park every morning.",
+        vi: "Mỗi sáng tôi đi dạo trong công viên.",
+      },
     ],
   },
   explanations: {
@@ -91,11 +127,51 @@ module.exports = {
       source: "authored",
       title: { en: "More practice", vi: "Luyện tập thêm" },
       items: [
-        { prompt: "暇な（　）、本を読みます。（when）", options: ["とき", "こと", "から", "まで"], answer: 0, explanation: { en: "な-adjective + な + とき.", vi: "Tính từ な + な + とき." } },
-        { prompt: "このボタンを押す（　）、ドアが開きます。（natural result）", options: ["と", "とき", "たら", "ので"], answer: 0, explanation: { en: "と marks an automatic result.", vi: "と đánh dấu kết quả tự nhiên." } },
-        { prompt: "ここでバス（　）降ります。", options: ["を", "に", "で", "へ"], answer: 0, explanation: { en: "降ります takes を for the vehicle.", vi: "降ります dùng を cho phương tiện." } },
-        { prompt: "毎朝公園（　）散歩します。", options: ["を", "で", "に", "へ"], answer: 0, explanation: { en: "を marks the path of movement.", vi: "を đánh dấu lộ trình di chuyển." } },
-        { prompt: "子供（　）とき、京都に住んでいました。（when a child）", options: ["の", "な", "だ", "が"], answer: 0, explanation: { en: "Nouns take の before とき.", vi: "Danh từ thêm の trước とき." } },
+        {
+          prompt: "暇な（　）、本を読みます。（when）",
+          options: ["とき", "こと", "から", "まで"],
+          answer: 0,
+          explanation: {
+            en: "な-adjective + な + とき.",
+            vi: "Tính từ な + な + とき.",
+          },
+        },
+        {
+          prompt: "このボタンを押す（　）、ドアが開きます。（natural result）",
+          options: ["と", "とき", "たら", "ので"],
+          answer: 0,
+          explanation: {
+            en: "と marks an automatic result.",
+            vi: "と đánh dấu kết quả tự nhiên.",
+          },
+        },
+        {
+          prompt: "ここでバス（　）降ります。",
+          options: ["を", "に", "で", "へ"],
+          answer: 0,
+          explanation: {
+            en: "降ります takes を for the vehicle.",
+            vi: "降ります dùng を cho phương tiện.",
+          },
+        },
+        {
+          prompt: "毎朝公園（　）散歩します。",
+          options: ["を", "で", "に", "へ"],
+          answer: 0,
+          explanation: {
+            en: "を marks the path of movement.",
+            vi: "を đánh dấu lộ trình di chuyển.",
+          },
+        },
+        {
+          prompt: "子供（　）とき、京都に住んでいました。（when a child）",
+          options: ["の", "な", "だ", "が"],
+          answer: 0,
+          explanation: {
+            en: "Nouns take の before とき.",
+            vi: "Danh từ thêm の trước とき.",
+          },
+        },
       ],
     },
   },

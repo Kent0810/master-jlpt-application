@@ -5,27 +5,26 @@
       {
         "kind": "section",
         "title": {
-          "en": "Part 1 · は・です・か",
-          "vi": "Phần 1 · は・です・か"
+          "en": "Part 1 · です・は",
+          "vi": "Phần 1 · です・は"
         },
         "subtitle": {
-          "en": "Say who you are, and ask yes/no questions.",
-          "vi": "Nói bạn là ai và đặt câu hỏi có/không."
+          "en": "The polite 'is / is not', and marking the topic with は.",
+          "vi": "Đuôi câu lịch sự 'là / không phải là', và đánh dấu chủ đề với は."
         }
       },
       {
         "kind": "grammar",
         "grammarIds": [
-          "l1_wa_desu",
-          "l1_ja_arimasen",
-          "l1_ka"
+          "l1_desu",
+          "l1_wa"
         ]
       },
       {
         "kind": "exercise",
         "title": {
-          "en": "Practice · は・です・か",
-          "vi": "Luyện tập · は・です・か"
+          "en": "Practice · です・は",
+          "vi": "Luyện tập · です・は"
         },
         "source": "authored",
         "items": [
@@ -45,6 +44,64 @@
             }
           },
           {
+            "prompt": "わたしは学生（　）ありません。",
+            "reading": "わたしはがくせい（　）ありません。",
+            "options": [
+              "じゃ",
+              "です",
+              "ます",
+              "か"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "Negative of です: [noun] じゃ ありません.",
+              "vi": "Thể phủ định của です: [danh từ] じゃ ありません."
+            }
+          },
+          {
+            "prompt": "あの人は先生（　）。",
+            "reading": "あのひとはせんせい（　）。",
+            "options": [
+              "です",
+              "か",
+              "じゃ",
+              "は"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "です closes a polite noun sentence: 'That person is a teacher.'",
+              "vi": "です kết thúc câu danh từ lịch sự: 'Người kia là giáo viên.'"
+            }
+          }
+        ]
+      },
+      {
+        "kind": "section",
+        "title": {
+          "en": "Part 2 · か・だれ",
+          "vi": "Phần 2 · か・だれ"
+        },
+        "subtitle": {
+          "en": "Yes/no questions with か, and asking 'who?' with だれ／どなた.",
+          "vi": "Câu hỏi có/không với か, và hỏi 'ai?' với だれ／どなた."
+        }
+      },
+      {
+        "kind": "grammar",
+        "grammarIds": [
+          "l1_ka",
+          "l1_dare"
+        ]
+      },
+      {
+        "kind": "exercise",
+        "title": {
+          "en": "Practice · か・だれ",
+          "vi": "Luyện tập · か・だれ"
+        },
+        "source": "authored",
+        "items": [
+          {
             "prompt": "あなたは先生です（　）。",
             "reading": "あなたはせんせいです（　）。",
             "options": [
@@ -60,18 +117,33 @@
             }
           },
           {
-            "prompt": "わたしは学生（　）ありません。",
-            "reading": "わたしはがくせい（　）ありません。",
+            "prompt": "あの人は（　）ですか。",
+            "reading": "あのひとは（　）ですか。",
             "options": [
-              "じゃ",
-              "です",
-              "ます",
-              "か"
+              "だれ",
+              "なに",
+              "どれ",
+              "いくら"
             ],
             "answer": 0,
             "explanation": {
-              "en": "Negative of です: [noun] じゃ ありません.",
-              "vi": "Thể phủ định của です: [danh từ] じゃ ありません."
+              "en": "だれ asks 'who?' — the question word sits where the answer would go.",
+              "vi": "だれ hỏi 'ai?' — từ để hỏi đứng đúng vị trí của câu trả lời."
+            }
+          },
+          {
+            "prompt": "あの方は（　）ですか。",
+            "reading": "あのかたは（　）ですか。",
+            "options": [
+              "どなた",
+              "なに",
+              "どれ",
+              "いくら"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "方 is polite, so pair it with どなた rather than だれ.",
+              "vi": "方 là từ lịch sự, nên đi cùng どなた thay vì だれ."
             }
           }
         ]
@@ -79,8 +151,8 @@
       {
         "kind": "section",
         "title": {
-          "en": "Part 2 · も・の",
-          "vi": "Phần 2 · も・の"
+          "en": "Part 3 · も・の",
+          "vi": "Phần 3 · も・の"
         },
         "subtitle": {
           "en": "'Also' with も, and linking nouns with の.",
@@ -152,59 +224,29 @@
       {
         "kind": "section",
         "title": {
-          "en": "Part 3 · だれ・〜歳",
-          "vi": "Phần 3 · だれ・〜歳"
+          "en": "Part 4 · 〜歳・さん",
+          "vi": "Phần 4 · 〜歳・さん"
         },
         "subtitle": {
-          "en": "Ask who someone is with だれ／どなた, and ask ages with 何歳／おいくつ.",
-          "vi": "Hỏi ai đó là ai với だれ／どなた, và hỏi tuổi với 何歳／おいくつ."
+          "en": "Ages with 何歳／おいくつ, and the name suffixes さん／ちゃん.",
+          "vi": "Tuổi với 何歳／おいくつ, và hậu tố tên さん／ちゃん."
         }
       },
       {
         "kind": "grammar",
         "grammarIds": [
-          "l1_dare",
-          "l1_sai"
+          "l1_sai",
+          "l1_san"
         ]
       },
       {
         "kind": "exercise",
-        "source": "authored",
         "title": {
-          "en": "Practice · だれ・〜歳",
-          "vi": "Luyện tập · だれ・〜歳"
+          "en": "Practice · 〜歳・さん",
+          "vi": "Luyện tập · 〜歳・さん"
         },
+        "source": "authored",
         "items": [
-          {
-            "prompt": "あの人は（　）ですか。",
-            "reading": "あのひとは（　）ですか。",
-            "options": [
-              "だれ",
-              "なに",
-              "どれ",
-              "いくら"
-            ],
-            "answer": 0,
-            "explanation": {
-              "en": "だれ asks 'who?' — the question word sits where the answer would go.",
-              "vi": "だれ hỏi 'ai?' — từ để hỏi đứng đúng vị trí của câu trả lời."
-            }
-          },
-          {
-            "prompt": "あの方は（　）ですか。",
-            "reading": "あのかたは（　）ですか。",
-            "options": [
-              "どなた",
-              "なに",
-              "どれ",
-              "いくら"
-            ],
-            "answer": 0,
-            "explanation": {
-              "en": "方 is polite, so pair it with どなた rather than だれ.",
-              "vi": "方 là từ lịch sự, nên đi cùng どなた thay vì だれ."
-            }
-          },
           {
             "prompt": "テレサちゃんは　９（　）です。",
             "reading": "テレサちゃんは　きゅう（　）です。",
@@ -219,8 +261,49 @@
               "en": "Ages are [number] + 歳: ９歳 'nine years old'.",
               "vi": "Tuổi là [số] + 歳: ９歳 'chín tuổi'."
             }
+          },
+          {
+            "prompt": "こちらは山田（　）です。",
+            "reading": "こちらはやまだ（　）です。",
+            "options": [
+              "さん",
+              "ちゃん",
+              "です",
+              "の"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "さん after another person's name shows respect.",
+              "vi": "さん sau tên người khác thể hiện sự tôn trọng."
+            }
+          },
+          {
+            "prompt": "先生は（　）ですか。",
+            "reading": "せんせいは（　）ですか。",
+            "options": [
+              "おいくつ",
+              "どなた",
+              "だれ",
+              "どこ"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "おいくつ politely asks someone's age (the answer here is an age, not a name).",
+              "vi": "おいくつ là cách hỏi tuổi lịch sự (câu trả lời ở đây là tuổi, không phải tên)."
+            }
           }
         ]
+      },
+      {
+        "kind": "section",
+        "title": {
+          "en": "Part 5 · 会話",
+          "vi": "Phần 5 · 会話"
+        },
+        "subtitle": {
+          "en": "The lesson in action — dialogues and reading practice.",
+          "vi": "Bài học trong thực tế — hội thoại và luyện đọc."
+        }
       },
       {
         "kind": "dialogue",
@@ -247,6 +330,12 @@
                   "t": "はじめまして。"
                 }
               ]
+            ],
+            "alignEn": [
+              "Nice to meet you"
+            ],
+            "alignVi": [
+              "Rất vui được gặp bạn"
             ]
           },
           {
@@ -269,6 +358,14 @@
                   "t": "リンです。"
                 }
               ]
+            ],
+            "alignEn": [
+              "I",
+              "am Linh"
+            ],
+            "alignVi": [
+              "Tôi",
+              "là Linh"
             ]
           },
           {
@@ -290,6 +387,12 @@
                   "t": "です。"
                 }
               ]
+            ],
+            "alignEn": [
+              "I am Vietnamese"
+            ],
+            "alignVi": [
+              "Tôi là người Việt Nam"
             ]
           },
           {
@@ -320,6 +423,14 @@
                   "t": "です。"
                 }
               ]
+            ],
+            "alignEn": [
+              "at Sakura University",
+              "I am a student"
+            ],
+            "alignVi": [
+              "trường Đại học Sakura",
+              "Tôi là sinh viên"
             ]
           },
           {
@@ -346,6 +457,14 @@
                   "t": "です。"
                 }
               ]
+            ],
+            "alignEn": [
+              "Mari is also",
+              "a student"
+            ],
+            "alignVi": [
+              "Mari cũng",
+              "là sinh viên"
             ]
           },
           {
@@ -370,6 +489,16 @@
                   "t": "おねがいします。"
                 }
               ]
+            ],
+            "alignEn": [
+              null,
+              "It's a pleasure",
+              "to meet you"
+            ],
+            "alignVi": [
+              null,
+              "Rất mong",
+              "được giúp đỡ"
             ]
           }
         ]
@@ -410,6 +539,14 @@
                   "t": "ですか。"
                 }
               ]
+            ],
+            "alignEn": [
+              "your name",
+              "What is"
+            ],
+            "alignVi": [
+              "Bạn tên",
+              "là gì"
             ]
           },
           {
@@ -424,6 +561,12 @@
                   "t": "リンです。"
                 }
               ]
+            ],
+            "alignEn": [
+              "I'm Linh"
+            ],
+            "alignVi": [
+              "Tôi là Linh"
             ]
           },
           {
@@ -454,6 +597,14 @@
                   "t": "ですか。"
                 }
               ]
+            ],
+            "alignEn": [
+              "your job",
+              "What is"
+            ],
+            "alignVi": [
+              "Bạn làm nghề",
+              "gì"
             ]
           },
           {
@@ -472,6 +623,12 @@
                   "t": "です。"
                 }
               ]
+            ],
+            "alignEn": [
+              "I'm a student"
+            ],
+            "alignVi": [
+              "Tôi là sinh viên"
             ]
           },
           {
@@ -498,6 +655,14 @@
                   "t": "ですか。"
                 }
               ]
+            ],
+            "alignEn": [
+              "Is Mari also",
+              "a student"
+            ],
+            "alignVi": [
+              "Mari cũng",
+              "là sinh viên phải không"
             ]
           },
           {
@@ -529,9 +694,30 @@
                   "t": "です。"
                 }
               ]
+            ],
+            "alignEn": [
+              "Yes",
+              "Mari is also",
+              "a student"
+            ],
+            "alignVi": [
+              "Vâng",
+              "Mari cũng",
+              "là sinh viên"
             ]
           }
         ]
+      },
+      {
+        "kind": "section",
+        "title": {
+          "en": "Part 6 · 語彙",
+          "vi": "Phần 6 · 語彙"
+        },
+        "subtitle": {
+          "en": "The lesson's new words — then check yourself and review.",
+          "vi": "Từ mới của bài — sau đó tự kiểm tra và ôn tập."
+        }
       },
       {
         "kind": "vocab"
@@ -761,6 +947,17 @@
         ]
       },
       {
+        "kind": "section",
+        "title": {
+          "en": "Part 3 · 会話",
+          "vi": "Phần 3 · 会話"
+        },
+        "subtitle": {
+          "en": "The lesson in action — dialogues and reading practice.",
+          "vi": "Bài học trong thực tế — hội thoại và luyện đọc."
+        }
+      },
+      {
         "kind": "dialogue",
         "style": "conversational",
         "source": "lesson"
@@ -805,6 +1002,16 @@
                   "t": "です。"
                 }
               ]
+            ],
+            "alignEn": [
+              "This is",
+              "my",
+              "book"
+            ],
+            "alignVi": [
+              "Đây là",
+              "của tôi",
+              "sách"
             ]
           },
           {
@@ -843,6 +1050,16 @@
                   "t": "です。"
                 }
               ]
+            ],
+            "alignEn": [
+              "That is",
+              "Mr. Tanaka's",
+              "umbrella"
+            ],
+            "alignVi": [
+              "Đó là",
+              "của anh Tanaka",
+              "ô"
             ]
           },
           {
@@ -869,6 +1086,14 @@
                   "t": "ですか。"
                 }
               ]
+            ],
+            "alignEn": [
+              "that over there",
+              "What is"
+            ],
+            "alignVi": [
+              "Cái ở đằng kia",
+              "là gì"
             ]
           },
           {
@@ -895,6 +1120,14 @@
                   "t": "です。"
                 }
               ]
+            ],
+            "alignEn": [
+              "That is",
+              "a clock"
+            ],
+            "alignVi": [
+              "Đó là",
+              "một cái đồng hồ"
             ]
           },
           {
@@ -930,6 +1163,16 @@
                   "t": "です。"
                 }
               ]
+            ],
+            "alignEn": [
+              "This",
+              "clock is",
+              "the teacher's"
+            ],
+            "alignVi": [
+              "này",
+              "Cái đồng hồ",
+              "là của thầy giáo"
             ]
           }
         ]
@@ -966,6 +1209,14 @@
                   "t": "ですか。"
                 }
               ]
+            ],
+            "alignEn": [
+              "Is this",
+              "a book"
+            ],
+            "alignVi": [
+              "Đây",
+              "có phải là sách không"
             ]
           },
           {
@@ -985,6 +1236,14 @@
                   "t": "そうです。"
                 }
               ]
+            ],
+            "alignEn": [
+              "Yes",
+              "that's right"
+            ],
+            "alignVi": [
+              "Vâng",
+              "đúng vậy"
             ]
           },
           {
@@ -1019,6 +1278,16 @@
                   "t": "ですか。"
                 }
               ]
+            ],
+            "alignEn": [
+              "Is that",
+              "your",
+              "umbrella"
+            ],
+            "alignVi": [
+              "Đó",
+              "của bạn",
+              "có phải là ô"
             ]
           },
           {
@@ -1053,9 +1322,30 @@
                   "t": "です。"
                 }
               ]
+            ],
+            "alignEn": [
+              "No",
+              "it isn't",
+              "It's Mr. Tanaka's"
+            ],
+            "alignVi": [
+              "Không",
+              "không phải",
+              "Là của anh Tanaka"
             ]
           }
         ]
+      },
+      {
+        "kind": "section",
+        "title": {
+          "en": "Part 4 · 語彙",
+          "vi": "Phần 4 · 語彙"
+        },
+        "subtitle": {
+          "en": "The lesson's new words — then check yourself and review.",
+          "vi": "Từ mới của bài — sau đó tự kiểm tra và ôn tập."
+        }
       },
       {
         "kind": "vocab"
@@ -1268,6 +1558,17 @@
         ]
       },
       {
+        "kind": "section",
+        "title": {
+          "en": "Part 3 · 会話",
+          "vi": "Phần 3 · 会話"
+        },
+        "subtitle": {
+          "en": "The lesson in action — dialogues and reading practice.",
+          "vi": "Bài học trong thực tế — hội thoại và luyện đọc."
+        }
+      },
+      {
         "kind": "dialogue",
         "style": "conversational",
         "source": "lesson"
@@ -1300,6 +1601,14 @@
                   "t": "デパートです。"
                 }
               ]
+            ],
+            "alignEn": [
+              "This",
+              "is a department store"
+            ],
+            "alignVi": [
+              "Đây",
+              "là trung tâm thương mại"
             ]
           },
           {
@@ -1327,6 +1636,14 @@
                   "t": "です。"
                 }
               ]
+            ],
+            "alignEn": [
+              "The first floor",
+              "is a cafeteria"
+            ],
+            "alignVi": [
+              "Tầng một",
+              "là nhà ăn"
             ]
           },
           {
@@ -1352,6 +1669,14 @@
                   "t": "です。"
                 }
               ]
+            ],
+            "alignEn": [
+              "The toilet",
+              "is over there"
+            ],
+            "alignVi": [
+              "Nhà vệ sinh",
+              "ở đằng kia"
             ]
           },
           {
@@ -1377,6 +1702,14 @@
                   "t": "です。"
                 }
               ]
+            ],
+            "alignEn": [
+              "The elevator",
+              "is there"
+            ],
+            "alignVi": [
+              "Thang máy",
+              "ở đó"
             ]
           },
           {
@@ -1407,6 +1740,14 @@
                   "t": "です。"
                 }
               ]
+            ],
+            "alignEn": [
+              "The bag section",
+              "is on the second floor"
+            ],
+            "alignVi": [
+              "Khu bán cặp túi",
+              "ở tầng hai"
             ]
           }
         ]
@@ -1442,6 +1783,14 @@
                   "t": "ですか。"
                 }
               ]
+            ],
+            "alignEn": [
+              "the toilet",
+              "Where is"
+            ],
+            "alignVi": [
+              "Nhà vệ sinh",
+              "ở đâu"
             ]
           },
           {
@@ -1459,6 +1808,12 @@
                   "t": "です。"
                 }
               ]
+            ],
+            "alignEn": [
+              "Over there"
+            ],
+            "alignVi": [
+              "Ở đằng kia"
             ]
           },
           {
@@ -1486,6 +1841,14 @@
                   "t": "ですか。"
                 }
               ]
+            ],
+            "alignEn": [
+              "the cafeteria",
+              "What floor"
+            ],
+            "alignVi": [
+              "Nhà ăn",
+              "ở tầng mấy"
             ]
           },
           {
@@ -1504,9 +1867,26 @@
                   "t": "です。"
                 }
               ]
+            ],
+            "alignEn": [
+              "The first floor"
+            ],
+            "alignVi": [
+              "Tầng một"
             ]
           }
         ]
+      },
+      {
+        "kind": "section",
+        "title": {
+          "en": "Part 4 · 語彙",
+          "vi": "Phần 4 · 語彙"
+        },
+        "subtitle": {
+          "en": "The lesson's new words — then check yourself and review.",
+          "vi": "Từ mới của bài — sau đó tự kiểm tra và ôn tập."
+        }
       },
       {
         "kind": "vocab"
@@ -1720,6 +2100,17 @@
         ]
       },
       {
+        "kind": "section",
+        "title": {
+          "en": "Part 3 · 会話",
+          "vi": "Phần 3 · 会話"
+        },
+        "subtitle": {
+          "en": "The lesson in action — dialogues and reading practice.",
+          "vi": "Bài học trong thực tế — hội thoại và luyện đọc."
+        }
+      },
+      {
         "kind": "dialogue",
         "style": "conversational",
         "source": "lesson"
@@ -1767,6 +2158,16 @@
                   "t": "きます。"
                 }
               ]
+            ],
+            "alignEn": [
+              "Every morning",
+              "at six",
+              "I get up"
+            ],
+            "alignVi": [
+              "Mỗi sáng",
+              "lúc sáu giờ",
+              "tôi thức dậy"
             ]
           },
           {
@@ -1811,6 +2212,16 @@
                   "t": "きます。"
                 }
               ]
+            ],
+            "alignEn": [
+              "from nine",
+              "to five",
+              "I work"
+            ],
+            "alignVi": [
+              "từ chín giờ",
+              "đến năm giờ",
+              "Tôi làm việc"
             ]
           },
           {
@@ -1847,6 +2258,16 @@
                   "t": "します。"
                 }
               ]
+            ],
+            "alignEn": [
+              "In the evening",
+              "a little",
+              "I study"
+            ],
+            "alignVi": [
+              "Buổi tối",
+              "một chút",
+              "tôi học"
             ]
           },
           {
@@ -1878,6 +2299,14 @@
                   "t": "ます。"
                 }
               ]
+            ],
+            "alignEn": [
+              "at eleven",
+              "I go to bed"
+            ],
+            "alignVi": [
+              "lúc mười một giờ",
+              "Tôi đi ngủ"
             ]
           },
           {
@@ -1905,6 +2334,14 @@
                   "t": "みます。"
                 }
               ]
+            ],
+            "alignEn": [
+              "On Sundays",
+              "I rest"
+            ],
+            "alignVi": [
+              "Chủ nhật",
+              "tôi nghỉ ngơi"
             ]
           }
         ]
@@ -1939,6 +2376,14 @@
                   "t": "ですか。"
                 }
               ]
+            ],
+            "alignEn": [
+              "now",
+              "What time is it"
+            ],
+            "alignVi": [
+              "Bây giờ",
+              "là mấy giờ"
             ]
           },
           {
@@ -1965,6 +2410,12 @@
                   "t": "です。"
                 }
               ]
+            ],
+            "alignEn": [
+              "It's half past nine"
+            ],
+            "alignVi": [
+              "Chín giờ rưỡi"
             ]
           },
           {
@@ -2004,6 +2455,16 @@
                   "t": "ですか。"
                 }
               ]
+            ],
+            "alignEn": [
+              "the bank",
+              "From what time",
+              "to what time"
+            ],
+            "alignVi": [
+              "Ngân hàng",
+              "từ mấy giờ",
+              "đến mấy giờ"
             ]
           },
           {
@@ -2042,9 +2503,28 @@
                   "t": "です。"
                 }
               ]
+            ],
+            "alignEn": [
+              "From nine",
+              "to three"
+            ],
+            "alignVi": [
+              "Từ chín giờ",
+              "đến ba giờ"
             ]
           }
         ]
+      },
+      {
+        "kind": "section",
+        "title": {
+          "en": "Part 4 · 語彙",
+          "vi": "Phần 4 · 語彙"
+        },
+        "subtitle": {
+          "en": "The lesson's new words — then check yourself and review.",
+          "vi": "Từ mới của bài — sau đó tự kiểm tra và ôn tập."
+        }
       },
       {
         "kind": "vocab"
@@ -2258,6 +2738,17 @@
         ]
       },
       {
+        "kind": "section",
+        "title": {
+          "en": "Part 3 · 会話",
+          "vi": "Phần 3 · 会話"
+        },
+        "subtitle": {
+          "en": "The lesson in action — dialogues and reading practice.",
+          "vi": "Bài học trong thực tế — hội thoại và luyện đọc."
+        }
+      },
+      {
         "kind": "dialogue",
         "style": "conversational",
         "source": "lesson"
@@ -2313,6 +2804,18 @@
                   "t": "きます。"
                 }
               ]
+            ],
+            "alignEn": [
+              "On Sunday",
+              "with a friend",
+              "to Kyoto",
+              "I'm going"
+            ],
+            "alignVi": [
+              "Chủ nhật",
+              "cùng một người bạn",
+              "Kyoto",
+              "tôi đi"
             ]
           },
           {
@@ -2340,6 +2843,14 @@
                   "t": "きます。"
                 }
               ]
+            ],
+            "alignEn": [
+              "by train",
+              "We'll go"
+            ],
+            "alignVi": [
+              "bằng tàu điện",
+              "Chúng tôi đi"
             ]
           },
           {
@@ -2386,6 +2897,18 @@
                   "t": "ます。"
                 }
               ]
+            ],
+            "alignEn": [
+              "in the morning",
+              "at nine",
+              "to Tokyo Station",
+              "We come"
+            ],
+            "alignVi": [
+              "sáng",
+              "lúc chín giờ",
+              "ga Tokyo",
+              "Chúng tôi đến"
             ]
           },
           {
@@ -2421,6 +2944,16 @@
                   "t": "ります。"
                 }
               ]
+            ],
+            "alignEn": [
+              "At night",
+              "home",
+              "we return"
+            ],
+            "alignVi": [
+              "Buổi tối",
+              "nhà",
+              "chúng tôi trở về"
             ]
           }
         ]
@@ -2457,6 +2990,14 @@
                   "t": "きますか。"
                 }
               ]
+            ],
+            "alignEn": [
+              "Where",
+              "are you going"
+            ],
+            "alignVi": [
+              "đâu",
+              "Bạn đi"
             ]
           },
           {
@@ -2484,6 +3025,14 @@
                   "t": "きます。"
                 }
               ]
+            ],
+            "alignEn": [
+              "to Kyoto",
+              "I'm going"
+            ],
+            "alignVi": [
+              "Kyoto",
+              "Tôi đi"
             ]
           },
           {
@@ -2511,6 +3060,14 @@
                   "t": "きますか。"
                 }
               ]
+            ],
+            "alignEn": [
+              "How (by what)",
+              "are you going"
+            ],
+            "alignVi": [
+              "bằng gì",
+              "Bạn đi"
             ]
           },
           {
@@ -2538,6 +3095,14 @@
                   "t": "きます。"
                 }
               ]
+            ],
+            "alignEn": [
+              "By train",
+              null
+            ],
+            "alignVi": [
+              "Bằng tàu điện",
+              null
             ]
           },
           {
@@ -2565,6 +3130,14 @@
                   "t": "きますか。"
                 }
               ]
+            ],
+            "alignEn": [
+              "Who",
+              "are you going with"
+            ],
+            "alignVi": [
+              "với ai",
+              "Bạn đi"
             ]
           },
           {
@@ -2592,9 +3165,28 @@
                   "t": "きます。"
                 }
               ]
+            ],
+            "alignEn": [
+              "With a friend",
+              null
+            ],
+            "alignVi": [
+              "Với một người bạn",
+              null
             ]
           }
         ]
+      },
+      {
+        "kind": "section",
+        "title": {
+          "en": "Part 4 · 語彙",
+          "vi": "Phần 4 · 語彙"
+        },
+        "subtitle": {
+          "en": "The lesson's new words — then check yourself and review.",
+          "vi": "Từ mới của bài — sau đó tự kiểm tra và ôn tập."
+        }
       },
       {
         "kind": "vocab"
@@ -2808,6 +3400,17 @@
         ]
       },
       {
+        "kind": "section",
+        "title": {
+          "en": "Part 3 · 会話",
+          "vi": "Phần 3 · 会話"
+        },
+        "subtitle": {
+          "en": "The lesson in action — dialogues and reading practice.",
+          "vi": "Bài học trong thực tế — hội thoại và luyện đọc."
+        }
+      },
+      {
         "kind": "dialogue",
         "style": "conversational",
         "source": "lesson"
@@ -2863,6 +3466,18 @@
                   "t": "みます。"
                 }
               ]
+            ],
+            "alignEn": [
+              "On Sunday",
+              "at the library",
+              "books",
+              "I read"
+            ],
+            "alignVi": [
+              "Chủ nhật",
+              "ở thư viện",
+              "sách",
+              "tôi đọc"
             ]
           },
           {
@@ -2906,6 +3521,18 @@
                   "t": "べます。"
                 }
               ]
+            ],
+            "alignEn": [
+              "Then",
+              "at the park",
+              "bread",
+              "I eat"
+            ],
+            "alignVi": [
+              "Sau đó",
+              "ở công viên",
+              "bánh mì",
+              "tôi ăn"
             ]
           },
           {
@@ -2950,6 +3577,18 @@
                   "t": "ます。"
                 }
               ]
+            ],
+            "alignEn": [
+              "At night",
+              "at home",
+              "a movie",
+              "I watch"
+            ],
+            "alignVi": [
+              "Buổi tối",
+              "ở nhà",
+              "phim",
+              "tôi xem"
             ]
           }
         ]
@@ -2992,6 +3631,16 @@
                   "t": "しますか。"
                 }
               ]
+            ],
+            "alignEn": [
+              "at the library",
+              "What",
+              "do you do"
+            ],
+            "alignVi": [
+              "ở thư viện",
+              "gì",
+              "Bạn làm"
             ]
           },
           {
@@ -3019,6 +3668,14 @@
                   "t": "みます。"
                 }
               ]
+            ],
+            "alignEn": [
+              "books",
+              "I read"
+            ],
+            "alignVi": [
+              "sách",
+              "Tôi đọc"
             ]
           },
           {
@@ -3055,6 +3712,16 @@
                   "t": "ませんか。"
                 }
               ]
+            ],
+            "alignEn": [
+              "with me",
+              "a movie",
+              "Won't you watch"
+            ],
+            "alignVi": [
+              "với mình",
+              "phim",
+              "Bạn xem"
             ]
           },
           {
@@ -3078,9 +3745,28 @@
                   "t": "ましょう。"
                 }
               ]
+            ],
+            "alignEn": [
+              "Sounds good",
+              "Let's watch"
+            ],
+            "alignVi": [
+              "Hay đấy",
+              "Cùng xem nào"
             ]
           }
         ]
+      },
+      {
+        "kind": "section",
+        "title": {
+          "en": "Part 4 · 語彙",
+          "vi": "Phần 4 · 語彙"
+        },
+        "subtitle": {
+          "en": "The lesson's new words — then check yourself and review.",
+          "vi": "Từ mới của bài — sau đó tự kiểm tra và ôn tập."
+        }
       },
       {
         "kind": "vocab"
@@ -3309,6 +3995,17 @@
         ]
       },
       {
+        "kind": "section",
+        "title": {
+          "en": "Part 3 · 会話",
+          "vi": "Phần 3 · 会話"
+        },
+        "subtitle": {
+          "en": "The lesson in action — dialogues and reading practice.",
+          "vi": "Bài học trong thực tế — hội thoại và luyện đọc."
+        }
+      },
+      {
         "kind": "dialogue",
         "style": "conversational",
         "source": "lesson"
@@ -3363,6 +4060,18 @@
                   "t": "あげます。"
                 }
               ]
+            ],
+            "alignEn": [
+              "Today",
+              "to Mr. Yamada",
+              "flowers",
+              "I give"
+            ],
+            "alignVi": [
+              "Hôm nay",
+              "cho anh Yamada",
+              "hoa",
+              "tôi tặng"
             ]
           },
           {
@@ -3399,6 +4108,16 @@
                   "t": "きます。"
                 }
               ]
+            ],
+            "alignEn": [
+              "in Japanese",
+              "the letter",
+              "I write"
+            ],
+            "alignVi": [
+              "bằng tiếng Nhật",
+              "thư",
+              "Tôi viết"
             ]
           },
           {
@@ -3431,6 +4150,16 @@
                   "t": "きました。"
                 }
               ]
+            ],
+            "alignEn": [
+              "already",
+              "the letter",
+              "written"
+            ],
+            "alignVi": [
+              "rồi",
+              "lá thư",
+              "Tôi đã viết xong"
             ]
           },
           {
@@ -3474,6 +4203,18 @@
                   "t": "もらいます。"
                 }
               ]
+            ],
+            "alignEn": [
+              "Mr. Yamada",
+              "from a friend",
+              "a present",
+              "receives"
+            ],
+            "alignVi": [
+              "Anh Yamada",
+              "từ một người bạn",
+              "quà",
+              "nhận"
             ]
           }
         ]
@@ -3511,6 +4252,14 @@
                   "t": "べますか。"
                 }
               ]
+            ],
+            "alignEn": [
+              "What",
+              "do you eat with"
+            ],
+            "alignVi": [
+              "bằng gì",
+              "Bạn ăn"
             ]
           },
           {
@@ -3537,6 +4286,14 @@
                   "t": "べます。"
                 }
               ]
+            ],
+            "alignEn": [
+              "With chopsticks",
+              null
+            ],
+            "alignVi": [
+              "Bằng đũa",
+              null
             ]
           },
           {
@@ -3569,6 +4326,16 @@
                   "t": "あげますか。"
                 }
               ]
+            ],
+            "alignEn": [
+              "Who",
+              "the flowers",
+              "do you give"
+            ],
+            "alignVi": [
+              "cho ai",
+              "hoa",
+              "Bạn tặng"
             ]
           },
           {
@@ -3595,6 +4362,14 @@
                   "t": "あげます。"
                 }
               ]
+            ],
+            "alignEn": [
+              "To Mr. Yamada",
+              null
+            ],
+            "alignVi": [
+              "Cho anh Yamada",
+              null
             ]
           },
           {
@@ -3627,6 +4402,16 @@
                   "t": "べましたか。"
                 }
               ]
+            ],
+            "alignEn": [
+              "yet",
+              "lunch",
+              "Have you eaten"
+            ],
+            "alignVi": [
+              null,
+              "trưa",
+              "Bạn đã ăn"
             ]
           },
           {
@@ -3655,9 +4440,30 @@
                   "t": "べました。"
                 }
               ]
+            ],
+            "alignEn": [
+              "Yes",
+              "already",
+              "ate"
+            ],
+            "alignVi": [
+              "Vâng",
+              "rồi",
+              "tôi ăn"
             ]
           }
         ]
+      },
+      {
+        "kind": "section",
+        "title": {
+          "en": "Part 4 · 語彙",
+          "vi": "Phần 4 · 語彙"
+        },
+        "subtitle": {
+          "en": "The lesson's new words — then check yourself and review.",
+          "vi": "Từ mới của bài — sau đó tự kiểm tra và ôn tập."
+        }
       },
       {
         "kind": "vocab"
@@ -3886,6 +4692,17 @@
         ]
       },
       {
+        "kind": "section",
+        "title": {
+          "en": "Part 3 · 会話",
+          "vi": "Phần 3 · 会話"
+        },
+        "subtitle": {
+          "en": "The lesson in action — dialogues and reading practice.",
+          "vi": "Bài học trong thực tế — hội thoại và luyện đọc."
+        }
+      },
+      {
         "kind": "dialogue",
         "style": "conversational",
         "source": "lesson"
@@ -3931,6 +4748,16 @@
                   "t": "かです。"
                 }
               ]
+            ],
+            "alignEn": [
+              "My",
+              "town",
+              "is quiet"
+            ],
+            "alignVi": [
+              "của tôi",
+              "Thị trấn",
+              "yên tĩnh"
             ]
           },
           {
@@ -3969,6 +4796,16 @@
                   "t": "です。"
                 }
               ]
+            ],
+            "alignEn": [
+              "It's quiet, but",
+              "very",
+              "convenient"
+            ],
+            "alignVi": [
+              "Yên tĩnh nhưng",
+              "rất",
+              "tiện lợi"
             ]
           },
           {
@@ -4000,6 +4837,16 @@
                   "t": "きれいです。"
                 }
               ]
+            ],
+            "alignEn": [
+              "new",
+              "restaurant",
+              "is pretty"
+            ],
+            "alignVi": [
+              "mới",
+              "Nhà hàng",
+              "rất đẹp"
             ]
           },
           {
@@ -4047,6 +4894,18 @@
                   "t": "いです。"
                 }
               ]
+            ],
+            "alignEn": [
+              "The food",
+              "is delicious, but",
+              "a little",
+              "expensive"
+            ],
+            "alignVi": [
+              "Món ăn",
+              "ngon nhưng",
+              "hơi",
+              "đắt"
             ]
           }
         ]
@@ -4092,6 +4951,16 @@
                   "t": "かですか。"
                 }
               ]
+            ],
+            "alignEn": [
+              "your",
+              "town",
+              "quiet"
+            ],
+            "alignVi": [
+              "của bạn",
+              "Thị trấn",
+              "có yên tĩnh không"
             ]
           },
           {
@@ -4129,6 +4998,18 @@
                   "t": "です。"
                 }
               ]
+            ],
+            "alignEn": [
+              "Yes",
+              "it's quiet",
+              "But",
+              "it's convenient too"
+            ],
+            "alignVi": [
+              "Vâng",
+              "yên tĩnh",
+              "Nhưng",
+              "cũng tiện lợi"
             ]
           },
           {
@@ -4156,6 +5037,16 @@
                   "t": "どうですか。"
                 }
               ]
+            ],
+            "alignEn": [
+              "this",
+              "coffee",
+              "How is"
+            ],
+            "alignVi": [
+              "này",
+              "Cà phê",
+              "thế nào"
             ]
           },
           {
@@ -4185,9 +5076,28 @@
                   "t": "おいしいです。"
                 }
               ]
+            ],
+            "alignEn": [
+              "It's hot, but",
+              "delicious"
+            ],
+            "alignVi": [
+              "Nóng nhưng",
+              "ngon"
             ]
           }
         ]
+      },
+      {
+        "kind": "section",
+        "title": {
+          "en": "Part 4 · 語彙",
+          "vi": "Phần 4 · 語彙"
+        },
+        "subtitle": {
+          "en": "The lesson's new words — then check yourself and review.",
+          "vi": "Từ mới của bài — sau đó tự kiểm tra và ôn tập."
+        }
       },
       {
         "kind": "vocab"
@@ -4401,6 +5311,17 @@
         ]
       },
       {
+        "kind": "section",
+        "title": {
+          "en": "Part 3 · 会話",
+          "vi": "Phần 3 · 会話"
+        },
+        "subtitle": {
+          "en": "The lesson in action — dialogues and reading practice.",
+          "vi": "Bài học trong thực tế — hội thoại và luyện đọc."
+        }
+      },
+      {
         "kind": "dialogue",
         "style": "conversational",
         "source": "lesson"
@@ -4446,6 +5367,16 @@
                   "t": "きです。"
                 }
               ]
+            ],
+            "alignEn": [
+              "I",
+              "music",
+              "like"
+            ],
+            "alignVi": [
+              "Tôi",
+              "âm nhạc",
+              "thích"
             ]
           },
           {
@@ -4473,6 +5404,14 @@
                   "t": "きです。"
                 }
               ]
+            ],
+            "alignEn": [
+              "cooking too",
+              "I like"
+            ],
+            "alignVi": [
+              "nấu ăn",
+              "Tôi cũng thích"
             ]
           },
           {
@@ -4509,6 +5448,18 @@
                   "t": "きじゃありません。"
                 }
               ]
+            ],
+            "alignEn": [
+              "But",
+              "sports",
+              "very much",
+              "I don't like"
+            ],
+            "alignVi": [
+              "Nhưng",
+              "thể thao",
+              "lắm",
+              "tôi không thích"
             ]
           },
           {
@@ -4541,6 +5492,16 @@
                   "t": "わかります。"
                 }
               ]
+            ],
+            "alignEn": [
+              "Japanese",
+              "a little",
+              "I understand"
+            ],
+            "alignVi": [
+              "tiếng Nhật",
+              "một chút",
+              "Tôi hiểu"
             ]
           }
         ]
@@ -4583,6 +5544,16 @@
                   "t": "きですか。"
                 }
               ]
+            ],
+            "alignEn": [
+              "What kind of",
+              "music",
+              "do you like"
+            ],
+            "alignVi": [
+              "nào",
+              "loại nhạc",
+              "Bạn thích"
             ]
           },
           {
@@ -4609,6 +5580,14 @@
                   "t": "きです。"
                 }
               ]
+            ],
+            "alignEn": [
+              "jazz",
+              "I like"
+            ],
+            "alignVi": [
+              "nhạc jazz",
+              "Tôi thích"
             ]
           },
           {
@@ -4632,6 +5611,14 @@
                   "t": "わかりますか。"
                 }
               ]
+            ],
+            "alignEn": [
+              "Japanese",
+              "Do you understand"
+            ],
+            "alignVi": [
+              "tiếng Nhật",
+              "Bạn có hiểu"
             ]
           },
           {
@@ -4660,6 +5647,16 @@
                   "t": "わかります。"
                 }
               ]
+            ],
+            "alignEn": [
+              "Yes",
+              "a little",
+              null
+            ],
+            "alignVi": [
+              "Vâng",
+              "một chút",
+              null
             ]
           },
           {
@@ -4692,6 +5689,16 @@
                   "t": "みませんか。"
                 }
               ]
+            ],
+            "alignEn": [
+              "Why",
+              "the newspaper",
+              "don't you read"
+            ],
+            "alignVi": [
+              "Tại sao",
+              "báo",
+              "bạn không đọc"
             ]
           },
           {
@@ -4715,9 +5722,28 @@
                   "t": "ありませんから。"
                 }
               ]
+            ],
+            "alignEn": [
+              "time",
+              "Because I don't have"
+            ],
+            "alignVi": [
+              "thời gian",
+              "Vì tôi không có"
             ]
           }
         ]
+      },
+      {
+        "kind": "section",
+        "title": {
+          "en": "Part 4 · 語彙",
+          "vi": "Phần 4 · 語彙"
+        },
+        "subtitle": {
+          "en": "The lesson's new words — then check yourself and review.",
+          "vi": "Từ mới của bài — sau đó tự kiểm tra và ôn tập."
+        }
       },
       {
         "kind": "vocab"
@@ -4873,6 +5899,16 @@
                   "t": "か。"
                 }
               ]
+            ],
+            "alignEn": [
+              "in the room",
+              "What",
+              "is"
+            ],
+            "alignVi": [
+              "Trong phòng",
+              "gì",
+              "có"
             ]
           },
           {
@@ -4905,6 +5941,16 @@
                   "t": "あります。"
                 }
               ]
+            ],
+            "alignEn": [
+              "a desk and",
+              "a chair",
+              "There is"
+            ],
+            "alignVi": [
+              "một cái bàn và",
+              "một cái ghế",
+              "Có"
             ]
           },
           {
@@ -4931,6 +5977,14 @@
                   "t": "か。"
                 }
               ]
+            ],
+            "alignEn": [
+              "a cat too",
+              "Is there"
+            ],
+            "alignVi": [
+              "cả mèo nữa",
+              "Có"
             ]
           },
           {
@@ -4959,6 +6013,16 @@
                   "t": "います。"
                 }
               ]
+            ],
+            "alignEn": [
+              "Yes",
+              "a cat",
+              "there is"
+            ],
+            "alignVi": [
+              "Vâng",
+              "một con mèo",
+              "có"
             ]
           }
         ]
@@ -5034,6 +6098,17 @@
         ]
       },
       {
+        "kind": "section",
+        "title": {
+          "en": "Part 3 · 会話",
+          "vi": "Phần 3 · 会話"
+        },
+        "subtitle": {
+          "en": "The lesson in action — dialogues and reading practice.",
+          "vi": "Bài học trong thực tế — hội thoại và luyện đọc."
+        }
+      },
+      {
         "kind": "dialogue",
         "style": "paragraph",
         "title": {
@@ -5080,6 +6155,18 @@
                   "t": "あります。"
                 }
               ]
+            ],
+            "alignEn": [
+              "my",
+              "room",
+              "a desk",
+              "There is"
+            ],
+            "alignVi": [
+              "tôi",
+              "Trong phòng",
+              "một cái bàn",
+              "có"
             ]
           },
           {
@@ -5121,6 +6208,18 @@
                   "t": "あります。"
                 }
               ]
+            ],
+            "alignEn": [
+              "the desk",
+              "On",
+              "books",
+              "there are"
+            ],
+            "alignVi": [
+              "bàn",
+              "Trên",
+              "sách",
+              "có"
             ]
           },
           {
@@ -5162,6 +6261,18 @@
                   "t": "あります。"
                 }
               ]
+            ],
+            "alignEn": [
+              "the desk",
+              "Under",
+              "a bag",
+              "there is"
+            ],
+            "alignVi": [
+              "bàn",
+              "Dưới",
+              "một cái cặp",
+              "có"
             ]
           },
           {
@@ -5203,6 +6314,18 @@
                   "t": "います。"
                 }
               ]
+            ],
+            "alignEn": [
+              "the chair",
+              "In front of",
+              "a cat",
+              "there is"
+            ],
+            "alignVi": [
+              "ghế",
+              "Trước",
+              "một con mèo",
+              "có"
             ]
           }
         ]
@@ -5247,6 +6370,16 @@
                   "t": "か。"
                 }
               ]
+            ],
+            "alignEn": [
+              "the books",
+              "Where",
+              "are"
+            ],
+            "alignVi": [
+              "Sách",
+              "đâu",
+              "ở"
             ]
           },
           {
@@ -5279,6 +6412,16 @@
                   "t": "あります。"
                 }
               ]
+            ],
+            "alignEn": [
+              "the desk",
+              "on",
+              "They are"
+            ],
+            "alignVi": [
+              "bàn",
+              "trên",
+              "Ở"
             ]
           },
           {
@@ -5313,6 +6456,16 @@
                   "t": "か。"
                 }
               ]
+            ],
+            "alignEn": [
+              "the cat",
+              "Where",
+              "is"
+            ],
+            "alignVi": [
+              "Con mèo",
+              "đâu",
+              "ở"
             ]
           },
           {
@@ -5345,6 +6498,16 @@
                   "t": "います。"
                 }
               ]
+            ],
+            "alignEn": [
+              "the chair",
+              "in front of",
+              "It is"
+            ],
+            "alignVi": [
+              "ghế",
+              "trước",
+              "Ở"
             ]
           }
         ]
@@ -5388,6 +6551,17 @@
             }
           }
         ]
+      },
+      {
+        "kind": "section",
+        "title": {
+          "en": "Part 4 · 語彙",
+          "vi": "Phần 4 · 語彙"
+        },
+        "subtitle": {
+          "en": "The lesson's new words — then check yourself and review.",
+          "vi": "Từ mới của bài — sau đó tự kiểm tra và ôn tập."
+        }
       },
       {
         "kind": "vocab"
@@ -5600,6 +6774,17 @@
         ]
       },
       {
+        "kind": "section",
+        "title": {
+          "en": "Part 3 · 会話",
+          "vi": "Phần 3 · 会話"
+        },
+        "subtitle": {
+          "en": "The lesson in action — dialogues and reading practice.",
+          "vi": "Bài học trong thực tế — hội thoại và luyện đọc."
+        }
+      },
+      {
         "kind": "dialogue",
         "style": "conversational",
         "source": "lesson"
@@ -5655,6 +6840,20 @@
                   "t": "します。"
                 }
               ]
+            ],
+            "alignEn": [
+              "I",
+              "a week",
+              "twice",
+              "tennis",
+              "play"
+            ],
+            "alignVi": [
+              "Tôi",
+              "một tuần",
+              "hai lần",
+              "tennis",
+              "chơi"
             ]
           },
           {
@@ -5696,6 +6895,18 @@
                   "t": "います。"
                 }
               ]
+            ],
+            "alignEn": [
+              "On Sunday",
+              "apples",
+              "three",
+              "I buy"
+            ],
+            "alignVi": [
+              "Chủ nhật",
+              "quả táo",
+              "ba",
+              "tôi mua"
             ]
           },
           {
@@ -5737,6 +6948,18 @@
                   "t": "います。"
                 }
               ]
+            ],
+            "alignEn": [
+              "Then",
+              "stamps",
+              "five",
+              "I buy"
+            ],
+            "alignVi": [
+              "Sau đó",
+              "con tem",
+              "năm",
+              "tôi mua"
             ]
           }
         ]
@@ -5778,6 +7001,16 @@
                   "t": "いますか。"
                 }
               ]
+            ],
+            "alignEn": [
+              "apples",
+              "How many",
+              "do you buy"
+            ],
+            "alignVi": [
+              "quả táo",
+              "mấy",
+              "Bạn mua"
             ]
           },
           {
@@ -5802,6 +7035,14 @@
                   "t": "います。"
                 }
               ]
+            ],
+            "alignEn": [
+              "three",
+              "I buy"
+            ],
+            "alignVi": [
+              "ba quả",
+              "Tôi mua"
             ]
           },
           {
@@ -5839,6 +7080,18 @@
                   "t": "しますか。"
                 }
               ]
+            ],
+            "alignEn": [
+              "a week",
+              "How many times",
+              "tennis",
+              "do you play"
+            ],
+            "alignVi": [
+              "Một tuần",
+              "mấy lần",
+              "tennis",
+              "bạn chơi"
             ]
           },
           {
@@ -5859,9 +7112,28 @@
                   "t": "します。"
                 }
               ]
+            ],
+            "alignEn": [
+              "Twice",
+              null
+            ],
+            "alignVi": [
+              "Hai lần",
+              null
             ]
           }
         ]
+      },
+      {
+        "kind": "section",
+        "title": {
+          "en": "Part 4 · 語彙",
+          "vi": "Phần 4 · 語彙"
+        },
+        "subtitle": {
+          "en": "The lesson's new words — then check yourself and review.",
+          "vi": "Từ mới của bài — sau đó tự kiểm tra và ôn tập."
+        }
       },
       {
         "kind": "vocab"
@@ -6075,6 +7347,17 @@
         ]
       },
       {
+        "kind": "section",
+        "title": {
+          "en": "Part 3 · 会話",
+          "vi": "Phần 3 · 会話"
+        },
+        "subtitle": {
+          "en": "The lesson in action — dialogues and reading practice.",
+          "vi": "Bài học trong thực tế — hội thoại và luyện đọc."
+        }
+      },
+      {
         "kind": "dialogue",
         "style": "conversational",
         "source": "lesson"
@@ -6121,6 +7404,16 @@
                   "t": "きました。"
                 }
               ]
+            ],
+            "alignEn": [
+              "Last week",
+              "to Kyoto",
+              "I went"
+            ],
+            "alignVi": [
+              "Tuần trước",
+              "Kyoto",
+              "tôi đã đi"
             ]
           },
           {
@@ -6153,6 +7446,16 @@
                   "t": "しかったです。"
                 }
               ]
+            ],
+            "alignEn": [
+              "The trip",
+              "very",
+              "fun"
+            ],
+            "alignVi": [
+              "Chuyến đi",
+              "rất",
+              "vui"
             ]
           },
           {
@@ -6189,6 +7492,16 @@
                   "t": "かでした。"
                 }
               ]
+            ],
+            "alignEn": [
+              "Kyoto",
+              "than Tokyo",
+              "was quieter"
+            ],
+            "alignVi": [
+              "Kyoto",
+              "hơn Tokyo",
+              "yên tĩnh"
             ]
           },
           {
@@ -6229,6 +7542,18 @@
                   "t": "きれいでした。"
                 }
               ]
+            ],
+            "alignEn": [
+              "In Kyoto",
+              "the temples",
+              "the most",
+              "beautiful"
+            ],
+            "alignVi": [
+              "Ở Kyoto",
+              "những ngôi chùa",
+              "nhất",
+              "đẹp"
             ]
           }
         ]
@@ -6262,6 +7587,14 @@
                   "t": "どうでしたか。"
                 }
               ]
+            ],
+            "alignEn": [
+              "the trip",
+              "How was"
+            ],
+            "alignVi": [
+              "Chuyến đi",
+              "thế nào"
             ]
           },
           {
@@ -6285,6 +7618,14 @@
                   "t": "しかったです。"
                 }
               ]
+            ],
+            "alignEn": [
+              "very",
+              "fun"
+            ],
+            "alignVi": [
+              "Rất",
+              "vui"
             ]
           },
           {
@@ -6329,6 +7670,18 @@
                   "t": "いですか。"
                 }
               ]
+            ],
+            "alignEn": [
+              "a plane or",
+              "a train",
+              "Which is",
+              "faster"
+            ],
+            "alignVi": [
+              "Máy bay và",
+              "tàu điện",
+              "cái nào",
+              "nhanh hơn"
             ]
           },
           {
@@ -6362,9 +7715,28 @@
                   "t": "いです。"
                 }
               ]
+            ],
+            "alignEn": [
+              "The plane",
+              "is faster"
+            ],
+            "alignVi": [
+              "Máy bay",
+              "nhanh hơn"
             ]
           }
         ]
+      },
+      {
+        "kind": "section",
+        "title": {
+          "en": "Part 4 · 語彙",
+          "vi": "Phần 4 · 語彙"
+        },
+        "subtitle": {
+          "en": "The lesson's new words — then check yourself and review.",
+          "vi": "Từ mới của bài — sau đó tự kiểm tra và ôn tập."
+        }
       },
       {
         "kind": "vocab"
@@ -6563,6 +7935,17 @@
         ]
       },
       {
+        "kind": "section",
+        "title": {
+          "en": "Part 3 · 会話",
+          "vi": "Phần 3 · 会話"
+        },
+        "subtitle": {
+          "en": "The lesson in action — dialogues and reading practice.",
+          "vi": "Bài học trong thực tế — hội thoại và luyện đọc."
+        }
+      },
+      {
         "kind": "dialogue",
         "style": "conversational",
         "source": "lesson"
@@ -6612,6 +7995,18 @@
                   "t": "ほしいです。"
                 }
               ]
+            ],
+            "alignEn": [
+              "I",
+              "new",
+              "computer",
+              "want"
+            ],
+            "alignVi": [
+              "Tôi",
+              "mới",
+              "máy tính",
+              "muốn có"
             ]
           },
           {
@@ -6651,6 +8046,16 @@
                   "t": "きたいです。"
                 }
               ]
+            ],
+            "alignEn": [
+              "In the summer holidays",
+              "to Okinawa",
+              "I want to go"
+            ],
+            "alignVi": [
+              "Nghỉ hè",
+              "Okinawa",
+              "tôi muốn đi"
             ]
           },
           {
@@ -6678,6 +8083,14 @@
                   "t": "ぎたいです。"
                 }
               ]
+            ],
+            "alignEn": [
+              "in the sea",
+              "I want to swim"
+            ],
+            "alignVi": [
+              "ở biển",
+              "Tôi muốn bơi"
             ]
           },
           {
@@ -6725,6 +8138,18 @@
                   "t": "きます。"
                 }
               ]
+            ],
+            "alignEn": [
+              "to the department store",
+              "a swimsuit",
+              "to buy",
+              "I'll go"
+            ],
+            "alignVi": [
+              "trung tâm thương mại",
+              "đồ bơi",
+              "để mua",
+              "Tôi sẽ đến"
             ]
           }
         ]
@@ -6758,6 +8183,14 @@
                   "t": "ほしいですか。"
                 }
               ]
+            ],
+            "alignEn": [
+              "What",
+              "do you want"
+            ],
+            "alignVi": [
+              "gì",
+              "Bạn muốn"
             ]
           },
           {
@@ -6789,6 +8222,16 @@
                   "t": "ほしいです。"
                 }
               ]
+            ],
+            "alignEn": [
+              "new",
+              "computer",
+              "I want"
+            ],
+            "alignVi": [
+              "mới",
+              "máy tính",
+              "Tôi muốn"
             ]
           },
           {
@@ -6815,6 +8258,14 @@
                   "t": "きたいですか。"
                 }
               ]
+            ],
+            "alignEn": [
+              "Where",
+              "do you want to go"
+            ],
+            "alignVi": [
+              "đâu",
+              "Bạn muốn đi"
             ]
           },
           {
@@ -6842,9 +8293,28 @@
                   "t": "きたいです。"
                 }
               ]
+            ],
+            "alignEn": [
+              "to Okinawa",
+              "I want to go"
+            ],
+            "alignVi": [
+              "Okinawa",
+              "Tôi muốn đi"
             ]
           }
         ]
+      },
+      {
+        "kind": "section",
+        "title": {
+          "en": "Part 4 · 語彙",
+          "vi": "Phần 4 · 語彙"
+        },
+        "subtitle": {
+          "en": "The lesson's new words — then check yourself and review.",
+          "vi": "Từ mới của bài — sau đó tự kiểm tra và ôn tập."
+        }
       },
       {
         "kind": "vocab"
@@ -7043,6 +8513,17 @@
         ]
       },
       {
+        "kind": "section",
+        "title": {
+          "en": "Part 3 · 会話",
+          "vi": "Phần 3 · 会話"
+        },
+        "subtitle": {
+          "en": "The lesson in action — dialogues and reading practice.",
+          "vi": "Bài học trong thực tế — hội thoại và luyện đọc."
+        }
+      },
+      {
         "kind": "dialogue",
         "style": "conversational",
         "source": "lesson"
@@ -7089,6 +8570,16 @@
                   "t": "っています。"
                 }
               ]
+            ],
+            "alignEn": [
+              "now",
+              null,
+              "It's raining"
+            ],
+            "alignVi": [
+              "Bây giờ",
+              "trời",
+              "đang mưa"
             ]
           },
           {
@@ -7133,6 +8624,18 @@
                   "t": "んでいます。"
                 }
               ]
+            ],
+            "alignEn": [
+              "I'm",
+              "in my room",
+              "a book",
+              "reading"
+            ],
+            "alignVi": [
+              "Tôi",
+              "trong phòng",
+              "sách",
+              "đang đọc"
             ]
           },
           {
@@ -7168,6 +8671,16 @@
                   "t": "ています。"
                 }
               ]
+            ],
+            "alignEn": [
+              "My little brother",
+              "TV",
+              "is watching"
+            ],
+            "alignVi": [
+              "Em trai tôi",
+              "tivi",
+              "đang xem"
             ]
           },
           {
@@ -7213,6 +8726,18 @@
                   "t": "っています。"
                 }
               ]
+            ],
+            "alignEn": [
+              "My mother",
+              "in the kitchen",
+              null,
+              "is cooking"
+            ],
+            "alignVi": [
+              "Mẹ tôi",
+              "trong bếp",
+              null,
+              "đang nấu ăn"
             ]
           }
         ]
@@ -7252,6 +8777,16 @@
                   "t": "していますか。"
                 }
               ]
+            ],
+            "alignEn": [
+              "now",
+              "What",
+              "are you doing"
+            ],
+            "alignVi": [
+              "Bây giờ",
+              "gì",
+              "bạn đang làm"
             ]
           },
           {
@@ -7279,6 +8814,14 @@
                   "t": "んでいます。"
                 }
               ]
+            ],
+            "alignEn": [
+              "a book",
+              "I'm reading"
+            ],
+            "alignVi": [
+              "sách",
+              "Tôi đang đọc"
             ]
           },
           {
@@ -7314,6 +8857,16 @@
                   "t": "いてください。"
                 }
               ]
+            ],
+            "alignEn": [
+              "here",
+              "your name",
+              "Please write"
+            ],
+            "alignVi": [
+              "vào đây",
+              "tên",
+              "Vui lòng viết"
             ]
           },
           {
@@ -7333,9 +8886,28 @@
                   "t": "わかりました。"
                 }
               ]
+            ],
+            "alignEn": [
+              "Yes",
+              "understood"
+            ],
+            "alignVi": [
+              "Vâng",
+              "tôi hiểu rồi"
             ]
           }
         ]
+      },
+      {
+        "kind": "section",
+        "title": {
+          "en": "Part 4 · 語彙",
+          "vi": "Phần 4 · 語彙"
+        },
+        "subtitle": {
+          "en": "The lesson's new words — then check yourself and review.",
+          "vi": "Từ mới của bài — sau đó tự kiểm tra và ôn tập."
+        }
       },
       {
         "kind": "vocab"
@@ -7534,6 +9106,17 @@
         ]
       },
       {
+        "kind": "section",
+        "title": {
+          "en": "Part 3 · 会話",
+          "vi": "Phần 3 · 会話"
+        },
+        "subtitle": {
+          "en": "The lesson in action — dialogues and reading practice.",
+          "vi": "Bài học trong thực tế — hội thoại và luyện đọc."
+        }
+      },
+      {
         "kind": "dialogue",
         "style": "conversational",
         "source": "lesson"
@@ -7579,6 +9162,16 @@
                   "t": "ってもいいです。"
                 }
               ]
+            ],
+            "alignEn": [
+              "here",
+              "photos",
+              "You may take"
+            ],
+            "alignVi": [
+              "ở đây",
+              "ảnh",
+              "Bạn có thể chụp"
             ]
           },
           {
@@ -7613,6 +9206,16 @@
                   "t": "ってはいけません。"
                 }
               ]
+            ],
+            "alignEn": [
+              "But",
+              null,
+              "you must not smoke"
+            ],
+            "alignVi": [
+              "Nhưng",
+              "thuốc",
+              "bạn không được hút"
             ]
           },
           {
@@ -7649,6 +9252,16 @@
                   "t": "いています。"
                 }
               ]
+            ],
+            "alignEn": [
+              "My father",
+              "at a bank",
+              "works"
+            ],
+            "alignVi": [
+              "Bố tôi",
+              "ở ngân hàng",
+              "làm việc"
             ]
           },
           {
@@ -7684,6 +9297,16 @@
                   "t": "んでいます。"
                 }
               ]
+            ],
+            "alignEn": [
+              "I",
+              "in Osaka",
+              "live"
+            ],
+            "alignVi": [
+              "Tôi",
+              "ở Osaka",
+              "sống"
             ]
           }
         ]
@@ -7729,6 +9352,16 @@
                   "t": "ってもいいですか。"
                 }
               ]
+            ],
+            "alignEn": [
+              "here",
+              "photos",
+              "May I take"
+            ],
+            "alignVi": [
+              "ở đây",
+              "ảnh",
+              "Tôi chụp"
             ]
           },
           {
@@ -7748,6 +9381,14 @@
                   "t": "いいですよ。"
                 }
               ]
+            ],
+            "alignEn": [
+              "Yes",
+              "you may"
+            ],
+            "alignVi": [
+              "Vâng",
+              "được ạ"
             ]
           },
           {
@@ -7774,6 +9415,14 @@
                   "t": "ってもいいですか。"
                 }
               ]
+            ],
+            "alignEn": [
+              null,
+              "May I smoke"
+            ],
+            "alignVi": [
+              "thuốc",
+              "Tôi hút"
             ]
           },
           {
@@ -7797,9 +9446,28 @@
                   "t": "ってはいけません。"
                 }
               ]
+            ],
+            "alignEn": [
+              "No",
+              "you must not smoke"
+            ],
+            "alignVi": [
+              "Không",
+              "bạn không được hút thuốc"
             ]
           }
         ]
+      },
+      {
+        "kind": "section",
+        "title": {
+          "en": "Part 4 · 語彙",
+          "vi": "Phần 4 · 語彙"
+        },
+        "subtitle": {
+          "en": "The lesson's new words — then check yourself and review.",
+          "vi": "Từ mới của bài — sau đó tự kiểm tra và ôn tập."
+        }
       },
       {
         "kind": "vocab"
@@ -8013,6 +9681,17 @@
         ]
       },
       {
+        "kind": "section",
+        "title": {
+          "en": "Part 3 · 会話",
+          "vi": "Phần 3 · 会話"
+        },
+        "subtitle": {
+          "en": "The lesson in action — dialogues and reading practice.",
+          "vi": "Bài học trong thực tế — hội thoại và luyện đọc."
+        }
+      },
+      {
         "kind": "dialogue",
         "style": "conversational",
         "source": "lesson"
@@ -8068,6 +9747,18 @@
                   "t": "います。"
                 }
               ]
+            ],
+            "alignEn": [
+              "in the morning",
+              "I get up",
+              "my face",
+              "wash"
+            ],
+            "alignVi": [
+              "Buổi sáng",
+              "tôi thức dậy",
+              "mặt",
+              "rửa"
             ]
           },
           {
@@ -8116,6 +9807,18 @@
                   "t": "きます。"
                 }
               ]
+            ],
+            "alignEn": [
+              "breakfast",
+              "I eat",
+              "to work",
+              "go"
+            ],
+            "alignVi": [
+              "sáng",
+              "Tôi ăn",
+              "làm",
+              "đi"
             ]
           },
           {
@@ -8169,6 +9872,20 @@
                   "t": "します。"
                 }
               ]
+            ],
+            "alignEn": [
+              "work",
+              "After",
+              "with friends",
+              "a meal",
+              "I have"
+            ],
+            "alignVi": [
+              "làm",
+              "Sau khi tan",
+              "với bạn bè",
+              "cơm",
+              "tôi ăn"
             ]
           },
           {
@@ -8209,6 +9926,18 @@
                   "t": "おいしいです。"
                 }
               ]
+            ],
+            "alignEn": [
+              "That",
+              "restaurant",
+              "is cheap and",
+              "delicious"
+            ],
+            "alignVi": [
+              "đó",
+              "Quán",
+              "vừa rẻ vừa",
+              "ngon"
             ]
           }
         ]
@@ -8251,6 +9980,16 @@
                   "t": "しますか。"
                 }
               ]
+            ],
+            "alignEn": [
+              "in the morning",
+              "What",
+              "do you do"
+            ],
+            "alignVi": [
+              "Buổi sáng",
+              "gì",
+              "bạn làm"
             ]
           },
           {
@@ -8299,6 +10038,18 @@
                   "t": "べます。"
                 }
               ]
+            ],
+            "alignEn": [
+              "my face",
+              "I wash",
+              "breakfast",
+              "eat"
+            ],
+            "alignVi": [
+              "mặt",
+              "Tôi rửa",
+              "sáng",
+              "ăn"
             ]
           },
           {
@@ -8343,6 +10094,18 @@
                   "t": "しますか。"
                 }
               ]
+            ],
+            "alignEn": [
+              "work",
+              "after",
+              "What",
+              "do you do"
+            ],
+            "alignVi": [
+              "làm",
+              "Sau khi tan",
+              "gì",
+              "bạn làm"
             ]
           },
           {
@@ -8375,9 +10138,30 @@
                   "t": "します。"
                 }
               ]
+            ],
+            "alignEn": [
+              "with friends",
+              "a meal",
+              "I have"
+            ],
+            "alignVi": [
+              "với bạn bè",
+              "cơm",
+              "Tôi ăn"
             ]
           }
         ]
+      },
+      {
+        "kind": "section",
+        "title": {
+          "en": "Part 4 · 語彙",
+          "vi": "Phần 4 · 語彙"
+        },
+        "subtitle": {
+          "en": "The lesson's new words — then check yourself and review.",
+          "vi": "Từ mới của bài — sau đó tự kiểm tra và ôn tập."
+        }
       },
       {
         "kind": "vocab"
@@ -8591,6 +10375,17 @@
         ]
       },
       {
+        "kind": "section",
+        "title": {
+          "en": "Part 3 · 会話",
+          "vi": "Phần 3 · 会話"
+        },
+        "subtitle": {
+          "en": "The lesson in action — dialogues and reading practice.",
+          "vi": "Bài học trong thực tế — hội thoại và luyện đọc."
+        }
+      },
+      {
         "kind": "dialogue",
         "style": "conversational",
         "source": "lesson"
@@ -8636,6 +10431,16 @@
                   "t": "めないでください。"
                 }
               ]
+            ],
+            "alignEn": [
+              "here",
+              "your car",
+              "Please don't park"
+            ],
+            "alignVi": [
+              "ở đây",
+              "xe",
+              "Vui lòng đừng đỗ"
             ]
           },
           {
@@ -8663,6 +10468,14 @@
                   "t": "らないでください。"
                 }
               ]
+            ],
+            "alignEn": [
+              "photos",
+              "Please don't take"
+            ],
+            "alignVi": [
+              "ảnh",
+              "Vui lòng đừng chụp"
             ]
           },
           {
@@ -8699,6 +10512,16 @@
                   "t": "まなければなりません。"
                 }
               ]
+            ],
+            "alignEn": [
+              "every day",
+              "the medicine",
+              "You have to take"
+            ],
+            "alignVi": [
+              "mỗi ngày",
+              "thuốc",
+              "Bạn phải uống"
             ]
           },
           {
@@ -8726,6 +10549,14 @@
                   "t": "なくてもいいです。"
                 }
               ]
+            ],
+            "alignEn": [
+              "tomorrow",
+              "You don't have to come"
+            ],
+            "alignVi": [
+              "Ngày mai",
+              "bạn không cần đến"
             ]
           }
         ]
@@ -8771,6 +10602,16 @@
                   "t": "めてもいいですか。"
                 }
               ]
+            ],
+            "alignEn": [
+              "here",
+              null,
+              "May I park"
+            ],
+            "alignVi": [
+              "ở đây",
+              "xe",
+              "Tôi đỗ"
             ]
           },
           {
@@ -8794,6 +10635,14 @@
                   "t": "めないでください。"
                 }
               ]
+            ],
+            "alignEn": [
+              "No",
+              "please don't park"
+            ],
+            "alignVi": [
+              "Không",
+              "xin đừng đỗ xe"
             ]
           },
           {
@@ -8821,6 +10670,14 @@
                   "t": "なければなりませんか。"
                 }
               ]
+            ],
+            "alignEn": [
+              "tomorrow",
+              "Do I have to come"
+            ],
+            "alignVi": [
+              "Ngày mai",
+              "tôi có phải đến không"
             ]
           },
           {
@@ -8844,9 +10701,28 @@
                   "t": "なくてもいいです。"
                 }
               ]
+            ],
+            "alignEn": [
+              "No",
+              "you don't have to come"
+            ],
+            "alignVi": [
+              "Không",
+              "bạn không cần đến"
             ]
           }
         ]
+      },
+      {
+        "kind": "section",
+        "title": {
+          "en": "Part 4 · 語彙",
+          "vi": "Phần 4 · 語彙"
+        },
+        "subtitle": {
+          "en": "The lesson's new words — then check yourself and review.",
+          "vi": "Từ mới của bài — sau đó tự kiểm tra và ôn tập."
+        }
       },
       {
         "kind": "vocab"
@@ -9045,6 +10921,17 @@
         ]
       },
       {
+        "kind": "section",
+        "title": {
+          "en": "Part 3 · 会話",
+          "vi": "Phần 3 · 会話"
+        },
+        "subtitle": {
+          "en": "The lesson in action — dialogues and reading practice.",
+          "vi": "Bài học trong thực tế — hội thoại và luyện đọc."
+        }
+      },
+      {
         "kind": "dialogue",
         "style": "conversational",
         "source": "lesson"
@@ -9103,6 +10990,20 @@
                   "t": "できます。"
                 }
               ]
+            ],
+            "alignEn": [
+              "I",
+              "Japanese",
+              "speak",
+              null,
+              "can"
+            ],
+            "alignVi": [
+              "Tôi",
+              "tiếng Nhật",
+              "nói",
+              null,
+              "có thể"
             ]
           },
           {
@@ -9152,6 +11053,20 @@
                   "t": "できます。"
                 }
               ]
+            ],
+            "alignEn": [
+              "kanji",
+              "a little",
+              "read",
+              null,
+              "I can also"
+            ],
+            "alignVi": [
+              "kanji",
+              "một chút",
+              "đọc",
+              null,
+              "Tôi cũng có thể"
             ]
           },
           {
@@ -9206,6 +11121,20 @@
                   "t": "します。"
                 }
               ]
+            ],
+            "alignEn": [
+              "Every night",
+              "bed",
+              "before",
+              "Japanese",
+              "I study"
+            ],
+            "alignVi": [
+              "Mỗi tối",
+              "ngủ",
+              "trước khi",
+              "tiếng Nhật",
+              "tôi học"
             ]
           },
           {
@@ -9253,6 +11182,20 @@
                   "t": "できません。"
                 }
               ]
+            ],
+            "alignEn": [
+              "But",
+              "the piano",
+              "play",
+              null,
+              "I can't"
+            ],
+            "alignVi": [
+              "Nhưng",
+              "đàn piano",
+              "chơi",
+              null,
+              "tôi không"
             ]
           }
         ]
@@ -9303,6 +11246,18 @@
                   "t": "できますか。"
                 }
               ]
+            ],
+            "alignEn": [
+              "Japanese",
+              "speak",
+              null,
+              "Can you"
+            ],
+            "alignVi": [
+              "tiếng Nhật",
+              "nói",
+              null,
+              "Bạn có thể"
             ]
           },
           {
@@ -9331,6 +11286,16 @@
                   "t": "できます。"
                 }
               ]
+            ],
+            "alignEn": [
+              "Yes",
+              "a little",
+              null
+            ],
+            "alignVi": [
+              "Vâng",
+              "một chút",
+              null
             ]
           },
           {
@@ -9372,6 +11337,18 @@
                   "t": "しますか。"
                 }
               ]
+            ],
+            "alignEn": [
+              "bed",
+              "before",
+              "What",
+              "do you do"
+            ],
+            "alignVi": [
+              "ngủ",
+              "Trước khi",
+              "gì",
+              "bạn làm"
             ]
           },
           {
@@ -9399,9 +11376,28 @@
                   "t": "みます。"
                 }
               ]
+            ],
+            "alignEn": [
+              "a book",
+              "I read"
+            ],
+            "alignVi": [
+              "sách",
+              "Tôi đọc"
             ]
           }
         ]
+      },
+      {
+        "kind": "section",
+        "title": {
+          "en": "Part 4 · 語彙",
+          "vi": "Phần 4 · 語彙"
+        },
+        "subtitle": {
+          "en": "The lesson's new words — then check yourself and review.",
+          "vi": "Từ mới của bài — sau đó tự kiểm tra và ôn tập."
+        }
       },
       {
         "kind": "vocab"
@@ -9616,6 +11612,17 @@
         ]
       },
       {
+        "kind": "section",
+        "title": {
+          "en": "Part 3 · 会話",
+          "vi": "Phần 3 · 会話"
+        },
+        "subtitle": {
+          "en": "The lesson in action — dialogues and reading practice.",
+          "vi": "Bài học trong thực tế — hội thoại và luyện đọc."
+        }
+      },
+      {
         "kind": "dialogue",
         "style": "conversational",
         "source": "lesson"
@@ -9674,6 +11681,20 @@
                   "t": "あります。"
                 }
               ]
+            ],
+            "alignEn": [
+              "I",
+              "to Hokkaido",
+              "been",
+              null,
+              "have"
+            ],
+            "alignVi": [
+              "Tôi",
+              "Hokkaido",
+              "đến",
+              null,
+              "đã từng"
             ]
           },
           {
@@ -9713,6 +11734,18 @@
                   "t": "あります。"
                 }
               ]
+            ],
+            "alignEn": [
+              "sushi",
+              "eaten",
+              null,
+              "I have also"
+            ],
+            "alignVi": [
+              "sushi",
+              "ăn",
+              null,
+              "Tôi cũng đã từng"
             ]
           },
           {
@@ -9762,6 +11795,20 @@
                   "t": "したりします。"
                 }
               ]
+            ],
+            "alignEn": [
+              "On Sundays",
+              "cleaning",
+              null,
+              "laundry",
+              "I do things like"
+            ],
+            "alignVi": [
+              "Chủ nhật",
+              "dọn dẹp",
+              null,
+              "giặt giũ",
+              "tôi làm những việc như"
             ]
           },
           {
@@ -9794,6 +11841,16 @@
                   "t": "なりました。"
                 }
               ]
+            ],
+            "alignEn": [
+              "Lately",
+              "cold",
+              "it has gotten"
+            ],
+            "alignVi": [
+              "Gần đây",
+              "lạnh",
+              "trời đã trở"
             ]
           }
         ]
@@ -9844,6 +11901,18 @@
                   "t": "ありますか。"
                 }
               ]
+            ],
+            "alignEn": [
+              "to Hokkaido",
+              "been",
+              null,
+              "Have you ever"
+            ],
+            "alignVi": [
+              "Hokkaido",
+              "đến",
+              null,
+              "Bạn đã từng"
             ]
           },
           {
@@ -9863,6 +11932,14 @@
                   "t": "あります。"
                 }
               ]
+            ],
+            "alignEn": [
+              "Yes",
+              "I have"
+            ],
+            "alignVi": [
+              "Vâng",
+              "tôi đã từng"
             ]
           },
           {
@@ -9895,6 +11972,16 @@
                   "t": "しますか。"
                 }
               ]
+            ],
+            "alignEn": [
+              "on Sundays",
+              "What",
+              "do you do"
+            ],
+            "alignVi": [
+              "Chủ nhật",
+              "gì",
+              "bạn làm"
             ]
           },
           {
@@ -9935,9 +12022,32 @@
                   "t": "したりします。"
                 }
               ]
+            ],
+            "alignEn": [
+              "cleaning",
+              null,
+              "laundry",
+              "I do things like"
+            ],
+            "alignVi": [
+              "dọn dẹp",
+              null,
+              "giặt giũ",
+              "Tôi"
             ]
           }
         ]
+      },
+      {
+        "kind": "section",
+        "title": {
+          "en": "Part 4 · 語彙",
+          "vi": "Phần 4 · 語彙"
+        },
+        "subtitle": {
+          "en": "The lesson's new words — then check yourself and review.",
+          "vi": "Từ mới của bài — sau đó tự kiểm tra và ôn tập."
+        }
       },
       {
         "kind": "vocab"
@@ -10108,6 +12218,17 @@
         ]
       },
       {
+        "kind": "section",
+        "title": {
+          "en": "Part 2 · 会話",
+          "vi": "Phần 2 · 会話"
+        },
+        "subtitle": {
+          "en": "The lesson in action — dialogues and reading practice.",
+          "vi": "Bài học trong thực tế — hội thoại và luyện đọc."
+        }
+      },
+      {
         "kind": "dialogue",
         "style": "conversational",
         "source": "lesson"
@@ -10148,6 +12269,14 @@
                   "t": "だ。"
                 }
               ]
+            ],
+            "alignEn": [
+              "Today",
+              "is a day off"
+            ],
+            "alignVi": [
+              "Hôm nay",
+              "là ngày nghỉ"
             ]
           },
           {
@@ -10184,6 +12313,16 @@
                   "t": "った。"
                 }
               ]
+            ],
+            "alignEn": [
+              "In the morning",
+              "to the park",
+              "I went"
+            ],
+            "alignVi": [
+              "Buổi sáng",
+              "công viên",
+              "tôi đã đến"
             ]
           },
           {
@@ -10231,6 +12370,18 @@
                   "t": "んだ。"
                 }
               ]
+            ],
+            "alignEn": [
+              "a friend",
+              "I met",
+              "coffee",
+              "drank"
+            ],
+            "alignVi": [
+              "bạn",
+              "Tôi gặp",
+              "cà phê",
+              "uống"
             ]
           },
           {
@@ -10254,6 +12405,14 @@
                   "t": "しかった。"
                 }
               ]
+            ],
+            "alignEn": [
+              "a lot of",
+              "fun"
+            ],
+            "alignVi": [
+              "Rất",
+              "vui"
             ]
           }
         ]
@@ -10291,6 +12450,14 @@
                   "t": "？"
                 }
               ]
+            ],
+            "alignEn": [
+              "tomorrow",
+              "Are you free"
+            ],
+            "alignVi": [
+              "Mai",
+              "bạn rảnh không"
             ]
           },
           {
@@ -10314,6 +12481,14 @@
                   "t": "だよ。"
                 }
               ]
+            ],
+            "alignEn": [
+              "Yeah",
+              "I'm free"
+            ],
+            "alignVi": [
+              "Ừ",
+              "tớ rảnh"
             ]
           },
           {
@@ -10346,6 +12521,16 @@
                   "t": "した？"
                 }
               ]
+            ],
+            "alignEn": [
+              "yesterday",
+              "What",
+              "did you do"
+            ],
+            "alignVi": [
+              "Hôm qua",
+              "gì",
+              "bạn làm"
             ]
           },
           {
@@ -10382,9 +12567,30 @@
                   "t": "た。"
                 }
               ]
+            ],
+            "alignEn": [
+              "with a friend",
+              "a movie",
+              "I watched"
+            ],
+            "alignVi": [
+              "với bạn",
+              "phim",
+              "Tôi xem"
             ]
           }
         ]
+      },
+      {
+        "kind": "section",
+        "title": {
+          "en": "Part 3 · 語彙",
+          "vi": "Phần 3 · 語彙"
+        },
+        "subtitle": {
+          "en": "The lesson's new words — then check yourself and review.",
+          "vi": "Từ mới của bài — sau đó tự kiểm tra và ôn tập."
+        }
       },
       {
         "kind": "vocab"
@@ -10583,6 +12789,17 @@
         ]
       },
       {
+        "kind": "section",
+        "title": {
+          "en": "Part 3 · 会話",
+          "vi": "Phần 3 · 会話"
+        },
+        "subtitle": {
+          "en": "The lesson in action — dialogues and reading practice.",
+          "vi": "Bài học trong thực tế — hội thoại và luyện đọc."
+        }
+      },
+      {
         "kind": "dialogue",
         "style": "conversational",
         "source": "lesson"
@@ -10620,6 +12837,14 @@
                   "t": "ました。"
                 }
               ]
+            ],
+            "alignEn": [
+              "the weather forecast",
+              "I watched"
+            ],
+            "alignVi": [
+              "dự báo thời tiết",
+              "Tôi đã xem"
             ]
           },
           {
@@ -10670,6 +12895,20 @@
                   "t": "います。"
                 }
               ]
+            ],
+            "alignEn": [
+              "tomorrow",
+              null,
+              "it will rain",
+              null,
+              "I think"
+            ],
+            "alignVi": [
+              "ngày mai",
+              "trời",
+              "sẽ mưa",
+              null,
+              "Tôi nghĩ"
             ]
           },
           {
@@ -10729,6 +12968,20 @@
                   "t": "いました。"
                 }
               ]
+            ],
+            "alignEn": [
+              "Mr. Tanaka also",
+              "tomorrow",
+              "It will be cold",
+              null,
+              "said"
+            ],
+            "alignVi": [
+              "Anh Tanaka cũng",
+              "Ngày mai",
+              "sẽ lạnh",
+              null,
+              "nói"
             ]
           },
           {
@@ -10761,6 +13014,16 @@
                   "t": "でしょう。"
                 }
               ]
+            ],
+            "alignEn": [
+              "on the weekend",
+              "sunny",
+              "probably"
+            ],
+            "alignVi": [
+              "Cuối tuần",
+              "nắng",
+              "chắc"
             ]
           }
         ]
@@ -10821,6 +13084,20 @@
                   "t": "いますか。"
                 }
               ]
+            ],
+            "alignEn": [
+              "tomorrow",
+              null,
+              "it will rain",
+              null,
+              "Do you think"
+            ],
+            "alignVi": [
+              "ngày mai",
+              "trời",
+              "sẽ mưa",
+              null,
+              "Bạn có nghĩ"
             ]
           },
           {
@@ -10858,6 +13135,18 @@
                   "t": "います。"
                 }
               ]
+            ],
+            "alignEn": [
+              "Yes",
+              "it will",
+              null,
+              "I think"
+            ],
+            "alignVi": [
+              "Vâng",
+              "sẽ mưa",
+              null,
+              "tôi nghĩ"
             ]
           },
           {
@@ -10890,6 +13179,16 @@
                   "t": "でしょう？"
                 }
               ]
+            ],
+            "alignEn": [
+              "Tomorrow",
+              "a day off",
+              "right"
+            ],
+            "alignVi": [
+              "Ngày mai",
+              "là ngày nghỉ",
+              "phải không"
             ]
           },
           {
@@ -10913,9 +13212,28 @@
                   "t": "みです。"
                 }
               ]
+            ],
+            "alignEn": [
+              "Yes",
+              "it's a day off"
+            ],
+            "alignVi": [
+              "Vâng",
+              "là ngày nghỉ"
             ]
           }
         ]
+      },
+      {
+        "kind": "section",
+        "title": {
+          "en": "Part 4 · 語彙",
+          "vi": "Phần 4 · 語彙"
+        },
+        "subtitle": {
+          "en": "The lesson's new words — then check yourself and review.",
+          "vi": "Từ mới của bài — sau đó tự kiểm tra và ôn tập."
+        }
       },
       {
         "kind": "vocab"
@@ -11113,6 +13431,17 @@
         ]
       },
       {
+        "kind": "section",
+        "title": {
+          "en": "Part 3 · 会話",
+          "vi": "Phần 3 · 会話"
+        },
+        "subtitle": {
+          "en": "The lesson in action — dialogues and reading practice.",
+          "vi": "Bài học trong thực tế — hội thoại và luyện đọc."
+        }
+      },
+      {
         "kind": "dialogue",
         "style": "conversational",
         "source": "lesson"
@@ -11165,6 +13494,18 @@
                   "t": "です。"
                 }
               ]
+            ],
+            "alignEn": [
+              "This is",
+              "I",
+              "made",
+              "a cake"
+            ],
+            "alignVi": [
+              "Đây là",
+              "tôi",
+              "làm",
+              "chiếc bánh"
             ]
           },
           {
@@ -11212,6 +13553,20 @@
                   "t": "かったです。"
                 }
               ]
+            ],
+            "alignEn": [
+              "yesterday",
+              "I saw",
+              "The movie",
+              "very",
+              "interesting"
+            ],
+            "alignVi": [
+              "hôm qua",
+              "tôi xem",
+              "Bộ phim",
+              "rất",
+              "thú vị"
             ]
           },
           {
@@ -11260,6 +13615,18 @@
                   "t": "かです。"
                 }
               ]
+            ],
+            "alignEn": [
+              "Mr. Tanaka",
+              "lives",
+              "The town where",
+              "is quiet"
+            ],
+            "alignVi": [
+              "anh Tanaka",
+              "sống",
+              "Thị trấn nơi",
+              "rất yên tĩnh"
             ]
           }
         ]
@@ -11302,6 +13669,16 @@
                   "t": "きですか。"
                 }
               ]
+            ],
+            "alignEn": [
+              "What kind of",
+              "music",
+              "do you like"
+            ],
+            "alignVi": [
+              "nào",
+              "loại nhạc",
+              "Bạn thích"
             ]
           },
           {
@@ -11338,6 +13715,16 @@
                   "t": "きです。"
                 }
               ]
+            ],
+            "alignEn": [
+              "quiet",
+              "music",
+              "I like"
+            ],
+            "alignVi": [
+              "nhẹ nhàng",
+              "nhạc",
+              "Tôi thích"
             ]
           },
           {
@@ -11376,6 +13763,18 @@
                   "t": "どうでしたか。"
                 }
               ]
+            ],
+            "alignEn": [
+              "yesterday",
+              "you saw",
+              "the movie",
+              "How was"
+            ],
+            "alignVi": [
+              "hôm qua",
+              "bạn xem",
+              "Bộ phim",
+              "thế nào"
             ]
           },
           {
@@ -11399,9 +13798,28 @@
                   "t": "かったです。"
                 }
               ]
+            ],
+            "alignEn": [
+              "very",
+              "interesting"
+            ],
+            "alignVi": [
+              "Rất",
+              "thú vị"
             ]
           }
         ]
+      },
+      {
+        "kind": "section",
+        "title": {
+          "en": "Part 4 · 語彙",
+          "vi": "Phần 4 · 語彙"
+        },
+        "subtitle": {
+          "en": "The lesson's new words — then check yourself and review.",
+          "vi": "Từ mới của bài — sau đó tự kiểm tra và ôn tập."
+        }
       },
       {
         "kind": "vocab"
@@ -11600,6 +14018,17 @@
         ]
       },
       {
+        "kind": "section",
+        "title": {
+          "en": "Part 3 · 会話",
+          "vi": "Phần 3 · 会話"
+        },
+        "subtitle": {
+          "en": "The lesson in action — dialogues and reading practice.",
+          "vi": "Bài học trong thực tế — hội thoại và luyện đọc."
+        }
+      },
+      {
         "kind": "dialogue",
         "style": "conversational",
         "source": "lesson"
@@ -11658,6 +14087,20 @@
                   "t": "いります。"
                 }
               ]
+            ],
+            "alignEn": [
+              "to the library",
+              "you go",
+              "When",
+              "a card",
+              "you need"
+            ],
+            "alignVi": [
+              "thư viện",
+              "đến",
+              "Khi",
+              "thẻ",
+              "bạn cần"
             ]
           },
           {
@@ -11713,6 +14156,20 @@
                   "t": "ます。"
                 }
               ]
+            ],
+            "alignEn": [
+              "this",
+              "button",
+              "When you press",
+              "a ticket",
+              "comes out"
+            ],
+            "alignVi": [
+              "này",
+              "nút",
+              "Khi bấm",
+              "vé",
+              "sẽ đi ra"
             ]
           },
           {
@@ -11758,6 +14215,18 @@
                   "t": "がります。"
                 }
               ]
+            ],
+            "alignEn": [
+              "next",
+              "corner",
+              "right",
+              "Turn"
+            ],
+            "alignVi": [
+              "tiếp theo",
+              "góc",
+              "phải",
+              "Rẽ"
             ]
           },
           {
@@ -11789,6 +14258,16 @@
                   "t": "きます。"
                 }
               ]
+            ],
+            "alignEn": [
+              "And then",
+              "straight",
+              "go"
+            ],
+            "alignVi": [
+              "Rồi",
+              "thẳng",
+              "đi"
             ]
           }
         ]
@@ -11848,6 +14327,20 @@
                   "t": "いりますか。"
                 }
               ]
+            ],
+            "alignEn": [
+              "to the library",
+              "you go",
+              "when",
+              "What",
+              "do you need"
+            ],
+            "alignVi": [
+              "thư viện",
+              "đến",
+              "Khi",
+              "gì",
+              "cần"
             ]
           },
           {
@@ -11870,6 +14363,14 @@
                   "t": "いります。"
                 }
               ]
+            ],
+            "alignEn": [
+              "a card",
+              "You need"
+            ],
+            "alignVi": [
+              "thẻ",
+              "Bạn cần"
             ]
           },
           {
@@ -11896,6 +14397,14 @@
                   "t": "がりますか。"
                 }
               ]
+            ],
+            "alignEn": [
+              "Where",
+              "do I turn"
+            ],
+            "alignVi": [
+              "ở đâu",
+              "Rẽ"
             ]
           },
           {
@@ -11941,9 +14450,32 @@
                   "t": "がります。"
                 }
               ]
+            ],
+            "alignEn": [
+              "next",
+              "corner",
+              "right",
+              "Turn"
+            ],
+            "alignVi": [
+              "tiếp theo",
+              "góc",
+              "phải",
+              "Rẽ"
             ]
           }
         ]
+      },
+      {
+        "kind": "section",
+        "title": {
+          "en": "Part 4 · 語彙",
+          "vi": "Phần 4 · 語彙"
+        },
+        "subtitle": {
+          "en": "The lesson's new words — then check yourself and review.",
+          "vi": "Từ mới của bài — sau đó tự kiểm tra và ôn tập."
+        }
       },
       {
         "kind": "vocab"
@@ -12156,6 +14688,17 @@
         ]
       },
       {
+        "kind": "section",
+        "title": {
+          "en": "Part 3 · 会話",
+          "vi": "Phần 3 · 会話"
+        },
+        "subtitle": {
+          "en": "The lesson in action — dialogues and reading practice.",
+          "vi": "Bài học trong thực tế — hội thoại và luyện đọc."
+        }
+      },
+      {
         "kind": "dialogue",
         "style": "conversational",
         "source": "lesson"
@@ -12212,6 +14755,18 @@
                   "t": "くれました。"
                 }
               ]
+            ],
+            "alignEn": [
+              "Mr. Yamada",
+              "me",
+              "some sweets",
+              "gave"
+            ],
+            "alignVi": [
+              "Anh Yamada",
+              "tôi",
+              "ít bánh kẹo",
+              "đã cho"
             ]
           },
           {
@@ -12253,6 +14808,18 @@
                   "t": "くれました。"
                 }
               ]
+            ],
+            "alignEn": [
+              "My older sister",
+              null,
+              "cooked",
+              "for me"
+            ],
+            "alignVi": [
+              "Chị gái",
+              null,
+              "đã nấu ăn",
+              "cho tôi"
             ]
           },
           {
@@ -12302,6 +14869,20 @@
                   "t": "あげました。"
                 }
               ]
+            ],
+            "alignEn": [
+              "I",
+              "to my friend",
+              "a book",
+              "lent",
+              null
+            ],
+            "alignVi": [
+              "Tôi",
+              "bạn",
+              "sách",
+              "mượn",
+              "đã cho"
             ]
           },
           {
@@ -12343,6 +14924,18 @@
                   "t": "もらいました。"
                 }
               ]
+            ],
+            "alignEn": [
+              "my friend",
+              "Japanese",
+              "teach",
+              "I had"
+            ],
+            "alignVi": [
+              "bạn",
+              "tiếng Nhật",
+              "dạy",
+              "Tôi được"
             ]
           }
         ]
@@ -12388,6 +14981,16 @@
                   "t": "くれましたか。"
                 }
               ]
+            ],
+            "alignEn": [
+              "Who",
+              "the sweets",
+              "gave you"
+            ],
+            "alignVi": [
+              "Ai",
+              "bánh kẹo",
+              "đã cho bạn"
             ]
           },
           {
@@ -12414,6 +15017,14 @@
                   "t": "くれました。"
                 }
               ]
+            ],
+            "alignEn": [
+              "Mr. Yamada",
+              "gave them to me"
+            ],
+            "alignVi": [
+              "Anh Yamada",
+              "đã cho tôi"
             ]
           },
           {
@@ -12451,6 +15062,18 @@
                   "t": "くれましたか。"
                 }
               ]
+            ],
+            "alignEn": [
+              "your sister",
+              "What",
+              "do",
+              "for you"
+            ],
+            "alignVi": [
+              "Chị gái",
+              "gì",
+              "đã làm",
+              "cho bạn"
             ]
           },
           {
@@ -12483,9 +15106,30 @@
                   "t": "くれました。"
                 }
               ]
+            ],
+            "alignEn": [
+              null,
+              "She cooked",
+              "for me"
+            ],
+            "alignVi": [
+              null,
+              "Chị ấy đã nấu ăn",
+              "cho tôi"
             ]
           }
         ]
+      },
+      {
+        "kind": "section",
+        "title": {
+          "en": "Part 4 · 語彙",
+          "vi": "Phần 4 · 語彙"
+        },
+        "subtitle": {
+          "en": "The lesson's new words — then check yourself and review.",
+          "vi": "Từ mới của bài — sau đó tự kiểm tra và ôn tập."
+        }
       },
       {
         "kind": "vocab"
@@ -12683,6 +15327,17 @@
         ]
       },
       {
+        "kind": "section",
+        "title": {
+          "en": "Part 3 · 会話",
+          "vi": "Phần 3 · 会話"
+        },
+        "subtitle": {
+          "en": "The lesson in action — dialogues and reading practice.",
+          "vi": "Bài học trong thực tế — hội thoại và luyện đọc."
+        }
+      },
+      {
         "kind": "dialogue",
         "style": "conversational",
         "source": "lesson"
@@ -12731,6 +15386,16 @@
                   "t": "します。"
                 }
               ]
+            ],
+            "alignEn": [
+              "money",
+              "If I have",
+              "I'll travel"
+            ],
+            "alignVi": [
+              "tiền",
+              "Nếu có",
+              "tôi sẽ đi du lịch"
             ]
           },
           {
@@ -12775,6 +15440,18 @@
                   "t": "きます。"
                 }
               ]
+            ],
+            "alignEn": [
+              "summer",
+              "comes",
+              "to the sea",
+              "I'll go"
+            ],
+            "alignVi": [
+              "hè",
+              "đến",
+              "biển",
+              "tôi sẽ đi"
             ]
           },
           {
@@ -12822,6 +15499,18 @@
                   "t": "きます。"
                 }
               ]
+            ],
+            "alignEn": [
+              "But",
+              "it rains",
+              "even if",
+              "I'll go"
+            ],
+            "alignVi": [
+              "Nhưng",
+              "trời mưa",
+              "dù",
+              "tôi vẫn đi"
             ]
           },
           {
@@ -12861,6 +15550,16 @@
                   "t": "します。"
                 }
               ]
+            ],
+            "alignEn": [
+              "in Okinawa",
+              "When I arrive",
+              "I'll call"
+            ],
+            "alignVi": [
+              "Okinawa",
+              "Khi đến",
+              "tôi sẽ gọi điện"
             ]
           }
         ]
@@ -12914,6 +15613,18 @@
                   "t": "しますか。"
                 }
               ]
+            ],
+            "alignEn": [
+              "money",
+              "if you have",
+              "What",
+              "will you do"
+            ],
+            "alignVi": [
+              "tiền",
+              "Nếu có",
+              "gì",
+              "bạn sẽ làm"
             ]
           },
           {
@@ -12932,6 +15643,12 @@
                   "t": "します。"
                 }
               ]
+            ],
+            "alignEn": [
+              "I'll travel"
+            ],
+            "alignVi": [
+              "Tôi sẽ đi du lịch"
             ]
           },
           {
@@ -12967,6 +15684,16 @@
                   "t": "どうしますか。"
                 }
               ]
+            ],
+            "alignEn": [
+              "it rains",
+              "if",
+              "What will you do"
+            ],
+            "alignVi": [
+              "trời mưa",
+              "Nếu",
+              "bạn sẽ làm gì"
             ]
           },
           {
@@ -13006,9 +15733,30 @@
                   "t": "きます。"
                 }
               ]
+            ],
+            "alignEn": [
+              "it rains",
+              "Even if",
+              "I'll go"
+            ],
+            "alignVi": [
+              "trời mưa",
+              "Dù",
+              "tôi vẫn đi"
             ]
           }
         ]
+      },
+      {
+        "kind": "section",
+        "title": {
+          "en": "Part 4 · 語彙",
+          "vi": "Phần 4 · 語彙"
+        },
+        "subtitle": {
+          "en": "The lesson's new words — then check yourself and review.",
+          "vi": "Từ mới của bài — sau đó tự kiểm tra và ôn tập."
+        }
       },
       {
         "kind": "vocab"

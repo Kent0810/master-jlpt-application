@@ -2,14 +2,38 @@
 module.exports = {
   examples: {
     l24_kuremasu: [
-      { jp: "田中さんがわたしに本をくれました。", en: "Mr. Tanaka gave me a book.", vi: "Ông Tanaka đã cho tôi một quyển sách." },
-      { jp: "友達が花をくれました。", en: "A friend gave me flowers.", vi: "Một người bạn đã tặng tôi hoa." },
-      { jp: "母がセーターをくれました。", en: "My mother gave me a sweater.", vi: "Mẹ tôi đã cho tôi một chiếc áo len." },
+      {
+        jp: "田中さんがわたしに本をくれました。",
+        en: "Mr. Tanaka gave me a book.",
+        vi: "Ông Tanaka đã cho tôi một quyển sách.",
+      },
+      {
+        jp: "友達が花をくれました。",
+        en: "A friend gave me flowers.",
+        vi: "Một người bạn đã tặng tôi hoa.",
+      },
+      {
+        jp: "母がセーターをくれました。",
+        en: "My mother gave me a sweater.",
+        vi: "Mẹ tôi đã cho tôi một chiếc áo len.",
+      },
     ],
     l24_te_giving: [
-      { jp: "わたしは友達に日本語を教えてあげました。", en: "I taught my friend Japanese (for them).", vi: "Tôi đã dạy tiếng Nhật cho bạn." },
-      { jp: "ミラーさんに写真を撮ってもらいました。", en: "I had Mr. Miller take a photo (for me).", vi: "Tôi đã nhờ anh Miller chụp ảnh giúp." },
-      { jp: "田中さんが手伝ってくれました。", en: "Mr. Tanaka helped me (for my benefit).", vi: "Ông Tanaka đã giúp tôi." },
+      {
+        jp: "わたしは友達に日本語を教えてあげました。",
+        en: "I taught my friend Japanese (for them).",
+        vi: "Tôi đã dạy tiếng Nhật cho bạn.",
+      },
+      {
+        jp: "ミラーさんに写真を撮ってもらいました。",
+        en: "I had Mr. Miller take a photo (for me).",
+        vi: "Tôi đã nhờ anh Miller chụp ảnh giúp.",
+      },
+      {
+        jp: "田中さんが手伝ってくれました。",
+        en: "Mr. Tanaka helped me (for my benefit).",
+        vi: "Ông Tanaka đã giúp tôi.",
+      },
     ],
   },
   explanations: {
@@ -64,11 +88,51 @@ module.exports = {
       source: "authored",
       title: { en: "More practice", vi: "Luyện tập thêm" },
       items: [
-        { prompt: "田中さんがわたしに本を（　）。（gave me）", options: ["くれました", "あげました", "もらいました", "しました"], answer: 0, explanation: { en: "Given to me → くれました.", vi: "Cho tôi → くれました." } },
-        { prompt: "田中さんがわたし（　）本をくれました。", options: ["に", "が", "を", "で"], answer: 0, explanation: { en: "に marks the receiver (me).", vi: "に đánh dấu người nhận (tôi)." } },
-        { prompt: "わたしは友達に日本語を教えて（　）。（did for them）", options: ["あげました", "くれました", "もらいました", "いました"], answer: 0, explanation: { en: "Do a favour for someone → てあげます.", vi: "Làm ơn cho ai → てあげます." } },
-        { prompt: "ミラーさんに写真を撮って（　）。（had them do for me）", options: ["もらいました", "あげました", "くれました", "しました"], answer: 0, explanation: { en: "Have someone do for you → てもらいます.", vi: "Nhờ ai làm cho mình → てもらいます." } },
-        { prompt: "田中さんが手伝って（　）。（did for me）", options: ["くれました", "あげました", "もらいました", "いました"], answer: 0, explanation: { en: "Someone does for me → てくれます.", vi: "Ai đó làm cho tôi → てくれます." } },
+        {
+          prompt: "田中さんがわたしに本を（　）。（gave me）",
+          options: ["くれました", "あげました", "もらいました", "しました"],
+          answer: 0,
+          explanation: {
+            en: "Given to me → くれました.",
+            vi: "Cho tôi → くれました.",
+          },
+        },
+        {
+          prompt: "田中さんがわたし（　）本をくれました。",
+          options: ["に", "が", "を", "で"],
+          answer: 0,
+          explanation: {
+            en: "に marks the receiver (me).",
+            vi: "に đánh dấu người nhận (tôi).",
+          },
+        },
+        {
+          prompt: "わたしは友達に日本語を教えて（　）。（did for them）",
+          options: ["あげました", "くれました", "もらいました", "いました"],
+          answer: 0,
+          explanation: {
+            en: "Do a favour for someone → てあげます.",
+            vi: "Làm ơn cho ai → てあげます.",
+          },
+        },
+        {
+          prompt: "ミラーさんに写真を撮って（　）。（had them do for me）",
+          options: ["もらいました", "あげました", "くれました", "しました"],
+          answer: 0,
+          explanation: {
+            en: "Have someone do for you → てもらいます.",
+            vi: "Nhờ ai làm cho mình → てもらいます.",
+          },
+        },
+        {
+          prompt: "田中さんが手伝って（　）。（did for me）",
+          options: ["くれました", "あげました", "もらいました", "いました"],
+          answer: 0,
+          explanation: {
+            en: "Someone does for me → てくれます.",
+            vi: "Ai đó làm cho tôi → てくれます.",
+          },
+        },
       ],
     },
   },

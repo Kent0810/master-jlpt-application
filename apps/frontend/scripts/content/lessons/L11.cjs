@@ -2,14 +2,38 @@
 module.exports = {
   examples: {
     l11_counters: [
-      { jp: "りんごを二つ買いました。", en: "I bought two apples.", vi: "Tôi đã mua hai quả táo." },
-      { jp: "切手を三枚ください。", en: "Three stamps, please.", vi: "Cho tôi ba con tem." },
-      { jp: "教室に学生が五人います。", en: "There are five students in the classroom.", vi: "Trong phòng học có năm sinh viên." },
+      {
+        jp: "りんごを二つ買いました。",
+        en: "I bought two apples.",
+        vi: "Tôi đã mua hai quả táo.",
+      },
+      {
+        jp: "切手を三枚ください。",
+        en: "Three stamps, please.",
+        vi: "Cho tôi ba con tem.",
+      },
+      {
+        jp: "教室に学生が五人います。",
+        en: "There are five students in the classroom.",
+        vi: "Trong phòng học có năm sinh viên.",
+      },
     ],
     l11_frequency: [
-      { jp: "一週間に一回日本語を勉強します。", en: "I study Japanese once a week.", vi: "Tôi học tiếng Nhật một lần mỗi tuần." },
-      { jp: "一日に三回ごはんを食べます。", en: "I eat three meals a day.", vi: "Tôi ăn ba bữa mỗi ngày." },
-      { jp: "一か月に二回映画を見ます。", en: "I watch a movie twice a month.", vi: "Tôi xem phim hai lần mỗi tháng." },
+      {
+        jp: "一週間に一回日本語を勉強します。",
+        en: "I study Japanese once a week.",
+        vi: "Tôi học tiếng Nhật một lần mỗi tuần.",
+      },
+      {
+        jp: "一日に三回ごはんを食べます。",
+        en: "I eat three meals a day.",
+        vi: "Tôi ăn ba bữa mỗi ngày.",
+      },
+      {
+        jp: "一か月に二回映画を見ます。",
+        en: "I watch a movie twice a month.",
+        vi: "Tôi xem phim hai lần mỗi tháng.",
+      },
     ],
   },
   explanations: {
@@ -64,11 +88,51 @@ module.exports = {
       source: "authored",
       title: { en: "More practice", vi: "Luyện tập thêm" },
       items: [
-        { prompt: "りんごを（　）買いました。（two things）", options: ["二つ", "二枚", "二人", "二回"], answer: 0, explanation: { en: "General objects use ～つ: 二つ.", vi: "Vật nói chung dùng ～つ: 二つ." } },
-        { prompt: "切手を（　）ください。（three flat items）", options: ["三枚", "三つ", "三人", "三本"], answer: 0, explanation: { en: "Flat items (stamps) use ～枚.", vi: "Vật mỏng dẹt (tem) dùng ～枚." } },
-        { prompt: "教室に学生が（　）います。（five people）", options: ["五人", "五つ", "五枚", "五回"], answer: 0, explanation: { en: "People are counted with ～人.", vi: "Người đếm bằng ～人." } },
-        { prompt: "一週間（　）一回勉強します。", options: ["に", "で", "を", "へ"], answer: 0, explanation: { en: "に marks the period for frequency.", vi: "に đánh dấu khoảng thời gian cho tần suất." } },
-        { prompt: "一日に三（　）ごはんを食べます。（times）", options: ["回", "枚", "人", "つ"], answer: 0, explanation: { en: "～回 counts occasions ('times').", vi: "～回 đếm số lần ('lần')." } },
+        {
+          prompt: "りんごを（　）買いました。（two things）",
+          options: ["二つ", "二枚", "二人", "二回"],
+          answer: 0,
+          explanation: {
+            en: "General objects use ～つ: 二つ.",
+            vi: "Vật nói chung dùng ～つ: 二つ.",
+          },
+        },
+        {
+          prompt: "切手を（　）ください。（three flat items）",
+          options: ["三枚", "三つ", "三人", "三本"],
+          answer: 0,
+          explanation: {
+            en: "Flat items (stamps) use ～枚.",
+            vi: "Vật mỏng dẹt (tem) dùng ～枚.",
+          },
+        },
+        {
+          prompt: "教室に学生が（　）います。（five people）",
+          options: ["五人", "五つ", "五枚", "五回"],
+          answer: 0,
+          explanation: {
+            en: "People are counted with ～人.",
+            vi: "Người đếm bằng ～人.",
+          },
+        },
+        {
+          prompt: "一週間（　）一回勉強します。",
+          options: ["に", "で", "を", "へ"],
+          answer: 0,
+          explanation: {
+            en: "に marks the period for frequency.",
+            vi: "に đánh dấu khoảng thời gian cho tần suất.",
+          },
+        },
+        {
+          prompt: "一日に三（　）ごはんを食べます。（times）",
+          options: ["回", "枚", "人", "つ"],
+          answer: 0,
+          explanation: {
+            en: "～回 counts occasions ('times').",
+            vi: "～回 đếm số lần ('lần').",
+          },
+        },
       ],
     },
   },

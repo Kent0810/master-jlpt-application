@@ -2,18 +2,50 @@
 module.exports = {
   examples: {
     l4_time: [
-      { jp: "今何時ですか。", en: "What time is it now?", vi: "Bây giờ là mấy giờ?" },
-      { jp: "毎朝7時に起きます。", en: "I get up at seven every morning.", vi: "Mỗi sáng tôi thức dậy lúc 7 giờ." },
-      { jp: "毎晩11時に寝ます。", en: "I go to bed at eleven every night.", vi: "Mỗi tối tôi đi ngủ lúc 11 giờ." },
+      {
+        jp: "今何時ですか。",
+        en: "What time is it now?",
+        vi: "Bây giờ là mấy giờ?",
+      },
+      {
+        jp: "毎朝7時に起きます。",
+        en: "I get up at seven every morning.",
+        vi: "Mỗi sáng tôi thức dậy lúc 7 giờ.",
+      },
+      {
+        jp: "毎晩11時に寝ます。",
+        en: "I go to bed at eleven every night.",
+        vi: "Mỗi tối tôi đi ngủ lúc 11 giờ.",
+      },
     ],
     l4_kara_made: [
-      { jp: "銀行は9時から3時までです。", en: "The bank is open from nine to three.", vi: "Ngân hàng mở cửa từ 9 giờ đến 3 giờ." },
-      { jp: "会社は月曜日から金曜日までです。", en: "Work is from Monday to Friday.", vi: "Công ty làm việc từ thứ Hai đến thứ Sáu." },
+      {
+        jp: "銀行は9時から3時までです。",
+        en: "The bank is open from nine to three.",
+        vi: "Ngân hàng mở cửa từ 9 giờ đến 3 giờ.",
+      },
+      {
+        jp: "会社は月曜日から金曜日までです。",
+        en: "Work is from Monday to Friday.",
+        vi: "Công ty làm việc từ thứ Hai đến thứ Sáu.",
+      },
     ],
     l4_verb_polite: [
-      { jp: "毎日勉強します。", en: "I study every day.", vi: "Tôi học mỗi ngày." },
-      { jp: "昨日働きました。", en: "I worked yesterday.", vi: "Hôm qua tôi đã làm việc." },
-      { jp: "日曜日は働きません。", en: "I don't work on Sundays.", vi: "Chủ nhật tôi không làm việc." },
+      {
+        jp: "毎日勉強します。",
+        en: "I study every day.",
+        vi: "Tôi học mỗi ngày.",
+      },
+      {
+        jp: "昨日働きました。",
+        en: "I worked yesterday.",
+        vi: "Hôm qua tôi đã làm việc.",
+      },
+      {
+        jp: "日曜日は働きません。",
+        en: "I don't work on Sundays.",
+        vi: "Chủ nhật tôi không làm việc.",
+      },
     ],
   },
   explanations: {
@@ -90,11 +122,51 @@ module.exports = {
       source: "authored",
       title: { en: "More practice", vi: "Luyện tập thêm" },
       items: [
-        { prompt: "毎朝7時（　）起きます。", options: ["に", "で", "を", "へ"], answer: 0, explanation: { en: "に marks a specific clock time before a verb.", vi: "に đánh dấu giờ cụ thể trước động từ." } },
-        { prompt: "今（　）ですか。（what time）", options: ["何時", "何", "どこ", "だれ"], answer: 0, explanation: { en: "何時 asks 'what time'.", vi: "何時 hỏi 'mấy giờ'." } },
-        { prompt: "銀行は9時（　）3時までです。", options: ["から", "まで", "に", "と"], answer: 0, explanation: { en: "から marks the start of the range.", vi: "から đánh dấu điểm bắt đầu của khoảng." } },
-        { prompt: "昨日働き（　）。（past affirmative）", options: ["ました", "ます", "ません", "ませんでした"], answer: 0, explanation: { en: "ました is the polite past affirmative.", vi: "ました là quá khứ khẳng định lịch sự." } },
-        { prompt: "日曜日は働き（　）。（don't / non-past negative）", options: ["ません", "ました", "ませんでした", "ます"], answer: 0, explanation: { en: "ません is the non-past negative.", vi: "ません là phủ định hiện tại." } },
+        {
+          prompt: "毎朝7時（　）起きます。",
+          options: ["に", "で", "を", "へ"],
+          answer: 0,
+          explanation: {
+            en: "に marks a specific clock time before a verb.",
+            vi: "に đánh dấu giờ cụ thể trước động từ.",
+          },
+        },
+        {
+          prompt: "今（　）ですか。（what time）",
+          options: ["何時", "何", "どこ", "だれ"],
+          answer: 0,
+          explanation: {
+            en: "何時 asks 'what time'.",
+            vi: "何時 hỏi 'mấy giờ'.",
+          },
+        },
+        {
+          prompt: "銀行は9時（　）3時までです。",
+          options: ["から", "まで", "に", "と"],
+          answer: 0,
+          explanation: {
+            en: "から marks the start of the range.",
+            vi: "から đánh dấu điểm bắt đầu của khoảng.",
+          },
+        },
+        {
+          prompt: "昨日働き（　）。（past affirmative）",
+          options: ["ました", "ます", "ません", "ませんでした"],
+          answer: 0,
+          explanation: {
+            en: "ました is the polite past affirmative.",
+            vi: "ました là quá khứ khẳng định lịch sự.",
+          },
+        },
+        {
+          prompt: "日曜日は働き（　）。（don't / non-past negative）",
+          options: ["ません", "ました", "ませんでした", "ます"],
+          answer: 0,
+          explanation: {
+            en: "ません is the non-past negative.",
+            vi: "ません là phủ định hiện tại.",
+          },
+        },
       ],
     },
   },

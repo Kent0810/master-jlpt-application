@@ -2,19 +2,55 @@
 module.exports = {
   examples: {
     l15_te_mo_ii: [
-      { jp: "ここで写真を撮ってもいいです。", en: "You may take photos here.", vi: "Bạn có thể chụp ảnh ở đây." },
-      { jp: "「入ってもいいですか。」「はい、どうぞ。」", en: "\"May I come in?\" \"Yes, please.\"", vi: "\"Tôi vào được không?\" \"Vâng, mời vào.\"" },
-      { jp: "鉛筆で書いてもいいです。", en: "You may write in pencil.", vi: "Bạn có thể viết bằng bút chì." },
+      {
+        jp: "ここで写真を撮ってもいいです。",
+        en: "You may take photos here.",
+        vi: "Bạn có thể chụp ảnh ở đây.",
+      },
+      {
+        jp: "「入ってもいいですか。」「はい、どうぞ。」",
+        en: '"May I come in?" "Yes, please."',
+        vi: '"Tôi vào được không?" "Vâng, mời vào."',
+      },
+      {
+        jp: "鉛筆で書いてもいいです。",
+        en: "You may write in pencil.",
+        vi: "Bạn có thể viết bằng bút chì.",
+      },
     ],
     l15_te_wa_ikemasen: [
-      { jp: "ここでたばこを吸ってはいけません。", en: "You must not smoke here.", vi: "Không được hút thuốc ở đây." },
-      { jp: "ここに車を止めてはいけません。", en: "You must not park here.", vi: "Không được đỗ xe ở đây." },
-      { jp: "図書館で話してはいけません。", en: "You must not talk in the library.", vi: "Không được nói chuyện trong thư viện." },
+      {
+        jp: "ここでたばこを吸ってはいけません。",
+        en: "You must not smoke here.",
+        vi: "Không được hút thuốc ở đây.",
+      },
+      {
+        jp: "ここに車を止めてはいけません。",
+        en: "You must not park here.",
+        vi: "Không được đỗ xe ở đây.",
+      },
+      {
+        jp: "図書館で話してはいけません。",
+        en: "You must not talk in the library.",
+        vi: "Không được nói chuyện trong thư viện.",
+      },
     ],
     l15_te_imasu_state: [
-      { jp: "ミラーさんは東京に住んでいます。", en: "Mr. Miller lives in Tokyo.", vi: "Anh Miller sống ở Tokyo." },
-      { jp: "姉は銀行に勤めています。", en: "My older sister works at a bank.", vi: "Chị gái tôi làm ở ngân hàng." },
-      { jp: "わたしは結婚しています。", en: "I am married.", vi: "Tôi đã kết hôn." },
+      {
+        jp: "ミラーさんは東京に住んでいます。",
+        en: "Mr. Miller lives in Tokyo.",
+        vi: "Anh Miller sống ở Tokyo.",
+      },
+      {
+        jp: "姉は銀行に勤めています。",
+        en: "My older sister works at a bank.",
+        vi: "Chị gái tôi làm ở ngân hàng.",
+      },
+      {
+        jp: "わたしは結婚しています。",
+        en: "I am married.",
+        vi: "Tôi đã kết hôn.",
+      },
     ],
   },
   explanations: {
@@ -91,11 +127,51 @@ module.exports = {
       source: "authored",
       title: { en: "More practice", vi: "Luyện tập thêm" },
       items: [
-        { prompt: "ここで写真を撮って（　）です。（may）", options: ["もいい", "はいけません", "から", "ください"], answer: 0, explanation: { en: "てもいいです = permission.", vi: "てもいいです = cho phép." } },
-        { prompt: "ここでたばこを吸って（　）。（must not）", options: ["はいけません", "もいいです", "ください", "います"], answer: 0, explanation: { en: "てはいけません = prohibition.", vi: "てはいけません = cấm." } },
-        { prompt: "ミラーさんは東京に住んで（　）。（lives）", options: ["います", "ください", "もいいです", "はいけません"], answer: 0, explanation: { en: "住んでいます = ongoing state ('lives').", vi: "住んでいます = trạng thái ('sống')." } },
-        { prompt: "「入ってもいいです（　）。」「はい、どうぞ。」", options: ["か", "ね", "よ", "の"], answer: 0, explanation: { en: "か asks for permission.", vi: "か dùng để xin phép." } },
-        { prompt: "図書館で話（　）はいけません。", options: ["して", "しって", "しいて", "しんで"], answer: 0, explanation: { en: "す-verb: 話します → 話して.", vi: "Động từ đuôi す: 話します → 話して." } },
+        {
+          prompt: "ここで写真を撮って（　）です。（may）",
+          options: ["もいい", "はいけません", "から", "ください"],
+          answer: 0,
+          explanation: {
+            en: "てもいいです = permission.",
+            vi: "てもいいです = cho phép.",
+          },
+        },
+        {
+          prompt: "ここでたばこを吸って（　）。（must not）",
+          options: ["はいけません", "もいいです", "ください", "います"],
+          answer: 0,
+          explanation: {
+            en: "てはいけません = prohibition.",
+            vi: "てはいけません = cấm.",
+          },
+        },
+        {
+          prompt: "ミラーさんは東京に住んで（　）。（lives）",
+          options: ["います", "ください", "もいいです", "はいけません"],
+          answer: 0,
+          explanation: {
+            en: "住んでいます = ongoing state ('lives').",
+            vi: "住んでいます = trạng thái ('sống').",
+          },
+        },
+        {
+          prompt: "「入ってもいいです（　）。」「はい、どうぞ。」",
+          options: ["か", "ね", "よ", "の"],
+          answer: 0,
+          explanation: {
+            en: "か asks for permission.",
+            vi: "か dùng để xin phép.",
+          },
+        },
+        {
+          prompt: "図書館で話（　）はいけません。",
+          options: ["して", "しって", "しいて", "しんで"],
+          answer: 0,
+          explanation: {
+            en: "す-verb: 話します → 話して.",
+            vi: "Động từ đuôi す: 話します → 話して.",
+          },
+        },
       ],
     },
   },

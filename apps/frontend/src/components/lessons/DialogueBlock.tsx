@@ -1,6 +1,7 @@
 "use client";
 
 import { Sentence } from "@/components/Sentence";
+import { AlignedTranslation } from "@/components/AlignedTranslation";
 import { lessonAccent, accentTint } from "@/lib/lessonAccents";
 import { useT, useLang } from "@/lib/i18n";
 import type { Language } from "@/lib/settings/SettingsProvider";
@@ -214,9 +215,41 @@ function Paragraph({
         <WordCardFor key={i} sKey={`${blockKey}:${i}`} />
       ))}
       <p className="mt-3 border-t border-black/5 pt-3 text-sm leading-relaxed text-slate-500 dark:border-white/10 dark:text-slate-400">
-        {lines.map((line) => gloss(line, lang)).join(" ")}
+        {lines.map((line, i) => (
+          <ParagraphGloss
+            key={i}
+            sKey={`${blockKey}:${i}`}
+            line={line}
+            lang={lang}
+          />
+        ))}
       </p>
     </div>
+  );
+}
+
+// One line's share of the passage translation, linked to the same hover state
+// as its Japanese sentence so aligned words light up across the block.
+function ParagraphGloss({
+  sKey,
+  line,
+  lang,
+}: {
+  sKey: string;
+  line: DialogueLine;
+  lang: Language;
+}) {
+  const link = useSentenceLink(sKey);
+  // Trailing space keeps the passage wrappable, like the " " join it replaces.
+  return (
+    <>
+      <AlignedTranslation
+        text={gloss(line, lang)}
+        parts={align(line, lang)}
+        highlightIndex={link.highlightIndex}
+        onWordHover={link.onWordHover}
+      />{" "}
+    </>
   );
 }
 

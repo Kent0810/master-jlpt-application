@@ -2,19 +2,51 @@
 module.exports = {
   examples: {
     l6_wo_object: [
-      { jp: "毎朝パンを食べます。", en: "I eat bread every morning.", vi: "Mỗi sáng tôi ăn bánh mì." },
-      { jp: "新聞を読みます。", en: "I read the newspaper.", vi: "Tôi đọc báo." },
+      {
+        jp: "毎朝パンを食べます。",
+        en: "I eat bread every morning.",
+        vi: "Mỗi sáng tôi ăn bánh mì.",
+      },
+      {
+        jp: "新聞を読みます。",
+        en: "I read the newspaper.",
+        vi: "Tôi đọc báo.",
+      },
       { jp: "テレビを見ます。", en: "I watch TV.", vi: "Tôi xem ti vi." },
     ],
     l6_de_place: [
-      { jp: "図書館で本を読みます。", en: "I read books at the library.", vi: "Tôi đọc sách ở thư viện." },
-      { jp: "食堂で昼ごはんを食べます。", en: "I eat lunch at the cafeteria.", vi: "Tôi ăn trưa ở nhà ăn." },
-      { jp: "うちで音楽を聞きます。", en: "I listen to music at home.", vi: "Tôi nghe nhạc ở nhà." },
+      {
+        jp: "図書館で本を読みます。",
+        en: "I read books at the library.",
+        vi: "Tôi đọc sách ở thư viện.",
+      },
+      {
+        jp: "食堂で昼ごはんを食べます。",
+        en: "I eat lunch at the cafeteria.",
+        vi: "Tôi ăn trưa ở nhà ăn.",
+      },
+      {
+        jp: "うちで音楽を聞きます。",
+        en: "I listen to music at home.",
+        vi: "Tôi nghe nhạc ở nhà.",
+      },
     ],
     l6_masenka_mashou: [
-      { jp: "いっしょに昼ごはんを食べませんか。", en: "Won't you have lunch together?", vi: "Chúng ta cùng ăn trưa nhé?" },
-      { jp: "いっしょに公園へ行きませんか。", en: "Won't you go to the park with me?", vi: "Chúng ta cùng đi công viên nhé?" },
-      { jp: "ちょっと休みましょう。", en: "Let's take a short break.", vi: "Chúng ta nghỉ một chút nào." },
+      {
+        jp: "いっしょに昼ごはんを食べませんか。",
+        en: "Won't you have lunch together?",
+        vi: "Chúng ta cùng ăn trưa nhé?",
+      },
+      {
+        jp: "いっしょに公園へ行きませんか。",
+        en: "Won't you go to the park with me?",
+        vi: "Chúng ta cùng đi công viên nhé?",
+      },
+      {
+        jp: "ちょっと休みましょう。",
+        en: "Let's take a short break.",
+        vi: "Chúng ta nghỉ một chút nào.",
+      },
     ],
   },
   explanations: {
@@ -91,11 +123,51 @@ module.exports = {
       source: "authored",
       title: { en: "More practice", vi: "Luyện tập thêm" },
       items: [
-        { prompt: "パン（　）食べます。", options: ["を", "が", "で", "に"], answer: 0, explanation: { en: "を marks the direct object.", vi: "を đánh dấu tân ngữ trực tiếp." } },
-        { prompt: "図書館（　）本を読みます。", options: ["で", "に", "を", "へ"], answer: 0, explanation: { en: "で marks where the action happens.", vi: "で đánh dấu nơi diễn ra hành động." } },
-        { prompt: "いっしょに昼ごはんを食べ（　）。（won't you…?）", options: ["ませんか", "ましょう", "ました", "ません"], answer: 0, explanation: { en: "Vませんか is an invitation.", vi: "Vませんか là lời mời." } },
-        { prompt: "ちょっと休み（　）。（let's…）", options: ["ましょう", "ませんか", "ました", "ます"], answer: 0, explanation: { en: "Vましょう proposes doing it together.", vi: "Vましょう đề nghị cùng làm." } },
-        { prompt: "うち（　）音楽を聞きます。", options: ["で", "を", "へ", "が"], answer: 0, explanation: { en: "で marks the place of the action.", vi: "で đánh dấu nơi hành động." } },
+        {
+          prompt: "パン（　）食べます。",
+          options: ["を", "が", "で", "に"],
+          answer: 0,
+          explanation: {
+            en: "を marks the direct object.",
+            vi: "を đánh dấu tân ngữ trực tiếp.",
+          },
+        },
+        {
+          prompt: "図書館（　）本を読みます。",
+          options: ["で", "に", "を", "へ"],
+          answer: 0,
+          explanation: {
+            en: "で marks where the action happens.",
+            vi: "で đánh dấu nơi diễn ra hành động.",
+          },
+        },
+        {
+          prompt: "いっしょに昼ごはんを食べ（　）。（won't you…?）",
+          options: ["ませんか", "ましょう", "ました", "ません"],
+          answer: 0,
+          explanation: {
+            en: "Vませんか is an invitation.",
+            vi: "Vませんか là lời mời.",
+          },
+        },
+        {
+          prompt: "ちょっと休み（　）。（let's…）",
+          options: ["ましょう", "ませんか", "ました", "ます"],
+          answer: 0,
+          explanation: {
+            en: "Vましょう proposes doing it together.",
+            vi: "Vましょう đề nghị cùng làm.",
+          },
+        },
+        {
+          prompt: "うち（　）音楽を聞きます。",
+          options: ["で", "を", "へ", "が"],
+          answer: 0,
+          explanation: {
+            en: "で marks the place of the action.",
+            vi: "で đánh dấu nơi hành động.",
+          },
+        },
       ],
     },
   },

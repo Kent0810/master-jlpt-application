@@ -2,19 +2,55 @@
 module.exports = {
   examples: {
     l18_dict_form: [
-      { jp: "本を読むことが好きです。", en: "I like reading books.", vi: "Tôi thích đọc sách." },
-      { jp: "音楽を聞くことが好きです。", en: "I like listening to music.", vi: "Tôi thích nghe nhạc." },
-      { jp: "早く起きることは難しいです。", en: "Getting up early is difficult.", vi: "Dậy sớm thì khó." },
+      {
+        jp: "本を読むことが好きです。",
+        en: "I like reading books.",
+        vi: "Tôi thích đọc sách.",
+      },
+      {
+        jp: "音楽を聞くことが好きです。",
+        en: "I like listening to music.",
+        vi: "Tôi thích nghe nhạc.",
+      },
+      {
+        jp: "早く起きることは難しいです。",
+        en: "Getting up early is difficult.",
+        vi: "Dậy sớm thì khó.",
+      },
     ],
     l18_koto_ga_dekimasu: [
-      { jp: "わたしは日本語を話すことができます。", en: "I can speak Japanese.", vi: "Tôi có thể nói tiếng Nhật." },
-      { jp: "ミラーさんは漢字を読むことができます。", en: "Mr. Miller can read kanji.", vi: "Anh Miller có thể đọc chữ Hán." },
-      { jp: "ここで写真を撮ることができます。", en: "You can take photos here.", vi: "Bạn có thể chụp ảnh ở đây." },
+      {
+        jp: "わたしは日本語を話すことができます。",
+        en: "I can speak Japanese.",
+        vi: "Tôi có thể nói tiếng Nhật.",
+      },
+      {
+        jp: "ミラーさんは漢字を読むことができます。",
+        en: "Mr. Miller can read kanji.",
+        vi: "Anh Miller có thể đọc chữ Hán.",
+      },
+      {
+        jp: "ここで写真を撮ることができます。",
+        en: "You can take photos here.",
+        vi: "Bạn có thể chụp ảnh ở đây.",
+      },
     ],
     l18_mae_ni: [
-      { jp: "食べるまえに、手を洗います。", en: "Before eating, I wash my hands.", vi: "Trước khi ăn, tôi rửa tay." },
-      { jp: "寝るまえに、本を読みます。", en: "Before sleeping, I read a book.", vi: "Trước khi ngủ, tôi đọc sách." },
-      { jp: "日本へ来るまえに、日本語を勉強しました。", en: "Before coming to Japan, I studied Japanese.", vi: "Trước khi đến Nhật, tôi đã học tiếng Nhật." },
+      {
+        jp: "食べるまえに、手を洗います。",
+        en: "Before eating, I wash my hands.",
+        vi: "Trước khi ăn, tôi rửa tay.",
+      },
+      {
+        jp: "寝るまえに、本を読みます。",
+        en: "Before sleeping, I read a book.",
+        vi: "Trước khi ngủ, tôi đọc sách.",
+      },
+      {
+        jp: "日本へ来るまえに、日本語を勉強しました。",
+        en: "Before coming to Japan, I studied Japanese.",
+        vi: "Trước khi đến Nhật, tôi đã học tiếng Nhật.",
+      },
     ],
   },
   explanations: {
@@ -91,11 +127,51 @@ module.exports = {
       source: "authored",
       title: { en: "More practice", vi: "Luyện tập thêm" },
       items: [
-        { prompt: "わたしは日本語を話す（　）ができます。", options: ["こと", "の", "もの", "とき"], answer: 0, explanation: { en: "ことができます expresses ability.", vi: "ことができます diễn tả khả năng." } },
-        { prompt: "ここで写真を（　）ことができます。（take — 撮ります）", options: ["撮る", "撮り", "撮って", "撮った"], answer: 0, explanation: { en: "Use the dictionary form before こと: 撮る.", vi: "Dùng thể từ điển trước こと: 撮る." } },
-        { prompt: "食べる（　）に、手を洗います。（before）", options: ["まえ", "あと", "とき", "から"], answer: 0, explanation: { en: "V-るまえに = before doing.", vi: "V-るまえに = trước khi làm." } },
-        { prompt: "寝る（　）、本を読みます。（before sleeping）", options: ["まえに", "あとで", "ながら", "ので"], answer: 0, explanation: { en: "まえに follows the dictionary form.", vi: "まえに theo sau thể từ điển." } },
-        { prompt: "読みます → dictionary form is（　）。", options: ["読む", "読る", "読い", "読んだ"], answer: 0, explanation: { en: "う-verb: 読みます → 読む.", vi: "Nhóm う: 読みます → 読む." } },
+        {
+          prompt: "わたしは日本語を話す（　）ができます。",
+          options: ["こと", "の", "もの", "とき"],
+          answer: 0,
+          explanation: {
+            en: "ことができます expresses ability.",
+            vi: "ことができます diễn tả khả năng.",
+          },
+        },
+        {
+          prompt: "ここで写真を（　）ことができます。（take — 撮ります）",
+          options: ["撮る", "撮り", "撮って", "撮った"],
+          answer: 0,
+          explanation: {
+            en: "Use the dictionary form before こと: 撮る.",
+            vi: "Dùng thể từ điển trước こと: 撮る.",
+          },
+        },
+        {
+          prompt: "食べる（　）に、手を洗います。（before）",
+          options: ["まえ", "あと", "とき", "から"],
+          answer: 0,
+          explanation: {
+            en: "V-るまえに = before doing.",
+            vi: "V-るまえに = trước khi làm.",
+          },
+        },
+        {
+          prompt: "寝る（　）、本を読みます。（before sleeping）",
+          options: ["まえに", "あとで", "ながら", "ので"],
+          answer: 0,
+          explanation: {
+            en: "まえに follows the dictionary form.",
+            vi: "まえに theo sau thể từ điển.",
+          },
+        },
+        {
+          prompt: "読みます → dictionary form is（　）。",
+          options: ["読む", "読る", "読い", "読んだ"],
+          answer: 0,
+          explanation: {
+            en: "う-verb: 読みます → 読む.",
+            vi: "Nhóm う: 読みます → 読む.",
+          },
+        },
       ],
     },
   },

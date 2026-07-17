@@ -2,19 +2,55 @@
 module.exports = {
   examples: {
     l21_to_omoimasu: [
-      { jp: "あした雨が降ると思います。", en: "I think it will rain tomorrow.", vi: "Tôi nghĩ ngày mai trời sẽ mưa." },
-      { jp: "ミラーさんは会社にいると思います。", en: "I think Mr. Miller is at the office.", vi: "Tôi nghĩ anh Miller đang ở công ty." },
-      { jp: "この映画はおもしろいと思います。", en: "I think this movie is interesting.", vi: "Tôi nghĩ bộ phim này thú vị." },
+      {
+        jp: "あした雨が降ると思います。",
+        en: "I think it will rain tomorrow.",
+        vi: "Tôi nghĩ ngày mai trời sẽ mưa.",
+      },
+      {
+        jp: "ミラーさんは会社にいると思います。",
+        en: "I think Mr. Miller is at the office.",
+        vi: "Tôi nghĩ anh Miller đang ở công ty.",
+      },
+      {
+        jp: "この映画はおもしろいと思います。",
+        en: "I think this movie is interesting.",
+        vi: "Tôi nghĩ bộ phim này thú vị.",
+      },
     ],
     l21_to_iimashita: [
-      { jp: "田中さんはあした来ると言いました。", en: "Mr. Tanaka said he will come tomorrow.", vi: "Ông Tanaka nói ngày mai sẽ đến." },
-      { jp: "先生は「宿題をしてください」と言いました。", en: "The teacher said, \"Please do the homework.\"", vi: "Thầy giáo nói \"Hãy làm bài tập.\"" },
-      { jp: "母は元気だと言いました。", en: "My mother said she is well.", vi: "Mẹ tôi nói bà khỏe." },
+      {
+        jp: "田中さんはあした来ると言いました。",
+        en: "Mr. Tanaka said he will come tomorrow.",
+        vi: "Ông Tanaka nói ngày mai sẽ đến.",
+      },
+      {
+        jp: "先生は「宿題をしてください」と言いました。",
+        en: 'The teacher said, "Please do the homework."',
+        vi: 'Thầy giáo nói "Hãy làm bài tập."',
+      },
+      {
+        jp: "母は元気だと言いました。",
+        en: "My mother said she is well.",
+        vi: "Mẹ tôi nói bà khỏe.",
+      },
     ],
     l21_deshou: [
-      { jp: "この料理はおいしいでしょう？", en: "This food is delicious, isn't it?", vi: "Món này ngon nhỉ?" },
-      { jp: "あなたも行くでしょう？", en: "You're going too, right?", vi: "Bạn cũng đi phải không?" },
-      { jp: "田中さんは先生でしょう？", en: "Mr. Tanaka is a teacher, right?", vi: "Ông Tanaka là giáo viên nhỉ?" },
+      {
+        jp: "この料理はおいしいでしょう？",
+        en: "This food is delicious, isn't it?",
+        vi: "Món này ngon nhỉ?",
+      },
+      {
+        jp: "あなたも行くでしょう？",
+        en: "You're going too, right?",
+        vi: "Bạn cũng đi phải không?",
+      },
+      {
+        jp: "田中さんは先生でしょう？",
+        en: "Mr. Tanaka is a teacher, right?",
+        vi: "Ông Tanaka là giáo viên nhỉ?",
+      },
     ],
   },
   explanations: {
@@ -91,11 +127,51 @@ module.exports = {
       source: "authored",
       title: { en: "More practice", vi: "Luyện tập thêm" },
       items: [
-        { prompt: "あした雨が降る（　）思います。", options: ["と", "を", "が", "の"], answer: 0, explanation: { en: "と marks the content of a thought.", vi: "と đánh dấu nội dung suy nghĩ." } },
-        { prompt: "この映画はおもしろい（　）思います。（plain before と）", options: ["と", "ですと", "だと", "のと"], answer: 0, explanation: { en: "い-adjective stays plain before と.", vi: "Tính từ い giữ thể thường trước と." } },
-        { prompt: "田中さんはあした来る（　）言いました。", options: ["と", "を", "は", "が"], answer: 0, explanation: { en: "と reports what was said.", vi: "と thuật lại lời đã nói." } },
-        { prompt: "この料理はおいしい（　）？（right?）", options: ["でしょう", "ますか", "です", "だか"], answer: 0, explanation: { en: "でしょう？ seeks agreement.", vi: "でしょう？ tìm sự đồng tình." } },
-        { prompt: "母は元気（　）と言いました。（plain noun/na-adj）", options: ["だ", "です", "の", "な"], answer: 0, explanation: { en: "Plain form uses だ before と.", vi: "Thể thường dùng だ trước と." } },
+        {
+          prompt: "あした雨が降る（　）思います。",
+          options: ["と", "を", "が", "の"],
+          answer: 0,
+          explanation: {
+            en: "と marks the content of a thought.",
+            vi: "と đánh dấu nội dung suy nghĩ.",
+          },
+        },
+        {
+          prompt: "この映画はおもしろい（　）思います。（plain before と）",
+          options: ["と", "ですと", "だと", "のと"],
+          answer: 0,
+          explanation: {
+            en: "い-adjective stays plain before と.",
+            vi: "Tính từ い giữ thể thường trước と.",
+          },
+        },
+        {
+          prompt: "田中さんはあした来る（　）言いました。",
+          options: ["と", "を", "は", "が"],
+          answer: 0,
+          explanation: {
+            en: "と reports what was said.",
+            vi: "と thuật lại lời đã nói.",
+          },
+        },
+        {
+          prompt: "この料理はおいしい（　）？（right?）",
+          options: ["でしょう", "ますか", "です", "だか"],
+          answer: 0,
+          explanation: {
+            en: "でしょう？ seeks agreement.",
+            vi: "でしょう？ tìm sự đồng tình.",
+          },
+        },
+        {
+          prompt: "母は元気（　）と言いました。（plain noun/na-adj）",
+          options: ["だ", "です", "の", "な"],
+          answer: 0,
+          explanation: {
+            en: "Plain form uses だ before と.",
+            vi: "Thể thường dùng だ trước と.",
+          },
+        },
       ],
     },
   },

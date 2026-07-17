@@ -2,19 +2,55 @@
 module.exports = {
   examples: {
     l9_ga_suki: [
-      { jp: "わたしは音楽が好きです。", en: "I like music.", vi: "Tôi thích âm nhạc." },
-      { jp: "ミラーさんは日本料理が好きです。", en: "Mr. Miller likes Japanese food.", vi: "Anh Miller thích món ăn Nhật." },
-      { jp: "田中さんはテニスが上手です。", en: "Mr. Tanaka is good at tennis.", vi: "Ông Tanaka giỏi quần vợt." },
+      {
+        jp: "わたしは音楽が好きです。",
+        en: "I like music.",
+        vi: "Tôi thích âm nhạc.",
+      },
+      {
+        jp: "ミラーさんは日本料理が好きです。",
+        en: "Mr. Miller likes Japanese food.",
+        vi: "Anh Miller thích món ăn Nhật.",
+      },
+      {
+        jp: "田中さんはテニスが上手です。",
+        en: "Mr. Tanaka is good at tennis.",
+        vi: "Ông Tanaka giỏi quần vợt.",
+      },
     ],
     l9_ga_wakarimasu: [
-      { jp: "わたしは日本語が少しわかります。", en: "I understand a little Japanese.", vi: "Tôi hiểu tiếng Nhật một chút." },
-      { jp: "今日は時間がありません。", en: "I have no time today.", vi: "Hôm nay tôi không có thời gian." },
-      { jp: "お金がありませんから、買いません。", en: "I won't buy it because I have no money.", vi: "Vì không có tiền nên tôi không mua." },
+      {
+        jp: "わたしは日本語が少しわかります。",
+        en: "I understand a little Japanese.",
+        vi: "Tôi hiểu tiếng Nhật một chút.",
+      },
+      {
+        jp: "今日は時間がありません。",
+        en: "I have no time today.",
+        vi: "Hôm nay tôi không có thời gian.",
+      },
+      {
+        jp: "お金がありませんから、買いません。",
+        en: "I won't buy it because I have no money.",
+        vi: "Vì không có tiền nên tôi không mua.",
+      },
     ],
     l9_kara_reason: [
-      { jp: "時間がありませんから、行きません。", en: "I won't go because I don't have time.", vi: "Vì không có thời gian nên tôi không đi." },
-      { jp: "おいしいですから、この店が好きです。", en: "I like this shop because it's tasty.", vi: "Vì ngon nên tôi thích quán này." },
-      { jp: "「どうして休みましたか。」「病気でしたから。」", en: "\"Why were you absent?\" \"Because I was sick.\"", vi: "\"Sao bạn nghỉ vậy?\" \"Vì tôi bị ốm.\"" },
+      {
+        jp: "時間がありませんから、行きません。",
+        en: "I won't go because I don't have time.",
+        vi: "Vì không có thời gian nên tôi không đi.",
+      },
+      {
+        jp: "おいしいですから、この店が好きです。",
+        en: "I like this shop because it's tasty.",
+        vi: "Vì ngon nên tôi thích quán này.",
+      },
+      {
+        jp: "「どうして休みましたか。」「病気でしたから。」",
+        en: '"Why were you absent?" "Because I was sick."',
+        vi: '"Sao bạn nghỉ vậy?" "Vì tôi bị ốm."',
+      },
     ],
   },
   explanations: {
@@ -91,11 +127,48 @@ module.exports = {
       source: "authored",
       title: { en: "More practice", vi: "Luyện tập thêm" },
       items: [
-        { prompt: "わたしは音楽（　）好きです。", options: ["が", "を", "は", "に"], answer: 0, explanation: { en: "好き marks its object with が.", vi: "好き đánh dấu đối tượng bằng が." } },
-        { prompt: "田中さんはテニス（　）上手です。", options: ["が", "を", "で", "に"], answer: 0, explanation: { en: "上手 also takes が.", vi: "上手 cũng dùng が." } },
-        { prompt: "日本語（　）少しわかります。", options: ["が", "を", "は", "で"], answer: 0, explanation: { en: "わかります takes が.", vi: "わかります dùng が." } },
-        { prompt: "時間がありません（　）、行きません。", options: ["から", "が", "の", "まで"], answer: 0, explanation: { en: "から gives the reason ('because').", vi: "から nêu lý do ('vì')." } },
-        { prompt: "スポーツ（　）好きです。", options: ["が", "を", "に", "へ"], answer: 0, explanation: { en: "Use が, not を, with 好き.", vi: "Dùng が, không phải を, với 好き." } },
+        {
+          prompt: "わたしは音楽（　）好きです。",
+          options: ["が", "を", "は", "に"],
+          answer: 0,
+          explanation: {
+            en: "好き marks its object with が.",
+            vi: "好き đánh dấu đối tượng bằng が.",
+          },
+        },
+        {
+          prompt: "田中さんはテニス（　）上手です。",
+          options: ["が", "を", "で", "に"],
+          answer: 0,
+          explanation: { en: "上手 also takes が.", vi: "上手 cũng dùng が." },
+        },
+        {
+          prompt: "日本語（　）少しわかります。",
+          options: ["が", "を", "は", "で"],
+          answer: 0,
+          explanation: {
+            en: "わかります takes が.",
+            vi: "わかります dùng が.",
+          },
+        },
+        {
+          prompt: "時間がありません（　）、行きません。",
+          options: ["から", "が", "の", "まで"],
+          answer: 0,
+          explanation: {
+            en: "から gives the reason ('because').",
+            vi: "から nêu lý do ('vì').",
+          },
+        },
+        {
+          prompt: "スポーツ（　）好きです。",
+          options: ["が", "を", "に", "へ"],
+          answer: 0,
+          explanation: {
+            en: "Use が, not を, with 好き.",
+            vi: "Dùng が, không phải を, với 好き.",
+          },
+        },
       ],
     },
   },

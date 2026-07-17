@@ -2,14 +2,38 @@
 module.exports = {
   examples: {
     l25_tara: [
-      { jp: "お金があったら、旅行します。", en: "If I have money, I'll travel.", vi: "Nếu có tiền, tôi sẽ đi du lịch." },
-      { jp: "日本へ行ったら、京都を見たいです。", en: "When I go to Japan, I want to see Kyoto.", vi: "Khi đi Nhật, tôi muốn thăm Kyoto." },
-      { jp: "安かったら、買います。", en: "If it's cheap, I'll buy it.", vi: "Nếu rẻ, tôi sẽ mua." },
+      {
+        jp: "お金があったら、旅行します。",
+        en: "If I have money, I'll travel.",
+        vi: "Nếu có tiền, tôi sẽ đi du lịch.",
+      },
+      {
+        jp: "日本へ行ったら、京都を見たいです。",
+        en: "When I go to Japan, I want to see Kyoto.",
+        vi: "Khi đi Nhật, tôi muốn thăm Kyoto.",
+      },
+      {
+        jp: "安かったら、買います。",
+        en: "If it's cheap, I'll buy it.",
+        vi: "Nếu rẻ, tôi sẽ mua.",
+      },
     ],
     l25_temo: [
-      { jp: "雨が降っても、行きます。", en: "Even if it rains, I'll go.", vi: "Dù trời mưa, tôi vẫn đi." },
-      { jp: "高くても、買います。", en: "Even if it's expensive, I'll buy it.", vi: "Dù đắt, tôi vẫn mua." },
-      { jp: "日曜日でも、働きます。", en: "Even on Sundays, I work.", vi: "Dù là chủ nhật, tôi vẫn làm việc." },
+      {
+        jp: "雨が降っても、行きます。",
+        en: "Even if it rains, I'll go.",
+        vi: "Dù trời mưa, tôi vẫn đi.",
+      },
+      {
+        jp: "高くても、買います。",
+        en: "Even if it's expensive, I'll buy it.",
+        vi: "Dù đắt, tôi vẫn mua.",
+      },
+      {
+        jp: "日曜日でも、働きます。",
+        en: "Even on Sundays, I work.",
+        vi: "Dù là chủ nhật, tôi vẫn làm việc.",
+      },
     ],
   },
   explanations: {
@@ -64,11 +88,51 @@ module.exports = {
       source: "authored",
       title: { en: "More practice", vi: "Luyện tập thêm" },
       items: [
-        { prompt: "お金が（　）、旅行します。（if there is — あります）", options: ["あったら", "あると", "あって", "あるなら"], answer: 0, explanation: { en: "たら from the た-form: あった → あったら.", vi: "たら từ thể た: あった → あったら." } },
-        { prompt: "安（　）、買います。（if cheap）", options: ["かったら", "いたら", "くても", "ければ"], answer: 0, explanation: { en: "い-adjective たら: 安かったら.", vi: "たら tính từ い: 安かったら." } },
-        { prompt: "雨が降（　）、行きます。（even if）", options: ["っても", "ったら", "ると", "って"], answer: 0, explanation: { en: "ても from the て-form: 降っても.", vi: "ても từ thể て: 降っても." } },
-        { prompt: "高（　）、買います。（even if expensive）", options: ["くても", "かったら", "いても", "ければ"], answer: 0, explanation: { en: "い-adjective ても: 高くても.", vi: "ても tính từ い: 高くても." } },
-        { prompt: "日曜日（　）、働きます。（even on）", options: ["でも", "ても", "だら", "なら"], answer: 0, explanation: { en: "Noun + でも = 'even'.", vi: "Danh từ + でも = 'dù'." } },
+        {
+          prompt: "お金が（　）、旅行します。（if there is — あります）",
+          options: ["あったら", "あると", "あって", "あるなら"],
+          answer: 0,
+          explanation: {
+            en: "たら from the た-form: あった → あったら.",
+            vi: "たら từ thể た: あった → あったら.",
+          },
+        },
+        {
+          prompt: "安（　）、買います。（if cheap）",
+          options: ["かったら", "いたら", "くても", "ければ"],
+          answer: 0,
+          explanation: {
+            en: "い-adjective たら: 安かったら.",
+            vi: "たら tính từ い: 安かったら.",
+          },
+        },
+        {
+          prompt: "雨が降（　）、行きます。（even if）",
+          options: ["っても", "ったら", "ると", "って"],
+          answer: 0,
+          explanation: {
+            en: "ても from the て-form: 降っても.",
+            vi: "ても từ thể て: 降っても.",
+          },
+        },
+        {
+          prompt: "高（　）、買います。（even if expensive）",
+          options: ["くても", "かったら", "いても", "ければ"],
+          answer: 0,
+          explanation: {
+            en: "い-adjective ても: 高くても.",
+            vi: "ても tính từ い: 高くても.",
+          },
+        },
+        {
+          prompt: "日曜日（　）、働きます。（even on）",
+          options: ["でも", "ても", "だら", "なら"],
+          answer: 0,
+          explanation: {
+            en: "Noun + でも = 'even'.",
+            vi: "Danh từ + でも = 'dù'.",
+          },
+        },
       ],
     },
   },

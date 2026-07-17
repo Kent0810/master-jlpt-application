@@ -88,7 +88,8 @@ const ROMAJI_FIXES = [
 ];
 function normalizeReadings(item) {
   for (const seg of flat(item.tokens)) {
-    if (seg.f) for (const [re, to] of READING_FIXES) seg.f = seg.f.replace(re, to);
+    if (seg.f)
+      for (const [re, to] of READING_FIXES) seg.f = seg.f.replace(re, to);
   }
   if (item.reading)
     for (const [re, to] of READING_FIXES)
@@ -144,8 +145,7 @@ writeJSON("n5-alignments.json", alignments);
 
 // Keep dialogue readings consistent with the same normalisation.
 const dialogues = readJSON("n5-dialogues.json");
-for (const d of dialogues)
-  for (const line of d.lines) normalizeReadings(line);
+for (const d of dialogues) for (const line of d.lines) normalizeReadings(line);
 writeJSON("n5-dialogues.json", dialogues);
 
 // ── 4. Merge explanation paragraphs + pitfalls ───────────────────────────────

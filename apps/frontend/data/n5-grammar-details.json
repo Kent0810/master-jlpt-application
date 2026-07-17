@@ -1,74 +1,4 @@
 {
-  "l1_wa_desu": {
-    "en": {
-      "explanation": [
-        "は (pronounced 'wa' when used as a particle) puts a spotlight on the topic — the thing you are about to say something about. Everything after は is the comment. So わたしは学生です literally works like 'As for me — (I) am a student.'",
-        "です is the polite copula, roughly 'am / is / are'. It doesn't change for person or number: わたしは学生です, 田中さんは先生です — same です every time.",
-        "Because the topic is often obvious from context, Japanese drops it constantly. 学生です on its own is a perfectly natural full sentence meaning 'I'm a student' — you only say わたしは when you need the contrast or clarity.",
-        "です carries no meaning of its own beyond 'politeness + assertion'. It is not the verb 'to be' in the English sense — Japanese has separate words for existence (います / あります, learned later). です simply closes a polite statement about what the topic is.",
-        "The pattern is fixed as [topic] は [noun] です. Japanese does not change です for singular or plural, and there is no word for 'a' or 'the' — わたしは学生です can mean 'I am a student' or 'I am the student' depending on context."
-      ],
-      "formation": "[Topic] は [noun] です\nわたし は 学生 です → I am a student",
-      "pitfalls": [
-        "は here is read 'wa', not 'ha' — the spelling is historical. Only the particle is read this way.",
-        "は is not an exact equivalent of English 'is'; it marks the topic. The 'is' meaning comes from です.",
-        "Don't force わたしは into every sentence — repeating the topic that's already understood sounds unnatural.",
-        "Don't pronounce です as 'des-u' with a strong final vowel — the う is nearly silent, so it sounds like 'des'.",
-        "は as a topic marker is always written は but pronounced 'wa', never 'ha'."
-      ]
-    },
-    "vi": {
-      "explanation": [
-        "は (đọc là 'wa' khi làm trợ từ) nêu bật chủ đề — điều bạn sắp nói đến. Mọi thứ sau は là phần nhận xét. わたしは学生です hiểu sát nghĩa là 'Về phần tôi — (tôi) là sinh viên.'",
-        "です là 'vĩ tố lịch sự', tương đương 'là'. Nó không đổi theo ngôi hay số: わたしは学生です, 田中さんは先生です — です luôn giữ nguyên.",
-        "Vì chủ đề thường đã rõ theo ngữ cảnh nên tiếng Nhật lược bỏ rất nhiều. Chỉ nói 学生です cũng là câu hoàn chỉnh tự nhiên nghĩa là 'Tôi là sinh viên' — chỉ thêm わたしは khi cần nhấn mạnh hay làm rõ.",
-        "です tự bản thân không mang nghĩa gì ngoài 'lịch sự + khẳng định'. Nó không phải là động từ 'thì, là' theo kiểu tiếng Anh — tiếng Nhật có từ riêng để chỉ sự tồn tại (います / あります, học sau). です chỉ đơn giản khép lại một câu nói lịch sự về chủ đề.",
-        "Mẫu câu cố định là [chủ đề] は [danh từ] です. Tiếng Nhật không đổi です theo số ít hay số nhiều, và không có mạo từ 'a' hay 'the' — わたしは学生です có thể là 'Tôi là một sinh viên' hoặc 'Tôi là sinh viên đó' tùy ngữ cảnh."
-      ],
-      "formation": "[Chủ đề] は [danh từ] です\nわたし は 学生 です → Tôi là sinh viên",
-      "pitfalls": [
-        "は ở đây đọc là 'wa', không phải 'ha' — cách viết mang tính lịch sử. Chỉ trợ từ mới đọc như vậy.",
-        "は không phải là từ 'là'; nó đánh dấu chủ đề. Nghĩa 'là' nằm ở です.",
-        "Đừng chèn わたしは vào mọi câu — lặp lại chủ đề đã hiểu ngầm nghe rất không tự nhiên.",
-        "Đừng đọc です thành 'des-u' với nguyên âm cuối mạnh — âm う gần như câm, nghe như 'des'.",
-        "は khi là trợ từ chủ đề luôn viết là は nhưng đọc là 'wa', không phải 'ha'."
-      ]
-    }
-  },
-  "l1_ja_arimasen": {
-    "en": {
-      "explanation": [
-        "じゃありません is the polite way to say 'is not' for nouns: 先生じゃありません = '(I) am not a teacher.' It is simply the negative partner of です.",
-        "じゃ is a contraction of では. In formal writing or careful speech you'll see ではありません; in everyday polite conversation じゃありません is the norm. Both are equally correct.",
-        "You will also meet じゃないです later — a slightly more casual polite negative common in speech. All three mean the same thing.",
-        "じゃありません is the casual-polite negative; では ありません is the same meaning but more formal, common in writing and announcements. Both are correct — choose じゃ in conversation, では in formal settings.",
-        "Only the ending changes between positive and negative — the topic and noun stay in place: わたしは学生です → わたしは学生じゃありません."
-      ],
-      "formation": "[Topic] は [noun] じゃありません\nformal: では ありません ／ spoken: じゃ ありません",
-      "pitfalls": [
-        "This negative is only for nouns and な-adjectives. い-adjectives negate differently (高い → 高くないです).",
-        "Don't mix up じゃありません (is not) with ありません (there isn't / doesn't exist) — the じゃ is what makes it the copula's negative.",
-        "じゃ is a contraction of では; never write じゃ as ぢゃ.",
-        "Don't add です after ありません — じゃありませんです is wrong."
-      ]
-    },
-    "vi": {
-      "explanation": [
-        "じゃありません là cách nói lịch sự của 'không phải là' với danh từ: 先生じゃありません = '(Tôi) không phải là giáo viên.' Nó là dạng phủ định của です.",
-        "じゃ là dạng rút gọn của では. Trong văn viết trang trọng bạn sẽ gặp ではありません; trong hội thoại lịch sự hằng ngày じゃありません phổ biến hơn. Cả hai đều đúng.",
-        "Sau này bạn sẽ gặp thêm じゃないです — dạng phủ định lịch sự hơi thân mật hơn, hay dùng khi nói. Cả ba đều cùng nghĩa.",
-        "じゃありません là dạng phủ định lịch sự thông thường; では ありません cùng nghĩa nhưng trang trọng hơn, hay dùng trong văn viết và thông báo. Cả hai đều đúng — dùng じゃ khi nói chuyện, では khi trang trọng.",
-        "Chỉ có phần đuôi thay đổi giữa khẳng định và phủ định — chủ đề và danh từ giữ nguyên: わたしは学生です → わたしは学生じゃありません."
-      ],
-      "formation": "[Chủ đề] は [danh từ] じゃありません\ntrang trọng: では ありません ／ khẩu ngữ: じゃ ありません",
-      "pitfalls": [
-        "Dạng phủ định này chỉ dùng cho danh từ và tính từ な. Tính từ い phủ định khác (高い → 高くないです).",
-        "Đừng nhầm じゃありません (không phải là) với ありません (không có) — じゃ chính là phần biến nó thành phủ định của です.",
-        "じゃ là dạng rút gọn của では; đừng viết じゃ thành ぢゃ.",
-        "Đừng thêm です sau ありません — じゃありませんです là sai."
-      ]
-    }
-  },
   "l1_ka": {
     "en": {
       "explanation": [
@@ -2439,7 +2369,8 @@
       "pitfalls": [
         "Don't mix politeness levels: あの方はだれですか sounds off — 方 goes with どなた.",
         "Answer with a name or role, not with だれ: だれ only appears in the question.",
-        "Use さん after other people's names in the answer — never after your own name."
+        "Use さん after other people's names in the answer — never after your own name.",
+        "Question-word questions are answered directly — never with はい or いいえ."
       ]
     },
     "vi": {
@@ -2453,7 +2384,8 @@
       "pitfalls": [
         "Đừng trộn mức lịch sự: あの方はだれですか nghe lệch — 方 đi với どなた.",
         "Trả lời bằng tên hoặc nghề nghiệp, không dùng だれ: だれ chỉ xuất hiện trong câu hỏi.",
-        "Dùng さん sau tên người khác khi trả lời — không bao giờ dùng sau tên của chính mình."
+        "Dùng さん sau tên người khác khi trả lời — không bao giờ dùng sau tên của chính mình.",
+        "Câu hỏi có nghi vấn từ được trả lời thẳng — không dùng はい hay いいえ."
       ]
     }
   },
@@ -2484,6 +2416,78 @@
         "２０歳 đọc là はたち, không phải にじゅっさい — lỗi kinh điển.",
         "Đừng hỏi người trên bằng 何歳ですか — hãy dùng おいくつですか.",
         "歳 hay được viết là 才 trong văn viết thân mật; cả hai đều đọc さい."
+      ]
+    }
+  },
+  "l1_desu": {
+    "en": {
+      "explanation": [
+        "です attaches to a noun to state politely what something is: 学生です 'is a student'. It expresses the speaker's judgment and, at the same time, a polite attitude toward the listener.",
+        "The negative replaces です with じゃありません: 学生じゃありません 'is not a student'. じゃ is the everyday spoken contraction of では — the fuller ではありません belongs to speeches and writing."
+      ],
+      "formation": "Affirmative: [noun] です\nNegative (spoken): [noun] じゃありません\nNegative (written・formal): [noun] ではありません",
+      "pitfalls": [
+        "じゃありません replaces です completely (✗ 学生ですじゃありません → ✓ 学生じゃありません).",
+        "In conversation じゃありません sounds natural; switch to ではありません for writing or formal announcements."
+      ]
+    },
+    "vi": {
+      "explanation": [
+        "です gắn sau danh từ để khẳng định một cách lịch sự: 学生です 'là học sinh'. Nó vừa thể hiện phán đoán của người nói, vừa thể hiện thái độ lịch sự với người nghe.",
+        "Thể phủ định thay です bằng じゃありません: 学生じゃありません 'không phải là học sinh'. じゃ là dạng rút gọn trong khẩu ngữ của では — dạng đầy đủ ではありません dùng trong bài phát biểu và văn viết."
+      ],
+      "formation": "Khẳng định: [danh từ] です\nPhủ định (khẩu ngữ): [danh từ] じゃありません\nPhủ định (văn viết・trang trọng): [danh từ] ではありません",
+      "pitfalls": [
+        "じゃありません thay thế hoàn toàn です (✗ 学生ですじゃありません → ✓ 学生じゃありません).",
+        "Trong hội thoại dùng じゃありません; trong văn viết hay dịp trang trọng dùng ではありません."
+      ]
+    }
+  },
+  "l1_wa": {
+    "en": {
+      "explanation": [
+        "は shines a spotlight on the topic — the thing you are about to say something about. Everything after は is the comment: わたしは学生です works like 'As for me — (I) am a student.'",
+        "As a particle it is written with the kana は but always pronounced 'wa'. Once a topic is established it carries over, so following sentences often drop it."
+      ],
+      "formation": "[Topic] は [comment]\nわたしは 学生です",
+      "pitfalls": [
+        "Written は, said 'wa' (✗ watashi ha → ✓ watashi wa).",
+        "は itself doesn't mean 'is' — the 'is' comes from です at the end of the sentence."
+      ]
+    },
+    "vi": {
+      "explanation": [
+        "は chiếu đèn vào chủ đề — điều bạn sắp nói đến. Mọi thứ sau は là lời nhận xét: わたしは学生です giống như 'Còn tôi thì — là học sinh.'",
+        "Là trợ từ, nó viết bằng kana は nhưng luôn đọc là 'wa'. Khi chủ đề đã rõ, các câu sau thường lược bỏ nó."
+      ],
+      "formation": "[Chủ đề] は [nhận xét]\nわたしは 学生です",
+      "pitfalls": [
+        "Viết là は nhưng đọc 'wa' (✗ watashi ha → ✓ watashi wa).",
+        "Bản thân は không có nghĩa 'là' — nghĩa 'là' nằm ở です cuối câu."
+      ]
+    }
+  },
+  "l1_san": {
+    "en": {
+      "explanation": [
+        "さん attaches to another person's family or given name and adds friendly respect: 田中さん 'Mr./Ms. Tanaka'. It works for anyone, regardless of gender or marital status.",
+        "Never attach さん or ちゃん to your own name — introduce yourself plainly: わたしは田中です。 For small children ちゃん replaces さん and sounds affectionate; it is used for both boys and girls."
+      ],
+      "formation": "[Name] さん — polite, general\n[Child's name] ちゃん — affectionate, for children",
+      "pitfalls": [
+        "Don't use さん for yourself (✗ わたしは田中さんです → ✓ わたしは田中です).",
+        "ちゃん is for children and very close friends — using it with adults you've just met sounds too familiar."
+      ]
+    },
+    "vi": {
+      "explanation": [
+        "さん gắn sau họ hoặc tên của người khác để thể hiện sự tôn trọng thân thiện: 田中さん 'anh/chị Tanaka'. Dùng được cho mọi người, không phân biệt giới tính hay tình trạng hôn nhân.",
+        "Tuyệt đối không gắn さん hay ちゃん vào tên của chính mình — hãy tự giới thiệu đơn giản: わたしは田中です。 Với trẻ nhỏ, ちゃん thay cho さん và mang sắc thái trìu mến; dùng được cho cả bé trai lẫn bé gái."
+      ],
+      "formation": "[Tên] さん — lịch sự, thông dụng\n[Tên trẻ em] ちゃん — thân mật, cho trẻ nhỏ",
+      "pitfalls": [
+        "Không dùng さん cho bản thân (✗ わたしは田中さんです → ✓ わたしは田中です).",
+        "ちゃん dành cho trẻ em và người rất thân — dùng với người lớn mới quen sẽ quá suồng sã."
       ]
     }
   }

@@ -8,7 +8,7 @@ import {
   useRef,
   useState,
 } from "react";
-import { getVocab } from "@/lib/data";
+import { findVocabForSurface } from "@/lib/data/lookup";
 import { Reading } from "@/components/Furigana";
 import { AddToListButton } from "@/components/AddToListButton";
 import { AudioButton } from "@/components/AudioButton";
@@ -108,7 +108,7 @@ function WordLookupCard({
 }) {
   const lang = useLang();
   const t = useT();
-  const vocab = getVocab().find((v) => v.word === word);
+  const vocab = findVocabForSurface(word);
   const ref = useRef<HTMLDivElement>(null);
   const [pos, setPos] = useState<{ top: number; left: number } | null>(null);
 

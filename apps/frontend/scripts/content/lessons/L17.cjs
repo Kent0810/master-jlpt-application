@@ -2,19 +2,55 @@
 module.exports = {
   examples: {
     l17_nai_form: [
-      { jp: "ここで写真を撮らないでください。", en: "Please don't take photos here.", vi: "Xin đừng chụp ảnh ở đây." },
-      { jp: "無理をしないでください。", en: "Please don't overdo it.", vi: "Xin đừng làm quá sức." },
-      { jp: "電気を消さないでください。", en: "Please don't turn off the light.", vi: "Xin đừng tắt đèn." },
+      {
+        jp: "ここで写真を撮らないでください。",
+        en: "Please don't take photos here.",
+        vi: "Xin đừng chụp ảnh ở đây.",
+      },
+      {
+        jp: "無理をしないでください。",
+        en: "Please don't overdo it.",
+        vi: "Xin đừng làm quá sức.",
+      },
+      {
+        jp: "電気を消さないでください。",
+        en: "Please don't turn off the light.",
+        vi: "Xin đừng tắt đèn.",
+      },
     ],
     l17_naide_kudasai: [
-      { jp: "ここに入らないでください。", en: "Please don't enter here.", vi: "Xin đừng vào đây." },
-      { jp: "大きい声で話さないでください。", en: "Please don't speak loudly.", vi: "Xin đừng nói to." },
-      { jp: "心配しないでください。", en: "Please don't worry.", vi: "Xin đừng lo lắng." },
+      {
+        jp: "ここに入らないでください。",
+        en: "Please don't enter here.",
+        vi: "Xin đừng vào đây.",
+      },
+      {
+        jp: "大きい声で話さないでください。",
+        en: "Please don't speak loudly.",
+        vi: "Xin đừng nói to.",
+      },
+      {
+        jp: "心配しないでください。",
+        en: "Please don't worry.",
+        vi: "Xin đừng lo lắng.",
+      },
     ],
     l17_nakereba: [
-      { jp: "毎日薬を飲まなければなりません。", en: "I must take medicine every day.", vi: "Tôi phải uống thuốc mỗi ngày." },
-      { jp: "あした早く起きなければなりません。", en: "I must get up early tomorrow.", vi: "Ngày mai tôi phải dậy sớm." },
-      { jp: "日曜日は働かなくてもいいです。", en: "I don't have to work on Sundays.", vi: "Chủ nhật tôi không cần làm việc." },
+      {
+        jp: "毎日薬を飲まなければなりません。",
+        en: "I must take medicine every day.",
+        vi: "Tôi phải uống thuốc mỗi ngày.",
+      },
+      {
+        jp: "あした早く起きなければなりません。",
+        en: "I must get up early tomorrow.",
+        vi: "Ngày mai tôi phải dậy sớm.",
+      },
+      {
+        jp: "日曜日は働かなくてもいいです。",
+        en: "I don't have to work on Sundays.",
+        vi: "Chủ nhật tôi không cần làm việc.",
+      },
     ],
   },
   explanations: {
@@ -91,11 +127,51 @@ module.exports = {
       source: "authored",
       title: { en: "More practice", vi: "Luyện tập thêm" },
       items: [
-        { prompt: "ここに（　）でください。（don't enter — 入ります）", options: ["入らない", "入りない", "入れない", "入るない"], answer: 0, explanation: { en: "う-verb ない-form: 入る → 入らない.", vi: "Thể ない nhóm う: 入る → 入らない." } },
-        { prompt: "心配し（　）でください。（don't worry）", options: ["ない", "なくて", "ません", "ず"], answer: 0, explanation: { en: "する → しない before でください.", vi: "する → しない trước でください." } },
-        { prompt: "毎日薬を飲ま（　）なりません。（must）", options: ["なければ", "なくても", "ないで", "なく"], answer: 0, explanation: { en: "なければなりません = must.", vi: "なければなりません = phải." } },
-        { prompt: "日曜日は働か（　）いいです。（don't have to）", options: ["なくても", "なければ", "ないで", "なく"], answer: 0, explanation: { en: "なくてもいいです = don't have to.", vi: "なくてもいいです = không cần." } },
-        { prompt: "写真を（　）でください。（don't take — 撮ります）", options: ["撮らない", "撮りない", "撮るない", "撮れない"], answer: 0, explanation: { en: "う-verb: 撮る → 撮らない.", vi: "Nhóm う: 撮る → 撮らない." } },
+        {
+          prompt: "ここに（　）でください。（don't enter — 入ります）",
+          options: ["入らない", "入りない", "入れない", "入るない"],
+          answer: 0,
+          explanation: {
+            en: "う-verb ない-form: 入る → 入らない.",
+            vi: "Thể ない nhóm う: 入る → 入らない.",
+          },
+        },
+        {
+          prompt: "心配し（　）でください。（don't worry）",
+          options: ["ない", "なくて", "ません", "ず"],
+          answer: 0,
+          explanation: {
+            en: "する → しない before でください.",
+            vi: "する → しない trước でください.",
+          },
+        },
+        {
+          prompt: "毎日薬を飲ま（　）なりません。（must）",
+          options: ["なければ", "なくても", "ないで", "なく"],
+          answer: 0,
+          explanation: {
+            en: "なければなりません = must.",
+            vi: "なければなりません = phải.",
+          },
+        },
+        {
+          prompt: "日曜日は働か（　）いいです。（don't have to）",
+          options: ["なくても", "なければ", "ないで", "なく"],
+          answer: 0,
+          explanation: {
+            en: "なくてもいいです = don't have to.",
+            vi: "なくてもいいです = không cần.",
+          },
+        },
+        {
+          prompt: "写真を（　）でください。（don't take — 撮ります）",
+          options: ["撮らない", "撮りない", "撮るない", "撮れない"],
+          answer: 0,
+          explanation: {
+            en: "う-verb: 撮る → 撮らない.",
+            vi: "Nhóm う: 撮る → 撮らない.",
+          },
+        },
       ],
     },
   },

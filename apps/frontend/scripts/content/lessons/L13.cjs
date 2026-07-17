@@ -2,19 +2,55 @@
 module.exports = {
   examples: {
     l13_hoshii: [
-      { jp: "新しいパソコンがほしいです。", en: "I want a new computer.", vi: "Tôi muốn có một chiếc máy tính mới." },
-      { jp: "車がほしいです。", en: "I want a car.", vi: "Tôi muốn có một chiếc xe hơi." },
-      { jp: "今、時間がほしいです。", en: "I want time right now.", vi: "Bây giờ tôi muốn có thời gian." },
+      {
+        jp: "新しいパソコンがほしいです。",
+        en: "I want a new computer.",
+        vi: "Tôi muốn có một chiếc máy tính mới.",
+      },
+      {
+        jp: "車がほしいです。",
+        en: "I want a car.",
+        vi: "Tôi muốn có một chiếc xe hơi.",
+      },
+      {
+        jp: "今、時間がほしいです。",
+        en: "I want time right now.",
+        vi: "Bây giờ tôi muốn có thời gian.",
+      },
     ],
     l13_tai: [
-      { jp: "日本へ行きたいです。", en: "I want to go to Japan.", vi: "Tôi muốn đi Nhật." },
-      { jp: "すしを食べたいです。", en: "I want to eat sushi.", vi: "Tôi muốn ăn sushi." },
-      { jp: "今日は何もしたくないです。", en: "I don't want to do anything today.", vi: "Hôm nay tôi không muốn làm gì cả." },
+      {
+        jp: "日本へ行きたいです。",
+        en: "I want to go to Japan.",
+        vi: "Tôi muốn đi Nhật.",
+      },
+      {
+        jp: "すしを食べたいです。",
+        en: "I want to eat sushi.",
+        vi: "Tôi muốn ăn sushi.",
+      },
+      {
+        jp: "今日は何もしたくないです。",
+        en: "I don't want to do anything today.",
+        vi: "Hôm nay tôi không muốn làm gì cả.",
+      },
     ],
     l13_ni_purpose: [
-      { jp: "デパートへかばんを買いに行きます。", en: "I go to the department store to buy a bag.", vi: "Tôi đến cửa hàng bách hóa để mua cặp." },
-      { jp: "日本へ日本語を勉強しに行きます。", en: "I go to Japan to study Japanese.", vi: "Tôi đi Nhật để học tiếng Nhật." },
-      { jp: "レストランへ昼ごはんを食べに行きます。", en: "I go to the restaurant to eat lunch.", vi: "Tôi đến nhà hàng để ăn trưa." },
+      {
+        jp: "デパートへかばんを買いに行きます。",
+        en: "I go to the department store to buy a bag.",
+        vi: "Tôi đến cửa hàng bách hóa để mua cặp.",
+      },
+      {
+        jp: "日本へ日本語を勉強しに行きます。",
+        en: "I go to Japan to study Japanese.",
+        vi: "Tôi đi Nhật để học tiếng Nhật.",
+      },
+      {
+        jp: "レストランへ昼ごはんを食べに行きます。",
+        en: "I go to the restaurant to eat lunch.",
+        vi: "Tôi đến nhà hàng để ăn trưa.",
+      },
     ],
   },
   explanations: {
@@ -91,11 +127,48 @@ module.exports = {
       source: "authored",
       title: { en: "More practice", vi: "Luyện tập thêm" },
       items: [
-        { prompt: "新しいパソコン（　）ほしいです。", options: ["が", "を", "に", "へ"], answer: 0, explanation: { en: "ほしい marks the wanted thing with が.", vi: "ほしい đánh dấu vật muốn có bằng が." } },
-        { prompt: "日本へ行き（　）です。（want to go）", options: ["たい", "ほしい", "ましょう", "ません"], answer: 0, explanation: { en: "V-stem + たい = want to do.", vi: "Thể V + たい = muốn làm." } },
-        { prompt: "今日は何もし（　）です。（don't want to）", options: ["たくない", "たい", "ません", "ないたい"], answer: 0, explanation: { en: "たい negative: したくないです.", vi: "Phủ định たい: したくないです." } },
-        { prompt: "デパートへかばんを買い（　）行きます。", options: ["に", "を", "で", "へ"], answer: 0, explanation: { en: "に marks the purpose of going.", vi: "に đánh dấu mục đích của việc đi." } },
-        { prompt: "車（　）ほしいです。", options: ["が", "を", "は", "に"], answer: 0, explanation: { en: "Use が with ほしい.", vi: "Dùng が với ほしい." } },
+        {
+          prompt: "新しいパソコン（　）ほしいです。",
+          options: ["が", "を", "に", "へ"],
+          answer: 0,
+          explanation: {
+            en: "ほしい marks the wanted thing with が.",
+            vi: "ほしい đánh dấu vật muốn có bằng が.",
+          },
+        },
+        {
+          prompt: "日本へ行き（　）です。（want to go）",
+          options: ["たい", "ほしい", "ましょう", "ません"],
+          answer: 0,
+          explanation: {
+            en: "V-stem + たい = want to do.",
+            vi: "Thể V + たい = muốn làm.",
+          },
+        },
+        {
+          prompt: "今日は何もし（　）です。（don't want to）",
+          options: ["たくない", "たい", "ません", "ないたい"],
+          answer: 0,
+          explanation: {
+            en: "たい negative: したくないです.",
+            vi: "Phủ định たい: したくないです.",
+          },
+        },
+        {
+          prompt: "デパートへかばんを買い（　）行きます。",
+          options: ["に", "を", "で", "へ"],
+          answer: 0,
+          explanation: {
+            en: "に marks the purpose of going.",
+            vi: "に đánh dấu mục đích của việc đi.",
+          },
+        },
+        {
+          prompt: "車（　）ほしいです。",
+          options: ["が", "を", "は", "に"],
+          answer: 0,
+          explanation: { en: "Use が with ほしい.", vi: "Dùng が với ほしい." },
+        },
       ],
     },
   },

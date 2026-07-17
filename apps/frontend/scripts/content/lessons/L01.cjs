@@ -2,31 +2,99 @@
 module.exports = {
   examples: {
     l1_wa_desu: [
-      { jp: "田中さんは医者です。", en: "Mr. Tanaka is a doctor.", vi: "Ông Tanaka là bác sĩ." },
-      { jp: "わたしは会社員です。", en: "I am a company employee.", vi: "Tôi là nhân viên công ty." },
-      { jp: "あの人は銀行員です。", en: "That person is a bank clerk.", vi: "Người kia là nhân viên ngân hàng." },
-      { jp: "ミラーさんはアメリカ人です。", en: "Mr. Miller is American.", vi: "Anh Miller là người Mỹ." },
+      {
+        jp: "田中さんは医者です。",
+        en: "Mr. Tanaka is a doctor.",
+        vi: "Ông Tanaka là bác sĩ.",
+      },
+      {
+        jp: "わたしは会社員です。",
+        en: "I am a company employee.",
+        vi: "Tôi là nhân viên công ty.",
+      },
+      {
+        jp: "あの人は銀行員です。",
+        en: "That person is a bank clerk.",
+        vi: "Người kia là nhân viên ngân hàng.",
+      },
+      {
+        jp: "ミラーさんはアメリカ人です。",
+        en: "Mr. Miller is American.",
+        vi: "Anh Miller là người Mỹ.",
+      },
     ],
     l1_ja_arimasen: [
-      { jp: "わたしは医者じゃありません。", en: "I am not a doctor.", vi: "Tôi không phải là bác sĩ." },
-      { jp: "サントスさんは学生じゃありません。", en: "Mr. Santos is not a student.", vi: "Anh Santos không phải là sinh viên." },
-      { jp: "あの人は先生じゃありません。", en: "That person is not a teacher.", vi: "Người kia không phải là giáo viên." },
-      { jp: "田中さんは会社員じゃありません。", en: "Mr. Tanaka is not a company employee.", vi: "Ông Tanaka không phải là nhân viên công ty." },
+      {
+        jp: "わたしは医者じゃありません。",
+        en: "I am not a doctor.",
+        vi: "Tôi không phải là bác sĩ.",
+      },
+      {
+        jp: "サントスさんは学生じゃありません。",
+        en: "Mr. Santos is not a student.",
+        vi: "Anh Santos không phải là sinh viên.",
+      },
+      {
+        jp: "あの人は先生じゃありません。",
+        en: "That person is not a teacher.",
+        vi: "Người kia không phải là giáo viên.",
+      },
+      {
+        jp: "田中さんは会社員じゃありません。",
+        en: "Mr. Tanaka is not a company employee.",
+        vi: "Ông Tanaka không phải là nhân viên công ty.",
+      },
     ],
     l1_ka: [
-      { jp: "あなたは学生ですか。", en: "Are you a student?", vi: "Bạn là sinh viên phải không?" },
-      { jp: "田中さんは先生ですか。", en: "Is Mr. Tanaka a teacher?", vi: "Ông Tanaka là giáo viên phải không?" },
-      { jp: "あの人は医者ですか。", en: "Is that person a doctor?", vi: "Người kia là bác sĩ phải không?" },
+      {
+        jp: "あなたは学生ですか。",
+        en: "Are you a student?",
+        vi: "Bạn là sinh viên phải không?",
+      },
+      {
+        jp: "田中さんは先生ですか。",
+        en: "Is Mr. Tanaka a teacher?",
+        vi: "Ông Tanaka là giáo viên phải không?",
+      },
+      {
+        jp: "あの人は医者ですか。",
+        en: "Is that person a doctor?",
+        vi: "Người kia là bác sĩ phải không?",
+      },
     ],
     l1_mo: [
-      { jp: "田中さんも先生です。", en: "Mr. Tanaka is also a teacher.", vi: "Ông Tanaka cũng là giáo viên." },
-      { jp: "あの人もアメリカ人です。", en: "That person is also American.", vi: "Người kia cũng là người Mỹ." },
-      { jp: "サントスさんも会社員です。", en: "Mr. Santos is also a company employee.", vi: "Anh Santos cũng là nhân viên công ty." },
+      {
+        jp: "田中さんも先生です。",
+        en: "Mr. Tanaka is also a teacher.",
+        vi: "Ông Tanaka cũng là giáo viên.",
+      },
+      {
+        jp: "あの人もアメリカ人です。",
+        en: "That person is also American.",
+        vi: "Người kia cũng là người Mỹ.",
+      },
+      {
+        jp: "サントスさんも会社員です。",
+        en: "Mr. Santos is also a company employee.",
+        vi: "Anh Santos cũng là nhân viên công ty.",
+      },
     ],
     l1_no: [
-      { jp: "あの人は日本語の先生です。", en: "That person is a Japanese-language teacher.", vi: "Người kia là giáo viên tiếng Nhật." },
-      { jp: "これは日本の車です。", en: "This is a Japanese car.", vi: "Đây là xe hơi của Nhật." },
-      { jp: "サントスさんはブラジルの会社員です。", en: "Mr. Santos is a company employee from Brazil.", vi: "Anh Santos là nhân viên công ty của Brazil." },
+      {
+        jp: "あの人は日本語の先生です。",
+        en: "That person is a Japanese-language teacher.",
+        vi: "Người kia là giáo viên tiếng Nhật.",
+      },
+      {
+        jp: "これは日本の車です。",
+        en: "This is a Japanese car.",
+        vi: "Đây là xe hơi của Nhật.",
+      },
+      {
+        jp: "サントスさんはブラジルの会社員です。",
+        en: "Mr. Santos is a company employee from Brazil.",
+        vi: "Anh Santos là nhân viên công ty của Brazil.",
+      },
     ],
   },
 
@@ -149,11 +217,51 @@ module.exports = {
       source: "authored",
       title: { en: "More practice", vi: "Luyện tập thêm" },
       items: [
-        { prompt: "わたし（　）学生です。", options: ["は", "の", "も", "か"], answer: 0, explanation: { en: "は marks わたし as the topic: 'As for me, (I) am a student.'", vi: "は đánh dấu わたし là chủ đề: 'Về phần tôi, (tôi) là sinh viên.'" } },
-        { prompt: "田中さんは先生です（　）。", options: ["か", "は", "の", "も"], answer: 0, explanation: { en: "か at the end turns the statement into a question.", vi: "か ở cuối biến câu trần thuật thành câu hỏi." } },
-        { prompt: "サントスさん（　）会社員です。（＝Santos also）", options: ["も", "は", "の", "か"], answer: 0, explanation: { en: "も means 'also' and replaces は.", vi: "も nghĩa là 'cũng' và thay thế は." } },
-        { prompt: "これは日本（　）車です。", options: ["の", "は", "も", "か"], answer: 0, explanation: { en: "の links 日本 and 車: 'a car of Japan' → a Japanese car.", vi: "の nối 日本 và 車: 'xe của Nhật' → xe Nhật." } },
-        { prompt: "「あなたは医者ですか。」「いいえ、医者（　）。」", options: ["じゃありません", "です", "も", "の"], answer: 0, explanation: { en: "The negative answer needs じゃありません ('is not').", vi: "Câu trả lời phủ định cần じゃありません ('không phải là')." } },
+        {
+          prompt: "わたし（　）学生です。",
+          options: ["は", "の", "も", "か"],
+          answer: 0,
+          explanation: {
+            en: "は marks わたし as the topic: 'As for me, (I) am a student.'",
+            vi: "は đánh dấu わたし là chủ đề: 'Về phần tôi, (tôi) là sinh viên.'",
+          },
+        },
+        {
+          prompt: "田中さんは先生です（　）。",
+          options: ["か", "は", "の", "も"],
+          answer: 0,
+          explanation: {
+            en: "か at the end turns the statement into a question.",
+            vi: "か ở cuối biến câu trần thuật thành câu hỏi.",
+          },
+        },
+        {
+          prompt: "サントスさん（　）会社員です。（＝Santos also）",
+          options: ["も", "は", "の", "か"],
+          answer: 0,
+          explanation: {
+            en: "も means 'also' and replaces は.",
+            vi: "も nghĩa là 'cũng' và thay thế は.",
+          },
+        },
+        {
+          prompt: "これは日本（　）車です。",
+          options: ["の", "は", "も", "か"],
+          answer: 0,
+          explanation: {
+            en: "の links 日本 and 車: 'a car of Japan' → a Japanese car.",
+            vi: "の nối 日本 và 車: 'xe của Nhật' → xe Nhật.",
+          },
+        },
+        {
+          prompt: "「あなたは医者ですか。」「いいえ、医者（　）。」",
+          options: ["じゃありません", "です", "も", "の"],
+          answer: 0,
+          explanation: {
+            en: "The negative answer needs じゃありません ('is not').",
+            vi: "Câu trả lời phủ định cần じゃありません ('không phải là').",
+          },
+        },
       ],
     },
   },

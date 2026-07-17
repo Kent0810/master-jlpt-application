@@ -2,14 +2,38 @@
 module.exports = {
   examples: {
     l10_arimasu_imasu: [
-      { jp: "机の上に本があります。", en: "There is a book on the desk.", vi: "Trên bàn có một quyển sách." },
-      { jp: "部屋に猫がいます。", en: "There is a cat in the room.", vi: "Trong phòng có một con mèo." },
-      { jp: "公園に子供がいます。", en: "There are children in the park.", vi: "Trong công viên có trẻ em." },
+      {
+        jp: "机の上に本があります。",
+        en: "There is a book on the desk.",
+        vi: "Trên bàn có một quyển sách.",
+      },
+      {
+        jp: "部屋に猫がいます。",
+        en: "There is a cat in the room.",
+        vi: "Trong phòng có một con mèo.",
+      },
+      {
+        jp: "公園に子供がいます。",
+        en: "There are children in the park.",
+        vi: "Trong công viên có trẻ em.",
+      },
     ],
     l10_position: [
-      { jp: "本は机の上にあります。", en: "The book is on the desk.", vi: "Quyển sách ở trên bàn." },
-      { jp: "猫はいすの下にいます。", en: "The cat is under the chair.", vi: "Con mèo ở dưới ghế." },
-      { jp: "銀行は郵便局の隣です。", en: "The bank is next to the post office.", vi: "Ngân hàng ở cạnh bưu điện." },
+      {
+        jp: "本は机の上にあります。",
+        en: "The book is on the desk.",
+        vi: "Quyển sách ở trên bàn.",
+      },
+      {
+        jp: "猫はいすの下にいます。",
+        en: "The cat is under the chair.",
+        vi: "Con mèo ở dưới ghế.",
+      },
+      {
+        jp: "銀行は郵便局の隣です。",
+        en: "The bank is next to the post office.",
+        vi: "Ngân hàng ở cạnh bưu điện.",
+      },
     ],
   },
   explanations: {
@@ -64,11 +88,51 @@ module.exports = {
       source: "authored",
       title: { en: "More practice", vi: "Luyện tập thêm" },
       items: [
-        { prompt: "机の上に本が（　）。", options: ["あります", "います", "です", "します"], answer: 0, explanation: { en: "Books are inanimate → あります.", vi: "Sách là vật vô tri → あります." } },
-        { prompt: "部屋に猫が（　）。", options: ["います", "あります", "です", "します"], answer: 0, explanation: { en: "A cat is animate → います.", vi: "Con mèo là động vật → います." } },
-        { prompt: "本は机（　）上にあります。", options: ["の", "に", "が", "を"], answer: 0, explanation: { en: "Position joins with の: 机の上.", vi: "Vị trí nối bằng の: 机の上." } },
-        { prompt: "公園（　）子供がいます。", options: ["に", "で", "を", "へ"], answer: 0, explanation: { en: "に marks the place of existence.", vi: "に đánh dấu nơi tồn tại." } },
-        { prompt: "銀行は郵便局の（　）です。（next to）", options: ["隣", "上", "中", "前"], answer: 0, explanation: { en: "隣 means 'next to'.", vi: "隣 nghĩa 'bên cạnh'." } },
+        {
+          prompt: "机の上に本が（　）。",
+          options: ["あります", "います", "です", "します"],
+          answer: 0,
+          explanation: {
+            en: "Books are inanimate → あります.",
+            vi: "Sách là vật vô tri → あります.",
+          },
+        },
+        {
+          prompt: "部屋に猫が（　）。",
+          options: ["います", "あります", "です", "します"],
+          answer: 0,
+          explanation: {
+            en: "A cat is animate → います.",
+            vi: "Con mèo là động vật → います.",
+          },
+        },
+        {
+          prompt: "本は机（　）上にあります。",
+          options: ["の", "に", "が", "を"],
+          answer: 0,
+          explanation: {
+            en: "Position joins with の: 机の上.",
+            vi: "Vị trí nối bằng の: 机の上.",
+          },
+        },
+        {
+          prompt: "公園（　）子供がいます。",
+          options: ["に", "で", "を", "へ"],
+          answer: 0,
+          explanation: {
+            en: "に marks the place of existence.",
+            vi: "に đánh dấu nơi tồn tại.",
+          },
+        },
+        {
+          prompt: "銀行は郵便局の（　）です。（next to）",
+          options: ["隣", "上", "中", "前"],
+          answer: 0,
+          explanation: {
+            en: "隣 means 'next to'.",
+            vi: "隣 nghĩa 'bên cạnh'.",
+          },
+        },
       ],
     },
   },

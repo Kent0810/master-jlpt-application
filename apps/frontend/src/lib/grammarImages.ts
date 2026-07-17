@@ -14,15 +14,10 @@ export type GrammarImage = {
 
 const GRAMMAR_IMAGES: Record<string, GrammarImage> = {
   // Lesson 1
-  l1_wa_desu: {
+  l1_desu: {
     file: "l1_wa_desu.svg",
     captionEn: "Introducing yourself — 'I am ~'.",
     captionVi: "Tự giới thiệu — 'Tôi là ~'.",
-  },
-  l1_ja_arimasen: {
-    file: "l1_ja_arimasen.svg",
-    captionEn: "Saying what something is not.",
-    captionVi: "Nói điều gì đó không phải là gì.",
   },
   l1_ka: {
     file: "l1_ka.svg",

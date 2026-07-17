@@ -44,7 +44,9 @@ export function LessonImageFigure({
       <div
         className="flex items-center justify-center bg-white p-4 dark:bg-white/95"
         // Solid light tint so the artwork pops; stays light in dark mode too.
-        style={accent ? { backgroundColor: accentOnWhite(accent, 0.08) } : undefined}
+        style={
+          accent ? { backgroundColor: accentOnWhite(accent, 0.08) } : undefined
+        }
       >
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img

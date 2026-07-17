@@ -2,19 +2,55 @@
 module.exports = {
   examples: {
     l16_te_connect: [
-      { jp: "朝起きて、ごはんを食べて、会社へ行きます。", en: "I get up, eat, and go to work.", vi: "Tôi thức dậy, ăn cơm, rồi đi làm." },
-      { jp: "図書館へ行って、本を借ります。", en: "I go to the library and borrow a book.", vi: "Tôi đến thư viện và mượn sách." },
-      { jp: "手を洗って、昼ごはんを食べます。", en: "I wash my hands and eat lunch.", vi: "Tôi rửa tay rồi ăn trưa." },
+      {
+        jp: "朝起きて、ごはんを食べて、会社へ行きます。",
+        en: "I get up, eat, and go to work.",
+        vi: "Tôi thức dậy, ăn cơm, rồi đi làm.",
+      },
+      {
+        jp: "図書館へ行って、本を借ります。",
+        en: "I go to the library and borrow a book.",
+        vi: "Tôi đến thư viện và mượn sách.",
+      },
+      {
+        jp: "手を洗って、昼ごはんを食べます。",
+        en: "I wash my hands and eat lunch.",
+        vi: "Tôi rửa tay rồi ăn trưa.",
+      },
     ],
     l16_te_kara: [
-      { jp: "ごはんを食べてから、薬を飲みます。", en: "After eating, I take medicine.", vi: "Sau khi ăn cơm, tôi uống thuốc." },
-      { jp: "仕事が終わってから、映画を見ます。", en: "After work ends, I watch a movie.", vi: "Sau khi tan làm, tôi xem phim." },
-      { jp: "日本へ来てから、日本語を勉強しています。", en: "Since coming to Japan, I have been studying Japanese.", vi: "Từ khi đến Nhật, tôi vẫn đang học tiếng Nhật." },
+      {
+        jp: "ごはんを食べてから、薬を飲みます。",
+        en: "After eating, I take medicine.",
+        vi: "Sau khi ăn cơm, tôi uống thuốc.",
+      },
+      {
+        jp: "仕事が終わってから、映画を見ます。",
+        en: "After work ends, I watch a movie.",
+        vi: "Sau khi tan làm, tôi xem phim.",
+      },
+      {
+        jp: "日本へ来てから、日本語を勉強しています。",
+        en: "Since coming to Japan, I have been studying Japanese.",
+        vi: "Từ khi đến Nhật, tôi vẫn đang học tiếng Nhật.",
+      },
     ],
     l16_adj_te: [
-      { jp: "この部屋は広くて、きれいです。", en: "This room is spacious and clean.", vi: "Căn phòng này rộng và sạch." },
-      { jp: "京都は静かで、有名です。", en: "Kyoto is quiet and famous.", vi: "Kyoto yên tĩnh và nổi tiếng." },
-      { jp: "田中さんは親切で、ハンサムです。", en: "Mr. Tanaka is kind and handsome.", vi: "Ông Tanaka tốt bụng và đẹp trai." },
+      {
+        jp: "この部屋は広くて、きれいです。",
+        en: "This room is spacious and clean.",
+        vi: "Căn phòng này rộng và sạch.",
+      },
+      {
+        jp: "京都は静かで、有名です。",
+        en: "Kyoto is quiet and famous.",
+        vi: "Kyoto yên tĩnh và nổi tiếng.",
+      },
+      {
+        jp: "田中さんは親切で、ハンサムです。",
+        en: "Mr. Tanaka is kind and handsome.",
+        vi: "Ông Tanaka tốt bụng và đẹp trai.",
+      },
     ],
   },
   explanations: {
@@ -91,11 +127,51 @@ module.exports = {
       source: "authored",
       title: { en: "More practice", vi: "Luyện tập thêm" },
       items: [
-        { prompt: "図書館へ（　）、本を借ります。（go — 行きます）", options: ["行って", "行きて", "行いて", "行くて"], answer: 0, explanation: { en: "行きます → 行って joins the next action.", vi: "行きます → 行って nối hành động sau." } },
-        { prompt: "ごはんを食べて（　）、薬を飲みます。（after）", options: ["から", "まで", "ので", "が"], answer: 0, explanation: { en: "てから = 'after doing'.", vi: "てから = 'sau khi làm'." } },
-        { prompt: "この部屋は広（　）、きれいです。（and）", options: ["くて", "いで", "で", "だ"], answer: 0, explanation: { en: "い-adjective join: 広い → 広くて.", vi: "Nối tính từ い: 広い → 広くて." } },
-        { prompt: "京都は静か（　）、有名です。（and）", options: ["で", "くて", "て", "に"], answer: 0, explanation: { en: "な-adjective join: 静か → 静かで.", vi: "Nối tính từ な: 静か → 静かで." } },
-        { prompt: "手を（　）、昼ごはんを食べます。（wash — 洗います）", options: ["洗って", "洗いて", "洗んで", "洗くて"], answer: 0, explanation: { en: "う-verb: 洗います → 洗って.", vi: "Động từ đuôi う: 洗います → 洗って." } },
+        {
+          prompt: "図書館へ（　）、本を借ります。（go — 行きます）",
+          options: ["行って", "行きて", "行いて", "行くて"],
+          answer: 0,
+          explanation: {
+            en: "行きます → 行って joins the next action.",
+            vi: "行きます → 行って nối hành động sau.",
+          },
+        },
+        {
+          prompt: "ごはんを食べて（　）、薬を飲みます。（after）",
+          options: ["から", "まで", "ので", "が"],
+          answer: 0,
+          explanation: {
+            en: "てから = 'after doing'.",
+            vi: "てから = 'sau khi làm'.",
+          },
+        },
+        {
+          prompt: "この部屋は広（　）、きれいです。（and）",
+          options: ["くて", "いで", "で", "だ"],
+          answer: 0,
+          explanation: {
+            en: "い-adjective join: 広い → 広くて.",
+            vi: "Nối tính từ い: 広い → 広くて.",
+          },
+        },
+        {
+          prompt: "京都は静か（　）、有名です。（and）",
+          options: ["で", "くて", "て", "に"],
+          answer: 0,
+          explanation: {
+            en: "な-adjective join: 静か → 静かで.",
+            vi: "Nối tính từ な: 静か → 静かで.",
+          },
+        },
+        {
+          prompt: "手を（　）、昼ごはんを食べます。（wash — 洗います）",
+          options: ["洗って", "洗いて", "洗んで", "洗くて"],
+          answer: 0,
+          explanation: {
+            en: "う-verb: 洗います → 洗って.",
+            vi: "Động từ đuôi う: 洗います → 洗って.",
+          },
+        },
       ],
     },
   },

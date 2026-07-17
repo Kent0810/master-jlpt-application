@@ -4353,36 +4353,6 @@
       "mang"
     ]
   },
-  "g:l1_wa_desu:0": {
-    "en": [
-      "I",
-      "am a student"
-    ],
-    "vi": [
-      "Tôi",
-      "là một sinh viên"
-    ]
-  },
-  "g:l1_wa_desu:1": {
-    "en": [
-      "Mr. Tanaka",
-      "is a teacher"
-    ],
-    "vi": [
-      "Ông Tanaka",
-      "là giáo viên"
-    ]
-  },
-  "g:l1_ja_arimasen:0": {
-    "en": [
-      "I",
-      "am not a teacher"
-    ],
-    "vi": [
-      "Tôi",
-      "không phải là giáo viên"
-    ]
-  },
   "g:l1_ka:0": {
     "en": [
       "Mr. Miller",
@@ -5445,90 +5415,6 @@
       "mưa",
       "Dù trời có",
       "sẽ đi"
-    ]
-  },
-  "g:l1_wa_desu:2": {
-    "en": [
-      null,
-      null
-    ],
-    "vi": [
-      null,
-      null
-    ]
-  },
-  "g:l1_wa_desu:3": {
-    "en": [
-      null,
-      null
-    ],
-    "vi": [
-      null,
-      null
-    ]
-  },
-  "g:l1_wa_desu:4": {
-    "en": [
-      null,
-      null,
-      null
-    ],
-    "vi": [
-      null,
-      null,
-      null
-    ]
-  },
-  "g:l1_wa_desu:5": {
-    "en": [
-      null,
-      null
-    ],
-    "vi": [
-      null,
-      null
-    ]
-  },
-  "g:l1_ja_arimasen:1": {
-    "en": [
-      null,
-      null
-    ],
-    "vi": [
-      null,
-      null
-    ]
-  },
-  "g:l1_ja_arimasen:2": {
-    "en": [
-      null,
-      null
-    ],
-    "vi": [
-      null,
-      null
-    ]
-  },
-  "g:l1_ja_arimasen:3": {
-    "en": [
-      null,
-      null,
-      null
-    ],
-    "vi": [
-      null,
-      null,
-      null
-    ]
-  },
-  "g:l1_ja_arimasen:4": {
-    "en": [
-      null,
-      null
-    ],
-    "vi": [
-      null,
-      null
     ]
   },
   "g:l1_ka:1": {
@@ -7879,6 +7765,118 @@
     "vi": [
       "Thầy/cô",
       "bao nhiêu tuổi"
+    ]
+  },
+  "g:l1_desu:0": {
+    "en": [
+      "I",
+      "am a student"
+    ],
+    "vi": [
+      "Tôi",
+      "là một sinh viên"
+    ]
+  },
+  "g:l1_desu:1": {
+    "en": [
+      "I",
+      "am not a teacher"
+    ],
+    "vi": [
+      "Tôi",
+      "không phải là giáo viên"
+    ]
+  },
+  "g:l1_desu:2": {
+    "en": [
+      null,
+      null
+    ],
+    "vi": [
+      null,
+      null
+    ]
+  },
+  "g:l1_desu:3": {
+    "en": [
+      null,
+      null
+    ],
+    "vi": [
+      null,
+      null
+    ]
+  },
+  "g:l1_desu:4": {
+    "en": [
+      null,
+      null
+    ],
+    "vi": [
+      null,
+      null
+    ]
+  },
+  "g:l1_wa:0": {
+    "en": [
+      "Mr. Tanaka",
+      "is a teacher"
+    ],
+    "vi": [
+      "Ông Tanaka",
+      "là giáo viên"
+    ]
+  },
+  "g:l1_wa:1": {
+    "en": [
+      null,
+      null
+    ],
+    "vi": [
+      null,
+      null
+    ]
+  },
+  "g:l1_wa:2": {
+    "en": [
+      null,
+      null,
+      null
+    ],
+    "vi": [
+      null,
+      null,
+      null
+    ]
+  },
+  "g:l1_san:0": {
+    "en": [
+      null,
+      null
+    ],
+    "vi": [
+      null,
+      null
+    ]
+  },
+  "g:l1_san:1": {
+    "en": [
+      "Teresa",
+      "nine years old"
+    ],
+    "vi": [
+      "Bé Teresa",
+      "9 tuổi"
+    ]
+  },
+  "g:l1_san:2": {
+    "en": [
+      "I",
+      "am Tanaka"
+    ],
+    "vi": [
+      "Tôi",
+      "là Tanaka"
     ]
   }
 }

@@ -2,24 +2,72 @@
 module.exports = {
   examples: {
     l19_ta_form: [
-      { jp: "きのう京都へ行った。", en: "I went to Kyoto yesterday.", vi: "Hôm qua tôi đã đi Kyoto." },
-      { jp: "ゆうべ映画を見た。", en: "I watched a movie last night.", vi: "Tối qua tôi đã xem phim." },
-      { jp: "けさパンを食べた。", en: "I ate bread this morning.", vi: "Sáng nay tôi đã ăn bánh mì." },
+      {
+        jp: "きのう京都へ行った。",
+        en: "I went to Kyoto yesterday.",
+        vi: "Hôm qua tôi đã đi Kyoto.",
+      },
+      {
+        jp: "ゆうべ映画を見た。",
+        en: "I watched a movie last night.",
+        vi: "Tối qua tôi đã xem phim.",
+      },
+      {
+        jp: "けさパンを食べた。",
+        en: "I ate bread this morning.",
+        vi: "Sáng nay tôi đã ăn bánh mì.",
+      },
     ],
     l19_ta_koto_ga_arimasu: [
-      { jp: "日本へ行ったことがあります。", en: "I have been to Japan.", vi: "Tôi đã từng đến Nhật." },
-      { jp: "すしを食べたことがあります。", en: "I have eaten sushi before.", vi: "Tôi đã từng ăn sushi." },
-      { jp: "富士山に登ったことがあります。", en: "I have climbed Mt. Fuji.", vi: "Tôi đã từng leo núi Phú Sĩ." },
+      {
+        jp: "日本へ行ったことがあります。",
+        en: "I have been to Japan.",
+        vi: "Tôi đã từng đến Nhật.",
+      },
+      {
+        jp: "すしを食べたことがあります。",
+        en: "I have eaten sushi before.",
+        vi: "Tôi đã từng ăn sushi.",
+      },
+      {
+        jp: "富士山に登ったことがあります。",
+        en: "I have climbed Mt. Fuji.",
+        vi: "Tôi đã từng leo núi Phú Sĩ.",
+      },
     ],
     l19_tari_tari: [
-      { jp: "日曜日は本を読んだり、音楽を聞いたりします。", en: "On Sundays I do things like read and listen to music.", vi: "Chủ nhật tôi đọc sách, nghe nhạc, v.v." },
-      { jp: "京都で写真を撮ったり、買い物をしたりしました。", en: "In Kyoto I took photos, went shopping, and so on.", vi: "Ở Kyoto tôi chụp ảnh, mua sắm, v.v." },
-      { jp: "休みの日はテレビを見たり、寝たりします。", en: "On days off I watch TV, sleep, and so on.", vi: "Ngày nghỉ tôi xem ti vi, ngủ, v.v." },
+      {
+        jp: "日曜日は本を読んだり、音楽を聞いたりします。",
+        en: "On Sundays I do things like read and listen to music.",
+        vi: "Chủ nhật tôi đọc sách, nghe nhạc, v.v.",
+      },
+      {
+        jp: "京都で写真を撮ったり、買い物をしたりしました。",
+        en: "In Kyoto I took photos, went shopping, and so on.",
+        vi: "Ở Kyoto tôi chụp ảnh, mua sắm, v.v.",
+      },
+      {
+        jp: "休みの日はテレビを見たり、寝たりします。",
+        en: "On days off I watch TV, sleep, and so on.",
+        vi: "Ngày nghỉ tôi xem ti vi, ngủ, v.v.",
+      },
     ],
     l19_narimasu: [
-      { jp: "春になりました。", en: "It has become spring.", vi: "Đã sang xuân rồi." },
-      { jp: "日本語が上手になりました。", en: "I have become good at Japanese.", vi: "Tôi đã giỏi tiếng Nhật hơn." },
-      { jp: "寒くなりました。", en: "It has gotten cold.", vi: "Trời đã trở lạnh." },
+      {
+        jp: "春になりました。",
+        en: "It has become spring.",
+        vi: "Đã sang xuân rồi.",
+      },
+      {
+        jp: "日本語が上手になりました。",
+        en: "I have become good at Japanese.",
+        vi: "Tôi đã giỏi tiếng Nhật hơn.",
+      },
+      {
+        jp: "寒くなりました。",
+        en: "It has gotten cold.",
+        vi: "Trời đã trở lạnh.",
+      },
     ],
   },
   explanations: {
@@ -118,11 +166,51 @@ module.exports = {
       source: "authored",
       title: { en: "More practice", vi: "Luyện tập thêm" },
       items: [
-        { prompt: "日本へ（　）ことがあります。（have been — 行きます）", options: ["行った", "行って", "行く", "行き"], answer: 0, explanation: { en: "Experience uses the た-form: 行った.", vi: "Kinh nghiệm dùng thể た: 行った." } },
-        { prompt: "日曜日は本を読んだり、音楽を（　）します。", options: ["聞いたり", "聞いて", "聞く", "聞き"], answer: 0, explanation: { en: "たり…たりします lists actions.", vi: "たり…たりします liệt kê hành động." } },
-        { prompt: "寒く（　）。（has become cold）", options: ["なりました", "しました", "ありました", "いました"], answer: 0, explanation: { en: "い-adj + くなります = become.", vi: "Tính từ い + くなります = trở nên." } },
-        { prompt: "日本語が上手（　）なりました。", options: ["に", "く", "で", "と"], answer: 0, explanation: { en: "な-adjective + に + なります.", vi: "Tính từ な + に + なります." } },
-        { prompt: "食べます → た-form is（　）。", options: ["食べた", "食べて", "食べり", "食べって"], answer: 0, explanation: { en: "る-verb: 食べます → 食べた.", vi: "Nhóm る: 食べます → 食べた." } },
+        {
+          prompt: "日本へ（　）ことがあります。（have been — 行きます）",
+          options: ["行った", "行って", "行く", "行き"],
+          answer: 0,
+          explanation: {
+            en: "Experience uses the た-form: 行った.",
+            vi: "Kinh nghiệm dùng thể た: 行った.",
+          },
+        },
+        {
+          prompt: "日曜日は本を読んだり、音楽を（　）します。",
+          options: ["聞いたり", "聞いて", "聞く", "聞き"],
+          answer: 0,
+          explanation: {
+            en: "たり…たりします lists actions.",
+            vi: "たり…たりします liệt kê hành động.",
+          },
+        },
+        {
+          prompt: "寒く（　）。（has become cold）",
+          options: ["なりました", "しました", "ありました", "いました"],
+          answer: 0,
+          explanation: {
+            en: "い-adj + くなります = become.",
+            vi: "Tính từ い + くなります = trở nên.",
+          },
+        },
+        {
+          prompt: "日本語が上手（　）なりました。",
+          options: ["に", "く", "で", "と"],
+          answer: 0,
+          explanation: {
+            en: "な-adjective + に + なります.",
+            vi: "Tính từ な + に + なります.",
+          },
+        },
+        {
+          prompt: "食べます → た-form is（　）。",
+          options: ["食べた", "食べて", "食べり", "食べって"],
+          answer: 0,
+          explanation: {
+            en: "る-verb: 食べます → 食べた.",
+            vi: "Nhóm る: 食べます → 食べた.",
+          },
+        },
       ],
     },
   },

@@ -4499,14 +4499,12 @@
   },
   "g:l4_time:1": {
     "en": [
-      "every morning",
-      "at six",
-      "I get up"
+      null,
+      null
     ],
     "vi": [
-      "mỗi sáng",
-      "lúc sáu giờ",
-      "thức dậy"
+      null,
+      null
     ]
   },
   "g:l4_kara_made:0": {
@@ -5685,36 +5683,12 @@
   },
   "g:l4_time:2": {
     "en": [
-      null,
-      null
+      "now",
+      "It's half past nine"
     ],
     "vi": [
-      null,
-      null
-    ]
-  },
-  "g:l4_time:3": {
-    "en": [
-      null,
-      null,
-      null
-    ],
-    "vi": [
-      null,
-      null,
-      null
-    ]
-  },
-  "g:l4_time:4": {
-    "en": [
-      null,
-      null,
-      null
-    ],
-    "vi": [
-      null,
-      null,
-      null
+      "Bây giờ",
+      "là 9 giờ rưỡi"
     ]
   },
   "g:l4_kara_made:1": {
@@ -7877,6 +7851,1236 @@
     "vi": [
       "Tôi",
       "là Tanaka"
+    ]
+  },
+  "g:l2_nan_no:0": {
+    "en": [
+      "is this",
+      "What kind of",
+      "book"
+    ],
+    "vi": [
+      "Đây",
+      "gì",
+      "là sách"
+    ]
+  },
+  "g:l2_nan_no:1": {
+    "en": [
+      "Japanese",
+      "book"
+    ],
+    "vi": [
+      "tiếng Nhật",
+      "Là sách"
+    ]
+  },
+  "g:l2_nan_no:2": {
+    "en": [
+      "is that",
+      "What kind of",
+      "magazine"
+    ],
+    "vi": [
+      "Đó",
+      "gì",
+      "là tạp chí"
+    ]
+  },
+  "g:l2_dare_no:0": {
+    "en": [
+      "is this",
+      "Whose",
+      "umbrella"
+    ],
+    "vi": [
+      "Đây",
+      "của ai",
+      "là ô"
+    ]
+  },
+  "g:l2_dare_no:1": {
+    "en": [
+      "my",
+      "umbrella"
+    ],
+    "vi": [
+      "của tôi",
+      "Là ô"
+    ]
+  },
+  "g:l2_dare_no:2": {
+    "en": [
+      "is that over there",
+      "Whose",
+      "car"
+    ],
+    "vi": [
+      "Kia",
+      "của ai",
+      "là xe"
+    ]
+  },
+  "g:l2_no_omit:0": {
+    "en": [
+      "This",
+      "umbrella",
+      "is mine"
+    ],
+    "vi": [
+      "này",
+      "Cái ô",
+      "là của tôi"
+    ]
+  },
+  "g:l2_no_omit:1": {
+    "en": [
+      "That",
+      "book",
+      "is Mr. Tanaka's"
+    ],
+    "vi": [
+      "kia",
+      "Cuốn sách",
+      "là của anh Tanaka"
+    ]
+  },
+  "g:l2_no_omit:2": {
+    "en": [
+      "This is",
+      "not mine"
+    ],
+    "vi": [
+      "Cái này",
+      "không phải của tôi"
+    ]
+  },
+  "g:l2_sou_ka:0": {
+    "en": [
+      "I see"
+    ],
+    "vi": [
+      "Vậy à"
+    ]
+  },
+  "g:l2_sou_ka:1": {
+    "en": [
+      "I see",
+      "Understood"
+    ],
+    "vi": [
+      "Vậy à",
+      "Tôi hiểu rồi"
+    ]
+  },
+  "g:l3_doko:0": {
+    "en": [
+      "the toilet",
+      "Where is"
+    ],
+    "vi": [
+      "Nhà vệ sinh",
+      "ở đâu"
+    ]
+  },
+  "g:l3_doko:1": {
+    "en": [
+      "the elevator",
+      "Where is"
+    ],
+    "vi": [
+      "Thang máy",
+      "ở phía nào ạ"
+    ]
+  },
+  "g:l3_doko:2": {
+    "en": [
+      "It's over there"
+    ],
+    "vi": [
+      "Ở đằng kia"
+    ]
+  },
+  "g:l3_dochira:0": {
+    "en": [
+      "country",
+      "What"
+    ],
+    "vi": [
+      "Nước của bạn",
+      "là nước nào"
+    ]
+  },
+  "g:l3_dochira:1": {
+    "en": [
+      "company",
+      "What"
+    ],
+    "vi": [
+      "Công ty của bạn",
+      "là công ty nào"
+    ]
+  },
+  "g:l3_dochira:2": {
+    "en": [
+      "My university",
+      "Sakura",
+      "University"
+    ],
+    "vi": [
+      "Trường tôi",
+      "Sakura",
+      "là Đại học"
+    ]
+  },
+  "g:l3_kosoado:0": {
+    "en": [
+      "This place",
+      "is the school"
+    ],
+    "vi": [
+      "Đây",
+      "là trường học"
+    ]
+  },
+  "g:l3_kosoado:1": {
+    "en": [
+      "That place",
+      "is the bank"
+    ],
+    "vi": [
+      "Chỗ đó",
+      "là ngân hàng"
+    ]
+  },
+  "g:l3_kosoado:2": {
+    "en": [
+      "That person over there",
+      "is Ms. Yamada"
+    ],
+    "vi": [
+      "Vị đằng kia",
+      "là chị Yamada"
+    ]
+  },
+  "g:l3_doko_no:0": {
+    "en": [
+      "this",
+      "Where",
+      "wine"
+    ],
+    "vi": [
+      "Đây",
+      "của nước nào",
+      "là rượu vang"
+    ]
+  },
+  "g:l3_doko_no:1": {
+    "en": [
+      "French",
+      "wine"
+    ],
+    "vi": [
+      "Pháp",
+      "Là rượu vang"
+    ]
+  },
+  "g:l3_doko_no:2": {
+    "en": [
+      "That over there",
+      "German",
+      "car"
+    ],
+    "vi": [
+      "Kia",
+      "của Đức",
+      "là xe hơi"
+    ]
+  },
+  "g:l3_nangai:0": {
+    "en": [
+      "the dining hall",
+      "What floor"
+    ],
+    "vi": [
+      "Nhà ăn",
+      "ở tầng mấy"
+    ]
+  },
+  "g:l3_nangai:1": {
+    "en": [
+      "It's on the second floor"
+    ],
+    "vi": [
+      "Ở tầng hai"
+    ]
+  },
+  "g:l3_nangai:2": {
+    "en": [
+      "The bag section",
+      "is on basement floor one"
+    ],
+    "vi": [
+      "Khu bán cặp",
+      "ở tầng hầm một"
+    ]
+  },
+  "g:l3_ikura:0": {
+    "en": [
+      "this",
+      "watch",
+      "How much"
+    ],
+    "vi": [
+      "này",
+      "Cái đồng hồ",
+      "giá bao nhiêu"
+    ]
+  },
+  "g:l3_ikura:1": {
+    "en": [
+      "It's 3,000 yen"
+    ],
+    "vi": [
+      "3.000 yên"
+    ]
+  },
+  "g:l3_ikura:2": {
+    "en": [
+      "That",
+      "umbrella",
+      "is 800 yen"
+    ],
+    "vi": [
+      "kia",
+      "Cái ô",
+      "800 yên"
+    ]
+  },
+  "g:l4_ni:0": {
+    "en": [
+      "every morning",
+      "at six",
+      "I get up"
+    ],
+    "vi": [
+      "mỗi sáng",
+      "lúc sáu giờ",
+      "thức dậy"
+    ]
+  },
+  "g:l4_ni:1": {
+    "en": [
+      null,
+      null,
+      null
+    ],
+    "vi": [
+      null,
+      null,
+      null
+    ]
+  },
+  "g:l4_ni:2": {
+    "en": [
+      null,
+      null,
+      null
+    ],
+    "vi": [
+      null,
+      null,
+      null
+    ]
+  },
+  "g:l4_to:0": {
+    "en": [
+      "The bank's",
+      "days off",
+      "Saturday and",
+      "Sunday"
+    ],
+    "vi": [
+      "của ngân hàng",
+      "Ngày nghỉ",
+      "thứ Bảy và",
+      "Chủ nhật"
+    ]
+  },
+  "g:l4_to:1": {
+    "en": [
+      "The library",
+      "the third and",
+      "fourth floors"
+    ],
+    "vi": [
+      "Thư viện",
+      "tầng 3 và",
+      "tầng 4"
+    ]
+  },
+  "g:l4_ne:0": {
+    "en": [
+      "That's tough, isn't it"
+    ],
+    "vi": [
+      "Vất vả nhỉ"
+    ]
+  },
+  "g:l4_ne:1": {
+    "en": [
+      "Nice",
+      "weather, isn't it"
+    ],
+    "vi": [
+      "đẹp",
+      "Trời"
+    ]
+  },
+  "g:l4_ne:2": {
+    "en": [
+      "871",
+      "6813, right"
+    ],
+    "vi": [
+      "871",
+      "6813 phải không nhỉ"
+    ]
+  },
+  "g:l4_nanban:0": {
+    "en": [
+      "the phone number",
+      "What is"
+    ],
+    "vi": [
+      "Số điện thoại",
+      "là số mấy"
+    ]
+  },
+  "g:l4_nanban:1": {
+    "en": [
+      "871",
+      "6813"
+    ],
+    "vi": [
+      "871",
+      "6813"
+    ]
+  },
+  "g:l5_doko_mo:0": {
+    "en": [
+      "On Sunday",
+      "anywhere",
+      "I don't go"
+    ],
+    "vi": [
+      "Chủ nhật",
+      "đâu",
+      "tôi không đi"
+    ]
+  },
+  "g:l5_doko_mo:1": {
+    "en": [
+      "anything",
+      "I didn't eat"
+    ],
+    "vi": [
+      "gì",
+      "Tôi đã không ăn"
+    ]
+  },
+  "g:l5_itsu:0": {
+    "en": [
+      "your birthday",
+      "When is"
+    ],
+    "vi": [
+      "Sinh nhật",
+      "khi nào"
+    ]
+  },
+  "g:l5_itsu:1": {
+    "en": [
+      "When",
+      "to Japan",
+      "did you come"
+    ],
+    "vi": [
+      "khi nào",
+      "Nhật",
+      "Bạn đã đến"
+    ]
+  },
+  "g:l5_yo:0": {
+    "en": [
+      "It's over there, you know"
+    ],
+    "vi": [
+      "Ở đằng kia đấy"
+    ]
+  },
+  "g:l5_yo:1": {
+    "en": [
+      "This",
+      "book",
+      "is interesting, you know"
+    ],
+    "vi": [
+      "này",
+      "Cuốn sách",
+      "thú vị đấy"
+    ]
+  },
+  "g:l6_nani:0": {
+    "en": [
+      "What",
+      "do you eat"
+    ],
+    "vi": [
+      "gì",
+      "Bạn ăn"
+    ]
+  },
+  "g:l6_nani:1": {
+    "en": [
+      "at the library",
+      "What",
+      "do you do"
+    ],
+    "vi": [
+      "ở thư viện",
+      "gì",
+      "Bạn làm"
+    ]
+  },
+  "g:l6_nani:2": {
+    "en": [
+      "this",
+      "What kind of",
+      "book"
+    ],
+    "vi": [
+      "Đây",
+      "gì",
+      "là sách"
+    ]
+  },
+  "g:l6_ka_ack:0": {
+    "en": [
+      "Kyoto, I see",
+      "That's nice"
+    ],
+    "vi": [
+      "Kyoto à",
+      "Hay nhỉ"
+    ]
+  },
+  "g:l6_ka_ack:1": {
+    "en": [
+      "Tomorrow, I see"
+    ],
+    "vi": [
+      "Ngày mai à"
+    ]
+  },
+  "g:l7_go_de:0": {
+    "en": [
+      "this",
+      "in Japanese",
+      "What is"
+    ],
+    "vi": [
+      "Cái này",
+      "trong tiếng Nhật",
+      "nói thế nào"
+    ]
+  },
+  "g:l7_go_de:1": {
+    "en": [
+      "this",
+      "in English",
+      "What is"
+    ],
+    "vi": [
+      "Cái này",
+      "trong tiếng Anh",
+      "nói thế nào"
+    ]
+  },
+  "g:l7_kuremasu:0": {
+    "en": [
+      "The teacher",
+      "me",
+      "a book",
+      "gave"
+    ],
+    "vi": [
+      "Cô giáo",
+      "tôi",
+      "quyển sách",
+      "đã tặng"
+    ]
+  },
+  "g:l7_kuremasu:1": {
+    "en": [
+      "My father",
+      "me",
+      "a watch",
+      "gave"
+    ],
+    "vi": [
+      "Bố",
+      "tôi",
+      "chiếc đồng hồ",
+      "đã cho"
+    ]
+  },
+  "g:l8_dou:0": {
+    "en": [
+      "this",
+      "town",
+      "How is"
+    ],
+    "vi": [
+      "này",
+      "Thị trấn",
+      "thế nào"
+    ]
+  },
+  "g:l8_dou:1": {
+    "en": [
+      "Japanese",
+      "study",
+      "How is"
+    ],
+    "vi": [
+      "tiếng Nhật",
+      "Việc học",
+      "thế nào"
+    ]
+  },
+  "g:l8_adj_noun:0": {
+    "en": [
+      "Mt. Fuji",
+      "famous",
+      "mountain"
+    ],
+    "vi": [
+      "Núi Phú Sĩ",
+      "nổi tiếng",
+      "ngọn núi"
+    ]
+  },
+  "g:l8_adj_noun:1": {
+    "en": [
+      "What kind of",
+      "camera"
+    ],
+    "vi": [
+      "như thế nào",
+      "máy ảnh"
+    ]
+  },
+  "g:l8_adj_noun:2": {
+    "en": [
+      "expensive",
+      "camera"
+    ],
+    "vi": [
+      "đắt tiền",
+      "máy ảnh"
+    ]
+  },
+  "g:l8_totemo_amari:0": {
+    "en": [
+      "This",
+      "dish",
+      "very",
+      "delicious"
+    ],
+    "vi": [
+      "này",
+      "Món ăn",
+      "rất",
+      "ngon"
+    ]
+  },
+  "g:l8_totemo_amari:1": {
+    "en": [
+      "This",
+      "shop",
+      "not very",
+      "cheap"
+    ],
+    "vi": [
+      "này",
+      "Quán",
+      "lắm",
+      "không rẻ"
+    ]
+  },
+  "g:l8_soshite:0": {
+    "en": [
+      "This",
+      "cake",
+      "is delicious",
+      "And",
+      "cheap"
+    ],
+    "vi": [
+      "này",
+      "Cái bánh",
+      "ngon",
+      "Và",
+      "rẻ"
+    ]
+  },
+  "g:l8_soshite:1": {
+    "en": [
+      "Mt. Fuji",
+      "is beautiful",
+      "And",
+      "famous"
+    ],
+    "vi": [
+      "Núi Phú Sĩ",
+      "đẹp",
+      "Và",
+      "nổi tiếng"
+    ]
+  },
+  "g:l9_ga_arimasu:0": {
+    "en": [
+      "I",
+      "money",
+      "don't have"
+    ],
+    "vi": [
+      "Tôi",
+      "tiền",
+      "không có"
+    ]
+  },
+  "g:l9_ga_arimasu:1": {
+    "en": [
+      "Mr. Yamada",
+      "a car",
+      "has"
+    ],
+    "vi": [
+      "Anh Yamada",
+      "xe hơi",
+      "có"
+    ]
+  },
+  "g:l9_adverb:0": {
+    "en": [
+      "English",
+      "well",
+      "I understand"
+    ],
+    "vi": [
+      "tiếng Anh",
+      "rõ",
+      "Tôi hiểu"
+    ]
+  },
+  "g:l9_adverb:1": {
+    "en": [
+      "Japanese",
+      "very well",
+      "I don't understand"
+    ],
+    "vi": [
+      "tiếng Nhật",
+      "lắm",
+      "Tôi không hiểu"
+    ]
+  },
+  "g:l9_adverb:2": {
+    "en": [
+      "money",
+      "at all",
+      "I have no"
+    ],
+    "vi": [
+      "tiền",
+      "chẳng",
+      "có"
+    ]
+  },
+  "g:l9_donna:0": {
+    "en": [
+      "What kind of",
+      "sport",
+      "do you like"
+    ],
+    "vi": [
+      "nào",
+      "môn thể thao",
+      "Bạn thích"
+    ]
+  },
+  "g:l9_donna:1": {
+    "en": [
+      "soccer",
+      "I like"
+    ],
+    "vi": [
+      "bóng đá",
+      "Tôi thích"
+    ]
+  },
+  "g:l10_wa_ni:0": {
+    "en": [
+      "Japanese",
+      "book",
+      "Where",
+      "is"
+    ],
+    "vi": [
+      "tiếng Nhật",
+      "Quyển sách",
+      "ở đâu",
+      null
+    ]
+  },
+  "g:l10_wa_ni:1": {
+    "en": [
+      "The cat",
+      "the chair",
+      "under",
+      "is"
+    ],
+    "vi": [
+      "Con mèo",
+      "ghế",
+      "dưới",
+      "ở"
+    ]
+  },
+  "g:l10_aida:0": {
+    "en": [
+      "My house",
+      "the bookstore and",
+      "the park",
+      "is between"
+    ],
+    "vi": [
+      "Nhà tôi",
+      "nhà sách và",
+      "công viên",
+      "ở giữa"
+    ]
+  },
+  "g:l10_aida:1": {
+    "en": [
+      "The bank",
+      "the supermarket and",
+      "the hotel",
+      "is between"
+    ],
+    "vi": [
+      "Ngân hàng",
+      "siêu thị và",
+      "khách sạn",
+      "ở giữa"
+    ]
+  },
+  "g:l10_ya_nado:0": {
+    "en": [
+      "In the room",
+      "a TV and",
+      "a fridge",
+      "among others",
+      "there are"
+    ],
+    "vi": [
+      "Trong phòng",
+      "ti vi",
+      "tủ lạnh",
+      "và những thứ khác",
+      "có"
+    ]
+  },
+  "g:l10_ya_nado:1": {
+    "en": [
+      "At the supermarket",
+      "meat and",
+      "eggs",
+      "among other things",
+      "I bought"
+    ],
+    "vi": [
+      "Ở siêu thị",
+      "thịt",
+      "trứng",
+      "và nhiều thứ khác",
+      "đã mua"
+    ]
+  },
+  "g:l11_gurai:0": {
+    "en": [
+      "in the classroom",
+      "students",
+      "about twenty",
+      "There are"
+    ],
+    "vi": [
+      "Trong lớp",
+      "học sinh",
+      "khoảng hai mươi",
+      "có"
+    ]
+  },
+  "g:l11_gurai:1": {
+    "en": [
+      "beer",
+      "about five bottles",
+      "I drank"
+    ],
+    "vi": [
+      "bia",
+      "khoảng 5 chai",
+      "Tôi đã uống"
+    ]
+  },
+  "g:l11_donokurai:0": {
+    "en": [
+      "to Japan",
+      "How long",
+      "will you go"
+    ],
+    "vi": [
+      "Nhật",
+      "bao lâu",
+      "Bạn đi"
+    ]
+  },
+  "g:l11_donokurai:1": {
+    "en": [
+      "about three months",
+      "I'll go"
+    ],
+    "vi": [
+      "khoảng 3 tháng",
+      "Tôi đi"
+    ]
+  },
+  "g:l11_dake:0": {
+    "en": [
+      "vegetables",
+      "only",
+      "I eat"
+    ],
+    "vi": [
+      "rau",
+      "chỉ",
+      "ăn"
+    ]
+  },
+  "g:l11_dake:1": {
+    "en": [
+      "on Sundays",
+      "only",
+      "I rest"
+    ],
+    "vi": [
+      "vào chủ nhật",
+      "chỉ",
+      "nghỉ"
+    ]
+  },
+  "g:l12_no_pronoun:0": {
+    "en": [
+      "the cheap one",
+      "Please give me"
+    ],
+    "vi": [
+      "cái rẻ",
+      "Cho tôi"
+    ]
+  },
+  "g:l12_no_pronoun:1": {
+    "en": [
+      "the big one",
+      "I like"
+    ],
+    "vi": [
+      "cái to",
+      "Tôi thích"
+    ]
+  },
+  "g:l13_nanika:0": {
+    "en": [
+      "something",
+      "I want to eat"
+    ],
+    "vi": [
+      "cái gì đó",
+      "Tôi muốn ăn"
+    ]
+  },
+  "g:l13_nanika:1": {
+    "en": [
+      "on Sunday",
+      "somewhere",
+      "Did you go"
+    ],
+    "vi": [
+      "Chủ nhật",
+      "đâu đó",
+      "bạn có đi"
+    ]
+  },
+  "g:l14_kata:0": {
+    "en": [
+      "kanji",
+      "how to write",
+      "I learned"
+    ],
+    "vi": [
+      "kanji",
+      "cách viết",
+      "Tôi đã học"
+    ]
+  },
+  "g:l14_kata:1": {
+    "en": [
+      "this",
+      "kanji",
+      "how to read",
+      "I don't know"
+    ],
+    "vi": [
+      "này",
+      "chữ Hán",
+      "cách đọc",
+      "Tôi không biết"
+    ]
+  },
+  "g:l14_mashouka:0": {
+    "en": [
+      "a photo",
+      "Shall I take"
+    ],
+    "vi": [
+      "ảnh",
+      "Để tôi chụp"
+    ]
+  },
+  "g:l14_mashouka:1": {
+    "en": [
+      "Shall I help you"
+    ],
+    "vi": [
+      "Để tôi giúp nhé"
+    ]
+  },
+  "g:l15_shitteimasu:0": {
+    "en": [
+      "Mr. Tanaka's",
+      "phone number",
+      "Do you know"
+    ],
+    "vi": [
+      "của anh Tanaka",
+      "số điện thoại",
+      "Bạn có biết"
+    ]
+  },
+  "g:l15_shitteimasu:1": {
+    "en": [
+      "No",
+      "I don't know"
+    ],
+    "vi": [
+      "Không",
+      "tôi không biết"
+    ]
+  },
+  "g:l16_wa_ga:0": {
+    "en": [
+      "In Hokkaido",
+      "snow",
+      "there is a lot"
+    ],
+    "vi": [
+      "Hokkaido",
+      "tuyết",
+      "nhiều"
+    ]
+  },
+  "g:l16_wa_ga:1": {
+    "en": [
+      "Mr. Tanaka",
+      "hair",
+      "long"
+    ],
+    "vi": [
+      "Anh Tanaka",
+      "tóc",
+      "dài"
+    ]
+  },
+  "g:l16_douyatte:0": {
+    "en": [
+      "to the university",
+      "How",
+      "do you get"
+    ],
+    "vi": [
+      "trường đại học",
+      "bằng cách nào",
+      "Bạn đến"
+    ]
+  },
+  "g:l16_douyatte:1": {
+    "en": [
+      "from the station",
+      "a bus",
+      "I take"
+    ],
+    "vi": [
+      "từ ga",
+      "xe buýt",
+      "Tôi đi"
+    ]
+  },
+  "g:l16_dore:0": {
+    "en": [
+      "Mr. Miller's",
+      "umbrella",
+      "Which one is"
+    ],
+    "vi": [
+      "của anh Miller",
+      "Ô",
+      "là cái nào"
+    ]
+  },
+  "g:l16_dore:1": {
+    "en": [
+      "Which",
+      "person",
+      "is Mr. Tanaka"
+    ],
+    "vi": [
+      "nào",
+      "Người",
+      "là anh Tanaka"
+    ]
+  },
+  "g:l17_madeni:0": {
+    "en": [
+      "by Friday",
+      "the report",
+      "Please submit"
+    ],
+    "vi": [
+      "trước thứ Sáu",
+      "báo cáo",
+      "Hãy nộp"
+    ]
+  },
+  "g:l17_madeni:1": {
+    "en": [
+      "by ten",
+      "I must go home"
+    ],
+    "vi": [
+      "trước 10 giờ",
+      "Tôi phải về nhà"
+    ]
+  },
+  "g:l18_shumi:0": {
+    "en": [
+      "your hobby",
+      "What is"
+    ],
+    "vi": [
+      "Sở thích của bạn",
+      "là gì"
+    ]
+  },
+  "g:l18_shumi:1": {
+    "en": [
+      "My hobby",
+      "the piano",
+      "is playing"
+    ],
+    "vi": [
+      "Sở thích của tôi",
+      "đàn piano",
+      "là chơi"
+    ]
+  },
+  "g:l20_casual:0": {
+    "en": [
+      "today",
+      "a movie",
+      "Are you watching"
+    ],
+    "vi": [
+      "Hôm nay",
+      "phim",
+      "xem"
+    ]
+  },
+  "g:l20_casual:1": {
+    "en": [
+      "Yeah",
+      "I'm watching"
+    ],
+    "vi": [
+      "Ừ",
+      "xem"
+    ]
+  },
+  "g:l21_de_arimasu:0": {
+    "en": [
+      "at the sports ground",
+      "soccer",
+      "match",
+      "There is"
+    ],
+    "vi": [
+      "ở sân vận động",
+      "bóng đá",
+      "trận đấu",
+      "Có"
+    ]
+  },
+  "g:l21_de_arimasu:1": {
+    "en": [
+      "in Tokyo",
+      "a meeting",
+      "There is"
+    ],
+    "vi": [
+      "ở Tokyo",
+      "cuộc họp",
+      "Có"
+    ]
+  },
+  "g:l21_demo:0": {
+    "en": [
+      "some tea or something",
+      "Won't you have"
+    ],
+    "vi": [
+      "chút trà chẳng hạn",
+      "Cùng uống"
+    ]
+  },
+  "g:l21_demo:1": {
+    "en": [
+      "a movie or something",
+      "Let's watch"
+    ],
+    "vi": [
+      "phim gì đó",
+      "Cùng xem"
     ]
   }
 }

@@ -1071,233 +1071,6 @@
     ]
   },
   {
-    "id": "l2_kore_sore_are",
-    "lesson": 2,
-    "title": "これ・それ・あれ",
-    "meaning": "Words for 'this / that / that over there' used on their own as the subject.",
-    "structure": "これ / それ / あれ は [noun] です",
-    "examples": [
-      {
-        "jp": "これは本です。",
-        "reading": "これはほんです。",
-        "en": "This is a book.",
-        "vi": "Đây là một cuốn sách.",
-        "tokens": [
-          [
-            {
-              "t": "これは"
-            }
-          ],
-          [
-            {
-              "t": "本",
-              "f": "ほん"
-            },
-            {
-              "t": "です。"
-            }
-          ]
-        ],
-        "romaji": "kore wa hon desu.",
-        "romajiChunks": [
-          "kore wa",
-          "hon desu."
-        ]
-      },
-      {
-        "jp": "あれは何ですか。",
-        "reading": "あれはなんですか。",
-        "en": "What is that over there?",
-        "vi": "Cái gì ở đó vậy?",
-        "tokens": [
-          [
-            {
-              "t": "あれは"
-            }
-          ],
-          [
-            {
-              "t": "何",
-              "f": "なに"
-            },
-            {
-              "t": "ですか。"
-            }
-          ]
-        ],
-        "romaji": "are wa nani desu ka.",
-        "romajiChunks": [
-          "are wa",
-          "nani desu ka."
-        ]
-      },
-      {
-        "jp": "それは傘です。",
-        "reading": "それはかさです。",
-        "en": "That is an umbrella.",
-        "vi": "Đó là cái ô.",
-        "tokens": [
-          [
-            {
-              "t": "それは"
-            }
-          ],
-          [
-            {
-              "t": "傘",
-              "f": "かさ"
-            },
-            {
-              "t": "です。"
-            }
-          ]
-        ],
-        "romaji": "sore wa kasa desu.",
-        "romajiChunks": [
-          "sore wa",
-          "kasa desu."
-        ]
-      },
-      {
-        "jp": "あれは時計です。",
-        "reading": "あれはとけいです。",
-        "en": "That (over there) is a clock.",
-        "vi": "Kia là cái đồng hồ.",
-        "tokens": [
-          [
-            {
-              "t": "あれは"
-            }
-          ],
-          [
-            {
-              "t": "時計",
-              "f": "とけい"
-            },
-            {
-              "t": "です。"
-            }
-          ]
-        ],
-        "romaji": "are wa tokei desu.",
-        "romajiChunks": [
-          "are wa",
-          "tokei desu."
-        ]
-      }
-    ],
-    "meaningVi": "これ・それ・あれ = 'cái này / cái đó / cái kia', dùng độc lập làm chủ ngữ."
-  },
-  {
-    "id": "l2_kono_sono_ano",
-    "lesson": 2,
-    "title": "この・その・あの N",
-    "meaning": "Used directly before a noun — 'this book', 'that person'. Cannot stand alone.",
-    "structure": "この / その / あの [noun]",
-    "examples": [
-      {
-        "jp": "この本はわたしのです。",
-        "reading": "このほんはわたしのです。",
-        "en": "This book is mine.",
-        "vi": "Cuốn sách này là của tôi.",
-        "tokens": [
-          [
-            {
-              "t": "この"
-            }
-          ],
-          [
-            {
-              "t": "本",
-              "f": "ほん"
-            },
-            {
-              "t": "は"
-            }
-          ],
-          [
-            {
-              "t": "わたしのです。"
-            }
-          ]
-        ],
-        "romaji": "kono hon wa watashino desu.",
-        "romajiChunks": [
-          "kono",
-          "hon wa",
-          "watashino desu."
-        ]
-      },
-      {
-        "jp": "そのかばんはミラーさんのです。",
-        "reading": "そのかばんはミラーさんのです。",
-        "en": "That bag is Mr. Miller's.",
-        "vi": "Cái cặp đó là của anh Miller.",
-        "tokens": [
-          [
-            {
-              "t": "その"
-            }
-          ],
-          [
-            {
-              "t": "かばんは"
-            }
-          ],
-          [
-            {
-              "t": "ミラーさんのです。"
-            }
-          ]
-        ],
-        "romaji": "sono kaban wa miraasanno desu.",
-        "romajiChunks": [
-          "sono",
-          "kaban wa",
-          "miraasanno desu."
-        ]
-      },
-      {
-        "jp": "あの人は田中さんです。",
-        "reading": "あのひとはたなかさんです。",
-        "en": "That person is Mr. Tanaka.",
-        "vi": "Người kia là ông Tanaka.",
-        "tokens": [
-          [
-            {
-              "t": "あの"
-            }
-          ],
-          [
-            {
-              "t": "人",
-              "f": "ひと"
-            },
-            {
-              "t": "は"
-            }
-          ],
-          [
-            {
-              "t": "田中",
-              "f": "たなか"
-            },
-            {
-              "t": "さんです。"
-            }
-          ]
-        ],
-        "romaji": "ano hito wa tanakasan desu.",
-        "romajiChunks": [
-          "ano",
-          "hito wa",
-          "tanakasan desu."
-        ]
-      }
-    ],
-    "meaningVi": "この・その・あの đứng ngay trước danh từ — 'quyển sách này'. Không dùng một mình."
-  },
-  {
     "id": "l2_sou_desu",
     "lesson": 2,
     "title": "そうです / ちがいます",
@@ -1564,6 +1337,596 @@
     "meaningVi": "Đưa ra lựa chọn giữa hai thứ — 'là A hay B?'."
   },
   {
+    "id": "l2_kore_sore_are",
+    "lesson": 2,
+    "title": "これ・それ・あれ",
+    "meaning": "Words for 'this / that / that over there' used on their own as the subject.",
+    "structure": "これ / それ / あれ は [noun] です",
+    "examples": [
+      {
+        "jp": "これは本です。",
+        "reading": "これはほんです。",
+        "en": "This is a book.",
+        "vi": "Đây là một cuốn sách.",
+        "tokens": [
+          [
+            {
+              "t": "これは"
+            }
+          ],
+          [
+            {
+              "t": "本",
+              "f": "ほん"
+            },
+            {
+              "t": "です。"
+            }
+          ]
+        ],
+        "romaji": "kore wa hon desu.",
+        "romajiChunks": [
+          "kore wa",
+          "hon desu."
+        ]
+      },
+      {
+        "jp": "あれは何ですか。",
+        "reading": "あれはなんですか。",
+        "en": "What is that over there?",
+        "vi": "Cái gì ở đó vậy?",
+        "tokens": [
+          [
+            {
+              "t": "あれは"
+            }
+          ],
+          [
+            {
+              "t": "何",
+              "f": "なに"
+            },
+            {
+              "t": "ですか。"
+            }
+          ]
+        ],
+        "romaji": "are wa nani desu ka.",
+        "romajiChunks": [
+          "are wa",
+          "nani desu ka."
+        ]
+      },
+      {
+        "jp": "それは傘です。",
+        "reading": "それはかさです。",
+        "en": "That is an umbrella.",
+        "vi": "Đó là cái ô.",
+        "tokens": [
+          [
+            {
+              "t": "それは"
+            }
+          ],
+          [
+            {
+              "t": "傘",
+              "f": "かさ"
+            },
+            {
+              "t": "です。"
+            }
+          ]
+        ],
+        "romaji": "sore wa kasa desu.",
+        "romajiChunks": [
+          "sore wa",
+          "kasa desu."
+        ]
+      },
+      {
+        "jp": "あれは時計です。",
+        "reading": "あれはとけいです。",
+        "en": "That (over there) is a clock.",
+        "vi": "Kia là cái đồng hồ.",
+        "tokens": [
+          [
+            {
+              "t": "あれは"
+            }
+          ],
+          [
+            {
+              "t": "時計",
+              "f": "とけい"
+            },
+            {
+              "t": "です。"
+            }
+          ]
+        ],
+        "romaji": "are wa tokei desu.",
+        "romajiChunks": [
+          "are wa",
+          "tokei desu."
+        ]
+      }
+    ],
+    "meaningVi": "これ・それ・あれ = 'cái này / cái đó / cái kia', dùng độc lập làm chủ ngữ."
+  },
+  {
+    "id": "l2_kono_sono_ano",
+    "lesson": 2,
+    "title": "この・その・あの N",
+    "meaning": "Used directly before a noun — 'this book', 'that person'. Cannot stand alone.",
+    "structure": "この / その / あの [noun]",
+    "examples": [
+      {
+        "jp": "この本はわたしのです。",
+        "reading": "このほんはわたしのです。",
+        "en": "This book is mine.",
+        "vi": "Cuốn sách này là của tôi.",
+        "tokens": [
+          [
+            {
+              "t": "この"
+            }
+          ],
+          [
+            {
+              "t": "本",
+              "f": "ほん"
+            },
+            {
+              "t": "は"
+            }
+          ],
+          [
+            {
+              "t": "わたしのです。"
+            }
+          ]
+        ],
+        "romaji": "kono hon wa watashino desu.",
+        "romajiChunks": [
+          "kono",
+          "hon wa",
+          "watashino desu."
+        ]
+      },
+      {
+        "jp": "そのかばんはミラーさんのです。",
+        "reading": "そのかばんはミラーさんのです。",
+        "en": "That bag is Mr. Miller's.",
+        "vi": "Cái cặp đó là của anh Miller.",
+        "tokens": [
+          [
+            {
+              "t": "その"
+            }
+          ],
+          [
+            {
+              "t": "かばんは"
+            }
+          ],
+          [
+            {
+              "t": "ミラーさんのです。"
+            }
+          ]
+        ],
+        "romaji": "sono kaban wa miraasanno desu.",
+        "romajiChunks": [
+          "sono",
+          "kaban wa",
+          "miraasanno desu."
+        ]
+      },
+      {
+        "jp": "あの人は田中さんです。",
+        "reading": "あのひとはたなかさんです。",
+        "en": "That person is Mr. Tanaka.",
+        "vi": "Người kia là ông Tanaka.",
+        "tokens": [
+          [
+            {
+              "t": "あの"
+            }
+          ],
+          [
+            {
+              "t": "人",
+              "f": "ひと"
+            },
+            {
+              "t": "は"
+            }
+          ],
+          [
+            {
+              "t": "田中",
+              "f": "たなか"
+            },
+            {
+              "t": "さんです。"
+            }
+          ]
+        ],
+        "romaji": "ano hito wa tanakasan desu.",
+        "romajiChunks": [
+          "ano",
+          "hito wa",
+          "tanakasan desu."
+        ]
+      }
+    ],
+    "meaningVi": "この・その・あの đứng ngay trước danh từ — 'quyển sách này'. Không dùng một mình."
+  },
+  {
+    "id": "l2_nan_no",
+    "lesson": 2,
+    "title": "なんの N",
+    "meaning": "なんの asks what kind — the answer names a type: 日本語の本 'a Japanese(-language) book'.",
+    "meaningVi": "なんの hỏi về loại — câu trả lời nêu chủng loại: 日本語の本 'sách tiếng Nhật'.",
+    "structure": "～は なんの N ですか",
+    "examples": [
+      {
+        "jp": "これはなんの本ですか。",
+        "reading": "これはなんのほんですか。",
+        "en": "What kind of book is this?",
+        "vi": "Đây là sách gì vậy?",
+        "tokens": [
+          [
+            {
+              "t": "これは"
+            }
+          ],
+          [
+            {
+              "t": "なんの"
+            }
+          ],
+          [
+            {
+              "t": "本",
+              "f": "ほん"
+            },
+            {
+              "t": "ですか。"
+            }
+          ]
+        ],
+        "romaji": "kore wa nan no hon desu ka.",
+        "romajiChunks": [
+          "kore wa",
+          "nan no",
+          "hon desu ka."
+        ]
+      },
+      {
+        "jp": "日本語の本です。",
+        "reading": "にほんごのほんです。",
+        "en": "It's a Japanese book.",
+        "vi": "Là sách tiếng Nhật.",
+        "tokens": [
+          [
+            {
+              "t": "日本語",
+              "f": "にほんご"
+            },
+            {
+              "t": "の"
+            }
+          ],
+          [
+            {
+              "t": "本",
+              "f": "ほん"
+            },
+            {
+              "t": "です。"
+            }
+          ]
+        ],
+        "romaji": "nihongo no hon desu.",
+        "romajiChunks": [
+          "nihongo no",
+          "hon desu."
+        ]
+      },
+      {
+        "jp": "それはなんの雑誌ですか。",
+        "reading": "それはなんのざっしですか。",
+        "en": "What kind of magazine is that?",
+        "vi": "Đó là tạp chí gì?",
+        "tokens": [
+          [
+            {
+              "t": "それは"
+            }
+          ],
+          [
+            {
+              "t": "なんの"
+            }
+          ],
+          [
+            {
+              "t": "雑誌",
+              "f": "ざっし"
+            },
+            {
+              "t": "ですか。"
+            }
+          ]
+        ],
+        "romaji": "sore wa nan no zasshi desu ka.",
+        "romajiChunks": [
+          "sore wa",
+          "nan no",
+          "zasshi desu ka."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "l2_dare_no",
+    "lesson": 2,
+    "title": "だれの N",
+    "meaning": "だれの asks whose — the answer names a person: わたしの傘 'my umbrella'.",
+    "meaningVi": "だれの hỏi của ai — câu trả lời nêu người: わたしの傘 'ô của tôi'.",
+    "structure": "～は だれの N ですか",
+    "examples": [
+      {
+        "jp": "これはだれの傘ですか。",
+        "reading": "これはだれのかさですか。",
+        "en": "Whose umbrella is this?",
+        "vi": "Đây là ô của ai?",
+        "tokens": [
+          [
+            {
+              "t": "これは"
+            }
+          ],
+          [
+            {
+              "t": "だれの"
+            }
+          ],
+          [
+            {
+              "t": "傘",
+              "f": "かさ"
+            },
+            {
+              "t": "ですか。"
+            }
+          ]
+        ],
+        "romaji": "kore wa dare no kasa desu ka.",
+        "romajiChunks": [
+          "kore wa",
+          "dare no",
+          "kasa desu ka."
+        ]
+      },
+      {
+        "jp": "わたしの傘です。",
+        "reading": "わたしのかさです。",
+        "en": "It's my umbrella.",
+        "vi": "Là ô của tôi.",
+        "tokens": [
+          [
+            {
+              "t": "わたしの"
+            }
+          ],
+          [
+            {
+              "t": "傘",
+              "f": "かさ"
+            },
+            {
+              "t": "です。"
+            }
+          ]
+        ],
+        "romaji": "watashi no kasa desu.",
+        "romajiChunks": [
+          "watashi no",
+          "kasa desu."
+        ]
+      },
+      {
+        "jp": "あれはだれの車ですか。",
+        "reading": "あれはだれのくるまですか。",
+        "en": "Whose car is that over there?",
+        "vi": "Kia là xe của ai?",
+        "tokens": [
+          [
+            {
+              "t": "あれは"
+            }
+          ],
+          [
+            {
+              "t": "だれの"
+            }
+          ],
+          [
+            {
+              "t": "車",
+              "f": "くるま"
+            },
+            {
+              "t": "ですか。"
+            }
+          ]
+        ],
+        "romaji": "are wa dare no kuruma desu ka.",
+        "romajiChunks": [
+          "are wa",
+          "dare no",
+          "kuruma desu ka."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "l2_no_omit",
+    "lesson": 2,
+    "title": "～のです (mine, Tanaka's)",
+    "meaning": "When the thing is already known, の stands in for it: わたしのです 'it's mine'. Only for things, never people.",
+    "meaningVi": "Khi vật đã được nhắc đến, の thay thế cho nó: わたしのです 'là của tôi'. Chỉ dùng cho vật, không dùng cho người.",
+    "structure": "N2 の N1 です → N2 のです",
+    "examples": [
+      {
+        "jp": "この傘はわたしのです。",
+        "reading": "このかさはわたしのです。",
+        "en": "This umbrella is mine.",
+        "vi": "Cái ô này là của tôi.",
+        "tokens": [
+          [
+            {
+              "t": "この"
+            }
+          ],
+          [
+            {
+              "t": "傘",
+              "f": "かさ"
+            },
+            {
+              "t": "は"
+            }
+          ],
+          [
+            {
+              "t": "わたしのです。"
+            }
+          ]
+        ],
+        "romaji": "kono kasa wa watashi no desu.",
+        "romajiChunks": [
+          "kono",
+          "kasa wa",
+          "watashi no desu."
+        ]
+      },
+      {
+        "jp": "あの本は田中さんのです。",
+        "reading": "あのほんはたなかさんのです。",
+        "en": "That book is Mr. Tanaka's.",
+        "vi": "Cuốn sách kia là của anh Tanaka.",
+        "tokens": [
+          [
+            {
+              "t": "あの"
+            }
+          ],
+          [
+            {
+              "t": "本",
+              "f": "ほん"
+            },
+            {
+              "t": "は"
+            }
+          ],
+          [
+            {
+              "t": "田中",
+              "f": "たなか"
+            },
+            {
+              "t": "さんのです。"
+            }
+          ]
+        ],
+        "romaji": "ano hon wa tanakasan no desu.",
+        "romajiChunks": [
+          "ano",
+          "hon wa",
+          "tanakasan no desu."
+        ]
+      },
+      {
+        "jp": "これはわたしのじゃありません。",
+        "reading": "これはわたしのじゃありません。",
+        "en": "This is not mine.",
+        "vi": "Cái này không phải của tôi.",
+        "tokens": [
+          [
+            {
+              "t": "これは"
+            }
+          ],
+          [
+            {
+              "t": "わたしのじゃありません。"
+            }
+          ]
+        ],
+        "romaji": "kore wa watashi no ja arimasen.",
+        "romajiChunks": [
+          "kore wa",
+          "watashi no ja arimasen."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "l2_sou_ka",
+    "lesson": 2,
+    "title": "そうですか",
+    "meaning": "Said with a falling tone, そうですか acknowledges new information — 'I see.' Despite the か it is not a question.",
+    "meaningVi": "Nói với giọng xuống, そうですか thể hiện đã tiếp nhận thông tin — 'Vậy à.' Dù có か nhưng không phải câu hỏi.",
+    "structure": "そうですか。（giọng xuống・falling tone）",
+    "examples": [
+      {
+        "jp": "そうですか。",
+        "reading": "そうですか。",
+        "en": "I see.",
+        "vi": "Vậy à.",
+        "tokens": [
+          [
+            {
+              "t": "そうですか。"
+            }
+          ]
+        ],
+        "romaji": "sou desu ka.",
+        "romajiChunks": [
+          "sou desu ka."
+        ]
+      },
+      {
+        "jp": "そうですか。わかりました。",
+        "reading": "そうですか。わかりました。",
+        "en": "I see. Understood.",
+        "vi": "Vậy à. Tôi hiểu rồi.",
+        "tokens": [
+          [
+            {
+              "t": "そうですか。"
+            }
+          ],
+          [
+            {
+              "t": "わかりました。"
+            }
+          ]
+        ],
+        "romaji": "sou desu ka. wakarimashita.",
+        "romajiChunks": [
+          "sou desu ka.",
+          "wakarimashita."
+        ]
+      }
+    ]
+  },
+  {
     "id": "l3_koko_soko_asoko",
     "lesson": 3,
     "title": "ここ・そこ・あそこ",
@@ -1819,11 +2182,575 @@
     "meaningVi": "Nói vị trí của một vật hoặc một người."
   },
   {
+    "id": "l3_doko",
+    "lesson": 3,
+    "title": "どこ／どちらですか",
+    "meaning": "Ask where something is with どこですか; どちらですか is its polite equivalent.",
+    "meaningVi": "Hỏi ở đâu với どこですか; どちらですか là cách nói lịch sự tương đương.",
+    "structure": "～は どこ／どちら ですか",
+    "examples": [
+      {
+        "jp": "トイレはどこですか。",
+        "reading": "トイレはどこですか。",
+        "en": "Where is the toilet?",
+        "vi": "Nhà vệ sinh ở đâu?",
+        "tokens": [
+          [
+            {
+              "t": "トイレは"
+            }
+          ],
+          [
+            {
+              "t": "どこですか。"
+            }
+          ]
+        ],
+        "romaji": "toire wa doko desu ka.",
+        "romajiChunks": [
+          "toire wa",
+          "doko desu ka."
+        ]
+      },
+      {
+        "jp": "エレベーターはどちらですか。",
+        "reading": "エレベーターはどちらですか。",
+        "en": "Where is the elevator?",
+        "vi": "Thang máy ở phía nào ạ?",
+        "tokens": [
+          [
+            {
+              "t": "エレベーターは"
+            }
+          ],
+          [
+            {
+              "t": "どちらですか。"
+            }
+          ]
+        ],
+        "romaji": "erebeetaa wa dochira desu ka.",
+        "romajiChunks": [
+          "erebeetaa wa",
+          "dochira desu ka."
+        ]
+      },
+      {
+        "jp": "あそこです。",
+        "reading": "あそこです。",
+        "en": "It's over there.",
+        "vi": "Ở đằng kia.",
+        "tokens": [
+          [
+            {
+              "t": "あそこです。"
+            }
+          ]
+        ],
+        "romaji": "asoko desu.",
+        "romajiChunks": [
+          "asoko desu."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "l3_dochira",
+    "lesson": 3,
+    "title": "どちら (country・company)",
+    "meaning": "どちら also asks the name of someone's country, school or company — answer with the proper name.",
+    "meaningVi": "どちら còn dùng hỏi tên nước, trường hay công ty của ai đó — trả lời bằng tên riêng.",
+    "structure": "お国／会社／大学 は どちらですか",
+    "examples": [
+      {
+        "jp": "お国はどちらですか。",
+        "reading": "おくにはどちらですか。",
+        "en": "What country are you from?",
+        "vi": "Nước của bạn là nước nào?",
+        "tokens": [
+          [
+            {
+              "t": "お"
+            },
+            {
+              "t": "国",
+              "f": "くに"
+            },
+            {
+              "t": "は"
+            }
+          ],
+          [
+            {
+              "t": "どちらですか。"
+            }
+          ]
+        ],
+        "romaji": "okuni wa dochira desu ka.",
+        "romajiChunks": [
+          "okuni wa",
+          "dochira desu ka."
+        ]
+      },
+      {
+        "jp": "会社はどちらですか。",
+        "reading": "かいしゃはどちらですか。",
+        "en": "What company are you with?",
+        "vi": "Công ty của bạn là công ty nào?",
+        "tokens": [
+          [
+            {
+              "t": "会社",
+              "f": "かいしゃ"
+            },
+            {
+              "t": "は"
+            }
+          ],
+          [
+            {
+              "t": "どちらですか。"
+            }
+          ]
+        ],
+        "romaji": "kaisha wa dochira desu ka.",
+        "romajiChunks": [
+          "kaisha wa",
+          "dochira desu ka."
+        ]
+      },
+      {
+        "jp": "大学はさくら大学です。",
+        "reading": "だいがくはさくらだいがくです。",
+        "en": "My university is Sakura University.",
+        "vi": "Trường tôi là Đại học Sakura.",
+        "tokens": [
+          [
+            {
+              "t": "大学",
+              "f": "だいがく"
+            },
+            {
+              "t": "は"
+            }
+          ],
+          [
+            {
+              "t": "さくら"
+            }
+          ],
+          [
+            {
+              "t": "大学",
+              "f": "だいがく"
+            },
+            {
+              "t": "です。"
+            }
+          ]
+        ],
+        "romaji": "daigaku wa sakura daigaku desu.",
+        "romajiChunks": [
+          "daigaku wa",
+          "sakura",
+          "daigaku desu."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "l3_kosoado",
+    "lesson": 3,
+    "title": "こそあど system",
+    "meaning": "One family: これ／ここ／こちら (near me), それ／そこ／そちら (near you), あれ／あそこ／あちら (far from both), ど～ (question).",
+    "meaningVi": "Một hệ thống: これ／ここ／こちら (gần tôi), それ／そこ／そちら (gần bạn), あれ／あそこ／あちら (xa cả hai), ど～ (nghi vấn).",
+    "structure": "こ～・そ～・あ～・ど～",
+    "examples": [
+      {
+        "jp": "ここは学校です。",
+        "reading": "ここはがっこうです。",
+        "en": "This place is the school.",
+        "vi": "Đây là trường học.",
+        "tokens": [
+          [
+            {
+              "t": "ここは"
+            }
+          ],
+          [
+            {
+              "t": "学校",
+              "f": "がっこう"
+            },
+            {
+              "t": "です。"
+            }
+          ]
+        ],
+        "romaji": "koko wa gakkou desu.",
+        "romajiChunks": [
+          "koko wa",
+          "gakkou desu."
+        ]
+      },
+      {
+        "jp": "そこは銀行です。",
+        "reading": "そこはぎんこうです。",
+        "en": "That place is the bank.",
+        "vi": "Chỗ đó là ngân hàng.",
+        "tokens": [
+          [
+            {
+              "t": "そこは"
+            }
+          ],
+          [
+            {
+              "t": "銀行",
+              "f": "ぎんこう"
+            },
+            {
+              "t": "です。"
+            }
+          ]
+        ],
+        "romaji": "soko wa ginkou desu.",
+        "romajiChunks": [
+          "soko wa",
+          "ginkou desu."
+        ]
+      },
+      {
+        "jp": "あちらは山田さんです。",
+        "reading": "あちらはやまださんです。",
+        "en": "That person over there is Ms. Yamada.",
+        "vi": "Vị đằng kia là chị Yamada.",
+        "tokens": [
+          [
+            {
+              "t": "あちらは"
+            }
+          ],
+          [
+            {
+              "t": "山田",
+              "f": "やまだ"
+            },
+            {
+              "t": "さんです。"
+            }
+          ]
+        ],
+        "romaji": "achira wa yamadasan desu.",
+        "romajiChunks": [
+          "achira wa",
+          "yamadasan desu."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "l3_doko_no",
+    "lesson": 3,
+    "title": "どこの N",
+    "meaning": "どこの asks where a thing is from (its maker or country) — フランスのワイン 'French wine'.",
+    "meaningVi": "どこの hỏi xuất xứ của vật (hãng hay nước nào) — フランスのワイン 'rượu vang Pháp'.",
+    "structure": "～は どこの N ですか",
+    "examples": [
+      {
+        "jp": "これはどこのワインですか。",
+        "reading": "これはどこのワインですか。",
+        "en": "Where is this wine from?",
+        "vi": "Đây là rượu vang của nước nào?",
+        "tokens": [
+          [
+            {
+              "t": "これは"
+            }
+          ],
+          [
+            {
+              "t": "どこの"
+            }
+          ],
+          [
+            {
+              "t": "ワインですか。"
+            }
+          ]
+        ],
+        "romaji": "kore wa doko no wain desu ka.",
+        "romajiChunks": [
+          "kore wa",
+          "doko no",
+          "wain desu ka."
+        ]
+      },
+      {
+        "jp": "フランスのワインです。",
+        "reading": "フランスのワインです。",
+        "en": "It's French wine.",
+        "vi": "Là rượu vang Pháp.",
+        "tokens": [
+          [
+            {
+              "t": "フランスの"
+            }
+          ],
+          [
+            {
+              "t": "ワインです。"
+            }
+          ]
+        ],
+        "romaji": "furansu no wain desu.",
+        "romajiChunks": [
+          "furansu no",
+          "wain desu."
+        ]
+      },
+      {
+        "jp": "あれはドイツの車です。",
+        "reading": "あれはドイツのくるまです。",
+        "en": "That over there is a German car.",
+        "vi": "Kia là xe hơi của Đức.",
+        "tokens": [
+          [
+            {
+              "t": "あれは"
+            }
+          ],
+          [
+            {
+              "t": "ドイツの"
+            }
+          ],
+          [
+            {
+              "t": "車",
+              "f": "くるま"
+            },
+            {
+              "t": "です。"
+            }
+          ]
+        ],
+        "romaji": "are wa doitsu no kuruma desu.",
+        "romajiChunks": [
+          "are wa",
+          "doitsu no",
+          "kuruma desu."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "l3_nangai",
+    "lesson": 3,
+    "title": "何階ですか",
+    "meaning": "Ask which floor with 何階; basements are counted with 地下 in front — 地下一階 'basement one'.",
+    "meaningVi": "Hỏi tầng mấy với 何階; tầng hầm đếm bằng 地下 phía trước — 地下一階 'tầng hầm một'.",
+    "structure": "～は 何階ですか ／ ～階です",
+    "examples": [
+      {
+        "jp": "食堂は何階ですか。",
+        "reading": "しょくどうはなんがいですか。",
+        "en": "What floor is the dining hall on?",
+        "vi": "Nhà ăn ở tầng mấy?",
+        "tokens": [
+          [
+            {
+              "t": "食堂",
+              "f": "しょくどう"
+            },
+            {
+              "t": "は"
+            }
+          ],
+          [
+            {
+              "t": "何階",
+              "f": "なんがい"
+            },
+            {
+              "t": "ですか。"
+            }
+          ]
+        ],
+        "romaji": "shokudou wa nangai desu ka.",
+        "romajiChunks": [
+          "shokudou wa",
+          "nangai desu ka."
+        ]
+      },
+      {
+        "jp": "二階です。",
+        "reading": "にかいです。",
+        "en": "It's on the second floor.",
+        "vi": "Ở tầng hai.",
+        "tokens": [
+          [
+            {
+              "t": "二階",
+              "f": "にかい"
+            },
+            {
+              "t": "です。"
+            }
+          ]
+        ],
+        "romaji": "nikai desu.",
+        "romajiChunks": [
+          "nikai desu."
+        ]
+      },
+      {
+        "jp": "かばん売り場は地下一階です。",
+        "reading": "かばんうりばはちかいっかいです。",
+        "en": "The bag section is on basement floor one.",
+        "vi": "Khu bán cặp ở tầng hầm một.",
+        "tokens": [
+          [
+            {
+              "t": "かばん"
+            },
+            {
+              "t": "売り場",
+              "f": "うりば"
+            },
+            {
+              "t": "は"
+            }
+          ],
+          [
+            {
+              "t": "地下",
+              "f": "ちか"
+            },
+            {
+              "t": "一階",
+              "f": "いっかい"
+            },
+            {
+              "t": "です。"
+            }
+          ]
+        ],
+        "romaji": "kaban uriba wa chika ikkai desu.",
+        "romajiChunks": [
+          "kaban uriba wa",
+          "chika ikkai desu."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "l3_ikura",
+    "lesson": 3,
+    "title": "いくらですか",
+    "meaning": "Ask the price with いくら; answer with the number plus a currency — 八百円 '800 yen'.",
+    "meaningVi": "Hỏi giá với いくら; trả lời bằng con số kèm đơn vị tiền — 八百円 '800 yên'.",
+    "structure": "～は いくらですか ／ ～円です",
+    "examples": [
+      {
+        "jp": "この時計はいくらですか。",
+        "reading": "このとけいはいくらですか。",
+        "en": "How much is this watch?",
+        "vi": "Cái đồng hồ này giá bao nhiêu?",
+        "tokens": [
+          [
+            {
+              "t": "この"
+            }
+          ],
+          [
+            {
+              "t": "時計",
+              "f": "とけい"
+            },
+            {
+              "t": "は"
+            }
+          ],
+          [
+            {
+              "t": "いくらですか。"
+            }
+          ]
+        ],
+        "romaji": "kono tokei wa ikura desu ka.",
+        "romajiChunks": [
+          "kono",
+          "tokei wa",
+          "ikura desu ka."
+        ]
+      },
+      {
+        "jp": "三千円です。",
+        "reading": "さんぜんえんです。",
+        "en": "It's 3,000 yen.",
+        "vi": "3.000 yên.",
+        "tokens": [
+          [
+            {
+              "t": "三千円",
+              "f": "さんぜんえん"
+            },
+            {
+              "t": "です。"
+            }
+          ]
+        ],
+        "romaji": "sanzen en desu.",
+        "romajiChunks": [
+          "sanzen en desu."
+        ]
+      },
+      {
+        "jp": "あの傘は八百円です。",
+        "reading": "あのかさははっぴゃくえんです。",
+        "en": "That umbrella is 800 yen.",
+        "vi": "Cái ô kia 800 yên.",
+        "tokens": [
+          [
+            {
+              "t": "あの"
+            }
+          ],
+          [
+            {
+              "t": "傘",
+              "f": "かさ"
+            },
+            {
+              "t": "は"
+            }
+          ],
+          [
+            {
+              "t": "八百円",
+              "f": "はっぴゃくえん"
+            },
+            {
+              "t": "です。"
+            }
+          ]
+        ],
+        "romaji": "ano kasa wa happyaku en desu.",
+        "romajiChunks": [
+          "ano",
+          "kasa wa",
+          "happyaku en desu."
+        ]
+      }
+    ]
+  },
+  {
     "id": "l4_time",
     "lesson": 4,
     "title": "今 ～時～分です",
-    "meaning": "Telling the time. に is added to a time to say 'at' when a verb follows.",
-    "structure": "今 [hour]時[minute]分です ／ [time]に V",
+    "meaning": "Telling the time: [hour]時 [minute]分, with 半 for 'half past'. Ask with 何時／何分.",
+    "structure": "今 [hour]時[minute]分です ／ ～時半です",
     "examples": [
       {
         "jp": "今9時15分です。",
@@ -1867,47 +2794,6 @@
         ]
       },
       {
-        "jp": "毎朝6時に起きます。",
-        "reading": "まいあさ6じにおきます。",
-        "en": "I get up at six every morning.",
-        "vi": "Tôi thức dậy lúc sáu giờ mỗi sáng.",
-        "tokens": [
-          [
-            {
-              "t": "毎朝",
-              "f": "まいあさ"
-            }
-          ],
-          [
-            {
-              "t": "6"
-            },
-            {
-              "t": "時",
-              "f": "じ"
-            },
-            {
-              "t": "に"
-            }
-          ],
-          [
-            {
-              "t": "起",
-              "f": "お"
-            },
-            {
-              "t": "きます。"
-            }
-          ]
-        ],
-        "romaji": "maiasa 6ji ni okimasu.",
-        "romajiChunks": [
-          "maiasa",
-          "6ji ni",
-          "okimasu."
-        ]
-      },
-      {
         "jp": "今何時ですか。",
         "reading": "いまなんじですか。",
         "en": "What time is it now?",
@@ -1940,187 +2826,35 @@
         ]
       },
       {
-        "jp": "毎朝7時に起きます。",
-        "reading": "まいあさ7じにおきます。",
-        "en": "I get up at seven every morning.",
-        "vi": "Mỗi sáng tôi thức dậy lúc 7 giờ.",
+        "jp": "今9時半です。",
+        "reading": "いまくじはんです。",
+        "en": "It's half past nine now.",
+        "vi": "Bây giờ là 9 giờ rưỡi.",
         "tokens": [
           [
             {
-              "t": "毎朝",
-              "f": "まいあさ"
+              "t": "今",
+              "f": "いま"
             }
           ],
           [
             {
-              "t": "7"
+              "t": "9時半",
+              "f": "くじはん"
             },
             {
-              "t": "時",
-              "f": "じ"
-            },
-            {
-              "t": "に"
-            }
-          ],
-          [
-            {
-              "t": "起",
-              "f": "お"
-            },
-            {
-              "t": "きます。"
+              "t": "です。"
             }
           ]
         ],
-        "romaji": "maiasa 7ji ni okimasu.",
+        "romaji": "ima kuji han desu.",
         "romajiChunks": [
-          "maiasa",
-          "7ji ni",
-          "okimasu."
-        ]
-      },
-      {
-        "jp": "毎晩11時に寝ます。",
-        "reading": "まいばん11じにねます。",
-        "en": "I go to bed at eleven every night.",
-        "vi": "Mỗi tối tôi đi ngủ lúc 11 giờ.",
-        "tokens": [
-          [
-            {
-              "t": "毎晩",
-              "f": "まいばん"
-            }
-          ],
-          [
-            {
-              "t": "11"
-            },
-            {
-              "t": "時",
-              "f": "じ"
-            },
-            {
-              "t": "に"
-            }
-          ],
-          [
-            {
-              "t": "寝",
-              "f": "ね"
-            },
-            {
-              "t": "ます。"
-            }
-          ]
-        ],
-        "romaji": "maiban 11ji ni nemasu.",
-        "romajiChunks": [
-          "maiban",
-          "11ji ni",
-          "nemasu."
+          "ima",
+          "kuji han desu."
         ]
       }
     ],
-    "meaningVi": "Nói giờ. Thêm に vào mốc thời gian để nói 'lúc' khi có động từ theo sau."
-  },
-  {
-    "id": "l4_kara_made",
-    "lesson": 4,
-    "title": "～から～まで",
-    "meaning": "'From ~ to ~' — for times and places.",
-    "structure": "[start] から [end] まで",
-    "examples": [
-      {
-        "jp": "銀行は9時から3時までです。",
-        "reading": "ぎんこうは9じから3じまでです。",
-        "en": "The bank is open from 9 to 3.",
-        "vi": "Ngân hàng mở cửa từ 9 đến 3.",
-        "tokens": [
-          [
-            {
-              "t": "銀行",
-              "f": "ぎんこう"
-            },
-            {
-              "t": "は"
-            }
-          ],
-          [
-            {
-              "t": "9"
-            },
-            {
-              "t": "時",
-              "f": "じ"
-            },
-            {
-              "t": "から"
-            }
-          ],
-          [
-            {
-              "t": "3"
-            },
-            {
-              "t": "時",
-              "f": "じ"
-            },
-            {
-              "t": "までです。"
-            }
-          ]
-        ],
-        "romaji": "ginkou wa 9ji kara 3ji made desu.",
-        "romajiChunks": [
-          "ginkou wa",
-          "9ji kara",
-          "3ji made desu."
-        ]
-      },
-      {
-        "jp": "会社は月曜日から金曜日までです。",
-        "reading": "かいしゃはげつようびからきんようびまでです。",
-        "en": "Work is from Monday to Friday.",
-        "vi": "Công ty làm việc từ thứ Hai đến thứ Sáu.",
-        "tokens": [
-          [
-            {
-              "t": "会社",
-              "f": "かいしゃ"
-            },
-            {
-              "t": "は"
-            }
-          ],
-          [
-            {
-              "t": "月曜日",
-              "f": "げつようび"
-            },
-            {
-              "t": "から"
-            }
-          ],
-          [
-            {
-              "t": "金曜日",
-              "f": "きんようび"
-            },
-            {
-              "t": "までです。"
-            }
-          ]
-        ],
-        "romaji": "kaisha wa getsuyoubi kara kin'youbi made desu.",
-        "romajiChunks": [
-          "kaisha wa",
-          "getsuyoubi kara",
-          "kin'youbi made desu."
-        ]
-      }
-    ],
-    "meaningVi": "'Từ ~ đến ~', dùng cho thời gian và địa điểm."
+    "meaningVi": "Xem giờ: [giờ]時 [phút]分, với 半 là 'rưỡi'. Hỏi bằng 何時／何分."
   },
   {
     "id": "l4_verb_polite",
@@ -2283,6 +3017,500 @@
       }
     ],
     "meaningVi": "Bốn đuôi động từ lịch sự: khẳng định/phủ định ở hiện tại và quá khứ."
+  },
+  {
+    "id": "l4_ni",
+    "lesson": 4,
+    "title": "～に (time)",
+    "meaning": "に pins an action to an exact time — ６時に起きます 'I get up at six'.",
+    "meaningVi": "に gắn hành động vào thời điểm chính xác — ６時に起きます 'tôi dậy lúc 6 giờ'.",
+    "structure": "[time] に V",
+    "examples": [
+      {
+        "jp": "毎朝6時に起きます。",
+        "reading": "まいあさ6じにおきます。",
+        "en": "I get up at six every morning.",
+        "vi": "Tôi thức dậy lúc sáu giờ mỗi sáng.",
+        "tokens": [
+          [
+            {
+              "t": "毎朝",
+              "f": "まいあさ"
+            }
+          ],
+          [
+            {
+              "t": "6"
+            },
+            {
+              "t": "時",
+              "f": "じ"
+            },
+            {
+              "t": "に"
+            }
+          ],
+          [
+            {
+              "t": "起",
+              "f": "お"
+            },
+            {
+              "t": "きます。"
+            }
+          ]
+        ],
+        "romaji": "maiasa 6ji ni okimasu.",
+        "romajiChunks": [
+          "maiasa",
+          "6ji ni",
+          "okimasu."
+        ]
+      },
+      {
+        "jp": "毎朝7時に起きます。",
+        "reading": "まいあさ7じにおきます。",
+        "en": "I get up at seven every morning.",
+        "vi": "Mỗi sáng tôi thức dậy lúc 7 giờ.",
+        "tokens": [
+          [
+            {
+              "t": "毎朝",
+              "f": "まいあさ"
+            }
+          ],
+          [
+            {
+              "t": "7"
+            },
+            {
+              "t": "時",
+              "f": "じ"
+            },
+            {
+              "t": "に"
+            }
+          ],
+          [
+            {
+              "t": "起",
+              "f": "お"
+            },
+            {
+              "t": "きます。"
+            }
+          ]
+        ],
+        "romaji": "maiasa 7ji ni okimasu.",
+        "romajiChunks": [
+          "maiasa",
+          "7ji ni",
+          "okimasu."
+        ]
+      },
+      {
+        "jp": "毎晩11時に寝ます。",
+        "reading": "まいばん11じにねます。",
+        "en": "I go to bed at eleven every night.",
+        "vi": "Mỗi tối tôi đi ngủ lúc 11 giờ.",
+        "tokens": [
+          [
+            {
+              "t": "毎晩",
+              "f": "まいばん"
+            }
+          ],
+          [
+            {
+              "t": "11"
+            },
+            {
+              "t": "時",
+              "f": "じ"
+            },
+            {
+              "t": "に"
+            }
+          ],
+          [
+            {
+              "t": "寝",
+              "f": "ね"
+            },
+            {
+              "t": "ます。"
+            }
+          ]
+        ],
+        "romaji": "maiban 11ji ni nemasu.",
+        "romajiChunks": [
+          "maiban",
+          "11ji ni",
+          "nemasu."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "l4_kara_made",
+    "lesson": 4,
+    "title": "～から～まで",
+    "meaning": "'From ~ to ~' — for times and places.",
+    "structure": "[start] から [end] まで",
+    "examples": [
+      {
+        "jp": "銀行は9時から3時までです。",
+        "reading": "ぎんこうは9じから3じまでです。",
+        "en": "The bank is open from 9 to 3.",
+        "vi": "Ngân hàng mở cửa từ 9 đến 3.",
+        "tokens": [
+          [
+            {
+              "t": "銀行",
+              "f": "ぎんこう"
+            },
+            {
+              "t": "は"
+            }
+          ],
+          [
+            {
+              "t": "9"
+            },
+            {
+              "t": "時",
+              "f": "じ"
+            },
+            {
+              "t": "から"
+            }
+          ],
+          [
+            {
+              "t": "3"
+            },
+            {
+              "t": "時",
+              "f": "じ"
+            },
+            {
+              "t": "までです。"
+            }
+          ]
+        ],
+        "romaji": "ginkou wa 9ji kara 3ji made desu.",
+        "romajiChunks": [
+          "ginkou wa",
+          "9ji kara",
+          "3ji made desu."
+        ]
+      },
+      {
+        "jp": "会社は月曜日から金曜日までです。",
+        "reading": "かいしゃはげつようびからきんようびまでです。",
+        "en": "Work is from Monday to Friday.",
+        "vi": "Công ty làm việc từ thứ Hai đến thứ Sáu.",
+        "tokens": [
+          [
+            {
+              "t": "会社",
+              "f": "かいしゃ"
+            },
+            {
+              "t": "は"
+            }
+          ],
+          [
+            {
+              "t": "月曜日",
+              "f": "げつようび"
+            },
+            {
+              "t": "から"
+            }
+          ],
+          [
+            {
+              "t": "金曜日",
+              "f": "きんようび"
+            },
+            {
+              "t": "までです。"
+            }
+          ]
+        ],
+        "romaji": "kaisha wa getsuyoubi kara kin'youbi made desu.",
+        "romajiChunks": [
+          "kaisha wa",
+          "getsuyoubi kara",
+          "kin'youbi made desu."
+        ]
+      }
+    ],
+    "meaningVi": "'Từ ~ đến ~', dùng cho thời gian và địa điểm."
+  },
+  {
+    "id": "l4_to",
+    "lesson": 4,
+    "title": "N と N (and)",
+    "meaning": "と joins two nouns as 'and' — 土曜日と日曜日 'Saturday and Sunday'. Nouns only.",
+    "meaningVi": "と nối hai danh từ với nghĩa 'và' — 土曜日と日曜日 'thứ Bảy và Chủ nhật'. Chỉ dùng cho danh từ.",
+    "structure": "N1 と N2",
+    "examples": [
+      {
+        "jp": "銀行の休みは土曜日と日曜日です。",
+        "reading": "ぎんこうのやすみはどようびとにちようびです。",
+        "en": "The bank's days off are Saturday and Sunday.",
+        "vi": "Ngày nghỉ của ngân hàng là thứ Bảy và Chủ nhật.",
+        "tokens": [
+          [
+            {
+              "t": "銀行",
+              "f": "ぎんこう"
+            },
+            {
+              "t": "の"
+            }
+          ],
+          [
+            {
+              "t": "休み",
+              "f": "やすみ"
+            },
+            {
+              "t": "は"
+            }
+          ],
+          [
+            {
+              "t": "土曜日",
+              "f": "どようび"
+            },
+            {
+              "t": "と"
+            }
+          ],
+          [
+            {
+              "t": "日曜日",
+              "f": "にちようび"
+            },
+            {
+              "t": "です。"
+            }
+          ]
+        ],
+        "romaji": "ginkou no yasumi wa doyoubi to nichiyoubi desu.",
+        "romajiChunks": [
+          "ginkou no",
+          "yasumi wa",
+          "doyoubi to",
+          "nichiyoubi desu."
+        ]
+      },
+      {
+        "jp": "図書館は3階と4階です。",
+        "reading": "としょかんはさんがいとよんかいです。",
+        "en": "The library is on the third and fourth floors.",
+        "vi": "Thư viện ở tầng 3 và tầng 4.",
+        "tokens": [
+          [
+            {
+              "t": "図書館",
+              "f": "としょかん"
+            },
+            {
+              "t": "は"
+            }
+          ],
+          [
+            {
+              "t": "3階",
+              "f": "さんがい"
+            },
+            {
+              "t": "と"
+            }
+          ],
+          [
+            {
+              "t": "4階",
+              "f": "よんかい"
+            },
+            {
+              "t": "です。"
+            }
+          ]
+        ],
+        "romaji": "toshokan wa sangai to yonkai desu.",
+        "romajiChunks": [
+          "toshokan wa",
+          "sangai to",
+          "yonkai desu."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "l4_ne",
+    "lesson": 4,
+    "title": "～ね (isn't it?)",
+    "meaning": "Sentence-final ね invites agreement or confirms what you heard — 'isn't it? / right?'.",
+    "meaningVi": "ね cuối câu mong người nghe đồng tình hoặc xác nhận điều vừa nghe — 'nhỉ / phải không nhỉ'.",
+    "structure": "[sentence] ね。",
+    "examples": [
+      {
+        "jp": "大変ですね。",
+        "reading": "たいへんですね。",
+        "en": "That's tough, isn't it?",
+        "vi": "Vất vả nhỉ.",
+        "tokens": [
+          [
+            {
+              "t": "大変",
+              "f": "たいへん"
+            },
+            {
+              "t": "ですね。"
+            }
+          ]
+        ],
+        "romaji": "taihen desu ne.",
+        "romajiChunks": [
+          "taihen desu ne."
+        ]
+      },
+      {
+        "jp": "いい天気ですね。",
+        "reading": "いいてんきですね。",
+        "en": "Nice weather, isn't it?",
+        "vi": "Trời đẹp nhỉ.",
+        "tokens": [
+          [
+            {
+              "t": "いい"
+            }
+          ],
+          [
+            {
+              "t": "天気",
+              "f": "てんき"
+            },
+            {
+              "t": "ですね。"
+            }
+          ]
+        ],
+        "romaji": "ii tenki desu ne.",
+        "romajiChunks": [
+          "ii",
+          "tenki desu ne."
+        ]
+      },
+      {
+        "jp": "871の6813ですね。",
+        "reading": "はちなないちのろくはちいちさんですね。",
+        "en": "871-6813, right?",
+        "vi": "871-6813 phải không nhỉ?",
+        "tokens": [
+          [
+            {
+              "t": "871",
+              "f": "はちなないち"
+            },
+            {
+              "t": "の"
+            }
+          ],
+          [
+            {
+              "t": "6813",
+              "f": "ろくはちいちさん"
+            },
+            {
+              "t": "ですね。"
+            }
+          ]
+        ],
+        "romaji": "hachi nana ichi no roku hachi ichi san desu ne.",
+        "romajiChunks": [
+          "hachi nana ichi no",
+          "roku hachi ichi san desu ne."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "l4_nanban",
+    "lesson": 4,
+    "title": "何番 (what number)",
+    "meaning": "何番 asks for a number; phone numbers are read digit by digit, with の between groups.",
+    "meaningVi": "何番 hỏi số; số điện thoại đọc từng chữ số, dùng の giữa các cụm.",
+    "structure": "～は 何番ですか",
+    "examples": [
+      {
+        "jp": "電話番号は何番ですか。",
+        "reading": "でんわばんごうはなんばんですか。",
+        "en": "What is the phone number?",
+        "vi": "Số điện thoại là số mấy?",
+        "tokens": [
+          [
+            {
+              "t": "電話番号",
+              "f": "でんわばんごう"
+            },
+            {
+              "t": "は"
+            }
+          ],
+          [
+            {
+              "t": "何番",
+              "f": "なんばん"
+            },
+            {
+              "t": "ですか。"
+            }
+          ]
+        ],
+        "romaji": "denwa bangou wa nanban desu ka.",
+        "romajiChunks": [
+          "denwa bangou wa",
+          "nanban desu ka."
+        ]
+      },
+      {
+        "jp": "871の6813です。",
+        "reading": "はちなないちのろくはちいちさんです。",
+        "en": "It's 871-6813.",
+        "vi": "Là 871-6813.",
+        "tokens": [
+          [
+            {
+              "t": "871",
+              "f": "はちなないち"
+            },
+            {
+              "t": "の"
+            }
+          ],
+          [
+            {
+              "t": "6813",
+              "f": "ろくはちいちさん"
+            },
+            {
+              "t": "です。"
+            }
+          ]
+        ],
+        "romaji": "hachi nana ichi no roku hachi ichi san desu.",
+        "romajiChunks": [
+          "hachi nana ichi no",
+          "roku hachi ichi san desu."
+        ]
+      }
+    ]
   },
   {
     "id": "l5_e_ikimasu",
@@ -11703,5 +12931,2817 @@
       }
     ],
     "meaningVi": "'Dù cho ~'. Tạo từ thể て cộng も."
+  },
+  {
+    "id": "l5_doko_mo",
+    "lesson": 5,
+    "title": "どこも／何も ～ません",
+    "meaning": "A question word + も with a negative verb means 'not ... anywhere / anything at all'.",
+    "meaningVi": "Nghi vấn từ + も với động từ phủ định nghĩa là 'không ... đâu / gì cả'.",
+    "structure": "どこも／何も ～ません",
+    "examples": [
+      {
+        "jp": "日曜日はどこも行きません。",
+        "reading": "にちようびはどこもいきません。",
+        "en": "On Sunday I don't go anywhere.",
+        "vi": "Chủ nhật tôi không đi đâu cả.",
+        "tokens": [
+          [
+            {
+              "t": "日曜日",
+              "f": "にちようび"
+            },
+            {
+              "t": "は"
+            }
+          ],
+          [
+            {
+              "t": "どこも"
+            }
+          ],
+          [
+            {
+              "t": "行",
+              "f": "い"
+            },
+            {
+              "t": "きません。"
+            }
+          ]
+        ],
+        "romaji": "nichiyoubi wa dokomo ikimasen.",
+        "romajiChunks": [
+          "nichiyoubi wa",
+          "dokomo",
+          "ikimasen."
+        ]
+      },
+      {
+        "jp": "何も食べませんでした。",
+        "reading": "なにもたべませんでした。",
+        "en": "I didn't eat anything.",
+        "vi": "Tôi đã không ăn gì cả.",
+        "tokens": [
+          [
+            {
+              "t": "何",
+              "f": "なに"
+            },
+            {
+              "t": "も"
+            }
+          ],
+          [
+            {
+              "t": "食",
+              "f": "た"
+            },
+            {
+              "t": "べませんでした。"
+            }
+          ]
+        ],
+        "romaji": "nanimo tabemasen deshita.",
+        "romajiChunks": [
+          "nanimo",
+          "tabemasen deshita."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "l5_itsu",
+    "lesson": 5,
+    "title": "いつ (when)",
+    "meaning": "いつ asks 'when'. It takes no に, and the answer is a time expression.",
+    "meaningVi": "いつ hỏi 'khi nào'. Không đi cùng に, và câu trả lời là cụm thời gian.",
+    "structure": "～は いつですか ／ いつ V ますか",
+    "examples": [
+      {
+        "jp": "誕生日はいつですか。",
+        "reading": "たんじょうびはいつですか。",
+        "en": "When is your birthday?",
+        "vi": "Sinh nhật của bạn là khi nào?",
+        "tokens": [
+          [
+            {
+              "t": "誕生日",
+              "f": "たんじょうび"
+            },
+            {
+              "t": "は"
+            }
+          ],
+          [
+            {
+              "t": "いつですか。"
+            }
+          ]
+        ],
+        "romaji": "tanjoubi wa itsu desu ka.",
+        "romajiChunks": [
+          "tanjoubi wa",
+          "itsu desu ka."
+        ]
+      },
+      {
+        "jp": "いつ日本へ来ましたか。",
+        "reading": "いつにほんへきましたか。",
+        "en": "When did you come to Japan?",
+        "vi": "Bạn đã đến Nhật khi nào?",
+        "tokens": [
+          [
+            {
+              "t": "いつ"
+            }
+          ],
+          [
+            {
+              "t": "日本",
+              "f": "にほん"
+            },
+            {
+              "t": "へ"
+            }
+          ],
+          [
+            {
+              "t": "来",
+              "f": "き"
+            },
+            {
+              "t": "ましたか。"
+            }
+          ]
+        ],
+        "romaji": "itsu nihon e kimashita ka.",
+        "romajiChunks": [
+          "itsu",
+          "nihon e",
+          "kimashita ka."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "l5_yo",
+    "lesson": 5,
+    "title": "～よ (you know)",
+    "meaning": "Sentence-final よ tells the listener something you think they don't yet know — 'you know / I tell you'.",
+    "meaningVi": "よ cuối câu báo cho người nghe điều bạn nghĩ họ chưa biết — 'đấy / nhé'.",
+    "structure": "[sentence] よ。",
+    "examples": [
+      {
+        "jp": "あそこですよ。",
+        "reading": "あそこですよ。",
+        "en": "It's over there, you know.",
+        "vi": "Ở đằng kia đấy.",
+        "tokens": [
+          [
+            {
+              "t": "あそこですよ。"
+            }
+          ]
+        ],
+        "romaji": "asoko desu yo.",
+        "romajiChunks": [
+          "asoko desu yo."
+        ]
+      },
+      {
+        "jp": "この本は面白いですよ。",
+        "reading": "このほんはおもしろいですよ。",
+        "en": "This book is interesting, you know.",
+        "vi": "Cuốn sách này thú vị đấy.",
+        "tokens": [
+          [
+            {
+              "t": "この"
+            }
+          ],
+          [
+            {
+              "t": "本",
+              "f": "ほん"
+            },
+            {
+              "t": "は"
+            }
+          ],
+          [
+            {
+              "t": "面白",
+              "f": "おもしろ"
+            },
+            {
+              "t": "いですよ。"
+            }
+          ]
+        ],
+        "romaji": "kono hon wa omoshiroi desu yo.",
+        "romajiChunks": [
+          "kono",
+          "hon wa",
+          "omoshiroi desu yo."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "l6_nani",
+    "lesson": 6,
+    "title": "何 (what)",
+    "meaning": "何 asks 'what'. It reads なに before a verb or particle, and なん before です and counters (何ですか, 何時).",
+    "meaningVi": "何 hỏi 'cái gì'. Đọc なに trước động từ hay trợ từ, đọc なん trước です và lượng từ (何ですか, 何時).",
+    "structure": "何 を V ますか ／ 何ですか",
+    "examples": [
+      {
+        "jp": "何を食べますか。",
+        "reading": "なにをたべますか。",
+        "en": "What do you eat?",
+        "vi": "Bạn ăn gì?",
+        "tokens": [
+          [
+            {
+              "t": "何",
+              "f": "なに"
+            },
+            {
+              "t": "を"
+            }
+          ],
+          [
+            {
+              "t": "食",
+              "f": "た"
+            },
+            {
+              "t": "べますか。"
+            }
+          ]
+        ],
+        "romaji": "nani o tabemasu ka.",
+        "romajiChunks": [
+          "nani o",
+          "tabemasu ka."
+        ]
+      },
+      {
+        "jp": "図書館で何をしますか。",
+        "reading": "としょかんでなにをしますか。",
+        "en": "What do you do at the library?",
+        "vi": "Bạn làm gì ở thư viện?",
+        "tokens": [
+          [
+            {
+              "t": "図書館",
+              "f": "としょかん"
+            },
+            {
+              "t": "で"
+            }
+          ],
+          [
+            {
+              "t": "何",
+              "f": "なに"
+            },
+            {
+              "t": "を"
+            }
+          ],
+          [
+            {
+              "t": "しますか。"
+            }
+          ]
+        ],
+        "romaji": "toshokan de nani o shimasu ka.",
+        "romajiChunks": [
+          "toshokan de",
+          "nani o",
+          "shimasu ka."
+        ]
+      },
+      {
+        "jp": "これは何の本ですか。",
+        "reading": "これはなんのほんですか。",
+        "en": "What kind of book is this?",
+        "vi": "Đây là sách gì?",
+        "tokens": [
+          [
+            {
+              "t": "これは"
+            }
+          ],
+          [
+            {
+              "t": "何",
+              "f": "なん"
+            },
+            {
+              "t": "の"
+            }
+          ],
+          [
+            {
+              "t": "本",
+              "f": "ほん"
+            },
+            {
+              "t": "ですか。"
+            }
+          ]
+        ],
+        "romaji": "kore wa nan no hon desu ka.",
+        "romajiChunks": [
+          "kore wa",
+          "nan no",
+          "hon desu ka."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "l6_ka_ack",
+    "lesson": 6,
+    "title": "～か (I see)",
+    "meaning": "Repeated back with a falling tone, ～か shows you've just taken in what you heard — not a question.",
+    "meaningVi": "Nhắc lại với giọng xuống, ～か thể hiện bạn vừa tiếp nhận điều nghe được — không phải câu hỏi.",
+    "structure": "[heard information] か。（falling tone）",
+    "examples": [
+      {
+        "jp": "京都ですか。いいですね。",
+        "reading": "きょうとですか。いいですね。",
+        "en": "Kyoto, I see. That's nice.",
+        "vi": "Kyoto à. Hay nhỉ.",
+        "tokens": [
+          [
+            {
+              "t": "京都",
+              "f": "きょうと"
+            },
+            {
+              "t": "ですか。"
+            }
+          ],
+          [
+            {
+              "t": "いいですね。"
+            }
+          ]
+        ],
+        "romaji": "kyouto desu ka. ii desu ne.",
+        "romajiChunks": [
+          "kyouto desu ka.",
+          "ii desu ne."
+        ]
+      },
+      {
+        "jp": "あしたですか。",
+        "reading": "あしたですか。",
+        "en": "Tomorrow, I see.",
+        "vi": "Ngày mai à.",
+        "tokens": [
+          [
+            {
+              "t": "あしたですか。"
+            }
+          ]
+        ],
+        "romaji": "ashita desu ka.",
+        "romajiChunks": [
+          "ashita desu ka."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "l7_go_de",
+    "lesson": 7,
+    "title": "～語で何ですか",
+    "meaning": "Ask how a word is said in another language with [language]語で何ですか.",
+    "meaningVi": "Hỏi một từ nói thế nào trong ngôn ngữ khác bằng [ngôn ngữ]語で何ですか.",
+    "structure": "「word」は ～語で 何ですか",
+    "examples": [
+      {
+        "jp": "これは日本語で何ですか。",
+        "reading": "これはにほんごでなんですか。",
+        "en": "What is this in Japanese?",
+        "vi": "Cái này trong tiếng Nhật nói thế nào?",
+        "tokens": [
+          [
+            {
+              "t": "これは"
+            }
+          ],
+          [
+            {
+              "t": "日本語",
+              "f": "にほんご"
+            },
+            {
+              "t": "で"
+            }
+          ],
+          [
+            {
+              "t": "何",
+              "f": "なん"
+            },
+            {
+              "t": "ですか。"
+            }
+          ]
+        ],
+        "romaji": "kore wa nihongo de nan desu ka.",
+        "romajiChunks": [
+          "kore wa",
+          "nihongo de",
+          "nan desu ka."
+        ]
+      },
+      {
+        "jp": "これは英語で何ですか。",
+        "reading": "これはえいごでなんですか。",
+        "en": "What is this in English?",
+        "vi": "Cái này trong tiếng Anh nói thế nào?",
+        "tokens": [
+          [
+            {
+              "t": "これは"
+            }
+          ],
+          [
+            {
+              "t": "英語",
+              "f": "えいご"
+            },
+            {
+              "t": "で"
+            }
+          ],
+          [
+            {
+              "t": "何",
+              "f": "なん"
+            },
+            {
+              "t": "ですか。"
+            }
+          ]
+        ],
+        "romaji": "kore wa eigo de nan desu ka.",
+        "romajiChunks": [
+          "kore wa",
+          "eigo de",
+          "nan desu ka."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "l7_kuremasu",
+    "lesson": 7,
+    "title": "くれます (gives me)",
+    "meaning": "くれます is 'gives' when the receiver is me or my family — the opposite direction from あげます.",
+    "meaningVi": "くれます là 'cho/tặng' khi người nhận là tôi hay người nhà tôi — ngược hướng với あげます.",
+    "structure": "[person] は 私に N を くれます",
+    "examples": [
+      {
+        "jp": "先生は私に本をくれました。",
+        "reading": "せんせいはわたしにほんをくれました。",
+        "en": "The teacher gave me a book.",
+        "vi": "Cô giáo đã tặng tôi quyển sách.",
+        "tokens": [
+          [
+            {
+              "t": "先生",
+              "f": "せんせい"
+            },
+            {
+              "t": "は"
+            }
+          ],
+          [
+            {
+              "t": "私",
+              "f": "わたし"
+            },
+            {
+              "t": "に"
+            }
+          ],
+          [
+            {
+              "t": "本",
+              "f": "ほん"
+            },
+            {
+              "t": "を"
+            }
+          ],
+          [
+            {
+              "t": "くれました。"
+            }
+          ]
+        ],
+        "romaji": "sensei wa watashi ni hon o kuremashita.",
+        "romajiChunks": [
+          "sensei wa",
+          "watashi ni",
+          "hon o",
+          "kuremashita."
+        ]
+      },
+      {
+        "jp": "父は私に時計をくれました。",
+        "reading": "ちちはわたしにとけいをくれました。",
+        "en": "My father gave me a watch.",
+        "vi": "Bố đã cho tôi chiếc đồng hồ.",
+        "tokens": [
+          [
+            {
+              "t": "父",
+              "f": "ちち"
+            },
+            {
+              "t": "は"
+            }
+          ],
+          [
+            {
+              "t": "私",
+              "f": "わたし"
+            },
+            {
+              "t": "に"
+            }
+          ],
+          [
+            {
+              "t": "時計",
+              "f": "とけい"
+            },
+            {
+              "t": "を"
+            }
+          ],
+          [
+            {
+              "t": "くれました。"
+            }
+          ]
+        ],
+        "romaji": "chichi wa watashi ni tokei o kuremashita.",
+        "romajiChunks": [
+          "chichi wa",
+          "watashi ni",
+          "tokei o",
+          "kuremashita."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "l8_dou",
+    "lesson": 8,
+    "title": "どうですか",
+    "meaning": "どうですか asks for an impression or opinion — 'how is it?' The answer is an adjective.",
+    "meaningVi": "どうですか hỏi ấn tượng hay ý kiến — 'thế nào?' Câu trả lời là một tính từ.",
+    "structure": "～は どうですか",
+    "examples": [
+      {
+        "jp": "この町はどうですか。",
+        "reading": "このまちはどうですか。",
+        "en": "How is this town?",
+        "vi": "Thị trấn này thế nào?",
+        "tokens": [
+          [
+            {
+              "t": "この"
+            }
+          ],
+          [
+            {
+              "t": "町",
+              "f": "まち"
+            },
+            {
+              "t": "は"
+            }
+          ],
+          [
+            {
+              "t": "どうですか。"
+            }
+          ]
+        ],
+        "romaji": "kono machi wa dou desu ka.",
+        "romajiChunks": [
+          "kono",
+          "machi wa",
+          "dou desu ka."
+        ]
+      },
+      {
+        "jp": "日本語の勉強はどうですか。",
+        "reading": "にほんごのべんきょうはどうですか。",
+        "en": "How is your Japanese study?",
+        "vi": "Việc học tiếng Nhật thế nào?",
+        "tokens": [
+          [
+            {
+              "t": "日本語",
+              "f": "にほんご"
+            },
+            {
+              "t": "の"
+            }
+          ],
+          [
+            {
+              "t": "勉強",
+              "f": "べんきょう"
+            },
+            {
+              "t": "は"
+            }
+          ],
+          [
+            {
+              "t": "どうですか。"
+            }
+          ]
+        ],
+        "romaji": "nihongo no benkyou wa dou desu ka.",
+        "romajiChunks": [
+          "nihongo no",
+          "benkyou wa",
+          "dou desu ka."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "l8_adj_noun",
+    "lesson": 8,
+    "title": "A N ／ どんな N",
+    "meaning": "An adjective before a noun keeps its い or な: 高いカメラ, 有名な山. どんな N asks what a noun is like.",
+    "meaningVi": "Tính từ trước danh từ giữ nguyên い hoặc な: 高いカメラ, 有名な山. どんな N hỏi danh từ đó như thế nào.",
+    "structure": "[Aい] N ／ [Aな] な N ／ どんな N",
+    "examples": [
+      {
+        "jp": "富士山は有名な山です。",
+        "reading": "ふじさんはゆうめいなやまです。",
+        "en": "Mt. Fuji is a famous mountain.",
+        "vi": "Núi Phú Sĩ là ngọn núi nổi tiếng.",
+        "tokens": [
+          [
+            {
+              "t": "富士山",
+              "f": "ふじさん"
+            },
+            {
+              "t": "は"
+            }
+          ],
+          [
+            {
+              "t": "有名",
+              "f": "ゆうめい"
+            },
+            {
+              "t": "な"
+            }
+          ],
+          [
+            {
+              "t": "山",
+              "f": "やま"
+            },
+            {
+              "t": "です。"
+            }
+          ]
+        ],
+        "romaji": "fujisan wa yuumei na yama desu.",
+        "romajiChunks": [
+          "fujisan wa",
+          "yuumei na",
+          "yama desu."
+        ]
+      },
+      {
+        "jp": "どんなカメラですか。",
+        "reading": "どんなカメラですか。",
+        "en": "What kind of camera is it?",
+        "vi": "Là máy ảnh như thế nào?",
+        "tokens": [
+          [
+            {
+              "t": "どんな"
+            }
+          ],
+          [
+            {
+              "t": "カメラですか。"
+            }
+          ]
+        ],
+        "romaji": "donna kamera desu ka.",
+        "romajiChunks": [
+          "donna",
+          "kamera desu ka."
+        ]
+      },
+      {
+        "jp": "高いカメラです。",
+        "reading": "たかいカメラです。",
+        "en": "It's an expensive camera.",
+        "vi": "Là máy ảnh đắt tiền.",
+        "tokens": [
+          [
+            {
+              "t": "高",
+              "f": "たか"
+            },
+            {
+              "t": "い"
+            }
+          ],
+          [
+            {
+              "t": "カメラです。"
+            }
+          ]
+        ],
+        "romaji": "takai kamera desu.",
+        "romajiChunks": [
+          "takai",
+          "kamera desu."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "l8_totemo_amari",
+    "lesson": 8,
+    "title": "とても／あまり",
+    "meaning": "とても 'very' strengthens an adjective; あまり 'not very' pairs with a negative.",
+    "meaningVi": "とても 'rất' nhấn mạnh tính từ; あまり 'không ... lắm' đi với thể phủ định.",
+    "structure": "とても [A] ／ あまり [A-negative]",
+    "examples": [
+      {
+        "jp": "この料理はとてもおいしいです。",
+        "reading": "このりょうりはとてもおいしいです。",
+        "en": "This dish is very delicious.",
+        "vi": "Món ăn này rất ngon.",
+        "tokens": [
+          [
+            {
+              "t": "この"
+            }
+          ],
+          [
+            {
+              "t": "料理",
+              "f": "りょうり"
+            },
+            {
+              "t": "は"
+            }
+          ],
+          [
+            {
+              "t": "とても"
+            }
+          ],
+          [
+            {
+              "t": "おいしいです。"
+            }
+          ]
+        ],
+        "romaji": "kono ryouri wa totemo oishii desu.",
+        "romajiChunks": [
+          "kono",
+          "ryouri wa",
+          "totemo",
+          "oishii desu."
+        ]
+      },
+      {
+        "jp": "この店はあまり安くないです。",
+        "reading": "このみせはあまりやすくないです。",
+        "en": "This shop is not very cheap.",
+        "vi": "Quán này không rẻ lắm.",
+        "tokens": [
+          [
+            {
+              "t": "この"
+            }
+          ],
+          [
+            {
+              "t": "店",
+              "f": "みせ"
+            },
+            {
+              "t": "は"
+            }
+          ],
+          [
+            {
+              "t": "あまり"
+            }
+          ],
+          [
+            {
+              "t": "安",
+              "f": "やす"
+            },
+            {
+              "t": "くないです。"
+            }
+          ]
+        ],
+        "romaji": "kono mise wa amari yasukunai desu.",
+        "romajiChunks": [
+          "kono",
+          "mise wa",
+          "amari",
+          "yasukunai desu."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "l8_soshite",
+    "lesson": 8,
+    "title": "そして (and)",
+    "meaning": "そして joins two sentences with similar, matching ideas — 'and, and also'.",
+    "meaningVi": "そして nối hai câu có ý tương đồng — 'và, và cũng'.",
+    "structure": "[sentence 1]。そして、[sentence 2]。",
+    "examples": [
+      {
+        "jp": "このケーキはおいしいです。そして、安いです。",
+        "reading": "このケーキはおいしいです。そして、やすいです。",
+        "en": "This cake is delicious. And it's cheap.",
+        "vi": "Cái bánh này ngon. Và rẻ.",
+        "tokens": [
+          [
+            {
+              "t": "この"
+            }
+          ],
+          [
+            {
+              "t": "ケーキは"
+            }
+          ],
+          [
+            {
+              "t": "おいしいです。"
+            }
+          ],
+          [
+            {
+              "t": "そして、"
+            }
+          ],
+          [
+            {
+              "t": "安",
+              "f": "やす"
+            },
+            {
+              "t": "いです。"
+            }
+          ]
+        ],
+        "romaji": "kono keeki wa oishii desu. soshite, yasui desu.",
+        "romajiChunks": [
+          "kono",
+          "keeki wa",
+          "oishii desu.",
+          "soshite,",
+          "yasui desu."
+        ]
+      },
+      {
+        "jp": "富士山はきれいです。そして、有名です。",
+        "reading": "ふじさんはきれいです。そして、ゆうめいです。",
+        "en": "Mt. Fuji is beautiful. And it's famous.",
+        "vi": "Núi Phú Sĩ đẹp. Và nổi tiếng.",
+        "tokens": [
+          [
+            {
+              "t": "富士山",
+              "f": "ふじさん"
+            },
+            {
+              "t": "は"
+            }
+          ],
+          [
+            {
+              "t": "きれいです。"
+            }
+          ],
+          [
+            {
+              "t": "そして、"
+            }
+          ],
+          [
+            {
+              "t": "有名",
+              "f": "ゆうめい"
+            },
+            {
+              "t": "です。"
+            }
+          ]
+        ],
+        "romaji": "fujisan wa kirei desu. soshite, yuumei desu.",
+        "romajiChunks": [
+          "fujisan wa",
+          "kirei desu.",
+          "soshite,",
+          "yuumei desu."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "l9_ga_arimasu",
+    "lesson": 9,
+    "title": "N が あります (have)",
+    "meaning": "が あります states that you have something — money, time, plans.",
+    "meaningVi": "が あります nói bạn có cái gì đó — tiền, thời gian, kế hoạch.",
+    "structure": "～は N が あります",
+    "examples": [
+      {
+        "jp": "わたしはお金がありません。",
+        "reading": "わたしはおかねがありません。",
+        "en": "I don't have money.",
+        "vi": "Tôi không có tiền.",
+        "tokens": [
+          [
+            {
+              "t": "わたしは"
+            }
+          ],
+          [
+            {
+              "t": "お"
+            },
+            {
+              "t": "金",
+              "f": "かね"
+            },
+            {
+              "t": "が"
+            }
+          ],
+          [
+            {
+              "t": "ありません。"
+            }
+          ]
+        ],
+        "romaji": "watashi wa okane ga arimasen.",
+        "romajiChunks": [
+          "watashi wa",
+          "okane ga",
+          "arimasen."
+        ]
+      },
+      {
+        "jp": "山田さんは車があります。",
+        "reading": "やまださんはくるまがあります。",
+        "en": "Mr. Yamada has a car.",
+        "vi": "Anh Yamada có xe hơi.",
+        "tokens": [
+          [
+            {
+              "t": "山田",
+              "f": "やまだ"
+            },
+            {
+              "t": "さんは"
+            }
+          ],
+          [
+            {
+              "t": "車",
+              "f": "くるま"
+            },
+            {
+              "t": "が"
+            }
+          ],
+          [
+            {
+              "t": "あります。"
+            }
+          ]
+        ],
+        "romaji": "yamadasan wa kuruma ga arimasu.",
+        "romajiChunks": [
+          "yamadasan wa",
+          "kuruma ga",
+          "arimasu."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "l9_adverb",
+    "lesson": 9,
+    "title": "Degree adverbs",
+    "meaning": "Adverbs grade a verb: よく／だいたい／少し (positive), あまり／全然 (with a negative).",
+    "meaningVi": "Trạng từ chỉ mức độ: よく／だいたい／少し (khẳng định), あまり／全然 (với phủ định).",
+    "structure": "よく／少し ～ます ／ あまり／全然 ～ません",
+    "examples": [
+      {
+        "jp": "英語がよくわかります。",
+        "reading": "えいごがよくわかります。",
+        "en": "I understand English well.",
+        "vi": "Tôi hiểu rõ tiếng Anh.",
+        "tokens": [
+          [
+            {
+              "t": "英語",
+              "f": "えいご"
+            },
+            {
+              "t": "が"
+            }
+          ],
+          [
+            {
+              "t": "よく"
+            }
+          ],
+          [
+            {
+              "t": "わかります。"
+            }
+          ]
+        ],
+        "romaji": "eigo ga yoku wakarimasu.",
+        "romajiChunks": [
+          "eigo ga",
+          "yoku",
+          "wakarimasu."
+        ]
+      },
+      {
+        "jp": "日本語があまりわかりません。",
+        "reading": "にほんごがあまりわかりません。",
+        "en": "I don't understand Japanese very well.",
+        "vi": "Tôi không hiểu tiếng Nhật lắm.",
+        "tokens": [
+          [
+            {
+              "t": "日本語",
+              "f": "にほんご"
+            },
+            {
+              "t": "が"
+            }
+          ],
+          [
+            {
+              "t": "あまり"
+            }
+          ],
+          [
+            {
+              "t": "わかりません。"
+            }
+          ]
+        ],
+        "romaji": "nihongo ga amari wakarimasen.",
+        "romajiChunks": [
+          "nihongo ga",
+          "amari",
+          "wakarimasen."
+        ]
+      },
+      {
+        "jp": "お金が全然ありません。",
+        "reading": "おかねがぜんぜんありません。",
+        "en": "I have no money at all.",
+        "vi": "Tôi chẳng có đồng tiền nào cả.",
+        "tokens": [
+          [
+            {
+              "t": "お"
+            },
+            {
+              "t": "金",
+              "f": "かね"
+            },
+            {
+              "t": "が"
+            }
+          ],
+          [
+            {
+              "t": "全然",
+              "f": "ぜんぜん"
+            }
+          ],
+          [
+            {
+              "t": "ありません。"
+            }
+          ]
+        ],
+        "romaji": "okane ga zenzen arimasen.",
+        "romajiChunks": [
+          "okane ga",
+          "zenzen",
+          "arimasen."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "l9_donna",
+    "lesson": 9,
+    "title": "どんな (what kind)",
+    "meaning": "どんな N asks which type within a category; the answer names a specific one.",
+    "meaningVi": "どんな N hỏi loại nào trong một nhóm; câu trả lời nêu một cái cụ thể.",
+    "structure": "どんな N が 好きですか",
+    "examples": [
+      {
+        "jp": "どんなスポーツが好きですか。",
+        "reading": "どんなスポーツがすきですか。",
+        "en": "What kind of sport do you like?",
+        "vi": "Bạn thích môn thể thao nào?",
+        "tokens": [
+          [
+            {
+              "t": "どんな"
+            }
+          ],
+          [
+            {
+              "t": "スポーツが"
+            }
+          ],
+          [
+            {
+              "t": "好",
+              "f": "す"
+            },
+            {
+              "t": "きですか。"
+            }
+          ]
+        ],
+        "romaji": "donna supootsu ga suki desu ka.",
+        "romajiChunks": [
+          "donna",
+          "supootsu ga",
+          "suki desu ka."
+        ]
+      },
+      {
+        "jp": "サッカーが好きです。",
+        "reading": "サッカーがすきです。",
+        "en": "I like soccer.",
+        "vi": "Tôi thích bóng đá.",
+        "tokens": [
+          [
+            {
+              "t": "サッカーが"
+            }
+          ],
+          [
+            {
+              "t": "好",
+              "f": "す"
+            },
+            {
+              "t": "きです。"
+            }
+          ]
+        ],
+        "romaji": "sakkaa ga suki desu.",
+        "romajiChunks": [
+          "sakkaa ga",
+          "suki desu."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "l10_wa_ni",
+    "lesson": 10,
+    "title": "N は [place] に あります／います",
+    "meaning": "When the thing is the topic, は fronts it and に marks where it is — used to ask or state where a known thing is.",
+    "meaningVi": "Khi vật là chủ đề, は đứng trước nó và に đánh dấu nơi chốn — dùng để hỏi hay nói vật đã biết ở đâu.",
+    "structure": "N は [place] に あります／います",
+    "examples": [
+      {
+        "jp": "日本語の本はどこにありますか。",
+        "reading": "にほんごのほんはどこにありますか。",
+        "en": "Where is the Japanese book?",
+        "vi": "Quyển sách tiếng Nhật ở đâu?",
+        "tokens": [
+          [
+            {
+              "t": "日本語",
+              "f": "にほんご"
+            },
+            {
+              "t": "の"
+            }
+          ],
+          [
+            {
+              "t": "本",
+              "f": "ほん"
+            },
+            {
+              "t": "は"
+            }
+          ],
+          [
+            {
+              "t": "どこに"
+            }
+          ],
+          [
+            {
+              "t": "ありますか。"
+            }
+          ]
+        ],
+        "romaji": "nihongo no hon wa doko ni arimasu ka.",
+        "romajiChunks": [
+          "nihongo no",
+          "hon wa",
+          "doko ni",
+          "arimasu ka."
+        ]
+      },
+      {
+        "jp": "猫は椅子の下にいます。",
+        "reading": "ねこはいすのしたにいます。",
+        "en": "The cat is under the chair.",
+        "vi": "Con mèo ở dưới ghế.",
+        "tokens": [
+          [
+            {
+              "t": "猫",
+              "f": "ねこ"
+            },
+            {
+              "t": "は"
+            }
+          ],
+          [
+            {
+              "t": "椅子",
+              "f": "いす"
+            },
+            {
+              "t": "の"
+            }
+          ],
+          [
+            {
+              "t": "下",
+              "f": "した"
+            },
+            {
+              "t": "に"
+            }
+          ],
+          [
+            {
+              "t": "います。"
+            }
+          ]
+        ],
+        "romaji": "neko wa isu no shita ni imasu.",
+        "romajiChunks": [
+          "neko wa",
+          "isu no",
+          "shita ni",
+          "imasu."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "l10_aida",
+    "lesson": 10,
+    "title": "N1 と N2 の 間",
+    "meaning": "N1 と N2 の 間 means 'between N1 and N2'.",
+    "meaningVi": "N1 と N2 の 間 nghĩa là 'ở giữa N1 và N2'.",
+    "structure": "N1 と N2 の 間 に あります／います",
+    "examples": [
+      {
+        "jp": "うちは本屋と公園の間です。",
+        "reading": "うちはほんやとこうえんのあいだです。",
+        "en": "My house is between the bookstore and the park.",
+        "vi": "Nhà tôi ở giữa nhà sách và công viên.",
+        "tokens": [
+          [
+            {
+              "t": "うちは"
+            }
+          ],
+          [
+            {
+              "t": "本屋",
+              "f": "ほんや"
+            },
+            {
+              "t": "と"
+            }
+          ],
+          [
+            {
+              "t": "公園",
+              "f": "こうえん"
+            },
+            {
+              "t": "の"
+            }
+          ],
+          [
+            {
+              "t": "間",
+              "f": "あいだ"
+            },
+            {
+              "t": "です。"
+            }
+          ]
+        ],
+        "romaji": "uchi wa honya to kouen no aida desu.",
+        "romajiChunks": [
+          "uchi wa",
+          "honya to",
+          "kouen no",
+          "aida desu."
+        ]
+      },
+      {
+        "jp": "銀行はスーパーとホテルの間です。",
+        "reading": "ぎんこうはスーパーとホテルのあいだです。",
+        "en": "The bank is between the supermarket and the hotel.",
+        "vi": "Ngân hàng ở giữa siêu thị và khách sạn.",
+        "tokens": [
+          [
+            {
+              "t": "銀行",
+              "f": "ぎんこう"
+            },
+            {
+              "t": "は"
+            }
+          ],
+          [
+            {
+              "t": "スーパーと"
+            }
+          ],
+          [
+            {
+              "t": "ホテルの"
+            }
+          ],
+          [
+            {
+              "t": "間",
+              "f": "あいだ"
+            },
+            {
+              "t": "です。"
+            }
+          ]
+        ],
+        "romaji": "ginkou wa suupaa to hoteru no aida desu.",
+        "romajiChunks": [
+          "ginkou wa",
+          "suupaa to",
+          "hoteru no",
+          "aida desu."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "l10_ya_nado",
+    "lesson": 10,
+    "title": "N1 や N2 (など)",
+    "meaning": "や lists nouns as representative examples — 'things like N1 and N2' — often closed with など.",
+    "meaningVi": "や liệt kê danh từ làm ví dụ tiêu biểu — 'nào là N1, N2' — thường kết bằng など.",
+    "structure": "N1 や N2 (など)",
+    "examples": [
+      {
+        "jp": "部屋にテレビや冷蔵庫などがあります。",
+        "reading": "へやにテレビやれいぞうこなどがあります。",
+        "en": "In the room there are a TV and a fridge, among others.",
+        "vi": "Trong phòng có ti vi, tủ lạnh và những thứ khác.",
+        "tokens": [
+          [
+            {
+              "t": "部屋",
+              "f": "へや"
+            },
+            {
+              "t": "に"
+            }
+          ],
+          [
+            {
+              "t": "テレビや"
+            }
+          ],
+          [
+            {
+              "t": "冷蔵庫",
+              "f": "れいぞうこ"
+            }
+          ],
+          [
+            {
+              "t": "などが"
+            }
+          ],
+          [
+            {
+              "t": "あります。"
+            }
+          ]
+        ],
+        "romaji": "heya ni terebi ya reizouko nado ga arimasu.",
+        "romajiChunks": [
+          "heya ni",
+          "terebi ya",
+          "reizouko",
+          "nado ga",
+          "arimasu."
+        ]
+      },
+      {
+        "jp": "スーパーで肉や卵などを買いました。",
+        "reading": "スーパーでにくやたまごなどをかいました。",
+        "en": "At the supermarket I bought meat and eggs, among other things.",
+        "vi": "Ở siêu thị tôi đã mua thịt, trứng và nhiều thứ khác.",
+        "tokens": [
+          [
+            {
+              "t": "スーパーで"
+            }
+          ],
+          [
+            {
+              "t": "肉",
+              "f": "にく"
+            },
+            {
+              "t": "や"
+            }
+          ],
+          [
+            {
+              "t": "卵",
+              "f": "たまご"
+            }
+          ],
+          [
+            {
+              "t": "などを"
+            }
+          ],
+          [
+            {
+              "t": "買",
+              "f": "か"
+            },
+            {
+              "t": "いました。"
+            }
+          ]
+        ],
+        "romaji": "suupaa de niku ya tamago nado o kaimashita.",
+        "romajiChunks": [
+          "suupaa de",
+          "niku ya",
+          "tamago",
+          "nado o",
+          "kaimashita."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "l11_gurai",
+    "lesson": 11,
+    "title": "～ぐらい (about)",
+    "meaning": "ぐらい after a number/counter means 'about, approximately' that amount.",
+    "meaningVi": "ぐらい sau số lượng/lượng từ nghĩa là 'khoảng, chừng'.",
+    "structure": "[quantity] ぐらい",
+    "examples": [
+      {
+        "jp": "教室に学生が20人ぐらいいます。",
+        "reading": "きょうしつにがくせいがにじゅうにんぐらいいます。",
+        "en": "There are about twenty students in the classroom.",
+        "vi": "Trong lớp có khoảng hai mươi học sinh.",
+        "tokens": [
+          [
+            {
+              "t": "教室",
+              "f": "きょうしつ"
+            },
+            {
+              "t": "に"
+            }
+          ],
+          [
+            {
+              "t": "学生",
+              "f": "がくせい"
+            },
+            {
+              "t": "が"
+            }
+          ],
+          [
+            {
+              "t": "20人",
+              "f": "にじゅうにん"
+            },
+            {
+              "t": "ぐらい"
+            }
+          ],
+          [
+            {
+              "t": "います。"
+            }
+          ]
+        ],
+        "romaji": "kyoushitsu ni gakusei ga nijuunin gurai imasu.",
+        "romajiChunks": [
+          "kyoushitsu ni",
+          "gakusei ga",
+          "nijuunin gurai",
+          "imasu."
+        ]
+      },
+      {
+        "jp": "ビールを5本ぐらい飲みました。",
+        "reading": "ビールをごほんぐらいのみました。",
+        "en": "I drank about five bottles of beer.",
+        "vi": "Tôi đã uống khoảng 5 chai bia.",
+        "tokens": [
+          [
+            {
+              "t": "ビールを"
+            }
+          ],
+          [
+            {
+              "t": "5本",
+              "f": "ごほん"
+            },
+            {
+              "t": "ぐらい"
+            }
+          ],
+          [
+            {
+              "t": "飲",
+              "f": "の"
+            },
+            {
+              "t": "みました。"
+            }
+          ]
+        ],
+        "romaji": "biiru o gohon gurai nomimashita.",
+        "romajiChunks": [
+          "biiru o",
+          "gohon gurai",
+          "nomimashita."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "l11_donokurai",
+    "lesson": 11,
+    "title": "どのくらい (how long)",
+    "meaning": "どのくらい asks 'how long / how much' — duration or quantity.",
+    "meaningVi": "どのくらい hỏi 'bao lâu / bao nhiêu' — thời lượng hay số lượng.",
+    "structure": "どのくらい ～ますか",
+    "examples": [
+      {
+        "jp": "日本へどのくらい行きますか。",
+        "reading": "にほんへどのくらいいきますか。",
+        "en": "How long will you go to Japan for?",
+        "vi": "Bạn đi Nhật bao lâu?",
+        "tokens": [
+          [
+            {
+              "t": "日本",
+              "f": "にほん"
+            },
+            {
+              "t": "へ"
+            }
+          ],
+          [
+            {
+              "t": "どのくらい"
+            }
+          ],
+          [
+            {
+              "t": "行",
+              "f": "い"
+            },
+            {
+              "t": "きますか。"
+            }
+          ]
+        ],
+        "romaji": "nihon e donokurai ikimasu ka.",
+        "romajiChunks": [
+          "nihon e",
+          "donokurai",
+          "ikimasu ka."
+        ]
+      },
+      {
+        "jp": "三か月ぐらい行きます。",
+        "reading": "さんかげつぐらいいきます。",
+        "en": "I'll go for about three months.",
+        "vi": "Tôi đi khoảng 3 tháng.",
+        "tokens": [
+          [
+            {
+              "t": "三か月",
+              "f": "さんかげつ"
+            },
+            {
+              "t": "ぐらい"
+            }
+          ],
+          [
+            {
+              "t": "行",
+              "f": "い"
+            },
+            {
+              "t": "きます。"
+            }
+          ]
+        ],
+        "romaji": "sankagetsu gurai ikimasu.",
+        "romajiChunks": [
+          "sankagetsu gurai",
+          "ikimasu."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "l11_dake",
+    "lesson": 11,
+    "title": "～だけ (only)",
+    "meaning": "だけ means 'only, just', and can replace the particles を and が.",
+    "meaningVi": "だけ nghĩa là 'chỉ', và có thể thay cho trợ từ を và が.",
+    "structure": "N だけ",
+    "examples": [
+      {
+        "jp": "野菜だけ食べます。",
+        "reading": "やさいだけたべます。",
+        "en": "I eat only vegetables.",
+        "vi": "Tôi chỉ ăn rau.",
+        "tokens": [
+          [
+            {
+              "t": "野菜",
+              "f": "やさい"
+            }
+          ],
+          [
+            {
+              "t": "だけ"
+            }
+          ],
+          [
+            {
+              "t": "食",
+              "f": "た"
+            },
+            {
+              "t": "べます。"
+            }
+          ]
+        ],
+        "romaji": "yasai dake tabemasu.",
+        "romajiChunks": [
+          "yasai",
+          "dake",
+          "tabemasu."
+        ]
+      },
+      {
+        "jp": "日曜日だけ休みます。",
+        "reading": "にちようびだけやすみます。",
+        "en": "I rest only on Sundays.",
+        "vi": "Tôi chỉ nghỉ vào chủ nhật.",
+        "tokens": [
+          [
+            {
+              "t": "日曜日",
+              "f": "にちようび"
+            }
+          ],
+          [
+            {
+              "t": "だけ"
+            }
+          ],
+          [
+            {
+              "t": "休",
+              "f": "やす"
+            },
+            {
+              "t": "みます。"
+            }
+          ]
+        ],
+        "romaji": "nichiyoubi dake yasumimasu.",
+        "romajiChunks": [
+          "nichiyoubi",
+          "dake",
+          "yasumimasu."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "l12_no_pronoun",
+    "lesson": 12,
+    "title": "A の (the ~ one)",
+    "meaning": "After an adjective, の stands in for a known noun — 安いの 'the cheap one'.",
+    "meaningVi": "Sau tính từ, の thay cho danh từ đã biết — 安いの 'cái rẻ'.",
+    "structure": "[Aい] の ／ [Aな] な の",
+    "examples": [
+      {
+        "jp": "安いのをください。",
+        "reading": "やすいのをください。",
+        "en": "Please give me the cheap one.",
+        "vi": "Cho tôi cái rẻ.",
+        "tokens": [
+          [
+            {
+              "t": "安",
+              "f": "やす"
+            },
+            {
+              "t": "いのを"
+            }
+          ],
+          [
+            {
+              "t": "ください。"
+            }
+          ]
+        ],
+        "romaji": "yasui no o kudasai.",
+        "romajiChunks": [
+          "yasui no o",
+          "kudasai."
+        ]
+      },
+      {
+        "jp": "大きいのが好きです。",
+        "reading": "おおきいのがすきです。",
+        "en": "I like the big one.",
+        "vi": "Tôi thích cái to.",
+        "tokens": [
+          [
+            {
+              "t": "大",
+              "f": "おお"
+            },
+            {
+              "t": "きいのが"
+            }
+          ],
+          [
+            {
+              "t": "好",
+              "f": "す"
+            },
+            {
+              "t": "きです。"
+            }
+          ]
+        ],
+        "romaji": "ookii no ga suki desu.",
+        "romajiChunks": [
+          "ookii no ga",
+          "suki desu."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "l13_nanika",
+    "lesson": 13,
+    "title": "何か／どこか (something)",
+    "meaning": "A question word + か means 'some-': 何か 'something', どこか 'somewhere', だれか 'someone'.",
+    "meaningVi": "Nghi vấn từ + か nghĩa là 'nào đó': 何か 'cái gì đó', どこか 'đâu đó', だれか 'ai đó'.",
+    "structure": "何か／どこか／だれか",
+    "examples": [
+      {
+        "jp": "何か食べたいです。",
+        "reading": "なにかたべたいです。",
+        "en": "I want to eat something.",
+        "vi": "Tôi muốn ăn cái gì đó.",
+        "tokens": [
+          [
+            {
+              "t": "何",
+              "f": "なに"
+            },
+            {
+              "t": "か"
+            }
+          ],
+          [
+            {
+              "t": "食",
+              "f": "た"
+            },
+            {
+              "t": "べたいです。"
+            }
+          ]
+        ],
+        "romaji": "nanika tabetai desu.",
+        "romajiChunks": [
+          "nanika",
+          "tabetai desu."
+        ]
+      },
+      {
+        "jp": "日曜日どこか行きましたか。",
+        "reading": "にちようびどこかいきましたか。",
+        "en": "Did you go somewhere on Sunday?",
+        "vi": "Chủ nhật bạn có đi đâu đó không?",
+        "tokens": [
+          [
+            {
+              "t": "日曜日",
+              "f": "にちようび"
+            }
+          ],
+          [
+            {
+              "t": "どこか"
+            }
+          ],
+          [
+            {
+              "t": "行",
+              "f": "い"
+            },
+            {
+              "t": "きましたか。"
+            }
+          ]
+        ],
+        "romaji": "nichiyoubi dokoka ikimashita ka.",
+        "romajiChunks": [
+          "nichiyoubi",
+          "dokoka",
+          "ikimashita ka."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "l14_kata",
+    "lesson": 14,
+    "title": "V-方 (how to)",
+    "meaning": "The verb stem + 方 makes a noun 'the way of ~ing': 書き方 'how to write'.",
+    "meaningVi": "Thân động từ + 方 tạo danh từ 'cách ~': 書き方 'cách viết'.",
+    "structure": "V-stem + 方",
+    "examples": [
+      {
+        "jp": "漢字の書き方を習いました。",
+        "reading": "かんじのかきかたをならいました。",
+        "en": "I learned how to write kanji.",
+        "vi": "Tôi đã học cách viết kanji.",
+        "tokens": [
+          [
+            {
+              "t": "漢字",
+              "f": "かんじ"
+            },
+            {
+              "t": "の"
+            }
+          ],
+          [
+            {
+              "t": "書",
+              "f": "か"
+            },
+            {
+              "t": "き"
+            },
+            {
+              "t": "方",
+              "f": "かた"
+            },
+            {
+              "t": "を"
+            }
+          ],
+          [
+            {
+              "t": "習",
+              "f": "なら"
+            },
+            {
+              "t": "いました。"
+            }
+          ]
+        ],
+        "romaji": "kanji no kakikata o naraimashita.",
+        "romajiChunks": [
+          "kanji no",
+          "kakikata o",
+          "naraimashita."
+        ]
+      },
+      {
+        "jp": "この漢字の読み方がわかりません。",
+        "reading": "このかんじのよみかたがわかりません。",
+        "en": "I don't know how to read this kanji.",
+        "vi": "Tôi không biết cách đọc chữ Hán này.",
+        "tokens": [
+          [
+            {
+              "t": "この"
+            }
+          ],
+          [
+            {
+              "t": "漢字",
+              "f": "かんじ"
+            },
+            {
+              "t": "の"
+            }
+          ],
+          [
+            {
+              "t": "読",
+              "f": "よ"
+            },
+            {
+              "t": "み"
+            },
+            {
+              "t": "方",
+              "f": "かた"
+            },
+            {
+              "t": "が"
+            }
+          ],
+          [
+            {
+              "t": "わかりません。"
+            }
+          ]
+        ],
+        "romaji": "kono kanji no yomikata ga wakarimasen.",
+        "romajiChunks": [
+          "kono",
+          "kanji no",
+          "yomikata ga",
+          "wakarimasen."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "l14_mashouka",
+    "lesson": 14,
+    "title": "V-ましょうか (shall I?)",
+    "meaning": "V-ましょうか offers to do something for the listener — 'shall I ~ (for you)?'",
+    "meaningVi": "V-ましょうか đề nghị làm gì đó cho người nghe — 'để tôi ~ nhé?'",
+    "structure": "V-ましょうか",
+    "examples": [
+      {
+        "jp": "写真を撮りましょうか。",
+        "reading": "しゃしんをとりましょうか。",
+        "en": "Shall I take a photo for you?",
+        "vi": "Để tôi chụp ảnh nhé?",
+        "tokens": [
+          [
+            {
+              "t": "写真",
+              "f": "しゃしん"
+            },
+            {
+              "t": "を"
+            }
+          ],
+          [
+            {
+              "t": "撮",
+              "f": "と"
+            },
+            {
+              "t": "りましょうか。"
+            }
+          ]
+        ],
+        "romaji": "shashin o torimashou ka.",
+        "romajiChunks": [
+          "shashin o",
+          "torimashou ka."
+        ]
+      },
+      {
+        "jp": "手伝いましょうか。",
+        "reading": "てつだいましょうか。",
+        "en": "Shall I help you?",
+        "vi": "Để tôi giúp nhé?",
+        "tokens": [
+          [
+            {
+              "t": "手伝",
+              "f": "てつだ"
+            },
+            {
+              "t": "いましょうか。"
+            }
+          ]
+        ],
+        "romaji": "tetsudaimashou ka.",
+        "romajiChunks": [
+          "tetsudaimashou ka."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "l15_shitteimasu",
+    "lesson": 15,
+    "title": "知っています／知りません",
+    "meaning": "Knowing is 知っています (state); its negative is the plain 知りません, not 知っていません.",
+    "meaningVi": "Biết là 知っています (trạng thái); phủ định là 知りません, không phải 知っていません.",
+    "structure": "知っています ／ 知りません",
+    "examples": [
+      {
+        "jp": "田中さんの電話番号を知っていますか。",
+        "reading": "たなかさんのでんわばんごうをしっていますか。",
+        "en": "Do you know Mr. Tanaka's phone number?",
+        "vi": "Bạn có biết số điện thoại của anh Tanaka không?",
+        "tokens": [
+          [
+            {
+              "t": "田中",
+              "f": "たなか"
+            },
+            {
+              "t": "さんの"
+            }
+          ],
+          [
+            {
+              "t": "電話番号",
+              "f": "でんわばんごう"
+            },
+            {
+              "t": "を"
+            }
+          ],
+          [
+            {
+              "t": "知",
+              "f": "し"
+            },
+            {
+              "t": "っていますか。"
+            }
+          ]
+        ],
+        "romaji": "tanakasan no denwabangou o shitte imasu ka.",
+        "romajiChunks": [
+          "tanakasan no",
+          "denwabangou o",
+          "shitte imasu ka."
+        ]
+      },
+      {
+        "jp": "いいえ、知りません。",
+        "reading": "いいえ、しりません。",
+        "en": "No, I don't know.",
+        "vi": "Không, tôi không biết.",
+        "tokens": [
+          [
+            {
+              "t": "いいえ、"
+            }
+          ],
+          [
+            {
+              "t": "知",
+              "f": "し"
+            },
+            {
+              "t": "りません。"
+            }
+          ]
+        ],
+        "romaji": "iie, shirimasen.",
+        "romajiChunks": [
+          "iie,",
+          "shirimasen."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "l16_wa_ga",
+    "lesson": 16,
+    "title": "N1 は N2 が (whole–part)",
+    "meaning": "Topic は + detail が describes one feature of a whole — 北海道は雪が多い 'Hokkaido — the snow is heavy'.",
+    "meaningVi": "Chủ đề は + chi tiết が mô tả một đặc điểm của tổng thể — 北海道は雪が多い 'Hokkaido — tuyết nhiều'.",
+    "structure": "[whole] は [part] が [adjective]",
+    "examples": [
+      {
+        "jp": "北海道は雪が多いです。",
+        "reading": "ほっかいどうはゆきがおおいです。",
+        "en": "In Hokkaido, there is a lot of snow.",
+        "vi": "Hokkaido tuyết nhiều.",
+        "tokens": [
+          [
+            {
+              "t": "北海道",
+              "f": "ほっかいどう"
+            },
+            {
+              "t": "は"
+            }
+          ],
+          [
+            {
+              "t": "雪",
+              "f": "ゆき"
+            },
+            {
+              "t": "が"
+            }
+          ],
+          [
+            {
+              "t": "多",
+              "f": "おお"
+            },
+            {
+              "t": "いです。"
+            }
+          ]
+        ],
+        "romaji": "hokkaidou wa yuki ga ooi desu.",
+        "romajiChunks": [
+          "hokkaidou wa",
+          "yuki ga",
+          "ooi desu."
+        ]
+      },
+      {
+        "jp": "田中さんは髪が長いです。",
+        "reading": "たなかさんはかみがながいです。",
+        "en": "Mr. Tanaka has long hair.",
+        "vi": "Anh Tanaka tóc dài.",
+        "tokens": [
+          [
+            {
+              "t": "田中",
+              "f": "たなか"
+            },
+            {
+              "t": "さんは"
+            }
+          ],
+          [
+            {
+              "t": "髪",
+              "f": "かみ"
+            },
+            {
+              "t": "が"
+            }
+          ],
+          [
+            {
+              "t": "長",
+              "f": "なが"
+            },
+            {
+              "t": "いです。"
+            }
+          ]
+        ],
+        "romaji": "tanakasan wa kami ga nagai desu.",
+        "romajiChunks": [
+          "tanakasan wa",
+          "kami ga",
+          "nagai desu."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "l16_douyatte",
+    "lesson": 16,
+    "title": "どうやって (how)",
+    "meaning": "どうやって asks by what steps or means you do something.",
+    "meaningVi": "どうやって hỏi bằng cách nào, theo trình tự nào để làm việc gì đó.",
+    "structure": "～は どうやって ～ますか",
+    "examples": [
+      {
+        "jp": "大学までどうやって行きますか。",
+        "reading": "だいがくまでどうやっていきますか。",
+        "en": "How do you get to the university?",
+        "vi": "Bạn đến trường đại học bằng cách nào?",
+        "tokens": [
+          [
+            {
+              "t": "大学",
+              "f": "だいがく"
+            },
+            {
+              "t": "まで"
+            }
+          ],
+          [
+            {
+              "t": "どうやって"
+            }
+          ],
+          [
+            {
+              "t": "行",
+              "f": "い"
+            },
+            {
+              "t": "きますか。"
+            }
+          ]
+        ],
+        "romaji": "daigaku made douyatte ikimasu ka.",
+        "romajiChunks": [
+          "daigaku made",
+          "douyatte",
+          "ikimasu ka."
+        ]
+      },
+      {
+        "jp": "駅からバスに乗ります。",
+        "reading": "えきからバスにのります。",
+        "en": "I take a bus from the station.",
+        "vi": "Tôi đi xe buýt từ ga.",
+        "tokens": [
+          [
+            {
+              "t": "駅",
+              "f": "えき"
+            },
+            {
+              "t": "から"
+            }
+          ],
+          [
+            {
+              "t": "バスに"
+            }
+          ],
+          [
+            {
+              "t": "乗",
+              "f": "の"
+            },
+            {
+              "t": "ります。"
+            }
+          ]
+        ],
+        "romaji": "eki kara basu ni norimasu.",
+        "romajiChunks": [
+          "eki kara",
+          "basu ni",
+          "norimasu."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "l16_dore",
+    "lesson": 16,
+    "title": "どれ／どの N (which one)",
+    "meaning": "どれ asks 'which one' among three or more things; どの N does the same before a noun.",
+    "meaningVi": "どれ hỏi 'cái nào' trong ba thứ trở lên; どの N cũng vậy nhưng đứng trước danh từ.",
+    "structure": "どれ ／ どの N",
+    "examples": [
+      {
+        "jp": "ミラーさんの傘はどれですか。",
+        "reading": "ミラーさんのかさはどれですか。",
+        "en": "Which one is Mr. Miller's umbrella?",
+        "vi": "Ô của anh Miller là cái nào?",
+        "tokens": [
+          [
+            {
+              "t": "ミラーさんの"
+            }
+          ],
+          [
+            {
+              "t": "傘",
+              "f": "かさ"
+            },
+            {
+              "t": "は"
+            }
+          ],
+          [
+            {
+              "t": "どれですか。"
+            }
+          ]
+        ],
+        "romaji": "miraasan no kasa wa dore desu ka.",
+        "romajiChunks": [
+          "miraasan no",
+          "kasa wa",
+          "dore desu ka."
+        ]
+      },
+      {
+        "jp": "どの人が田中さんですか。",
+        "reading": "どのひとがたなかさんですか。",
+        "en": "Which person is Mr. Tanaka?",
+        "vi": "Người nào là anh Tanaka?",
+        "tokens": [
+          [
+            {
+              "t": "どの"
+            }
+          ],
+          [
+            {
+              "t": "人",
+              "f": "ひと"
+            },
+            {
+              "t": "が"
+            }
+          ],
+          [
+            {
+              "t": "田中",
+              "f": "たなか"
+            },
+            {
+              "t": "さんですか。"
+            }
+          ]
+        ],
+        "romaji": "dono hito ga tanakasan desu ka.",
+        "romajiChunks": [
+          "dono",
+          "hito ga",
+          "tanakasan desu ka."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "l17_madeni",
+    "lesson": 17,
+    "title": "～までに (by)",
+    "meaning": "までに marks a deadline — do the action at any point before that time.",
+    "meaningVi": "までに đánh dấu hạn chót — làm hành động vào bất kỳ lúc nào trước thời điểm đó.",
+    "structure": "[time] までに V",
+    "examples": [
+      {
+        "jp": "金曜日までにレポートを出してください。",
+        "reading": "きんようびまでにレポートをだしてください。",
+        "en": "Please submit the report by Friday.",
+        "vi": "Hãy nộp báo cáo trước thứ Sáu.",
+        "tokens": [
+          [
+            {
+              "t": "金曜日",
+              "f": "きんようび"
+            },
+            {
+              "t": "までに"
+            }
+          ],
+          [
+            {
+              "t": "レポートを"
+            }
+          ],
+          [
+            {
+              "t": "出",
+              "f": "だ"
+            },
+            {
+              "t": "してください。"
+            }
+          ]
+        ],
+        "romaji": "kinyoubi made ni repooto o dashite kudasai.",
+        "romajiChunks": [
+          "kinyoubi made ni",
+          "repooto o",
+          "dashite kudasai."
+        ]
+      },
+      {
+        "jp": "10時までに帰らなければなりません。",
+        "reading": "じゅうじまでにかえらなければなりません。",
+        "en": "I must go home by ten.",
+        "vi": "Tôi phải về nhà trước 10 giờ.",
+        "tokens": [
+          [
+            {
+              "t": "10時",
+              "f": "じゅうじ"
+            },
+            {
+              "t": "までに"
+            }
+          ],
+          [
+            {
+              "t": "帰",
+              "f": "かえ"
+            },
+            {
+              "t": "らなければなりません。"
+            }
+          ]
+        ],
+        "romaji": "juuji made ni kaeranakereba narimasen.",
+        "romajiChunks": [
+          "juuji made ni",
+          "kaeranakereba narimasen."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "l18_shumi",
+    "lesson": 18,
+    "title": "趣味は ～ことです",
+    "meaning": "State a hobby with 趣味は…, using the dictionary-form verb + こと for an activity.",
+    "meaningVi": "Nói sở thích bằng 趣味は…, dùng động từ thể từ điển + こと cho một hoạt động.",
+    "structure": "趣味は [dictionary V] ことです",
+    "examples": [
+      {
+        "jp": "趣味は何ですか。",
+        "reading": "しゅみはなんですか。",
+        "en": "What is your hobby?",
+        "vi": "Sở thích của bạn là gì?",
+        "tokens": [
+          [
+            {
+              "t": "趣味",
+              "f": "しゅみ"
+            },
+            {
+              "t": "は"
+            }
+          ],
+          [
+            {
+              "t": "何",
+              "f": "なん"
+            },
+            {
+              "t": "ですか。"
+            }
+          ]
+        ],
+        "romaji": "shumi wa nan desu ka.",
+        "romajiChunks": [
+          "shumi wa",
+          "nan desu ka."
+        ]
+      },
+      {
+        "jp": "趣味はピアノを弾くことです。",
+        "reading": "しゅみはピアノをひくことです。",
+        "en": "My hobby is playing the piano.",
+        "vi": "Sở thích của tôi là chơi đàn piano.",
+        "tokens": [
+          [
+            {
+              "t": "趣味",
+              "f": "しゅみ"
+            },
+            {
+              "t": "は"
+            }
+          ],
+          [
+            {
+              "t": "ピアノを"
+            }
+          ],
+          [
+            {
+              "t": "弾",
+              "f": "ひ"
+            },
+            {
+              "t": "くことです。"
+            }
+          ]
+        ],
+        "romaji": "shumi wa piano o hiku koto desu.",
+        "romajiChunks": [
+          "shumi wa",
+          "piano o",
+          "hiku koto desu."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "l20_casual",
+    "lesson": 20,
+    "title": "Casual conversation",
+    "meaning": "In casual talk, plain form replaces です/ます; questions just rise in pitch (？), and だ is often dropped.",
+    "meaningVi": "Khi nói thân mật, thể thông thường thay cho です/ます; câu hỏi chỉ lên giọng (？), và だ thường được lược bỏ.",
+    "structure": "[plain form] （＋？ for a question）",
+    "examples": [
+      {
+        "jp": "今日、映画を見る？",
+        "reading": "きょう、えいがをみる？",
+        "en": "Are you watching a movie today?",
+        "vi": "Hôm nay xem phim không?",
+        "tokens": [
+          [
+            {
+              "t": "今日",
+              "f": "きょう"
+            },
+            {
+              "t": "、"
+            }
+          ],
+          [
+            {
+              "t": "映画",
+              "f": "えいが"
+            },
+            {
+              "t": "を"
+            }
+          ],
+          [
+            {
+              "t": "見",
+              "f": "み"
+            },
+            {
+              "t": "る？"
+            }
+          ]
+        ],
+        "romaji": "kyou, eiga o miru?",
+        "romajiChunks": [
+          "kyou,",
+          "eiga o",
+          "miru?"
+        ]
+      },
+      {
+        "jp": "うん、見る。",
+        "reading": "うん、みる。",
+        "en": "Yeah, I'm watching.",
+        "vi": "Ừ, xem.",
+        "tokens": [
+          [
+            {
+              "t": "うん、"
+            }
+          ],
+          [
+            {
+              "t": "見",
+              "f": "み"
+            },
+            {
+              "t": "る。"
+            }
+          ]
+        ],
+        "romaji": "un, miru.",
+        "romajiChunks": [
+          "un,",
+          "miru."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "l21_de_arimasu",
+    "lesson": 21,
+    "title": "[place] で N が あります",
+    "meaning": "For events (a match, a party, a meeting), あります means 'is held / takes place', and で marks where.",
+    "meaningVi": "Với sự kiện (trận đấu, tiệc, cuộc họp), あります nghĩa là 'được tổ chức / diễn ra', và で đánh dấu nơi chốn.",
+    "structure": "[place] で [event] が あります",
+    "examples": [
+      {
+        "jp": "運動場でサッカーの試合があります。",
+        "reading": "うんどうじょうでサッカーのしあいがあります。",
+        "en": "There is a soccer match at the sports ground.",
+        "vi": "Có trận đấu bóng đá ở sân vận động.",
+        "tokens": [
+          [
+            {
+              "t": "運動場",
+              "f": "うんどうじょう"
+            },
+            {
+              "t": "で"
+            }
+          ],
+          [
+            {
+              "t": "サッカーの"
+            }
+          ],
+          [
+            {
+              "t": "試合",
+              "f": "しあい"
+            },
+            {
+              "t": "が"
+            }
+          ],
+          [
+            {
+              "t": "あります。"
+            }
+          ]
+        ],
+        "romaji": "undoujou de sakkaa no shiai ga arimasu.",
+        "romajiChunks": [
+          "undoujou de",
+          "sakkaa no",
+          "shiai ga",
+          "arimasu."
+        ]
+      },
+      {
+        "jp": "東京で会議があります。",
+        "reading": "とうきょうでかいぎがあります。",
+        "en": "There is a meeting in Tokyo.",
+        "vi": "Có cuộc họp ở Tokyo.",
+        "tokens": [
+          [
+            {
+              "t": "東京",
+              "f": "とうきょう"
+            },
+            {
+              "t": "で"
+            }
+          ],
+          [
+            {
+              "t": "会議",
+              "f": "かいぎ"
+            },
+            {
+              "t": "が"
+            }
+          ],
+          [
+            {
+              "t": "あります。"
+            }
+          ]
+        ],
+        "romaji": "toukyou de kaigi ga arimasu.",
+        "romajiChunks": [
+          "toukyou de",
+          "kaigi ga",
+          "arimasu."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "l21_demo",
+    "lesson": 21,
+    "title": "N でも (~ or something)",
+    "meaning": "でも offers a representative example — 'some ~ or something like it' — when inviting or suggesting.",
+    "meaningVi": "でも đưa ra ví dụ tiêu biểu — 'chút ~ chẳng hạn' — khi rủ rê hay đề xuất.",
+    "structure": "N でも ～ませんか／ましょう",
+    "examples": [
+      {
+        "jp": "お茶でも飲みませんか。",
+        "reading": "おちゃでものみませんか。",
+        "en": "Won't you have some tea or something?",
+        "vi": "Cùng uống chút trà chẳng hạn không?",
+        "tokens": [
+          [
+            {
+              "t": "お"
+            },
+            {
+              "t": "茶",
+              "f": "ちゃ"
+            },
+            {
+              "t": "でも"
+            }
+          ],
+          [
+            {
+              "t": "飲",
+              "f": "の"
+            },
+            {
+              "t": "みませんか。"
+            }
+          ]
+        ],
+        "romaji": "ocha demo nomimasen ka.",
+        "romajiChunks": [
+          "ocha demo",
+          "nomimasen ka."
+        ]
+      },
+      {
+        "jp": "映画でも見ましょう。",
+        "reading": "えいがでもみましょう。",
+        "en": "Let's watch a movie or something.",
+        "vi": "Cùng xem phim gì đó nhé.",
+        "tokens": [
+          [
+            {
+              "t": "映画",
+              "f": "えいが"
+            },
+            {
+              "t": "でも"
+            }
+          ],
+          [
+            {
+              "t": "見",
+              "f": "み"
+            },
+            {
+              "t": "ましょう。"
+            }
+          ]
+        ],
+        "romaji": "eiga demo mimashou.",
+        "romajiChunks": [
+          "eiga demo",
+          "mimashou."
+        ]
+      }
+    ]
   }
 ]

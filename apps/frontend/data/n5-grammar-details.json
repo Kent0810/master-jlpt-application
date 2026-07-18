@@ -2490,5 +2490,1039 @@
         "ちゃん dành cho trẻ em và người rất thân — dùng với người lớn mới quen sẽ quá suồng sã."
       ]
     }
+  },
+  "l2_nan_no": {
+    "en": {
+      "explanation": [
+        "なんの before a noun asks what kind of thing it is: なんの本ですか 'what (kind of) book is it?' The answer slots a category noun in front of の: 日本語の本です 'a Japanese book.'",
+        "The noun before の describes type or content — a language, a subject, a genre. This is the same linking の from lesson 1, now used to ask and answer about kinds."
+      ],
+      "formation": "Q: ～は なんの N ですか\nA: ～は [type] の N です",
+      "pitfalls": [
+        "なんの asks about kind; だれの asks about owner — mixing them changes the question completely."
+      ]
+    },
+    "vi": {
+      "explanation": [
+        "なんの trước danh từ hỏi đó là loại gì: なんの本ですか 'sách gì vậy?' Câu trả lời đặt danh từ chỉ loại trước の: 日本語の本です 'sách tiếng Nhật.'",
+        "Danh từ trước の mô tả loại hay nội dung — ngôn ngữ, môn học, thể loại. Đây chính là の nối danh từ ở bài 1, nay dùng để hỏi và trả lời về chủng loại."
+      ],
+      "formation": "Hỏi: ～は なんの N ですか\nĐáp: ～は [loại] の N です",
+      "pitfalls": [
+        "なんの hỏi về loại; だれの hỏi về chủ sở hữu — nhầm lẫn sẽ đổi hẳn nghĩa câu hỏi."
+      ]
+    }
+  },
+  "l2_dare_no": {
+    "en": {
+      "explanation": [
+        "だれの before a noun asks who owns it: だれの傘ですか 'whose umbrella is it?' Answer with the owner plus の: わたしの傘です 'it's my umbrella.'",
+        "The noun before の is a person — a name, わたし, or a title. The pattern mirrors なんの exactly, swapping kind for owner."
+      ],
+      "formation": "Q: ～は だれの N ですか\nA: ～は [person] の N です",
+      "pitfalls": [
+        "Politeness matters in the answer too: use さん after other people's names (田中さんの傘), never after your own."
+      ]
+    },
+    "vi": {
+      "explanation": [
+        "だれの trước danh từ hỏi ai sở hữu nó: だれの傘ですか 'ô của ai vậy?' Trả lời bằng chủ sở hữu kèm の: わたしの傘です 'là ô của tôi.'",
+        "Danh từ trước の là người — tên riêng, わたし, hay chức danh. Mẫu này giống hệt なんの, chỉ thay loại bằng chủ sở hữu."
+      ],
+      "formation": "Hỏi: ～は だれの N ですか\nĐáp: ～は [người] の N です",
+      "pitfalls": [
+        "Câu trả lời cũng cần lịch sự: dùng さん sau tên người khác (田中さんの傘), không dùng sau tên mình."
+      ]
+    }
+  },
+  "l2_no_omit": {
+    "en": {
+      "explanation": [
+        "Once the thing is clear from context, drop the noun and keep の: だれの本ですか → わたしのです 'it's mine.' の stands in for the noun.",
+        "This only works when the omitted noun is a thing. For people, keep the noun: IMCの社員です — never ✗ IMCのです when you mean an employee."
+      ],
+      "formation": "N2 の N1 です → N2 のです（N1 = thing, already mentioned）",
+      "pitfalls": [
+        "の replaces things only (✗ はい、IMCのです for a person → ✓ はい、IMCの社員です)."
+      ]
+    },
+    "vi": {
+      "explanation": [
+        "Khi vật đã rõ theo ngữ cảnh, lược bỏ danh từ và giữ lại の: だれの本ですか → わたしのです 'là của tôi.' の thay thế cho danh từ đó.",
+        "Cách này chỉ dùng khi danh từ được lược bỏ là vật. Với người, phải giữ danh từ: IMCの社員です — không nói ✗ IMCのです khi ý là nhân viên."
+      ],
+      "formation": "N2 の N1 です → N2 のです（N1 = vật, đã được nhắc đến）",
+      "pitfalls": [
+        "の chỉ thay cho vật (✗ はい、IMCのです khi nói về người → ✓ はい、IMCの社員です)."
+      ]
+    }
+  },
+  "l2_sou_ka": {
+    "en": {
+      "explanation": [
+        "そうですか, said with a falling tone, shows you've taken in what you just heard — like 'I see' or 'oh, really.'",
+        "Although it ends in か, it isn't a question. The falling intonation is what separates it from そうですか asked with a rising tone."
+      ],
+      "formation": "[new information]。→ そうですか。（falling tone）",
+      "pitfalls": [
+        "Rising tone turns it back into a real question — keep the pitch low and falling to acknowledge."
+      ]
+    },
+    "vi": {
+      "explanation": [
+        "そうですか nói với giọng xuống thể hiện bạn đã tiếp nhận điều vừa nghe — như 'vậy à', 'ra thế.'",
+        "Dù kết thúc bằng か nhưng đây không phải câu hỏi. Chính ngữ điệu đi xuống phân biệt nó với そうですか hỏi giọng lên."
+      ],
+      "formation": "[thông tin mới]。→ そうですか。（giọng xuống）",
+      "pitfalls": [
+        "Giọng lên sẽ biến nó thành câu hỏi thật — giữ giọng thấp và đi xuống để thể hiện đã hiểu."
+      ]
+    }
+  },
+  "l3_doko": {
+    "en": {
+      "explanation": [
+        "どこですか asks where something is: トイレはどこですか 'where is the toilet?' Answer with a place word — ここ／そこ／あそこ — or a location noun.",
+        "どちらですか asks the same thing more politely, and also covers direction ('which way'). Service staff and formal situations prefer どちら."
+      ],
+      "formation": "～は どこですか（plain）\n～は どちらですか（polite）",
+      "pitfalls": [
+        "どこ is fine among friends, but with customers or superiors switch to どちら."
+      ]
+    },
+    "vi": {
+      "explanation": [
+        "どこですか hỏi vật ở đâu: トイレはどこですか 'nhà vệ sinh ở đâu?' Trả lời bằng từ chỉ nơi chốn — ここ／そこ／あそこ — hoặc danh từ địa điểm.",
+        "どちらですか hỏi điều tương tự nhưng lịch sự hơn, và còn mang nghĩa phương hướng ('phía nào'). Nhân viên phục vụ và tình huống trang trọng dùng どちら."
+      ],
+      "formation": "～は どこですか（thông thường）\n～は どちらですか（lịch sự）",
+      "pitfalls": [
+        "どこ dùng được với bạn bè, nhưng với khách hàng hay cấp trên hãy chuyển sang どちら."
+      ]
+    }
+  },
+  "l3_dochira": {
+    "en": {
+      "explanation": [
+        "Beyond 'which way', どちら politely asks the name of someone's country, school or company: お国はどちらですか 'what country are you from?'",
+        "The answer is a proper name, not a place word: ベトナムです, さくら大学です. The お in お国 politely marks the other person's country."
+      ],
+      "formation": "お国／会社／大学 は どちらですか → [proper name] です",
+      "pitfalls": [
+        "Don't answer these with ここ／あそこ — the question wants a name, not a location."
+      ]
+    },
+    "vi": {
+      "explanation": [
+        "Ngoài nghĩa 'phía nào', どちら còn hỏi lịch sự tên nước, trường hay công ty: お国はどちらですか 'nước của bạn là nước nào?'",
+        "Câu trả lời là tên riêng, không phải từ chỉ nơi chốn: ベトナムです, さくら大学です. Chữ お trong お国 thể hiện lịch sự khi nói về nước của đối phương."
+      ],
+      "formation": "お国／会社／大学 は どちらですか → [tên riêng] です",
+      "pitfalls": [
+        "Đừng trả lời bằng ここ／あそこ — câu hỏi cần tên riêng, không phải vị trí."
+      ]
+    }
+  },
+  "l3_kosoado": {
+    "en": {
+      "explanation": [
+        "The demonstratives form one system by distance: こ～ near the speaker, そ～ near the listener, あ～ far from both, ど～ for questions.",
+        "Rows by use: これ／それ／あれ for things, この／その／あの + noun, ここ／そこ／あそこ for places, and polite こちら／そちら／あちら for directions and people."
+      ],
+      "formation": "こ～（near me）・そ～（near you）・あ～（far）・ど～（question）\nthings これ / place ここ / polite こちら …",
+      "pitfalls": [
+        "あちら can politely refer to a person; あれ cannot — things only."
+      ]
+    },
+    "vi": {
+      "explanation": [
+        "Các đại từ chỉ thị lập thành một hệ thống theo khoảng cách: こ～ gần người nói, そ～ gần người nghe, あ～ xa cả hai, ど～ để hỏi.",
+        "Theo công dụng: これ／それ／あれ cho vật, この／その／あの + danh từ, ここ／そこ／あそこ cho nơi chốn, và こちら／そちら／あちら lịch sự cho phương hướng và người."
+      ],
+      "formation": "こ～（gần tôi）・そ～（gần bạn）・あ～（xa）・ど～（hỏi）\nvật これ / nơi ここ / lịch sự こちら …",
+      "pitfalls": [
+        "あちら có thể chỉ người một cách lịch sự; あれ thì không — chỉ dùng cho vật."
+      ]
+    }
+  },
+  "l3_doko_no": {
+    "en": {
+      "explanation": [
+        "どこの before a noun asks where it's from — its country or maker: どこのワインですか 'wine from where?'",
+        "Answer with the origin plus の: フランスのワインです 'French wine.' The origin noun is a country, brand or shop."
+      ],
+      "formation": "Q: ～は どこの N ですか\nA: ～は [origin] の N です",
+      "pitfalls": [
+        "どこの asks origin of a thing; どちら (alone) politely asks where something is — different questions."
+      ]
+    },
+    "vi": {
+      "explanation": [
+        "どこの trước danh từ hỏi xuất xứ — nước hay hãng nào: どこのワインですか 'rượu vang của nước nào?'",
+        "Trả lời bằng xuất xứ kèm の: フランスのワインです 'rượu vang Pháp.' Danh từ xuất xứ là nước, thương hiệu hay cửa hàng."
+      ],
+      "formation": "Hỏi: ～は どこの N ですか\nĐáp: ～は [xuất xứ] の N です",
+      "pitfalls": [
+        "どこの hỏi xuất xứ của vật; どちら (đứng riêng) hỏi lịch sự vật ở đâu — hai câu hỏi khác nhau."
+      ]
+    }
+  },
+  "l3_nangai": {
+    "en": {
+      "explanation": [
+        "何階ですか asks which floor: 食堂は何階ですか 'what floor is the dining hall on?' Answer with [number]階.",
+        "The ground floor counts as 一階. Basement floors put 地下 in front: 地下一階 'first basement floor.' Some floor numbers voice the counter (三階 さんがい)."
+      ],
+      "formation": "～は 何階ですか → ～階です（basement: 地下～階）",
+      "pitfalls": [
+        "The counter's reading shifts: 一階 いっかい, 三階 さんがい, 何階 なんがい — listen for the sound changes."
+      ]
+    },
+    "vi": {
+      "explanation": [
+        "何階ですか hỏi tầng mấy: 食堂は何階ですか 'nhà ăn ở tầng mấy?' Trả lời bằng [số]階.",
+        "Tầng trệt tính là 一階. Tầng hầm thêm 地下 phía trước: 地下一階 'tầng hầm một.' Một số số tầng biến âm (三階 さんがい)."
+      ],
+      "formation": "～は 何階ですか → ～階です（tầng hầm: 地下～階）",
+      "pitfalls": [
+        "Cách đọc lượng từ biến đổi: 一階 いっかい, 三階 さんがい, 何階 なんがい — chú ý biến âm."
+      ]
+    }
+  },
+  "l3_ikura": {
+    "en": {
+      "explanation": [
+        "いくらですか asks the price: この時計はいくらですか 'how much is this watch?'",
+        "Answer with the number and a currency unit — 円 for yen: 八百円です '800 yen.' Big numbers lean on 百・千・万."
+      ],
+      "formation": "～は いくらですか → [number] 円です",
+      "pitfalls": [
+        "Some prices voice the counter: 八百 はっぴゃく, 三千 さんぜん — the sound changes are fixed, learn them with the numbers."
+      ]
+    },
+    "vi": {
+      "explanation": [
+        "いくらですか hỏi giá: この時計はいくらですか 'cái đồng hồ này bao nhiêu tiền?'",
+        "Trả lời bằng con số kèm đơn vị tiền — 円 cho yên: 八百円です '800 yên.' Số lớn dựa vào 百・千・万."
+      ],
+      "formation": "～は いくらですか → [số] 円です",
+      "pitfalls": [
+        "Một số giá biến âm: 八百 はっぴゃく, 三千 さんぜん — biến âm cố định, học cùng con số."
+      ]
+    }
+  },
+  "l4_ni": {
+    "en": {
+      "explanation": [
+        "に after a clock time pins the action to that moment: ６時に起きます 'I get up at six.'",
+        "Exact times take に (６時に, 日曜日に); relative words like 今日・毎朝・今 do not — 毎朝起きます, no に."
+      ],
+      "formation": "[time] に V\n６時に 起きます ／ １１時に 寝ます",
+      "pitfalls": [
+        "No に after 今日, 明日, 毎朝, 今 (✗ 毎朝に起きます → ✓ 毎朝起きます)."
+      ]
+    },
+    "vi": {
+      "explanation": [
+        "に sau giờ gắn hành động vào thời điểm đó: ６時に起きます 'tôi dậy lúc 6 giờ.'",
+        "Thời điểm chính xác dùng に (６時に, 日曜日に); từ tương đối như 今日・毎朝・今 thì không — 毎朝起きます, không có に."
+      ],
+      "formation": "[thời điểm] に V\n６時に 起きます ／ １１時に 寝ます",
+      "pitfalls": [
+        "Không dùng に sau 今日, 明日, 毎朝, 今 (✗ 毎朝に起きます → ✓ 毎朝起きます)."
+      ]
+    }
+  },
+  "l4_to": {
+    "en": {
+      "explanation": [
+        "と joins two nouns the way 'and' does: 土曜日と日曜日 'Saturday and Sunday.'",
+        "It links nouns only — never sentences or adjectives. For those, Japanese uses other connectors you'll meet later (て-form, そして)."
+      ],
+      "formation": "N1 と N2\n土曜日と 日曜日 ／ ３階と ４階",
+      "pitfalls": [
+        "と can't join sentences (✗ 食べますと飲みます) — noun-to-noun only at this stage."
+      ]
+    },
+    "vi": {
+      "explanation": [
+        "と nối hai danh từ như chữ 'và': 土曜日と日曜日 'thứ Bảy và Chủ nhật.'",
+        "Nó chỉ nối danh từ — không nối câu hay tính từ. Những trường hợp đó tiếng Nhật dùng cách nối khác sẽ học sau (thể て, そして)."
+      ],
+      "formation": "N1 と N2\n土曜日と 日曜日 ／ ３階と ４階",
+      "pitfalls": [
+        "と không nối được câu (✗ 食べますと飲みます) — hiện chỉ nối danh từ với danh từ."
+      ]
+    }
+  },
+  "l4_ne": {
+    "en": {
+      "explanation": [
+        "ね at the end of a sentence reaches for the listener's agreement: 大変ですね 'that's tough, isn't it?'",
+        "It also confirms what you just heard — repeat the information with ね: ８７１の６８１３ですね '871-6813, right?'"
+      ],
+      "formation": "[sentence] ね。\n大変ですね ／ いい天気ですね",
+      "pitfalls": [
+        "ね assumes shared ground; don't use it to state facts only you know."
+      ]
+    },
+    "vi": {
+      "explanation": [
+        "ね ở cuối câu tìm sự đồng tình của người nghe: 大変ですね 'vất vả nhỉ.'",
+        "Nó cũng dùng xác nhận điều vừa nghe — lặp lại thông tin kèm ね: ８７１の６８１３ですね '871-6813 phải không nhỉ?'"
+      ],
+      "formation": "[câu] ね。\n大変ですね ／ いい天気ですね",
+      "pitfalls": [
+        "ね giả định thông tin chung; đừng dùng khi nói điều chỉ mình bạn biết."
+      ]
+    }
+  },
+  "l4_nanban": {
+    "en": {
+      "explanation": [
+        "何番ですか asks for a number — most often a phone number: 電話番号は何番ですか 'what's the phone number?'",
+        "Phone numbers are read digit by digit, and の separates the groups: ８７１の６８１３ '871-6813.'"
+      ],
+      "formation": "～は 何番ですか → [digits] の [digits] です",
+      "pitfalls": [
+        "Read each digit separately — grouping digits into big numbers (八百七十一) sounds wrong for phone numbers."
+      ]
+    },
+    "vi": {
+      "explanation": [
+        "何番ですか hỏi số — thường là số điện thoại: 電話番号は何番ですか 'số điện thoại là số mấy?'",
+        "Số điện thoại đọc từng chữ số, và の tách các cụm: ８７１の６８１３ '871-6813.'"
+      ],
+      "formation": "～は 何番ですか → [chữ số] の [chữ số] です",
+      "pitfalls": [
+        "Đọc từng chữ số một — gộp thành số lớn (八百七十一) là sai với số điện thoại."
+      ]
+    }
+  },
+  "l5_doko_mo": {
+    "en": {
+      "explanation": [
+        "When a question word (どこ, 何, だれ) takes も and the verb is negative, the meaning is a total 'none': どこも行きません 'I don't go anywhere.'",
+        "The pattern denies every option at once, so it always pairs with a ～ません / ～ませんでした verb."
+      ],
+      "formation": "[question word] + も + ～ません\nどこも 行きません ／ 何も 食べませんでした",
+      "pitfalls": [
+        "The verb must stay negative — も here has nothing to do with the 'also' も from lesson 1."
+      ]
+    },
+    "vi": {
+      "explanation": [
+        "Khi nghi vấn từ (どこ, 何, だれ) đi với も và động từ ở thể phủ định, nghĩa là 'không ... nào cả': どこも行きません 'không đi đâu cả.'",
+        "Mẫu này phủ định mọi khả năng cùng lúc, nên luôn đi với động từ ～ません / ～ませんでした."
+      ],
+      "formation": "[nghi vấn từ] + も + ～ません\nどこも 行きません ／ 何も 食べませんでした",
+      "pitfalls": [
+        "Động từ phải giữ thể phủ định — も ở đây khác hẳn với も 'cũng' ở bài 1."
+      ]
+    }
+  },
+  "l5_itsu": {
+    "en": {
+      "explanation": [
+        "いつ asks 'when'. It slots where the time answer goes: 誕生日はいつですか → 7月20日です.",
+        "Unlike a specific time (７時に), いつ never takes に — ✗いつに, ✓いつ."
+      ],
+      "formation": "～は いつですか ／ いつ V ますか",
+      "pitfalls": [
+        "Never add に to いつ (✗ いつに行きますか → ✓ いつ行きますか)."
+      ]
+    },
+    "vi": {
+      "explanation": [
+        "いつ hỏi 'khi nào'. Đứng đúng vị trí của câu trả lời thời gian: 誕生日はいつですか → 7月20日です.",
+        "Khác với thời điểm cụ thể (７時に), いつ không bao giờ đi với に — ✗いつに, ✓いつ."
+      ],
+      "formation": "～は いつですか ／ いつ V ますか",
+      "pitfalls": [
+        "Không thêm に vào いつ (✗ いつに行きますか → ✓ いつ行きますか)."
+      ]
+    }
+  },
+  "l5_yo": {
+    "en": {
+      "explanation": [
+        "よ at the end of a sentence adds new information the listener probably doesn't have yet — 'you know, I tell you.'",
+        "It contrasts with ね: ね seeks agreement about something shared, while よ pushes across something new."
+      ],
+      "formation": "[sentence] よ。",
+      "pitfalls": [
+        "Overusing よ can sound pushy; reserve it for genuinely new or corrective information."
+      ]
+    },
+    "vi": {
+      "explanation": [
+        "よ ở cuối câu bổ sung thông tin mới mà người nghe có lẽ chưa biết — 'đấy, nhé.'",
+        "Nó tương phản với ね: ね tìm sự đồng tình về điều chung, còn よ đưa ra điều mới."
+      ],
+      "formation": "[câu] よ。",
+      "pitfalls": [
+        "Lạm dụng よ nghe áp đặt; chỉ dùng cho thông tin thực sự mới hoặc để đính chính."
+      ]
+    }
+  },
+  "l6_nani": {
+    "en": {
+      "explanation": [
+        "何 asks 'what'. Before a verb or a を/が particle it reads なに (何を食べますか); before です or a counter it reads なん (何ですか, 何時).",
+        "The question word sits exactly where the answer would go, and the sentence still ends in か."
+      ],
+      "formation": "何 を V ますか（なに）／ 何ですか（なん）",
+      "pitfalls": [
+        "Watch the reading: 何を = なにを, but 何ですか = なんですか — same kanji, two readings."
+      ]
+    },
+    "vi": {
+      "explanation": [
+        "何 hỏi 'cái gì'. Trước động từ hay trợ từ を/が đọc là なに (何を食べますか); trước です hay lượng từ đọc là なん (何ですか, 何時).",
+        "Nghi vấn từ đứng đúng vị trí của câu trả lời, và câu vẫn kết bằng か."
+      ],
+      "formation": "何 を V ますか（なに）／ 何ですか（なん）",
+      "pitfalls": [
+        "Chú ý cách đọc: 何を = なにを, nhưng 何ですか = なんですか — cùng chữ Hán, hai âm đọc."
+      ]
+    }
+  },
+  "l6_ka_ack": {
+    "en": {
+      "explanation": [
+        "Said back with a falling tone, ～か signals you've just absorbed what the other person said — like 'oh, ~, I see.'",
+        "It works exactly like そうですか, and despite the か it is a reaction, not a question."
+      ],
+      "formation": "[heard word/phrase] か。（falling tone）",
+      "pitfalls": [
+        "A rising tone turns it back into a genuine question — keep the pitch falling to acknowledge."
+      ]
+    },
+    "vi": {
+      "explanation": [
+        "Nhắc lại với giọng xuống, ～か báo rằng bạn vừa tiếp nhận điều người kia nói — kiểu 'à, ~, ra vậy.'",
+        "Nó hoạt động giống hệt そうですか, và dù có か nhưng là phản ứng, không phải câu hỏi."
+      ],
+      "formation": "[từ/cụm vừa nghe] か。（giọng xuống）",
+      "pitfalls": [
+        "Giọng lên sẽ biến thành câu hỏi thật — giữ giọng xuống để thể hiện tiếp nhận."
+      ]
+    }
+  },
+  "l7_go_de": {
+    "en": {
+      "explanation": [
+        "To ask how something is said in another language, name the language + 語 + で + 何ですか: これは日本語で何ですか.",
+        "で here marks the language as the 'means' of expression, the same で as 'by / with'."
+      ],
+      "formation": "「word」は ～語で 何ですか → 「answer」です",
+      "pitfalls": [
+        "Answer with the word itself plus です (「パソコン」です), not with a full sentence."
+      ]
+    },
+    "vi": {
+      "explanation": [
+        "Để hỏi một từ nói thế nào trong ngôn ngữ khác, nêu ngôn ngữ + 語 + で + 何ですか: これは日本語で何ですか.",
+        "で ở đây đánh dấu ngôn ngữ là 'phương tiện' diễn đạt, cùng với で 'bằng'."
+      ],
+      "formation": "「word」は ～語で 何ですか → 「câu trả lời」です",
+      "pitfalls": [
+        "Trả lời bằng chính từ đó kèm です (「パソコン」です), không phải cả câu."
+      ]
+    }
+  },
+  "l7_kuremasu": {
+    "en": {
+      "explanation": [
+        "くれます means 'gives', but only when the receiver is me or someone in my in-group (family): 先生は私に本をくれました.",
+        "Compare あげます (I/others give outward) and もらいます (receive): くれます is specifically 'gives to me'. 私に is often dropped."
+      ],
+      "formation": "[giver] は （私に）N を くれます",
+      "pitfalls": [
+        "Never use くれます when you give to someone else — that's あげます."
+      ]
+    },
+    "vi": {
+      "explanation": [
+        "くれます nghĩa là 'cho/tặng', nhưng chỉ khi người nhận là tôi hay người trong nhóm mình (gia đình): 先生は私に本をくれました.",
+        "So với あげます (tôi/người khác cho ra ngoài) và もらいます (nhận): くれます là 'cho tôi'. 私に thường được lược bỏ."
+      ],
+      "formation": "[người cho] は （私に）N を くれます",
+      "pitfalls": [
+        "Không dùng くれます khi bạn cho người khác — đó là あげます."
+      ]
+    }
+  },
+  "l8_dou": {
+    "en": {
+      "explanation": [
+        "どうですか asks for an impression, opinion or the state of something: この町はどうですか 'how is this town?'",
+        "The answer is an adjective — 静かです, とても難しいです — describing how it seems."
+      ],
+      "formation": "～は どうですか → [adjective] です",
+      "pitfalls": [
+        "どう asks for a feeling/impression; どんな asks what type — don't swap them."
+      ]
+    },
+    "vi": {
+      "explanation": [
+        "どうですか hỏi ấn tượng, ý kiến hay trạng thái của điều gì đó: この町はどうですか 'thị trấn này thế nào?'",
+        "Câu trả lời là tính từ — 静かです, とても難しいです — mô tả cảm nhận."
+      ],
+      "formation": "～は どうですか → [tính từ] です",
+      "pitfalls": [
+        "どう hỏi cảm nhận/ấn tượng; どんな hỏi loại nào — đừng nhầm lẫn."
+      ]
+    }
+  },
+  "l8_adj_noun": {
+    "en": {
+      "explanation": [
+        "An adjective modifying a noun comes right before it and keeps its ending: 高いカメラ (い stays), 有名な山 (な appears).",
+        "どんな N asks what a noun is like; the whole [adjective + noun] then behaves as one noun phrase."
+      ],
+      "formation": "[Aい] N ／ [Aな] な N\n高い カメラ ／ 有名な 山",
+      "pitfalls": [
+        "な-adjectives need な before the noun (✗ 有名山 → ✓ 有名な山); い-adjectives never take な."
+      ]
+    },
+    "vi": {
+      "explanation": [
+        "Tính từ bổ nghĩa danh từ đứng ngay trước nó và giữ nguyên đuôi: 高いカメラ (giữ い), 有名な山 (thêm な).",
+        "どんな N hỏi danh từ như thế nào; cả cụm [tính từ + danh từ] khi đó hoạt động như một danh từ."
+      ],
+      "formation": "[Aい] N ／ [Aな] な N\n高い カメラ ／ 有名な 山",
+      "pitfalls": [
+        "Tính từ な cần な trước danh từ (✗ 有名山 → ✓ 有名な山); tính từ い không bao giờ thêm な."
+      ]
+    }
+  },
+  "l8_totemo_amari": {
+    "en": {
+      "explanation": [
+        "とても 'very' intensifies an adjective: とてもおいしい 'very tasty.'",
+        "あまり 'not very' softens, and must go with a negative: あまり安くない 'not very cheap.'"
+      ],
+      "formation": "とても [A] ／ あまり [A の否定形]",
+      "pitfalls": [
+        "あまり only works with a negative (✗ あまり安いです → ✓ あまり安くないです)."
+      ]
+    },
+    "vi": {
+      "explanation": [
+        "とても 'rất' nhấn mạnh tính từ: とてもおいしい 'rất ngon.'",
+        "あまり 'không ... lắm' làm nhẹ, và phải đi với phủ định: あまり安くない 'không rẻ lắm.'"
+      ],
+      "formation": "とても [A] ／ あまり [A thể phủ định]",
+      "pitfalls": [
+        "あまり chỉ dùng với phủ định (✗ あまり安いです → ✓ あまり安くないです)."
+      ]
+    }
+  },
+  "l8_soshite": {
+    "en": {
+      "explanation": [
+        "そして joins two sentences whose ideas point the same way: おいしいです。そして、安いです 'it's tasty, and cheap.'",
+        "Use it for similar, matching points; for a contrast between them you use が instead."
+      ],
+      "formation": "[sentence 1]。そして、[sentence 2]。",
+      "pitfalls": [
+        "Don't use そして to link opposing ideas — that role belongs to が ('but')."
+      ]
+    },
+    "vi": {
+      "explanation": [
+        "そして nối hai câu có ý cùng chiều: おいしいです。そして、安いです 'ngon, và rẻ.'",
+        "Dùng cho các ý tương đồng; nếu tương phản thì dùng が."
+      ],
+      "formation": "[câu 1]。そして、[câu 2]。",
+      "pitfalls": [
+        "Không dùng そして để nối ý trái ngược — vai trò đó thuộc về が ('nhưng')."
+      ]
+    }
+  },
+  "l9_ga_arimasu": {
+    "en": {
+      "explanation": [
+        "あります also means 'have': お金がありません 'I have no money', 車があります 'have a car.'",
+        "The thing possessed is marked with が, and the negative ありません says you don't have it."
+      ],
+      "formation": "～は N が あります／ありません",
+      "pitfalls": [
+        "The possessed noun takes が, not を (✗ お金をあります → ✓ お金があります)."
+      ]
+    },
+    "vi": {
+      "explanation": [
+        "あります còn nghĩa là 'có (sở hữu)': お金がありません 'không có tiền', 車があります 'có xe hơi.'",
+        "Vật sở hữu đánh dấu bằng が, và thể phủ định ありません nghĩa là không có."
+      ],
+      "formation": "～は N が あります／ありません",
+      "pitfalls": [
+        "Danh từ sở hữu dùng が, không dùng を (✗ お金をあります → ✓ お金があります)."
+      ]
+    }
+  },
+  "l9_adverb": {
+    "en": {
+      "explanation": [
+        "Adverbs sit before the verb to grade it. Positive: よく (well), だいたい (mostly), 少し (a little). Negative: あまり (not much), 全然 (not at all).",
+        "あまり and 全然 must be followed by a negative verb: 全然わかりません 'don't understand at all.'"
+      ],
+      "formation": "[adverb] + V\nよく わかります ／ 全然 わかりません",
+      "pitfalls": [
+        "あまり and 全然 only take negatives (✗ 全然わかります → ✓ 全然わかりません)."
+      ]
+    },
+    "vi": {
+      "explanation": [
+        "Trạng từ đứng trước động từ để chỉ mức độ. Khẳng định: よく (rõ), だいたい (đại khái), 少し (một chút). Phủ định: あまり (không ... mấy), 全然 (hoàn toàn không).",
+        "あまり và 全然 phải đi với động từ phủ định: 全然わかりません 'chẳng hiểu gì cả.'"
+      ],
+      "formation": "[trạng từ] + V\nよく わかります ／ 全然 わかりません",
+      "pitfalls": [
+        "あまり và 全然 chỉ đi với phủ định (✗ 全然わかります → ✓ 全然わかりません)."
+      ]
+    }
+  },
+  "l9_donna": {
+    "en": {
+      "explanation": [
+        "どんな N asks which kind within a group: どんなスポーツ 'what kind of sport?' The answer names a specific one — サッカー.",
+        "This is the same どんな as lesson 8, here narrowing down a category rather than asking for a description."
+      ],
+      "formation": "どんな N が 好きですか → [specific N] が 好きです",
+      "pitfalls": [
+        "Answer どんな with a concrete example, not with an adjective."
+      ]
+    },
+    "vi": {
+      "explanation": [
+        "どんな N hỏi loại nào trong một nhóm: どんなスポーツ 'môn thể thao nào?' Câu trả lời nêu một cái cụ thể — サッカー.",
+        "Đây cũng là どんな ở bài 8, ở đây thu hẹp một nhóm chứ không hỏi mô tả."
+      ],
+      "formation": "どんな N が 好きですか → [N cụ thể] が 好きです",
+      "pitfalls": [
+        "Trả lời どんな bằng ví dụ cụ thể, không bằng tính từ."
+      ]
+    }
+  },
+  "l10_wa_ni": {
+    "en": {
+      "explanation": [
+        "When the thing is already known, make it the topic with は and mark its place with に: 本はどこにありますか 'where is the book?'",
+        "This flips lesson 10's [place]に[thing]があります to focus on the thing: 本は机の上にあります."
+      ],
+      "formation": "N は [place] に あります／います",
+      "pitfalls": [
+        "Use います for people and animals, あります for things — the choice follows the topic noun."
+      ]
+    },
+    "vi": {
+      "explanation": [
+        "Khi vật đã biết, đưa nó thành chủ đề với は và đánh dấu nơi chốn bằng に: 本はどこにありますか 'sách ở đâu?'",
+        "Cách này đảo [nơi]に[vật]があります của bài 10 để nhấn vào vật: 本は机の上にあります."
+      ],
+      "formation": "N は [place] に あります／います",
+      "pitfalls": [
+        "Dùng います cho người và động vật, あります cho vật — theo danh từ chủ đề."
+      ]
+    }
+  },
+  "l10_aida": {
+    "en": {
+      "explanation": [
+        "N1 と N2 の 間 means 'between N1 and N2': 本屋と公園の間 'between the bookstore and the park.'",
+        "It plugs into the same place slot as 上/下/隣, so 間 に あります completes 'is (located) between.'"
+      ],
+      "formation": "N1 と N2 の 間 に あります／います",
+      "pitfalls": [
+        "Both nouns need と, and 間 always follows の (✗ 本屋公園の間 → ✓ 本屋と公園の間)."
+      ]
+    },
+    "vi": {
+      "explanation": [
+        "N1 と N2 の 間 nghĩa là 'ở giữa N1 và N2': 本屋と公園の間 'giữa nhà sách và công viên.'",
+        "Nó vào cùng vị trí như 上/下/隣, nên 間 に あります nghĩa là 'ở giữa.'"
+      ],
+      "formation": "N1 と N2 の 間 に あります／います",
+      "pitfalls": [
+        "Cả hai danh từ cần と, và 間 luôn theo sau の (✗ 本屋公園の間 → ✓ 本屋と公園の間)."
+      ]
+    }
+  },
+  "l10_ya_nado": {
+    "en": {
+      "explanation": [
+        "や lists nouns as examples, not an exhaustive set: テレビや冷蔵庫 'a TV and a fridge (among others).'",
+        "など often closes the list to underline 'and so on'; it attaches before the following particle (などが, などを)."
+      ],
+      "formation": "N1 や N2 (など) + particle",
+      "pitfalls": [
+        "や implies more items exist; use と instead when the list is complete and exact."
+      ]
+    },
+    "vi": {
+      "explanation": [
+        "や liệt kê danh từ làm ví dụ, không phải trọn bộ: テレビや冷蔵庫 'ti vi, tủ lạnh (và những thứ khác).'",
+        "など thường kết thúc danh sách để nhấn 'v.v.'; nó gắn trước trợ từ theo sau (などが, などを)."
+      ],
+      "formation": "N1 や N2 (など) + trợ từ",
+      "pitfalls": [
+        "や hàm ý còn nhiều thứ khác; dùng と khi danh sách đầy đủ và chính xác."
+      ]
+    }
+  },
+  "l11_gurai": {
+    "en": {
+      "explanation": [
+        "ぐらい (also written くらい) attaches to a number and its counter to mean 'about': 20人ぐらい 'about twenty people'.",
+        "It only softens a quantity — it never marks time deadlines the way までに does."
+      ],
+      "formation": "[number + counter] ぐらい\n20人ぐらい ／ 5本ぐらい",
+      "pitfalls": [
+        "ぐらい follows the counter, not the bare noun (✗ ビールぐらい5本 → ✓ 5本ぐらい)."
+      ]
+    },
+    "vi": {
+      "explanation": [
+        "ぐらい (còn viết くらい) gắn sau số và lượng từ để nghĩa là 'khoảng': 20人ぐらい 'khoảng hai mươi người'.",
+        "Nó chỉ làm mềm số lượng — không đánh dấu hạn thời gian như までに."
+      ],
+      "formation": "[số + lượng từ] ぐらい\n20人ぐらい ／ 5本ぐらい",
+      "pitfalls": [
+        "ぐらい theo sau lượng từ, không phải danh từ trần (✗ ビールぐらい5本 → ✓ 5本ぐらい)."
+      ]
+    }
+  },
+  "l11_donokurai": {
+    "en": {
+      "explanation": [
+        "どのくらい (or どのぐらい) asks 'how long / how much': どのくらいかかりますか 'how long does it take?'",
+        "Answers usually give an amount, often softened with ぐらい: 三か月ぐらい."
+      ],
+      "formation": "どのくらい ～ますか → [quantity] ぐらい",
+      "pitfalls": [
+        "It asks about amount or duration, not a point in time — for 'when', use いつ."
+      ]
+    },
+    "vi": {
+      "explanation": [
+        "どのくらい (hay どのぐらい) hỏi 'bao lâu / bao nhiêu': どのくらいかかりますか 'mất bao lâu?'",
+        "Câu trả lời thường nêu số lượng, hay làm mềm bằng ぐらい: 三か月ぐらい."
+      ],
+      "formation": "どのくらい ～ますか → [số lượng] ぐらい",
+      "pitfalls": [
+        "Nó hỏi số lượng hay thời lượng, không phải thời điểm — để hỏi 'khi nào' dùng いつ."
+      ]
+    }
+  },
+  "l11_dake": {
+    "en": {
+      "explanation": [
+        "だけ means 'only': 野菜だけ食べます 'I eat only vegetables.' It limits to exactly the thing named.",
+        "だけ can stand in place of を or が, but other particles (に, で, へ) stay and だけ follows them."
+      ],
+      "formation": "N だけ ／ N + particle + だけ",
+      "pitfalls": [
+        "Don't stack だけ with を/が (✗ 野菜をだけ → ✓ 野菜だけ)."
+      ]
+    },
+    "vi": {
+      "explanation": [
+        "だけ nghĩa là 'chỉ': 野菜だけ食べます 'tôi chỉ ăn rau.' Nó giới hạn đúng vào thứ được nêu.",
+        "だけ có thể thay cho を hay が, nhưng các trợ từ khác (に, で, へ) vẫn giữ và だけ theo sau chúng."
+      ],
+      "formation": "N だけ ／ N + trợ từ + だけ",
+      "pitfalls": [
+        "Không ghép だけ với を/が (✗ 野菜をだけ → ✓ 野菜だけ)."
+      ]
+    }
+  },
+  "l12_no_pronoun": {
+    "en": {
+      "explanation": [
+        "When the noun is clear, の replaces it after an adjective: 安いの 'the cheap one', 大きいの 'the big one'.",
+        "な-adjectives keep their な before の: 静かなの. This の is a stand-in noun, the same idea as lesson 2's ～のです."
+      ],
+      "formation": "[Aい] の ／ [Aな] な の",
+      "pitfalls": [
+        "な-adjectives need な (✗ 静かの → ✓ 静かなの)."
+      ]
+    },
+    "vi": {
+      "explanation": [
+        "Khi danh từ đã rõ, の thay cho nó sau tính từ: 安いの 'cái rẻ', 大きいの 'cái to'.",
+        "Tính từ な giữ な trước の: 静かなの. の này là danh từ thay thế, cùng ý với ～のです ở bài 2."
+      ],
+      "formation": "[Aい] の ／ [Aな] な の",
+      "pitfalls": [
+        "Tính từ な cần な (✗ 静かの → ✓ 静かなの)."
+      ]
+    }
+  },
+  "l13_nanika": {
+    "en": {
+      "explanation": [
+        "Adding か to a question word makes it indefinite: 何 'what' → 何か 'something'; どこ → どこか 'somewhere'; だれ → だれか 'someone'.",
+        "The particles を and へ are usually dropped after these: 何か食べます (not 何かを食べます)."
+      ],
+      "formation": "何か ／ どこか ／ だれか",
+      "pitfalls": [
+        "Answer 何か-type yes/no questions with はい／いいえ — they are still questions."
+      ]
+    },
+    "vi": {
+      "explanation": [
+        "Thêm か vào nghi vấn từ khiến nó bất định: 何 'cái gì' → 何か 'cái gì đó'; どこ → どこか 'đâu đó'; だれ → だれか 'ai đó'.",
+        "Trợ từ を và へ thường được lược bỏ sau chúng: 何か食べます (không phải 何かを食べます)."
+      ],
+      "formation": "何か ／ どこか ／ だれか",
+      "pitfalls": [
+        "Trả lời câu hỏi kiểu 何か bằng はい／いいえ — chúng vẫn là câu hỏi."
+      ]
+    }
+  },
+  "l14_kata": {
+    "en": {
+      "explanation": [
+        "Take the verb's ます-stem and add 方 to name the manner of doing it: 書きます → 書き方 'how to write'.",
+        "The result is a noun, so a preceding object links with の: 漢字の書き方 'the way of writing kanji'."
+      ],
+      "formation": "V-ますstem + 方\n書きます → 書き方 ／ 読みます → 読み方",
+      "pitfalls": [
+        "The object takes の, not を, before a 方 noun (✗ 漢字を書き方 → ✓ 漢字の書き方)."
+      ]
+    },
+    "vi": {
+      "explanation": [
+        "Lấy thân ます của động từ và thêm 方 để chỉ cách làm: 書きます → 書き方 'cách viết'.",
+        "Kết quả là danh từ, nên tân ngữ đứng trước nối bằng の: 漢字の書き方 'cách viết kanji'."
+      ],
+      "formation": "V-thân ます + 方\n書きます → 書き方 ／ 読みます → 読み方",
+      "pitfalls": [
+        "Tân ngữ dùng の, không dùng を, trước danh từ 方 (✗ 漢字を書き方 → ✓ 漢字の書き方)."
+      ]
+    }
+  },
+  "l14_mashouka": {
+    "en": {
+      "explanation": [
+        "V-ましょうか offers your own help: 荷物を持ちましょうか 'shall I carry your bags?'",
+        "It differs from plain ましょう ('let's ~ together'): ましょうか is 'shall I do it for you?' The reply is often お願いします or けっこうです."
+      ],
+      "formation": "V-ましょうか",
+      "pitfalls": [
+        "Don't confuse with ませんか (inviting the other person) — ましょうか offers to act yourself."
+      ]
+    },
+    "vi": {
+      "explanation": [
+        "V-ましょうか đề nghị sự giúp đỡ của mình: 荷物を持ちましょうか 'để tôi xách hành lý nhé?'",
+        "Nó khác ましょう ('cùng ~ nhé'): ましょうか là 'để tôi làm cho nhé?' Câu đáp thường là お願いします hay けっこうです."
+      ],
+      "formation": "V-ましょうか",
+      "pitfalls": [
+        "Đừng nhầm với ませんか (rủ đối phương) — ましょうか đề nghị mình tự làm."
+      ]
+    }
+  },
+  "l15_shitteimasu": {
+    "en": {
+      "explanation": [
+        "'To know' is 知っています, in the ています state form — knowing is treated as an ongoing state, not a one-off action.",
+        "Its negative is irregular: the plain 知りません 'I don't know', never 知っていません."
+      ],
+      "formation": "知っていますか → はい、知っています／いいえ、知りません",
+      "pitfalls": [
+        "The negative is 知りません, not 知っていません — this pair is a fixed exception."
+      ]
+    },
+    "vi": {
+      "explanation": [
+        "'Biết' là 知っています, ở thể trạng thái ています — biết được coi là trạng thái tiếp diễn, không phải hành động nhất thời.",
+        "Phủ định của nó bất quy tắc: dùng 知りません 'không biết', không bao giờ 知っていません."
+      ],
+      "formation": "知っていますか → はい、知っています／いいえ、知りません",
+      "pitfalls": [
+        "Phủ định là 知りません, không phải 知っていません — cặp này là ngoại lệ cố định."
+      ]
+    }
+  },
+  "l16_wa_ga": {
+    "en": {
+      "explanation": [
+        "A topic marked with は can be followed by a detail marked with が: 北海道は雪が多い 'as for Hokkaido, the snow is heavy'.",
+        "は sets the whole, が picks out the part being described — common for describing places, people's features, and abilities."
+      ],
+      "formation": "[whole] は [part] が [adjective]\n北海道は 雪が 多い",
+      "pitfalls": [
+        "Keep the two particles distinct: は on the whole, が on the specific feature."
+      ]
+    },
+    "vi": {
+      "explanation": [
+        "Chủ đề đánh dấu bằng は có thể theo sau bởi chi tiết đánh dấu bằng が: 北海道は雪が多い 'nói về Hokkaido thì tuyết nhiều'.",
+        "は nêu tổng thể, が chỉ ra phần được mô tả — thường dùng tả nơi chốn, đặc điểm người, và khả năng."
+      ],
+      "formation": "[tổng thể] は [chi tiết] が [tính từ]\n北海道は 雪が 多い",
+      "pitfalls": [
+        "Giữ hai trợ từ tách biệt: は cho tổng thể, が cho đặc điểm cụ thể."
+      ]
+    }
+  },
+  "l16_douyatte": {
+    "en": {
+      "explanation": [
+        "どうやって asks about the method or steps: 大学までどうやって行きますか 'how do you get to the university?'",
+        "The answer is a て-form sequence of steps: バスに乗って、駅で降ります."
+      ],
+      "formation": "～は どうやって ～ますか",
+      "pitfalls": [
+        "どうやって asks 'by what steps/means', while なんで/なにで asks only the single vehicle."
+      ]
+    },
+    "vi": {
+      "explanation": [
+        "どうやって hỏi về phương pháp hay trình tự: 大学までどうやって行きますか 'đến trường bằng cách nào?'",
+        "Câu trả lời là chuỗi bước dùng thể て: バスに乗って、駅で降ります."
+      ],
+      "formation": "～は どうやって ～ますか",
+      "pitfalls": [
+        "どうやって hỏi 'theo trình tự/cách nào', còn なんで/なにで chỉ hỏi một phương tiện."
+      ]
+    }
+  },
+  "l16_dore": {
+    "en": {
+      "explanation": [
+        "どれ asks 'which one' when choosing among three or more separate things: 傘はどれですか.",
+        "Before a noun, use どの N instead of どれ: どの人 'which person'. (For two items, lesson 12's どちら is used.)"
+      ],
+      "formation": "どれですか ／ どの N ですか",
+      "pitfalls": [
+        "どれ stands alone; どの always attaches to a noun (✗ どれ人 → ✓ どの人)."
+      ]
+    },
+    "vi": {
+      "explanation": [
+        "どれ hỏi 'cái nào' khi chọn trong ba thứ trở lên riêng biệt: 傘はどれですか.",
+        "Trước danh từ dùng どの N thay cho どれ: どの人 'người nào'. (Với hai thứ dùng どちら ở bài 12.)"
+      ],
+      "formation": "どれですか ／ どの N ですか",
+      "pitfalls": [
+        "どれ đứng một mình; どの luôn gắn với danh từ (✗ どれ人 → ✓ どの人)."
+      ]
+    }
+  },
+  "l17_madeni": {
+    "en": {
+      "explanation": [
+        "までに sets a deadline: 金曜日までに出してください 'submit it by Friday' — any time before the limit is fine.",
+        "Distinguish it from まで (a continuous span up to a point): 5時まで働きます 'work until 5' vs 5時までに帰ります 'be home by 5'."
+      ],
+      "formation": "[time] までに V",
+      "pitfalls": [
+        "までに (deadline) is not まで (continuous 'until') — the に changes the meaning."
+      ]
+    },
+    "vi": {
+      "explanation": [
+        "までに đặt hạn chót: 金曜日までに出してください 'nộp trước thứ Sáu' — làm lúc nào trước hạn cũng được.",
+        "Phân biệt với まで (khoảng liên tục đến một điểm): 5時まで働きます 'làm đến 5 giờ' vs 5時までに帰ります 'về trước 5 giờ'."
+      ],
+      "formation": "[thời điểm] までに V",
+      "pitfalls": [
+        "までに (hạn chót) khác まで (liên tục 'cho đến') — chữ に đổi nghĩa."
+      ]
+    }
+  },
+  "l18_shumi": {
+    "en": {
+      "explanation": [
+        "To state a hobby, say 趣味は … です. If the hobby is an activity, turn the verb into a noun with dictionary-form + こと: 弾くこと 'playing'.",
+        "So 趣味はピアノを弾くことです 'my hobby is playing the piano'. A noun hobby needs no こと: 趣味はスポーツです."
+      ],
+      "formation": "趣味は [dictionary V] ことです ／ 趣味は N です",
+      "pitfalls": [
+        "Verb hobbies need こと (✗ 趣味はピアノを弾きます → ✓ 弾くことです)."
+      ]
+    },
+    "vi": {
+      "explanation": [
+        "Để nói sở thích, dùng 趣味は … です. Nếu sở thích là hoạt động, biến động từ thành danh từ bằng thể từ điển + こと: 弾くこと 'chơi (đàn)'.",
+        "Vậy 趣味はピアノを弾くことです 'sở thích của tôi là chơi đàn piano'. Sở thích là danh từ thì không cần こと: 趣味はスポーツです."
+      ],
+      "formation": "趣味は [thể từ điển V] ことです ／ 趣味は N です",
+      "pitfalls": [
+        "Sở thích là động từ cần こと (✗ 趣味はピアノを弾きます → ✓ 弾くことです)."
+      ]
+    }
+  },
+  "l20_casual": {
+    "en": {
+      "explanation": [
+        "Casual (plain) style is used with friends and family. Verbs and です become plain form, and ます-questions just rise in pitch — 行く？ 'going?'",
+        "だ (plain です) is frequently dropped in speech: 「暇？」「うん、暇。」 The particles ね／よ often replace it."
+      ],
+      "formation": "[plain form] （＋rising ？ for questions）",
+      "pitfalls": [
+        "Use plain style only in close, informal settings — with strangers or superiors, keep です/ます."
+      ]
+    },
+    "vi": {
+      "explanation": [
+        "Thể thông thường dùng với bạn bè và người nhà. Động từ và です về thể thông thường, và câu hỏi ます chỉ lên giọng — 行く？ 'đi không?'",
+        "だ (です thông thường) thường được lược bỏ khi nói: 「暇？」「うん、暇。」 Trợ từ ね／よ thường thay chỗ nó."
+      ],
+      "formation": "[thể thông thường] （＋？ lên giọng cho câu hỏi）",
+      "pitfalls": [
+        "Chỉ dùng thể thông thường trong bối cảnh thân mật — với người lạ hay cấp trên hãy giữ です/ます."
+      ]
+    }
+  },
+  "l21_de_arimasu": {
+    "en": {
+      "explanation": [
+        "When N is an event (a match, festival, meeting), あります means 'is held / takes place', and で marks the location.",
+        "This is different from lesson 10's あります ('exists'): here で (not に) marks where the event happens."
+      ],
+      "formation": "[place] で [event] が あります",
+      "pitfalls": [
+        "Events take で, not に (✗ 東京に会議があります → ✓ 東京で会議があります)."
+      ]
+    },
+    "vi": {
+      "explanation": [
+        "Khi N là sự kiện (trận đấu, lễ hội, cuộc họp), あります nghĩa là 'được tổ chức / diễn ra', và で đánh dấu địa điểm.",
+        "Khác với あります ('tồn tại') ở bài 10: ở đây で (không phải に) đánh dấu nơi sự kiện diễn ra."
+      ],
+      "formation": "[nơi] で [sự kiện] が あります",
+      "pitfalls": [
+        "Sự kiện dùng で, không dùng に (✗ 東京に会議があります → ✓ 東京で会議があります)."
+      ]
+    }
+  },
+  "l21_demo": {
+    "en": {
+      "explanation": [
+        "N でも offers a loose example — 'some ~, or something like it': お茶でも飲みませんか 'shall we have tea or something?'",
+        "It softens an invitation by not pinning down the exact thing; the listener may suggest an alternative."
+      ],
+      "formation": "N でも ～ませんか／ましょう",
+      "pitfalls": [
+        "This でも means 'or something', not the 'even' でも from later lessons — context and position tell them apart."
+      ]
+    },
+    "vi": {
+      "explanation": [
+        "N でも đưa ra ví dụ nới lỏng — 'chút ~, hay gì đó tương tự': お茶でも飲みませんか 'uống trà hay gì đó nhé?'",
+        "Nó làm mềm lời mời bằng cách không chốt chính xác; người nghe có thể đề xuất thứ khác."
+      ],
+      "formation": "N でも ～ませんか／ましょう",
+      "pitfalls": [
+        "でも này nghĩa 'hay gì đó', khác でも 'dù cho' ở các bài sau — ngữ cảnh và vị trí phân biệt chúng."
+      ]
+    }
   }
 }

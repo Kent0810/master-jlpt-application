@@ -818,70 +818,12 @@
       {
         "kind": "section",
         "title": {
-          "en": "Part 1 · これ・それ・あれ",
-          "vi": "Phần 1 · これ・それ・あれ"
+          "en": "Part 1 · そうです・～か、～か",
+          "vi": "Phần 1 · そうです・～か、～か"
         },
         "subtitle": {
-          "en": "Point at things; この/その/あの go before a noun.",
-          "vi": "Chỉ đồ vật; この/その/あの đứng trước danh từ."
-        }
-      },
-      {
-        "kind": "grammar",
-        "grammarIds": [
-          "l2_kore_sore_are",
-          "l2_kono_sono_ano"
-        ]
-      },
-      {
-        "kind": "exercise",
-        "title": {
-          "en": "Practice · this / that",
-          "vi": "Luyện tập · này / kia"
-        },
-        "source": "authored",
-        "items": [
-          {
-            "prompt": "（　）かばんはわたしのです。",
-            "reading": "（　）かばんはわたしのです。",
-            "options": [
-              "この",
-              "これ",
-              "それ",
-              "あれ"
-            ],
-            "answer": 0,
-            "explanation": {
-              "en": "この goes before a noun; これ stands alone.",
-              "vi": "この đứng trước danh từ; これ đứng một mình."
-            }
-          },
-          {
-            "prompt": "（　）はわたしの傘です。",
-            "reading": "（　）はわたしのかさです。",
-            "options": [
-              "これ",
-              "この",
-              "あの",
-              "その"
-            ],
-            "answer": 0,
-            "explanation": {
-              "en": "これ stands alone as the subject ('this one').",
-              "vi": "これ đứng một mình làm chủ ngữ ('cái này')."
-            }
-          }
-        ]
-      },
-      {
-        "kind": "section",
-        "title": {
-          "en": "Part 2 · Confirming & choosing",
-          "vi": "Phần 2 · Xác nhận & lựa chọn"
-        },
-        "subtitle": {
-          "en": "そうです / ちがいます, and A or B with ～か、～か.",
-          "vi": "そうです / ちがいます, và A hay B với ～か、～か."
+          "en": "Confirming with そうです／ちがいます, and either-or questions.",
+          "vi": "Xác nhận với そうです／ちがいます, và câu hỏi lựa chọn."
         }
       },
       {
@@ -894,8 +836,8 @@
       {
         "kind": "exercise",
         "title": {
-          "en": "Practice · yes / no / choice",
-          "vi": "Luyện tập · có / không / lựa chọn"
+          "en": "Practice · そうです・～か",
+          "vi": "Luyện tập · そうです・～か"
         },
         "source": "authored",
         "items": [
@@ -949,8 +891,197 @@
       {
         "kind": "section",
         "title": {
-          "en": "Part 3 · 会話",
-          "vi": "Phần 3 · 会話"
+          "en": "Part 2 · これ・それ・あれ",
+          "vi": "Phần 2 · これ・それ・あれ"
+        },
+        "subtitle": {
+          "en": "Pointing at things: これ／それ／あれ and この／その／あの + noun.",
+          "vi": "Chỉ đồ vật: これ／それ／あれ và この／その／あの + danh từ."
+        }
+      },
+      {
+        "kind": "grammar",
+        "grammarIds": [
+          "l2_kore_sore_are",
+          "l2_kono_sono_ano"
+        ]
+      },
+      {
+        "kind": "exercise",
+        "title": {
+          "en": "Practice · これ・この",
+          "vi": "Luyện tập · これ・この"
+        },
+        "source": "authored",
+        "items": [
+          {
+            "prompt": "（　）かばんはわたしのです。",
+            "reading": "（　）かばんはわたしのです。",
+            "options": [
+              "この",
+              "これ",
+              "それ",
+              "あれ"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "この goes before a noun; これ stands alone.",
+              "vi": "この đứng trước danh từ; これ đứng một mình."
+            }
+          },
+          {
+            "prompt": "（　）はわたしの傘です。",
+            "reading": "（　）はわたしのかさです。",
+            "options": [
+              "これ",
+              "この",
+              "あの",
+              "その"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "これ stands alone as the subject ('this one').",
+              "vi": "これ đứng một mình làm chủ ngữ ('cái này')."
+            }
+          }
+        ]
+      },
+      {
+        "kind": "section",
+        "title": {
+          "en": "Part 3 · なんの・だれの・の",
+          "vi": "Phần 3 · なんの・だれの・の"
+        },
+        "subtitle": {
+          "en": "Asking what kind and whose with の — and dropping the repeated noun.",
+          "vi": "Hỏi loại gì và của ai với の — và lược bỏ danh từ lặp lại."
+        }
+      },
+      {
+        "kind": "grammar",
+        "grammarIds": [
+          "l2_nan_no",
+          "l2_dare_no",
+          "l2_no_omit"
+        ]
+      },
+      {
+        "kind": "exercise",
+        "title": {
+          "en": "Practice · なんの・だれの",
+          "vi": "Luyện tập · なんの・だれの"
+        },
+        "source": "authored",
+        "items": [
+          {
+            "prompt": "これは（　）本ですか。…日本語の本です。",
+            "reading": "これは（　）ほんですか。…にほんごのほんです。",
+            "options": [
+              "なんの",
+              "だれの",
+              "どこの",
+              "どれ"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "なんの asks what kind — the answer names a type (日本語の本).",
+              "vi": "なんの hỏi về loại — câu trả lời nêu chủng loại (日本語の本)."
+            }
+          },
+          {
+            "prompt": "これは（　）傘ですか。…わたしの傘です。",
+            "reading": "これは（　）かさですか。…わたしのかさです。",
+            "options": [
+              "だれの",
+              "なんの",
+              "どこの",
+              "この"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "だれの asks whose — the answer names a person.",
+              "vi": "だれの hỏi của ai — câu trả lời nêu người."
+            }
+          },
+          {
+            "prompt": "「この傘はあなたのですか。」「はい、わたし（　）です。」",
+            "reading": "「このかさはあなたのですか。」「はい、わたし（　）です。」",
+            "options": [
+              "の",
+              "は",
+              "が",
+              "か"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "の stands in for the thing already mentioned: わたしの 'mine'.",
+              "vi": "の thay cho vật đã nhắc: わたしの 'của tôi'."
+            }
+          }
+        ]
+      },
+      {
+        "kind": "section",
+        "title": {
+          "en": "Part 4 · そうですか",
+          "vi": "Phần 4 · そうですか"
+        },
+        "subtitle": {
+          "en": "Taking in new information — 'I see.'",
+          "vi": "Tiếp nhận thông tin mới — 'Vậy à.'"
+        }
+      },
+      {
+        "kind": "grammar",
+        "grammarIds": [
+          "l2_sou_ka"
+        ]
+      },
+      {
+        "kind": "exercise",
+        "title": {
+          "en": "Practice · そうですか",
+          "vi": "Luyện tập · そうですか"
+        },
+        "source": "authored",
+        "items": [
+          {
+            "prompt": "「さとうさんのです。」「（　）。」",
+            "reading": "「さとうさんのです。」「（　）。」",
+            "options": [
+              "そうですか",
+              "そうです",
+              "ちがいます",
+              "なんですか"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "そうですか (falling tone) acknowledges new information.",
+              "vi": "そうですか (giọng xuống) thể hiện đã tiếp nhận thông tin."
+            }
+          },
+          {
+            "prompt": "「トイレはあそこです。」「（　）。ありがとうございます。」",
+            "reading": "「トイレはあそこです。」「（　）。ありがとうございます。」",
+            "options": [
+              "そうですか",
+              "ちがいます",
+              "なんですか",
+              "どなたですか"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "Acknowledge the directions with そうですか — 'I see.'",
+              "vi": "Tiếp nhận chỉ dẫn bằng そうですか — 'vậy à.'"
+            }
+          }
+        ]
+      },
+      {
+        "kind": "section",
+        "title": {
+          "en": "Part 5 · 会話",
+          "vi": "Phần 5 · 会話"
         },
         "subtitle": {
           "en": "The lesson in action — dialogues and reading practice.",
@@ -1339,8 +1470,8 @@
       {
         "kind": "section",
         "title": {
-          "en": "Part 4 · 語彙",
-          "vi": "Phần 4 · 語彙"
+          "en": "Part 6 · 語彙",
+          "vi": "Phần 6 · 語彙"
         },
         "subtitle": {
           "en": "The lesson's new words — then check yourself and review.",
@@ -1450,21 +1581,22 @@
           "vi": "Phần 1 · ここ・そこ・あそこ"
         },
         "subtitle": {
-          "en": "Point out places: here / there / over there.",
-          "vi": "Chỉ nơi chốn: ở đây / ở đó / ở đằng kia."
+          "en": "Pointing at places, and saying where things are.",
+          "vi": "Chỉ nơi chốn, và nói đồ vật ở đâu."
         }
       },
       {
         "kind": "grammar",
         "grammarIds": [
-          "l3_koko_soko_asoko"
+          "l3_koko_soko_asoko",
+          "l3_wa_place"
         ]
       },
       {
         "kind": "exercise",
         "title": {
-          "en": "Practice · here / there",
-          "vi": "Luyện tập · ở đây / ở đó"
+          "en": "Practice · ここ・そこ・あそこ",
+          "vi": "Luyện tập · ここ・そこ・あそこ"
         },
         "source": "authored",
         "items": [
@@ -1497,34 +1629,7 @@
               "en": "ここ = 'this place (here)'; これ = 'this thing'.",
               "vi": "ここ = 'nơi này (ở đây)'; これ = 'cái này'."
             }
-          }
-        ]
-      },
-      {
-        "kind": "section",
-        "title": {
-          "en": "Part 2 · Where things are",
-          "vi": "Phần 2 · Đồ vật ở đâu"
-        },
-        "subtitle": {
-          "en": "N は [place] です, and asking どこ (where).",
-          "vi": "N は [nơi chốn] です, và hỏi どこ (ở đâu)."
-        }
-      },
-      {
-        "kind": "grammar",
-        "grammarIds": [
-          "l3_wa_place"
-        ]
-      },
-      {
-        "kind": "exercise",
-        "title": {
-          "en": "Practice · location",
-          "vi": "Luyện tập · vị trí"
-        },
-        "source": "authored",
-        "items": [
+          },
           {
             "prompt": "会社（　）東京です。",
             "reading": "かいしゃ（　）とうきょうです。",
@@ -1539,7 +1644,35 @@
               "en": "[topic] は [place] です — 'the company is in Tokyo'.",
               "vi": "[chủ đề] は [nơi chốn] です — 'công ty ở Tokyo'."
             }
-          },
+          }
+        ]
+      },
+      {
+        "kind": "section",
+        "title": {
+          "en": "Part 2 · どこ・どちら",
+          "vi": "Phần 2 · どこ・どちら"
+        },
+        "subtitle": {
+          "en": "Asking where — and the polite どちら for countries and companies.",
+          "vi": "Hỏi ở đâu — và どちら lịch sự cho nước và công ty."
+        }
+      },
+      {
+        "kind": "grammar",
+        "grammarIds": [
+          "l3_doko",
+          "l3_dochira"
+        ]
+      },
+      {
+        "kind": "exercise",
+        "title": {
+          "en": "Practice · どこ・どちら",
+          "vi": "Luyện tập · どこ・どちら"
+        },
+        "source": "authored",
+        "items": [
           {
             "prompt": "電話は（　）ですか。",
             "reading": "でんわは（　）ですか。",
@@ -1554,14 +1687,190 @@
               "en": "どこ asks 'where' (which place).",
               "vi": "どこ hỏi 'ở đâu' (nơi nào)."
             }
+          },
+          {
+            "prompt": "お国は（　）ですか。",
+            "reading": "おくには（　）ですか。",
+            "options": [
+              "どちら",
+              "どこの",
+              "なんの",
+              "だれ"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "どちら politely asks which country — answer with its name.",
+              "vi": "どちら hỏi lịch sự nước nào — trả lời bằng tên nước."
+            }
+          },
+          {
+            "prompt": "あそこ（　）病院です。",
+            "reading": "あそこ（　）びょういんです。",
+            "options": [
+              "は",
+              "の",
+              "を",
+              "に"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "は marks あそこ as the topic: 'over there is the hospital.'",
+              "vi": "は đánh dấu あそこ là chủ đề: 'đằng kia là bệnh viện.'"
+            }
           }
         ]
       },
       {
         "kind": "section",
         "title": {
-          "en": "Part 3 · 会話",
-          "vi": "Phần 3 · 会話"
+          "en": "Part 3 · こそあど・どこの",
+          "vi": "Phần 3 · こそあど・どこの"
+        },
+        "subtitle": {
+          "en": "The こ・そ・あ・ど system, and origins with どこの.",
+          "vi": "Hệ thống こ・そ・あ・ど, và xuất xứ với どこの."
+        }
+      },
+      {
+        "kind": "grammar",
+        "grammarIds": [
+          "l3_kosoado",
+          "l3_doko_no"
+        ]
+      },
+      {
+        "kind": "exercise",
+        "title": {
+          "en": "Practice · こそあど・どこの",
+          "vi": "Luyện tập · こそあど・どこの"
+        },
+        "source": "authored",
+        "items": [
+          {
+            "prompt": "これは（　）ワインですか。",
+            "reading": "これは（　）ワインですか。",
+            "options": [
+              "どこの",
+              "だれの",
+              "なんの",
+              "どの"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "どこの asks where a thing is from — its country or maker.",
+              "vi": "どこの hỏi xuất xứ — nước hay hãng nào."
+            }
+          },
+          {
+            "prompt": "あれはドイツ（　）車です。",
+            "reading": "あれはドイツ（　）くるまです。",
+            "options": [
+              "の",
+              "は",
+              "と",
+              "か"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "の links origin and thing: ドイツの車 'a German car'.",
+              "vi": "の nối xuất xứ và vật: ドイツの車 'xe hơi Đức'."
+            }
+          },
+          {
+            "prompt": "（　）は山田さんです。（polite, over there）",
+            "reading": "（　）はやまださんです。",
+            "options": [
+              "あちら",
+              "あれ",
+              "あの",
+              "どちら"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "あちら politely points far from both speakers — usable for people.",
+              "vi": "あちら chỉ lịch sự phía xa cả hai — dùng được cho người."
+            }
+          }
+        ]
+      },
+      {
+        "kind": "section",
+        "title": {
+          "en": "Part 4 · 何階・いくら",
+          "vi": "Phần 4 · 何階・いくら"
+        },
+        "subtitle": {
+          "en": "Floors with 何階, and prices with いくら.",
+          "vi": "Tầng với 何階, và giá với いくら."
+        }
+      },
+      {
+        "kind": "grammar",
+        "grammarIds": [
+          "l3_nangai",
+          "l3_ikura"
+        ]
+      },
+      {
+        "kind": "exercise",
+        "title": {
+          "en": "Practice · 何階・いくら",
+          "vi": "Luyện tập · 何階・いくら"
+        },
+        "source": "authored",
+        "items": [
+          {
+            "prompt": "食堂は（　）ですか。（what floor）",
+            "reading": "しょくどうは（　）ですか。",
+            "options": [
+              "何階",
+              "いくら",
+              "何時",
+              "どこの"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "何階 asks which floor something is on.",
+              "vi": "何階 hỏi ở tầng mấy."
+            }
+          },
+          {
+            "prompt": "この時計は（　）ですか。（how much）",
+            "reading": "このとけいは（　）ですか。",
+            "options": [
+              "いくら",
+              "何階",
+              "何番",
+              "どちら"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "いくら asks the price.",
+              "vi": "いくら hỏi giá tiền."
+            }
+          },
+          {
+            "prompt": "「かばん売り場は何階ですか。」「二階（　）。」",
+            "reading": "「かばんうりばはなんがいですか。」「にかい（　）。」",
+            "options": [
+              "です",
+              "ですか",
+              "じゃありません",
+              "に"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "Answer a floor question with [number]階です.",
+              "vi": "Trả lời câu hỏi tầng bằng [số]階です."
+            }
+          }
+        ]
+      },
+      {
+        "kind": "section",
+        "title": {
+          "en": "Part 5 · 会話",
+          "vi": "Phần 5 · 会話"
         },
         "subtitle": {
           "en": "The lesson in action — dialogues and reading practice.",
@@ -1880,8 +2189,8 @@
       {
         "kind": "section",
         "title": {
-          "en": "Part 4 · 語彙",
-          "vi": "Phần 4 · 語彙"
+          "en": "Part 6 · 語彙",
+          "vi": "Phần 6 · 語彙"
         },
         "subtitle": {
           "en": "The lesson's new words — then check yourself and review.",
@@ -1987,12 +2296,12 @@
       {
         "kind": "section",
         "title": {
-          "en": "Part 1 · Telling time",
-          "vi": "Phần 1 · Xem giờ"
+          "en": "Part 1 · 時間",
+          "vi": "Phần 1 · 時間"
         },
         "subtitle": {
-          "en": "今 ～時～分です, and doing things at a time with に.",
-          "vi": "今 ～時～分です, và làm việc vào lúc nào với に."
+          "en": "Telling the time with 時・分・半.",
+          "vi": "Xem giờ với 時・分・半."
         }
       },
       {
@@ -2004,8 +2313,66 @@
       {
         "kind": "exercise",
         "title": {
-          "en": "Practice · time",
-          "vi": "Luyện tập · thời gian"
+          "en": "Practice · 時間",
+          "vi": "Luyện tập · 時間"
+        },
+        "source": "authored",
+        "items": [
+          {
+            "prompt": "今9時15分（　）。",
+            "reading": "いまくじじゅうごふん（　）。",
+            "options": [
+              "です",
+              "ます",
+              "でした",
+              "ました"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "今 … です states the current time.",
+              "vi": "今 … です dùng để nói giờ hiện tại."
+            }
+          },
+          {
+            "prompt": "今9時（　）です。（half past）",
+            "reading": "いまくじ（　）です。",
+            "options": [
+              "半",
+              "分",
+              "時",
+              "に"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "半 after the hour means 'half past': 9時半 = 9:30.",
+              "vi": "半 sau giờ nghĩa là 'rưỡi': 9時半 = 9 giờ 30."
+            }
+          }
+        ]
+      },
+      {
+        "kind": "section",
+        "title": {
+          "en": "Part 2 · 動詞・に",
+          "vi": "Phần 2 · 動詞・に"
+        },
+        "subtitle": {
+          "en": "Polite verb tenses, and pinning actions to a time with に.",
+          "vi": "Thì động từ lịch sự, và gắn hành động vào thời điểm với に."
+        }
+      },
+      {
+        "kind": "grammar",
+        "grammarIds": [
+          "l4_verb_polite",
+          "l4_ni"
+        ]
+      },
+      {
+        "kind": "exercise",
+        "title": {
+          "en": "Practice · 動詞・に",
+          "vi": "Luyện tập · 動詞・に"
         },
         "source": "authored",
         "items": [
@@ -2025,18 +2392,33 @@
             }
           },
           {
-            "prompt": "今9時15分（　）。",
-            "reading": "いまくじじゅうごふん（　）。",
+            "prompt": "昨日勉強（　）。",
+            "reading": "きのうべんきょう（　）。",
             "options": [
-              "です",
-              "ます",
-              "でした",
-              "ました"
+              "しました",
+              "します",
+              "しません",
+              "してください"
             ],
             "answer": 0,
             "explanation": {
-              "en": "今 … です states the current time.",
-              "vi": "今 … です dùng để nói giờ hiện tại."
+              "en": "昨日 (yesterday) needs past polite: ました.",
+              "vi": "昨日 (hôm qua) cần thì quá khứ lịch sự: ました."
+            }
+          },
+          {
+            "prompt": "毎日勉強（　）。",
+            "reading": "まいにちべんきょう（　）。",
+            "options": [
+              "します",
+              "しました",
+              "しません でした",
+              "ですか"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "Habits and the future use non-past します.",
+              "vi": "Thói quen và tương lai dùng thể hiện tại します."
             }
           }
         ]
@@ -2044,26 +2426,26 @@
       {
         "kind": "section",
         "title": {
-          "en": "Part 2 · から～まで & verbs",
-          "vi": "Phần 2 · から～まで & động từ"
+          "en": "Part 3 · から・まで・と",
+          "vi": "Phần 3 · から・まで・と"
         },
         "subtitle": {
-          "en": "Spans of time, and the polite ます-verb forms.",
-          "vi": "Khoảng thời gian, và các thể động từ lịch sự ます."
+          "en": "Spans with から…まで, and joining nouns with と.",
+          "vi": "Khoảng với から…まで, và nối danh từ với と."
         }
       },
       {
         "kind": "grammar",
         "grammarIds": [
           "l4_kara_made",
-          "l4_verb_polite"
+          "l4_to"
         ]
       },
       {
         "kind": "exercise",
         "title": {
-          "en": "Practice · から・まで & tense",
-          "vi": "Luyện tập · から・まで & thì"
+          "en": "Practice · から・まで・と",
+          "vi": "Luyện tập · から・まで・と"
         },
         "source": "authored",
         "items": [
@@ -2083,18 +2465,33 @@
             }
           },
           {
-            "prompt": "昨日勉強（　）。",
-            "reading": "きのうべんきょう（　）。",
+            "prompt": "9時から3時（　）です。",
+            "reading": "くじからさんじ（　）です。",
             "options": [
-              "しました",
-              "します",
-              "しません",
-              "してください"
+              "まで",
+              "から",
+              "に",
+              "と"
             ],
             "answer": 0,
             "explanation": {
-              "en": "昨日 (yesterday) needs past polite: ました.",
-              "vi": "昨日 (hôm qua) cần thì quá khứ lịch sự: ました."
+              "en": "まで marks the end point of a span.",
+              "vi": "まで đánh dấu điểm kết thúc của khoảng."
+            }
+          },
+          {
+            "prompt": "休みは土曜日（　）日曜日です。",
+            "reading": "やすみはどようび（　）にちようびです。",
+            "options": [
+              "と",
+              "も",
+              "の",
+              "は"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "と joins two nouns: 'Saturday and Sunday'.",
+              "vi": "と nối hai danh từ: 'thứ Bảy và Chủ nhật'."
             }
           }
         ]
@@ -2102,8 +2499,66 @@
       {
         "kind": "section",
         "title": {
-          "en": "Part 3 · 会話",
-          "vi": "Phần 3 · 会話"
+          "en": "Part 4 · ね・何番",
+          "vi": "Phần 4 · ね・何番"
+        },
+        "subtitle": {
+          "en": "Agreeing with ね, and asking numbers with 何番.",
+          "vi": "Đồng tình với ね, và hỏi số với 何番."
+        }
+      },
+      {
+        "kind": "grammar",
+        "grammarIds": [
+          "l4_ne",
+          "l4_nanban"
+        ]
+      },
+      {
+        "kind": "exercise",
+        "title": {
+          "en": "Practice · ね・何番",
+          "vi": "Luyện tập · ね・何番"
+        },
+        "source": "authored",
+        "items": [
+          {
+            "prompt": "いい天気です（　）。",
+            "reading": "いいてんきです（　）。",
+            "options": [
+              "ね",
+              "か",
+              "の",
+              "と"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "ね invites the listener's agreement: 'nice weather, isn't it?'",
+              "vi": "ね mong người nghe đồng tình: 'trời đẹp nhỉ.'"
+            }
+          },
+          {
+            "prompt": "電話番号は（　）ですか。",
+            "reading": "でんわばんごうは（　）ですか。",
+            "options": [
+              "何番",
+              "何時",
+              "何階",
+              "いくら"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "何番 asks for a (phone) number.",
+              "vi": "何番 hỏi số (điện thoại)."
+            }
+          }
+        ]
+      },
+      {
+        "kind": "section",
+        "title": {
+          "en": "Part 5 · 会話",
+          "vi": "Phần 5 · 会話"
         },
         "subtitle": {
           "en": "The lesson in action — dialogues and reading practice.",
@@ -2518,8 +2973,8 @@
       {
         "kind": "section",
         "title": {
-          "en": "Part 4 · 語彙",
-          "vi": "Phần 4 · 語彙"
+          "en": "Part 6 · 語彙",
+          "vi": "Phần 6 · 語彙"
         },
         "subtitle": {
           "en": "The lesson's new words — then check yourself and review.",
@@ -2625,25 +3080,26 @@
       {
         "kind": "section",
         "title": {
-          "en": "Part 1 · Going places (へ)",
-          "vi": "Phần 1 · Đi lại (へ)"
+          "en": "Part 1 · へ・で",
+          "vi": "Phần 1 · へ・で"
         },
         "subtitle": {
-          "en": "へ marks the destination with 行きます/来ます/帰ります.",
-          "vi": "へ đánh dấu điểm đến với 行きます/来ます/帰ります."
+          "en": "Where you're going, and how you get there.",
+          "vi": "Đi đâu, và đi bằng gì."
         }
       },
       {
         "kind": "grammar",
         "grammarIds": [
-          "l5_e_ikimasu"
+          "l5_e_ikimasu",
+          "l5_de_vehicle"
         ]
       },
       {
         "kind": "exercise",
         "title": {
-          "en": "Practice · destination",
-          "vi": "Luyện tập · điểm đến"
+          "en": "Practice · へ・で",
+          "vi": "Luyện tập · へ・で"
         },
         "source": "authored",
         "items": [
@@ -2660,6 +3116,21 @@
             "explanation": {
               "en": "へ (read 'e') marks the destination of movement.",
               "vi": "へ (đọc là 'e') đánh dấu điểm đến của chuyển động."
+            }
+          },
+          {
+            "prompt": "電車（　）行きます。",
+            "reading": "でんしゃ（　）いきます。",
+            "options": [
+              "で",
+              "へ",
+              "と",
+              "を"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "で marks the means of transport — 'by train'.",
+              "vi": "で đánh dấu phương tiện — 'bằng tàu điện'."
             }
           },
           {
@@ -2682,44 +3153,29 @@
       {
         "kind": "section",
         "title": {
-          "en": "Part 2 · How & with whom",
-          "vi": "Phần 2 · Bằng gì & với ai"
+          "en": "Part 2 · と・どこも",
+          "vi": "Phần 2 · と・どこも"
         },
         "subtitle": {
-          "en": "で for transport, と for the person you go with.",
-          "vi": "で cho phương tiện, と cho người đi cùng."
+          "en": "Who you go with, and saying you go nowhere.",
+          "vi": "Đi cùng ai, và nói chẳng đi đâu."
         }
       },
       {
         "kind": "grammar",
         "grammarIds": [
-          "l5_de_vehicle",
-          "l5_to_person"
+          "l5_to_person",
+          "l5_doko_mo"
         ]
       },
       {
         "kind": "exercise",
         "title": {
-          "en": "Practice · で・と",
-          "vi": "Luyện tập · で・と"
+          "en": "Practice · と・どこも",
+          "vi": "Luyện tập · と・どこも"
         },
         "source": "authored",
         "items": [
-          {
-            "prompt": "電車（　）行きます。",
-            "reading": "でんしゃ（　）いきます。",
-            "options": [
-              "で",
-              "へ",
-              "と",
-              "を"
-            ],
-            "answer": 0,
-            "explanation": {
-              "en": "で marks the means of transport — 'by train'.",
-              "vi": "で đánh dấu phương tiện — 'bằng tàu điện'."
-            }
-          },
           {
             "prompt": "友達（　）京都へ行きます。",
             "reading": "ともだち（　）きょうとへいきます。",
@@ -2734,14 +3190,101 @@
               "en": "と marks the person you do something with.",
               "vi": "と đánh dấu người cùng làm việc gì đó."
             }
+          },
+          {
+            "prompt": "日曜日はどこ（　）行きません。",
+            "reading": "にちようびはどこ（　）いきません。",
+            "options": [
+              "も",
+              "へ",
+              "を",
+              "に"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "Question word + も + negative = 'not anywhere'.",
+              "vi": "Nghi vấn từ + も + phủ định = 'không đâu cả'."
+            }
+          },
+          {
+            "prompt": "一人（　）行きます。（alone）",
+            "options": [
+              "で",
+              "と",
+              "へ",
+              "に"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "'Alone' is 一人で, using で.",
+              "vi": "'Một mình' là 一人で, dùng で."
+            }
           }
         ]
       },
       {
         "kind": "section",
         "title": {
-          "en": "Part 3 · 会話",
-          "vi": "Phần 3 · 会話"
+          "en": "Part 3 · いつ・よ",
+          "vi": "Phần 3 · いつ・よ"
+        },
+        "subtitle": {
+          "en": "Asking 'when', and adding よ for new information.",
+          "vi": "Hỏi 'khi nào', và thêm よ cho thông tin mới."
+        }
+      },
+      {
+        "kind": "grammar",
+        "grammarIds": [
+          "l5_itsu",
+          "l5_yo"
+        ]
+      },
+      {
+        "kind": "exercise",
+        "title": {
+          "en": "Practice · いつ・よ",
+          "vi": "Luyện tập · いつ・よ"
+        },
+        "source": "authored",
+        "items": [
+          {
+            "prompt": "誕生日は（　）ですか。",
+            "reading": "たんじょうびは（　）ですか。",
+            "options": [
+              "いつ",
+              "どこ",
+              "なに",
+              "だれ"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "いつ asks 'when'.",
+              "vi": "いつ hỏi 'khi nào'."
+            }
+          },
+          {
+            "prompt": "この電車は行きません（　）。",
+            "reading": "このでんしゃはいきません（　）。",
+            "options": [
+              "よ",
+              "ね",
+              "か",
+              "を"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "よ tells the listener something new.",
+              "vi": "よ báo cho người nghe điều mới."
+            }
+          }
+        ]
+      },
+      {
+        "kind": "section",
+        "title": {
+          "en": "Part 4 · 会話",
+          "vi": "Phần 4 · 会話"
         },
         "subtitle": {
           "en": "The lesson in action — dialogues and reading practice.",
@@ -3180,8 +3723,8 @@
       {
         "kind": "section",
         "title": {
-          "en": "Part 4 · 語彙",
-          "vi": "Phần 4 · 語彙"
+          "en": "Part 5 · 語彙",
+          "vi": "Phần 5 · 語彙"
         },
         "subtitle": {
           "en": "The lesson's new words — then check yourself and review.",
@@ -3287,26 +3830,26 @@
       {
         "kind": "section",
         "title": {
-          "en": "Part 1 · Objects & places",
-          "vi": "Phần 1 · Tân ngữ & nơi chốn"
+          "en": "Part 1 · を・なに",
+          "vi": "Phần 1 · を・なに"
         },
         "subtitle": {
-          "en": "を marks the object; で marks where an action happens.",
-          "vi": "を đánh dấu tân ngữ; で đánh dấu nơi diễn ra hành động."
+          "en": "The object particle を, and asking 'what'.",
+          "vi": "Trợ từ tân ngữ を, và hỏi 'cái gì'."
         }
       },
       {
         "kind": "grammar",
         "grammarIds": [
           "l6_wo_object",
-          "l6_de_place"
+          "l6_nani"
         ]
       },
       {
         "kind": "exercise",
         "title": {
-          "en": "Practice · を・で",
-          "vi": "Luyện tập · を・で"
+          "en": "Practice · を・なに",
+          "vi": "Luyện tập · を・なに"
         },
         "source": "authored",
         "items": [
@@ -3326,6 +3869,48 @@
             }
           },
           {
+            "prompt": "（　）を食べますか。",
+            "reading": "（　）をたべますか。",
+            "options": [
+              "何",
+              "どこ",
+              "だれ",
+              "いつ"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "何 (なに) asks 'what' before を.",
+              "vi": "何 (なに) hỏi 'cái gì' trước を."
+            }
+          }
+        ]
+      },
+      {
+        "kind": "section",
+        "title": {
+          "en": "Part 2 · で (place)",
+          "vi": "Phần 2 · で (place)"
+        },
+        "subtitle": {
+          "en": "で marks where an action happens.",
+          "vi": "で đánh dấu nơi hành động diễn ra."
+        }
+      },
+      {
+        "kind": "grammar",
+        "grammarIds": [
+          "l6_de_place"
+        ]
+      },
+      {
+        "kind": "exercise",
+        "title": {
+          "en": "Practice · で",
+          "vi": "Luyện tập · で"
+        },
+        "source": "authored",
+        "items": [
+          {
             "prompt": "図書館（　）本を読みます。",
             "reading": "としょかん（　）ほんをよみます。",
             "options": [
@@ -3339,18 +3924,32 @@
               "en": "で marks the place where an action happens.",
               "vi": "で đánh dấu nơi diễn ra hành động."
             }
+          },
+          {
+            "prompt": "うち（　）音楽を聞きます。",
+            "options": [
+              "で",
+              "を",
+              "へ",
+              "が"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "で marks the place of the action.",
+              "vi": "で đánh dấu nơi hành động."
+            }
           }
         ]
       },
       {
         "kind": "section",
         "title": {
-          "en": "Part 2 · Inviting",
-          "vi": "Phần 2 · Rủ rê"
+          "en": "Part 3 · ませんか・ましょう",
+          "vi": "Phần 3 · ませんか・ましょう"
         },
         "subtitle": {
-          "en": "Suggest doing something together with ませんか / ましょう.",
-          "vi": "Rủ cùng làm gì đó với ませんか / ましょう."
+          "en": "Inviting and suggesting together.",
+          "vi": "Rủ rê và đề xuất cùng nhau."
         }
       },
       {
@@ -3362,11 +3961,25 @@
       {
         "kind": "exercise",
         "title": {
-          "en": "Practice · ましょう",
-          "vi": "Luyện tập · ましょう"
+          "en": "Practice · ませんか・ましょう",
+          "vi": "Luyện tập · ませんか・ましょう"
         },
         "source": "authored",
         "items": [
+          {
+            "prompt": "いっしょに昼ごはんを食べ（　）。（won't you…?）",
+            "options": [
+              "ませんか",
+              "ましょう",
+              "ました",
+              "ません"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "Vませんか is an invitation.",
+              "vi": "Vませんか là lời mời."
+            }
+          },
           {
             "prompt": "疲れましたね。ちょっと休み（　）。",
             "reading": "つかれましたね。ちょっとやすみ（　）。",
@@ -3381,20 +3994,62 @@
               "en": "ましょう = 'let's ~' (a suggestion).",
               "vi": "ましょう = 'hãy ~' (đề nghị)."
             }
+          }
+        ]
+      },
+      {
+        "kind": "section",
+        "title": {
+          "en": "Part 4 · か (I see)",
+          "vi": "Phần 4 · か (I see)"
+        },
+        "subtitle": {
+          "en": "Acknowledging what you just heard.",
+          "vi": "Tiếp nhận điều vừa nghe."
+        }
+      },
+      {
+        "kind": "grammar",
+        "grammarIds": [
+          "l6_ka_ack"
+        ]
+      },
+      {
+        "kind": "exercise",
+        "title": {
+          "en": "Practice · か",
+          "vi": "Luyện tập · か"
+        },
+        "source": "authored",
+        "items": [
+          {
+            "prompt": "「京都へ行きました。」「京都（　）。いいですね。」",
+            "reading": "「きょうとへいきました。」「きょうと（　）。いいですね。」",
+            "options": [
+              "ですか",
+              "ますか",
+              "でした",
+              "ました"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "Repeat + ですか (falling) to acknowledge — 'Kyoto, I see.'",
+              "vi": "Nhắc lại + ですか (giọng xuống) để tiếp nhận — 'Kyoto à.'"
+            }
           },
           {
-            "prompt": "3時ですね。コーヒーを飲み（　）。",
-            "reading": "さんじですね。コーヒーをのみ（　）。",
+            "prompt": "「日曜日は休みです。」「そう（　）。」",
+            "reading": "「にちようびはやすみです。」「そう（　）。」",
             "options": [
-              "ましょう",
-              "ました",
-              "ません",
+              "ですか",
+              "です",
+              "でした",
               "ますか"
             ],
             "answer": 0,
             "explanation": {
-              "en": "ましょう invites a shared action — 'let's drink'.",
-              "vi": "ましょう rủ cùng làm một việc — 'cùng uống nào'."
+              "en": "そうですか acknowledges the new fact.",
+              "vi": "そうですか tiếp nhận thông tin mới."
             }
           }
         ]
@@ -3402,8 +4057,8 @@
       {
         "kind": "section",
         "title": {
-          "en": "Part 3 · 会話",
-          "vi": "Phần 3 · 会話"
+          "en": "Part 5 · 会話",
+          "vi": "Phần 5 · 会話"
         },
         "subtitle": {
           "en": "The lesson in action — dialogues and reading practice.",
@@ -3760,8 +4415,8 @@
       {
         "kind": "section",
         "title": {
-          "en": "Part 4 · 語彙",
-          "vi": "Phần 4 · 語彙"
+          "en": "Part 6 · 語彙",
+          "vi": "Phần 6 · 語彙"
         },
         "subtitle": {
           "en": "The lesson's new words — then check yourself and review.",
@@ -3867,25 +4522,26 @@
       {
         "kind": "section",
         "title": {
-          "en": "Part 1 · Tools & languages",
-          "vi": "Phần 1 · Công cụ & ngôn ngữ"
+          "en": "Part 1 · で・～語で",
+          "vi": "Phần 1 · で・～語で"
         },
         "subtitle": {
-          "en": "で marks the tool or language you use.",
-          "vi": "で đánh dấu công cụ hoặc ngôn ngữ được dùng."
+          "en": "Doing things with a tool, and asking across languages.",
+          "vi": "Làm việc bằng công cụ, và hỏi giữa các ngôn ngữ."
         }
       },
       {
         "kind": "grammar",
         "grammarIds": [
-          "l7_de_tool"
+          "l7_de_tool",
+          "l7_go_de"
         ]
       },
       {
         "kind": "exercise",
         "title": {
-          "en": "Practice · で (means)",
-          "vi": "Luyện tập · で (phương tiện)"
+          "en": "Practice · で・～語で",
+          "vi": "Luyện tập · で・～語で"
         },
         "source": "authored",
         "items": [
@@ -3905,18 +4561,18 @@
             }
           },
           {
-            "prompt": "日本語（　）手紙を書きます。",
-            "reading": "にほんご（　）てがみをかきます。",
+            "prompt": "これは日本語（　）何ですか。",
+            "reading": "これはにほんご（　）なんですか。",
             "options": [
               "で",
+              "は",
               "を",
-              "に",
-              "へ"
+              "に"
             ],
             "answer": 0,
             "explanation": {
-              "en": "で = 'in' (a language).",
-              "vi": "で = 'bằng' (ngôn ngữ)."
+              "en": "で marks the language as the means of saying it.",
+              "vi": "で đánh dấu ngôn ngữ là phương tiện diễn đạt."
             }
           }
         ]
@@ -3924,26 +4580,26 @@
       {
         "kind": "section",
         "title": {
-          "en": "Part 2 · Giving, receiving & もう",
-          "vi": "Phần 2 · Cho, nhận & もう"
+          "en": "Part 2 · あげます・くれます・もらいます",
+          "vi": "Phần 2 · あげます・くれます・もらいます"
         },
         "subtitle": {
-          "en": "あげます / もらいます, and 'already' with もう ～ました.",
-          "vi": "あげます / もらいます, và 'đã ~ rồi' với もう ～ました."
+          "en": "Giving away, giving to me, and receiving.",
+          "vi": "Cho đi, cho tôi, và nhận."
         }
       },
       {
         "kind": "grammar",
         "grammarIds": [
           "l7_agemasu_moraimasu",
-          "l7_mou_mashita"
+          "l7_kuremasu"
         ]
       },
       {
         "kind": "exercise",
         "title": {
-          "en": "Practice · に & もう",
-          "vi": "Luyện tập · に & もう"
+          "en": "Practice · あげ・くれ・もらい",
+          "vi": "Luyện tập · あげ・くれ・もらい"
         },
         "source": "authored",
         "items": [
@@ -3963,20 +4619,61 @@
             }
           },
           {
-            "prompt": "友達（　）プレゼントをもらいました。",
-            "reading": "ともだち（　）プレゼントをもらいました。",
+            "prompt": "先生は私に本を（　）。",
+            "reading": "せんせいはわたしにほんを（　）。",
             "options": [
-              "に",
-              "を",
-              "で",
-              "へ"
+              "くれました",
+              "あげました",
+              "もらいました",
+              "ありました"
             ],
             "answer": 0,
             "explanation": {
-              "en": "に marks the person you receive from.",
-              "vi": "に đánh dấu người mà bạn nhận từ đó."
+              "en": "くれます = someone gives to me.",
+              "vi": "くれます = ai đó cho tôi."
             }
           },
+          {
+            "prompt": "友達に本を（　）。（received）",
+            "options": [
+              "もらいました",
+              "あげました",
+              "書きました",
+              "見ました"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "もらいました = received.",
+              "vi": "もらいました = đã nhận."
+            }
+          }
+        ]
+      },
+      {
+        "kind": "section",
+        "title": {
+          "en": "Part 3 · もう・まだ",
+          "vi": "Phần 3 · もう・まだ"
+        },
+        "subtitle": {
+          "en": "'Already' with もう, 'not yet' with まだ.",
+          "vi": "'Đã ... rồi' với もう, 'chưa' với まだ."
+        }
+      },
+      {
+        "kind": "grammar",
+        "grammarIds": [
+          "l7_mou_mashita"
+        ]
+      },
+      {
+        "kind": "exercise",
+        "title": {
+          "en": "Practice · もう・まだ",
+          "vi": "Luyện tập · もう・まだ"
+        },
+        "source": "authored",
+        "items": [
           {
             "prompt": "もう昼ご飯を食べ（　）。",
             "reading": "もうひるごはんをたべ（　）。",
@@ -3991,14 +4688,28 @@
               "en": "もう … ました = 'have already done'.",
               "vi": "もう … ました = 'đã ~ rồi'."
             }
+          },
+          {
+            "prompt": "「もう食べましたか。」「いいえ、（　）。」",
+            "options": [
+              "まだです",
+              "そうです",
+              "食べました",
+              "ちがいます"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "'Not yet' is いいえ、まだです.",
+              "vi": "'Chưa' là いいえ、まだです."
+            }
           }
         ]
       },
       {
         "kind": "section",
         "title": {
-          "en": "Part 3 · 会話",
-          "vi": "Phần 3 · 会話"
+          "en": "Part 4 · 会話",
+          "vi": "Phần 4 · 会話"
         },
         "subtitle": {
           "en": "The lesson in action — dialogues and reading practice.",
@@ -4457,8 +5168,8 @@
       {
         "kind": "section",
         "title": {
-          "en": "Part 4 · 語彙",
-          "vi": "Phần 4 · 語彙"
+          "en": "Part 5 · 語彙",
+          "vi": "Phần 5 · 語彙"
         },
         "subtitle": {
           "en": "The lesson's new words — then check yourself and review.",
@@ -4564,25 +5275,26 @@
       {
         "kind": "section",
         "title": {
-          "en": "Part 1 · い-adjectives",
-          "vi": "Phần 1 · Tính từ い"
+          "en": "Part 1 · い・な形容詞",
+          "vi": "Phần 1 · い・な形容詞"
         },
         "subtitle": {
-          "en": "Describe things; the negative drops い → くない.",
-          "vi": "Miêu tả sự vật; thể phủ định bỏ い → くない."
+          "en": "The two adjective types and their negatives.",
+          "vi": "Hai loại tính từ và thể phủ định."
         }
       },
       {
         "kind": "grammar",
         "grammarIds": [
-          "l8_i_adj"
+          "l8_i_adj",
+          "l8_na_adj"
         ]
       },
       {
         "kind": "exercise",
         "title": {
-          "en": "Practice · い-adjectives",
-          "vi": "Luyện tập · tính từ い"
+          "en": "Practice · い・な形容詞",
+          "vi": "Luyện tập · い・な形容詞"
         },
         "source": "authored",
         "items": [
@@ -4599,6 +5311,21 @@
             "explanation": {
               "en": "い-adjective negative: 広い → 広くない.",
               "vi": "Phủ định tính từ い: 広い → 広くない."
+            }
+          },
+          {
+            "prompt": "静か（　）町です。",
+            "reading": "しずか（　）まちです。",
+            "options": [
+              "な",
+              "い",
+              "だ",
+              "の"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "な-adjective + な + noun: 'a quiet town'.",
+              "vi": "Tính từ な + な + danh từ: 'thị trấn yên tĩnh'."
             }
           },
           {
@@ -4621,44 +5348,144 @@
       {
         "kind": "section",
         "title": {
-          "en": "Part 2 · な-adjectives & 'but'",
-          "vi": "Phần 2 · Tính từ な & 'nhưng'"
+          "en": "Part 2 · どう・修飾",
+          "vi": "Phần 2 · どう・修飾"
         },
         "subtitle": {
-          "en": "な before a noun, and joining a contrast with が.",
-          "vi": "な trước danh từ, và nối ý tương phản với が."
+          "en": "Asking 'how is it?', and putting adjectives before nouns.",
+          "vi": "Hỏi 'thế nào?', và đặt tính từ trước danh từ."
         }
       },
       {
         "kind": "grammar",
         "grammarIds": [
-          "l8_na_adj",
+          "l8_dou",
+          "l8_adj_noun"
+        ]
+      },
+      {
+        "kind": "exercise",
+        "title": {
+          "en": "Practice · どう・どんな",
+          "vi": "Luyện tập · どう・どんな"
+        },
+        "source": "authored",
+        "items": [
+          {
+            "prompt": "この町は（　）ですか。",
+            "reading": "このまちは（　）ですか。",
+            "options": [
+              "どう",
+              "どこ",
+              "だれ",
+              "なに"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "どうですか asks for an impression.",
+              "vi": "どうですか hỏi ấn tượng."
+            }
+          },
+          {
+            "prompt": "（　）カメラですか。",
+            "reading": "（　）カメラですか。",
+            "options": [
+              "どんな",
+              "どう",
+              "なに",
+              "いつ"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "どんな N asks what kind of noun.",
+              "vi": "どんな N hỏi danh từ loại nào."
+            }
+          }
+        ]
+      },
+      {
+        "kind": "section",
+        "title": {
+          "en": "Part 3 · とても・あまり・そして",
+          "vi": "Phần 3 · とても・あまり・そして"
+        },
+        "subtitle": {
+          "en": "Grading adjectives, and joining matching ideas.",
+          "vi": "Nhấn mức độ tính từ, và nối các ý tương đồng."
+        }
+      },
+      {
+        "kind": "grammar",
+        "grammarIds": [
+          "l8_totemo_amari",
+          "l8_soshite"
+        ]
+      },
+      {
+        "kind": "exercise",
+        "title": {
+          "en": "Practice · とても・そして",
+          "vi": "Luyện tập · とても・そして"
+        },
+        "source": "authored",
+        "items": [
+          {
+            "prompt": "この店は（　）安くないです。",
+            "reading": "このみせは（　）やすくないです。",
+            "options": [
+              "あまり",
+              "とても",
+              "すこし",
+              "よく"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "あまり + negative = 'not very'.",
+              "vi": "あまり + phủ định = 'không ... lắm'."
+            }
+          },
+          {
+            "prompt": "おいしいです。（　）、安いです。",
+            "reading": "おいしいです。（　）、やすいです。",
+            "options": [
+              "そして",
+              "でも",
+              "が",
+              "から"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "そして links two similar points.",
+              "vi": "そして nối hai ý tương đồng."
+            }
+          }
+        ]
+      },
+      {
+        "kind": "section",
+        "title": {
+          "en": "Part 4 · が (but)",
+          "vi": "Phần 4 · が (but)"
+        },
+        "subtitle": {
+          "en": "Joining two contrasting ideas.",
+          "vi": "Nối hai ý tương phản."
+        }
+      },
+      {
+        "kind": "grammar",
+        "grammarIds": [
           "l8_ga_but"
         ]
       },
       {
         "kind": "exercise",
         "title": {
-          "en": "Practice · な & が",
-          "vi": "Luyện tập · な & が"
+          "en": "Practice · が",
+          "vi": "Luyện tập · が"
         },
         "source": "authored",
         "items": [
-          {
-            "prompt": "静か（　）町です。",
-            "reading": "しずか（　）まちです。",
-            "options": [
-              "な",
-              "い",
-              "だ",
-              "の"
-            ],
-            "answer": 0,
-            "explanation": {
-              "en": "な-adjective + な + noun: 'a quiet town'.",
-              "vi": "Tính từ な + な + danh từ: 'thị trấn yên tĩnh'."
-            }
-          },
           {
             "prompt": "日本語は難しいです（　）、面白いです。",
             "reading": "にほんごはむずかしいです（　）、おもしろいです。",
@@ -4675,18 +5502,17 @@
             }
           },
           {
-            "prompt": "この花はきれい（　）。",
-            "reading": "このはなはきれい（　）。",
+            "prompt": "この部屋は狭いです（　）、きれいです。",
             "options": [
-              "です",
-              "な",
-              "い",
-              "の"
+              "が",
+              "から",
+              "の",
+              "も"
             ],
             "answer": 0,
             "explanation": {
-              "en": "きれい is a な-adjective; the predicate form is きれいです.",
-              "vi": "きれい là tính từ な; dạng vị ngữ là きれいです."
+              "en": "が joins clauses with a contrast ('but').",
+              "vi": "が nối mệnh đề với ý tương phản ('nhưng')."
             }
           }
         ]
@@ -4694,8 +5520,8 @@
       {
         "kind": "section",
         "title": {
-          "en": "Part 3 · 会話",
-          "vi": "Phần 3 · 会話"
+          "en": "Part 5 · 会話",
+          "vi": "Phần 5 · 会話"
         },
         "subtitle": {
           "en": "The lesson in action — dialogues and reading practice.",
@@ -5091,8 +5917,8 @@
       {
         "kind": "section",
         "title": {
-          "en": "Part 4 · 語彙",
-          "vi": "Phần 4 · 語彙"
+          "en": "Part 6 · 語彙",
+          "vi": "Phần 6 · 語彙"
         },
         "subtitle": {
           "en": "The lesson's new words — then check yourself and review.",
@@ -5198,25 +6024,27 @@
       {
         "kind": "section",
         "title": {
-          "en": "Part 1 · Likes & skills",
-          "vi": "Phần 1 · Sở thích & khả năng"
+          "en": "Part 1 · が (好き・あります・わかります)",
+          "vi": "Phần 1 · が (好き・あります・わかります)"
         },
         "subtitle": {
-          "en": "好き / 上手 and their object take が, not を.",
-          "vi": "好き / 上手 và đối tượng của chúng dùng が, không dùng を."
+          "en": "The が that marks likes, having, and understanding.",
+          "vi": "が đánh dấu sở thích, sở hữu và sự hiểu biết."
         }
       },
       {
         "kind": "grammar",
         "grammarIds": [
-          "l9_ga_suki"
+          "l9_ga_suki",
+          "l9_ga_arimasu",
+          "l9_ga_wakarimasu"
         ]
       },
       {
         "kind": "exercise",
         "title": {
-          "en": "Practice · が 好き / 上手",
-          "vi": "Luyện tập · が 好き / 上手"
+          "en": "Practice · が",
+          "vi": "Luyện tập · が"
         },
         "source": "authored",
         "items": [
@@ -5236,48 +6064,20 @@
             }
           },
           {
-            "prompt": "田中さんは料理（　）上手です。",
-            "reading": "たなかさんはりょうり（　）じょうずです。",
+            "prompt": "わたしはお金（　）ありません。",
+            "reading": "わたしはおかね（　）ありません。",
             "options": [
               "が",
               "を",
-              "に",
-              "で"
+              "は",
+              "に"
             ],
             "answer": 0,
             "explanation": {
-              "en": "上手 ('good at') also takes が.",
-              "vi": "上手 ('giỏi') cũng dùng が."
+              "en": "The thing you have takes が.",
+              "vi": "Vật sở hữu dùng が."
             }
-          }
-        ]
-      },
-      {
-        "kind": "section",
-        "title": {
-          "en": "Part 2 · Understanding & reasons",
-          "vi": "Phần 2 · Hiểu biết & lý do"
-        },
-        "subtitle": {
-          "en": "わかります takes が; give a reason with から.",
-          "vi": "わかります dùng が; nêu lý do với から."
-        }
-      },
-      {
-        "kind": "grammar",
-        "grammarIds": [
-          "l9_ga_wakarimasu",
-          "l9_kara_reason"
-        ]
-      },
-      {
-        "kind": "exercise",
-        "title": {
-          "en": "Practice · が & から",
-          "vi": "Luyện tập · が & から"
-        },
-        "source": "authored",
-        "items": [
+          },
           {
             "prompt": "日本語（　）わかります。",
             "reading": "にほんご（　）わかります。",
@@ -5292,7 +6092,91 @@
               "en": "わかります takes が, not を.",
               "vi": "わかります dùng が, không dùng を."
             }
+          }
+        ]
+      },
+      {
+        "kind": "section",
+        "title": {
+          "en": "Part 2 · 副詞 (adverbs)",
+          "vi": "Phần 2 · 副詞 (adverbs)"
+        },
+        "subtitle": {
+          "en": "Grading a verb with よく, あまり, 全然…",
+          "vi": "Chỉ mức độ động từ với よく, あまり, 全然…"
+        }
+      },
+      {
+        "kind": "grammar",
+        "grammarIds": [
+          "l9_adverb"
+        ]
+      },
+      {
+        "kind": "exercise",
+        "title": {
+          "en": "Practice · 副詞",
+          "vi": "Luyện tập · 副詞"
+        },
+        "source": "authored",
+        "items": [
+          {
+            "prompt": "日本語が（　）わかりません。",
+            "reading": "にほんごが（　）わかりません。",
+            "options": [
+              "あまり",
+              "よく",
+              "たくさん",
+              "とても"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "あまり + negative = 'not very well'.",
+              "vi": "あまり + phủ định = 'không ... lắm'."
+            }
           },
+          {
+            "prompt": "お金が（　）ありません。",
+            "reading": "おかねが（　）ありません。",
+            "options": [
+              "全然",
+              "よく",
+              "だいたい",
+              "とても"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "全然 + negative = 'none at all'.",
+              "vi": "全然 + phủ định = 'chẳng có gì cả'."
+            }
+          }
+        ]
+      },
+      {
+        "kind": "section",
+        "title": {
+          "en": "Part 3 · どうして・から",
+          "vi": "Phần 3 · どうして・から"
+        },
+        "subtitle": {
+          "en": "Asking why, and giving the reason.",
+          "vi": "Hỏi tại sao, và nêu lý do."
+        }
+      },
+      {
+        "kind": "grammar",
+        "grammarIds": [
+          "l9_kara_reason"
+        ]
+      },
+      {
+        "kind": "exercise",
+        "title": {
+          "en": "Practice · どうして・から",
+          "vi": "Luyện tập · どうして・から"
+        },
+        "source": "authored",
+        "items": [
           {
             "prompt": "時間がありません（　）、新聞を読みません。",
             "reading": "じかんがありません（　）、しんぶんをよみません。",
@@ -5307,14 +6191,71 @@
               "en": "から = 'because' (gives the reason).",
               "vi": "から = 'vì' (nêu lý do)."
             }
+          },
+          {
+            "prompt": "「（　）休みましたか。」「病気でしたから。」",
+            "reading": "「（　）やすみましたか。」「びょうきでしたから。」",
+            "options": [
+              "どうして",
+              "どんな",
+              "どこ",
+              "いつ"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "どうして asks 'why'.",
+              "vi": "どうして hỏi 'tại sao'."
+            }
           }
         ]
       },
       {
         "kind": "section",
         "title": {
-          "en": "Part 3 · 会話",
-          "vi": "Phần 3 · 会話"
+          "en": "Part 4 · どんな",
+          "vi": "Phần 4 · どんな"
+        },
+        "subtitle": {
+          "en": "Asking which kind within a category.",
+          "vi": "Hỏi loại nào trong một nhóm."
+        }
+      },
+      {
+        "kind": "grammar",
+        "grammarIds": [
+          "l9_donna"
+        ]
+      },
+      {
+        "kind": "exercise",
+        "title": {
+          "en": "Practice · どんな",
+          "vi": "Luyện tập · どんな"
+        },
+        "source": "authored",
+        "items": [
+          {
+            "prompt": "（　）スポーツが好きですか。",
+            "reading": "（　）スポーツがすきですか。",
+            "options": [
+              "どんな",
+              "どう",
+              "なに",
+              "どこ"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "どんな N asks which kind of sport.",
+              "vi": "どんな N hỏi môn thể thao loại nào."
+            }
+          }
+        ]
+      },
+      {
+        "kind": "section",
+        "title": {
+          "en": "Part 5 · 会話",
+          "vi": "Phần 5 · 会話"
         },
         "subtitle": {
           "en": "The lesson in action — dialogues and reading practice.",
@@ -5737,8 +6678,8 @@
       {
         "kind": "section",
         "title": {
-          "en": "Part 4 · 語彙",
-          "vi": "Phần 4 · 語彙"
+          "en": "Part 6 · 語彙",
+          "vi": "Phần 6 · 語彙"
         },
         "subtitle": {
           "en": "The lesson's new words — then check yourself and review.",
@@ -5844,18 +6785,19 @@
       {
         "kind": "section",
         "title": {
-          "en": "Part 1 · Existence",
-          "vi": "Phần 1 · Tồn tại"
+          "en": "Part 1 · あります・います",
+          "vi": "Phần 1 · あります・います"
         },
         "subtitle": {
-          "en": "あります for things, います for people & animals",
-          "vi": "あります cho vật, います cho người & động vật"
+          "en": "Saying what exists where, and where a known thing is.",
+          "vi": "Nói cái gì tồn tại ở đâu, và vật đã biết ở đâu."
         }
       },
       {
         "kind": "grammar",
         "grammarIds": [
-          "l10_arimasu_imasu"
+          "l10_arimasu_imasu",
+          "l10_wa_ni"
         ]
       },
       {
@@ -6030,8 +6972,8 @@
       {
         "kind": "exercise",
         "title": {
-          "en": "Practice · particles & verbs",
-          "vi": "Luyện tập · trợ từ & động từ"
+          "en": "Practice · あります・います",
+          "vi": "Luyện tập · あります・います"
         },
         "source": "authored",
         "items": [
@@ -6064,6 +7006,49 @@
             }
           },
           {
+            "prompt": "本は（　）ありますか。",
+            "reading": "ほんは（　）ありますか。",
+            "options": [
+              "どこに",
+              "どこ",
+              "どこで",
+              "どこへ"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "どこに asks where a known thing is located.",
+              "vi": "どこに hỏi vật đã biết ở đâu."
+            }
+          }
+        ]
+      },
+      {
+        "kind": "section",
+        "title": {
+          "en": "Part 2 · 位置 (position)",
+          "vi": "Phần 2 · 位置 (position)"
+        },
+        "subtitle": {
+          "en": "Position words, and 'between' with 間.",
+          "vi": "Từ chỉ vị trí, và 'ở giữa' với 間."
+        }
+      },
+      {
+        "kind": "grammar",
+        "grammarIds": [
+          "l10_position",
+          "l10_aida"
+        ]
+      },
+      {
+        "kind": "exercise",
+        "title": {
+          "en": "Practice · 位置",
+          "vi": "Luyện tập · 位置"
+        },
+        "source": "authored",
+        "items": [
+          {
             "prompt": "机の上に本（　）あります。",
             "reading": "つくえのうえにほん（　）あります。",
             "options": [
@@ -6077,31 +7062,100 @@
               "en": "The thing that exists is marked with が.",
               "vi": "Vật tồn tại được đánh dấu bằng が."
             }
+          },
+          {
+            "prompt": "うちは本屋と公園の（　）にあります。",
+            "reading": "うちはほんやとこうえんの（　）にあります。",
+            "options": [
+              "間",
+              "上",
+              "下",
+              "隣"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "N1 と N2 の 間 = between the two.",
+              "vi": "N1 と N2 の 間 = ở giữa hai cái."
+            }
+          },
+          {
+            "prompt": "銀行は郵便局の（　）です。（next to）",
+            "options": [
+              "隣",
+              "上",
+              "中",
+              "前"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "隣 means 'next to'.",
+              "vi": "隣 nghĩa 'bên cạnh'."
+            }
           }
         ]
       },
       {
         "kind": "section",
         "title": {
-          "en": "Part 2 · Position words",
-          "vi": "Phần 2 · Từ chỉ vị trí"
+          "en": "Part 3 · や…など",
+          "vi": "Phần 3 · や…など"
         },
         "subtitle": {
-          "en": "上・下・中・前・後ろ — saying where things are",
-          "vi": "上・下・中・前・後ろ — nói đồ vật ở đâu"
+          "en": "Listing examples with や and など.",
+          "vi": "Liệt kê ví dụ với や và など."
         }
       },
       {
         "kind": "grammar",
         "grammarIds": [
-          "l10_position"
+          "l10_ya_nado"
+        ]
+      },
+      {
+        "kind": "exercise",
+        "title": {
+          "en": "Practice · や・など",
+          "vi": "Luyện tập · や・など"
+        },
+        "source": "authored",
+        "items": [
+          {
+            "prompt": "部屋にテレビ（　）冷蔵庫などがあります。",
+            "reading": "へやにテレビ（　）れいぞうこなどがあります。",
+            "options": [
+              "や",
+              "と",
+              "も",
+              "の"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "や lists example nouns, not an exact set.",
+              "vi": "や liệt kê danh từ ví dụ, không phải trọn bộ."
+            }
+          },
+          {
+            "prompt": "肉や卵（　）を買いました。",
+            "reading": "にくやたまご（　）をかいました。",
+            "options": [
+              "など",
+              "や",
+              "と",
+              "も"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "など closes an example list — 'and so on'.",
+              "vi": "など kết thúc danh sách ví dụ — 'v.v.'"
+            }
+          }
         ]
       },
       {
         "kind": "section",
         "title": {
-          "en": "Part 3 · 会話",
-          "vi": "Phần 3 · 会話"
+          "en": "Part 4 · 会話",
+          "vi": "Phần 4 · 会話"
         },
         "subtitle": {
           "en": "The lesson in action — dialogues and reading practice.",
@@ -6555,8 +7609,8 @@
       {
         "kind": "section",
         "title": {
-          "en": "Part 4 · 語彙",
-          "vi": "Phần 4 · 語彙"
+          "en": "Part 5 · 語彙",
+          "vi": "Phần 5 · 語彙"
         },
         "subtitle": {
           "en": "The lesson's new words — then check yourself and review.",
@@ -6662,25 +7716,26 @@
       {
         "kind": "section",
         "title": {
-          "en": "Part 1 · Counting things",
-          "vi": "Phần 1 · Đếm đồ vật"
+          "en": "Part 1 · 数え方",
+          "vi": "Phần 1 · 数え方"
         },
         "subtitle": {
-          "en": "つ for general objects, 枚 for flat things, 人 for people.",
-          "vi": "つ cho vật nói chung, 枚 cho vật phẳng, 人 cho người."
+          "en": "Counting things, and how often.",
+          "vi": "Đếm đồ vật, và mức độ thường xuyên."
         }
       },
       {
         "kind": "grammar",
         "grammarIds": [
-          "l11_counters"
+          "l11_counters",
+          "l11_frequency"
         ]
       },
       {
         "kind": "exercise",
         "title": {
-          "en": "Practice · counters",
-          "vi": "Luyện tập · lượng từ"
+          "en": "Practice · 数え方",
+          "vi": "Luyện tập · 数え方"
         },
         "source": "authored",
         "items": [
@@ -6697,6 +7752,21 @@
             "explanation": {
               "en": "つ counts general objects — 'two apples'.",
               "vi": "つ đếm vật nói chung — 'hai quả táo'."
+            }
+          },
+          {
+            "prompt": "1週間（　）2回テニスをします。",
+            "reading": "いっしゅうかん（　）にかいテニスをします。",
+            "options": [
+              "に",
+              "で",
+              "を",
+              "が"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "[period] に [n]回 = n times per that period.",
+              "vi": "[khoảng] に [n]回 = n lần trong khoảng đó."
             }
           },
           {
@@ -6719,56 +7789,57 @@
       {
         "kind": "section",
         "title": {
-          "en": "Part 2 · How often",
-          "vi": "Phần 2 · Bao lâu một lần"
+          "en": "Part 2 · ぐらい・どのくらい",
+          "vi": "Phần 2 · ぐらい・どのくらい"
         },
         "subtitle": {
-          "en": "[period] に [number]回 — how many times per period.",
-          "vi": "[khoảng thời gian] に [số]回 — bao nhiêu lần trong một khoảng."
+          "en": "Approximate amounts, and asking how long.",
+          "vi": "Số lượng xấp xỉ, và hỏi bao lâu."
         }
       },
       {
         "kind": "grammar",
         "grammarIds": [
-          "l11_frequency"
+          "l11_gurai",
+          "l11_donokurai"
         ]
       },
       {
         "kind": "exercise",
         "title": {
-          "en": "Practice · frequency",
-          "vi": "Luyện tập · tần suất"
+          "en": "Practice · ぐらい・どのくらい",
+          "vi": "Luyện tập · ぐらい・どのくらい"
         },
         "source": "authored",
         "items": [
           {
-            "prompt": "1週間（　）2回テニスをします。",
-            "reading": "いっしゅうかん（　）にかいテニスをします。",
+            "prompt": "学生が20人（　）います。",
+            "reading": "がくせいがにじゅうにん（　）います。",
             "options": [
-              "に",
-              "で",
-              "を",
-              "が"
+              "ぐらい",
+              "だけ",
+              "まで",
+              "から"
             ],
             "answer": 0,
             "explanation": {
-              "en": "[period] に [n]回 = n times per that period.",
-              "vi": "[khoảng] に [n]回 = n lần trong khoảng đó."
+              "en": "ぐらい after a quantity = 'about'.",
+              "vi": "ぐらい sau số lượng = 'khoảng'."
             }
           },
           {
-            "prompt": "1か月（　）3回映画を見ます。",
-            "reading": "いっかげつ（　）さんかいえいがをみます。",
+            "prompt": "日本へ（　）行きますか。",
+            "reading": "にほんへ（　）いきますか。",
             "options": [
-              "に",
-              "で",
-              "へ",
-              "と"
+              "どのくらい",
+              "どこ",
+              "いつ",
+              "なに"
             ],
             "answer": 0,
             "explanation": {
-              "en": "に marks the period for a frequency.",
-              "vi": "に đánh dấu khoảng thời gian cho tần suất."
+              "en": "どのくらい asks how long / how much.",
+              "vi": "どのくらい hỏi bao lâu / bao nhiêu."
             }
           }
         ]
@@ -6776,8 +7847,50 @@
       {
         "kind": "section",
         "title": {
-          "en": "Part 3 · 会話",
-          "vi": "Phần 3 · 会話"
+          "en": "Part 3 · だけ",
+          "vi": "Phần 3 · だけ"
+        },
+        "subtitle": {
+          "en": "Saying 'only'.",
+          "vi": "Nói 'chỉ'."
+        }
+      },
+      {
+        "kind": "grammar",
+        "grammarIds": [
+          "l11_dake"
+        ]
+      },
+      {
+        "kind": "exercise",
+        "title": {
+          "en": "Practice · だけ",
+          "vi": "Luyện tập · だけ"
+        },
+        "source": "authored",
+        "items": [
+          {
+            "prompt": "野菜（　）食べます。",
+            "reading": "やさい（　）たべます。",
+            "options": [
+              "だけ",
+              "も",
+              "や",
+              "など"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "だけ = 'only', replacing を/が.",
+              "vi": "だけ = 'chỉ', thay cho を/が."
+            }
+          }
+        ]
+      },
+      {
+        "kind": "section",
+        "title": {
+          "en": "Part 4 · 会話",
+          "vi": "Phần 4 · 会話"
         },
         "subtitle": {
           "en": "The lesson in action — dialogues and reading practice.",
@@ -7127,8 +8240,8 @@
       {
         "kind": "section",
         "title": {
-          "en": "Part 4 · 語彙",
-          "vi": "Phần 4 · 語彙"
+          "en": "Part 5 · 語彙",
+          "vi": "Phần 5 · 語彙"
         },
         "subtitle": {
           "en": "The lesson's new words — then check yourself and review.",
@@ -7234,12 +8347,12 @@
       {
         "kind": "section",
         "title": {
-          "en": "Part 1 · Past tense",
-          "vi": "Phần 1 · Thì quá khứ"
+          "en": "Part 1 · 過去形",
+          "vi": "Phần 1 · 過去形"
         },
         "subtitle": {
-          "en": "でした for nouns/な-adj; ～かったです for い-adjectives.",
-          "vi": "でした cho danh từ/tính từ な; ～かったです cho tính từ い."
+          "en": "The past tense of nouns and adjectives.",
+          "vi": "Thì quá khứ của danh từ và tính từ."
         }
       },
       {
@@ -7252,8 +8365,8 @@
       {
         "kind": "exercise",
         "title": {
-          "en": "Practice · past tense",
-          "vi": "Luyện tập · thì quá khứ"
+          "en": "Practice · 過去形",
+          "vi": "Luyện tập · 過去形"
         },
         "source": "authored",
         "items": [
@@ -7286,18 +8399,32 @@
               "en": "い-adjective past: 楽しい → 楽しかったです.",
               "vi": "Quá khứ tính từ い: 楽しい → 楽しかったです."
             }
+          },
+          {
+            "prompt": "テストは簡単（　）。（was not）",
+            "options": [
+              "じゃありませんでした",
+              "くなかったです",
+              "じゃありません",
+              "でした"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "な-adjective negative past: じゃありませんでした.",
+              "vi": "Quá khứ phủ định tính từ な: じゃありませんでした."
+            }
           }
         ]
       },
       {
         "kind": "section",
         "title": {
-          "en": "Part 2 · Comparing",
-          "vi": "Phần 2 · So sánh"
+          "en": "Part 2 · 比較",
+          "vi": "Phần 2 · 比較"
         },
         "subtitle": {
-          "en": "A は B より [adj]; and いちばん for 'the most'.",
-          "vi": "A は B より [tính từ]; và いちばん cho 'nhất'."
+          "en": "Comparing with より, どちら and いちばん.",
+          "vi": "So sánh với より, どちら và いちばん."
         }
       },
       {
@@ -7309,8 +8436,8 @@
       {
         "kind": "exercise",
         "title": {
-          "en": "Practice · より・いちばん",
-          "vi": "Luyện tập · より・いちばん"
+          "en": "Practice · 比較",
+          "vi": "Luyện tập · 比較"
         },
         "source": "authored",
         "items": [
@@ -7349,8 +8476,50 @@
       {
         "kind": "section",
         "title": {
-          "en": "Part 3 · 会話",
-          "vi": "Phần 3 · 会話"
+          "en": "Part 3 · A の",
+          "vi": "Phần 3 · A の"
+        },
+        "subtitle": {
+          "en": "Standing in for a known noun with の.",
+          "vi": "Thay danh từ đã biết bằng の."
+        }
+      },
+      {
+        "kind": "grammar",
+        "grammarIds": [
+          "l12_no_pronoun"
+        ]
+      },
+      {
+        "kind": "exercise",
+        "title": {
+          "en": "Practice · A の",
+          "vi": "Luyện tập · A の"
+        },
+        "source": "authored",
+        "items": [
+          {
+            "prompt": "安い（　）をください。",
+            "reading": "やすい（　）をください。",
+            "options": [
+              "の",
+              "こと",
+              "もの",
+              "だ"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "の stands in for the noun: 'the cheap one'.",
+              "vi": "の thay cho danh từ: 'cái rẻ'."
+            }
+          }
+        ]
+      },
+      {
+        "kind": "section",
+        "title": {
+          "en": "Part 4 · 会話",
+          "vi": "Phần 4 · 会話"
         },
         "subtitle": {
           "en": "The lesson in action — dialogues and reading practice.",
@@ -7730,8 +8899,8 @@
       {
         "kind": "section",
         "title": {
-          "en": "Part 4 · 語彙",
-          "vi": "Phần 4 · 語彙"
+          "en": "Part 5 · 語彙",
+          "vi": "Phần 5 · 語彙"
         },
         "subtitle": {
           "en": "The lesson's new words — then check yourself and review.",
@@ -7837,12 +9006,12 @@
       {
         "kind": "section",
         "title": {
-          "en": "Part 1 · Wanting",
-          "vi": "Phần 1 · Mong muốn"
+          "en": "Part 1 · ほしい・たい",
+          "vi": "Phần 1 · ほしい・たい"
         },
         "subtitle": {
-          "en": "N が ほしいです (want a thing); V-たいです (want to do).",
-          "vi": "N が ほしいです (muốn có vật); V-たいです (muốn làm)."
+          "en": "Wanting a thing, and wanting to do something.",
+          "vi": "Muốn có vật, và muốn làm gì đó."
         }
       },
       {
@@ -7895,12 +9064,12 @@
       {
         "kind": "section",
         "title": {
-          "en": "Part 2 · Going to do something",
-          "vi": "Phần 2 · Đi để làm gì đó"
+          "en": "Part 2 · 目的の に",
+          "vi": "Phần 2 · 目的の に"
         },
         "subtitle": {
-          "en": "[place] へ [V-stem / noun] に 行きます — go in order to…",
-          "vi": "[nơi] へ [V-stem / danh từ] に 行きます — đi để…"
+          "en": "Going somewhere in order to do something.",
+          "vi": "Đi đâu đó để làm gì."
         }
       },
       {
@@ -7912,8 +9081,8 @@
       {
         "kind": "exercise",
         "title": {
-          "en": "Practice · purpose に",
-          "vi": "Luyện tập · に mục đích"
+          "en": "Practice · 目的の に",
+          "vi": "Luyện tập · 目的の に"
         },
         "source": "authored",
         "items": [
@@ -7937,8 +9106,50 @@
       {
         "kind": "section",
         "title": {
-          "en": "Part 3 · 会話",
-          "vi": "Phần 3 · 会話"
+          "en": "Part 3 · 何か・どこか",
+          "vi": "Phần 3 · 何か・どこか"
+        },
+        "subtitle": {
+          "en": "'Something', 'somewhere', 'someone'.",
+          "vi": "'Cái gì đó', 'đâu đó', 'ai đó'."
+        }
+      },
+      {
+        "kind": "grammar",
+        "grammarIds": [
+          "l13_nanika"
+        ]
+      },
+      {
+        "kind": "exercise",
+        "title": {
+          "en": "Practice · 何か・どこか",
+          "vi": "Luyện tập · 何か・どこか"
+        },
+        "source": "authored",
+        "items": [
+          {
+            "prompt": "（　）食べたいです。",
+            "reading": "（　）たべたいです。",
+            "options": [
+              "何か",
+              "何",
+              "どこ",
+              "だれ"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "何か = 'something'.",
+              "vi": "何か = 'cái gì đó'."
+            }
+          }
+        ]
+      },
+      {
+        "kind": "section",
+        "title": {
+          "en": "Part 4 · 会話",
+          "vi": "Phần 4 · 会話"
         },
         "subtitle": {
           "en": "The lesson in action — dialogues and reading practice.",
@@ -8308,8 +9519,8 @@
       {
         "kind": "section",
         "title": {
-          "en": "Part 4 · 語彙",
-          "vi": "Phần 4 · 語彙"
+          "en": "Part 5 · 語彙",
+          "vi": "Phần 5 · 語彙"
         },
         "subtitle": {
           "en": "The lesson's new words — then check yourself and review.",
@@ -8415,12 +9626,12 @@
       {
         "kind": "section",
         "title": {
-          "en": "Part 1 · The て-form & requests",
-          "vi": "Phần 1 · Thể て & yêu cầu"
+          "en": "Part 1 · て形・てください",
+          "vi": "Phần 1 · て形・てください"
         },
         "subtitle": {
-          "en": "The て-form, and asking with V-てください.",
-          "vi": "Thể て, và nhờ vả với V-てください."
+          "en": "The て-form, and making requests.",
+          "vi": "Thể て, và đưa ra yêu cầu."
         }
       },
       {
@@ -8433,8 +9644,8 @@
       {
         "kind": "exercise",
         "title": {
-          "en": "Practice · て-form",
-          "vi": "Luyện tập · thể て"
+          "en": "Practice · て形・てください",
+          "vi": "Luyện tập · て形・てください"
         },
         "source": "authored",
         "items": [
@@ -8473,12 +9684,12 @@
       {
         "kind": "section",
         "title": {
-          "en": "Part 2 · In progress",
-          "vi": "Phần 2 · Đang diễn ra"
+          "en": "Part 2 · ています",
+          "vi": "Phần 2 · ています"
         },
         "subtitle": {
-          "en": "V-ています describes an action happening now.",
-          "vi": "V-ています mô tả hành động đang diễn ra."
+          "en": "Actions in progress.",
+          "vi": "Hành động đang diễn ra."
         }
       },
       {
@@ -8490,8 +9701,8 @@
       {
         "kind": "exercise",
         "title": {
-          "en": "Practice · ～ています",
-          "vi": "Luyện tập · ～ています"
+          "en": "Practice · ています",
+          "vi": "Luyện tập · ています"
         },
         "source": "authored",
         "items": [
@@ -8515,8 +9726,66 @@
       {
         "kind": "section",
         "title": {
-          "en": "Part 3 · 会話",
-          "vi": "Phần 3 · 会話"
+          "en": "Part 3 · 方・ましょうか",
+          "vi": "Phần 3 · 方・ましょうか"
+        },
+        "subtitle": {
+          "en": "The way of doing, and offering to help.",
+          "vi": "Cách làm, và đề nghị giúp đỡ."
+        }
+      },
+      {
+        "kind": "grammar",
+        "grammarIds": [
+          "l14_kata",
+          "l14_mashouka"
+        ]
+      },
+      {
+        "kind": "exercise",
+        "title": {
+          "en": "Practice · 方・ましょうか",
+          "vi": "Luyện tập · 方・ましょうか"
+        },
+        "source": "authored",
+        "items": [
+          {
+            "prompt": "漢字の書き（　）を習いました。",
+            "reading": "かんじのかき（　）をならいました。",
+            "options": [
+              "方",
+              "こと",
+              "の",
+              "て"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "V-stem + 方 = 'the way of ~ing'.",
+              "vi": "Thân V + 方 = 'cách ~'."
+            }
+          },
+          {
+            "prompt": "写真を撮り（　）。（shall I?）",
+            "reading": "しゃしんをとり（　）。",
+            "options": [
+              "ましょうか",
+              "ましょう",
+              "ますか",
+              "ません"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "V-ましょうか offers to do it for you.",
+              "vi": "V-ましょうか đề nghị làm giúp bạn."
+            }
+          }
+        ]
+      },
+      {
+        "kind": "section",
+        "title": {
+          "en": "Part 4 · 会話",
+          "vi": "Phần 4 · 会話"
         },
         "subtitle": {
           "en": "The lesson in action — dialogues and reading practice.",
@@ -8901,8 +10170,8 @@
       {
         "kind": "section",
         "title": {
-          "en": "Part 4 · 語彙",
-          "vi": "Phần 4 · 語彙"
+          "en": "Part 5 · 語彙",
+          "vi": "Phần 5 · 語彙"
         },
         "subtitle": {
           "en": "The lesson's new words — then check yourself and review.",
@@ -9008,12 +10277,12 @@
       {
         "kind": "section",
         "title": {
-          "en": "Part 1 · Permission & prohibition",
-          "vi": "Phần 1 · Cho phép & cấm"
+          "en": "Part 1 · 許可・禁止",
+          "vi": "Phần 1 · 許可・禁止"
         },
         "subtitle": {
-          "en": "V-てもいいです (may) and V-てはいけません (must not).",
-          "vi": "V-てもいいです (được phép) và V-てはいけません (không được)."
+          "en": "May and must-not.",
+          "vi": "Được phép và không được phép."
         }
       },
       {
@@ -9026,8 +10295,8 @@
       {
         "kind": "exercise",
         "title": {
-          "en": "Practice · permission",
-          "vi": "Luyện tập · cho phép"
+          "en": "Practice · 許可・禁止",
+          "vi": "Luyện tập · 許可・禁止"
         },
         "source": "authored",
         "items": [
@@ -9066,12 +10335,12 @@
       {
         "kind": "section",
         "title": {
-          "en": "Part 2 · States & habits",
-          "vi": "Phần 2 · Trạng thái & thói quen"
+          "en": "Part 2 · ています (状態)",
+          "vi": "Phần 2 · ています (状態)"
         },
         "subtitle": {
-          "en": "V-ています can also mean an ongoing state or job.",
-          "vi": "V-ています cũng có thể chỉ trạng thái hay công việc lâu dài."
+          "en": "Ongoing states — living, working, married.",
+          "vi": "Trạng thái tiếp diễn — sống, làm việc, đã kết hôn."
         }
       },
       {
@@ -9083,8 +10352,8 @@
       {
         "kind": "exercise",
         "title": {
-          "en": "Practice · ～ています (state)",
-          "vi": "Luyện tập · ～ています (trạng thái)"
+          "en": "Practice · ています",
+          "vi": "Luyện tập · ています"
         },
         "source": "authored",
         "items": [
@@ -9108,8 +10377,65 @@
       {
         "kind": "section",
         "title": {
-          "en": "Part 3 · 会話",
-          "vi": "Phần 3 · 会話"
+          "en": "Part 3 · 知っています",
+          "vi": "Phần 3 · 知っています"
+        },
+        "subtitle": {
+          "en": "Knowing, and its irregular negative.",
+          "vi": "Biết, và thể phủ định bất quy tắc."
+        }
+      },
+      {
+        "kind": "grammar",
+        "grammarIds": [
+          "l15_shitteimasu"
+        ]
+      },
+      {
+        "kind": "exercise",
+        "title": {
+          "en": "Practice · 知っています",
+          "vi": "Luyện tập · 知っています"
+        },
+        "source": "authored",
+        "items": [
+          {
+            "prompt": "田中さんの電話番号を（　）か。",
+            "reading": "たなかさんのでんわばんごうを（　）か。",
+            "options": [
+              "知っています",
+              "知ります",
+              "わかります",
+              "あります"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "'Know' is the state form 知っています.",
+              "vi": "'Biết' là thể trạng thái 知っています."
+            }
+          },
+          {
+            "prompt": "「知っていますか。」「いいえ、（　）。」",
+            "reading": "「しっていますか。」「いいえ、（　）。」",
+            "options": [
+              "知りません",
+              "知っていません",
+              "わかりません",
+              "ありません"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "The negative is the plain 知りません.",
+              "vi": "Phủ định là 知りません (thể thông thường)."
+            }
+          }
+        ]
+      },
+      {
+        "kind": "section",
+        "title": {
+          "en": "Part 4 · 会話",
+          "vi": "Phần 4 · 会話"
         },
         "subtitle": {
           "en": "The lesson in action — dialogues and reading practice.",
@@ -9461,8 +10787,8 @@
       {
         "kind": "section",
         "title": {
-          "en": "Part 4 · 語彙",
-          "vi": "Phần 4 · 語彙"
+          "en": "Part 5 · 語彙",
+          "vi": "Phần 5 · 語彙"
         },
         "subtitle": {
           "en": "The lesson's new words — then check yourself and review.",
@@ -9568,12 +10894,12 @@
       {
         "kind": "section",
         "title": {
-          "en": "Part 1 · Linking actions",
-          "vi": "Phần 1 · Nối hành động"
+          "en": "Part 1 · て・てから",
+          "vi": "Phần 1 · て・てから"
         },
         "subtitle": {
-          "en": "V-て、V for a sequence; V-てから for 'after doing'.",
-          "vi": "V-て、V cho chuỗi hành động; V-てから cho 'sau khi làm'."
+          "en": "Linking actions in sequence.",
+          "vi": "Nối hành động theo trình tự."
         }
       },
       {
@@ -9626,25 +10952,26 @@
       {
         "kind": "section",
         "title": {
-          "en": "Part 2 · Connecting adjectives",
-          "vi": "Phần 2 · Nối tính từ"
+          "en": "Part 2 · 形容詞のて・は…が",
+          "vi": "Phần 2 · 形容詞のて・は…が"
         },
         "subtitle": {
-          "en": "い-adj → くて; な-adj/noun → で, to join descriptions.",
-          "vi": "Tính từ い → くて; tính từ な/danh từ → で, để nối các miêu tả."
+          "en": "Joining adjectives, and whole-then-part.",
+          "vi": "Nối tính từ, và tổng thể rồi chi tiết."
         }
       },
       {
         "kind": "grammar",
         "grammarIds": [
-          "l16_adj_te"
+          "l16_adj_te",
+          "l16_wa_ga"
         ]
       },
       {
         "kind": "exercise",
         "title": {
-          "en": "Practice · くて・で",
-          "vi": "Luyện tập · くて・で"
+          "en": "Practice · くて・は…が",
+          "vi": "Luyện tập · くて・は…が"
         },
         "source": "authored",
         "items": [
@@ -9677,14 +11004,87 @@
               "en": "い-adjectives connect with くて: 広い → 広くて.",
               "vi": "Tính từ い nối bằng くて: 広い → 広くて."
             }
+          },
+          {
+            "prompt": "北海道は雪（　）多いです。",
+            "reading": "ほっかいどうはゆき（　）おおいです。",
+            "options": [
+              "が",
+              "は",
+              "を",
+              "に"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "は marks the whole, が the feature.",
+              "vi": "は đánh dấu tổng thể, が đánh dấu đặc điểm."
+            }
           }
         ]
       },
       {
         "kind": "section",
         "title": {
-          "en": "Part 3 · 会話",
-          "vi": "Phần 3 · 会話"
+          "en": "Part 3 · どうやって・どれ",
+          "vi": "Phần 3 · どうやって・どれ"
+        },
+        "subtitle": {
+          "en": "Asking 'how' and 'which one'.",
+          "vi": "Hỏi 'bằng cách nào' và 'cái nào'."
+        }
+      },
+      {
+        "kind": "grammar",
+        "grammarIds": [
+          "l16_douyatte",
+          "l16_dore"
+        ]
+      },
+      {
+        "kind": "exercise",
+        "title": {
+          "en": "Practice · どうやって・どれ",
+          "vi": "Luyện tập · どうやって・どれ"
+        },
+        "source": "authored",
+        "items": [
+          {
+            "prompt": "大学まで（　）行きますか。",
+            "reading": "だいがくまで（　）いきますか。",
+            "options": [
+              "どうやって",
+              "どこ",
+              "どれ",
+              "いつ"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "どうやって asks by what steps/means.",
+              "vi": "どうやって hỏi theo trình tự/cách nào."
+            }
+          },
+          {
+            "prompt": "ミラーさんの傘は（　）ですか。",
+            "reading": "ミラーさんのかさは（　）ですか。",
+            "options": [
+              "どれ",
+              "どこ",
+              "だれ",
+              "どの"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "どれ = 'which one' among many.",
+              "vi": "どれ = 'cái nào' trong nhiều thứ."
+            }
+          }
+        ]
+      },
+      {
+        "kind": "section",
+        "title": {
+          "en": "Part 4 · 会話",
+          "vi": "Phần 4 · 会話"
         },
         "subtitle": {
           "en": "The lesson in action — dialogues and reading practice.",
@@ -10155,8 +11555,8 @@
       {
         "kind": "section",
         "title": {
-          "en": "Part 4 · 語彙",
-          "vi": "Phần 4 · 語彙"
+          "en": "Part 5 · 語彙",
+          "vi": "Phần 5 · 語彙"
         },
         "subtitle": {
           "en": "The lesson's new words — then check yourself and review.",
@@ -10262,12 +11662,12 @@
       {
         "kind": "section",
         "title": {
-          "en": "Part 1 · The ない-form & requests",
-          "vi": "Phần 1 · Thể ない & yêu cầu"
+          "en": "Part 1 · ない形・ないでください",
+          "vi": "Phần 1 · ない形・ないでください"
         },
         "subtitle": {
-          "en": "The plain negative, and asking with V-ないでください.",
-          "vi": "Thể phủ định thường, và nhờ với V-ないでください."
+          "en": "The ない-form, and asking someone not to.",
+          "vi": "Thể ない, và nhờ ai đừng làm."
         }
       },
       {
@@ -10280,8 +11680,8 @@
       {
         "kind": "exercise",
         "title": {
-          "en": "Practice · ない-form",
-          "vi": "Luyện tập · thể ない"
+          "en": "Practice · ない形・ないでください",
+          "vi": "Luyện tập · ない形・ないでください"
         },
         "source": "authored",
         "items": [
@@ -10320,12 +11720,12 @@
       {
         "kind": "section",
         "title": {
-          "en": "Part 2 · Must & need not",
-          "vi": "Phần 2 · Phải & không cần"
+          "en": "Part 2 · なければ・なくてもいい",
+          "vi": "Phần 2 · なければ・なくてもいい"
         },
         "subtitle": {
-          "en": "V-なければなりません (must); V-なくてもいいです (need not).",
-          "vi": "V-なければなりません (phải); V-なくてもいいです (không cần)."
+          "en": "Must, and need not.",
+          "vi": "Phải, và không cần."
         }
       },
       {
@@ -10337,8 +11737,8 @@
       {
         "kind": "exercise",
         "title": {
-          "en": "Practice · obligation",
-          "vi": "Luyện tập · nghĩa vụ"
+          "en": "Practice · なければ",
+          "vi": "Luyện tập · なければ"
         },
         "source": "authored",
         "items": [
@@ -10377,8 +11777,50 @@
       {
         "kind": "section",
         "title": {
-          "en": "Part 3 · 会話",
-          "vi": "Phần 3 · 会話"
+          "en": "Part 3 · までに",
+          "vi": "Phần 3 · までに"
+        },
+        "subtitle": {
+          "en": "Deadlines — doing it by a time.",
+          "vi": "Hạn chót — làm trước một thời điểm."
+        }
+      },
+      {
+        "kind": "grammar",
+        "grammarIds": [
+          "l17_madeni"
+        ]
+      },
+      {
+        "kind": "exercise",
+        "title": {
+          "en": "Practice · までに",
+          "vi": "Luyện tập · までに"
+        },
+        "source": "authored",
+        "items": [
+          {
+            "prompt": "金曜日（　）出してください。",
+            "reading": "きんようび（　）だしてください。",
+            "options": [
+              "までに",
+              "まで",
+              "から",
+              "に"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "までに = a deadline ('by').",
+              "vi": "までに = hạn chót ('trước')."
+            }
+          }
+        ]
+      },
+      {
+        "kind": "section",
+        "title": {
+          "en": "Part 4 · 会話",
+          "vi": "Phần 4 · 会話"
         },
         "subtitle": {
           "en": "The lesson in action — dialogues and reading practice.",
@@ -10716,8 +12158,8 @@
       {
         "kind": "section",
         "title": {
-          "en": "Part 4 · 語彙",
-          "vi": "Phần 4 · 語彙"
+          "en": "Part 5 · 語彙",
+          "vi": "Phần 5 · 語彙"
         },
         "subtitle": {
           "en": "The lesson's new words — then check yourself and review.",
@@ -10823,12 +12265,12 @@
       {
         "kind": "section",
         "title": {
-          "en": "Part 1 · Dictionary form & ability",
-          "vi": "Phần 1 · Thể từ điển & khả năng"
+          "en": "Part 1 · 辞書形・できます",
+          "vi": "Phần 1 · 辞書形・できます"
         },
         "subtitle": {
-          "en": "The dictionary form, and V-ることができます (can do).",
-          "vi": "Thể từ điển, và V-ることができます (có thể làm)."
+          "en": "The dictionary form, and ability.",
+          "vi": "Thể từ điển, và khả năng."
         }
       },
       {
@@ -10841,8 +12283,8 @@
       {
         "kind": "exercise",
         "title": {
-          "en": "Practice · ことができます",
-          "vi": "Luyện tập · ことができます"
+          "en": "Practice · できます",
+          "vi": "Luyện tập · できます"
         },
         "source": "authored",
         "items": [
@@ -10881,12 +12323,54 @@
       {
         "kind": "section",
         "title": {
-          "en": "Part 2 · Before doing",
-          "vi": "Phần 2 · Trước khi làm"
+          "en": "Part 2 · 趣味",
+          "vi": "Phần 2 · 趣味"
         },
         "subtitle": {
-          "en": "[dictionary form] まえに、… — 'before ~'.",
-          "vi": "[thể từ điển] まえに、… — 'trước khi ~'."
+          "en": "Talking about hobbies with こと.",
+          "vi": "Nói về sở thích với こと."
+        }
+      },
+      {
+        "kind": "grammar",
+        "grammarIds": [
+          "l18_shumi"
+        ]
+      },
+      {
+        "kind": "exercise",
+        "title": {
+          "en": "Practice · 趣味",
+          "vi": "Luyện tập · 趣味"
+        },
+        "source": "authored",
+        "items": [
+          {
+            "prompt": "趣味はピアノを弾く（　）です。",
+            "reading": "しゅみはピアノをひく（　）です。",
+            "options": [
+              "こと",
+              "もの",
+              "の",
+              "て"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "Dictionary V + こと turns an activity into a noun.",
+              "vi": "Thể từ điển V + こと biến hoạt động thành danh từ."
+            }
+          }
+        ]
+      },
+      {
+        "kind": "section",
+        "title": {
+          "en": "Part 3 · まえに",
+          "vi": "Phần 3 · まえに"
+        },
+        "subtitle": {
+          "en": "Before doing something.",
+          "vi": "Trước khi làm gì đó."
         }
       },
       {
@@ -10923,8 +12407,8 @@
       {
         "kind": "section",
         "title": {
-          "en": "Part 3 · 会話",
-          "vi": "Phần 3 · 会話"
+          "en": "Part 4 · 会話",
+          "vi": "Phần 4 · 会話"
         },
         "subtitle": {
           "en": "The lesson in action — dialogues and reading practice.",
@@ -11391,8 +12875,8 @@
       {
         "kind": "section",
         "title": {
-          "en": "Part 4 · 語彙",
-          "vi": "Phần 4 · 語彙"
+          "en": "Part 5 · 語彙",
+          "vi": "Phần 5 · 語彙"
         },
         "subtitle": {
           "en": "The lesson's new words — then check yourself and review.",
@@ -11498,12 +12982,12 @@
       {
         "kind": "section",
         "title": {
-          "en": "Part 1 · Experience",
-          "vi": "Phần 1 · Kinh nghiệm"
+          "en": "Part 1 · た形・経験",
+          "vi": "Phần 1 · た形・経験"
         },
         "subtitle": {
-          "en": "The た-form, and V-たことがあります (have done before).",
-          "vi": "Thể た, và V-たことがあります (đã từng làm)."
+          "en": "The た-form, and past experience.",
+          "vi": "Thể た, và kinh nghiệm quá khứ."
         }
       },
       {
@@ -11516,8 +13000,8 @@
       {
         "kind": "exercise",
         "title": {
-          "en": "Practice · ～たことがあります",
-          "vi": "Luyện tập · ～たことがあります"
+          "en": "Practice · た形・経験",
+          "vi": "Luyện tập · た形・経験"
         },
         "source": "authored",
         "items": [
@@ -11556,26 +13040,25 @@
       {
         "kind": "section",
         "title": {
-          "en": "Part 2 · Listing & becoming",
-          "vi": "Phần 2 · Liệt kê & trở nên"
+          "en": "Part 2 · たり",
+          "vi": "Phần 2 · たり"
         },
         "subtitle": {
-          "en": "～たり～たりします (do things like), and ～なります (become).",
-          "vi": "～たり～たりします (làm những việc như), và ～なります (trở nên)."
+          "en": "Listing example actions with ～たり.",
+          "vi": "Liệt kê hành động ví dụ với ～たり."
         }
       },
       {
         "kind": "grammar",
         "grammarIds": [
-          "l19_tari_tari",
-          "l19_narimasu"
+          "l19_tari_tari"
         ]
       },
       {
         "kind": "exercise",
         "title": {
-          "en": "Practice · たり・なります",
-          "vi": "Luyện tập · たり・なります"
+          "en": "Practice · たり",
+          "vi": "Luyện tập · たり"
         },
         "source": "authored",
         "items": [
@@ -11595,6 +13078,47 @@
             }
           },
           {
+            "prompt": "日曜日は本を読んだり、音楽を（　）します。",
+            "options": [
+              "聞いたり",
+              "聞いて",
+              "聞く",
+              "聞き"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "たり…たりします lists actions.",
+              "vi": "たり…たりします liệt kê hành động."
+            }
+          }
+        ]
+      },
+      {
+        "kind": "section",
+        "title": {
+          "en": "Part 3 · なります",
+          "vi": "Phần 3 · なります"
+        },
+        "subtitle": {
+          "en": "Becoming — change of state.",
+          "vi": "Trở nên — sự thay đổi trạng thái."
+        }
+      },
+      {
+        "kind": "grammar",
+        "grammarIds": [
+          "l19_narimasu"
+        ]
+      },
+      {
+        "kind": "exercise",
+        "title": {
+          "en": "Practice · なります",
+          "vi": "Luyện tập · なります"
+        },
+        "source": "authored",
+        "items": [
+          {
             "prompt": "寒く（　）ました。",
             "reading": "さむく（　）ました。",
             "options": [
@@ -11608,14 +13132,28 @@
               "en": "い-adj + く + なります = 'become ~': 寒くなりました.",
               "vi": "Tính từ い + く + なります = 'trở nên ~': 寒くなりました."
             }
+          },
+          {
+            "prompt": "日本語が上手（　）なりました。",
+            "options": [
+              "に",
+              "く",
+              "で",
+              "と"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "な-adjective + に + なります.",
+              "vi": "Tính từ な + に + なります."
+            }
           }
         ]
       },
       {
         "kind": "section",
         "title": {
-          "en": "Part 3 · 会話",
-          "vi": "Phần 3 · 会話"
+          "en": "Part 4 · 会話",
+          "vi": "Phần 4 · 会話"
         },
         "subtitle": {
           "en": "The lesson in action — dialogues and reading practice.",
@@ -12041,8 +13579,8 @@
       {
         "kind": "section",
         "title": {
-          "en": "Part 4 · 語彙",
-          "vi": "Phần 4 · 語彙"
+          "en": "Part 5 · 語彙",
+          "vi": "Phần 5 · 語彙"
         },
         "subtitle": {
           "en": "The lesson's new words — then check yourself and review.",
@@ -12148,12 +13686,12 @@
       {
         "kind": "section",
         "title": {
-          "en": "Part 1 · Plain (casual) form",
-          "vi": "Phần 1 · Thể thông thường"
+          "en": "Part 1 · 普通形",
+          "vi": "Phần 1 · 普通形"
         },
         "subtitle": {
-          "en": "The casual style used with friends: だ / ～ない / ～た.",
-          "vi": "Cách nói thân mật với bạn bè: だ / ～ない / ～た."
+          "en": "The plain (dictionary) form.",
+          "vi": "Thể thông thường (thể từ điển)."
         }
       },
       {
@@ -12165,8 +13703,8 @@
       {
         "kind": "exercise",
         "title": {
-          "en": "Practice · plain form",
-          "vi": "Luyện tập · thể thông thường"
+          "en": "Practice · 普通形",
+          "vi": "Luyện tập · 普通形"
         },
         "source": "authored",
         "items": [
@@ -12220,8 +13758,65 @@
       {
         "kind": "section",
         "title": {
-          "en": "Part 2 · 会話",
-          "vi": "Phần 2 · 会話"
+          "en": "Part 2 · カジュアル会話",
+          "vi": "Phần 2 · カジュアル会話"
+        },
+        "subtitle": {
+          "en": "Using plain form in casual talk.",
+          "vi": "Dùng thể thông thường khi nói thân mật."
+        }
+      },
+      {
+        "kind": "grammar",
+        "grammarIds": [
+          "l20_casual"
+        ]
+      },
+      {
+        "kind": "exercise",
+        "title": {
+          "en": "Practice · カジュアル会話",
+          "vi": "Luyện tập · カジュアル会話"
+        },
+        "source": "authored",
+        "items": [
+          {
+            "prompt": "「今日、映画を見る？」「うん、（　）。」",
+            "reading": "「きょう、えいがをみる？」「うん、（　）。」",
+            "options": [
+              "見る",
+              "見ます",
+              "見た",
+              "見ない"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "Casual replies use plain form: 見る.",
+              "vi": "Câu đáp thân mật dùng thể thông thường: 見る."
+            }
+          },
+          {
+            "prompt": "「あした暇？」「うん、（　）よ。」",
+            "reading": "「あしたひま？」「うん、（　）よ。」",
+            "options": [
+              "暇だ",
+              "暇です",
+              "暇でした",
+              "暇な"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "Plain です is だ (often dropped).",
+              "vi": "です thông thường là だ (thường được lược bỏ)."
+            }
+          }
+        ]
+      },
+      {
+        "kind": "section",
+        "title": {
+          "en": "Part 3 · 会話",
+          "vi": "Phần 3 · 会話"
         },
         "subtitle": {
           "en": "The lesson in action — dialogues and reading practice.",
@@ -12584,8 +14179,8 @@
       {
         "kind": "section",
         "title": {
-          "en": "Part 3 · 語彙",
-          "vi": "Phần 3 · 語彙"
+          "en": "Part 4 · 語彙",
+          "vi": "Phần 4 · 語彙"
         },
         "subtitle": {
           "en": "The lesson's new words — then check yourself and review.",
@@ -12691,12 +14286,12 @@
       {
         "kind": "section",
         "title": {
-          "en": "Part 1 · Opinions & reporting",
-          "vi": "Phần 1 · Ý kiến & thuật lại"
+          "en": "Part 1 · と思います・と言いました",
+          "vi": "Phần 1 · と思います・と言いました"
         },
         "subtitle": {
-          "en": "[plain] と思います (I think); [plain] と言いました (said).",
-          "vi": "[thể thường] と思います (tôi nghĩ); [thể thường] と言いました (đã nói)."
+          "en": "Opinions and reported speech.",
+          "vi": "Ý kiến và thuật lại lời nói."
         }
       },
       {
@@ -12709,8 +14304,8 @@
       {
         "kind": "exercise",
         "title": {
-          "en": "Practice · と思います / と言いました",
-          "vi": "Luyện tập · と思います / と言いました"
+          "en": "Practice · と思います・と言いました",
+          "vi": "Luyện tập · と思います・と言いました"
         },
         "source": "authored",
         "items": [
@@ -12749,12 +14344,12 @@
       {
         "kind": "section",
         "title": {
-          "en": "Part 2 · Confirming",
-          "vi": "Phần 2 · Xác nhận"
+          "en": "Part 2 · でしょう",
+          "vi": "Phần 2 · でしょう"
         },
         "subtitle": {
-          "en": "～でしょう？ seeks agreement — 'right?'",
-          "vi": "～でしょう？ tìm sự đồng tình — 'phải không?'"
+          "en": "Softening or confirming with でしょう.",
+          "vi": "Làm nhẹ hoặc xác nhận với でしょう."
         }
       },
       {
@@ -12791,8 +14386,66 @@
       {
         "kind": "section",
         "title": {
-          "en": "Part 3 · 会話",
-          "vi": "Phần 3 · 会話"
+          "en": "Part 3 · で～があります・でも",
+          "vi": "Phần 3 · で～があります・でも"
+        },
+        "subtitle": {
+          "en": "Events at a place, and loose examples.",
+          "vi": "Sự kiện ở một nơi, và ví dụ nới lỏng."
+        }
+      },
+      {
+        "kind": "grammar",
+        "grammarIds": [
+          "l21_de_arimasu",
+          "l21_demo"
+        ]
+      },
+      {
+        "kind": "exercise",
+        "title": {
+          "en": "Practice · で・でも",
+          "vi": "Luyện tập · で・でも"
+        },
+        "source": "authored",
+        "items": [
+          {
+            "prompt": "東京で会議（　）あります。",
+            "reading": "とうきょうでかいぎ（　）あります。",
+            "options": [
+              "が",
+              "を",
+              "は",
+              "に"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "An event takes が + あります ('is held').",
+              "vi": "Sự kiện dùng が + あります ('được tổ chức')."
+            }
+          },
+          {
+            "prompt": "お茶（　）飲みませんか。",
+            "reading": "おちゃ（　）のみませんか。",
+            "options": [
+              "でも",
+              "だけ",
+              "しか",
+              "など"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "N でも = 'some ~ or something'.",
+              "vi": "N でも = 'chút ~ chẳng hạn'."
+            }
+          }
+        ]
+      },
+      {
+        "kind": "section",
+        "title": {
+          "en": "Part 4 · 会話",
+          "vi": "Phần 4 · 会話"
         },
         "subtitle": {
           "en": "The lesson in action — dialogues and reading practice.",
@@ -13227,8 +14880,8 @@
       {
         "kind": "section",
         "title": {
-          "en": "Part 4 · 語彙",
-          "vi": "Phần 4 · 語彙"
+          "en": "Part 5 · 語彙",
+          "vi": "Phần 5 · 語彙"
         },
         "subtitle": {
           "en": "The lesson's new words — then check yourself and review.",
@@ -13334,12 +14987,12 @@
       {
         "kind": "section",
         "title": {
-          "en": "Part 1 · Describing nouns",
-          "vi": "Phần 1 · Bổ nghĩa danh từ"
+          "en": "Part 1 · 名詞修飾",
+          "vi": "Phần 1 · 名詞修飾"
         },
         "subtitle": {
-          "en": "A whole plain-form clause can describe a noun (relative clause).",
-          "vi": "Cả một mệnh đề thể thường có thể bổ nghĩa cho danh từ."
+          "en": "Describing a noun with a whole clause.",
+          "vi": "Miêu tả danh từ bằng cả mệnh đề."
         }
       },
       {
@@ -13351,8 +15004,8 @@
       {
         "kind": "exercise",
         "title": {
-          "en": "Practice · relative clauses",
-          "vi": "Luyện tập · mệnh đề quan hệ"
+          "en": "Practice · 名詞修飾",
+          "vi": "Luyện tập · 名詞修飾"
         },
         "source": "authored",
         "items": [
@@ -13391,12 +15044,12 @@
       {
         "kind": "section",
         "title": {
-          "en": "Part 2 · What kind",
-          "vi": "Phần 2 · Loại nào"
+          "en": "Part 2 · どんな",
+          "vi": "Phần 2 · どんな"
         },
         "subtitle": {
-          "en": "どんな + noun asks 'what kind of ~?'",
-          "vi": "どんな + danh từ hỏi 'loại ~ nào?'"
+          "en": "Asking what a noun is like.",
+          "vi": "Hỏi danh từ như thế nào."
         }
       },
       {
@@ -13920,26 +15573,25 @@
       {
         "kind": "section",
         "title": {
-          "en": "Part 1 · When & natural results",
-          "vi": "Phần 1 · Khi & kết quả tự nhiên"
+          "en": "Part 1 · ～とき",
+          "vi": "Phần 1 · ～とき"
         },
         "subtitle": {
-          "en": "[plain] とき (when); [dictionary] と (whenever ~, then ~).",
-          "vi": "[thể thường] とき (khi); [thể từ điển] と (hễ ~, thì ~)."
+          "en": "Saying 'when' with とき.",
+          "vi": "Nói 'khi' với とき."
         }
       },
       {
         "kind": "grammar",
         "grammarIds": [
-          "l23_toki",
-          "l23_to_conditional"
+          "l23_toki"
         ]
       },
       {
         "kind": "exercise",
         "title": {
-          "en": "Practice · とき・と",
-          "vi": "Luyện tập · とき・と"
+          "en": "Practice · とき",
+          "vi": "Luyện tập · とき"
         },
         "source": "authored",
         "items": [
@@ -13959,6 +15611,47 @@
             }
           },
           {
+            "prompt": "暇な（　）、本を読みます。（when）",
+            "options": [
+              "とき",
+              "こと",
+              "から",
+              "まで"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "な-adjective + な + とき.",
+              "vi": "Tính từ な + な + とき."
+            }
+          }
+        ]
+      },
+      {
+        "kind": "section",
+        "title": {
+          "en": "Part 2 · ～と",
+          "vi": "Phần 2 · ～と"
+        },
+        "subtitle": {
+          "en": "Natural, automatic results with と.",
+          "vi": "Kết quả tự nhiên, tất yếu với と."
+        }
+      },
+      {
+        "kind": "grammar",
+        "grammarIds": [
+          "l23_to_conditional"
+        ]
+      },
+      {
+        "kind": "exercise",
+        "title": {
+          "en": "Practice · と",
+          "vi": "Luyện tập · と"
+        },
+        "source": "authored",
+        "items": [
+          {
             "prompt": "このボタンを押す（　）、切符が出ます。",
             "reading": "このボタンをおす（　）、きっぷがでます。",
             "options": [
@@ -13972,18 +15665,32 @@
               "en": "[dictionary form] と = 'whenever/if you do ~, (result)'.",
               "vi": "[thể từ điển] と = 'hễ/nếu làm ~ thì (kết quả)'."
             }
+          },
+          {
+            "prompt": "このボタンを押す（　）、ドアが開きます。（natural result）",
+            "options": [
+              "と",
+              "とき",
+              "たら",
+              "ので"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "と marks an automatic result.",
+              "vi": "と đánh dấu kết quả tự nhiên."
+            }
           }
         ]
       },
       {
         "kind": "section",
         "title": {
-          "en": "Part 2 · Moving through places",
-          "vi": "Phần 2 · Di chuyển qua nơi chốn"
+          "en": "Part 3 · 移動の を",
+          "vi": "Phần 3 · 移動の を"
         },
         "subtitle": {
-          "en": "を marks the place you pass, leave, or turn at.",
-          "vi": "を đánh dấu nơi bạn đi qua, rời khỏi hoặc rẽ."
+          "en": "Moving through or along a place.",
+          "vi": "Di chuyển qua hay dọc một nơi."
         }
       },
       {
@@ -13995,8 +15702,8 @@
       {
         "kind": "exercise",
         "title": {
-          "en": "Practice · movement を",
-          "vi": "Luyện tập · を di chuyển"
+          "en": "Practice · 移動の を",
+          "vi": "Luyện tập · 移動の を"
         },
         "source": "authored",
         "items": [
@@ -14014,14 +15721,42 @@
               "en": "を marks the place you move along or turn at.",
               "vi": "を đánh dấu nơi bạn di chuyển qua hoặc rẽ."
             }
+          },
+          {
+            "prompt": "ここでバス（　）降ります。",
+            "options": [
+              "を",
+              "に",
+              "で",
+              "へ"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "降ります takes を for the vehicle.",
+              "vi": "降ります dùng を cho phương tiện."
+            }
+          },
+          {
+            "prompt": "毎朝公園（　）散歩します。",
+            "options": [
+              "を",
+              "で",
+              "に",
+              "へ"
+            ],
+            "answer": 0,
+            "explanation": {
+              "en": "を marks the path of movement.",
+              "vi": "を đánh dấu lộ trình di chuyển."
+            }
           }
         ]
       },
       {
         "kind": "section",
         "title": {
-          "en": "Part 3 · 会話",
-          "vi": "Phần 3 · 会話"
+          "en": "Part 4 · 会話",
+          "vi": "Phần 4 · 会話"
         },
         "subtitle": {
           "en": "The lesson in action — dialogues and reading practice.",
@@ -14469,8 +16204,8 @@
       {
         "kind": "section",
         "title": {
-          "en": "Part 4 · 語彙",
-          "vi": "Phần 4 · 語彙"
+          "en": "Part 5 · 語彙",
+          "vi": "Phần 5 · 語彙"
         },
         "subtitle": {
           "en": "The lesson's new words — then check yourself and review.",
@@ -14576,12 +16311,12 @@
       {
         "kind": "section",
         "title": {
-          "en": "Part 1 · くれます (gives to me)",
-          "vi": "Phần 1 · くれます (cho tôi)"
+          "en": "Part 1 · くれます",
+          "vi": "Phần 1 · くれます"
         },
         "subtitle": {
-          "en": "[person] が わたしに [thing] を くれます.",
-          "vi": "[người] が わたしに [vật] を くれます."
+          "en": "Someone gives to me.",
+          "vi": "Ai đó cho tôi."
         }
       },
       {
@@ -14633,12 +16368,12 @@
       {
         "kind": "section",
         "title": {
-          "en": "Part 2 · Doing favours",
-          "vi": "Phần 2 · Hành động giúp đỡ"
+          "en": "Part 2 · て-あげ・もらい・くれ",
+          "vi": "Phần 2 · て-あげ・もらい・くれ"
         },
         "subtitle": {
-          "en": "V-てあげます (for others) / てくれます (for me) / てもらいます (receive).",
-          "vi": "V-てあげます (cho người khác) / てくれます (cho tôi) / てもらいます (nhận được)."
+          "en": "Doing and receiving favours with the て-form.",
+          "vi": "Làm và nhận sự giúp đỡ với thể て."
         }
       },
       {
@@ -14651,7 +16386,7 @@
         "kind": "exercise",
         "title": {
           "en": "Practice · て-favours",
-          "vi": "Luyện tập · て giúp đỡ"
+          "vi": "Luyện tập · て-favours"
         },
         "source": "authored",
         "items": [
@@ -15230,12 +16965,12 @@
       {
         "kind": "section",
         "title": {
-          "en": "Part 1 · If / when (～たら)",
-          "vi": "Phần 1 · Nếu / khi (～たら)"
+          "en": "Part 1 · ～たら",
+          "vi": "Phần 1 · ～たら"
         },
         "subtitle": {
-          "en": "[た-form]ら, … — once/if something happens, then …",
-          "vi": "[thể た]ら, … — nếu/khi điều gì xảy ra thì …"
+          "en": "'If / when' with ～たら.",
+          "vi": "'Nếu / khi' với ～たら."
         }
       },
       {
@@ -15247,8 +16982,8 @@
       {
         "kind": "exercise",
         "title": {
-          "en": "Practice · ～たら",
-          "vi": "Luyện tập · ～たら"
+          "en": "Practice · たら",
+          "vi": "Luyện tập · たら"
         },
         "source": "authored",
         "items": [
@@ -15287,12 +17022,12 @@
       {
         "kind": "section",
         "title": {
-          "en": "Part 2 · Even if (～ても)",
-          "vi": "Phần 2 · Dù cho (～ても)"
+          "en": "Part 2 · ～ても",
+          "vi": "Phần 2 · ～ても"
         },
         "subtitle": {
-          "en": "V-ても, … — even if something happens, … still.",
-          "vi": "V-ても, … — dù điều gì xảy ra, vẫn …"
+          "en": "'Even if' with ～ても.",
+          "vi": "'Dù cho' với ～ても."
         }
       },
       {
@@ -15304,8 +17039,8 @@
       {
         "kind": "exercise",
         "title": {
-          "en": "Practice · ～ても",
-          "vi": "Luyện tập · ～ても"
+          "en": "Practice · ても",
+          "vi": "Luyện tập · ても"
         },
         "source": "authored",
         "items": [
